@@ -3,7 +3,7 @@
 
 	Young Disciples Club Ministry - The ministry and its detail
 	
-	$Id: children.xml,v 1.3 2003/08/13 04:15:58 gregk Exp $
+	$Id: children.xml,v 1.4 2003/08/14 13:53:52 gregk Exp $
 		
 -->
 <content title="Calvary Kids">
@@ -13,7 +13,7 @@
 	  <long-description>
 	    <p>Calvary Kids is designed to minister to children from ages one month through 5th grade.  We have seven departments:  nursery, toddler, preschool, early elementary (K-1st), mid elementary (2nd-3rd), late elementary (4th-5th),and YDC (young disciple's club K-5th).  We love children and open our classes to serve them on all service times.  Our Sunday class activities includes Bible lessons, worship, crafts, play, felt stories, games and lots of heart felt care from trained teachers and assistants.</p>
 		<p>On Wednesday evening we have a separate curriculum servicing our Toddler and Preschool Ministries.  Our YDC Club meets on Wednesday evening as well, and trains our children in a real fun, active way to live for Christ.  They win prizes and earn awards as they learn important Christian values and Biblical truths.</p>
-		<p>For more info, check out the <link href="../../../dist/web/calvarykids/index.html">Calvary Kids WebPage</link></p>
+		<p>For more info, check out the <link href="http://www.calvaryaustin.org/calvarykids/index.html">Calvary Kids WebPage</link></p>
 	  </long-description>
 	  <contacts>
 	    <contact-email email="donna@calvaryaustin.org">Donna Cano, Ministry Leader</contact-email>
