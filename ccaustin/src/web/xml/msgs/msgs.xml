@@ -3260,7 +3260,7 @@
 		<seriestitle>Romans</seriestitle>
 		<title></title>
 		<passage>Romans 1</passage>
-		<tape>B01300</tape>
+		<tape>BO1300</tape>
 		<audio>bibleoverview/45-rom-01.ram</audio>
 		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom001.html#top</passageref>
 	</message>
@@ -3268,7 +3268,7 @@
 		<seriestitle>Romans</seriestitle>
 		<title></title>
 		<passage>Romans 2</passage>
-		<tape>B01301</tape>
+		<tape>BO1301</tape>
 		<audio>bibleoverview/45-rom-02.ram</audio>
 		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom002.html#top</passageref>
 	</message>
@@ -3276,7 +3276,7 @@
 		<seriestitle>Romans</seriestitle>
 		<title></title>
 		<passage>Romans 3</passage>
-		<tape>B01302</tape>
+		<tape>BO1302</tape>
 		<audio>bibleoverview/45-rom-03.ram</audio>
 		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom003.html#top</passageref>
 	</message>
@@ -3284,7 +3284,7 @@
 		<seriestitle>Romans</seriestitle>
 		<title></title>
 		<passage>Romans 4</passage>
-		<tape>B01303</tape>
+		<tape>BO1303</tape>
 		<audio>bibleoverview/45-rom-04.ram</audio>
 		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom004.html#top</passageref>
 	</message>
@@ -3292,7 +3292,7 @@
 		<seriestitle>Romans</seriestitle>
 		<title></title>
 		<passage>Romans 5</passage>
-		<tape>B01304</tape>
+		<tape>BO1304</tape>
 		<audio>bibleoverview/45-rom-05.ram</audio>
 		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom005.html#top</passageref>
 	</message>
@@ -3300,7 +3300,7 @@
 		<seriestitle>Romans</seriestitle>
 		<title></title>
 		<passage>Romans 6</passage>
-		<tape>B01305</tape>
+		<tape>BO1305</tape>
 		<audio>bibleoverview/45-rom-06.ram</audio>
 		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom006.html#top</passageref>
 	</message>
@@ -3308,11 +3308,10 @@
 		<seriestitle>Romans</seriestitle>
 		<title></title>
 		<passage>Romans 7</passage>
-		<tape>B01306</tape>
+		<tape>BO1306</tape>
 		<audio>bibleoverview/45-rom-07.ram</audio>
 		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom007.html#top</passageref>
 	</message>
-
 
     <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
