@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.46 2003/09/17 07:03:40 gregk Exp $
+	$Id: whatsnew.xml,v 1.47 2003/09/30 16:04:59 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -200,23 +200,23 @@
 			<title>Toddler Teacher Needed</title>
 			<detail>The Women's Tuesday Morning Bible Study is in need of a paid teacher to teach the toddlers(ages 10 - 35 months) while their moms attend the study. The hours are from 9:40 AM to 11:40 AM starting Sept 23rd. If yor are interested in the position, please contact Vicky Lozano at 336-8368.</detail>
 		</news-item>
-		<news-item id="75" date="20030905" expires="20030930" showOnHomepage="false">
+		<news-item id="75" date="20030905" expires="20031030" showOnHomepage="false">
 			<title>The Cupboard</title>
 			<detail>Our food pantry will provide food to families in the body of Calvary during times of need. You may donate non-perishable food and personal hygiene items. Place donations in the Collection Area near the restrooms. If you need assistance from this ministry, contact the church office. For more information contact Derrick or Crystal Kinney at 310-2590</detail>
 		</news-item>
-		<news-item id="76" date="20030915" expires="20030922" showOnHomepage="false">
+		<news-item id="76" date="20030915" expires="20031022" showOnHomepage="false">
 			<title>Radio Ministry Note</title>
 			<detail>Pastor Allen's 7:30 PM Mon-Fri broadcast on KIXL has moved to 9:30 AM on KBBW 1010AM.</detail>
 		</news-item>
-		<news-item id="77" date="20030915" expires="20030930" showOnHomepage="true">
+		<news-item id="77" date="20030915" expires="20031030" showOnHomepage="true">
 			<title>Women's Ministry Worship Team</title>
 			<detail>The Women's Ministry is in need of a Women's Worship Team, both vocalist and instrumentalist. Contact Heather Reynolds (565-3859) if you are interested in becoming a part of the team.</detail>
 		</news-item>
-		<news-item id="78" date="20030915" expires="20030930" showOnHomepage="true">
+		<news-item id="78" date="20030915" expires="20031030" showOnHomepage="true">
 			<title>Women Helping Women</title>
 			<detail>This ministry offers prayer, spiritual guidance, and support to any woman who makes Calvary Chapel her church home. For an appointment, call the church office during normal working hours.</detail>
 		</news-item>
-		<news-item id="79" date="20030915" expires="20030930" showOnHomepage="false">
+		<news-item id="79" date="20030915" expires="20031030" showOnHomepage="false">
 			<title>Men's Bible Study</title>
 			<detail>Sign up today at the Events Center for a study involving the New Testament Men of Faith. This class will meet every other Tuesday evening at 7PM starting on Sept 23.</detail>
 		</news-item>
