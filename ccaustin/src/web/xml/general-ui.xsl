@@ -14,7 +14,7 @@
 	A variant of this file may offer more search engine or accessibility-friendly
 	navigation and less Javascript features for older browsers. 
 	
-	$Id: general-ui.xsl,v 1.3 2002/03/18 00:12:18 javajames27 Exp $
+	$Id: general-ui.xsl,v 1.4 2002/04/02 04:10:10 javajames27 Exp $
 -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl
@@ -118,7 +118,7 @@
 		  overall layout will get trashed!
 		-->
 
-                <td>Page-specific images go here... </td>
+                <td><!-- Page-specific images go here...--> </td>
 	      </tr>
 	      </tbody>
 	    </table>
