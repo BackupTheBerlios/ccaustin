@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.121 2004/06/22 21:00:44 premav Exp $
+	$Id: calendar.xml,v 1.122 2004/06/23 03:36:08 premav Exp $
 		
 -->
 <content title="Calendar">
@@ -599,7 +599,7 @@ and to register visit the Events Center.</detail>
 		<detail>Come join the fun, food, and fellowship Saturday, July 3rd with your Calvary friends and family.  It will take place at Wells Branch Community Center. Parade and other activities start at 10:00 am and fireworks start at 9:30 pm. For more information and for a list of suggested things to bring you can stop by the Information or Events Center.</detail>
     </event>
     <event id="07002" date="20040731" showOnHomepage="true">
-	    <title>Shepherding Your Child.s Heart Seminar  </title>
+	    <title>Shepherding Your Child's Heart Seminar  </title>
 		<date>Jul 30th &amp; 31st</date>
 		<detail>Join pastor &amp; author, Ted Tripp, for this insightful, informative, and inspiring seminar based on his popular child rearing book, Shepherding a Child.s Heart. Cost is $35 per couple or $25 per adult. Information is available at the Events Center or on <link href="www.hopeinthecity.org/shepherd.html">www.hopeinthecity.org/shepherd.html</link></detail>
     </event>
