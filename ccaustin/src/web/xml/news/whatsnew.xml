@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.96 2004/08/07 21:02:33 premav Exp $
+	$Id: whatsnew.xml,v 1.97 2004/08/13 01:11:02 tie Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -485,7 +485,7 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		</news-item>
 	   <news-item id="143" date="20040725" expires="20040802" showOnHomepage="true">
 		   <title>Attention Men</title>
-		   <detail>Looking for a way to bless other men? Get involved with the Men.s Retreat Prep Team. Meet at the Coffee Creator Sunday Aug 1st 11-11:30 a.m. to hear how you can help make this event a success.</detail>
+		   <detail>Looking for a way to bless other men? Get involved with the Men's Retreat Prep Team. Meet at the Coffee Creator Sunday Aug 1st 11-11:30 a.m. to hear how you can help make this event a success.</detail>
 		</news-item>
 	   <news-item id="144" date="20040807" expires="20040808" showOnHomepage="true">
 		   <title>Children s Ministry Make-over Tour!</title>
