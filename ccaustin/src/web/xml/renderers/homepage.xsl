@@ -4,7 +4,7 @@
      
      Homepage custom renderer
 
-     $Id: homepage.xsl,v 1.18 2004/06/19 21:04:58 gregk Exp $
+     $Id: homepage.xsl,v 1.19 2004/06/25 00:39:51 gregk Exp $
      
 -->       
 
@@ -29,8 +29,9 @@
 <!--
                         <td  align="left" valign="top" id="MU" height="280" width="800"><a href="../buildingmomentum/index.html"><img border="0" alt="click here to learn more" src="../images/events/buildmobanner.jpg" name="SlideShow" height="280" width="800"></img></a><br/>
                         </td>
--->
 <td  align="center" valign="top" id="MU" height="280" width="1000"><a href="javascript:slideLink()"><img border="0" alt="click here to learn more" src="../images/events/buildmobanner.jpg" name="SlideShow" height="280" width="800"></img></a><br/>
+-->
+<td  align="center" valign="top" id="MU" height="280" width="1000"><img border="0" alt="buildingmomentum image" src="../images/events/buildmobanner.jpg" height="280" width="800"></img><br/>
                         </td>
 			</tr>
                   <tr><br></br></tr>
