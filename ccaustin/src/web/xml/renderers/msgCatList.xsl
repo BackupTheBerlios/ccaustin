@@ -392,7 +392,7 @@
 	<TR>
 	  <TD ALIGN="right" VALIGN="middle"><A HREF="../msgs/msgsAudioArchive.html"><IMG SRC="../images/filecab.jpg" ALT="View the online audio message archive" BORDER="0"/></A></TD>
 	  <TD ALIGN="left"><FONT FACE="TAHOMA,VERDANA,ARIAL,HELVETICA" SIZE="-1">
-	    Go to Pastor Allen's <A HREF="../msgs/msgsAudioArchive.html">Windows Media Audio online message archive</A>.
+	    Go to Pastor Allen's <A HREF="../msgs/msgsAudioArchive.html">Audio online message archive</A>.
 	    </FONT>
 	  </TD>
 	</TR>
