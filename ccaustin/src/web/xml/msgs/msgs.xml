@@ -9493,7 +9493,7 @@
 	<message date="20031102" service="sunday" category="book studies">
 		<seriestitle>Luke</seriestitle>
 		<title>Living Generously - Part III</title>
-		<passage>Luke 12:35-48</passage>
+		<passage>Luke 12:35-59</passage>
 		<tape>BS110203</tape>
 		<audio>42-luk/42-luk-12-35.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk012.html#top</passageref>
@@ -9505,5 +9505,13 @@
 		<tape>GS110903</tape>
 		<audio>guestspeaker/bmobley1103.ram</audio>
 		<passageref></passageref>
+	</message> 
+	<message date="20031116" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>Life and Death</title>
+		<passage>Luke 13:1-9</passage>
+		<tape>BS111603</tape>
+		<audio>42-luk/42-luk-13-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk013.html#top</passageref>
 	</message>                                       
 </messagecatalog>
