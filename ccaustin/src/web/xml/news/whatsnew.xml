@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.26 2003/03/15 20:43:37 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.27 2003/03/21 16:42:17 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -198,13 +198,13 @@
 		<detail>The 2nd semester will start on Monday, Feb 17.  Sign up by Feb 2 at the Events Center for one or two classes in the 		Pastoral, Practical, Apologetics, Evangelism &amp; Missions, Theological, and Historical courses of study.  The cost is $25 	for 	one and $40 for two classes.</detail>
     </news-item>
 
-    <news-item id="29" date="20030102" expires="20030430" showOnHomepage="true">
+    <news-item id="29" date="20030430" expires="20030430" showOnHomepage="true">
 		<logo align="right" img="../images/YEV02a.jpg" alt="Year End Video"/>
 		<title>2002 Year End Video</title>
 		<detail>Check out the <link href="http://www.calvarychapel.org/austin/video/2002yeva.ram">Year End Video</link> with your <link href="http://www.real.com">RealVideo</link> player!</detail>
     </news-item>
 
-    <news-item id="30" date="20030102" expires="20030430" showOnHomepage="true">
+    <news-item id="30" date="20030430" expires="20030430" showOnHomepage="true">
 		<logo align="right" img="../images/YEV02b.jpg" alt="Year In Review Video"/>
 		<title>2002 Year In Review Video</title>
 		<detail>Check out the <link href="http://www.calvarychapel.org/austin/video/2002yevb.ram">Year In Review Video</link> with your <link href="http://www.real.com">RealVideo</link> player!</detail>
@@ -232,12 +232,22 @@
 
     <news-item id="35" date="20030301" expires="20030401" showOnHomepage="true">
 		<title>Children's Ministry Sign In</title>
-		<detail>Tired of keeping track of several coupons to pick up your children?  Then you will like the new "One Number Family ID" system that will begin Apr 6.  Pick up a flyer and a form to be filled out in the Children's Ministry area.</detail>
+		<detail>Tired of keeping track of several coupons to pick up your children? Then you will like the new "One Number Family ID" system that will begin Apr 6. Pick up a flyer and a form to be filled out in the Children's Ministry area.</detail>
     </news-item>
 
     <news-item id="36" date="20030301" expires="20030401" showOnHomepage="true">
 		<title>Men's Ministry</title>
 		<detail>Starting Tuesday the men’s bible study will meet every Tuesday night until the end of May.</detail>
+    </news-item>
+
+    <news-item id="37" date="20030320" expires="20030418" showOnHomepage="true">
+		<title>New Home Fellowship</title>
+		<detail>A new home group will start meeting on Friday, Apr 11, at 7:30PM in Cedar Park.  It will be lead by James Lozano and hosted by James and Talinda Higginbotham (1800 Nelson Ranch Loop).  Flyers with directions are available in the lobby.  Contact the Higginbotham's (336.8493) for more information.</detail>
+    </news-item>
+
+    <news-item id="38" date="20030320" expires="20030418" showOnHomepage="true">
+		<title>Young Disciples Club</title>
+		<detail>“YDC” is a discipleship club for Wise Guys, Witnesses and Watchmen--boys and girls K-5th grade.  There is worship, Bible, game and group times each Wednesday evening.  Pick up a YDC flyer at the Octopus in the lobby for more information.</detail>
     </news-item>
 
 

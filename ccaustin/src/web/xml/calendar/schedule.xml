@@ -3,7 +3,7 @@
 
 	Weekly/Monthyl Reoccuring Calendar Events Content
 	
-	$Id: schedule.xml,v 1.10 2003/03/03 00:15:50 javajames27 Exp $
+	$Id: schedule.xml,v 1.11 2003/03/21 16:42:17 javajames27 Exp $
 		
 -->
 <content title="Weekly &amp; Monthly Events">
@@ -80,6 +80,7 @@
 	<ministry id="newbelievers"/>
       </ministries>
     </event>
+    <!--
     <event id="tue1" date="*" reoccur="Tue" time="10:00am" location="Youth Room" childMinistry="no" childCare="no">
       <title>Women's Bible Study</title>
       <shortnote></shortnote>
@@ -88,9 +89,10 @@
 	<ministry id="women"/>
       </ministries>
     </event>
+    -->
     <event id="tue2" date="*" reoccur="Tue" time="7:00pm" location="Youth Room" childMinistry="no" childCare="no">
       <title>Men's Bible Study</title>
-      <shortnote>(every other Tues, next meeting Mar 11)</shortnote>
+      <!--<shortnote>(every other Tues, next meeting Mar 11)</shortnote>-->
       <detail/>
       <ministries>
 	<ministry id="men"/>
@@ -146,7 +148,7 @@
 	<ministry id="skate"/>
       </ministries>
     </event>
-    <event id="sat2" date="*" reoccur="Sat" time="6:30pm" location="New Parent's Room" childMinistry="no" childCare="no">
+    <event id="sat2" date="*" reoccur="Sat" time="6:30pm" location="Prayer Room" childMinistry="no" childCare="no">
       <title>Calvary Single's Ministry</title>
       <shortnote/>
       <detail>

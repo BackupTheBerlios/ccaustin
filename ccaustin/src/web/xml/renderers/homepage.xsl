@@ -4,7 +4,7 @@
      
      Homepage custom renderer
 
-     $Id: homepage.xsl,v 1.6 2003/03/21 15:18:34 javajames27 Exp $
+     $Id: homepage.xsl,v 1.7 2003/03/21 16:42:17 javajames27 Exp $
      
 -->       
 
@@ -59,7 +59,7 @@
                           <tr>
                             <td valign="top">
                               <table border="0" cellspacing="0" cellpadding="0" width="100%">
-                                <xsl:apply-templates select="document('../../src/web/xml/news/whatsnew.xml')/content/news/news-item[@showOnHomepage='true']"/>
+                                <xsl:apply-templates select="document('../../src/web/xml/news/whatsnew.xml')/content/news/news-item[@showOnHomepage='true']"><xsl:sort select="@date"/></xsl:apply-templates>
                                 <tr>
                                   <td colspan="2" class="newstitle" align="left" valign="top"><hr height="1" size="1" color="#2544a9" noshade="true"/></td>
                                 </tr>
