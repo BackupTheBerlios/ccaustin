@@ -142,6 +142,7 @@
          remotedir="/austin/beta"
          userid="${ftp.id}"
          password="${ftp.password}"
+         ignoreNoncriticalErrors="true"
          verbose="yes">
       <fileset dir="${dist.web.dir}"/>
     </ftp>    
