@@ -3,7 +3,7 @@
 
 	Internet Ministry - The ministry and its detail
 	
-	$Id: internet.xml,v 1.4 2002/07/10 21:51:28 javajames27 Exp $
+	$Id: internet.xml,v 1.5 2002/07/10 21:56:31 javajames27 Exp $
 		
 -->
 <content title="Internet Ministry">
@@ -22,7 +22,7 @@
 	    copying files, for content management of this web
 	    site.</p> 
 	    <p>We also need help from people who know or are willing to
-	    learn XML, XSL, Java, Java Servlets/JSP, database
+	    learn any of the following technologies: XML, XSL, Java, Java Servlets/JSP, database
 	    technologies, and HTML/Javascript.</p>
             <p>To learn how to server, contact the web servant team at
 	    the email address at the bottom of this page.</p>
