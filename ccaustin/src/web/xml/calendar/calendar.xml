@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.109 2004/03/18 08:16:28 gregk Exp $
+	$Id: calendar.xml,v 1.110 2004/03/28 20:59:32 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -440,7 +440,7 @@ and to register visit the Events Center.</detail>
 	 <title>Vision Sunday &amp; Ordination Service</title>
 		<date>Mar 7</date>
     </event>
-    <event id="03004" date="20040325" showOnHomepage="true">
+    <event id="03004" date="20040324" showOnHomepage="true">
 	 <title>Communion Service</title>
 		<date>Mar 24</date>
     </event>
@@ -465,13 +465,35 @@ and to register visit the Events Center.</detail>
     Apr 2004
     ===============
     -->
-    <event id="04001" date="20040411" showOnHomepage="true">
+    <event id="04001" date="20040404" showOnHomepage="true">
+	 <title>Building Momentum:   KICK-OFF SUNDAY</title> 
+		<date>Apr 04</date>
+                <detail>Don't miss next Sunday, for the kick-off of our <strong>Building Momentum</strong> campaign. We will watch a "virtual tour" video showing us conceptual design imagery of our new building. This will really help everyone begin to visualize what our new home will look and feel like. Be here early to get a good seat.</detail>
+    </event>
+    <event id="04002" date="20040404" showOnHomepage="true">
+	 <title>Spring Forward</title>
+		<date>Apr 04</date>
+                <detail>Don't forget <strong>Daylight Saving Time</strong> is this Sunday, April 4th. Move your clock forward one hour.</detail>
+    </event>
+    <event id="04003" date="20040405" showOnHomepage="true">
+	 <title>Good Friday</title>
+		<date>Apr 05</date>
+    </event>
+    <event id="04004" date="20040411" showOnHomepage="true">
 	 <title>Easter Sunday Calvary Kids</title>
 		<date>Apr 11</date>
                 <detail>Special program for each service at 9:30AM and 11:30AM.</detail>
 		<ministries>
 			<ministry id="children"/>
 		</ministries>
+    </event>
+    <event id="04005" date="20040412" showOnHomepage="true">
+	 <title>Building Momentum:     VISION NIGHT</title>
+		<date>Apr 12</date>
+    </event>
+    <event id="04006" date="20040425" showOnHomepage="true">
+	 <title>Building Momentum:   FAMILY CONFERENCES</title>
+		<date>Apr 25</date>
     </event>
 		<!--
     ===============
@@ -494,12 +516,29 @@ and to register visit the Events Center.</detail>
 			<ministry id="men"/>
 		</ministries>
     </event>
+    <event id="05002" date="20040505" showOnHomepage="true">
+	 <title>Extended Worship</title>
+		<date>May 05</date>
+    </event>
+    <event id="05003" date="20040502" showOnHomepage="true">
+	 <title>Building Momentum:   COMMUNICATION SUNDAY</title>
+		<date>May 2</date>
+    </event>
+    <event id="05004" date="20040516" showOnHomepage="true">
+	 <title>Building Momentum:    CELEBRATION SUNDAY</title>
+		<date>May 16</date>
+    </event>
+    <event id="05005" date="20040514" showOnHomepage="false">
+	 <title>Weekend To Remember</title> 
+		<date>May 14 - 16</date>
+                <detail>Come join other couples at the Family Life Conference May 14th - 16th at the Capitol Marriott. You will learn and be challenged to apply timeless principles for a great marriage through insiring speakers and the use of practical tools. Sign up by April 21st at the Events Center to getthe special Calvary group rate of $138 per couple. Details and brochures at the Events Center.</detail>
+    </event>
 		<!--
     ===============
     June 2004
     ===============
     -->
-    <event id="06001" date="20040621" showOnHomepage="true">
+    <event id="06001" date="20040621" showOnHomepage="false">
 	 <title>Vacation Bible Study</title>
 		<date>Jun 21-25</date>
                 <detail>Stay tuned for more details !!!.</detail>
@@ -539,7 +578,7 @@ and to register visit the Events Center.</detail>
     Oct 2004
     ===============
     -->
-    <event id="10001" date="20041001" showOnHomepage="true">
+    <event id="10001" date="20041001" showOnHomepage="false">
 	 <title>Family Camp</title>
 	 <date>Oct 1-3</date>
                 <detail>"Family", meaning our Calvary Family. All are welcome! Look for signups in the summer for a great time of fellowship and fun at our 3rd annual Camp. For more info, contact John Adams at 759.4433</detail>
