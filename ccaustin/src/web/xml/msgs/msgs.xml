@@ -9343,9 +9343,17 @@
 	<message date="20030928" service="sunday" category="book studies">
 		<seriestitle>Luke</seriestitle>
 		<title>Lasting Change</title>
-		<passage>Luke 11:14-28</passage>
+		<passage>Luke 11:14-36</passage>
 		<tape>BS092803</tape>
 		<audio>42-luk/42-luk-11-14.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk011.html#top</passageref>
-	</message>           
+	</message>
+	<message date="20031005" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>How NOT to be a Hypocrite</title>
+		<passage>Luke 11:37-54</passage>
+		<tape>BS100503</tape>
+		<audio>42-luk/42-luk-11-37.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk011.html#top</passageref>
+	</message>                      
 </messagecatalog>
