@@ -3964,6 +3964,14 @@
 <audio>bibleoverview/66-rev-21.wma</audio> 
 <passageref>http://www.blueletterbible.org/kjv/Rev/Rev021.html#top</passageref> 
 </message>
+<message date="20050105" service="midweek" category="overview"> 
+<seriestitle>Genesis</seriestitle> 
+<title></title> 
+<passage>Genesis 1-2</passage> 
+<tape>BO1379</tape> 
+<audio>bibleoverview/01-gen-01.wma</audio> 
+<passageref>http://www.blueletterbible.org/kjv/Gen/Gen001.html#top</passageref> 
+</message>
 
 <message date="20041013" service="midweek" category="misc">
 <seriestitle>Guest Speaker</seriestitle>
