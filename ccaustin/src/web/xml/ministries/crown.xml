@@ -3,7 +3,7 @@
 
         Crown Financial Ministry  - The ministry and its detail 
         
-	   $Id: crown.xml,v 1.5 2003/07/22 18:08:11 gregk Exp $ 
+	   $Id: crown.xml,v 1.6 2004/01/29 18:27:52 gregk Exp $ 
                 
 --> 
 <content title="crown"> 
@@ -38,8 +38,7 @@
     </long-description> 
 
 <contacts> 
-                        <contact-email email="mlhardcastle@hotmail.com">Mike Hardcastle</contact-email> 
-                        <contact-phone phone="990-5139">Mike Hardcastle</contact-phone> 
+                        <contact-email email="crown@calvaryaustin.org">Crown Coordinator</contact-email> 
                         <contact-phone phone="719-4667">Contact the church office</contact-phone> 
                 </contacts> 
 
