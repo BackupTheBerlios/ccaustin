@@ -4,32 +4,29 @@
 <%@ taglib uri="/WEB-INF/struts-logic.tld"  prefix="logic" %>
 <%@ taglib uri="/WEB-INF/slide-struts.tld"  prefix="slide" %>
 
-<p>
-  <html:errors/>
-</p>
-<html:form action='/addUserCreate' focus='username'>
+<html:form action='/addUser' focus='username'>
   <table border='0'>
     <tr>
-      <td align='right' class='fieldLabel'>
+      <td align='right' valign='top' class='fieldLabel'>
         <bean:message key='userForm.label.username'/>:
       </td>
-      <td align='left'>
-        <html:text property='username' size='32'/>
+      <td align='left' valign='top'>
+        <html:text property='username' size='32'/><span class="error"><html:errors property="username"/></span>
       </td>
     </tr>
     <tr>
-      <td align='right' class='fieldLabel'>
+      <td align='right' valign='top' class='fieldLabel'>
         <bean:message key='userForm.label.password'/>:
       </td>
-      <td align='left'>
-        <html:password property='password' size='32' redisplay='false'/>
+      <td align='left' valign='top'>
+        <html:password property='password' size='32' redisplay='false'/><span class="error"><html:errors property="password"/></span>
       </td>
     </tr>
     <tr>
-      <td align='right' class='fieldLabel'>
+      <td align='right' valign='top' class='fieldLabel'>
         <bean:message key='userForm.label.roles'/>
       </td>
-      <td align='left'>
+      <td align='left' valign='top'>
         <html:checkbox property='hasRootRole'/>:
         <span><bean:message key='userForm.label.rootRole'/></span>
       </td>

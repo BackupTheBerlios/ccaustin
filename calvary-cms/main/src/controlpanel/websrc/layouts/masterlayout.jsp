@@ -50,20 +50,22 @@
 <html:link action="/browser" styleClass="navButtonLink">Manage Web Site</html:link>
 </td>
 <!-- LINK 3 -->
-<td class="navButtonBorder" nowrap="true">
-<a href="link3.html" class="navButtonLink">LINK 3</a>
-</td>
+<logic:present role="root">
+ <td class="navButtonBorder" nowrap="true">
+ <html:link action="/admin" styleClass="navButtonLink">Administration</html:link>
+ </td>
+</logic:present>
 <!-- LINK 4 -->
 <td class="navButtonBorder" nowrap="true">
-<a href="link4.html" class="navButtonLink">LINK 4</a>
+<a href="#" class="navButtonLink">LINK 4</a>
 </td>
 <!-- LINK 5 -->
 <td class="navButtonBorder" nowrap="true">
-<a href="link5.html" class="navButtonLink">LINK 5</a>
+<a href="#" class="navButtonLink">LINK 5</a>
 </td>
 <!-- LINK 6 -->
 <td class="navButtonBorder" nowrap="true">
-<a href="link6.html" class="navButtonLink">LINK 6</a>
+<a href="#" class="navButtonLink">LINK 6</a>
 </td>
 </td>
 <td class="navButtonBorder" width=90%></td></tr></table>
@@ -88,34 +90,34 @@
 <!-- SUBHEADING 2 -->
 <tr><td width=100% class="tableFloatingHeader">How do I....?</td></tr>
 <!-- LINK 5 -->
-<tr><a href="link5.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='tableFloatingLink';">
+<tr><a href="#"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='tableFloatingLink';">
 &nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/bullet.gif"/>' height="9" width="9"/>&nbsp;&nbsp;
-LINK 5
+Coming Soon!
 </td></a></tr>
 <!-- LINK 6 -->
-<tr><a href="link6.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='tableFloatingLink';">
+<tr><a href="#"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='tableFloatingLink';">
 &nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/bullet.gif"/>' height="9" width="9"/>&nbsp;&nbsp;
-LINK 6
+Coming Soon!
 </td></a></tr>
 <!-- LINK 7 -->
-<tr><a href="link7.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='tableFloatingLink';">
+<tr><a href="#"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='tableFloatingLink';">
 &nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/bullet.gif"/>' height="9" width="9"/>&nbsp;&nbsp;
-LINK 7
+Coming Soon!
 </td></a></tr>
 <!-- LINK 8 -->
-<tr><a href="link8.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='tableFloatingLink';">
+<tr><a href="#"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='tableFloatingLink';">
 &nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/bullet.gif"/>' height="9" width="9"/>&nbsp;&nbsp;
-LINK 8
+Coming Soon!
 </td></a></tr>
 <!-- LINK 9 -->
-<tr><a href="link9.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='tableFloatingLink';">
+<tr><a href="#"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='tableFloatingLink';">
 &nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/bullet.gif"/>' height="9" width="9"/>&nbsp;&nbsp;
-LINK 9
+Coming Soon!
 </td></a></tr>
 <!-- LINK 10-->
-<tr><a href="link10.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='tableFloatingLink';">
+<tr><a href="#"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='tableFloatingLink';">
 &nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/bullet.gif"/>' height="9" width="9"/>&nbsp;&nbsp;
-LINK 10
+Coming Soon!
 </td></a></tr>
 <!-- SUBHEADING BREAK -->
 <tr class="tableLayout"><td width=100% height=10>
@@ -127,11 +129,18 @@ LINK 10
 
     <td width=70% class="contentarea"> <table width=100% cellpadding=0 cellspacing=0>
         <tr> 
-          <td class="tableLayout" valign=top><div class="contentHead1"><tiles:getAsString name="title"/></div></td>          
+          <td class="tableLayout" valign=top><h1><tiles:getAsString name="title"/></h1></td>          
           <td class="contentarea"></td>
         </tr>
-        <td width=80% class="tableLayout" valign=top>  <br/>
+        <td width=80% class="tableLayout" valign=top>
             <!-- =============================== BEGIN CONTENT ================================ -->
+            <logic:messagesPresent message="false">
+			  <p class="errorGlobal"><img src='<html:rewrite page="/images/icons/cancel3.gif"/>' align='left'/><html:errors property="org.apache.struts.action.GLOBAL_ERROR"/></p>
+			</logic:messagesPresent>
+			<logic:messagesPresent message="true">
+  			  <p class="messageGlobal"><img src='<html:rewrite page="/images/icons/info1.gif"/>' align='left'/><html:messages id="message" message="true"><bean:write name="message"/></html:messages></p>
+			</logic:messagesPresent>
+			
 			<tiles:insert attribute="body"/>	
             <!-- =============================== END CONTENT ================================ -->
           </td>

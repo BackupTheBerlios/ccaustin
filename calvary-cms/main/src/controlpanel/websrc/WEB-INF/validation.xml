@@ -19,6 +19,23 @@
         validation rules.
    -->
   <global>
+      <validator name="xmldocument"
+            classname="org.calvaryaustin.web.validation.XMLChecks"
+               method="validateXMLDocument"
+         methodParams="java.lang.Object,
+                       org.apache.commons.validator.ValidatorAction,
+                       org.apache.commons.validator.Field,
+                       org.apache.struts.action.ActionErrors,
+                       javax.servlet.http.HttpServletRequest"
+                  msg="errors.xmldocument">
+
+         <javascript><![CDATA[
+            function validateXMLDocument(form) {
+                return true;
+            }]]>
+         </javascript>
+
+      </validator>
       <validator name="wellformed"
             classname="org.calvaryaustin.web.validation.XMLChecks"
                method="validateWellFormed"
@@ -43,12 +60,12 @@
   <formset>
     <constant name="zip" value="^\d{5}(-\d{4})?$" />
     <!--<constant name="protocols" value="^http:\/\/"/>-->
-    <constant name="protocols" value="^http:|^https:|^ftp:|^smtp:|^dj:|^extricity:|^celebrate"/>
+    <constant name="protocols" value="^http:|^https:|^ftp:|^smtp"/>
     
     <!-- Editor Form  -->
     <form name="editor">
       <field property="content"
-        depends="required,wellformed">
+        depends="required,xmldocument,wellformed">
         <arg0 key="editorForm.content.displayname"/>
       </field>
       <!--

@@ -52,6 +52,11 @@
                path="dashboard"/>
 	</action>            
 
+    <action path="/admin"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="admin">
+	</action>            
+
     
     <action path="/killLock" 
             type="org.calvaryaustin.controlpanel.locks.KillLockAction"
@@ -92,19 +97,12 @@
             validate="false">
       <forward name="editor.default"
                path="editor.default"/>
-    </action>
-    
-    <action path="/editorSave" 
-            type="org.calvaryaustin.controlpanel.editor.EditorAction"
-            name="editor"
-            scope="request"
-            input="editor.default">
-      <forward name="editor.default"
-               path="editor.default"/>
       <forward name="editor.save.success"
                path="/viewer.do"/>
       <forward name="editor.cancel"
                path="/viewer.do"/>
+      <forward name="editor.failure"
+               path="editor.default"/>
     </action>
 
     <action path="/addUser" 
@@ -115,23 +113,13 @@
             validate="false">
       <forward name="addUser.default"
                path="addUser"/>
-    </action>
-    
-    <action path="/addUserCreate" 
-            type="org.calvaryaustin.controlpanel.users.AddUserAction"
-            name="user"
-            scope="request"
-            input="addUser">
-      <forward name="addUser.default"
-               path="addUser"/>
       <forward name="addUser.success"
-               path="/index.do" 
+               path="addUser" 
                redirect="true"/>
       <forward name="addUser.failure"
-               path="/addUser.jsp"/>
+               path="addUser"/>
     </action>
     
-
     <!-- Older actions
     <action path="/editUser" 
             type="org.calvaryaustin.controlpanel.users.EditUserAction"

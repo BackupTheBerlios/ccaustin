@@ -97,7 +97,6 @@
     <taglib-location>/WEB-INF/calvary.tld</taglib-location>
   </taglib>
   
-  <!-- Security Contraints -->
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>Calvary ControlPanel</web-resource-name>

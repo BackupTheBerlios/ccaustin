@@ -13,6 +13,7 @@ import org.apache.struts.action.ActionErrors;
 import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
+import org.apache.struts.action.ActionMessages;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
@@ -92,7 +93,7 @@ import org.apache.commons.logging.LogFactory;
  * proper state.
  * </p>
  * @author jhigginbotham
- * @version $Revision: 1.2 $
+ * @version $Revision: 1.3 $
  */
 abstract public class BaseAction extends Action
 {
@@ -284,7 +285,7 @@ abstract public class BaseAction extends Action
    */
   protected void saveErrors( UserRequest userRequest )
   {
-    saveErrors( userRequest.getRequest(), userRequest.getErrors() );
+	saveErrors( userRequest.getRequest(), userRequest.getErrors() );
   }
 
   /**
@@ -295,7 +296,28 @@ abstract public class BaseAction extends Action
    */
   protected void saveErrors( UserRequest userRequest, ActionErrors errors )
   {
-    saveErrors( userRequest.getRequest(), errors );
+	saveErrors( userRequest.getRequest(), errors );
+  }
+
+  /**
+   * Saves the Message list managed by the UserRequest into the request so
+   * that that  &lt;html:messages/&gt; tag can display the messages.
+   * @param userRequest The action to delegate the saveMessages call to
+   */
+  protected void saveMessages( UserRequest userRequest )
+  {
+	saveMessages( userRequest.getRequest(), userRequest.getMessages() );
+  }
+
+  /**
+   * Saves the Message list managed by the UserRequest into the request so
+   * that that  &lt;html:messages/&gt; tag can display the messages.
+   * @param userRequest The action to delegate the saveMessages call to
+   * @param messages the messages to save to the request
+   */
+  protected void saveMessages( UserRequest userRequest, ActionMessages messages )
+  {
+	saveMessages( userRequest.getRequest(), messages );
   }
 
   /**

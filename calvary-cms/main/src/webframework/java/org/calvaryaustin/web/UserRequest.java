@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.struts.action.ActionErrors;
 import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionMapping;
+import org.apache.struts.action.ActionMessages;
 import org.apache.struts.action.ActionServlet;
 
 /**
@@ -31,7 +32,7 @@ import org.apache.struts.action.ActionServlet;
  * </p>
  * @see org.calvaryaustin.web.BaseAction
  * @author jhigginbotham
- * @version $Revision: 1.1 $
+ * @version $Revision: 1.2 $
  */
 public class UserRequest implements java.io.Serializable
 {
@@ -234,11 +235,29 @@ public class UserRequest implements java.io.Serializable
    */
   public ActionErrors getErrors()
   {
-    if(actionErrors_ == null)
-    {
-      actionErrors_ = new ActionErrors();
-    }
-    return actionErrors_;
+	if(actionErrors_ == null)
+	{
+	  actionErrors_ = new ActionErrors();
+	}
+	return actionErrors_;
+  }
+
+  /**
+   * Returns an instance of ActionMessages that can be shared only for
+   * the term of the current request. This enables the messages to
+   * accumulate across our action logic without having to pass around
+   * a reference to the ActionMessages we will later save into the
+   * request using saveMessages()
+   *
+   * @return an <code>ActionMessages</code> to use for the current request
+   */
+  public ActionMessages getMessages()
+  {
+	if(actionMessages_ == null)
+	{
+		actionMessages_ = new ActionMessages();
+	}
+	return actionMessages_;
   }
 
   /**
@@ -363,4 +382,6 @@ public class UserRequest implements java.io.Serializable
   protected HttpServletResponse response_;
   /** A general ActionErrors that can be shared for the given request **/
   protected ActionErrors actionErrors_;
+  /** A general ActionMessages that can be shared for the given request **/
+  protected ActionMessages actionMessages_;
 }

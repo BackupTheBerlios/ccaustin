@@ -4,13 +4,20 @@ import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.transaction.*;
 import org.apache.slide.common.*;
+import org.apache.slide.structure.ObjectAlreadyExistsException;
 import org.apache.struts.action.*;
 import org.calvaryaustin.cms.slide.CreateUserCommand;
 import org.calvaryaustin.controlpanel.*;
 
+/**
+ * Adds a new user into the system 
+ * 
+ * @author jhigginbotham
+ */
 public class AddUserAction extends AdminAction
 {
     public static final String BUTTON_CREATE = "Create";
+    public static final String MESSAGE_SUCCESS = "addUser.success";
 
     public ActionForward handleRequest(AdminUserRequest request)
         throws IOException, ServletException
@@ -19,6 +26,12 @@ public class AddUserAction extends AdminAction
 		if (buttonPressed(request, BUTTON_CREATE))
 		{
 			log.debug("Processing create");
+			// If there are any errors, show them on the input form
+			ActionErrors errors = form.validate(request.getMapping(), request.getRequest()); // validate form
+			if (!errors.isEmpty()) {
+				saveErrors(request, errors);
+				return (new ActionForward(request.getMapping().getInput()));
+			}
 			return processCreate( request, form);
 		}
 		// else, default to initialization
@@ -44,8 +57,13 @@ public class AddUserAction extends AdminAction
 			CreateUserCommand command = new CreateUserCommand(slideToken, nat, form.getUsername(), form.getPassword(), form.getHasRootRole());
 			command.execute();
 			nat.commit();
+			request.getMessages().add(ActionMessages.GLOBAL_MESSAGE, new ActionMessage( MESSAGE_SUCCESS, form.getUsername() ) );
+			saveMessages( request );
 			return (request.getMapping().findForward("addUser.success"));
 
+		} catch (ObjectAlreadyExistsException e)
+		{
+			request.getErrors().add(ActionErrors.GLOBAL_ERROR, new ActionError("addUser.error.alreadyExists", form.getUsername() ) );
 		} catch (SlideException e)
 		{
 			log.error("Error while creating user",e);
@@ -70,8 +88,6 @@ public class AddUserAction extends AdminAction
 		{
 			saveErrors(request, request.getErrors());
 		}
-
-		// TODO: Fix this to forward to an error page
 
 		return (request.getMapping().findForward("addUser.failure"));
     }

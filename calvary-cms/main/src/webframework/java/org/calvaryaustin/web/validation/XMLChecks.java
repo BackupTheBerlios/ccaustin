@@ -25,6 +25,34 @@ import org.xml.sax.helpers.XMLReaderFactory;
  */
 public class XMLChecks implements Serializable
 {
+	public static boolean validateXMLDocument(Object bean,
+											  ValidatorAction va, 
+											  Field field,
+											  ActionErrors errors,
+											  HttpServletRequest request)
+	{
+		log.debug("validateXMLDocument(): entered");
+		// get the field's value
+		String xmlDoc = null;
+		if (isString(bean)) 
+		{
+			xmlDoc = (String) bean;
+		} 
+		else 
+		{
+			xmlDoc = ValidatorUtil.getValueAsString(bean, field.getProperty());
+		}
+		
+		// first, make sure we are actually dealing with XML here
+		if(xmlDoc.trim().startsWith(XML_PREFIX) )
+		{
+			log.debug("validateXMLDocument(): xml doc");
+			return true;
+		}
+		log.debug("validateXMLDocument(): not an xml doc");
+		return false;
+	}
+	
 	public static boolean validateWellFormed(Object bean,
 											 ValidatorAction va, 
 											 Field field,
@@ -43,17 +71,7 @@ public class XMLChecks implements Serializable
 			xmlDoc = ValidatorUtil.getValueAsString(bean, field.getProperty());
 		}
 		
-		// first, make sure we are actually dealing with XML here
-		
-		// TODO: May want to make this a validation requirement to check some field in the 
-		// form bean first before hitting this validation step
-		if(!xmlDoc.trim().startsWith(XML_PREFIX) )
-		{
-			log.debug("validateWellFormed(): not an xml doc. done.");
-			return true;
-		}
-		
-		// now, parse the XML to be sure we have a well-formed doc
+		// parse the XML to be sure we have a well-formed doc
 		try 
 		{
 			log.debug("validateWellFormed(): parsing");

@@ -32,6 +32,18 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
+h1
+{
+    font-weight: bold;
+    font-size: 20pt;
+    color: black;
+}
+h2
+{
+    font-weight: bold;
+    font-size: 12pt;
+    color: #821400;
+}
 
 .header {
     background-color: #ffffff
@@ -41,7 +53,7 @@ body {
 }
 
 .footer {
-    background-color: #7B9CAE;
+    background-color: #5B7F93;
     text-align: center;
 }
 
@@ -261,6 +273,16 @@ a.navExternalLink:hover
 	font-size: 9pt;
 }
 
+.messageGlobal {
+	color: #5B7F93;
+	font-size: 12pt;
+}
+
+.errorGlobal {
+	color: red;
+	font-size: 12pt;
+}
+
 .error {
 	color: red;
 	font-size: 9pt;
@@ -324,18 +346,6 @@ pre.viewerName {
   font-weight: bold;
 }
 
-.contentHead1
-{
-    font-weight: bold;
-    font-size: 20pt;
-    color: black;
-}
-.contentHead2
-{
-    font-weight: bold;
-    font-size: 12pt;
-    color: #821400;
-}
 .miscnormal
 {
     font-weight: normal;

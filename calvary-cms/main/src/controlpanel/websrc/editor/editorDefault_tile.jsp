@@ -7,8 +7,7 @@
 <%@ taglib uri="/WEB-INF/display.tld"          prefix="display" %>
 <%@ taglib uri="/WEB-INF/calvary.tld"          prefix="calvary" %>
 
-<p class="error"><html:errors property="org.apache.struts.action.GLOBAL_ERROR"/></p>
-<html:form action="/editorSave">
+<html:form action="/editor">
 	<html:hidden property="site"/>
 	<html:hidden property="path"/>
 	<html:hidden property="file"/>

@@ -24,6 +24,8 @@ import org.apache.slide.taglib.bean.RevisionBean;
 import org.apache.struts.action.ActionError;
 import org.apache.struts.action.ActionErrors;
 import org.apache.struts.action.ActionForward;
+import org.apache.struts.action.ActionMessage;
+import org.apache.struts.action.ActionMessages;
 import org.calvaryaustin.cms.RepositoryUtil;
 import org.calvaryaustin.cms.WebdavRepositoryDAO;
 import org.calvaryaustin.cms.slide.KillLockCommand;
@@ -47,6 +49,7 @@ import org.calvaryaustin.controlpanel.AdminUserRequest;
  */
 public class EditorAction extends AdminAction
 {
+	public static final String MESSAGE_SUCCESS = "editor.success";
     // TODO: Add support for previewing once we get the meta data about the renderer, template, layout
     // TODO: After save, forward to the view page with a success message
     // TODO: Add a cancel editing which would unlock the resource and return to the view page
@@ -76,12 +79,24 @@ public class EditorAction extends AdminAction
         if (buttonPressed(request, BUTTON_SAVE))
         {
             log.debug("Save pressed");
+ 		    // If there are any errors, show them on the input form
+			ActionErrors errors = form.validate(request.getMapping(), request.getRequest()); // validate form
+		    if (!errors.isEmpty()) {
+				saveErrors(request, errors);
+			    return (new ActionForward(request.getMapping().getInput()));
+		    }
 			return processSave( request, form );
         }
         // else, if preview clicked
         else if (buttonPressed(request, BUTTON_PREVIEW))
         {
-            log.debug("Preview pressed");
+			log.debug("Preview pressed");
+			// If there are any errors, show them on the input form
+			ActionErrors errors = form.validate(request.getMapping(), request.getRequest()); // validate form
+			if (!errors.isEmpty()) {
+				saveErrors(request, errors);
+				return (new ActionForward(request.getMapping().getInput()));
+			}
             // TODO: call the preview page
         }
         // else, if cancel clicked
@@ -131,7 +146,8 @@ public class EditorAction extends AdminAction
 			nat.commit();          												  
 
             // finally, forward to the success page
-            // TODO: Add a nice message and put a nice message area into the master layout that shows an info message if available (vs. errors)
+			request.getMessages().add(ActionMessages.GLOBAL_MESSAGE, new ActionMessage( MESSAGE_SUCCESS, form.getFile() ) );
+			saveMessages( request );
             return request.getMapping().findForward("editor.save.success");
         } catch(Exception e)
         {
@@ -154,7 +170,7 @@ public class EditorAction extends AdminAction
         }
         //request.setAttribute("locks", locksForm);
 
-        return (request.getMapping().findForward("killLock.failure"));
+        return (request.getMapping().findForward("editor.failure"));
     }
 
     private ActionForward processCancel( AdminUserRequest request, EditorForm form)

@@ -20,6 +20,11 @@
     <put name="body" value="/dashboard/dashboard_tile.jsp"/>
   </definition>
   
+  <definition name="admin" extends="masterlayout">
+    <put name="title" value="Administration"/>
+    <put name="body" value="/admin/admin_tile.jsp"/>
+  </definition>
+  
   <definition name="browser" extends="masterlayout">
     <put name="title" value="Control Panel Browser"/>
     <put name="body" value="/browser/browser_tile.jsp"/>

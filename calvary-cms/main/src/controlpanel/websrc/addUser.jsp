@@ -79,7 +79,7 @@
                 </tr>
                 <tr>
                   <td align='left' colspan='2'>
-                    <html:errors/>
+                    &nbsp;
                   </td>
                 </tr>
                 <tr>
