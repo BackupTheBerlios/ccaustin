@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.36 2003/06/16 13:25:06 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.37 2003/06/30 17:17:13 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -93,7 +93,7 @@
 			<detail>Our food pantry provides food to families in the body of Calvary during times of need.  If you need assistance from this ministry, contact the church office. 
 </detail>
 		</news-item>
-		<news-item id="49" date="20030518" expires="20030702" showOnHomepage="true">
+		<news-item id="49" date="20030518" expires="20030713" showOnHomepage="true">
 			<title>Children's Conference Hosting</title>
 			<detail>Would you like to bless one or more peope attending our CM Conference from out of town with accommodations in your home?  If interested, sign up to be a host family at the Events Center. 
 </detail>
@@ -102,7 +102,7 @@
 			<title>Crown Financial Ministry</title>
 			<detail>Sign ups begin today at the Events Center for an exciting new course focusing on handling money God¹s way.  Short daily studies, practical applications, and weekly small group meetings in host homes will last from Aug through Nov.  Limited enrollment.  A $20 deposit will secure your spot with final payment due by Jun 29.</detail>
 		</news-item>
-		<news-item id="51" date="20030522" expires="20030629" showOnHomepage="true">
+		<news-item id="51" date="20030522" expires="20030713" showOnHomepage="true">
 			<title>Bookstore</title>
 			<detail>Want to grow deeper in your walk with the Lord?  Stop and check-out all the Bibles, books, study guides and CDs.  Open after every Wednesday &amp; Sunday service.</detail>
 		</news-item>

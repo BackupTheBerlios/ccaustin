@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.60 2003/06/23 13:50:09 javajames27 Exp $
+	$Id: calendar.xml,v 1.61 2003/06/30 17:17:13 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -13,358 +13,32 @@
     Jan
     ===============
     -->
-    <event id="01003" date="20020101" showOnHomepage="true">
-      <title>New Year's Day Bowl</title>
-      <date>Jan 1st</date>
-      <detail>Holidays got you feeling a little heavy?  Well kick off your
-        exercise program with us at the 3rd annual New Year's Day Bowl.  Come out
-        Wednesday, Jan 1, at 9AM for flag football and fellowship.  If you missed
-        out on the Turkey Bowl, here's your chance to stretch those muscles and burn
-        your best friend for a touchdown.  Pick up a flyer at the information area
-        for details and a map.</detail> 
-    </event>
-    <event id="01001" date="20030111" showOnHomepage="true">
-      <title>Conference Bible Study</title>
-      <date>Sat Jan 11th, 2003</date>
-      <detail>Hyde Park Baptist Church in Austin is sponsoring "The Left Behind Conference"
-      featuring Tim LaHaye on Saturday, Jan 11.  You may pick up a brochure as well as purchase a
-      conference  ticket for $15 at our Events Center in the lobby.  A meal ticket is also available
-      for $5.</detail> 
-    </event>
-    <event id="01002" date="20030105" showOnHomepage="true">
-      <title>Mexico Mission Trip</title>
-      <date>Jan 3rd-5th</date>
-      <detail>On Jan 3-5 come share the love of Jesus with His children South of the border in Ejido
-      Sandoval, Mexico.  Sign up at the Events Center in the lobby.</detail>  
-    </event>
-    <event id="01004" date="20030115" showOnHomepage="true">
-	 <title>Live Music - Eph-pha-tha</title>
-		<date>Jan 15th</date>
-		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. 	     </detail>
-		<ministries>
-			<ministry id="coffee"/>
-		</ministries>
-	</event>
-    <event id="01005" date="20030118" showOnHomepage="true">
-	 <title>Live Music - Lorenzo</title>
-		<date>Jan 18th</date>
-		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. 	     </detail>
-		<ministries>
-			<ministry id="coffee"/>
-		</ministries>
-	</event>
-    <event id="01006" date="20030125" showOnHomepage="true">
-	 <title>Live Music - Marcus Hernandez</title>
-		<date>Jan 25th</date>
-		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. 	     </detail>
-		<ministries>
-			<ministry id="coffee"/>
-		</ministries>
-	</event>
-    <event id="01007" date="20030108" showOnHomepage="true">
-	 <title>Live Music - Leaving Simon</title>
-		<date>Jan 8th</date>
-		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. 	     </detail>
-		<ministries>
-			<ministry id="coffee"/>
-		</ministries>
-	</event>
-    <event id="01008" date="20030111" showOnHomepage="true">
-	 <title>Live Music - Evans &amp; Curran</title>
-		<date>Jan 11th</date>
-		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. 	     </detail>
-		<ministries>
-			<ministry id="coffee"/>
-		</ministries>
-	</event>
 		<!--
     ===============
     Feb
     ===============
     -->
-    <event id="02001" date="20030220" showOnHomepage="true">
-      <title>2003 Mid-South Worship Conference</title>
-      <date>Feb 20-22</date>
-      <detail>We are bringing a worship conference to you!!  Calvary Austin is hosting the Mid-South Music &amp; Worship Conference Feb 20-22.  Holland Davis of Calvary Chapel Costa Mesa will be our guest worship leader &amp; speaker.  Early registration is $45 through today, Sunday, Feb 9.  Come by the Events Center.  Registration is $55 at the Events Center.<link href="../events/mwc2003.html">Learn more</link>...</detail> 
-    </event>
-
-    <event id="02002" date="20030209" showOnHomepage="true">
-      <title>Communion Service</title>
-      <date>Feb 9th, All Services</date>
-      <detail/>
-    </event>
-
-    <event id="02006" date="20030208" showOnHomepage="false">
-	 <title>Karaoke Night</title>
-		<date>Feb 8th</date>
-		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some karaoke, great coffee, and fellowship. 	     </detail>
-		<ministries>
-			<ministry id="coffee"/>
-		</ministries>
-	</event>
-
-    <event id="02007" date="20030201" showOnHomepage="true">
-	 <title>One Day Conference on Israel</title>
-		<date>Feb 1st</date>
-		<detail>Join us Saturday, Feb 1, for a day with Roni Simon.  He is a native of Israel, an IDF reservist, and has served as our
-tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Jesus' Israel, the State of Israel, and the Israel/Palestinian conflict.  The conference will run from 9AM to 3PM. The cost is $5 and you may sign up at the Events Center.</detail>
-		<ministries>
-			<ministry id="coffee"/>
-		</ministries>
-	</event>
-
-    <event id="02008" date="20030228" showOnHomepage="true">
-	 <title>Mexico Mission Trip</title>
-		<date>Feb 28th - Mar 2nd</date>
-		<detail>Looking for an opportunity to serve the LORD while having sweet fellowship with your family of God?  The weekend trip to Pan De Vida Mexico is just around the corner.  Check the Events Center for details.</detail>
-	</event>
-
-    <event id="02009" date="20030212" showOnHomepage="true">
-	 <title>Extended Worship</title>
-		<date>Feb 12th, 7PM</date>
-		<detail>Let’s come together this Wednesday, Feb 12, for a time of extended worship of the Lord during our regular midweek service at 7PM.</detail>
-	</event>
-
-    <event id="02010" date="20030219" showOnHomepage="true">
-	 <title>Vision Night</title>
-		<date>Feb 19th, 7PM</date>
-		<detail>Be sure not to miss Wednesday evening, Feb 19, as Pastor Allen shares the things that God has placed on the hearts of the leadership here at Calvary.  He’ll be sharing from the Word as well as providing updates on the progress of our search for a new facility.</detail>
-	</event>
-
-    <event id="02011" date="20030217" showOnHomepage="true">
-	 <title>New Believer's Class</title>
-		<date>Feb 17th, 7PM</date>
-		<detail>A 12-week New Believers’ class starts Feb 17 at 7PM.  Sign up at the Events Center.  This class covers basic Bible fundamentals for those interested in getting a firmer foundation on what they believe.</detail>
-	</event>
-
-    <event id="02012" date="20030219" showOnHomepage="true">
-	 <title>Crosswind</title>
-		<date>Feb 19th</date>
-		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	     </detail>
-		<ministries>
-			<ministry id="coffee"/>
-		</ministries>
-	</event>
-
-    <event id="02013" date="20030226" showOnHomepage="false">
-	 <title>Eph-pha-tha</title>
-		<date>Feb 26th</date>
-		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	     </detail>
-		<ministries>
-			<ministry id="coffee"/>
-		</ministries>
-	</event>
-
-
 		<!--
     ===============
     Mar
     ===============
     -->
-    <event id="03001" date="20030316" showOnHomepage="true">
-      <title>Calvary 2003 Women's Retreat</title>
-      <date>March 14-16th</date>
-      <detail>There is still room available to sign up for the Mar 14-16 women’s retreat.  Join us at beautiful Camp Balcones Springs for a refreshing time of teaching, reflection and fellowship. If you made a deposit, the remaining balances are due today at the Events Center.</detail>
-    </event>
-
-    <event id="03002" date="20030322" showOnHomepage="true">
-      <title>Worship Team/Community Auditions</title>
-      <date>Mar 22nd</date>
-      <detail>Auditions will be held this Saturday, Mar 22. The necessary audition packets are available at the Events Center in the lobby.  Please call the office if you have further questions. </detail>
-    </event>
-
-    <event id="03003" date="20030323" showOnHomepage="true">
-      <title>Heart-to-Heart</title>
-      <date>Mar 23rd</date>
-      <detail>Sign ups continue for Heart-to-Heart, the women's ministry that pairs up women once a year for the purpose of developing meaningful Christ-centered relationships. Pick up a pink Heart-to-Heart form, fill it out and turn it in at the Events Center by next Sunday, Mar 23.</detail>
-    </event>
-
-    <event id="03004" date="20030326" showOnHomepage="true">
-      <title>Communion Service</title>
-      <date>Mar 26th</date>
-      <detail>Join us this Wednesday, Mar 26, for the celebration of communion during our regular service at 7PM.</detail>
-    </event>
-
-    <event id="03005" date="20030326" showOnHomepage="true">
-	 <title>Crosswind</title>
-		<date>March 26th</date>
-		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	     <link href="http://www.crosswindmusic.net">Learn more</link> about Crosswind at their web site!</detail>
-		<ministries>
-			<ministry id="coffee"/>
-		</ministries>
-	</event>
-
-    <event id="03006" date="20030329" showOnHomepage="false">
-	 <title>Kevin Gathright</title>
-		<date>March 29th</date>
-		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	     </detail>
-		<ministries>
-			<ministry id="coffee"/>
-		</ministries>
-	</event>
-
-    <event id="03007" date="20030322" showOnHomepage="true">
-	 <title>Work Day</title>
-		<date>March 22th</date>
-		<detail>Saturday, Mar 22, will be a work day at the church from 8AM to 3PM.  No tools needed, just bodies.  There will be indoor and outdoor work to be done.  Come hang out and enjoy the fellowship.</detail>
-	</event>
-
 
 		<!--
     ===============
     Apr
     ===============
     -->
-    <event id="04001" date="20030413" showOnHomepage="true">
-      <title>Marriage Conference</title>
-      <date>May 2-4th (Deadline is Apr 13th)</date>
-      <detail>A 3-day marriage conference, May 2-4, by FamilyLife will be held at the Omni Austin Hotel Southpark.  The deadline for group registration at the Events Center (significant savings) is next Sunday, Apr 13.</detail>
-    </event>
-
-    <event id="04002" date="20030405" showOnHomepage="true">
-      <title>Evening of Worship</title>
-      <date>April 5th</date>
-      <detail>Please join us next Saturday, April 5, at 7PM.  Come and participate in worship, adoration and lingering in the presence of God.  Childcare will be provided for Nursery through Kindergarten.</detail>
-    </event>
-
 		<!--
     ===============
     May
     ===============
     -->
-    <event id="05001" date="20030530" showOnHomepage="true">
-      <title>Family Camp</title>
-      <date>May 30th-June 1st</date>
-      <intro>Join us for a wonderful camping experience with other families from Calvary Chapel.  We camp from May 30-June 1 at a beautiful campsite nestled in the Hill Country near New Braunsfels.  </intro>
-      <detail>Join us for a wonderful camping experience with other families from Calvary Chapel.  We camp from May 30-June 1 at a beautiful campsite nestled in the Hill Country near New Braunsfels.  We enjoy Bible devotions and live worship as well as lots of food and activities for children and.  Last year's canoe contest was the best!  Our families also enjoyed horseshoes, Frisbee, campfire fun, and fishing and swimming in the Blanco River!  There is a playground, restrooms with a full shower which is a must for some of us!  Our camp allows for a variety of camping preferences such as tents, trailers or even screen shelters.  First come, first served, space is limited.  Come all you small and big kids (parents)!   For questions or registration, call John Adams at 834-0173.</detail>
-		<ministries>
-			<ministry id="children"/>
-		</ministries>
-    </event>
-    <event id="05002" date="20030504" showOnHomepage="true">
-      <title>Mexico Mission Trip</title>
-      <date>May 2-4</date>
-      <detail>Join the Pan de Vida Ministry on May 2-4 as they share the love of Jesus with His children south of the border. Sign up at the Events Center in the lobby.</detail>
-    </event>
-    <event id="05003" date="20030501" showOnHomepage="true">
-      <title>National Day of Prayer</title>
-      <date>May 1</date>
-      <detail>Lift up our nation with us on Thursday, May 1, from 12-1:30PM. There will be a time of special music and prayer in the auditorium. A short reception will follow in the lobby.</detail>
-    </event>
-    <event id="05004" date="20030504" showOnHomepage="true">
-      <title>Communion Services</title>
-      <date>May 4</date>
-      <detail></detail>
-    </event>
-    <event id="05005" date="20030507" showOnHomepage="false">
-      <title>Extended Worship Service</title>
-      <date>May 7</date>
-      <detail></detail>
-    </event>
-    <event id="05006" date="20030507" showOnHomepage="true">
-	 <title>Crosswind</title>
-		<date>May 7th</date>
-		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	Visit Crosswind's site at <link href="www.crosswindmusic.net">www.crosswindmusic.net</link>   </detail>
-		<ministries>
-			<ministry id="coffee"/>
-		</ministries>
-    </event>
-    <event id="05007" date="20030521" showOnHomepage="true">
-	 <title>Eph-pha-tha</title>
-		<date>May 21th</date>
-		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	Visit Eph-pha-tha's site at <link href="www.ephphatha.com">www.ephphatha.com</link>      </detail>
-		<ministries>
-			<ministry id="coffee"/>
-		</ministries>
-    </event>
-    <event id="05008" date="20030510" showOnHomepage="true">
-	 <title>Kevin Gathright</title>
-		<date>May 10th</date>
-		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship.  </detail>
-		<ministries>
-			<ministry id="coffee"/>
-		</ministries>
-    </event>
-    <event id="05009" date="20030528" showOnHomepage="true">
-	 <title>YDC Awards Ceremony</title>
-		<date>May 28th</date>
-		<detail>Parents, join us in celebrating our children at the YDC Awards Ceremony on the newly scheduled date, May 28, from 6:15 - 7PM</detail>
-		<ministries>
-			<ministry id="ydc"/>
-		</ministries>
-    </event>
 		<!--
     ===============
     June
     ===============
     -->
-    <event id="06001" date="20030615" showOnHomepage="false">
-      <title>Front Line Corpus Mission Trip</title>
-      <date>June 13-15</date>
-      <detail>More details coming soon</detail>
-    </event>
-    <event id="06002" date="20030627" showOnHomepage="true">
-      <title>V.B.S. Day Camp</title>
-      <date>June 23rd-27th</date>
-      <detail>VBS is this week, Jun 23-27, from 9AM to 4PM daily. The registration cost is $10.  Extended care will be provided for an additional $25. <link href="../events/vbsdaycamp2003.html">More details...</link></detail>
-		<ministries>
-			<ministry id="children"/>
-		</ministries>
-    </event>
-    <event id="06002" date="20030618" showOnHomepage="true">
-	 <title>Crosswind</title>
-		<date>June 18th</date>
-		<detail>Crosswind is an electric full piece band from Austin. Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	     </detail>
-		<ministries>
-			<ministry id="coffee"/>
-		</ministries>
-    </event>
-    
-    <event id="06003" date="20030621" showOnHomepage="true">
-	 <title>Calvary Picnic and Baptism</title>
-		<date>June 21st</date>
-		<detail>On Saturday, Jun 21, we will offer a catered lunch from the "Texas Rib Kings."  Tickets for the BBQ, $5 for adults and $3 for children, are available at the Events Center.  The catered lunch starts at noon.  The baptism starts at 3PM.  The event will last until 4:30 and be held near the 1st boat ramp at Emma Long Park, 1706 City Park Road. 
-</detail>
-    </event>
-    
-    <event id="06004" date="20030608" showOnHomepage="true">
-	 <title>Calvary Kids Promotion Day</title>
-		<date>June 8th</date>
-		<detail>We will promote children from kindergarten and up to their next class on Sunday, Jun 8.</detail>
-    </event>
-
-    <event id="06005" date="20030618" showOnHomepage="true">
-	 <title>Communion</title>
-		<date>June 18th</date>
-		<detail>Join us for communion service</detail>
-    </event>
-
-    <event id="06006" date="20030614" showOnHomepage="true">
-	 <title>Stone</title>
-		<date>June 14th</date>
-		<detail>Stone is an acoustic rock band from Dallas . Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	     </detail>
-		<ministries>
-			<ministry id="coffee"/>
-		</ministries>
-    </event>
-    
-    <event id="06007" date="20030625" showOnHomepage="true">
-	 <title>Jacques Grant and Rewired</title>
-		<date>June 25th</date>
-		<detail>Jacques Grant and Rewired is a Chicago style blues band from Austin. Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	     </detail>
-		<ministries>
-			<ministry id="coffee"/>
-		</ministries>
-    </event>
-
-    <event id="06008" date="20030629" showOnHomepage="true">
-	 <title>Children's Ministry Orientation</title>
-		<date>June 29th</date>
-		<detail>For those involved or want to be involved, don't miss (you must attend) the orientation next Sunday, Jun 29, 5-7:30PM. Bring your family to the church for dinner, new CM manuals, childcare and prizes. Contact Laura Nattinger (260.6851) for more information.</detail>
-		<ministries>
-			<ministry id="coffee"/>
-		</ministries>
-    </event>
 		<!--
     ===============
     July
@@ -384,6 +58,8 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
 			<ministry id="coffee"/>
 		</ministries>
     </event>
+<!--
+    Moving to Aug - details later....
     <event id="07003" date="20030716" showOnHomepage="false">
 	 <title>Worshippers Wanted!</title>
 		<date>July 15th and 16th</date>
@@ -392,6 +68,7 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
 			<ministry id="worship"/>
 		</ministries>
     </event>
+    -->
     <event id="07004" date="20030709" showOnHomepage="false">
 	 <title>Eph-pha-tha</title>
 		<date>July 9th</date>
@@ -400,10 +77,16 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
 			<ministry id="coffee"/>
 		</ministries>
     </event>
-    <event id="07005" date="20030704" showOnHomepage="false">
+    <event id="07005" date="20030713" showOnHomepage="true">
 	 <title>Mexico Mission Trip</title>
-		<date>July 4th-6th</date>
-		<detail></detail>
+		<date>July 11th-13th</date>
+		<detail>Join the Pan de Vida Ministry on Jul 11-13 as they share the love of Jesus with His children south of the border.  Sign up at the Events Ceneter in the lobby.</detail>
+    </event>
+    <event id="07006" date="20030704" showOnHomepage="true">
+	 <title>4th of July Festivities</title>
+		<date>July 4th</date>
+		<logo align="right" img="../images/events/usflag.jpg" alt="4th of July Celebration"/>
+		<detail>Please join us at the Wells Branch Community Center for fun, fellowshp and fireworks.  Pick up a flyer at the Information Center in the lobby.</detail>
     </event>
 		<!--
     ===============
