@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.47 2003/09/30 16:04:59 gregk Exp $
+	$Id: whatsnew.xml,v 1.48 2003/10/05 12:25:34 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -219,6 +219,14 @@
 		<news-item id="79" date="20030915" expires="20031030" showOnHomepage="false">
 			<title>Men's Bible Study</title>
 			<detail>Sign up today at the Events Center for a study involving the New Testament Men of Faith. This class will meet every other Tuesday evening at 7PM starting on Sept 23.</detail>
+		</news-item>
+<news-item id="80" date="20031004" expires="20031030" showOnHomepage="true">
+			<title>Operation Christmas Child Shoe Box</title>
+			<detail>On Nov 23rd. So start saving medium to large shoe boxes to fill with gifts for poor and needy children around the world. Information on this ministry and how you can participate will be coming soon.</detail>
+		</news-item>
+		<news-item id="81" date="20031004" expires="20031130" showOnHomepage="false">
+			<title>The Cupboard</title>
+			<detail>Our food pantry will provide food to families in the body of Calvary during times of need. You may donate non-perishable food and personal hygiene items. Place donations in the Collection Area near the restrooms. If you need assistance from this ministry, contact the church office. For more information contact Derrick or Crystal Kinney at 310-2590</detail>
 		</news-item>
 	</news>
 </content>

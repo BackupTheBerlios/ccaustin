@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.75 2003/09/30 18:23:13 gregk Exp $
+	$Id: calendar.xml,v 1.76 2003/10/05 12:26:13 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -219,6 +219,12 @@
     </event>
     <event id="09010" date="20031106" showOnHomepage="true">
 	 <title>Mid-South Pastors and Leaders Conference</title>
+	 <detail>Conference is open to all who wish to sign up.  The cost is $55.
+Sandy
+Adams from CC Stone Mountain, Rick Coburn from CC Plano, Malcolm Wild
+from CC Merritt Island as well as our own, Allen Rigg, will speak on 
+the
+need for Praying Leaders.</detail>
 		<date>Nov 6th-8th</date>
     </event>
 		<!--
@@ -234,11 +240,21 @@
 	 <title>Extended Worship</title>
 		<date>Oct 22nd</date>
     </event>
+    <event id="10003" date="20031117" showOnHomepage="true">
+	 <title>Mexico Mission Trip</title>
+		<date>Nov 14-16</date>
+    </event>
+<event id="10004" date="20031124" showOnHomepage="false">
+	 <title>Operation Christmas Child Shoe Box</title>
+		<date>Nov 23rd</date>
+    </event>
+
 		<!--
 	===============
 			Nov
 	===============
 -->
+
 		<!--
 	===============
 			Dec
