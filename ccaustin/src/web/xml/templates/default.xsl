@@ -7,7 +7,7 @@
  Other variants of this file may offer more search engine or accessibility-friendly
  navigation and less Javascript features for older browsers. 
  
- $Id: default.xsl,v 1.1 2002/12/13 20:04:06 javajames27 Exp $
+ $Id: default.xsl,v 1.2 2003/01/24 23:37:20 javajames27 Exp $
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
  <xsl:output method="html" indent="yes"/>
@@ -51,7 +51,7 @@
           <!-- navigation -->
           <table border="0" cellspacing="0" cellpadding="0" width="100%">
             <tr> 
-              <td align="left" width="308" background="../images/homepage/blue.jpg"><a onmouseover="MM_showMenu(window.menu_about,0,17,null,'about_us');" onmouseout="MM_startTimeout();" href="../about/about.html">
+              <td align="left" width="460" background="../images/homepage/blue.jpg"><a onmouseover="MM_showMenu(window.menu_about,0,17,null,'about_us');" onmouseout="MM_startTimeout();" href="../about/about.html">
 <img name="about_us" src="../images/homepage/about_us.jpg" border="0" width="72" height="19"/></a>
               <a onmouseover="MM_showMenu(window.menu_news,0,17,null,'whats_new');" onmouseout="MM_startTimeout();" href="../news/index.html">
 <img name="whats_new" src="../images/homepage/whats_new.jpg" border="0" width="83" height="19"/></a>
@@ -60,7 +60,11 @@
               <a onmouseover="MM_showMenu(window.menu_ministries,0,17,null,'ministries');" onmouseout="MM_startTimeout();" href="../ministries/index.html">
 <img name="ministries" src="../images/homepage/ministries_1.jpg" border="0" width="63" height="19"/></a>
               <a onmouseover="MM_showMenu(window.menu_media,0,17,null,'media');" onmouseout="MM_startTimeout();" href="../media/index.html">
-<img name="media" src="../images/homepage/media.jpg" border="0" width="44" height="19"/></a></td>
+<img name="media" src="../images/homepage/media.jpg" border="0" width="44" height="19"/></a>     
+              <a href="../about/contact.html" alt="Get directions">
+<img name="directions" src="../images/homepage/directions.jpg" border="0" width="61" height="19"/></a>
+              <a href="../calendar/schedule.html" alt="Find service times">
+<img name="servicetimes" src="../images/homepage/servicetimes.jpg" border="0" width="81" height="19"/></a></td>
             </tr>
           </table>
           <!-- end navigation -->
