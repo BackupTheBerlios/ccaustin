@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.71 2003/08/31 02:08:43 gregk Exp $
+	$Id: calendar.xml,v 1.72 2003/09/06 04:31:18 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -169,7 +169,7 @@
     <event id="09001" date="20030927" showOnHomepage="true">
 	 <title> Men's Retreat</title>
 		<date>Sept 25th - 27th </date>
-		<detail>Signups are extended until Aug 31th. Register for the Sep 25-27 retreat at T-Bar-M Ranch in New Braunfels. The main speaker is Ken Graves from Calvary Chapel Bangor, Maine.  If your balance is not paid by this date or arrangements have not been made, you name will be dropped from the registration list. Sign up at the Events Center. Find out more details<link href="../events/mens2003retreat.html"> here.</link> </detail>
+		<detail>The Sept 25-27 retreat will be at T-Bar-M Ranch in New Braunfels. The main speaker is Ken Graves from Calvary Chapel Bangor, Maine. Find out more details<link href="../events/mens2003retreat.html"> here.</link> </detail>
 		<ministries>
 			<ministry id="men"/>
 		</ministries>
@@ -177,7 +177,7 @@
     <event id="09002" date="20030908" showOnHomepage="false">
 	 <title>School of Ministry - Fall Semester</title>
 		<date>Sept 8th</date>
-		<detail>Interested in learning more about apologetics, theology, church history, small group ministry, evangelism or inductive Bible study? We are taking signups until Aug 31th at the Events Center. School of Ministry begins Sept 8th and meets on Wednesdays at 7PM at the church.</detail>
+		<detail>Interested in learning more about apologetics, theology, church history, small group ministry, evangelism or inductive Bible study? School of Ministry begins Sept 8th and meets on Wednesdays at 7PM at the church.</detail>
 		<ministries>
 			<ministry id="school"/>
 		</ministries>
@@ -185,7 +185,7 @@
     <event id="09003" date="20030908" showOnHomepage="true">
 	 <title>Marriage Ministry</title>
 		<date>Sept 8th</date>
-		<detail>Sunday, Aug 10th is the last day to register for the Fall group meetings. Topics will include: Building your Mate's Self-Esteem, Raising Children of Faith, and Making Your Remarriage Last. Groups will meet starting the 2nd week of Sept. Cost is $16 per couple. Sign up at the Events Center. Spaces are limited. </detail>
+		<detail>Topics will include: Building your Mate's Self-Esteem, Raising Children of Faith, and Making Your Remarriage Last. Groups will meet starting the 2nd week of Sept. Cost is $16 per couple. Sign up at the Events Center. Spaces are limited. </detail>
 		<ministries>
 			<ministry id="marriage"/>
 		</ministries>
@@ -195,14 +195,31 @@
 		<date>Sept 5th-7th</date>
 		<detail>On Sept 5-7 come share the love of Jesus with His children south of the border in Pan De Vida. Sign up at the Events Center in the lobby. </detail>
     </event>
-    <event id="09005" date="20030825" showOnHomepage="true">
-	 <title>Communion</title>
+    <event id="09005" date="20030910" showOnHomepage="true">
+	 <title>Communion Service</title>
 		<date>Sept 10th</date>
-                <detail>Join us Sunday, Sept 10th, for the celebration of communion during all three services.</detail>
+                <detail>Join us Wednesday, Sept 10th, for the celebration of communion during our 7PM service.</detail>
     </event>
-    <event id="09006" date="20030825" showOnHomepage="false">
+    <event id="09006" date="20030908" showOnHomepage="false">
 	 <title>New Believers Class</title>
 		<date>Sept 8th</date>
+    </event>
+    <event id="09007" date="20030923" showOnHomepage="true">
+	 <title>Men's Bible Study</title>
+		<date>Sept 23rd</date>
+                <detail>Sign up at the Events Center for a study involving New Testament Men of Faith. The class will meet every other Tuesday evening at 7PM starting on Sept 23.</detail>
+    </event>
+    <event id="09008" date="20030916" showOnHomepage="false">
+	 <title>Women's Tues PM Bible Study</title>
+		<date>Sept 16th</date>
+    </event>
+    <event id="09009" date="20030923" showOnHomepage="false">
+	 <title>Women's Tues AM Bible Study</title>
+		<date>Sept 23rd</date>
+    </event>
+    <event id="09010" date="20031106" showOnHomepage="false">
+	 <title>Mid-South Pastors and Leaders Conference</title>
+		<date>Nov 6th-8th</date>
     </event>
 		<!--
 	===============

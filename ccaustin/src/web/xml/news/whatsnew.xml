@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.44 2003/08/27 06:05:33 gregk Exp $
+	$Id: whatsnew.xml,v 1.45 2003/09/06 04:33:35 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -160,11 +160,11 @@
 			<title>Scholarships Needed</title>
 			<detail>If you would like to give a partial or full scholarship for a poor college student to attend the 2003 Mid-South College and Career Retreat on Labor Day weekend, go by the Events Center.</detail>
 		</news-item>
-		<news-item id="65" date="20030810" expires="20030816" showOnHomepage="true">
+		<news-item id="65" date="20030810" expires="20030816" showOnHomepage="false">
 			<title>Bookstore</title>
 			<detail>Check-out all the Bibles, books, study guides, journals, and books for kids. You can also special order. The bookstore is open after every Wednesday and Sunday service.</detail>
 		</news-item>
-		<news-item id="66" date="20030810" expires="20030816" showOnHomepage="true">
+		<news-item id="66" date="20030810" expires="20030816" showOnHomepage="false">
 			<title>Audio</title>
 			<detail>Pastor Allen's messages are available on tape, CD, and MP3 after every service in the lobby. Tape catalogs are also available.</detail>
 		</news-item>
@@ -176,7 +176,7 @@
 			<title>Preorder Your "Live" Worship CD!</title>
 			<detail>Starting Aug 24th, you may support our recording project by preordering the Calvary Austin Worship CD at a 20% discount for $12. Come by the Events Center today.</detail>
 		</news-item>
-		<news-item id="69" date="20030824" expires="20030912" showOnHomepage="false">
+		<news-item id="69" date="20030824" expires="20030912" showOnHomepage="true">
 			<title>New Believers' Class</title>
 			<detail>The 12-week class in basic Bible fundamentals meets on Mondays at 7PM in the New Parents room starting Sept 8th. Sign up at the Events Center.</detail>
 		</news-item>
@@ -188,13 +188,21 @@
 			<title>Radio, TV and Internet</title>
 			<detail>Hear Pastor Allen on Calvary Continuum at NOON on KIXL 970AM or at 9:30AM on 1010AM. Watch our television program on cable access channel 11 Saturdays at NOON. Watch select services live on the internet or check out the audio archive on our web site.</detail>
 		</news-item>
-		<news-item id="72" date="20030825" expires="20030916" showOnHomepage="true">
+		<news-item id="72" date="20030825" expires="20030916" showOnHomepage="false">
 			<title>Audio</title>
 			<detail>Pastor Allen's messages are available on tape, CD, and MP3 after every service in the lobby. Tape catalogs are also available.</detail>
 		</news-item>
-		<news-item id="73" date="20030825" expires="20030916" showOnHomepage="true">
+		<news-item id="73" date="20030825" expires="20030916" showOnHomepage="false">
 			<title>Bookstore</title>
 			<detail>Check-out our large selection of books. You can also special order. The bookstore is open after every Wednesday and Sunday service.</detail>
+		</news-item>
+		<news-item id="74" date="20030905" expires="20030923" showOnHomepage="true">
+			<title>Toddler Teacher Needed</title>
+			<detail>The Women's Tuesday Morning Bible Study is in need of a paid teacher to teach the toddlers(ages 10 - 35 months) while their moms attend the study. The hours are from 9:40 AM to 11:40 AM starting Sept 23rd. If yor are interested in the position, please contact Vicky Lozano at 336-8368.</detail>
+		</news-item>
+		<news-item id="75" date="20030905" expires="20030930" showOnHomepage="false">
+			<title>The Cupboard</title>
+			<detail>Our food pantry will provide food to families in the body of Calvary during times of need. You may donate non-perishable food and personal hygiene items. Place donations in the Collection Area near the restrooms. If you need assistance from this ministry, contact the church office. For more information contact Derrick or Crystal Kinney at 310-2590</detail>
 		</news-item>
 	</news>
 </content>
