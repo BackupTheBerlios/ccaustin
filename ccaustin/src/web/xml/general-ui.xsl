@@ -13,7 +13,7 @@
 	A variant of this file may offer more search engine or accessibility-friendly
 	navigation and less Javascript features for older browsers. 
 	
-	$Id: general-ui.xsl,v 1.17 2002/07/03 13:37:48 javajames27 Exp $
+	$Id: general-ui.xsl,v 1.18 2002/07/03 16:50:19 javajames27 Exp $
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html" indent="yes"/>
@@ -63,7 +63,7 @@
 				      <!-- navigation -->
 				      <table border="0" cellspacing="0" cellpadding="0" width="100%">
 				        <tr> 
-				          <td align="left" width="308"><a onmouseover="MM_showMenu(window.mm_menu_0610133358_0,0,17,null,'about_us');" onmouseout="MM_startTimeout();" href="../about/about.html">
+				          <td align="left" width="308" background="../images/homepage/blue.jpg"><a onmouseover="MM_showMenu(window.mm_menu_0610133358_0,0,17,null,'about_us');" onmouseout="MM_startTimeout();" href="../about/about.html">
 <img name="about_us" src="../images/homepage/about_us.jpg" border="0" width="72" height="19"/></a>
 				          <a onmouseover="MM_showMenu(window.mm_menu_0610133533_1,0,17,null,'whats_new');" onmouseout="MM_startTimeout();" href="../news/whatsnew.html">
 <img name="whats_new" src="../images/homepage/whats_new.jpg" border="0" width="83" height="19"/></a>
@@ -73,7 +73,6 @@
 <img name="ministries" src="../images/homepage/ministries_1.jpg" border="0" width="63" height="19"/></a>
 				          <a onmouseover="MM_showMenu(window.mm_menu_0610133833_4,0,17,null,'media');" onmouseout="MM_startTimeout();" href="../media/index.html">
 <img name="media" src="../images/homepage/media.jpg" border="0" width="44" height="19"/></a></td>
-				          <td  width="99%" background="../images/homepage/blue.jpg"><br/></td>
 				        </tr>
 				      </table>
 				      <!-- end navigation -->
