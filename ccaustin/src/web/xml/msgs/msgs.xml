@@ -3665,6 +3665,7 @@
 		<passageref></passageref>
 	</message>
 <message date="20040519" service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 9-10</passage> <tape>BO1353</tape> <audio>bibleoverview/58-heb-09.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr009.html#top</passageref> </message> 
+<message date="20040526" service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 11</passage> <tape>BO1354</tape> <audio>bibleoverview/58-heb-11.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr009.html#top</passageref> </message> 
 
     	<message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
@@ -9809,5 +9810,23 @@
 	<tape>TS051604</tape> 
 	<audio>topicseries/momentum/momentumsix.wma</audio> 
 	<passageref>http://www.blueletterbible.org/kjv/Neh/Neh006.html#top</passageref> 
-	</message>      
+	</message>
+
+	<message date="20040523" service="sunday" category="topic message"> 
+	<seriestitle></seriestitle> 	
+	<title>Psalm 19</title> 
+	<passage></passage> 
+	<tape>TM052304</tape> 
+	<audio>topicmessage/TM052304.wma</audio> 
+	<passageref>http://www.blueletterbible.org/kjv/Psa/Psa019.html#top</passageref> 
+	</message>  
+    
+	<message date="20040530" service="sunday" category="topic message"> 
+	<seriestitle></seriestitle> 	
+	<title>Lange, Paul</title> 
+	<passage></passage> 
+	<tape>TM052304</tape> 
+	<audio>guestspeaker/plange053004.wma</audio> 
+	<passageref></passageref> 
+	</message>
 </messagecatalog>
