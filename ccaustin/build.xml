@@ -91,7 +91,7 @@
                 UTF-8 content type by using a hacked filter. This is
                 due to an XSL specification to force the meta entry
                 with UTF-8 in after the HEAD tag -->
-		<copy todir="${dist.web.dir}" filtering="true">
+		<copy todir="${dist.web.dir}" filtering="true" overwrite="true">
 			<fileset dir="${build.web.dir}">
 	                   <include name="**/*.html"/>
                         </fileset>
