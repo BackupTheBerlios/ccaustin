@@ -28,10 +28,11 @@ function	buildMenus()
   window.menuMedia = new Menu();
 
   menuMedia.addMenuItem( "Live Webcast",      "location='../media/live.html'"      );
-  menuMedia.addMenuItem( "Audio Archives",      "location='../msgs/msgsAudioArchive.html'"      );
+  menuMedia.addMenuItem( "Audio Archives",      "location='../msgs/msgsAudioArchive.html'" );
+  menuMedia.addMenuItem( "Sunday Messages", "location='../msgs/msgsSundayCur.html'" );
+  menuMedia.addMenuItem( "Midweek Messages", "location='../msgs/msgsMidweekCur.html'" );
   menuMedia.addMenuItem( "Tape Catalog",      "location='../msgs/msgsTapeArchive.html'"      );
   menuMedia.addMenuItem( "Radio &amp; Television", "location='../media/radiotv.html'" );
-
   menuMedia.disableDrag = true;
 
   //

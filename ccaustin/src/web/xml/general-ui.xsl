@@ -14,7 +14,7 @@
 	A variant of this file may offer more search engine or accessibility-friendly
 	navigation and less Javascript features for older browsers. 
 	
-	$Id: general-ui.xsl,v 1.7 2002/05/27 23:29:03 javajames27 Exp $
+	$Id: general-ui.xsl,v 1.8 2002/05/30 14:23:22 javajames27 Exp $
 -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl
@@ -195,17 +195,6 @@
   </tr>
   </tbody>
 </table>
-
-<!-- This section causes the menus to be built -->
-<script language="JavaScript1.2">
-<![CDATA[
-<!-- 
-if ( document.all ) 
-{   
-buildMenus(); 
-} //-->
-]]>
-</script>
 
 </body>
 </html>
