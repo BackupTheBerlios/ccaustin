@@ -40,4 +40,8 @@ fi
 # Do the work
 ant web deploy
 
+# Copy dev site over
+cp $DAILY_DIR/src/dev/* $DEPLOY_DIR/..
+cp -R $DAILY_DIR/images $DEPLOY_DIR/..
+
 echo Ending daily build at `date`
