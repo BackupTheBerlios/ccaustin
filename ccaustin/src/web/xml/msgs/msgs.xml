@@ -3160,6 +3160,15 @@
 		<audio>bibleoverview/44-act-12.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Act/Act012.html#top</passageref>
 	</message>
+	<message date="20020807" service="midweek" category="overview">
+		<seriestitle>Acts</seriestitle>
+		<title></title>
+		<passage>Acts 14-15</passage>
+		<tape>B01291</tape>
+		<audio>bibleoverview/44-act-14.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Act/Act014.html#top</passageref>
+	</message>
+
 
 
     <message date="19940522" service="sunday" category="topical series">
