@@ -164,7 +164,7 @@
 <xsl:for-each select="servant">
 <xsl:if test="position() mod 4 =1">
 <xsl:variable name="curr" select="position()"/>
-<xsl:variable name="total" select="2"/>
+<xsl:variable name="total" select="3"/>
 <tr>
  <td colspan="1" width="30%" class="textsubtitle">
                         <!--xsl:value-of select="$curr"/-->
