@@ -91,7 +91,7 @@
 	<!-- Creates the Calendar/Events section of the web site                         -->
 	<target name="web-calendar" depends="checkoptions" description="Creates the Calendar' section of the site.">
 		<style force="yes" style="${src.xml.dir}/calendar/schedule.xsl" in="${src.xml.dir}/calendar/schedule.xml" out="${build.web.dir}/calendar/schedule.html"/>
-		<style force="yes" style="${src.xml.dir}/calendar/events.xsl" in="${src.xml.dir}/calendar/events.xml" out="${build.web.dir}/calendar/events.html"/>
+		<style force="yes" style="${src.xml.dir}/calendar/calendar.xsl" in="${src.xml.dir}/calendar/calendar.xml" out="${build.web.dir}/calendar/calendar.html"/>
          </target>
 
         <!-- Creates the Tape/RealAudio section of the web site                         -->

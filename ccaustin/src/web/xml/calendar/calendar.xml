@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Calendar
+	
+	$Id: calendar.xml,v 1.1 2002/05/24 00:03:07 javajames27 Exp $
+		
+-->
+<content title="Calendar">
+	<calendar>
+<!--
+	===============
+			Jan
+	===============
+-->		
+<!--
+	===============
+			Feb
+	===============
+-->		
+<!--
+	===============
+			Mar
+	===============
+-->		
+<!--
+	===============
+			Apr
+	===============
+-->		
+<!--
+	===============
+			May
+	===============
+-->		
+<!--
+	===============
+			June
+	===============
+-->		
+		<event id="06001" date="20020607">
+			<title>Corpus Christi Outreach</title>
+			<date>June 7 - 9</date>
+			<detail>
+				Please call the church office at (512) 719-4667 for more information.
+			</detail>
+				<ministries>
+					<ministry id="frontline"/>
+				</ministries>
+		</event>
+		<event id="06002" date="20020624">
+			<title>Vacation Bible School</title>
+			<date>June 24th - 28th</date>
+			<detail>
+				Vacation Bible School is offered both day and eve sessions from June 24-28th. We are going to "visit" CAMP LOGOS this year and have lots of exciting camp adventures awaiting your children ages 4-12.  This event is free.  Invite your friends and be prepared to have a great time with a special Bible lesson each day that is supported with all kinds of activities.  Our last day will include Parent Nite with bounce rides and live horses and a cookout!  Call Kerry Schroeder for details (512) 219-7028.
+			</detail>
+			<location>Church</location>
+			<ministries>
+				<ministry id="children"/>
+			</ministries>
+		</event>
+		<event id="06003" date="20020626" childcare="yes">
+			<title>Children's Ministry Conference</title>
+			<date>June 26th</date>
+			<time>10am - 9pm</time>
+			<detail>
+				We are offering a conference for any person working with children in a church setting or even parents.  The conference will include special speakers, a conference manual, and 4 meals shared together on site as well as an abundance of workshops that you can choose from to enhance your ministry or parent skills.  Registration is open now. The event cost is $45.00 and will be held on July 26, from 10am-9pm and July 27 from 9am-4pm.  We are inviting churches locally as well as churches from several other mid-western states.  For more information call Donna Cano at (512) 255-7756.
+			</detail>
+			<location>Church</location>
+			<ministries>
+				<ministry id="children"/>
+			</ministries>
+		</event>
+		<event id="06004" date="20020622">
+			<title>Live Music - Paul Finley</title>
+			<date>June 22</date>
+			<time>8:00pm</time>
+			<detail>
+				Stop by for live music!
+			</detail>
+			<location>Coffee Creator</location>
+			<ministries>
+				<ministry id="coffee"/>
+			</ministries>
+		</event>
+		<event id="06005" date="20020629">
+			<title>Live Music - Ten Thirty-One</title>
+			<date>June 29</date>
+			<time>8:00pm</time>
+			<detail>
+				Stop by for live music!
+			</detail>
+			<location>Coffee Creator</location>
+			<ministries>
+				<ministry id="coffee"/>
+			</ministries>
+		</event>
+
+<!--
+	===============
+			July
+	===============
+-->		
+		<event id="07001" date="20020713">
+			<title>Worship Community Auditions</title>
+			<date>July 13th</date>
+			<time>TBD</time>
+			<detail>
+				Please call the church office to pick up your audition packet at (512) 719-4667.
+			</detail>
+			<location>Church</location>
+			<ministries>
+				<ministry id="worshipcommunity"/>
+			</ministries>
+		</event>
+		<event id="07002" date="20020717">
+			<title>Scopes Trial Outreach</title>
+			<date>July 17 - 21</date>
+			<detail>
+				Please call the church office at (512) 719-4667 for more information.
+			</detail>
+			<ministries>
+				<ministry id="frontline"/>
+			</ministries>
+		</event>
+		<event id="07003" date="20020727" childCare="yes">
+			<title>Children's Ministry Conference</title>
+			<date>July 27th</date>
+			<detail>
+				We are offering a conference for any person working with children in a church setting or even parents.  The conference will include special speakers, a conference manual, and 4 meals shared together on site as well as an abundance of workshops that you can choose from to enhance your ministry or parent skills.  Registration is open now. The event cost is $45.00 and will be held on July 26, from 10am-9pm and July 27 from 9am-4pm.  We are inviting churches locally as well as churches from several other mid-western states.  For more information call Donna Cano at (512) 255-7756.
+			</detail>
+			<ministries>
+				<ministry id="children"/>
+			</ministries>
+		</event>
+
+<!--
+	===============
+			Aug
+	===============
+-->		
+		<event id="08001" date="20020830">
+			<title>Frontline Retreat</title>
+			<date>Aug 30 - Sept 2</date>
+			<detail>
+				Please call the church office at (512) 719-4667 for more information.
+			</detail>
+			<location>Camp Balcones</location>
+			<ministries>
+				<ministry id="frontline"/>
+			</ministries>
+		</event>
+
+<!--
+	===============
+			Sept
+	===============
+-->		
+<!--
+	===============
+			Oct
+	===============
+-->		
+<!--
+	===============
+			Nov
+	===============
+-->		
+<!--
+	===============
+			Dec
+	===============
+-->		
+		
+<!--
+	===============
+		Coming Soon
+	===============
+-->		
+		<event id="13001" date="TBA">
+			<title>Family Camp</title>
+			<date>Coming Soon!</date>
+			<detail>
+				Family Camp is a camping weekend designed to fellowship with other families from church with lots of fun, planned activities and just kick around free time with our kids.  Look forward to campfire worship and smores!  Call John Adams for details at (512) 83473
+			</detail>
+			<ministries>
+				<ministry id="children"/>
+			</ministries>
+		</event>
+		
+	</calendar>
+</content>

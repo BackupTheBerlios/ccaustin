@@ -12,7 +12,7 @@ function	buildMenus()
 
   window.menuEvent = new Menu();
 
-  menuEvent.addMenuItem( "Calendar",     "location='../calendar/events.html'"      );
+  menuEvent.addMenuItem( "Calendar",     "location='../calendar/calendar.html'"      );
   menuEvent.disableDrag = true;
 
 
