@@ -46,6 +46,7 @@
 		<antcall target="web-messages"/>
 		<antcall target="web-ministries"/>
 		<antcall target="web-homepage"/>
+		<antcall target="web-articles"/>
 		<antcall target="copy-files"/>
 	</target>
 	
@@ -120,6 +121,12 @@
         <!-- Creates the Ministry section of the web site                         -->
 	<target name="web-homepage" depends="checkoptions" description="Creates the homepage section of the site">
                 <style force="yes" style="${src.xml.dir}/homepage/home.xsl" in="${src.xml.dir}/homepage/home.xml" out="${build.web.dir}/homepage/index.html"/> 
+                <style force="yes" style="${src.xml.dir}/homepage/index.xsl" in="${src.xml.dir}/homepage/index.xml" out="${build.web.dir}/index.html"/> 
+        </target>
+
+        <!-- Creates the Articles section of the web site                         -->
+	<target name="web-articles" depends="checkoptions" description="Creates the homepage section of the site">
+                <style force="yes" style="${src.xml.dir}/articles/articles.xsl" basedir="${src.xml.dir}/articles" destdir="${build.web.dir}/articles" includes="**/*.xml"/> 
                 <style force="yes" style="${src.xml.dir}/homepage/index.xsl" in="${src.xml.dir}/homepage/index.xml" out="${build.web.dir}/index.html"/> 
         </target>
 
