@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content title="Meet the Staff">
+<stafflist>
+<staffulltime>
+	<servant id="allen">
+	     <fullname>Pastor Allen</fullname>
+		<first-name>Allen</first-name>
+		<last-name>Rigg</last-name>
+		<thumbnail href="../images/staff/allenthumb.jpg"/>
+		<small-photo href="../images/staff/allenweb.jpg"/>
+		<large-photo href="../images/staff/allenweb.jpg"/>
+		<role ministry="church" title="Senior Pastor"/>
+	</servant>
+	<servant id="andrea">
+		<fullname>Andrea Rigg</fullname>
+		<first-name>Andrea</first-name>
+		<last-name>Rigg</last-name>
+		<thumbnail href="../images/staff/andreathumb.jpg"/>
+		<small-photo href="../images/staff/andreaweb.jpg"/>
+		<large-photo href="../images/staff/andreaweb.jpg"/>
+		<role ministry="church" title="Pastor's wife"/>
+	</servant>
+<!--
+	<servant id="jean">
+		<fullname>Jean Janes</fullname>
+		<first-name>Jean</first-name>
+		<last-name>Janes</last-name>
+		<thumbnail href="../images/staff/jeanthumb.jpg"/>
+		<small-photo href="../images/staff/jeanweb.jpg"/>
+		<large-photo href="../images/staff/jeanweb.jpg"/>
+		<role ministry="church" title="Secretary"/>
+	</servant>
+-->
+	<servant id="donna">
+		<fullname>Donna Cano</fullname>
+		<first-name>Donna</first-name>
+		<last-name>Cano</last-name>
+		<thumbnail href="../images/staff/donnathumb.jpg"/>
+		<small-photo href="../images/staff/donnaweb.jpg"/>
+		<large-photo href="../images/staff/donnaweb.jpg"/>
+		<role ministry="children" title="Children's Ministry Director"/>
+	</servant>
+	<servant id="david">
+		<fullname>David Reynolds</fullname>
+		<first-name>David</first-name>
+		<last-name>Reynolds</last-name>
+		<thumbnail href="../images/staff/davidthumb.jpg"/>
+		<small-photo href="../images/staff/davidweb.jpg"/>
+		<large-photo href="../images/staff/davidweb.jpg"/>
+		<role ministry="worship" title="Worship Pastor"/>
+	</servant>
+	<servant id="bunjee">
+		<fullname>Bunjee Garrett</fullname>
+		<first-name>Bunjee</first-name>
+		<last-name>Garrett</last-name>
+		<thumbnail href="../images/staff/bunjeethumb.jpg"/>
+		<small-photo href="../images/staff/bunjeeweb.jpg"/>
+		<large-photo href="../images/staff/bunjeeweb.jpg"/>
+		<role ministry="frontline" title="Discipleship Pastor"/>
+	</servant>
+<!--
+	<servant id="john">
+		<fullname>John Newberry</fullname>
+		<first-name>John</first-name>
+		<last-name>Newberry</last-name>
+		<thumbnail href="../images/staff/johnthumb.jpg"/>
+		<small-photo href="../images/staff/johnweb.jpg"/>
+		<large-photo href="../images/staff/johnweb.jpg"/>
+		<role ministry="youth" title="Youth Pastor"/>
+	</servant>
+-->
+	<servant id="glendon">
+		<fullname>Glendon Nicks</fullname>
+		<first-name>Glendon</first-name>
+		<last-name>Nicks</last-name>
+		<thumbnail href="../images/staff/glendonthumb.jpg"/>
+		<small-photo href="../images/staff/glendonweb.jpg"/>
+		<large-photo href="../images/staff/glendonweb.jpg"/>
+		<role ministry="church" title="Assisting Pastor"/>
+	</servant>
+	<servant id="katherine">
+		<fullname>Katherine E. Nogues</fullname>
+		<first-name>Katherine</first-name>
+		<last-name>Nogues</last-name>
+		<thumbnail href="../images/staff/katherinethumb.jpg"/>
+		<small-photo href="../images/staff/katherineweb.jpg"/>
+		<large-photo href="../images/staff/katherineweb.jpg"/>
+		<role ministry="church" title="Calvary Secretary"/>
+	</servant>
+	<servant id="mike">
+		<fullname>Mike Hardcastle</fullname>
+		<first-name>Mike</first-name>
+		<last-name>Hardcastle</last-name>
+		<thumbnail href="../images/staff/mikethumb.jpg"/>
+		<small-photo href="../images/staff/mikeweb.jpg"/>
+		<large-photo href="../images/staff/mikeweb.jpg"/>
+		<role ministry="church" title="Executive Director"/>
+	</servant>
+	<servant id="derrick">
+		<fullname>Derrick Kinney</fullname>
+		<first-name>Derrick</first-name>
+		<last-name>Kinney</last-name>
+		<thumbnail href="../images/staff/Derrickthumb.jpg"/>
+		<small-photo href="../images/staff/derrickweb.jpg"/>
+		<large-photo href="../images/staff/derrickweb.jpg"/>
+		<role ministry="church" title="Marriage Pastor"/>
+	</servant>
+</staffulltime>
+<staffparttime>
+	<servant id="jeremy">
+		<fullname>Jeremy Valencia</fullname>
+		<first-name>Jeremy</first-name>
+		<last-name>Valencia</last-name>
+		<thumbnail href="../images/staff/jeremythumb.jpg"/>
+		<small-photo href="../images/staff/jeremyweb.jpg"/>
+		<large-photo href="../images/staff/jeremyweb.jpg"/>
+		<role ministry="church" title="Multi-Media Ministry Leader"/>
+	</servant>
+	<servant id="vance">
+		<fullname>Vance Zimmerman</fullname>
+		<first-name>Vance</first-name>
+		<last-name>Zimmerman</last-name>
+		<thumbnail href="../images/staff/vancethumb.jpg"/>
+		<small-photo href="../images/staff/vanceweb.jpg"/>
+		<large-photo href="../images/staff/vanceweb.jpg"/>
+		<role ministry="church" title="Sound Ministry Leader"/>
+	</servant>
+	<servant id="debbie">
+		<fullname>Debbie Bryson</fullname>
+		<first-name>Debbie</first-name>
+		<last-name>Bryson</last-name>
+		<thumbnail href="../images/staff/soonthumb.jpg"/>
+		<small-photo href="../images/staff/soon.jpg"/>
+		<large-photo href="../images/staff/soon.jpg"/>
+		<role ministry="church" title="Coffee Creator"/>
+	</servant>
+</staffparttime>
+<elder>
+	<servant id="jason">
+		<fullname>Jason Moore</fullname>
+		<first-name>Jason</first-name>
+		<last-name>Moore</last-name>
+		<thumbnail href="../images/staff/Jasonthumb.jpg"/>
+		<small-photo href="../images/staff/jasonweb.jpg"/>
+		<large-photo href="../images/staff/jasonweb.jpg"/>
+		<role ministry="church" title="Calvary Discipleship Leader"/>
+	</servant>
+	<servant id="james">
+		<fullname>James Lazono</fullname>
+		<first-name>James</first-name>
+		<last-name>Lazono</last-name>
+		<thumbnail href="../images/staff/Jamesthumb.jpg"/>
+		<small-photo href="../images/staff/jamesweb.jpg"/>
+		<large-photo href="../images/staff/jamesweb.jpg"/>
+		<role ministry="church" title="New Believer's Teacher"/>
+	</servant>
+	<servant id="bones">
+		<fullname>Bones Uk</fullname>
+		<first-name>Bones</first-name>
+		<last-name>Uk</last-name>
+		<thumbnail href="../images/staff/bonesthumb.jpg"/>
+		<small-photo href="../images/staff/bonesweb.jpg"/>
+		<large-photo href="../images/staff/bonesweb.jpg"/>
+		<role ministry="church" title="Elder"/>
+	</servant>
+	<servant id="craig">
+		<fullname>Craig Swearingen</fullname>
+		<first-name>Craig</first-name>
+		<last-name>Swearingen</last-name>
+		<thumbnail href="../images/staff/craigthumb.jpg"/>
+		<small-photo href="../images/staff/craigweb.jpg"/>
+		<large-photo href="../images/staff/craigweb.jpg"/>
+		<role ministry="church" title="Elder"/>
+	</servant>
+	<servant id="mark">
+		<fullname>Mark Achee</fullname>
+		<first-name>Mark</first-name>
+		<last-name>Achee</last-name>
+		<thumbnail href="../images/staff/markthumb.jpg"/>
+		<small-photo href="../images/staff/markweb.jpg"/>
+		<large-photo href="../images/staff/markweb.jpg"/>
+		<role ministry="church" title="Elder &amp; Seasoned Saints Leader"/>
+	</servant>
+	<servant id="matt">
+		<fullname>Matt Lang</fullname>
+		<first-name>Matt</first-name>
+		<last-name>Lang</last-name>
+		<thumbnail href="../images/staff/mattthumb.jpg"/>
+		<small-photo href="../images/staff/mattweb.jpg"/>
+		<large-photo href="../images/staff/mattweb.jpg"/>
+		<role ministry="church" title="Elder &amp; Greeting Ministry"/>
+	</servant>
+</elder>
+</stafflist>
+</content>

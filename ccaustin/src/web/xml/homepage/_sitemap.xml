@@ -6,7 +6,7 @@
         The sitemap contains the structure of the entire web site, and is used to drive
         the auto-generated scripts for generating the web site HTML from XML.
         
-        $Id: _sitemap.xml,v 1.2 2004/07/28 22:55:34 premav Exp $
+        $Id: _sitemap.xml,v 1.3 2004/07/29 14:15:08 premav Exp $
         
         hidden="true" prevents the page from showing on the sitemap.
         
@@ -100,14 +100,14 @@
       <title>Our Vision</title>
       <description>Catch the vision for Calvary Chapel of Austin</description>
     </page>
-    <!--page datafile="/staff.xml"
+	<page datafile="/staff.xml"
           template="/templates/default.xsl"
           layout="/layouts/default.xsl"
           renderer="/renderers/staff.xsl"
           html="/about/staff.html">
       <title>Our Staff</title>
       <description>Meet Calvary Austin's Staff</description>
-    </page-->
+    </page>
     <page datafile="/aroundtown.xml"
           template="/templates/default.xsl"
           layout="/layouts/default.xsl"
@@ -806,11 +806,12 @@
           template="/templates/empty.xsl"
           layout="/layouts/empty.xsl"
           renderer="/renderers/gen-staff.xsl"
-          tempout="/_staff.xml"
+          tempout="/staff.xml"
           hidden="true">
       <title>Generates staff members from the list of servants</title>
     </page>
-    <page tempin="/_staff.xml"
+<!--prema: changed _staff.xml to staff.xml in tempout and tempin xml elements; the staff.xml is generated from servants.xml into tempgen; I want staff.xml/servants.xml to be automatically generated into src/web/xml/about/ directory; i did not know how to do it. So i copied manually to that dir from ccaustin/build/_tmpgen; if anybody knows how to do it, mail to prema_vanand@yahoo.com-->
+    <page tempin="/staff.xml"
           template="/templates/default.xsl"
           layout="/layouts/default.xsl"
           renderer="/renderers/staff.xsl"
@@ -864,6 +865,13 @@
           layout="/layouts/default.xsl"
           renderer="/renderers/vance.xsl"
           html="/about/Vance.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/debbie.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/debbie.xsl"
+          html="/about/Debbie.html">
       <title>Generates staff member Bio</title>
     </page>
     <page datafile="/jason.xml"
