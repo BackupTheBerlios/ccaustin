@@ -4,7 +4,7 @@
      
      Homepage custom renderer
 
-     $Id: homepage.xsl,v 1.11 2004/03/18 08:44:42 gregk Exp $
+     $Id: homepage.xsl,v 1.12 2004/03/19 15:05:16 gregk Exp $
      
 -->       
 
@@ -15,7 +15,6 @@
 
   <!-- Include the HTML Renderer, since we are really just extending it  -->
   <xsl:include href="html.xsl"/>
-
 <xsl:template match="home">
   <!-- Content layout table -->
       <table width="100%" cellpadding="0" cellspacing="0"  border="0">
@@ -239,6 +238,8 @@
 </xsl:template>
 
 <xsl:template match="banner/event">
+<a class="readmore" href="http://www.easterservice.com">Learn About A Special Easter Celebration!</a>
+<br/>
 <br/>
 <a class="readmore" href="http://www.calvaryaustinmusic.org">Check Out The Calvary Austin Music Scene!</a>
 <!--
