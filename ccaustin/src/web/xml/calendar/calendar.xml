@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.66 2003/08/03 04:30:11 gregk Exp $
+	$Id: calendar.xml,v 1.67 2003/08/05 03:56:13 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -122,9 +122,9 @@
 		</ministries>
     </event>
     <event id="08007" date="20030809" showOnHomepage="true">
-	 <title>YDC STARTS A NEW YEAR</title>
+	 <title>YDC Starts A New Year</title>
 		<date>Aug 6th</date>
-		<detail>Young Disciples club is a discipleship club for Wise Guys, Witnesses and Watchmen -- boys and girls Kindergarten through Fifth grade. There is worship, Bible teaching, game and group times each Wednesday enening at 7PM.</detail>
+		<detail>Young Disciples Club is a discipleship club for Wise Guys, Witnesses and Watchmen -- boys and girls Kindergarten through Fifth grade. There is worship, Bible teaching, game and group times each Wednesday enening at 7PM.</detail>
 		<ministries>
 			<ministry id="children"/>
 		</ministries>

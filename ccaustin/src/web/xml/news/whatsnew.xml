@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.41 2003/07/26 05:32:58 gregk Exp $
+	$Id: whatsnew.xml,v 1.42 2003/08/05 03:56:13 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -152,15 +152,15 @@
 			<title>Radio, TV and Internet</title>
 			<detail>Hear Pastor Allen on Calvary Continuum at NOON and 7:30PM on KIXL 970AM or watch our television program on cable access channel 11 Saturdays at NOON. Watch select services live on the internet or check out the audio archive on our web site.</detail>
 		</news-item>
-		<news-item id="63" date="20030726" expires="20030802" showOnHomepage="true">
+		<news-item id="63" date="20030726" expires="20030812" showOnHomepage="true">
 			<title>Bookstore</title>
 			<detail>Check-out all the Bibles, books, study guides, journals, and books for kids. You can also special order. The bookstore is open after every Wednesday and Sunday service.</detail>
 		</news-item>
-		<news-item id="64" date="20030726" expires="20030802" showOnHomepage="true">
+		<news-item id="64" date="20030726" expires="20030812" showOnHomepage="true">
 			<title>Audio</title>
 			<detail>Pastor Allen's messages are available on tape, CD, and MP3 after every service in the lobby. Tape catalogs are also avalable.</detail>
 		</news-item>
-		<news-item id="65" date="20030726" expires="20030802" showOnHomepage="true">
+		<news-item id="65" date="20030726" expires="20030812" showOnHomepage="true">
 			<title>Radio, TV and Internet</title>
 			<detail>Hear Pastor Allen on Calvary Continuum at NOON and 7:30PM on KIXL 970AM or watch our television program on cable access channel 11 Saturdays at NOON. Watch select services live on the internet or check out the audio archive on our web site.</detail>
 		</news-item>
