@@ -3,7 +3,7 @@
 
 	Women's Ministry - The ministry and its detail
 	
-	$Id: women.xml,v 1.3 2002/05/25 23:47:32 javajames27 Exp $
+	$Id: women.xml,v 1.4 2004/05/05 15:30:32 gregk Exp $
 		
 -->
 <content title="Women's Ministry">
@@ -17,9 +17,11 @@
 	    <p>In an attempt to meet the needs of varying schedules, 2 Bible studies are offered in the fall and spring. One is the morning bible study, and the other is the evening Bible study. Each have their own times and meeting schedules.
  		<link href="../ministries/womenstudy.html">Learn more...</link></p>
 
+<!--
 	    <heading>Discipleship</heading>
 	    <p>"Heart to Heart" is the one-on-one discipleship, allowing new Christian women to grow in their faith.
 	     <link href="../ministries/womenheart.html">Learn more...</link></p>
+-->
 
 	    <heading>Biblical Counseling</heading>
 	    <p>"Women Helping Women" is available to help provide scripture that can be directly applied to struggles occuring in women's lives.
