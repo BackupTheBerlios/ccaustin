@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Calvary Radio and TV
+	
+	$Id: radiotv.xml,v 1.1 2002/04/11 02:31:47 javajames27 Exp $
+		
+-->
+<content title="Calvary Radio and Television" base=".">
+
+	<radio>
+		<description>The Calvary Continuum radio show is found in the Austin area on <link href="http://www.kixl.com">KIXL 970 AM</link>. You can hear Pastor Allen 5 days a week, twice a day:</description>
+		<timeslot>
+			<day>Monday - Friday</day>
+			<time>10:30 AM</time>
+			<time>7:30 PM</time>
+			<note>All times are CST</note>
+		</timeslot>
+	</radio>
+	
+	<tv>
+		<description>Pastor Allen's teaching is broadcast on Austin's cable access channel 11. These lessons, videotaped during our services, can be seen at:</description>
+		<timeslot>
+			<day>Saturday</day>
+			<time>1:00 PM</time>
+			<note>All times are CST</note>
+		</timeslot>
+	</tv>
+	
+</content>

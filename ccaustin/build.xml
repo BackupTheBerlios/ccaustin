@@ -150,6 +150,8 @@
 	<target name="web-media" depends="checkoptions" description="Creates the media section of the site">
                 <style force="yes" style="${src.xml.dir}/media/live.xsl" in="${src.xml.dir}/media/live.xml" out="${build.web.dir}/media/live.html"/> 
                 <style force="yes" style="${src.xml.dir}/media/viewlive.xsl" in="${src.xml.dir}/media/viewlive.xml" out="${build.web.dir}/media/viewlive.html"/> 
+                <style force="yes" style="${src.xml.dir}/media/radiotv.xsl" in="${src.xml.dir}/media/radiotv.xml" out="${build.web.dir}/media/radiotv.html"/> 
+                <style force="yes" style="${src.xml.dir}/media/continuum.xsl" in="${src.xml.dir}/media/continuum.xml" out="${build.web.dir}/continuum.html"/> <!-- redirect for older pages -->
         </target>
 
 	<!-- =================================================================== -->

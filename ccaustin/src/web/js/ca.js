@@ -30,7 +30,7 @@ function	buildMenus()
   menuMedia.addMenuItem( "Live Webcast",      "location='../media/live.html'"      );
   menuMedia.addMenuItem( "Audio Archives",      "location='../msgs/msgsAudioArchive.html'"      );
   menuMedia.addMenuItem( "Tape Catalog",      "location='../msgs/msgsTapeArchive.html'"      );
-  menuMedia.addMenuItem( "Radio &amp; Television", "location='continuum.html'" );
+  menuMedia.addMenuItem( "Radio &amp; Television", "location='../media/radiotv.html'" );
 
   menuMedia.disableDrag = true;
 

@@ -3,10 +3,10 @@
 
 	Calvary View Live
 	
-	$Id: viewlive.xml,v 1.1 2002/04/11 01:45:49 javajames27 Exp $
+	$Id: viewlive.xml,v 1.2 2002/04/11 02:31:47 javajames27 Exp $
 		
 -->
-<content title="Calvary Live" base=".">
+<content title="View Calvary Live" base=".">
 
 	<live-feed>
 		<embedded href="http://www.calvarychapel.org/austin/video/live.rpm"/>

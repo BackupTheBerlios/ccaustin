@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	The simple index page for the site
+	
+	$Id: continuum.xml,v 1.1 2002/04/11 02:31:47 javajames27 Exp $
+		
+-->
+<content title="Continuum" base=".">
+	<redirect href="media/radiotv.html"/>
+</content>
