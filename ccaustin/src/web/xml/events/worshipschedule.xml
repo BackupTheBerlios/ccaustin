@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+       Worship Life '04 Mid-South Worship Conference Schedule
+
+	$Id: worshipschedule.xml,v 1.1 2004/02/10 09:32:12 gregk Exp $
+		
+-->
+<content title="2004 MidSouth Worship Life Conference Schedule">
+     <heading>WORSHIP LIFE '04 CONFERENCE SCHEDULE</heading>
+<br></br>
+<table>
+      <row>
+       <data>Thursday</data>
+       <data>(General Session I)</data>
+      </row>
+      <row>
+       <data>7:30pm</data>
+       <data>Worship - Sunday Drivers</data>
+      </row>
+      <row>
+       <data>8:00pm</data>
+       <data>Message - Art Murillo "The Devoted and Disciplined Worshipper"</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+      <row>
+       <data>9:00pm</data>
+       <data>BREAK</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+      <row>
+       <data>9:30pm</data>
+       <data>Worship Cafe @ Coffee Creator - Open Mic (sign-up at Events Center registration table)</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+      <row><data xml:space="preserve"><br></br></data></row>
+      <row>
+       <data>Friday</data>
+       <data>(General Session II)</data>
+      </row>
+      <row>
+       <data>7:45am</data>
+       <data>Continental Breakfast</data>
+      </row>
+      <row>
+       <data>8:30am</data>
+       <data>Worship - Calvary Austin</data>
+      </row>
+      <row>
+       <data>9:00am</data>
+       <data>Message - Allen Rigg "The Team Worshipper"</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+      <row>
+       <data>10:00am</data>
+       <data>BREAK</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+      <row>
+       <data>.</data>
+       <data>(General Session III)</data>
+      </row>
+      <row>
+       <data>10:15am</data>
+       <data>Worship - Holland Davis</data>
+      </row>
+      <row>
+       <data>10:45am</data>
+       <data>Message - Holland Davis "The Submitted Worshipper"</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+
+      <row>
+       <data>LUNCH BREAK</data>
+       <data>AND CONCERTS</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+
+      <row>
+       <data>Coffee Creator</data> 
+       <data>Fredie Dorian, Troy Neeley</data>
+      </row>
+      <row>
+       <data>Youth Room</data> 
+       <data>(Still TBD)</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+      <row>
+       <data>1:15pm</data>
+       <data>Workshop I</data>
+      </row>
+      <row>
+       <data>Guitars and Keyboards</data>
+       <data>Playing Together (without stepping all over each other) - Art Murillo and Leo Correia</data>
+      </row>
+      <row>
+       <data>Drums, Bass and Percussion</data>
+       <data>Rhythm Section(Laying It Down)
+       - Eddie Martinez, Isaac Dominguez and Gerard Powell</data>
+      </row>
+      <row>
+       <data>Worship Leading</data>
+       <data>Holland Davis</data>
+      </row>
+      <row>
+       <data>Vocals</data>
+       <data>(The role of the vocalist) - Rhoda Murillo</data>
+      </row>
+      <row>
+       <data>Sound I</data>
+       <data>Frank Bailey</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+      <row>
+       <data>2:30pm</data>
+       <data>BREAK</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+      <row>
+       <data>2:45pm</data>
+       <data>Workshop II</data>
+      </row>
+      <row>
+       <data>Vocal Arranging</data>
+       <data>Art Murillo and Sunday Drivers</data>
+      </row>
+      <row>
+       <data>Songwriting</data>
+       <data>Holland Davis</data>
+      </row>
+      <row>
+       <data>Sound II</data>
+       <data>Frank Bailey</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+      <row>
+       <data>Q&amp;A Sessions</data>
+      </row>
+      <row>
+       <data>Drums</data>
+       <data>Eddie Martinez</data>
+      </row>
+      <row>
+       <data>Bass</data>
+       <data>Isaac Dominguez</data>
+      </row>
+      <row>
+       <data>Percussion</data> 
+       <data>Gerard Powell</data>
+      </row>
+      <row>
+       <data>Acoustic Guitar</data> 
+       <data>Leo Correia</data>
+      </row>
+      <row>
+       <data>Electric Guitar</data> 
+       <data>Phil Scholling</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+      <row>
+       <data>4:00pm</data>
+       <data>BREAK</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+      <row>
+       <data>7:30pm</data>
+       <data>Worship Celebration - Sunday Drivers (time of celebration, ministry, waiting on the Lord - as the Spirit leads)</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+      <row>
+       <data>9:00pm</data>
+       <data>BREAK</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+      <row>
+       <data>9:30pm</data>
+       <data>Concert - Youth Room (Gracemongers and Soul Atone)</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+      <row><data xml:space="preserve"><br></br></data></row>
+      <row>
+       <data>Saturday</data>
+       <data>(General Session IV)</data>
+      </row>
+      <row>
+       <data>7:45am</data>
+       <data>Continental Breakfast</data>
+      </row>
+      <row>
+       <data>8:30am</data>
+       <data>Worship Devotional - Holland Davis</data>
+      </row>
+      <row>
+       <data>9:00am</data>
+       <data>Workshop III</data>
+      </row>
+      <row>
+       <data>Arranging a Rhythm Section</data>
+       <data>(Drums, Bass, Keyboards and Guitars) - Art Murillo and Sunday Drivers</data>
+      </row>
+      <row>
+       <data>Vocals</data>
+       <data>(The role of the vocalist) - Rhoda Murillo</data>
+      </row>
+      <row>
+       <data>Sound III</data>
+       <data>Rhoda Murillo</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+      <row>
+       <data>10:15am</data>
+       <data>BREAK</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+      <row>
+       <data>10:30am</data>
+       <data>Worship - Sunday Drivers</data>
+      </row>
+      <row>
+       <data>11:00am</data>
+       <data>Message - Art Murillo "The Lead Worshipper"</data>
+      </row>
+      <row>
+       <data>11:50am</data>
+       <data>Communion</data>
+      </row>
+</table>
+
+</content>
