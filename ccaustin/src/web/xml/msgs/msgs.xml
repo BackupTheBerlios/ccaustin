@@ -4762,7 +4762,6 @@
 		<audio>worship2003/devotion.ram</audio>
 		<passageref></passageref>
 	</message>
-
 	<message date="20030201" service="other" category="topical series">
 		<seriestitle>Worship Conference 2003</seriestitle>
 		<title>Holland Davis - The God Who Sees - Session I</title>
@@ -4841,6 +4840,70 @@
 		<passage>2 Samuel 2:1-11</passage>
 		<tape></tape>
 		<audio>pastor2002/sandythree.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="20031106" service="other" category="topical series">
+		<seriestitle>Pastor's Conference 2003</seriestitle>
+		<title>Sandy Adams - Session I</title>
+		<passage>Ephesians 3:14-21</passage>
+		<tape></tape>
+		<audio>pastor2003/sadamsone.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="20031107" service="other" category="topical series">
+		<seriestitle>Pastor's Conference 2003</seriestitle>
+		<title>Rick Coburn - Session II</title>
+		<passage>Philippians 4:4-7</passage>
+		<tape></tape>
+		<audio>pastor2003/rcoburnone.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="20031106" service="other" category="topical series">
+		<seriestitle>Pastor's Conference 2003</seriestitle>
+		<title>Allen Rigg - Session III - Prayer and Pain</title>
+		<passage>2 Corinthians 1</passage>
+		<tape></tape>
+		<audio>pastor2003/ariggone.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="20031107" service="other" category="topical series">
+		<seriestitle>Pastor's Conference 2003</seriestitle>
+		<title>Sandy Adams - Session IV</title>
+		<passage>Ephesians 6:18-19</passage>
+		<tape></tape>
+		<audio>pastor2003/sadamstwo.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="20031107" service="other" category="topical series">
+		<seriestitle>Pastor's Conference 2003</seriestitle>
+		<title>Malcolm Wild - Session V</title>
+		<passage>2 Corinthians 12:6-10</passage>
+		<tape></tape>
+		<audio>pastor2003/mwildone.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="20031108" service="other" category="topical series">
+		<seriestitle>Pastor's Conference 2003</seriestitle>
+		<title>Rick Coburn - Session VI</title>
+		<passage>Colossians 1:9</passage>
+		<tape></tape>
+		<audio>pastor2003/rcoburntwo.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="20031108" service="other" category="topical series">
+		<seriestitle>Pastor's Conference 2003</seriestitle>
+		<title>Allen Rigg - Session VII - Prayer and People</title>
+		<passage>Ephesians 1:15-18</passage>
+		<tape></tape>
+		<audio>pastor2003/ariggtwo.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="20031108" service="other" category="topical series">
+		<seriestitle>Pastor's Conference 2003</seriestitle>
+		<title>Malcolm Wild - Session VIII</title>
+		<passage>Ephesians 5:18-21</passage>
+		<tape></tape>
+		<audio>pastor2003/mwildtwo.ram</audio>
 		<passageref></passageref>
 	</message>
 
