@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.115 2004/05/04 14:33:03 gregk Exp $
+	$Id: calendar.xml,v 1.116 2004/05/17 13:14:57 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -548,7 +548,7 @@ and to register visit the Events Center.</detail>
     June 2004
     ===============
     -->
-    <event id="06001" date="20040621" showOnHomepage="false">
+    <event id="06001" date="20040621" showOnHomepage="true">
 	 <title>Vacation Bible Study</title>
 		<date>Jun 21-25</date>
                 <detail>Stay tuned for more details !!!.</detail>
@@ -556,7 +556,7 @@ and to register visit the Events Center.</detail>
 			<ministry id="children"/>
 		</ministries>
     </event>
-    <event id="06002" date="20040619" showOnHomepage="false">
+    <event id="06002" date="20040619" showOnHomepage="true">
 	 <title>Baptism and Picnic</title>
 		<date>Jun 19</date>
     </event>
