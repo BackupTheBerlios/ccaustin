@@ -34,7 +34,7 @@
   <xsl:template match="section">
     <target>
       <xsl:attribute name="name">web-<xsl:value-of select="@name"/></xsl:attribute>
-      <xsl:apply-templates select="page"/>
+      <xsl:apply-templates select="page[not(@menuOnly='true')]"/>
       <xsl:apply-templates select="pageset"/>
     </target>
   </xsl:template>
