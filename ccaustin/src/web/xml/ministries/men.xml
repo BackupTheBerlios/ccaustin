@@ -3,24 +3,30 @@
 
 	Men's Ministry - The ministry and its detail
 	
-	$Id: men.xml,v 1.8 2003/09/17 07:04:43 gregk Exp $
+	$Id: men.xml,v 1.9 2004/03/05 21:53:04 gregk Exp $
 		
 -->
 <content title="Men's Ministry">
 	<ministry id="men">
-	  <name>Men's Ministry Purpose Statement</name>
-	  <overview>Allow men to realize the power of God's word and discover all God has in store for them.</overview>
-	  <overview>Create Godly leaders for our homes, church, and community.</overview>
-	  <overview>Create healthy brotherhood through Fellowship and Accountability.</overview>
+	  <heading>Men's Ministry Purpose Statement</heading>
+<br></br>
+	  <p><strong>Unite</strong> men together for the common goal of being <strong>trained</strong> to serve Jesus Christ with every area of their lives, then multiplying our strength by seeking out men to <strong>disciple.</strong></p>
+	  <p><strong>Unite, Train, Disciple.</strong></p>
+<br></br>
+<br></br>
 	  <long-description>
 	    <heading>Prayer</heading>
-	    <p>The Men's Ministry is about prayer. We call the men to pray for the church. Each Friday morning (6:00 AM) we invite the men to come pray in the New Parent's room. Enter through the church front door.</p>
+<br></br>
+	    <p>Each Friday morning (6:00 AM) we invite the men to come pray in the New Parent's room. Enter through the church front door.</p>
+<br></br>
 	    <heading>Study</heading>
-	    <p>The Men's Ministry is about God's word. We desire to see men moved through the power of God's word. This Bible study meets every other Tuesday night (7:00 PM) in the Youth Room. Check the <link href="../calendar/calendar.html">calendar</link> for upcoming meetings.</p>
-         <p>Our current study will cover Men of Faith from the New Testament. You are welcome to join at any time, as we only study a chapter each meeting.</p>
+<br></br>
+	    <p>The Men's Ministry is about God's word. We desire to see men moved through the power of God's word. There are several Bible Studies scheduled throughout the year. Check the <link href="../calendar/calendar.html">calendar</link> for upcoming meetings.</p>
+<br></br>
 	    <heading>Accountability</heading>
-	    <p>The Men's Ministry is about growing together. As iron sharpens iron. <br/>
-	    <link href="../ministries/menaccount.html">Read more...</link></p>
+            <p>Purpose</p>
+	    <p>Connect men for the purpose of building servants of God through friendship, accountability, teaching.</p>
+            <p>Several Men's Groups are being created across the city. Contact Andy Berke at the email address below to get connected with a group of men in your neighborhood.</p>
 	  </long-description>
 	  <contacts>
   	    <contact-email email="calvaryaustinmen@austin.rr.com">Andy Berke</contact-email>
