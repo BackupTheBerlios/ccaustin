@@ -379,9 +379,9 @@
 	  </FONT></TD>
 	</TR>
 	<TR>
-	  <TD ALIGN="right" VALIGN="middle"><A HREF="../msgs/tapeorder.html"><IMG SRC="../images/cassette.jpg" ALT="View the Calvary Continuum Audio Tape catalog" BORDER="0"/></A></TD>
+	  <TD ALIGN="right" VALIGN="middle"><A HREF="../msgs/msgsTapeArchive.html"><IMG SRC="../images/cassette.jpg" ALT="View the Calvary Continuum Audio Tape catalog" BORDER="0"/></A></TD>
 	  <TD ALIGN="left"><FONT FACE="TAHOMA,VERDANA,ARIAL,HELVETICA" SIZE="-1">
-	    Go to the <A HREF="../msgs/tapeorder.html">Calvary Continuum Audio Tape</A> catalog.
+	    Go to the <A HREF="../msgs/msgsTapeArchive.html">Calvary Continuum Audio Tape</A> catalog.
 	  </FONT>
 	  </TD>
 	</TR>
