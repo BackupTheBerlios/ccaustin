@@ -41,7 +41,7 @@ fi
 ant web deploy
 
 # Copy dev site over
-cp $DAILY_DIR/src/dev/* $DEPLOY_DIR/..
-cp -R $DAILY_DIR/images $DEPLOY_DIR/..
+cp $DAILY_DIR/ccaustin/src/dev/* $DEPLOY_DIR/..
+cp -R $DAILY_DIR/ccaustin/src/dev/images $DEPLOY_DIR/..
 
 echo Ending daily build at `date`
