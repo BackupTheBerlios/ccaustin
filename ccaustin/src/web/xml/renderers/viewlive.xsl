@@ -4,7 +4,7 @@
 
 	Calvary View Live Template
 	
-	$Id: viewlive.xsl,v 1.2 2004/05/14 15:30:38 gregk Exp $
+	$Id: viewlive.xsl,v 1.3 2004/05/14 18:29:11 gregk Exp $
 	
 -->	
 
@@ -28,6 +28,9 @@
 	      </tr>
 	      <tr>
 	        <td align="center"><br/></td>
+	      </tr>
+	      <tr>
+	        <td align="center"><img src="../images/vidallen.jpg" alt="View the Calvary Live service"/></td>
 	      </tr>
 	      <tr>
 	        <td align="center"><img src="../images/homepage/livmsg.jpg"/></td>
@@ -141,7 +144,7 @@
 -->
 	    </table>
 	    
-	    <p>To view using the separate Windows Media Player,
+	    <p>To view using Windows Media Player,
 	  <xsl:element name="a">
 	    <xsl:attribute name="href"><xsl:value-of select="external/@href"/></xsl:attribute>
 	    click here
