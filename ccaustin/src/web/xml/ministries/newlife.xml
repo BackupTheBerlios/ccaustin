@@ -3,7 +3,7 @@
 
 	New Life Ministry - The ministry and its detail
 	
-	$Id: newlife.xml,v 1.6 2004/08/10 12:37:39 tie Exp $
+	$Id: newlife.xml,v 1.7 2005/02/26 02:30:06 javajames27 Exp $
 		
 -->
 <content title="New Life Ministry">
@@ -18,10 +18,13 @@
 	  <p>I pray for you constantly, asking God, the glorious Father of our Lord Jesus Christ, to give you spiritual wisdom and understanding, so that you might grow in your knowledge of God.  <br/>--Ephesians 1:16b,17 (NLT)</p>
 	  <heading>Join us!</heading>	
 	  <p>We invite you to prayerfully consider New Life Ministry as a way to serve here at Calvary Chapel Austin. This is a ministry which is created for mature Christians who enjoy praying with others. Come and experience the joy of sharing a moment with men and women as they dedicate their lives to Jesus Christ.</p>
+        <heading>Feature: Coping with Stress</heading>
+        <p><img border="1" href="http://www.seegod.org" align="left" src="../images/ministries/SeeGod.jpg"/>The potential for stress in today's world is greater than ever.  Marriage and family problems will occur.  Pressures and difficulties abound.  It seems that every time you turn around there is another crisis.  People are spending more for medical treatments and psychological counseling than ever before in our history.  How does one cope with the stresses of this life?  Where does one turn? Visit <a href="http://www.seegod.org">www.seegod.org</a> to seek some direction with specific needs in your area of concern.<br/><br/><br/></p>
 	  <heading>Blue Letter Bible</heading>	
 	  <p>Please feel free to use the following link for the <link href="http://www.blueletterbible.org/">Blueletter Bible</link>. This resource has a free bible, commentaries and other useful study guides that will get you started in your new relationship with Jesus Christ.</p>
 	<p><img href="http://www.blueletterbible.org/" src="http://blueletterbible.org/gifs/home.gif"/></p>
 	  </long-description>
+          
 	  <contacts>
 	  	<contact-email email="surfdisciple@hotmail.com">Damon Cotter</contact-email>
 	  	<contact-phone phone="719-4667">Contact the church office</contact-phone>
