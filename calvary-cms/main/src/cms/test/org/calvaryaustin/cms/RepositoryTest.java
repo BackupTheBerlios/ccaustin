@@ -19,7 +19,7 @@ import org.apache.commons.logging.LogFactory;
  * Created: Fri Jan 17 20:30:31 2003
  *
  * @author <a href="mailto:jhigginbotham@betweenmarkets.com">James Higginbotham</a>
- * @version $Revision: 1.3 $
+ * @version $Revision: 1.4 $
  */
 public class RepositoryTest extends TestCase 
 {
@@ -153,6 +153,7 @@ public class RepositoryTest extends TestCase
 	org.calvaryaustin.cms.File foundFile = foundFolder.getFile(fileHandle);
 	assertNotNull(foundFile);
 	assertEquals(TEST_FILE, foundFile.getName());
+	assertEquals("/"+TEST_FOLDER+"/"+TEST_FILE, foundFile.getPath());
 	FileVersion latestVersion = foundFile.getLatestVersion();
 	assertNotNull(latestVersion);
 	assertEquals(TEST_FILE_DESCRIPTION, latestVersion.getDescription());
@@ -169,6 +170,57 @@ public class RepositoryTest extends TestCase
 	}
 	site.delete();
 	log.info("<<<<<<<<<<<<< testCreateFile(): end");
+  }
+  
+  public void testFolderBrowsing() throws Exception
+  {
+	log.info(">>>>>>>>>>>>> testFolderBrowsing(): begin");
+	assertNotNull(repository);
+	repository.createSite( TEST_SITE, TEST_SITE_DESCRIPTION );
+	Site site = repository.getSite( new SiteHandle(TEST_SITE) );
+	Folder rootFolder = site.getRootFolder();
+	FolderHandle handle = rootFolder.createFolder(TEST_FOLDER, TEST_FOLDER_DESCRIPTION);
+	Folder foundFolder = site.getFolder( handle );
+	FolderHandle handle2 = foundFolder.createFolder(TEST_FOLDER2, TEST_FOLDER2_DESCRIPTION);
+	FileHandle fileHandle = foundFolder.createFile(TEST_FILE, TEST_FILE_DESCRIPTION, TEST_FILE_TYPE, TEST_FILE_CONTENT);
+	org.calvaryaustin.cms.File foundFile = foundFolder.getFile(fileHandle);
+	List results = rootFolder.browse();
+	assertNotNull(results);
+	assertEquals(1,results.size());
+	assert( results.get(0) instanceof Folder);
+	results = foundFolder.browse();
+	assertNotNull(results);
+	assertEquals(2,results.size());
+	boolean folderFound = false;
+	boolean fileFound = false;
+	for(int i=0;i<results.size();i++)
+	{
+		Object current = results.get(i);
+		if(current instanceof Folder)
+		{
+			Folder theFolder = (Folder)current;
+			assertEquals(TEST_FOLDER2, theFolder.getName());
+			assertEquals( "/"+TEST_FOLDER+"/"+TEST_FOLDER2, theFolder.getPath() );
+			assertEquals( TEST_FOLDER2_DESCRIPTION, theFolder.getDescription() );
+			folderFound = true;
+		}
+		else 
+		{
+			org.calvaryaustin.cms.File theFile = (org.calvaryaustin.cms.File)current;
+			assertEquals(TEST_FILE, theFile.getName());
+			assertEquals("/"+TEST_FOLDER+"/"+TEST_FILE, theFile.getPath());
+			FileVersion latestVersion = theFile.getLatestVersion();
+			assertNotNull(latestVersion);
+			assertEquals(TEST_FILE_DESCRIPTION, latestVersion.getDescription());
+			assertEquals(TEST_FILE_TYPE, latestVersion.getContentType());
+			assertEquals(TEST_FILE_CONTENT, latestVersion.getContent());
+			fileFound = true;
+		}
+	}
+	assert(folderFound);
+	assert(fileFound);
+	site.delete();
+	log.info("<<<<<<<<<<<<< testFolderBrowsing(): end");
   }
   
   // TODO: Test the folder.browse() method
@@ -233,6 +285,8 @@ public class RepositoryTest extends TestCase
   private static final String TEST_SITE2_DESCRIPTION = "Another test site";
   private static final String TEST_FOLDER = "testfolder";
   private static final String TEST_FOLDER_DESCRIPTION = "A test folder";
+  private static final String TEST_FOLDER2 = "testfolder-2";
+  private static final String TEST_FOLDER2_DESCRIPTION = "Another test folder";
   private static final String TEST_FILE = "testfile";
   private static final String TEST_FILE_DESCRIPTION = "A test file";
   private static final String TEST_FILE_TYPE = "text/plain";

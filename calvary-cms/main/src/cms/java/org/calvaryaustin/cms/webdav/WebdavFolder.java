@@ -1,6 +1,8 @@
 package org.calvaryaustin.cms.webdav;
 
 import java.util.Date;
+import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 
 import org.apache.commons.logging.Log;
@@ -77,8 +79,27 @@ public class WebdavFolder implements Folder
 
 	public List browse() throws RepositoryException
 	{
-		// TODO Auto-generated method stub
-		return null;
+		LinkedList list = new LinkedList();
+		WebdavResource[] resources = connection.listResources(WebdavConstants.PATH_SITES+site+"/"+path);
+		for(int i=0;i<resources.length;i++)
+		{
+			WebdavResource resource = resources[i];
+			if(resource.isCollection())
+			{
+				HashMap properties = connection.getProperties( resource.getPath() );
+				String description = (String)properties.get(WebdavConstants.CALVARY_PROP_PREFIX+WebdavConstants.PROP_DESCRIPTION);
+				WebdavFolder folder = new WebdavFolder(connection, name, path+"/"+resource.getDisplayName(), 
+													   resource.getDisplayName(), description);
+				list.add(folder);													   
+			}
+			else
+			{
+				WebdavFile file = new WebdavFile(connection, site, path+"/"+resource.getDisplayName(), resource.getDisplayName(), 
+												 new Date(resource.getCreationDate()));
+				list.add(file);												 			 	
+			}
+		}
+		return list;
 	}
 
 	public File getFile(FileHandle handle)
