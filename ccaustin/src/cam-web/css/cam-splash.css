@@ -1,0 +1,16 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+A:active {
+	FONT-WEIGHT: bold; COLOR: #999999; TEXT-DECORATION: underline;
+}
+A:link {
+	FONT-WEIGHT: bold; COLOR: #999999; TEXT-DECORATION: underline;
+}
+A:visited {
+	FONT-WEIGHT: bold; COLOR: #999999; TEXT-DECORATION: underline;
+}
+A:hover {
+	FONT-WEIGHT: bold; COLOR: #999999; TEXT-DECORATION: underline;
+}

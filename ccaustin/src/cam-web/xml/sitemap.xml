@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+        Sitemap
+        
+        The sitemap contains the structure of the entire web site, and is used to drive
+        the auto-generated scripts for generating the web site HTML from XML.
+        
+        $Id: sitemap.xml,v 1.1 2004/01/30 21:51:15 javajames27 Exp $
+        
+        hidden="true" prevents the page from showing on the sitemap.
+        
+        exclude="true" tells other pages using this datafile to not include that entry (for things like the minstry-index.xsl)
+                
+-->
+<website basedir="/src/cam-web/xml">
+  <section name="index" basedir="/">
+    <title>CAM Website</title>
+    <page datafile="/index.xml"
+          template="/templates/index.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/index.html">
+      <title>Index</title>
+    </page>
+    <page datafile="/homepage.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/homepage.html">
+      <title>Homepage</title>
+    </page>
+    <page datafile="/behind.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/behind.html">
+      <title>Behind the Music</title>
+    </page>
+    <page datafile="/listen.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/listen.html">
+      <title>Listen to "I Will"</title>
+    </page>
+    <page datafile="/resources.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/resources.html">
+      <title>"I Will" Resources</title>
+    </page>
+  </section>
+</website>

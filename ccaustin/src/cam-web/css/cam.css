@@ -1,0 +1,93 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 10px;
+
+}
+h1 {
+	font-size: 16px;
+	color: #999966;
+
+}
+p {
+}
+td {
+	font-size: 14px;
+}
+.body {
+	padding: 5px;
+}
+.address {
+	font-size: 10px;
+	font-style: italic;
+	text-align: center;
+	color: #000000;
+}
+h2 {
+	font-size: 16px;
+	color: #999966;
+}
+.dateSubtitle {
+	font-size: 12px;
+	font-style: italic;
+}
+A:active {
+	FONT-WEIGHT: bold; COLOR: #999999; TEXT-DECORATION: none; border-bottom : 1px dashed; 
+}
+A:link {
+	FONT-WEIGHT: bold; COLOR: #999999; TEXT-DECORATION: none; border-bottom : 1px dashed; 
+}
+A:visited {
+	FONT-WEIGHT: bold; COLOR: #999999; TEXT-DECORATION: none; border-bottom : 1px dashed; 
+}
+A:hover {
+	FONT-WEIGHT: bold; COLOR: #999999; TEXT-DECORATION: none;  border-bottom : 1px solid;
+}
+
+.address A:active {
+	FONT-WEIGHT: bold; COLOR: #444444; TEXT-DECORATION: none; border-bottom : 1px dashed; 
+}
+.address A:link {
+	FONT-WEIGHT: bold; COLOR: #444444; TEXT-DECORATION: none; border-bottom : 1px dashed; 
+}
+.address A:visited {
+	FONT-WEIGHT: bold; COLOR: #444444; TEXT-DECORATION: none; border-bottom : 1px dashed; 
+}
+.address A:hover {
+	FONT-WEIGHT: bold; COLOR: #444444; TEXT-DECORATION: none;  border-bottom : 1px solid;
+}
+
+.img A:active {
+	FONT-WEIGHT: bold; COLOR: #444444; TEXT-DECORATION: none; border-bottom : none;
+}
+.img A:link {
+	FONT-WEIGHT: bold; COLOR: #444444; TEXT-DECORATION: none; border-bottom : none;
+}
+.img A:visited {
+	FONT-WEIGHT: bold; COLOR: #444444; TEXT-DECORATION: none; border-bottom : none;
+}
+.img A:hover {
+	FONT-WEIGHT: bold; COLOR: #444444; TEXT-DECORATION: none; border-bottom : none;
+}
+
+.menu A:active {
+	FONT-WEIGHT: bold; COLOR: #FFFFFF; TEXT-DECORATION: none; border-bottom : none;
+}
+.menu A:link {
+	FONT-WEIGHT: bold; COLOR: #FFFFFF; TEXT-DECORATION: none; border-bottom : none;
+}
+.menu A:visited {
+	FONT-WEIGHT: bold; COLOR: #FFFFFF; TEXT-DECORATION: none; border-bottom : none;
+}
+.menu A:hover {
+	FONT-WEIGHT: bold;
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+	border-bottom : none;
+	background-color: #663333;
+
+}
+.notAvailNote {
+	font-size: 12px;
+	color: #336699;
+}
