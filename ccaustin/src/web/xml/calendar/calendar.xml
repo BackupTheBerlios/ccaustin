@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.91 2004/01/04 05:29:01 gregk Exp $
+	$Id: calendar.xml,v 1.92 2004/01/04 05:33:56 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -392,6 +392,13 @@ need for Praying Leaders.</detail>
     <event id="01004" date="20040104" showOnHomepage="true">
 			<title>Mexico Mission Trip</title>
 			<detail>On Jan 2-4 come and share the love of Jesus with His children south of the border in Pan De Vida. Sign up at the Events Center. For those who cannot go, participate by donating from the list of needed items.</detail>
+    </event>
+    <event id="01005" date="20040103" showOnHomepage="true">
+	 <title>Weight of Glory (live Music at Coffee Creator)</title>
+		<date>Jan 28</date>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
     </event>
     <!--
     ===============
