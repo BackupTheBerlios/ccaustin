@@ -9618,4 +9618,12 @@
 		<audio>topicseries/notch2003/notchtwo.ram</audio>
 		<passageref></passageref>
 	</message> 
+	<message date="20040111" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>Why Me First Will Not Last</title>
+		<passage>Luke 14</passage>
+		<tape>BS011104</tape>
+		<audio>42-luk/42-luk-14-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk014.html#top</passageref>
+	</message>
 </messagecatalog>
