@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.8 2002/09/13 02:17:06 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.9 2002/09/20 20:21:24 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -92,6 +92,12 @@
       <title>Women's Ministry Opportunity</title>
       <detail>The women in the Tuesday morning, 10-11:30AM, Bible study are looking for 2 teachers for the children at the church during that time.  It could be a ministry opportunity for you or a chance to earn a little extra income.  Please contact Ali Luberto (255.5004) if interested. For more information about the ministry, visit their
       <link href="../ministries/women.html">ministry home page</link>.</detail>   
+    </news-item>
+
+    <news-item id="11" date="20021012" expires="20020920" showOnHomepage="true">
+      <logo align="left" img ="../images/homepage/nothing.gif"/>
+      <title>Poetry Night @ The Creator</title>
+      <detail>The 2nd Saturday of each month from 7-8PM is Poetry Night, starting October 12th. Poetry Night consists of Christ-centered poetry, prose, short stories or personal testimonies.  Sign up at the Events Center.</detail>   
     </news-item>
 
     

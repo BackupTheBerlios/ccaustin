@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.13 2002/09/13 02:17:06 javajames27 Exp $
+	$Id: calendar.xml,v 1.14 2002/09/20 20:21:24 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -157,6 +157,23 @@
       </ministries>
     </event>
 
+    <event id="10005" date="20021013" showOnHomepage="false">
+      <title>Communion Service</title>
+      <detail></detail>  
+      <ministries>
+		<ministry id="church"/>
+      </ministries>
+    </event>
+
+    <event id="10004" date="20021016" showOnHomepage="false">
+      <title>Extended Worship</title>
+      <date>October 16th Service</date>
+      <detail>Join us for an extended time of worship</detail>  
+      <ministries>
+		<ministry id="worship"/>
+      </ministries>
+    </event>
+
     <event id="10003" date="20021023" showOnHomepage="false">
       <title>Live Music - Daniel Baker</title>
       <date>October 23rd @ 9:00pm</date>
@@ -172,7 +189,7 @@
 			Nov
 	===============
 -->		
-    <event id="10001" date="20021016" showOnHomepage="true">
+    <event id="11001" date="20021116" showOnHomepage="true">
       <title>Men's Retreat</title>
       <date>Nov 14-16</date>
       <detail>Registrations start next Sunday, Sept 1 for the Nov 14-16 retreat at T-Bar-M Ranch in New Braunfels.  The main speaker will be Malcolm Wild from Calvary Chapel Merritt Island.  Men mark your calendars and sign up next week at the Events Center. A 50% deposit is due by Sep 29 with the balance due Oct 27.</detail>   
