@@ -3304,6 +3304,15 @@
 		<audio>bibleoverview/45-rom-06.ram</audio>
 		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom006.html#top</passageref>
 	</message>
+	<message date="20030115" service="midweek" category="overview">
+		<seriestitle>Romans</seriestitle>
+		<title></title>
+		<passage>Romans 7</passage>
+		<tape>B01306</tape>
+		<audio>bibleoverview/45-rom-07.ram</audio>
+		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom007.html#top</passageref>
+	</message>
+
 
     <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
@@ -4610,6 +4619,14 @@
 		<audio></audio>
 		<passageref></passageref>
 	</message>
+	<message date="20030119" service="sunday" category="misc">
+		<seriestitle>Guest Speaker</seriestitle>
+		<title>Garett, Bunjee - The Lion and the Lamb</title>
+		<passage>John 1:29</passage>
+		<tape>GS011903</tape>
+		<audio>guestspeaker/bgarrett011903.ram</audio>
+		<passageref>http://www.blueleterbible.org/kjv/Jhn/Jhn001.html#top</passageref>
+	</message>
 	<message date="19960331" service="sunday" category="misc">
 		<seriestitle>Guest Speaker</seriestitle>
 		<title>Hocking, David</title>
@@ -4698,6 +4715,15 @@
 		<audio></audio>
 		<passageref></passageref>
 	</message>
+	<message date="20030121" service="sunday" category="misc">
+		<seriestitle>Guest Speaker</seriestitle>
+		<title>Newberry, John - Lessons from the Psalmist</title>
+		<passage>Psalms</passage>
+		<tape>GS012103</tape>
+		<audio>guestspeaker/jnewberry0103.ram</audio>
+		<passageref></passageref>
+	</message>
+
 	<message date="19981002" service="sunday" category="misc">
 		<seriestitle>Guest Speaker</seriestitle>
 		<title>Rosales, David - Part 1</title>
@@ -8638,6 +8664,22 @@
 		<tape>BS010503</tape>
 		<audio>42-luk/42-luk-02-41.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk002.html#top</passageref>
+	</message>
+	<message date="20030112" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>Bible Study</title>
+		<passage>Luke 3:1-20</passage>
+		<tape>BS011203</tape>
+		<audio>42-luk/42-luk-03-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk003.html#top</passageref>
+	</message>
+	<message date="20030126" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>Defeating Destructive Desires</title>
+		<passage>Luke 3:21-4:13</passage>
+		<tape>BS012603</tape>
+		<audio>42-luk/42-luk-04-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk004.html#top</passageref>
 	</message>
 
 
