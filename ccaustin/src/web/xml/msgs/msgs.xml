@@ -9082,6 +9082,13 @@
 		<audio>42-luk/42-luk-07-01.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk007.html#top</passageref>
 	</message>
-
+	<message date="20030511" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>What to Do with Your Doubt</title>
+		<passage>Luke 7:11-35</passage>
+		<tape>BS051103</tape>
+		<audio>42-luk/42-luk-07-11.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk007.html#top</passageref>
+	</message>
 
 </messagecatalog>
