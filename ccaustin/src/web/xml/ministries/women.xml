@@ -3,7 +3,7 @@
 
 	Women's Ministry - The ministry and its detail
 	
-	$Id: women.xml,v 1.2 2002/05/23 00:29:36 javajames27 Exp $
+	$Id: women.xml,v 1.3 2002/05/25 23:47:32 javajames27 Exp $
 		
 -->
 <content title="Women's Ministry">
@@ -28,6 +28,6 @@
 	  <contacts>
 	  	<contact-phone phone="719-4667">Contact the church office</contact-phone>
    	  </contacts>
-	  <ministry-logo>../images/ministries/women2.jpg</ministry-logo>
+	  <ministry-logo>../images/ministries/women.jpg</ministry-logo>
 	</ministry>
 </content>

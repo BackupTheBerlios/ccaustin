@@ -3,7 +3,7 @@
 
 	Women's Heart-to-Heart  - The ministry and its detail
 	
-	$Id: womenheart.xml,v 1.2 2002/05/23 17:57:38 javajames27 Exp $
+	$Id: womenheart.xml,v 1.3 2002/05/25 23:47:32 javajames27 Exp $
 		
 -->
 <content title="Heart-to-Heart">
@@ -31,6 +31,6 @@ develop supportive, God-centered friendships.</p>
 	  	<contact-phone phone="989-8575">Tammy Lang</contact-phone>
 	  	<contact-phone phone="719-4667">Contact the church office</contact-phone>
    	  </contacts>
-	  <ministry-logo>../images/ministries/womenheart2.gif</ministry-logo>
+	  <ministry-logo>../images/ministries/womenheart.gif</ministry-logo>
 	</ministry>
 </content>
