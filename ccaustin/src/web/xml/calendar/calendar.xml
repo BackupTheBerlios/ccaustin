@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.106 2004/03/05 21:54:22 gregk Exp $
+	$Id: calendar.xml,v 1.107 2004/03/09 03:45:55 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -460,12 +460,6 @@ and to register visit the Events Center.</detail>
 			<ministry id="coffee"/>
 		</ministries>
     </event>
-    <event id="03007" date="20040305" showOnHomepage="false">
-	 <title> Men's Breakfast - Spring 2004</title>
-		<ministries>
-			<ministry id="men"/>
-		</ministries>
-    </event>
     		<!--
     ===============
     Apr 2004
@@ -502,6 +496,12 @@ and to register visit the Events Center.</detail>
 			<ministry id="children"/>
 		</ministries>
 	</event>
+    <event id="05002" date="20040531" showOnHomepage="false">
+	 <title> Men's Breakfast - Spring 2004</title>
+		<ministries>
+			<ministry id="men"/>
+		</ministries>
+    </event>
 		<!--
     ===============
     June 2004
