@@ -9602,4 +9602,12 @@
 		<audio>topicseries/notch2003/notchone.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk002.html#top</passageref>
 	</message> 
+	<message date="20040104" service="sunday" category="topical series">
+		<seriestitle>Taking It Up a Notch</seriestitle>
+		<title>Up a Notch - Part II - Bunjee Garrett</title>
+		<passage>Various</passage>
+		<tape>TS010404</tape>
+		<audio>topicseries/notch2003/notchtwo.ram</audio>
+		<passageref></passageref>
+	</message> 
 </messagecatalog>
