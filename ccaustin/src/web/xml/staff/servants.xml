@@ -8,7 +8,7 @@
 	
 	allen-bio.xml - the biography for Pastor Allen
 	
-	$Id: servants.xml,v 1.4 2003/12/05 17:01:32 gregk Exp $
+	$Id: servants.xml,v 1.5 2004/07/02 20:58:10 premav Exp $
 		
 -->
 <content title="Servants" base=".">
@@ -20,6 +20,15 @@
 		<small-photo href="../images/staff/allenweb.jpg"/>
 		<large-photo href="../images/staff/allenweb.jpg"/>
 		<role staff="true" ministry="church" title="Senior Pastor"/>
+	</servant>
+	<servant id="andrea">
+		<fullname>Andrea Rigg</fullname>
+		<first-name>Andrea</first-name>
+		<last-name>Rigg</last-name>
+		<thumbnail href="../images/staff/andreathumb.jpg"/>
+		<small-photo href="../images/staff/andreaweb.jpg"/>
+		<large-photo href="../images/staff/andreaweb.jpg"/>
+		<role staff="true" ministry="church" title="Pastor's wife"/>
 	</servant>
 <!--
 	<servant id="jean">
@@ -78,5 +87,59 @@
 		<small-photo href="../images/staff/glendonweb.jpg"/>
 		<large-photo href="../images/staff/glendonweb.jpg"/>
 		<role staff="true" ministry="church" title="Assisting Pastor"/>
+	</servant>
+	<servant id="jason">
+		<fullname>Jason Moore</fullname>
+		<first-name>Jason</first-name>
+		<last-name>Moore</last-name>
+		<thumbnail href="../images/staff/Jasonthumb.jpg"/>
+		<small-photo href="../images/staff/jasonweb.jpg"/>
+		<large-photo href="../images/staff/jasonweb.jpg"/>
+		<role staff="true" ministry="church" title="Calvary Discipleship Leader"/>
+	</servant>
+	<servant id="jeremy">
+		<fullname>Jeremy Valencia</fullname>
+		<first-name>Jeremy</first-name>
+		<last-name>Valencia</last-name>
+		<thumbnail href="../images/staff/jeremythumb.jpg"/>
+		<small-photo href="../images/staff/jeremyweb.jpg"/>
+		<large-photo href="../images/staff/jeremyweb.jpg"/>
+		<role staff="true" ministry="church" title="Multi-Media Ministry Leader"/>
+	</servant>
+	<servant id="katherine">
+		<fullname>Katherine E. Nogues</fullname>
+		<first-name>Katherine</first-name>
+		<last-name>Nogues</last-name>
+		<thumbnail href="../images/staff/katherinethumb.jpg"/>
+		<small-photo href="../images/staff/katherineweb.jpg"/>
+		<large-photo href="../images/staff/katherineweb.jpg"/>
+		<role staff="true" ministry="church" title="Calvary Secretary"/>
+	</servant>
+	<servant id="mike">
+		<fullname>Mike Hardcastle</fullname>
+		<first-name>Mike</first-name>
+		<last-name>Hardcastle</last-name>
+		<thumbnail href="../images/staff/mikethumb.jpg"/>
+		<small-photo href="../images/staff/mikeweb.jpg"/>
+		<large-photo href="../images/staff/mikeweb.jpg"/>
+		<role staff="true" ministry="church" title="Executive Director"/>
+	</servant>
+	<servant id="derrick">
+		<fullname>Derrick Kinney</fullname>
+		<first-name>Derrick</first-name>
+		<last-name>Kinney</last-name>
+		<thumbnail href="../images/staff/Derrickthumb.jpg"/>
+		<small-photo href="../images/staff/derrickweb.jpg"/>
+		<large-photo href="../images/staff/derrickweb.jpg"/>
+		<role staff="true" ministry="church" title="Marriage Ministry Leader"/>
+	</servant>
+	<servant id="vance">
+		<fullname>Vance Zimmerman</fullname>
+		<first-name>Vance</first-name>
+		<last-name>Zimmerman</last-name>
+		<thumbnail href="../images/staff/vancethumb.jpg"/>
+		<small-photo href="../images/staff/vanceweb.jpg"/>
+		<large-photo href="../images/staff/vanceweb.jpg"/>
+		<role staff="true" ministry="church" title="Sound Ministry Leader"/>
 	</servant>
 </content>
