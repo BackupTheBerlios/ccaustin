@@ -3,110 +3,117 @@
 <!-- Build File for ANT (http://jakarta.apache.org/ant                     -->
 <!-- ===================================================================== -->
 <project name="calvary" default="web" basedir=".">
-	<!-- Global Settings -->
-	<property name="Name" value="Calvary Chapel Austin"/>
-	<property name="name" value="calvary"/>
-	<property name="version" value="2.0"/>
-	<property name="home" value="."/>
-	<property name="src.dir" value="${home}/src"/>
-	<property name="src.web.dir" value="${src.dir}/web"/>
-	<property name="src.xml.dir" value="${src.web.dir}/xml"/>
-	<property name="src.xsl.dir" value="${src.web.dir}/xsl"/>
-	<property name="src.js.dir" value="${src.web.dir}/js"/>
-	<property name="src.images.dir" value="${src.web.dir}/images"/>
-	<property name="src.css.dir" value="${src.web.dir}/css"/>
-	<property name="build.dir" value="${home}/build"/>
-	<property name="build.web.dir" value="${build.dir}/docs"/>
-	<property name="build.tmpgen.dir" value="${build.dir}/_tmpgen"/>
-	<property name="dist.dir" value="${home}/dist"/>
-	<property name="dist.web.dir" value="${dist.dir}/web"/>
-	<property name="autogen.build.web" value="${src.xml.dir}/autogen-build.xml"/>
-	<!-- Give user a chance to override without editing this file 
-       (and without typing -D each time it compiles it -->
-	<property file="${home}/.ant.properties"/>
-	<property file="${user.home}/.ant.properties"/>
-
-	<!-- =================================================================== -->
-	<!-- Clean Target                                                        -->
-	<!-- =================================================================== -->
-	<target name="clean" description="Removes all build and deploy output.">
-		<echo message="...........Cleaning project directories..........."/>
-		<delete dir="${build.dir}"/>
-		<delete dir="${build.tmpgen.dir}"/>
-	</target>
-
-	<!-- =================================================================== -->
-	<!-- Check Options Target                                                -->
-	<!-- =================================================================== -->
-	<target name="checkoptions" depends="autogen-build" description="Performs pre-processing checks for environment."/>
-
-	<!-- =================================================================== -->
-	<!-- Auto gen build Target                                                -->
-	<!-- =================================================================== -->
-	<target name="autogen-build" description="Generates the part of the build based on the sitemap.xml file">
-           <style style="${src.xml.dir}/sitemap-build.xsl" in="${src.xml.dir}/sitemap.xml" out="${autogen.build.web}"/> 
-	</target>
-
-	<!-- =================================================================== -->
-	<!-- Validate XML Target                                                -->
-	<!-- =================================================================== -->
-	<target name="validate-xml" description="Performs validation of all XML files">
-	    <xmlvalidate failonerror="no" lenient="yes" warn="yes">
-        <fileset dir="${src.xml.dir}" includes="**/*.xml"/>  
+  <!-- Global Settings -->
+  <property name="Name" value="Calvary Chapel Austin"/>
+  <property name="name" value="calvary"/>
+  <property name="version" value="2.0"/>
+  <property name="home" value="."/>
+  <property name="src.dir" value="${home}/src"/>
+  <property name="src.web.dir" value="${src.dir}/web"/>
+  <property name="src.xml.dir" value="${src.web.dir}/xml"/>
+  <property name="src.xsl.dir" value="${src.web.dir}/xsl"/>
+  <property name="src.js.dir" value="${src.web.dir}/js"/>
+  <property name="src.images.dir" value="${src.web.dir}/images"/>
+  <property name="src.css.dir" value="${src.web.dir}/css"/>
+  <property name="build.dir" value="${home}/build"/>
+  <property name="build.web.dir" value="${build.dir}/docs"/>
+  <property name="build.tmpgen.dir" value="${build.dir}/_tmpgen"/>
+  <property name="dist.dir" value="${home}/dist"/>
+  <property name="dist.web.dir" value="${dist.dir}/web"/>
+  <property name="autogen.build.web" value="${src.xml.dir}/autogen-build.xml"/>
+  <!-- Give user a chance to override without editing this file 
+  (and without typing -D each time it compiles it -->
+  <property file="${home}/.ant.properties"/>
+  <property file="${user.home}/.ant.properties"/>
+  
+  <!-- =================================================================== -->
+  <!-- Clean Target                                                        -->
+  <!-- =================================================================== -->
+  <target name="clean" description="Removes all build and deploy output.">
+    <echo message="...........Cleaning project directories..........."/>
+    <delete dir="${build.dir}"/>
+    <delete dir="${build.tmpgen.dir}"/>
+  </target>
+  
+  <!-- =================================================================== -->
+  <!-- Check Options Target                                                -->
+  <!-- =================================================================== -->
+  <target name="checkoptions" depends="autogen-build"
+    description="Performs pre-processing checks for environment.">
+    <tstamp>
+      <format property="NOW" pattern="MM/dd/yyyy hh:mm aa z" timezone="CST"/>
+    </tstamp>
+  </target>
+  
+  <!-- =================================================================== -->
+  <!-- Auto gen build Target                                                -->
+  <!-- =================================================================== -->
+  <target name="autogen-build" description="Generates the part of the build based on the sitemap.xml file">
+    <style style="${src.xml.dir}/sitemap-build.xsl" in="${src.xml.dir}/sitemap.xml" out="${autogen.build.web}"/> 
+  </target>
+  
+  <!-- =================================================================== -->
+  <!-- Validate XML Target                                                -->
+  <!-- =================================================================== -->
+  <target name="validate-xml" description="Performs validation of all XML files">
+    <xmlvalidate failonerror="no" lenient="yes" warn="yes">
+      <fileset dir="${src.xml.dir}" includes="**/*.xml"/>  
     </xmlvalidate>
-	</target>
-
-	<!-- =================================================================== -->
-	<!-- Deploys the web site                                                -->
-	<!-- =================================================================== -->
-    <target name="deploy" depends="checkoptions" description="Deploys the docs to the deploy.dir location">
-      <copy todir="${deploy.dir}" overwrite="true">
-	<fileset dir="${dist.web.dir}"/>
-       </copy>
-    </target>
-
-	<!-- =================================================================== -->
-	<!-- Creates the web site                                                -->
-	<!-- =================================================================== -->
-	<target name="web" depends="checkoptions" description="Creates all HTML by calling web-xyz targets.">
-		<mkdir dir="${build.web.dir}"/>
-		<ant antfile="${autogen.build.web}" target="web"/>
-		<antcall target="copy-files"/>
-		<antcall target="dist"/>
-	</target>
-	
-	<target name="copy-files">
-		<copy todir="${build.web.dir}/images">
-			<fileset dir="${src.images.dir}"/>
-		</copy>
-		<copy todir="${build.web.dir}/js">
-			<fileset dir="${src.js.dir}"/>
-		</copy>
-		<copy todir="${build.web.dir}/css">
-			<fileset dir="${src.css.dir}"/>
-		</copy>
-	</target>
-	<target name="dist">
-                <!-- STUPID Workaround to make NS 4.0 browsers not see
-                UTF-8 content type by using a hacked filter. This is
-                due to an XSL specification to force the meta entry
-                with UTF-8 in after the HEAD tag -->
-		<copy todir="${dist.web.dir}" filtering="true" overwrite="true">
-			<fileset dir="${build.web.dir}">
-	                   <include name="**/*.html"/>
-                        </fileset>
-                        <filterset begintoken="=" endtoken="8">
-                            <filter token="utf-" value="=ISO-8859-1"/>
-                        </filterset>
-		</copy>
-		<copy todir="${dist.web.dir}/images" overwrite="true">
-			<fileset dir="${src.images.dir}"/>
-		</copy>
-		<copy todir="${dist.web.dir}/js" overwrite="true">
-			<fileset dir="${src.js.dir}"/>
-		</copy>
-		<copy todir="${dist.web.dir}/css" overwrite="true">
-			<fileset dir="${src.css.dir}"/>
-		</copy>
-	</target>
+  </target>
+  
+  <!-- =================================================================== -->
+  <!-- Deploys the web site                                                -->
+  <!-- =================================================================== -->
+  <target name="deploy" depends="checkoptions" description="Deploys the docs to the deploy.dir location">
+    <copy todir="${deploy.dir}" overwrite="true">
+      <fileset dir="${dist.web.dir}"/>
+    </copy>
+  </target>
+  
+  <!-- =================================================================== -->
+  <!-- Creates the web site                                                -->
+  <!-- =================================================================== -->
+  <target name="web" depends="checkoptions" description="Creates all HTML by calling web-xyz targets.">
+    <mkdir dir="${build.web.dir}"/>
+    <ant antfile="${autogen.build.web}" target="web"/>
+    <antcall target="copy-files"/>
+    <antcall target="dist"/>
+  </target>
+  
+  <target name="copy-files">
+    <copy todir="${build.web.dir}/images">
+      <fileset dir="${src.images.dir}"/>
+    </copy>
+    <copy todir="${build.web.dir}/js">
+      <fileset dir="${src.js.dir}"/>
+    </copy>
+    <copy todir="${build.web.dir}/css">
+      <fileset dir="${src.css.dir}"/>
+    </copy>
+  </target>
+  
+  <target name="dist">
+    <!-- STUPID Workaround to make NS 4.0 browsers not see
+    UTF-8 content type by using a hacked filter. This is
+    due to an XSL specification to force the meta entry
+    with UTF-8 in after the HEAD tag -->
+    <copy todir="${dist.web.dir}" filtering="true" overwrite="true">
+      <fileset dir="${build.web.dir}">
+	<include name="**/*.html"/>
+      </fileset>
+      <filterset begintoken="=" endtoken="8">
+	<filter token="utf-" value="=ISO-8859-1"/>
+      </filterset>
+    </copy>
+    <copy todir="${dist.web.dir}/images" overwrite="true">
+      <fileset dir="${src.images.dir}"/>
+    </copy>
+    <copy todir="${dist.web.dir}/js" overwrite="true">
+      <fileset dir="${src.js.dir}"/>
+    </copy>
+    <copy todir="${dist.web.dir}/css" overwrite="true">
+      <fileset dir="${src.css.dir}"/>
+    </copy>
+  </target>
 </project>
+

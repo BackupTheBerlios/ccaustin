@@ -13,10 +13,13 @@
 	A variant of this file may offer more search engine or accessibility-friendly
 	navigation and less Javascript features for older browsers. 
 	
-	$Id: general-ui.xsl,v 1.18 2002/07/03 16:50:19 javajames27 Exp $
+	$Id: general-ui.xsl,v 1.19 2002/07/06 04:42:37 javajames27 Exp $
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html" indent="yes"/>
+	
+	<xsl:param name="TODAY">N/A</xsl:param>
+	<xsl:param name="VERSION">0.00</xsl:param>
 	<!--
 	The start of the processing for a page begins here. 
 -->
@@ -108,8 +111,9 @@
 							  <font size="1">
 							  Copyright © 1999-2002 Calvary Chapel of Austin<br/>
 							  For Website problems or comments, send mail to
-							  <a href="mailto:webservant-austin@calvarychapel.org"><img border="0" src="../images/email.gif"></img> webservant-austin@calvarychapel.org</a><br/>
-							  Latest update: May 18, 2001<br/>
+							  <a href="mailto:webservant-austin@calvarychapel.org"><img border="0" src="../images/email.gif"></img>webservant-austin@calvarychapel.org</a><br/>
+							  Version: <xsl:value-of select="$VERSION"/><br/>
+							  Latest update: <xsl:value-of select="$TODAY"/><br/>
 							  </font>
 							</td>
 						      </tr>

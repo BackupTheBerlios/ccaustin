@@ -32,9 +32,9 @@ p       { font-size: 90% }
 
 .featuredarticlebox { background-color: #FFFFFF; }
 
-.newstitle {  font-size: 95%; font-weight: bold }
-.newssubtitle {  font-size: 85%; font-weight: bold }
-.newsitem {  font-size: 85% }
+.newstitle {  font-size: 85%; font-weight: bold }
+.newssubtitle {  font-size: 75%; font-weight: bold }
+.newsitem {  font-size: 75% }
 .tablecellnews { background-color: #daecfb; }
 .tableheadernews {  background-color: #daecfb; font-weight: bold }
 
