@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+        Calvary Chapel Men's Retreat 2003 
+
+	$Id: mens2003retreat.xml,v 1.1 2003/08/31 12:06:40 gregk Exp $
+		
+-->
+<content title="Calvary Chapel Men's Retreat 2003">
+     
+
+     <heading>Calvary Chapel Men's Retreat 2003</heading>
+      <p align="center"> <img src="../images/events/realmen.jpg"/></p>
+	<subheading>Friday September 25th - Monday September 27th</subheading>
+
+
+	<p>Below is a sample of the registration form. You can obtain a <link href="../pdf/mens2003retreat-form.pdf">printable form</link> in Adobe PDF format.</p>
+
+	<p><img href="http://www.adobe.com/products/acrobat/readstep2.html" src="../images/getacro.gif" align="middle"/>To obtain the free Adobe Acrobat Reader, visit the <link href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe Web Site</link>. </p>
+
+	<p><img href="../pdf/mens2003retreat-form.pdf" src="../images/events/mens2003retreat-form.jpg"/></p>
+</content>
