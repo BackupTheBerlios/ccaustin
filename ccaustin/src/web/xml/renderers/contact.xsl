@@ -4,7 +4,7 @@
 
 	Location/Map/Contact Template
 	
-	$Id: contact.xsl,v 1.1 2002/12/13 20:04:06 javajames27 Exp $
+	$Id: contact.xsl,v 1.2 2003/03/12 14:31:27 javajames27 Exp $
 	
 -->	
 
@@ -49,7 +49,6 @@
   	     <xsl:apply-templates select="email"/>
   	     <xsl:apply-templates select="web"/>
   	     <xsl:apply-templates select="prayer-chain"/>
-  	     <xsl:apply-templates select="women-counseling"/>
 	</table>
 </xsl:template>
 

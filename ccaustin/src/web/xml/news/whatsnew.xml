@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.24 2003/03/03 00:15:50 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.25 2003/03/12 14:31:27 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -222,7 +222,7 @@
 
     <news-item id="33" date="20030301" expires="20030401" showOnHomepage="true">
 		<title>Stop and Seek</title>
-		<detail>Please join us this Wednesday evening, Mar 5, at 7PM and the two Wednesdays following, as Pastor Allen leads us in special services devoted to prayer and waiting for a word from God for each of us, our families and our church.</detail>
+		<detail>Please join us this Wednesday evening, Mar 12, at 7PM, and also next Wednesday, as Pastor Allen leads us in special services devoted to prayer and waiting for a word from God for each of us, our families and our church.</detail>
     </news-item>
 
     <news-item id="34" date="20030301" expires="20030401" showOnHomepage="true">
