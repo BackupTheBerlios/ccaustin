@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.104 2004/03/01 17:57:05 gregk Exp $
+	$Id: calendar.xml,v 1.105 2004/03/01 18:13:16 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -445,7 +445,7 @@ and to register visit the Events Center.</detail>
 		<date>Mar 24</date>
     </event>
     <event id="03005" date="20040310" showOnHomepage="true">
-	 <title>Two Feet Forward with Dan Baker (live Music at Coffee Creator)</title>
+	 <title>__Two Feet Forward with Dan Baker (live Music at Coffee Creator)</title>
 		<date>Mar 10 </date>
                 <detail> Dan has played here many times, with an acoustic set.</detail>
 		<ministries>
@@ -453,7 +453,7 @@ and to register visit the Events Center.</detail>
 		</ministries>
     </event>
     <event id="03006" date="20040331" showOnHomepage="false">
-	 <title>Glorious Dregs (live Music at Coffee Creator)</title>
+	 <title>__Glorious Dregs (live Music at Coffee Creator)</title>
 		<date>Mar 31 </date>
                 <detail> San Antonio band that played here last December. Usually have a more edgy sound but again this time they offer us their acoustic set.</detail>
 		<ministries>
