@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.5 2002/07/18 17:11:43 javajames27 Exp $
+	$Id: calendar.xml,v 1.6 2002/07/18 17:12:44 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -167,18 +167,6 @@
 			Aug
 	===============
 -->		
-		<event id="08001" date="20020830" showOnHomepage="true">
-			<title>Frontline Retreat</title>
-			<date>Aug 30-Sept 2</date>
-			<detail>
-				Please call the church office at (512) 719-4667 for more information.
-			</detail>
-			<location>Camp Balcones</location>
-			<ministries>
-				<ministry id="frontline"/>
-			</ministries>
-		</event>
-
 		<event id="08002" date="20020803" showOnHomepage="true">
 			<title>Evening of Worship</title>
 			<date>Saturday, August 3rd from 7 to 8:30pm</date>
@@ -191,6 +179,19 @@
 				<ministry id="worship"/>
 			</ministries>
 		</event>
+
+                <event id="08001" date="20020830" showOnHomepage="true">
+			<title>Frontline Retreat</title>
+			<date>Aug 30-Sept 2</date>
+			<detail>
+				Please call the church office at (512) 719-4667 for more information.
+			</detail>
+			<location>Camp Balcones</location>
+			<ministries>
+				<ministry id="frontline"/>
+			</ministries>
+		</event>
+
 
 <!--
 	===============
