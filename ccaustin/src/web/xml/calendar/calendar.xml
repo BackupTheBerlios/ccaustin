@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.133 2004/10/18 05:30:24 gregk Exp $
+	$Id: calendar.xml,v 1.134 2004/10/31 13:50:58 premav Exp $
 		
 -->
 <content title="Calendar">
@@ -749,6 +749,14 @@ Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE<
 	 <title>Operation Christmas Child 2004</title>
 		<date>Dec</date>
 		<detail>Participate in a unique international ministry project without leaving Austin! Share God's love with kids around the globe who may have never heard the gospel or received a Christmas gift. Informative brochures and prayer guides are available at the Operation Christmas Child table in the lobby.</detail>
+    </event>
+    <event id="11005" date="20041108" showOnHomepage="true">
+	 <title>WOW! Kids</title>
+		<date>Nov 7th</date>
+		<detail>is starting a monthly meeting called, ?POW! WOW!? on November 7th, at 6:00pm. We will meet in WOW! 5 and discuss many exciting changes and to offer support and training. Snacks will be provided. For details contact Donna Cano at 255-7756.</detail>
+		<ministries>
+			<ministry id="children"/>
+		</ministries>
     </event>
 	</calendar>
 </content>

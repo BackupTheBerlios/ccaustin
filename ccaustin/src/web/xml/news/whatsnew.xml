@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.103 2004/10/22 15:16:48 premav Exp $
+	$Id: whatsnew.xml,v 1.104 2004/10/31 13:50:58 premav Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -528,8 +528,8 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		   <detail>There are several positions in the church office to volunteer. If you have attended Calvary Austin for six months or more and can commit to two to eight hours a week, please contact Katherine Nogues at 719-4667 to obtain a volunteer application, and to find out what positions are available.</detail>
 		</news-item>
 		<news-item id="154" date="20041008" expires="20041101" showOnHomepage="true">
-		   <title>Pastors &amp; Leaders Conference</title>
-		   <detail>offers an opportunity for you to be a part of blessing the Calvary movement here in Texas by serving in the facilities ministry during that Conference time of Thursday, Friday &amp; Saturday or by preparing the facilities prior to the Conference that week. If interested, call Jim Curbow at 252-2008.</detail>
+		   <title>Conference Volunteers Needed</title>
+		   <detail>Conference 2004 / 313 will be November 4-6 at Calvary Austin. Join Rob Salvato, Robert Furrow, Rod Carver and Allen Rigg for a look at how you can learn from your mistakes.  If you serve in any capacity, you will want to register at the Events Center.</detail>
 		</news-item>
 		<news-item id="155" date="20041008" expires="20041101" showOnHomepage="true">
 		   <title>Calling All Social Butterflies</title>
