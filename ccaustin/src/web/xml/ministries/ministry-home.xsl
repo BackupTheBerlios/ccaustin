@@ -6,7 +6,7 @@
 	
 	Processes the ministry tag and its children tags
 	
-	$Id: ministry-home.xsl,v 1.3 2002/03/18 00:12:18 javajames27 Exp $
+	$Id: ministry-home.xsl,v 1.4 2002/05/22 16:59:23 javajames27 Exp $
 	
 -->	
 
@@ -61,41 +61,44 @@
 </xsl:template>
 
 <xsl:template match="contacts">
-  	     <xsl:variable name="contactweb" select="contact-web"/>
-  	     <xsl:variable name="contactemail" select="contact-email"/>
-  	     <xsl:variable name="contactphone" select="contact-phone"/>
 		<tr>
 			<td width="100%" class="tableheader" align="left" valign="top" nowrap="true">For More Information</td>
 		</tr>
-		<xsl:if test="$contactweb != '' ">
-  			<tr>
-				<td width="100%" class="tablecell" align="left" valign="top">More Info: 
-				  <a>
-				    <xsl:attribute name="href"><xsl:value-of select="./contact-web/@href"/></xsl:attribute>
-                         <xsl:value-of select="contact-web"/>
-                       </a>
-				</td>
-			</tr>
-		</xsl:if>
-		<xsl:if test="$contactemail != '' ">
-  			<tr>
-				<td width="100%" class="tablecell" align="left" valign="top">Contact: 
-				  <a>
-				    <xsl:attribute name="href">mailto:<xsl:value-of select="./contact-email/@email"/></xsl:attribute>
-                         <xsl:value-of select="contact-email"/>
-                       </a>
-                     </td>
-			</tr>
-		</xsl:if>
-		<xsl:if test="$contactphone != '' ">
-  			<tr>
-				<td width="100%" class="tablecell" align="left" valign="top"><xsl:value-of select="contact-phone"/> : <xsl:value-of select="./contact-phone/@phone"/> 
-                     </td>
-			</tr>
-		</xsl:if>
+		<xsl:apply-templates select="contact-email"/>
+		<xsl:apply-templates select="contact-web"/>
+		<xsl:apply-templates select="contact-phone"/>
 		<tr>
 			<td><br/></td>
 		</tr>
+</xsl:template>
+
+<xsl:template match="contact-phone">
+  			<tr>
+				<td width="100%" class="tablecell" align="left" valign="top"><xsl:value-of select="."/> : <xsl:value-of select="@phone"/> 
+                     </td>
+			</tr>
+</xsl:template>
+
+<xsl:template match="contact-email">
+  			<tr>
+				<td width="100%" class="tablecell" align="left" valign="top">Contact: 
+				  <a>
+				    <xsl:attribute name="href">mailto:<xsl:value-of select="@email"/></xsl:attribute>
+                         <xsl:value-of select="."/>
+                       </a>
+                     </td>
+			</tr>
+</xsl:template>
+
+<xsl:template match="contact-web">
+  			<tr>
+				<td width="100%" class="tablecell" align="left" valign="top">More Info: 
+				  <a>
+				    <xsl:attribute name="href"><xsl:value-of select="@href"/></xsl:attribute>
+                         <xsl:value-of select="."/>
+                       </a>
+				</td>
+			</tr>
 </xsl:template>
 
 </xsl:stylesheet>

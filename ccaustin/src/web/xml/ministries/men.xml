@@ -3,7 +3,7 @@
 
 	Men's Ministry - The ministry and its detail
 	
-	$Id: men.xml,v 1.2 2002/03/18 00:12:18 javajames27 Exp $
+	$Id: men.xml,v 1.3 2002/05/22 16:59:23 javajames27 Exp $
 		
 -->
 <content title="Men's Ministry">
@@ -17,11 +17,11 @@
 	    <p>The Men’s Ministry is about God’s word. We desire to see men moved through the power of God’s word. This Bible study meets every other Tuesday night (7:00 PM) in the Youth Room. Check the <a href="../calendar/events.html">calendar</a> for upcoming meetings.</p>
          <p>Our current study is taking us through the "Letters to the Churches." We are currently in the book of Colossians, which will be followed by the book of Phillipians. Join us! You are welcome to join at any time, as we only study a chapter each meeting.</p>
 	    <heading>Accountability</heading>
-	    <p>The Men’s Ministry is about growing together. As iron sharpens iron. Men meet Tuesday mornings (6:00 AM) at Kerby Lane Cafe on 183. </p>
+	    <p>The Men’s Ministry is about growing together. As iron sharpens iron. <br/>
+	    <link href="../ministries/menaccount.html">Read more...</link></p>
 	  </long-description>
 	  <contacts>
   	    <contact-email email="glendon@calvaryaustin.org">Glendon Nicks</contact-email>
-  	    <contact-web href="../about/location.html">Location</contact-web>
    	  </contacts>
 	  <ministry-logo>/images/ministries/men.gif</ministry-logo>
 	</ministry>

@@ -3,7 +3,7 @@
 
 	Ushering Ministry - The ministry and its detail
 	
-	$Id: usher.xml,v 1.1 2002/03/18 00:12:18 javajames27 Exp $
+	$Id: usher.xml,v 1.2 2002/05/22 16:59:23 javajames27 Exp $
 		
 -->
 <content title="Ushering Ministry">
@@ -11,7 +11,6 @@
 	  <name>Ushering Ministry</name>
 	  <overview>The Ushering Ministry is an extension of the Men's Ministry whereby the men of Calvary Chapel have an opportunity to serve the 	  Lord regularly during the Church Services.</overview>
 	  <long-description>
-	    <heading>More Info...</heading>
 	    <p>The ushers are called on to provide help in all situations. However, their main duties consist of escorting people to their seats, 		    receiving the offering, and assisting in minimizing the distractions to the congregation.</p>
 	  </long-description>
 	  <contacts>

@@ -3,10 +3,13 @@
 
 	Home Fellowship Ministry - The ministry and its detail
 	
-	$Id: home.xml,v 1.3 2002/03/18 00:12:18 javajames27 Exp $
+	$Id: home.xml,v 1.4 2002/05/22 16:59:23 javajames27 Exp $
 		
 -->
-<content title="Home Fellowship Ministry">
+<content title="Home Fellowship Ministry" onUnload="hfnWindow.close()">
+	<!-- Custom for home fellowship ministry. We may want to generalize this later, if another ministry needs the same thing -->
+	<!-- We probably want to move this data to XML and generate the javascript on the fly in the future -->
+	<script src="../js/hfn.js"/>
 	<ministry id="home">
 	  <name>Home Fellowship Ministry</name>
 	  <overview>Home fellowships consist of 8-15 individuals or couples that meet weekly in an effort to grow and minister to one another within the church body using the gifts God has given you.</overview>
@@ -18,20 +21,21 @@
           <p><img src="../images/ministries/hfnmap.jpg" border="0" usemap="#hfnmap"/></p>
 
 		<map name="hfnmap">
-		  <area shape="circle" coords="348, 66, 12" href="javascript:popupWin(1)" alt="Meets at Friday, 7:00 PM"/>
-		  <area shape="circle" coords="256, 55, 12" href="javascript:popupWin(2)" alt="Meets at Friday, 7:30 PM"/>
-		  <area shape="circle" coords="166,266, 12" href="javascript:popupWin(3)" alt="Meets at Thursday, 7:00 PM"/>
-		  <area shape="circle" coords="273,150, 12" href="javascript:popupWin(4)" alt="Meets at Friday, 7:30 PM"/>
-		  <area shape="circle" coords="298,101, 12" href="javascript:popupWin(5)" alt="Meets at Friday, 7:30 PM"/>
-		  <area shape="circle" coords="257, 31, 12" href="javascript:popupWin(6)" alt="Meets at Friday, 7:15 PM"/>
-		  <area shape="circle" coords="348,338, 12" href="javascript:popupWin(7)" alt="Meets at Sunday, 6:30 PM"/>
-		  <area shape="circle" coords="277, 84, 12" href="javascript:popupWin(8)" alt="Meets at Sunday, 6:00 PM"/>
+		  <area shape="circle" coords="392, 60, 12" href="javascript:hfnWin(1)" alt="Meets at Friday, 7:30 pm"/>
+		  <area shape="circle" coords="125,246, 12" href="javascript:hfnWin(3)" alt="Meets at Friday, 7:00 pm"/>
+		  <area shape="circle" coords="304,91, 12" href="javascript:hfnWin(5)" alt="Meets at Friday, 7:30 pm"/>
+		  <area shape="circle" coords="271, 31, 12" href="javascript:hfnWin(6)" alt="Meets at Friday, 7:30 pm"/>
+		  <area shape="circle" coords="356,342, 12" href="javascript:hfnWin(7)" alt="Meets at Sunday, 6:30 pm"/>
+		  <area shape="circle" coords="311, 49, 12" href="javascript:hfnWin(9)" alt="Meets at Friday, 7:30 pm"/>
 		</map>
-
+		
 	  </long-description>
 	  <contacts>
-  	    <contact-web href="../about/location.html">Location</contact-web>
+	  	<contact-phone phone="719-4667">Contact the church office</contact-phone>
    	  </contacts>
 	  <ministry-logo>/images/ministries/home.gif</ministry-logo>
+	  
+	  <hfndata>
+	  </hfndata>
 	</ministry>
 </content>

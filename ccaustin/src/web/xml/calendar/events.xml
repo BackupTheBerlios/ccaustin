@@ -3,7 +3,7 @@
 
 	Calendar Events Content - references event IDs in schedule.xml
 	
-	$Id: events.xml,v 1.1 2002/01/31 03:25:34 javajames27 Exp $
+	$Id: events.xml,v 1.2 2002/05/22 16:59:23 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -70,5 +70,128 @@
 			<event id="121" scheduleRefId="12"/>
 			<event id="122" scheduleRefId="13"/>
 		</calendarEvent>
+
+		<calendarEvent day="Saturday" date="July 13th">
+			<event id="123" time="TBD" location="Church" childCare="no">
+				<title>Worship Community Auditions</title>
+				<shortnote/>
+				<detail>
+					<text>Please call the church office to pick up your audition packet.</text>
+				</detail>
+				<ministries>
+					<ministry id="worshipcommunity"/>
+				</ministries>
+			</event>
+		</calendarEvent>
+		<calendarEvent day="Friday" date="June 7 - 9">
+			<event id="124" time="All Day" location="Corpus Christi" childCare="no">
+				<title>Corpus Christi Outreach</title>
+				<shortnote/>
+				<detail>
+					<text>Please call the church office for more information.</text>
+				</detail>
+				<ministries>
+					<ministry id="frontline"/>
+				</ministries>
+			</event>
+		</calendarEvent>
+		<calendarEvent day="Wednesday" date="July 17 - 21">
+			<event id="125" time="All Day" location="Scopes Trial" childCare="no">
+				<title>Scopes Trial Outreach</title>
+				<shortnote/>
+				<detail>
+					<text>Please call the church office for more information.</text>
+				</detail>
+				<ministries>
+					<ministry id="frontline"/>
+				</ministries>
+			</event>
+		</calendarEvent>
+		<calendarEvent day="Friday" date="Aug 30 - Sept 2">
+			<event id="126" time="All Day" location="Camp Balcones" childCare="no">
+				<title>Frontline Retreat</title>
+				<shortnote/>
+				<detail>
+					<text>Please call the church office for more information.</text>
+				</detail>
+				<ministries>
+					<ministry id="frontline"/>
+				</ministries>
+			</event>
+		</calendarEvent>
+		<calendarEvent day="TBD" date="TBD">
+			<event id="127" time="All Day" location="TBD" childCare="no">
+				<title>Family Camp</title>
+				<shortnote/>
+				<detail>
+					<text>Family Camp is a camping weekend designed to fellowship with other families from church with lots of fun, planned activities and just kick around free time with our kids.  Look forward to campfire worship and smores!  Call John Adams for details-512) 834-0173</text>
+				</detail>
+				<ministries>
+					<ministry id="ydc"/>
+				</ministries>
+			</event>
+		</calendarEvent>
+		<calendarEvent day="TBD" date="June 24th - 28th">
+			<event id="128" time="All Day" location="Church" childCare="no">
+				<title>Vacation Bible School</title>
+				<shortnote/>
+				<detail>
+					<text>Vacation Bible School is offered both day and eve sessions from June 24-28th. We are going to "visit" CAMP LOGOS this year and have lots of exciting camp adventures awaiting your children ages 4-12.  This event is free.  Invite your friends and be prepared to have a great time with a special Bible lesson each day that is supported with all kinds of activities.  Our last day will include Parent Nite with bounce rides and live horses and a cookout!  Call Kerry Schroeder for details 512) 219-7028.</text>
+				</detail>
+				<ministries>
+					<ministry id="ydc"/>
+				</ministries>
+			</event>
+		</calendarEvent>
+		<calendarEvent day="TBD" date="June 26th">
+			<event id="129" time="10am - 9pm" location="Church" childCare="no">
+				<title>Children's Ministry Conference</title>
+				<shortnote/>
+				<detail>
+					<text>We are offering a conference for any person working with children in a church setting or even parents.  The conference will include special speakers, a conference manual, and 4 meals shared together on site as well as an abundance of workshops that you can choose from to enhance your ministry or parent skills.  Registration is open now. The event cost is $45.00 and will be held on July 26, from 10am-9pm and July 27 from 9am-4pm.  We are inviting churches locally as well as churches from several other mid-western states.  For more information call Donna Cano at (512) 255-7756.</text>
+				</detail>
+				<ministries>
+					<ministry id="ydc"/>
+				</ministries>
+			</event>
+		</calendarEvent>
+		<calendarEvent day="TBD" date="July 27th">
+			<event id="130" time="10am - 9pm" location="Church" childCare="no">
+				<title>Children's Ministry Conference</title>
+				<shortnote/>
+				<detail>
+					<text>We are offering a conference for any person working with children in a church setting or even parents.  The conference will include special speakers, a conference manual, and 4 meals shared together on site as well as an abundance of workshops that you can choose from to enhance your ministry or parent skills.  Registration is open now. The event cost is $45.00 and will be held on July 26, from 10am-9pm and July 27 from 9am-4pm.  We are inviting churches locally as well as churches from several other mid-western states.  For more information call Donna Cano at (512) 255-7756.</text>
+				</detail>
+				<ministries>
+					<ministry id="ydc"/>
+				</ministries>
+			</event>
+		</calendarEvent>
+		<calendarEvent day="Saturday" date="June 22">
+			<event id="131" time="8:00pm" location="Coffee Creator" childCare="no">
+				<title>Live Music - Paul Finley</title>
+				<shortnote/>
+				<detail>
+					<text>Stop by for live music!</text>
+				</detail>
+				<ministries>
+					<ministry id="coffee"/>
+				</ministries>
+			</event>
+		</calendarEvent>
+		<calendarEvent day="Saturday" date="June 29">
+			<event id="131" time="8:00pm" location="Coffee Creator" childCare="no">
+				<title>Live Music - Ten Thirty-One</title>
+				<shortnote/>
+				<detail>
+					<text>Stop by for live music!</text>
+				</detail>
+				<ministries>
+					<ministry id="coffee"/>
+				</ministries>
+			</event>
+		</calendarEvent>
+		
+		
 	</calendar>
 </content>

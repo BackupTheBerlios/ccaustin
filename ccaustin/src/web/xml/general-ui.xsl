@@ -14,7 +14,7 @@
 	A variant of this file may offer more search engine or accessibility-friendly
 	navigation and less Javascript features for older browsers. 
 	
-	$Id: general-ui.xsl,v 1.5 2002/04/09 00:45:37 javajames27 Exp $
+	$Id: general-ui.xsl,v 1.6 2002/05/22 16:59:23 javajames27 Exp $
 -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl
@@ -50,9 +50,12 @@
 <script language="JavaScript1.2" src="../js/menu.js"></script>
 <script language="JavaScript1.2" src="../js/ca.js"></script>
 <script language="JavaScript1.2" src="../js/win.js"></script>
+<xsl:apply-templates select="content/script"/> <!-- allow our pages to include custom scripting -->
 </head>
 <body bgColor="white" leftMargin="0" text="#2544a9" topMargin="0" vLink="#758ee1" marginheight="0" marginwidth="0">
-
+<xsl:if test="content/@onUnload != '' ">
+	<xsl:attribute name="onUnload"><xsl:value-of select="content/@onUnload"/></xsl:attribute>
+</xsl:if>
 <!--
 	The main page structure is the header followed by body.
 	The header contains 2 regions: logo + menus, and variable
@@ -218,4 +221,11 @@ buildMenus();
 	<xsl:apply-templates/>
 </xsl:template>
 
+<xsl:template match="script">
+  <script language="JavaScript1.2">
+  	<xsl:attribute name="src"><xsl:value-of select="@src"/></xsl:attribute>
+  </script> 
+</xsl:template>
+
 </xsl:stylesheet>
+

@@ -10,7 +10,7 @@
 	Place all tag processing templates in here that are HTML-based or text-processing based 
 	(using the <text></text> tag set).
 	
-	$Id: general-html.xsl,v 1.5 2002/04/10 01:46:26 javajames27 Exp $
+	$Id: general-html.xsl,v 1.6 2002/05/22 16:59:23 javajames27 Exp $
 -->
 
 
@@ -111,6 +111,10 @@
 	<p class="heading"><xsl:apply-templates select="text()"/></p>
 </xsl:template>
 
+<xsl:template match="subheading">
+	<p class="subheading"><xsl:apply-templates select="text()"/></p>
+</xsl:template>
+
 <xsl:template match="subtext">
 	<p class="subtext"><xsl:apply-templates select="text()"/></p>
 </xsl:template>
@@ -136,5 +140,32 @@
 	</script>
 </xsl:template>
 
+<xsl:template match="table">
+	<table width="75%" cellspacing="2">
+		<xsl:attribute name="border">
+			 <xsl:choose>
+			     <xsl:when test="@border = 'true' ">1</xsl:when>
+			     <xsl:otherwise>0</xsl:otherwise>
+		      </xsl:choose>
+		</xsl:attribute>
+		<xsl:if test="@heading != ''">
+  		  <tr><td colspan="2" class="tableheader"><xsl:value-of select="@heading"/></td></tr>
+		</xsl:if>
+		<xsl:apply-templates select="row"/>
+	</table>
+</xsl:template>
+
+<xsl:template match="row">
+	<tr><xsl:apply-templates select="data"/></tr>
+</xsl:template>
+
+<xsl:template match="data">
+	<td>
+	<xsl:if test="@label = 'true' ">
+ 		  <xsl:attribute name="class">heading</xsl:attribute>
+ 		  <xsl:attribute name="nowrap">true</xsl:attribute>
+	</xsl:if>
+	<xsl:value-of select="."/></td>
+</xsl:template>
 
 </xsl:stylesheet>

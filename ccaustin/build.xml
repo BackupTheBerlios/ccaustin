@@ -96,23 +96,25 @@
 
         <!-- Creates the Tape/RealAudio section of the web site                         -->
 	<target name="web-messages" depends="checkoptions" description="Creates the tape and RealAudio section of the site">
-                <style force="yes" style="${src.xml.dir}/msgs/msgs-Audio-BookStudies.xsl" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsAudioBookStudies.html"/> 
-                <style force="yes" style="${src.xml.dir}/msgs/msgs-Audio-Overview.xsl" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsAudioOverview.html"/> 
-                <style force="yes" style="${src.xml.dir}/msgs/msgs-Audio-TopicalSeries.xsl" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsAudioTopicalSeries.html"/> 
-                <style force="yes" style="${src.xml.dir}/msgs/msgs-Audio-InDepth.xsl" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsAudioInDepth.html"/> 
-                <style force="yes" style="${src.xml.dir}/msgs/msgs-Audio-Misc.xsl" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsAudioMisc.html"/> 
-                <style force="yes" style="${src.xml.dir}/msgs/msgs-Audio-categories.xsl" in="${src.xml.dir}/msgs/msgs-categories.xml" out="${build.web.dir}/msgs/msgsAudioArchive.html"/> 
-                <style force="yes" style="${src.xml.dir}/msgs/msgs-Tapes-Overview.xsl" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsTapesOverview.html"/> 
-                <style force="yes" style="${src.xml.dir}/msgs/msgs-Tapes-TopicalSeries.xsl" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsTapesTopicalSeries.html"/> 
-                <style force="yes" style="${src.xml.dir}/msgs/msgs-Tapes-BookStudies.xsl" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsTapesBookStudies.html"/> 
-                <style force="yes" style="${src.xml.dir}/msgs/msgs-Tapes-InDepth.xsl" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsTapesInDepth.html"/> 
-                <style force="yes" style="${src.xml.dir}/msgs/msgs-Tapes-Misc.xsl" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsTapesMisc.html"/> 
-                <style force="yes" style="${src.xml.dir}/msgs/msgs-Tapes-categories.xsl" in="${src.xml.dir}/msgs/msgs-categories.xml" out="${build.web.dir}/msgs/msgsTapeArchive.html"/>
+		<style style="${src.xml.dir}/msgs/msgs-Sunday-cur.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsSundayCur.html"/>
+		<style style="${src.xml.dir}/msgs/msgs-Midweek-cur.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsMidweekCur.html"/>
+		<style style="${src.xml.dir}/msgs/msgs-Audio-BookStudies.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsAudioBookStudies.html"/>
+		<style style="${src.xml.dir}/msgs/msgs-Audio-Overview.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsAudioOverview.html"/>
+		<style style="${src.xml.dir}/msgs/msgs-Audio-TopicalSeries.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsAudioTopicalSeries.html"/>
+		<style style="${src.xml.dir}/msgs/msgs-Audio-InDepth.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsAudioInDepth.html"/>
+		<style style="${src.xml.dir}/msgs/msgs-Audio-Misc.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsAudioMisc.html"/>
+		<style style="${src.xml.dir}/msgs/msgs-Audio-categories.xsl" force="yes" in="${src.xml.dir}/msgs/msgs-categories.xml" out="${build.web.dir}/msgs/msgsAudioArchive.html"/>
+		<style style="${src.xml.dir}/msgs/msgs-Tapes-Overview.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsTapesOverview.html"/>
+		<style style="${src.xml.dir}/msgs/msgs-Tapes-TopicalSeries.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsTapesTopicalSeries.html"/>
+		<style style="${src.xml.dir}/msgs/msgs-Tapes-BookStudies.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsTapesBookStudies.html"/>
+		<style style="${src.xml.dir}/msgs/msgs-Tapes-InDepth.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsTapesInDepth.html"/>
+		<style style="${src.xml.dir}/msgs/msgs-Tapes-Misc.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsTapesMisc.html"/>
+		<style style="${src.xml.dir}/msgs/msgs-Tapes-categories.xsl" force="yes" in="${src.xml.dir}/msgs/msgs-categories.xml" out="${build.web.dir}/msgs/msgsTapeArchive.html"/>
          </target>
 
         <!-- Creates the Ministry section of the web site                         -->
 	<target name="web-ministries" depends="checkoptions" description="Creates the ministry section of the site">
-                <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/ydc.xml" out="${build.web.dir}/ministries/ydc.html"/> 
+                <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/children.xml" out="${build.web.dir}/ministries/children.html"/> 
                 <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/focus.xml" out="${build.web.dir}/ministries/focus.html"/> 
                 <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/frontline.xml" out="${build.web.dir}/ministries/frontline.html"/> 
                 <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/home.xml" out="${build.web.dir}/ministries/home.html"/> 
@@ -131,6 +133,11 @@
                 <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/usher.xml" out="${build.web.dir}/ministries/usher.html"/> 
                 <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/youthcrisis.xml" out="${build.web.dir}/ministries/youthcrisis.html"/> 
                 <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/internet.xml" out="${build.web.dir}/ministries/internet.html"/>          
+                <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/coffee.xml" out="${build.web.dir}/ministries/coffee.html"/>          
+                <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/menaccount.xml" out="${build.web.dir}/ministries/menaccount.html"/>          
+                <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/newlife.xml" out="${build.web.dir}/ministries/newlife.html"/>          
+                <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/overhead.xml" out="${build.web.dir}/ministries/overhead.html"/>          
+                <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/worshipcommunity.xml" out="${build.web.dir}/ministries/worshipcommunity.html"/>          
         </target>
 
         <!-- Creates the Homepage section of the web site                         -->

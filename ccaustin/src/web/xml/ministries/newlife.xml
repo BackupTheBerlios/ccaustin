@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	New Life Ministry - The ministry and its detail
+	
+	$Id: newlife.xml,v 1.1 2002/05/22 16:59:23 javajames27 Exp $
+		
+-->
+<content title="New Life Ministry">
+	<ministry id="newlife">
+	  <name>New Life Ministry</name>
+	  <overview>The New Life Ministry, aka the Prayer Room Ministry, meets with those that have dedicated their life to Jesus during a service.</overview>
+	  <long-description>
+	  <heading>Purpose</heading>
+	  <p>As “New Life” prayer partners, we exist to usher in new believers in Christ and to come alongside them with encouragement and love. We provide practical information to assist them in their growth in Christ.</p>
+	  <heading>Vision</heading>
+	  <p>“New Life” prayer partners’ vision is to be a group of men and women with prayerful hearts who bring an attitude of hospitality and welcome to each divine appointment God grants.</p>
+	  <p>I pray for you constantly, asking God, the glorious Father of our Lord Jesus Christ, to give you spiritual wisdom and understanding, so that you might grow in your knowledge of God.  <br/>--Ephesians 1:16b,17 (NLT)</p>
+	  <heading>Join us!</heading>	
+	  <p>We invite you to prayerfully consider New Life Ministry as a way to serve here at Calvary Chapel Austin. This is a ministry which is created for mature Christians who enjoy praying with others. Come and experience the joy of sharing a moment with men and women as they dedicate their lives to Jesus Christ.</p>
+	  </long-description>
+	  <contacts>
+	  	<contact-email email="surfdisciple@hotmail.com">Damon Cotter</contact-email>
+	  	<contact-email email="maryliz339@earthlink.com">Mary</contact-email>
+	  	<contact-phone phone="719-4667">Contact the church office</contact-phone>
+   	  </contacts>
+	  <ministry-logo>/images/ministries/newlife.gif</ministry-logo>
+	</ministry>
+</content>

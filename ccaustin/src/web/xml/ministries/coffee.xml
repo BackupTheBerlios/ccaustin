@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Coffee Creator - The ministry and its detail
+	
+	$Id: coffee.xml,v 1.1 2002/05/22 16:59:23 javajames27 Exp $
+		
+-->
+<content title="Coffee Creator">
+	<ministry id="coffee">
+	  <name>Coffee Creator</name>
+	  <overview>Coffee Creator is here to serve the fellowship of believers at Calvary and in the Austin area. We have limited operational hours due to our volunteers avaliablility. We also host live christian music on Saturday evenings.</overview>
+	  <long-description>
+	    <table heading="Hours of Operation">
+	    	 <row>
+	    	 	<data label="true">Tue - Fri</data>
+	    	 	<data>6am - Noon</data>
+	    	 </row>
+	    	 <row>
+	    	 	<data label="true">Sun</data>
+	    	 	<data>7am - 2pm</data>
+	    	 </row>
+	    	 <row>
+	    	 	<data label="true">Wed and Sat evenings</data>
+	    	 	<data>5pm - 11pm</data>
+	    	 </row>
+	    </table>
+	  </long-description>
+	  <contacts>
+	  	<contact-email email="coffeecreator@sbcglobal.net">Kenda Newberry, Manager</contact-email>
+	  	<contact-phone phone="719-4554">Phone</contact-phone>
+	  	<contact-phone phone="963-0113">Booking for Music (contact J.D.)</contact-phone>
+   	  </contacts>
+	  <ministry-logo>/images/ministries/worshipcommunity.gif</ministry-logo>
+	</ministry>
+</content>
