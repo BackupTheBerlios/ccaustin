@@ -29,16 +29,16 @@ for (i = 0; i < numPix; i++)
 
 function runSlideShow() 
 {
-  if (document.all) 
+  if (document.images.SlideShow) 
 	{
          document.images.SlideShow.style.filter="blendTrans(duration=5)";
          document.images.SlideShow.style.filter="blendTrans(duration=crossFadeDuration)";
          document.images.SlideShow.filters.blendTrans.apply();
         }
 
-  document.images.SlideShow.src = preLoad[j].src;
-  if (document.all) 
+  if (document.images.SlideShow) 
 	{
+         document.images.SlideShow.src = preLoad[j].src;
   	 document.images.SlideShow.filters.blendTrans.play();
 	}
   j = j + 1;
