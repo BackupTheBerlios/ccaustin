@@ -3761,8 +3761,15 @@
 <tape>BO1364</tape> 
 <audio>bibleoverview/62-ijo-04.wma</audio> 
 <passageref>http://www.blueletterbible.org/kjv/1Jo/1Jo004.html#top</passageref> 
-</message>    
- 
+</message>  
+<message date="20040901" service="midweek" category="overview"> 
+<seriestitle>II John</seriestitle> 
+<title></title> 
+<passage>II John 1, III John and Jude</passage> 
+<tape>BO1365</tape> 
+<audio>bibleoverview/63-2jo-01.wma</audio> 
+<passageref>http://www.blueletterbible.org/kjv/2Jo/2Jo001.html#top</passageref> 
+</message>      
 
     	<message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
