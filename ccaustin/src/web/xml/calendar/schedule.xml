@@ -3,7 +3,7 @@
 
 	Weekly/Monthy Reoccuring Calendar Events Content
 	
-	$Id: schedule.xml,v 1.40 2004/06/05 06:39:06 gregk Exp $
+	$Id: schedule.xml,v 1.41 2004/06/07 15:18:55 tie Exp $
 
 -->
 <content title="Weekly &amp; Monthly Events">
@@ -15,7 +15,7 @@
   </intro>
   <events>
     <event id="sun1" date="*" reoccur="Sun" time="9:30am" location="Auditorium" childMinistry="yes" childCare="no">
-      <title>First Service</title>
+      <title>First Service - The Book of James</title>
       <shortnote/>
       <detail/>
     </event>
@@ -31,7 +31,7 @@
     </event>
 -->
     <event id="sun2" date="*" reoccur="Sun" time="11:30am" location="Auditorium" childMinistry="yes" childCare="no">
-      <title>Second Service</title>
+      <title>Second Service - The Book of James</title>
       <shortnote/>
       <detail/>
     </event>
@@ -125,7 +125,7 @@
     </event>
 -->
     <event id="wed1" date="*" reoccur="Wed" time="7:00pm" location="Auditorium " childMinistry="yes" childCare="no">
-      <title>Midweek Service</title>
+      <title>Midweek Service - June 9th: Bunjee Garrett</title>
       <shortnote/>
       <detail/>
     </event>
