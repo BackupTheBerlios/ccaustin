@@ -28,7 +28,7 @@ import org.apache.struts.action.ActionMessage;
 import org.apache.struts.action.ActionMessages;
 import org.calvaryaustin.cms.slide.KillLockCommand;
 import org.calvaryaustin.cms.slide.UpdateCommand;
-import org.calvaryaustin.cms.webdav.RepositoryUtil;
+import org.calvaryaustin.cms.webdav.WebdavConnection;
 import org.calvaryaustin.cms.webdav.WebdavRepositoryDAO;
 import org.calvaryaustin.controlpanel.AdminAction;
 import org.calvaryaustin.controlpanel.AdminUserRequest;
@@ -71,7 +71,7 @@ public class EditorAction extends AdminAction
         // compute the path, using our DAO (which we shouldn't use from here, 
         // but no time to do it right by talking to the repository right now -
         // instead, we are going to use the Slide tags which talk directly to the kernel
-        String uri = RepositoryUtil.normalize(WebdavRepositoryDAO.FILES_PREFIX + WebdavRepositoryDAO.PATH_SITES + "/" + siteName + "/" + path + "/" + file); 
+        String uri = WebdavConnection.normalize(WebdavRepositoryDAO.FILES_PREFIX + WebdavRepositoryDAO.PATH_SITES + "/" + siteName + "/" + path + "/" + file); 
         log.debug("uri="+uri);
         form.setComputedUri( uri );
 

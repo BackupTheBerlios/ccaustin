@@ -5,7 +5,7 @@ import java.io.IOException;
 import javax.servlet.ServletException;
 
 import org.apache.struts.action.ActionForward;
-import org.calvaryaustin.cms.webdav.RepositoryUtil;
+import org.calvaryaustin.cms.webdav.WebdavConnection;
 import org.calvaryaustin.cms.webdav.WebdavRepositoryDAO;
 import org.calvaryaustin.web.BaseAction;
 import org.calvaryaustin.web.UserRequest;
@@ -39,7 +39,7 @@ public class ViewerAction extends BaseAction
 		// compute the path, using our DAO (which we shouldn't use from here, 
 		// but no time to do it right by talking to the repository right now -
 		// instead, we are going to use the Slide tags which talk directly to the kernel
-		String uri = RepositoryUtil.normalize(WebdavRepositoryDAO.FILES_PREFIX + WebdavRepositoryDAO.PATH_SITES + "/" + siteName + "/" + path + "/" + file); 
+		String uri = WebdavConnection.normalize(WebdavRepositoryDAO.FILES_PREFIX + WebdavRepositoryDAO.PATH_SITES + "/" + siteName + "/" + path + "/" + file); 
         log.debug("uri="+uri);
         viewerForm.setComputedUri( uri );
 		

@@ -5,7 +5,7 @@ import javax.servlet.ServletException;
 import org.calvaryaustin.web.BaseAction;
 import org.calvaryaustin.web.UserRequest;
 import org.apache.struts.action.ActionForward;
-import org.calvaryaustin.cms.webdav.RepositoryUtil;
+import org.calvaryaustin.cms.webdav.WebdavConnection;
 import org.calvaryaustin.cms.webdav.WebdavRepositoryDAO;
 
 /**
@@ -18,7 +18,7 @@ import org.calvaryaustin.cms.webdav.WebdavRepositoryDAO;
  * node (either a site or directory).
  *
  * @author jhigginbotham
- * @version $Revision: 1.6 $
+ * @version $Revision: 1.7 $
  */
 public final class BrowserAction extends BaseAction 
 {
@@ -36,7 +36,7 @@ public final class BrowserAction extends BaseAction
         // compute the path, using our DAO (which we shouldn't use from here, 
         // but no time to do it right by talking to the repository right now -
         // instead, we are going to use the Slide tags which talk directly to the kernel
-        String uri = RepositoryUtil.normalize(WebdavRepositoryDAO.FILES_PREFIX + WebdavRepositoryDAO.PATH_SITES + "/" + siteName + "/" + path); 
+        String uri = WebdavConnection.normalize(WebdavRepositoryDAO.FILES_PREFIX + WebdavRepositoryDAO.PATH_SITES + "/" + siteName + "/" + path); 
         log.debug("uri="+uri);
         browserForm.setComputedUri( uri );
         return request.getMapping().findForward("browser.success");

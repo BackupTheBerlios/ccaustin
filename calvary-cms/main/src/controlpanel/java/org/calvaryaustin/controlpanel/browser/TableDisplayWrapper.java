@@ -6,7 +6,7 @@ import org.apache.slide.taglib.bean.NodeBean;
 import org.apache.struts.Globals;
 import org.apache.struts.action.ActionMapping;
 import org.apache.taglibs.display.TableDecorator;
-import org.calvaryaustin.cms.webdav.RepositoryUtil;
+import org.calvaryaustin.cms.webdav.WebdavConnection;
 
 /**
  * A custom display taglibrary decorator for the browser web component
@@ -71,7 +71,7 @@ public class TableDisplayWrapper extends TableDecorator
 		{
 			// build the call to this same page via the Action with the new path
 			String site = form.getSite();
-			String path = RepositoryUtil.normalize( form.getPath()+"/"+node.getName() );
+			String path = WebdavConnection.normalize( form.getPath()+"/"+node.getName() );
 			String link = "<a href='"+contextPath+"/browser.do?site="+site+"&path="+path+"'>"
 			  +node.getName()+"</a>";
 			return link;
