@@ -6,6 +6,7 @@ pre	{ FONT-FAMILY: "Courier New", Courier, mono }
 p       { font-size: 90% }
 .note {  font-size: 10px; color: #FF0000}
 .tableheader {  background-color: #e6e6f7; font-weight: bold }
+.tableheaderdark {  color:#FFFFFF; background-color: #384D7A; font-weight: bold }
 .tablesubtitle {  font-size: 90%; font-style: italic; font-weight: bold }
 .tablecell {  }
 .textsubtitle {  font-size: 12px}
@@ -21,9 +22,23 @@ p       { font-size: 90% }
 .subheading {  font-weight: bold; font-size: 100% }
 .detail {  font-style: italic}
 a:hover {  text-decoration: underline}
-.newsitem {  font-size: 85% }
 .indent { left-indent: 4 }
-.sidebar { }
-.featurebox { background-color: #F6E9C6; }
-.featuredarticlebox { background-color: #FFFFFF; }
 .darkbg { background-color: #384D7A; }
+
+.sidebar { }
+
+.featuredarticlebox { background-color: #FFFFFF; }
+
+.newstitle {  font-size: 95%; font-weight: bold }
+.newssubtitle {  font-size: 85%; font-weight: bold }
+.newsitem {  font-size: 85% }
+.tablecellnews { background-color: #daecfb; }
+.tableheadernews {  background-color: #daecfb; font-weight: bold }
+
+.featuretitle {  font-size: 95%; font-weight: bold }
+.featuresubtitle {  font-size: 85%; font-weight: bold }
+.featureitem {  font-size: 85% }
+.tableheaderfeature {  background-color: #daecfb; font-weight: bold }
+.tablecellfeature { background-color: #daecfb; }
+
+
