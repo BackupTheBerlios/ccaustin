@@ -6,7 +6,7 @@
 	
 	Processes news items into a single page
 	
-	$Id: whatsnew.xsl,v 1.1 2002/07/08 23:25:13 javajames27 Exp $
+	$Id: whatsnew.xsl,v 1.2 2002/08/11 02:13:29 javajames27 Exp $
 	
 -->	
 
@@ -45,7 +45,7 @@
     </xsl:when>
   </xsl:choose>
   <tr>
-    <td colspan="2" class="tablecell,newsitem" align="left" valign="top"><xsl:apply-templates select="full"/></td>
+    <td colspan="2" class="tablecell,newsitem" align="left" valign="top"><p><xsl:apply-templates select="detail"/></p></td>
   </tr>
   <tr>
     <td colspan="2"><br/></td>

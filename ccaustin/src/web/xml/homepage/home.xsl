@@ -7,7 +7,7 @@
 	Processes the ministry tag and its children tags. Most tags reference news and articles located in other files, 
 	so we perform queries on other documents to obtain the data we need for this page. Nice for reusability!
 	
-	$Id: home.xsl,v 1.16 2002/08/10 22:56:55 javajames27 Exp $
+	$Id: home.xsl,v 1.17 2002/08/11 02:13:29 javajames27 Exp $
 	
 -->	
 
@@ -128,7 +128,7 @@
     </xsl:when>
   </xsl:choose>
   <tr>
-    <td colspan="2" class="newsitem" align="left" valign="top"><xsl:apply-templates select="full"/></td>
+    <td colspan="2" class="newsitem" align="left" valign="top"><p><xsl:apply-templates select="detail"/></p></td>
   </tr>
 </xsl:template>
 
@@ -158,7 +158,7 @@
         </xsl:when>
         <xsl:otherwise>
           <tr>
-            <td colspan="2" class="eventitem" align="left" valign="top"><xsl:apply-templates select="detail"/></td>
+            <td colspan="2" class="eventitem" align="left" valign="top"><p><xsl:apply-templates select="detail"/></p></td>
           </tr>
         </xsl:otherwise>
       </xsl:choose>

@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.3 2002/07/10 21:51:28 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.4 2002/08/11 02:13:29 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -12,42 +12,53 @@
       <date></date>
       <logo align="left" img ="../images/homepage/nothing.gif"/>
       <title>Test</title>
-      <full>
-	<p>Testing expired item....</p>
-      </full>
-    </news-item>
-    <news-item id="1" date="20020701" expires="20020801" showOnHomepage="true">
-      <date></date>
-      <logo align="left" img ="../images/homepage/nothing.gif"/>
-      <title>Fan Drive</title>
-      <full>
-	<p>Calvary Singles is sponsoring the 2nd annual fan drive for
-	Eldercare. Purchase a fan and drop it off under the octopus in
-	the lobby until the end of July.</p>
-      </full>
+      <detail>
+	Testing expired item....
+      </detail>
     </news-item>
     <news-item id="2" date="20020702" expires="20020901" showOnHomepage="true">
       <date></date>
       <logo align="left" img ="../images/homepage/nothing.gif"/>
       <title>Calvary Austin T-Shirts</title>
-      <full>
-	<p>T-shirts in red, green, blue, and black colors are
+      <detail>
+	T-shirts in red, green, blue, and black colors are
 	available in adult and youth sizes. The cost is $10. Come to
-	the Events Center to purchase your t-shirts today.</p>
-      </full>
+	the Events Center to purchase your t-shirts today.
+      </detail>
     </news-item>
+    
     <news-item id="2" date="20020711" expires="20020911" showOnHomepage="true">
       <date></date>
       <logo align="left" img ="../images/homepage/nothing.gif"/>
       <title>New Web Site</title>
-      <full>
-	<p>As you have noticed by now, the Calvary Austin web site has
+      <detail>
+	As you have noticed by now, the Calvary Austin web site has
 	a new look and fresh content. <link
 	href="../ministries/internet.html">Find out more</link> about
 	the internet ministry, as well as the <link href="../ministries/internet-vision.html">vision for the Calvary
-	Austin web site</link>. </p>
-      </full>
+	Austin web site</link>. 
+      </detail>
     </news-item>
+
+    <news-item id="3" date="20020830" expires="20020830" showOnHomepage="true">
+      <logo align="left" img ="../images/homepage/nothing.gif"/>
+      <title>YDC is Starting a New Year</title>
+      <detail>"YDC" begins its new year Wednesday, Aug 21, at 7PM.  It is a discipleship club for
+      Wise Guys, Witnesses and Watchmen--boys and girls Kindergarten through Fifth grade.  There is
+      worship, Bible study, game and group times each week.  Pick up a brochure at the Octopus in
+      the lobby for more information.<br/> <link href="../ministries/children.html">Learn
+      more...</link></detail>   
+    </news-item>
+
+
+    <news-item id="4" date="20020930" expires="20020930" showOnHomepage="true">
+      <logo align="left" img ="../images/homepage/nothing.gif"/>
+      <title>Women's Morning and Evening Bible Study</title>
+      <date>Tuesday, Sept 17</date>
+      <detail>The Women's bible study starts up again this fall. For more information, visit their
+      <link href="../ministries/women.html">ministry home page</link>.</detail>   
+    </news-item>
+    
   </news>
 </content>
 
