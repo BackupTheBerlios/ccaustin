@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.50 2003/10/19 03:35:28 gregk Exp $
+	$Id: whatsnew.xml,v 1.51 2003/10/22 04:55:25 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -208,7 +208,7 @@
 			<title>Radio Ministry Note</title>
 			<detail>Pastor Allen's 7:30 PM Mon-Fri broadcast on KIXL has moved to 9:30 AM on KBBW 1010AM.</detail>
 		</news-item>
-		<news-item id="77" date="20030915" expires="20031030" showOnHomepage="false">
+		<news-item id="77" date="20030915" expires="20031020" showOnHomepage="false">
 			<title>Women's Ministry Worship Team</title>
 			<detail>The Women's Ministry is in need of a Women's Worship Team, both vocalist and instrumentalist. Contact Heather Reynolds (565-3859) if you are interested in becoming a part of the team.</detail>
 		</news-item>
