@@ -9525,9 +9525,17 @@
 	<message date="20031123" service="sunday" category="book studies">
 		<seriestitle>Luke</seriestitle>
 		<title>Putting the Thanks in Thanksgiving</title>
-		<passage>Luke 13:10-35</passage>
+		<passage>Luke 13:10-21</passage>
 		<tape>BS112303</tape>
 		<audio>42-luk/42-luk-13-10.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk013.html#top</passageref>
+	</message>
+	<message date="20031130" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>How To Get To Heaven</title>
+		<passage>Luke 13:22-35</passage>
+		<tape>BS113003</tape>
+		<audio>42-luk/42-luk-13-22.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk013.html#top</passageref>
 	</message>                                      
 </messagecatalog>
