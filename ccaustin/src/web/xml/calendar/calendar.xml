@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.76 2003/10/05 12:26:13 gregk Exp $
+	$Id: calendar.xml,v 1.77 2003/10/05 13:38:23 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -247,6 +247,22 @@ need for Praying Leaders.</detail>
 <event id="10004" date="20031124" showOnHomepage="false">
 	 <title>Operation Christmas Child Shoe Box</title>
 		<date>Nov 23rd</date>
+    </event>
+    <event id="10005" date="20031018" showOnHomepage="false">
+		<date>Oct 18th</date>
+	 <title>Kevin Gathright</title>
+	 <detail>Some plugged-in acoustic rock from his latest CD</detail>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
+    </event>
+    <event id="10006" date="20031022" showOnHomepage="false">
+	 <title>Eph-pha-tha</title>
+		<date>Oct 22nd</date>
+		<detail>Eph-pha-tha is a local full piece band with a new CD. Check out their <link href="http://www.ephphatha.com">web site</link>. Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	     </detail>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
     </event>
 
 		<!--
