@@ -8,7 +8,7 @@
 	
 	allen-bio.xml - the biography for Pastor Allen
 	
-	$Id: servants.xml,v 1.8 2004/07/12 13:29:10 tie Exp $
+	$Id: servants.xml,v 1.9 2004/07/12 13:41:15 tie Exp $
 		
 -->
 <content title="Servants" base=".">
@@ -58,7 +58,7 @@
 		<thumbnail href="../images/staff/davidthumb.jpg"/>
 		<small-photo href="../images/staff/davidweb.jpg"/>
 		<large-photo href="../images/staff/davidweb.jpg"/>
-		<role  ministry="worship" title="Worship Leader"/>
+		<role  ministry="worship" title="Worship Pastor"/>
 	</servant>
 	<servant id="bunjee">
 		<fullname>Bunjee Garrett</fullname>
@@ -67,7 +67,7 @@
 		<thumbnail href="../images/staff/bunjeethumb.jpg"/>
 		<small-photo href="../images/staff/bunjeeweb.jpg"/>
 		<large-photo href="../images/staff/bunjeeweb.jpg"/>
-		<role ministry="frontline" title="College and Career Pastor"/>
+		<role ministry="frontline" title="Discipleship Pastor"/>
 	</servant>
 <!--
 	<servant id="john">
@@ -114,7 +114,7 @@
 		<thumbnail href="../images/staff/Derrickthumb.jpg"/>
 		<small-photo href="../images/staff/derrickweb.jpg"/>
 		<large-photo href="../images/staff/derrickweb.jpg"/>
-		<role ministry="church" title="Marriage Ministry Leader"/>
+		<role ministry="church" title="Marriage Pastor"/>
 	</servant>
 </staffulltime>
 <staffparttime>
