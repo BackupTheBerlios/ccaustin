@@ -29,10 +29,10 @@
 			<xsl:variable name="curr">
 				<xsl:value-of select="position()"/>
 			</xsl:variable>
-	<td colspan="1" width="30%">
+	<td colspan="1" width="25%">
 		<xsl:text> </xsl:text>
 	</td>
-	<td colspan="1" width="30%" class="textsubtitle">
+	<td colspan="1" width="25%" class="textsubtitle" align="right">
 		<xsl:element name="img">
 		<xsl:attribute name="src">
 			<xsl:value-of select="thumbnail/@href"/>
@@ -51,7 +51,7 @@
 		<xsl:apply-templates select="role/@title"/>
 		<br/>
 	</td>
-	<td colspan="1" width="30%" class="textsubtitle">
+	<!--td colspan="1" width="25%" class="textsubtitle">
 		<img src="{../servant[($curr+1)]/thumbnail/@href}" alt="{../servant[($curr+1)]/fullname}"/>
 		<br/>
 		<A HREF="{../servant[($curr+1)]/first-name}.html">
@@ -62,19 +62,22 @@
 		<br/>
 		<xsl:value-of select="../servant[($curr+1)]/role/@title"/>
 		<br/>
+	</td-->
+	<td colspan="1" width="25%">
+		<xsl:text> </xsl:text>
 	</td>
-	<td colspan="1" width="30%">
+	<td colspan="1" width="25%">
 		<xsl:text> </xsl:text>
 	</td>
 	</xsl:if>
 	</xsl:for-each>
 </tr>
 <xsl:for-each select="servant">
-<xsl:if test="position() mod 4 =3">
+<xsl:if test="position() mod 4 =2">
 <xsl:variable name="curr" select="position()"/>
 <xsl:variable name="total" select="9"/>
 <tr>
- <td colspan="1" width="30%" class="textsubtitle">
+ <td colspan="1" width="25%" class="textsubtitle" align="center">
                         <!--xsl:value-of select="$curr"/-->
                                 <!--image of the 1st staff member in column 1 -->
                                 <xsl:element name="img">
@@ -95,7 +98,7 @@
                                 <xsl:apply-templates select="role/@title"/>
                                 <br/>
                         </td>
-<td colspan="1" width="30%" class="textsubtitle">
+<td colspan="1" width="25%" class="textsubtitle" align="center">
 
                                 <xsl:variable name="actualcurr" select="$curr+1"/>
                                 <!--xsl:value-of select="$actualcurr"/-->
@@ -112,7 +115,7 @@
                                  <br/>
                 </xsl:if>
                         </td>
-<td colspan="1" width="30%" class="textsubtitle">
+<td colspan="1" width="25%" class="textsubtitle" align="center">
                                 <xsl:variable name="actualcurr" select="$curr+2"/>
                                 <!--xsl:value-of select="$actualcurr"/-->
                 <xsl:if test="$actualcurr &lt;= $total">
@@ -128,7 +131,7 @@
                                  <br/>
                 </xsl:if>
                         </td>
-                        <td colspan="1" width="30%" class="textsubtitle">
+                        <td colspan="1" width="25%" class="textsubtitle" align="center">
                                 <xsl:variable name="actualcurr" select="$curr+3"/>
                                 <!--xsl:value-of select="$actualcurr"/-->
                 <xsl:if test="$actualcurr &lt;= $total">
@@ -164,9 +167,9 @@
 <xsl:for-each select="servant">
 <xsl:if test="position() mod 4 =1">
 <xsl:variable name="curr" select="position()"/>
-<xsl:variable name="total" select="3"/>
+<xsl:variable name="total" select="4"/>
 <tr>
- <td colspan="1" width="30%" class="textsubtitle">
+ <td colspan="1" width="25%" class="textsubtitle" align="center">
                         <!--xsl:value-of select="$curr"/-->
                                 <!--image of the 1st staff member in column 1 -->
                                 <xsl:element name="img">
@@ -187,7 +190,7 @@
                                 <xsl:apply-templates select="role/@title"/>
                                 <br/>
                         </td>
-<td colspan="1" width="30%" class="textsubtitle">
+<td colspan="1" width="25%" class="textsubtitle" align="center">
 
                                 <xsl:variable name="actualcurr" select="$curr+1"/>
 	                        <!--xsl:value-of select="$actualcurr"/-->
@@ -204,7 +207,7 @@
                                  <br/>
                 </xsl:if>
                         </td>
-<td colspan="1" width="30%" class="textsubtitle">
+<td colspan="1" width="25%" class="textsubtitle" align="center"> 
                                 <xsl:variable name="actualcurr" select="$curr+2"/>
                                 <!--xsl:value-of select="$actualcurr"/-->
                 <xsl:if test="$actualcurr &lt;= $total">
@@ -219,8 +222,8 @@
                                  <xsl:value-of select="../servant[($curr+2)]/role/@title"/>
                                  <br/>
                 </xsl:if>
-                        </td>
-                        <td colspan="1" width="30%" class="textsubtitle">
+               </td>
+<td colspan="1" width="25%" class="textsubtitle" align="center">
                                 <xsl:variable name="actualcurr" select="$curr+3"/>
                                 <!--xsl:value-of select="$actualcurr"/-->
                 <xsl:if test="$actualcurr &lt;= $total">
@@ -235,7 +238,7 @@
                                  <xsl:value-of select="../servant[($curr+3)]/role/@title"/>
                                  <br/>
                 </xsl:if>
-                        </td>
+	       </td>
 
 </tr>
 </xsl:if>
@@ -253,7 +256,7 @@
 <xsl:variable name="curr" select="position()"/>
 <xsl:variable name="total" select="6"/>
 <tr>
- <td colspan="1" width="30%" class="textsubtitle">
+ <td colspan="1" width="25%" class="textsubtitle" align="center">
                         <!--xsl:value-of select="$curr"/-->
                                 <!--image of the 1st staff member in column 1 -->
                                 <xsl:element name="img">
@@ -274,7 +277,7 @@
                                 <xsl:apply-templates select="role/@title"/>
                                 <br/>
                         </td>
-<td colspan="1" width="30%" class="textsubtitle">
+<td colspan="1" width="25%" class="textsubtitle" align="center">
 
                                 <xsl:variable name="actualcurr" select="$curr+1"/>
                                 <!--xsl:value-of select="$actualcurr"/-->
@@ -291,7 +294,7 @@
                                  <br/>
                 </xsl:if>
                         </td>
-<td colspan="1" width="30%" class="textsubtitle">
+<td colspan="1" width="25%" class="textsubtitle" align="center">
                                 <xsl:variable name="actualcurr" select="$curr+2"/>
                                 <!--xsl:value-of select="$actualcurr"/-->
                 <xsl:if test="$actualcurr &lt;= $total">
@@ -307,7 +310,7 @@
                                  <br/>
                 </xsl:if>
                         </td>
-<td colspan="1" width="30%" class="textsubtitle">
+<td colspan="1" width="25%" class="textsubtitle" align="center">
                                 <xsl:variable name="actualcurr" select="$curr+3"/>
                                 <!--xsl:value-of select="$actualcurr"/-->
                 <xsl:if test="$actualcurr &lt;= $total">

@@ -8,7 +8,7 @@
 	
 	allen-bio.xml - the biography for Pastor Allen
 	
-	$Id: servants.xml,v 1.9 2004/07/12 13:41:15 tie Exp $
+	$Id: servants.xml,v 1.10 2004/08/11 00:01:51 premav Exp $
 		
 -->
 <content title="Servants" base=".">
@@ -22,15 +22,6 @@
 		<large-photo href="../images/staff/allenweb.jpg"/>
 		<role ministry="church" title="Senior Pastor"/>
 	</servant>
-	<servant id="andrea">
-		<fullname>Andrea Rigg</fullname>
-		<first-name>Andrea</first-name>
-		<last-name>Rigg</last-name>
-		<thumbnail href="../images/staff/andreathumb.jpg"/>
-		<small-photo href="../images/staff/andreaweb.jpg"/>
-		<large-photo href="../images/staff/andreaweb.jpg"/>
-		<role  ministry="church" title="Pastor's wife"/>
-	</servant>
 <!--
 	<servant id="jean">
 		<fullname>Jean Janes</fullname>
@@ -42,14 +33,14 @@
 		<role ministry="church" title="Secretary"/>
 	</servant>
 -->
-	<servant id="donna">
-		<fullname>Donna Cano</fullname>
-		<first-name>Donna</first-name>
-		<last-name>Cano</last-name>
-		<thumbnail href="../images/staff/donnathumb.jpg"/>
-		<small-photo href="../images/staff/donnaweb.jpg"/>
-		<large-photo href="../images/staff/donnaweb.jpg"/>
-		<role ministry="children" title="Children's Ministry Director"/>
+	<servant id="glendon">
+		<fullname>Glendon Nicks</fullname>
+		<first-name>Glendon</first-name>
+		<last-name>Nicks</last-name>
+		<thumbnail href="../images/staff/glendonthumb.jpg"/>
+		<small-photo href="../images/staff/glendonweb.jpg"/>
+		<large-photo href="../images/staff/glendonweb.jpg"/>
+		<role ministry="church" title="Pastor of Pastoral Care"/>
 	</servant>
 	<servant id="david">
 		<fullname>David Reynolds</fullname>
@@ -80,15 +71,6 @@
 		<role ministry="youth" title="Youth Pastor"/>
 	</servant>
 -->
-	<servant id="glendon">
-		<fullname>Glendon Nicks</fullname>
-		<first-name>Glendon</first-name>
-		<last-name>Nicks</last-name>
-		<thumbnail href="../images/staff/glendonthumb.jpg"/>
-		<small-photo href="../images/staff/glendonweb.jpg"/>
-		<large-photo href="../images/staff/glendonweb.jpg"/>
-		<role ministry="church" title="Assisting Pastor"/>
-	</servant>
 	<servant id="katherine">
 		<fullname>Katherine E. Nogues</fullname>
 		<first-name>Katherine</first-name>
@@ -114,10 +96,28 @@
 		<thumbnail href="../images/staff/Derrickthumb.jpg"/>
 		<small-photo href="../images/staff/derrickweb.jpg"/>
 		<large-photo href="../images/staff/derrickweb.jpg"/>
-		<role ministry="church" title="Marriage Pastor"/>
+		<role ministry="church" title="Family Pastor"/>
 	</servant>
 </staffulltime>
 <staffparttime>
+	<servant id="andrea">
+		<fullname>Andrea Rigg</fullname>
+		<first-name>Andrea</first-name>
+		<last-name>Rigg</last-name>
+		<thumbnail href="../images/staff/andreathumb.jpg"/>
+		<small-photo href="../images/staff/andreaweb.jpg"/>
+		<large-photo href="../images/staff/andreaweb.jpg"/>
+		<role  ministry="church" title="BookStore"/>
+	</servant>
+	<servant id="donna">
+		<fullname>Donna Cano</fullname>
+		<first-name>Donna</first-name>
+		<last-name>Cano</last-name>
+		<thumbnail href="../images/staff/donnathumb.jpg"/>
+		<small-photo href="../images/staff/donnaweb.jpg"/>
+		<large-photo href="../images/staff/donnaweb.jpg"/>
+		<role ministry="children" title="Children's Ministry Director"/>
+	</servant>
 	<servant id="jeremy">
 		<fullname>Jeremy Valencia</fullname>
 		<first-name>Jeremy</first-name>
@@ -154,7 +154,7 @@
 		<thumbnail href="../images/staff/Jasonthumb.jpg"/>
 		<small-photo href="../images/staff/jasonweb.jpg"/>
 		<large-photo href="../images/staff/jasonweb.jpg"/>
-		<role ministry="church" title="Calvary Discipleship Leader"/>
+		<role ministry="church" title="Elder"/>
 	</servant>
 	<servant id="james">
 		<fullname>James Lazono</fullname>
@@ -163,7 +163,7 @@
 		<thumbnail href="../images/staff/Jamesthumb.jpg"/>
 		<small-photo href="../images/staff/jamesweb.jpg"/>
 		<large-photo href="../images/staff/jamesweb.jpg"/>
-		<role ministry="church" title="New Believer's Teacher"/>
+		<role ministry="church" title="Elder"/>
 	</servant>
 	<servant id="bones">
 		<fullname>Bones Uk</fullname>
@@ -190,7 +190,7 @@
 		<thumbnail href="../images/staff/markthumb.jpg"/>
 		<small-photo href="../images/staff/markweb.jpg"/>
 		<large-photo href="../images/staff/markweb.jpg"/>
-		<role ministry="church" title="Elder &amp; Seasoned Saints Leader"/>
+		<role ministry="church" title="Elder"/>
 	</servant>
 	<servant id="matt">
 		<fullname>Matt Lang</fullname>
@@ -199,7 +199,7 @@
 		<thumbnail href="../images/staff/mattthumb.jpg"/>
 		<small-photo href="../images/staff/mattweb.jpg"/>
 		<large-photo href="../images/staff/mattweb.jpg"/>
-		<role ministry="church" title="Elder &amp; Greeting Ministry"/>
+		<role ministry="church" title="Elder"/>
 	</servant>
 </elder>
 </content>
