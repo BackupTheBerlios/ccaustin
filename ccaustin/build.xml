@@ -25,6 +25,7 @@
   <property name="src.images.dir" value="${src.web.dir}/images"/>
   <property name="src.css.dir" value="${src.web.dir}/css"/>
   <property name="src.html.dir" value="${src.web.dir}/html"/>
+  <property name="src.webdav.dir" value="${src.web.dir}/_webdav-tmp"/>
   <property name="build.dir" value="${home}/build"/>
   <property name="build.web.dir" value="${build.dir}/docs"/>
   <property name="build.web.tmp.dir" value="${build.dir}/temp"/>
@@ -35,7 +36,14 @@
   <!-- Give user a chance to override without editing this file 
   (and without typing -D each time it compiles it -->
   <property file="local.properties"/>
-  
+
+  <!-- =================================================================== -->
+  <!-- Task Defs                                                           -->
+  <!-- =================================================================== -->
+  <!--
+  <taskdef name="davget" classname="org.apache.webdav.ant.taskdefs.Get"/>
+  -->
+
   <!-- =================================================================== -->
   <!-- Clean Target                                                        -->
   <!-- =================================================================== -->
@@ -44,6 +52,7 @@
     <delete dir="${build.dir}"/>
     <delete dir="${build.tmpgen.dir}"/>
     <delete dir="${dist.dir}"/>
+    <delete dir="${src.webdav.dir}"/>
   </target>
   
   <!-- =================================================================== -->
@@ -60,7 +69,11 @@
     <echo message="DATE=${DATE}"/>
     <!-- This file needs to be copied temporarily for building several index files -->
     <copy file="${src.web.dir}/xml/sitemap.xml" toFile="${src.web.dir}/xml/homepage/_sitemap.xml"/>
-    <copy file="${src.web.dir}/xml/sitemap.xml" toFile="${src.web.dir}/xml/ministries/_sitemap.xml"/>
+    <copy file="${src.web.dir}/xml/sitemap.xml"
+    toFile="${src.web.dir}/xml/ministries/_sitemap.xml"/>
+
+    <!-- Make these dirs early -->
+    <mkdir dir="${src.webdav.dir}"/>
   </target>
   
   <!-- =================================================================== -->
@@ -165,5 +178,13 @@
       <fileset dir="${dist.web.dir}"/>
     </ftp>    
   </target>
+
+<!--
+  <target name="dav.fetch" depends="checkoptions">
+    <davget baseurl="http://localhost:8080/slide/" dest="${src.webdav.dir}" verbose="true">
+      <include name="*.html"/>
+    </davget>
+  </target>
+-->
 </project>
 

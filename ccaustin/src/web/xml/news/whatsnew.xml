@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.18 2003/01/04 15:39:47 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.19 2003/01/11 18:57:53 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -176,7 +176,31 @@
 		<news-item id="25" date="20030201" expires="20030201" showOnHomepage="true">
 			<logo align="left" img="../images/homepage/nothing.gif"/>
 			<title>Spring 2003 Men's Bible Study</title>
-			<detail>The Men’s study will start soon.  Begin blocking out your Tuesday nights and praying about your involvement. The study meets every other Tuesday evening at 7:00 PM.  This is an exciting opportunity for spiritual growth. </detail>      
+			<detail>The men will begin a study of Nehemiah starting Tuesday, Jan 28.  Sign up at the Events Center.  Books are $10.  You must pay to sign up.</detail>      
 		</news-item>
-	</news>
+    <news-item id="26" date="20030101" expires="20030208" showOnHomepage="true">
+		<logo align="left" img="../images/homepage/nothing.gif"/>
+		<title>Homeless Outreach</title>
+		<detail>Donations are needed for an outreach to the homeless scheduled for Saturday, Feb 8.  A list of  needed items is 		available at the Information Center.  Please place the items you bring in receptacles located in the lobby near the front doors.	</detail>
+</news-item>
+	<news-item id="27" date="20030101" expires="20030125" showOnHomepage="true">
+		<logo align="left" img="../images/homepage/nothing.gif"/>
+		<title>Youth Day Retreat</title>
+		<detail>The deadline for signing up for the Jan 25,
+		9AM-5PM,"Vital Life" Youth Day Retreat at the church is next Sunday, Jan 19.
+		Come by the Events Center to sign up &amp; pay the $17.  Lunch and a  t-shirt
+		are included!
+		</detail>
+	</news-item>
+    <news-item id="28" date="20030102" expires="20030202" showOnHomepage="true">
+		<logo align="left" img="../images/homepage/nothing.gif"/>
+		<title>School of Ministry</title>
+		<detail>The 2nd semester will start on Monday, Feb 17.  Sign up by Feb 2 at the Events Center for one or two classes in the 		Pastoral, Practical, Apologetics, Evangelism &amp; Missions, Theological, and Historical courses of study.  The cost is $25 	for 	one and $40 for two classes.</detail>
+    </news-item>
+
+
+
+</news>
+
+
 </content>

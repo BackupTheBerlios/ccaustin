@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.29 2003/01/06 19:31:46 javajames27 Exp $
+	$Id: calendar.xml,v 1.30 2003/01/11 18:57:52 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -100,6 +100,25 @@
       <detail/>
     </event>
 
+    <event id="02006" date="20030208" showOnHomepage="false">
+	 <title>Karaoke Night</title>
+		<date>Feb 8th</date>
+		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some karaoke, great coffee, and fellowship. 	     </detail>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
+	</event>
+
+    <event id="02007" date="20030201" showOnHomepage="true">
+	 <title>One Day Conference on Israel</title>
+		<date>Feb 1st</date>
+		<detail>Join us Saturday, Feb 1, for a day with Roni Simon.  He is a native of Israel, an IDF reservist, and has served as our
+tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Jesus' Israel, the State of Israel, and the Israel/Palestinian conflict.  The conference will run from 9AM to midafternoon.</detail>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
+	</event>
+
 		<!--
     ===============
     Mar
@@ -108,7 +127,7 @@
     <event id="03001" date="20030316" showOnHomepage="false">
       <title>Calvary 2003 Women's Retreat</title>
       <date>March 14-16th</date>
-      <detail>More details to come...</detail>
+      <detail>Registration will begin next week for the women’s retreat to be held at Balcones Springs March 14-16.  The cost is $115 and a deposit of $60 will reserve your spot.  Plan to sign up at the Events Center next Sunday.</detail>
     </event>
 
 		<!--
@@ -136,295 +155,30 @@
     Aug
     ===============
     -->
-		<event id="08001" date="20020902" showOnHomepage="true">
-			<title>2002 Mid-South College and Career Retreat</title>
-			<date>Aug 30-Sept 2</date>
-			<detail>The speakers will be Darren Brock, Terry Michaels, Rod Carver and Bunjee Garrett.  The 
-	Calvary Chapel event will be held at Balcones Springs.  The cost is $130 for
-	4 days, 3 nights and 8 meals. Find out more about the College and Career group, <link href="../ministries/frontline.html">Frontline</link>.</detail>
-			<location>Camp Balcones</location>
-			<ministries>
-				<ministry id="frontline"/>
-			</ministries>
-		</event>
-		<event id="08003" date="20020826" showOnHomepage="true">
-			<title>Marriage Ministry Fall Group Meeting Registration</title>
-			<date>August 4 - 25</date>
-			<detail>Ministry Fall group meetings will start Sep 13 and last 6 to 7 weeks.  Meetings will
-      be held at the homes of group leaders.   Fall session will include these topics:  Improving
-      Communications, Resolving Conflicts, Building Teamwork, and Growing Together in Christ.  Sign
-      up at the Event Center.  Spaces are limited.  Registration deadline is Aug 25.<br/>
-				<link href="../ministries/marriage.html">Learn more...</link>
-			</detail>
-			<location>Events Center</location>
-			<ministries>
-				<ministry id="marriage"/>
-			</ministries>
-		</event>
-		<event id="08004" date="20020821" showOnHomepage="true">
-			<title>Live Music - Paul Finley</title>
-			<date>August 21</date>
-			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship.</detail>
-			<ministries>
-				<ministry id="coffee"/>
-			</ministries>
-		</event>
-		<event id="08005" date="20020828" showOnHomepage="true">
-			<title>Live Music - Leigha Cross</title>
-			<date>August 28</date>
-			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship .</detail>
-			<ministries>
-				<ministry id="coffee"/>
-			</ministries>
-		</event>
 		<!--
 	===============
 	Sept
 	===============
 -->
-		<event id="09002" date="20020908" showOnHomepage="true">
-			<title>Mexico Mission Trip</title>
-			<date>Sept 6-8</date>
-			<detail>Partner with Calvary Chapel Rio Grande Valley and minister to a women's
-      shelter/orphanage in Ejido Sandoval.  Sign up  and get a needs list at the Events Center.
-      Anyone may drop off beans, rice and flour at the church office to stock the shelters
-      pantry.</detail>
-		</event>
-		<event id="09001" date="20020914" showOnHomepage="true">
-			<title>Live Music - Razing Jericho</title>
-			<date>September 14 @ 8:00pm</date>
-			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. Want to hear a clip or learn more about 
-      the band? Visit their <link href="http://www.razingjericho.com">homepage</link>
-			</detail>
-			<ministries>
-				<ministry id="coffee"/>
-			</ministries>
-		</event>
-		<event id="09003" date="20020925" showOnHomepage="true">
-			<title>Live Music - John Wilson</title>
-			<date>September 25th @ 9:00pm</date>
-			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
-			<ministries>
-				<ministry id="coffee"/>
-			</ministries>
-		</event>
 		<!--
 	===============
 			Oct
 	===============
 -->
-		<event id="10001" date="20021030" showOnHomepage="true">
-			<title>Mid-South Pastors and Ministry Leaders Conference</title>
-			<detail>The Mid-South Pastors and Leaders Conference is over. If you attended the Internet
-      Ministry Workshop, you can <link href="../conferences/PastorConf2002-Internet.html">view the slides online</link>!</detail>
-			<location>Church</location>
-			<ministries>
-				<ministry id="church"/>
-			</ministries>
-		</event>
-		<event id="10002" date="20021016" showOnHomepage="false">
-			<title>Live Music - Paul Finley</title>
-			<date>October 16th @ 9:00pm</date>
-			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
-			<ministries>
-				<ministry id="coffee"/>
-			</ministries>
-		</event>
-		<event id="10005" date="20021013" showOnHomepage="false">
-			<title>Communion Service</title>
-			<detail/>
-			<ministries>
-				<ministry id="church"/>
-			</ministries>
-		</event>
-		<event id="10004" date="20021016" showOnHomepage="false">
-			<title>Extended Worship</title>
-			<date>October 16th Service</date>
-			<detail>Join us for an extended time of worship</detail>
-			<ministries>
-				<ministry id="worship"/>
-			</ministries>
-		</event>
-		<event id="10006" date="20021013" showOnHomepage="false">
-			<title>Communion Service</title>
-			<date>All three services on October 13th</date>
-			<detail>Come, join the Worship Community and the Worship Team next Sunday, Oct 13, for the celebration of communion during each of our services. </detail>
-			<ministries>
-				<ministry id="church"/>
-			</ministries>
-		</event>
-		<event id="10003" date="20021023" showOnHomepage="false">
-			<title>Live Music - Daniel Baker</title>
-			<date>October 23rd @ 9:00pm</date>
-			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
-			<ministries>
-				<ministry id="coffee"/>
-			</ministries>
-		</event>
-		<event id="10007" date="20021027" showOnHomepage="true">
-			<title>CPR Training Class</title>
-			<date>October 27th, 1:30-6:30pm</date>
-			<detail>The Childrens Ministry is sponsoring a licensed CPR class open to anyone in the church on Sunday, Oct 27, from 1:30-6:30PM. The class will be held at the church in Swordfish Center.  For more information call Cynde Kaply (278.1510).  Sign up at the Events Center by Oct 20.  The cost is $40.</detail>
-			<ministries>
-				<ministry id="church"/>
-			</ministries>
-		</event>
-		<event id="10008" date="20021030" showOnHomepage="false">
-			<title>Live Music - Ten-31</title>
-			<date>October 30th</date>
-			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
-			<ministries>
-				<ministry id="coffee"/>
-			</ministries>
-		</event>
 		<!--
 	===============
 			Nov
 	===============
 -->
-		<event id="11002" date="20021102" showOnHomepage="true">
-			<title>Evening of Worship</title>
-			<date>Nov 2nd</date>
-			<detail>Please join us for our 2nd installment of an Evening of Worship on Saturday, Nov 2, at 7PM.  This is an opportunity to come and participate in worship, adoration and lingering in the presence of God.  Childcare will be provided for Nursery through Kindergarten ages only.</detail>
-			<ministries>
-				<ministry id="worship"/>
-			</ministries>
-		</event>
-		<event id="11001" date="20021116" showOnHomepage="true">
-			<title>Men's Retreat</title>
-			<date>Nov 14-16</date>
-			<detail>Please pay your balance before the Men’s Retreat at T-bar-M Ranch in New Braunfels.  Come by the Events Center to pay or get directions to this week’s retreat.</detail>
-			<ministries>
-				<ministry id="men"/>
-			</ministries>
-		</event>
-		<event id="11005" date="20021120" showOnHomepage="true">
-			<title>Live Music - David and Heather Reynolds</title>
-			<date>November 20th</date>
-			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
-			<ministries>
-				<ministry id="coffee"/>
-			</ministries>
-		</event>
-		<event id="11003" date="20021124" showOnHomepage="true">
-			<title>Operation Christmas Child</title>
-			<date>Sun, Nov 24th</date>
-			<detail>Five wrapping parties have been scheduled at various Austin locations.  Pick up a list of the parties and dates at the Events Center.  Remember, all filled shoe boxes are due Sunday, Nov 24, when they will be dedicated and sent.  Bring them to the church earlier if they are ready.</detail>
-		</event>
-		<event id="11004" date="20021128" showOnHomepage="false">
-			<title>4th Annual Turkey Bowl</title>
-			<date>Nov 28th</date>
-			<detail>4th Annual Turkey Bowl  Get off your couch and join us at the Wells Branch Community Center activity field on Thanksgiving Day at 8AM.  Coffee and donuts will be available and then we will cast lots for teams.  See the flyers at the info area for directions.  Don't forget your cleats...</detail>
-		</event>
-		<event id="11006" date="20021123" showOnHomepage="false">
-			<title>Live Music - Eph'-pha-tha</title>
-			<date>November 23rd</date>
-			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
-			<ministries>
-				<ministry id="coffee"/>
-			</ministries>
-		</event>
 		<!--
 	===============
 			Dec
 	===============
 -->
-		<event id="12004" date="20021204" showOnHomepage="false">
-			<title>Live Music - Dan Baker</title>
-			<date>Dec 4th</date>
-			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
-			<ministries>
-				<ministry id="coffee"/>
-			</ministries>
-		</event>
-		<event id="12003" date="20021207" showOnHomepage="true">
-			<title>Unemployment Day of Ministry</title>
-			<date>Dec 7th</date>
-			<detail>Come Saturday, Dec 7, 8:30AM-2:30PM to see presentations on practical job searching tips and techniques.  We’ll have a time of praise and worship, a devotional message, small group prayer, and a discussion of the affects unemployment have on marriage and family.  Lunch will be provided.  To help us plan for lunch please sign up at the Events Center.</detail>
-		</event>
-		<event id="12005" date="20021207" showOnHomepage="false">
-			<title>Live Music - David Cloud from Point of Contact</title>
-			<date>Dec 7th</date>
-			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. Find out more about David Cloud at their <link href="http://pointofcontact.tripod.com ">homepage</link>.</detail>
-			<ministries>
-				<ministry id="coffee"/>
-			</ministries>
-		</event>
-		<event id="12006" date="20021211" showOnHomepage="false">
-			<title>Live Music - Ten-31 with Julie Karrow</title>
-			<date>Dec 11th</date>
-			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
-			<ministries>
-				<ministry id="coffee"/>
-			</ministries>
-		</event>
-		<event id="12009" date="20021214" showOnHomepage="true">
-			<title>Poetry and Open Mic Night</title>
-			<date>Dec 14th</date>
-			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
-			<ministries>
-				<ministry id="coffee"/>
-			</ministries>
-		</event>
-    <!--
-		<event id="12010" date="20021218" showOnHomepage="true">
-			<title>Live Music - Juan Gutierrez</title>
-			<date>Dec 18th</date>
-			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
-			<ministries>
-				<ministry id="coffee"/>
-			</ministries>
-		</event>
-		<event id="12001" date="20021224" showOnHomepage="true">
-			<title>Christmas Eve Service</title>
-			<date>December 24th</date>
-			<detail>Dec 24, 6-7PM</detail>
-			<ministries>
-				<ministry id="church"/>
-			</ministries>
-		</event>
-    -->
-		<event id="12012" date="20021231" showOnHomepage="true">
-			<title>Holiday Events</title>
-			<date>Throughout December</date>
-			<detail>Find out what events Calvary Austin has in store for the holiday
-			season! <link href="../events/holiday2002.html">Learn more</link>...</detail>
-			<ministries>
-				<ministry id="church"/>
-			</ministries>
-		</event>
-		<event id="12011" date="20021228" showOnHomepage="true">
-			<title>Live Music - Kevin Gathright</title>
-			<date>Dec 28th</date>
-			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
-			<ministries>
-				<ministry id="coffee"/>
-			</ministries>
-		</event>
-
-		<event id="12002" date="20021231" showOnHomepage="true">
-			<title>New Year's Eve Service</title>
-			<date>December 31st</date>
-			<detail>Come join us Tuesday, New Years Eve, from 7:30-10:30PM for a blast. You will hear music from the Youth &amp; College bands and our Worship team. There will be a 2-part year-end video of the happenings at Calvary in 2002 and a special message from Pastor Allen</detail>
-			<ministries>
-				<ministry id="church"/>
-			</ministries>
-		</event>
-
 		<!--
 	===============
 		Coming Soon
 	===============
 -->
-		<event id="13001" date="TBA">
-			<title>Family Camp</title>
-			<date>Coming Soon!</date>
-			<detail>
-				Family Camp is a camping weekend designed to fellowship with other families from church with lots of fun, planned activities and just kick around free time with our kids.  Look forward to campfire worship and smores!  Call John Adams for details at (512) 83473
-			</detail>
-			<ministries>
-				<ministry id="children"/>
-			</ministries>
-		</event>
 	</calendar>
 </content>
