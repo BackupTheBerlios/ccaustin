@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.75 2004/03/01 17:57:54 gregk Exp $
+	$Id: whatsnew.xml,v 1.76 2004/03/06 03:28:09 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -389,5 +389,9 @@ after every Wednesday and Sunday service.</detail>
 970AM or at 9:30am on 1010AM. Watch our tv program on cable access
 channel 11 Saturdays at NOON.  Watch select services live on the
 internet or check out the audio archive on our web site.</detail></news-item>
+			<news-item id="118" date="20040305" expires="20040327" showOnHomepage="true">
+			<title>Calvary Austin Music WebPage</title>
+			<detail>The new <link href="http://www.calvaryaustinmusic.org">Calvary Austin Music WebPage</link> is here! Check out the new CD release <strong>"I Will"</strong>, learn the stories behind the songs, and much more!</detail>
+   </news-item>
   </news>
 </content>
