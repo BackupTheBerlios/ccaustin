@@ -3,7 +3,7 @@
 
 	Worship Ministry - The ministry and its detail
 	
-	$Id: worship.xml,v 1.6 2003/06/05 15:21:06 javajames27 Exp $
+	$Id: worship.xml,v 1.7 2004/06/18 03:26:46 tie Exp $
 		
 -->
 <content title="Worship Team">
@@ -19,7 +19,11 @@
       <!-- Should we pull these in from the msgs.xml file? For now, I'll just copy and paste -->
       <heading>Grow in Your Worship...</heading>
       <p>Listen for the first time, or listen again - RealAudio archives about the topic of worship.</p>
-      <subheading>Recent</subheading>
+      
+      <subheading>Calvary Austin Music Website</subheading>
+      <p>Recently, with the release of the Calvary Austin Worship team's "I Will" CD, they also launced the <link href="http://www.calvaryaustinmusic.org/">Calvary Austin Music</link> web site. Be sure to go there and check out some of the sample songs from the album and to find out how to get your own copy. There are also some video clips and updates about where some of the songs have been playing across the country on the radio.</p>
+      
+      <subheading>Recent Messages</subheading>
       <p><link href="http://www.calvarychapel.org/austin/audio/guestspeaker/dreynolds0702.ram">Let
       Us Draw Near - Hebrews 10:22</link></p>
 
@@ -61,10 +65,6 @@
       <p>The Sound Team assists the pastor and worship team by providing audio technical support for
       all worship services, as well as worship team rehearsals and soundchecks.<br/><link
       href="../ministries/sound.html">Learn more...</link></p> 
-      <subheading>Overhead/Lights</subheading>
-      <p>This ministry works in conjunction with the Worship Team. We oversee the overhead
-	projectors and lights for each service. <br/><link
-	  href="../ministries/overhead.html">Learn more...</link></p>
     </long-description>
     <contacts>
       <contact-email email="david@calvaryaustin.org">David Reynolds, Worship Pastor</contact-email>
