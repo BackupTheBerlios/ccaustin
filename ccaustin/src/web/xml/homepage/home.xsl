@@ -7,7 +7,7 @@
 	Processes the ministry tag and its children tags. Most tags reference news and articles located in other files, 
 	so we perform queries on other documents to obtain the data we need for this page. Nice for reusability!
 	
-	$Id: home.xsl,v 1.13 2002/07/10 17:12:51 javajames27 Exp $
+	$Id: home.xsl,v 1.14 2002/07/10 21:51:28 javajames27 Exp $
 	
 -->	
 
@@ -148,7 +148,7 @@
     <xsl:when test="intro/text()">
       <tr>
         <td colspan="2" class="eventitem" align="left" valign="top"><xsl:value-of select="intro"/>
-        <xsl:text> </xsl:text><span class="readmore">[<a href="../calendar/calendar.html#{@id}" class="readmore">Learn more...</a>]</span></td>
+        <xsl:text> </xsl:text><br/><span class="readmore">[<a href="../calendar/calendar.html#{@id}" class="readmore">Learn more...</a>]</span></td>
       </tr>
     </xsl:when>
     <xsl:otherwise>

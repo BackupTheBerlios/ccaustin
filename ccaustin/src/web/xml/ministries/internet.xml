@@ -3,17 +3,29 @@
 
 	Internet Ministry - The ministry and its detail
 	
-	$Id: internet.xml,v 1.3 2002/05/27 18:35:20 javajames27 Exp $
+	$Id: internet.xml,v 1.4 2002/07/10 21:51:28 javajames27 Exp $
 		
 -->
 <content title="Internet Ministry">
 	<ministry id="internet">
 	  <name>Internet Ministry</name>
-	  <overview>Wonder who puts this site together? The internet ministry pulls together all of the most current technologies to outreach over the    	  web.</overview>
+	  <overview>Wonder who puts this site together? The internet
+	  ministry pulls together all of the most current technologies
+	  to outreach over the web.</overview> 
 	  <long-description>
+	    <p>Learn more about our <link
+	    href="../ministries/internet-vision.html">vision</link>
+	    for this ministry. </p>
 	    <heading>Want to help?</heading>
-	    <p>We need help from people who know or are willing to learn XML, XSL, Java, Java Servlets/JSP, database technologies, and 			HTML/Javascript.</p>
-	    <p>We are also looking for anyone who knows how to perform basic computer operations, such as creating, editing, and copying files, for 		content management of this web site.</p>
+	    <p>We are looking for anyone who knows how to perform
+	    basic computer operations, such as creating, editing, and
+	    copying files, for content management of this web
+	    site.</p> 
+	    <p>We also need help from people who know or are willing to
+	    learn XML, XSL, Java, Java Servlets/JSP, database
+	    technologies, and HTML/Javascript.</p>
+            <p>To learn how to server, contact the web servant team at
+	    the email address at the bottom of this page.</p>
 	  </long-description>
 	  <contacts>
   	    <contact-email email="webservant-austin@calvarychapel.org">Web Servant Team</contact-email>

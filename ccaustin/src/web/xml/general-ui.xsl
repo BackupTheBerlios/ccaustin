@@ -13,7 +13,7 @@
 	A variant of this file may offer more search engine or accessibility-friendly
 	navigation and less Javascript features for older browsers. 
 	
-	$Id: general-ui.xsl,v 1.24 2002/07/10 17:12:51 javajames27 Exp $
+	$Id: general-ui.xsl,v 1.25 2002/07/10 21:51:28 javajames27 Exp $
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html" indent="yes"/>
@@ -91,8 +91,9 @@
 				</table>
 				<!-- bottom table (content and footer) -->
 			      <table border="0" width="100%" cellspacing="0" cellpadding="0">
-			        <tr> 
-			          <td width="100%" valign="top"> 
+			        <tr>
+                                  <td width="2%"><br/></td>
+			          <td width="98%" valign="top"> 
 			            <table width="100%" cellspacing="0">
 			              <tr>
 			              	<td valign="top"><!-- BEGIN CONTENT --><xsl:apply-templates/><!-- END CONTENT --></td>

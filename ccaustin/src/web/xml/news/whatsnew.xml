@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.2 2002/07/10 17:12:51 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.3 2002/07/10 21:51:28 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -44,7 +44,7 @@
 	<p>As you have noticed by now, the Calvary Austin web site has
 	a new look and fresh content. <link
 	href="../ministries/internet.html">Find out more</link> about
-	the internet ministry, as well as the <link href="../internet/vision.html">vision for the Calvary
+	the internet ministry, as well as the <link href="../ministries/internet-vision.html">vision for the Calvary
 	Austin web site</link>. </p>
       </full>
     </news-item>
