@@ -3537,7 +3537,14 @@
 		<audio>bibleoverview/49-eph-05.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph005.html#top</passageref>
 	</message>
-
+	<message date="20031022" service="midweek" category="misc">
+		<seriestitle>Guest Speaker</seriestitle>
+		<title>Loving God With All Your Mind - Bunjee Garrett</title>
+		<passage>Matthew 22:36-38</passage>
+		<tape>GS102203</tape>
+		<audio>guestspeaker/bgarrett1003.ram</audio>
+		<passageref></passageref>
+	</message>
     <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
 		<title>The Big Question</title>
@@ -9395,5 +9402,13 @@
 		<tape>BS101903</tape>
 		<audio>42-luk/42-luk-12-22.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk012.html#top</passageref>
+	</message>
+	<message date="20031026" service="sunday" category="misc">
+		<seriestitle>Guest Speaker</seriestitle>
+		<title>Our Identity in Christ - Andy Neillie</title>
+		<passage>Colossians 3:12-14</passage>
+		<tape>GS102603</tape>
+		<audio>guestspeaker/aneillie1003.ram</audio>
+		<passageref></passageref>
 	</message>                                         
 </messagecatalog>
