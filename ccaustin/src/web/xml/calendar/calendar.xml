@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.2 2002/05/24 00:11:44 javajames27 Exp $
+	$Id: calendar.xml,v 1.3 2002/07/08 22:44:36 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -104,23 +104,13 @@
 		<event id="07001" date="20020713">
 			<title>Worship Community Auditions</title>
 			<date>July 13th</date>
-			<time>TBD</time>
+			<time></time>
 			<detail>
 				Please call the church office to pick up your audition packet at (512) 719-4667.
 			</detail>
 			<location>Church</location>
 			<ministries>
 				<ministry id="worshipcommunity"/>
-			</ministries>
-		</event>
-		<event id="07002" date="20020717">
-			<title>Scopes Trial Outreach</title>
-			<date>July 17-21</date>
-			<detail>
-				Please call the church office at (512) 719-4667 for more information.
-			</detail>
-			<ministries>
-				<ministry id="frontline"/>
 			</ministries>
 		</event>
 		<event id="07003" date="20020727" childCare="yes">
@@ -131,6 +121,36 @@
 			</detail>
 			<ministries>
 				<ministry id="children"/>
+			</ministries>
+		</event>
+		<event id="07004" date="20020731">
+			<title>Live Music - Paul Finley</title>
+			<date>July 31st</date>
+			<time>9:00pm</time>
+			<detail>Stop by for live music!</detail>
+			<location>Coffee Creator</location>
+			<ministries>
+				<ministry id="coffee"/>
+			</ministries>
+		</event>
+		<event id="07005" date="20020717">
+			<title>Live Music - John Wilson</title>
+			<date>July 17th</date>
+			<time>9:00pm</time>
+			<detail>Stop by for live music!</detail>
+			<location>Coffee Creator</location>
+			<ministries>
+				<ministry id="coffee"/>
+			</ministries>
+		</event>
+		<event id="07006" date="20020724">
+			<title>Live Music - Fredie Dorian</title>
+			<date>July 24th</date>
+			<time>9:00pm</time>
+			<detail>Stop by for live music!</detail>
+			<location>Coffee Creator</location>
+			<ministries>
+				<ministry id="coffee"/>
 			</ministries>
 		</event>
 

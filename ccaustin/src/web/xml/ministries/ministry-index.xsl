@@ -6,7 +6,7 @@
 	
 	Uses the sitemap to produce an index to all the ministries
 	
-	$Id: ministry-index.xsl,v 1.2 2002/07/01 02:15:13 javajames27 Exp $
+	$Id: ministry-index.xsl,v 1.3 2002/07/08 22:44:36 javajames27 Exp $
 	
 -->	
 
@@ -36,10 +36,10 @@
 				<xsl:otherwise>
 				       <xsl:variable name="doc"><xsl:value-of select="substring-after(@datafile,'/')"/></xsl:variable>
 					<tr>
-						<td><p>
+						<td class="text">
 						  <a><xsl:attribute name="href">..<xsl:value-of select="@html"/></xsl:attribute><xsl:value-of select="title"/></a>
 						  <br/><xsl:value-of select="document($doc)/content/ministry/overview"/>
-						  </p>
+						  
 						 </td>
 					</tr>
 					<tr>
