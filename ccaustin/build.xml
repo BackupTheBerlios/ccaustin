@@ -60,7 +60,7 @@
 	<!-- Deploys the web site                                                -->
 	<!-- =================================================================== -->
     <target name="deploy" depends="checkoptions" description="Deploys the docs to the deploy.dir location">
-      <copy todir="${deploy.dir}">
+      <copy todir="${deploy.dir}" overwrite="true">
 	<fileset dir="${dist.web.dir}"/>
        </copy>
     </target>
