@@ -3,7 +3,7 @@
 
 	New Life Ministry - The ministry and its detail
 	
-	$Id: newlife.xml,v 1.5 2004/07/11 03:30:27 gregk Exp $
+	$Id: newlife.xml,v 1.6 2004/08/10 12:37:39 tie Exp $
 		
 -->
 <content title="New Life Ministry">
@@ -24,7 +24,6 @@
 	  </long-description>
 	  <contacts>
 	  	<contact-email email="surfdisciple@hotmail.com">Damon Cotter</contact-email>
-	  	<contact-email email="maryliz339@earthlink.com">Mary</contact-email>
 	  	<contact-phone phone="719-4667">Contact the church office</contact-phone>
    	  </contacts>
          <ministry-logo>../images/ministries/alpha_omega.jpg </ministry-logo>
