@@ -7,7 +7,7 @@ pre	{ FONT-FAMILY: "Courier New", Courier, mono }
 p       { font-size: 90% }
 
 .note {  font-size: 10px; color: #FF0000}
-.tableheader {  background-color: #e6e6f7; font-weight: bold }
+.tableheader {  font-size: 110%; text-decoration: underline; font-weight: bold }
 .tableheaderdark {  color:#FFFFFF; background-color: #384D7A; font-weight: bold }
 .tablesubtitle {  font-size: 90%; font-style: italic; font-weight: bold }
 .tablecell {  }
