@@ -27,6 +27,7 @@
   <property name="src.html.dir" value="${src.web.dir}/html"/>
   <property name="build.dir" value="${home}/build"/>
   <property name="build.web.dir" value="${build.dir}/docs"/>
+  <property name="build.web.tmp.dir" value="${build.dir}/temp"/>
   <property name="build.tmpgen.dir" value="${build.dir}/_tmpgen"/>
   <property name="dist.dir" value="${home}/dist"/>
   <property name="dist.web.dir" value="${dist.dir}/web"/>
@@ -57,13 +58,16 @@
       <format property="DATE" pattern="yyyyMMdd" timezone="CST"/>
     </tstamp>
     <echo message="DATE=${DATE}"/>
+    <!-- This file needs to be copied temporarily for building several index files -->
+    <copy file="${src.web.dir}/xml/sitemap.xml" toFile="${src.web.dir}/xml/homepage/_sitemap.xml"/>
+    <copy file="${src.web.dir}/xml/sitemap.xml" toFile="${src.web.dir}/xml/ministries/_sitemap.xml"/>
   </target>
   
   <!-- =================================================================== -->
   <!-- Auto gen build Target                                                -->
   <!-- =================================================================== -->
   <target name="autogen-build" description="Generates the part of the build based on the sitemap.xml file">
-    <style style="${src.xml.dir}/sitemap-build.xsl" in="${src.xml.dir}/sitemap.xml" out="${autogen.build.web}"/> 
+    <style style="${src.xml.dir}/build-sitemap.xsl" in="${src.xml.dir}/sitemap.xml" out="${autogen.build.web}"/> 
   </target>
   
   <!-- =================================================================== -->
@@ -89,6 +93,7 @@
   <!-- =================================================================== -->
   <target name="web" depends="checkoptions" description="Creates all HTML by calling web-xyz targets.">
     <mkdir dir="${build.web.dir}"/>
+    <mkdir dir="${build.tmpgen.dir}"/>
     <ant antfile="${autogen.build.web}" target="web"/>
     <antcall target="copy-files"/>
     <antcall target="dist"/>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+        Music and Worship 2003 Conference
+
+	$Id: mwc2003.xml,v 1.1 2002/12/13 20:04:06 javajames27 Exp $
+		
+-->
+<content title="Music and Worship 2003 Conference">
+  <script language="JavaScript" type="text/javascript" src="../js/events/base.js"></script>
+  <script language="JavaScript" type="text/javascript" src="../js/events/mwc.js"></script>
+  <heading>Music and Worship 2003 Conference</heading>
+  <p align="center">Calvary Austin invites you to the</p>
+  <p align="center"><img src="../images/events/mwclogo.jpg"/></p>
+  <p align="center">February 20-22, 2003, Austin, Texas </p>
+  <intro>
+    <!-- Should I add an img and imgalign attribute to the paragraph tag for things like maps, pics,
+    etc. next to text? -->
+    <p>We are pleased to have songwriter and Calvary Chapel Costa Mesa Worship Pastor Holland Davis as our guest worship leader and speaker for this year's event. A gifted songwriter, musician and
+    teacher, Holland has much to share about leading worship. He has worked with Maranatha! Music as
+    an A&amp;R representative, and has had several songs recorded on Maranatha! Praise Series
+    recordings, including "Let It Rise", "At the Cross", and "Who is Like the Lord?". </p>
+    <p>Check-in for the conference will begin at 5:30 PM on Thursday, February 20st; the first
+    session begins at 7:30 PM that evening. The conference is scheduled to end at 12:00 Noon
+    Saturday, February 22rd. </p> 
+  </intro>
+  <section heading="Location" img="../images/events/mwclocation.jpg">
+    <p img="../images/events/mwcmap.jpg" imgAlign="right">Calvary Austin is located in the northern
+    portion of Austin, Texas, on the northwest corner of Rundberg Lane and Parkfield Drive. Just
+    minutes from the intersection of Texas Hwy 183 and Interstate 35, our facility is 0.2 miles west
+    of the Rundberg/Lamar intersection, and 1.1 miles west of IH 35. Complete contact information is
+    available on our <link href="../about/contact.html">Contact Information</link> page. </p>   
+  </section>
+  <section heading="Worship Teams" img="../images/events/mwcteams.jpg">
+    <p>In addition to Holland Davis and his team, worship will be led by:
+      <list>
+        <item>Call to Worship Praise Band<br/>
+          Calvary Chapel Houston<br/>
+          Dan Loaiza, Worship Pastor<br/> </item>
+        <item>Calvary Austin Praise Band<br/>
+          Calvary Austin<br/>
+          David Reynolds, Worship Pastor<br/> </item>
+      </list>
+    </p>
+  </section>
+  <section heading="Speakers" img="../images/events/mwcspeakers.jpg">
+    <p>Ron Hindt is the pastor of <link href="http://www.calvaryh.org/">Calvary Chapel Houston</link></p>
+    <p>Allen Rigg is the pastor of <link href="http://www.calvaryaustin.org/">Calvary Austin</link></p>
+  </section>
+  <section heading="Schedule" img="../images/events/mwcschedule.jpg">
+    <p>
+      <table>
+        <row>
+          <label>Thursday</label>
+          <label>Friday</label>
+          <label>Saturday</label>
+        </row>
+        <row>
+          <data>5:30 PM  Check-in begins</data>
+          <data>8:30 AM  Devotional  </data>
+          <data>8:30 AM  Devotional  </data>
+        </row>
+        <row>
+          <data>7:30 PM  An evening with Holland Davis  </data>
+          <data>9:00 AM  Worship  </data>
+          <data>9:00 AM  Workshop III  </data>
+        </row>
+        <row>
+          <data></data>
+          <data>9:30 AM  Message  </data>
+          <data>10:25 AM  Worship  </data>
+        </row>
+        <row>
+          <data></data>
+          <data>10:30 AM  Workshop I  </data>
+          <data>10:55 AM  Message  </data>
+        </row>
+        <row>
+          <data></data>
+          <data>11:45 PM  Lunch Break  </data>
+          <data>11:45 AM  Communion  </data>
+        </row>
+        <row>
+          <data></data>
+          <data>1:15 PM  Worship  </data>
+          <data>12:00 PM  Close  </data>
+        </row>
+        <row>
+          <data></data>
+          <data>1:45 PM  Message  </data>
+          <data></data>
+        </row>
+        <row>
+          <data></data>
+          <data>2:45 PM  Workshop II  </data>
+          <data></data>
+        </row>
+        <row>
+          <data></data>
+          <data>4:00 PM  Break  </data>
+          <data></data>
+        </row>
+        <row>
+          <data></data>
+          <data>7:30 PM  Worship  </data>
+          <data></data>
+        </row>
+        <row>
+          <data></data>
+          <data>8:00 PM  Message  </data>
+          <data></data>
+        </row>
+        <row>
+          <data></data>
+          <data>9:00 PM  Open Mic  </data>
+          <data></data>
+        </row>
+      </table>
+    </p>
+  </section>
+  <section heading="Registration" img="../images/events/mwcinfo.jpg">
+    <p>Fill you the <link href="javascript:mwcWin()">registration form</link>, print it out, and mail it, along with your remittance, to Calvary
+    Austin. You'll be pre-registered and your conference materials will be waiting for you when you
+    arrive on February 20! After printing, close the window to return here.</p>  
+    <p>The cost for the conference is $45 per person for registrations received by February 9,
+    2003. After that date the conference fee will be $55 per person. Meals, lodging and travel
+    expenses are not included in the registration. </p> 
+    <p>This year the registration fee includes 1 conference T-shirt. We are also offering the
+    opportunity to pre-order additional conference T-shirts at $10 each. Indicate the quantity
+    desired on your registration form.  </p> 
+  </section>
+  <section heading="More Information">
+    <p>Learn more about what restaurants and hotels are nearby on our <link
+    href="../about/aroundtown.html">Around Town</link> page.</p>
+    <p>Questions about the 2003 Calvary Chapel Mid-South Music and Worship Conference that are not
+    addressed by this webpage can be directed to <link
+    href="mailto:conference@calvaryaustin.org">conference@calvaryaustin.org</link>.</p> 
+  </section>
+</content>

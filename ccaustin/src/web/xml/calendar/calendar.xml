@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.20 2002/11/22 20:32:39 javajames27 Exp $
+	$Id: calendar.xml,v 1.21 2002/12/13 20:04:06 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -283,7 +283,7 @@
 				<ministry id="coffee"/>
 			</ministries>
 		</event>
-		<event id="12010" date="20021218" showOnHomepage="false">
+		<event id="12010" date="20021218" showOnHomepage="true">
 			<title>Live Music - Juan Gutierrez</title>
 			<date>Dec 18th</date>
 			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
@@ -291,7 +291,7 @@
 				<ministry id="coffee"/>
 			</ministries>
 		</event>
-		<event id="12001" date="20021224" showOnHomepage="false">
+		<event id="12001" date="20021224" showOnHomepage="true">
 			<title>Christmas Eve Service</title>
 			<date>December 24th</date>
 			<detail>More details to come...</detail>
@@ -299,7 +299,7 @@
 				<ministry id="church"/>
 			</ministries>
 		</event>
-		<event id="12011" date="20021228" showOnHomepage="false">
+		<event id="12011" date="20021228" showOnHomepage="true">
 			<title>Live Music - Kevin Gathright</title>
 			<date>Dec 28th</date>
 			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
@@ -307,7 +307,7 @@
 				<ministry id="coffee"/>
 			</ministries>
 		</event>
-		<event id="12002" date="20021231" showOnHomepage="false">
+		<event id="12002" date="20021231" showOnHomepage="true">
 			<title>New Year's Eve Service</title>
 			<date>December 31st</date>
 			<detail>More details to come...</detail>
