@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Free Indeed (Addictions) Testimonies  
+	
+	$Id: testimonies.xml,v 1.1 2003/08/30 23:36:07 gregk Exp $
+		
+-->
+
+<content title="Free Indeed Testimonies">
+	<ministry id="freeindeed">
+	  <name>Free Indeed (Addictions) - Calvary Austin Testimonies</name>
+          <br></br>
+          <br></br>
+	  <p>Calvary's Free Indeed is an outreach to our church and community to provide hope and freedom for those who are enslaved to addictions, whether it be pornography, substance abuse, overeating, smoking, homosexuality or other addictions.</p> 
+        <p>The testimonial links below are the testimonies of Calvary Austin members who have taken the course and found lasting freedom. These are offered as a testimonial to God's healing power and to provide encouragement to those considering taking a course or to those who are current enrolled.</p>
+	    <table heading="Courses and Testimonies">
+	    	 <row>
+	    	 	<data><link href="http://www.settingcaptivesfree.com/course/">Pure Freedom - Sexual Impurity</link></data>
+	    	 </row>
+	    	 <row>
+	    	 	<data>Male Testimonies</data>
+	    	 	<data>Female Testimonies</data>
+	    	 </row>
+	    	 <row>
+                        <data><link href="../ministries/pf-male1.html">Male#1</link></data>
+                 <data></data>
+	    	 </row>
+                
+                 <row><data>.</data></row>
+	    	 <row>
+	    	 	<data><link href="http://www.settingcaptivesfree.com/spouses/">A United Front</link></data>
+	    	 </row>
+	    	 <row>
+	    	 	<data>Male Testimonies</data>
+	    	 	<data>Female Testimonies</data>
+	    	 </row>
+
+                 <row><data>.</data></row>
+	    	 <row>
+	    	 	<data><link href="http://www.settingcaptivesfree.com/purity_force/">Purity Force- Maintaining Teen Purity</link></data>
+	    	 </row>
+	    	 <row>
+	    	 	<data>Male Testimonies</data>
+	    	 	<data>Female Testimonies</data>
+	    	 </row>
+
+                 <row><data>.</data></row>
+	    	 <row>
+	    	 	<data><link href="http://www.settingcaptivesfree.com/lords_table/">Lord's Table - Overeating</link></data>
+	    	 </row>
+	    	 <row>
+	    	 	<data>Male Testimonies</data>
+	    	 	<data>Female Testimonies</data>
+	    	 </row>
+	    	 <row>
+                        <data></data>
+                        <data><link href="../ministries/oe-female1.html">Female#1</link></data>
+	    	 </row>
+
+                 <row><data>.</data></row>
+	    	 <row>
+	    	 	<data><link href="http://www.settingcaptivesfree.com/door_hope/">Door of Hope - Homosexuality</link></data>
+	    	 </row>
+	    	 <row>
+	    	 	<data>    Male Testimonies</data>
+	    	 	<data>Female Testimonies</data>
+	    	 </row>
+
+                 <row><data>.</data></row>
+	    	 <row>
+	    	 	<data><link href="http://www.settingcaptivesfree.com/breath_life/">Breath of Life - Smoking</link></data>
+	    	 </row>
+	    	 <row>
+	    	 	<data>    Male Testimonies</data>
+	    	 	<data>Female Testimonies</data>
+	    	 </row>
+                 <row><data></data></row>
+
+                 <row><data>.</data></row>
+	    	 <row>
+	    	 	<data><link href="http://www.settingcaptivesfree.com/new_wine/">New Wine - Alcoholism</link></data>
+	    	 </row>
+	    	 <row>
+	    	 	<data>    Male Testimonies</data>
+	    	 	<data>Female Testimonies</data>
+	    	 </row>
+	    </table>
+
+          <p>If you want to share your testimonial as a result of taking one of these courses, then we'd like to hear from you. You can email your testimonial to one of the Accountability emails on the <link href="../ministries/freeindeed.html">Free Indeed</link> page.</p>
+      </ministry>
+</content>
