@@ -86,6 +86,7 @@
 		<!-- style force="yes" style="${src.xml.dir}/about/staff.xsl" in="${src.xml.dir}/about/staff.xml" out="${build.web.dir}/about/staff.html"/ -->
 		<!-- style style="${src.xml.dir}/about/staff-detail.xsl" in="${src.xml.dir}/about/staff.xml" out="${build.web.dir}/about/staff-detail.html"/ -->
 		<style force="yes" style="${src.xml.dir}/staff/allen.xsl" in="${src.xml.dir}/staff/allen.xml" out="${build.web.dir}/staff/allen.html"/>
+		<style force="yes" style="${src.xml.dir}/about/contact.xsl" in="${src.xml.dir}/about/contact.xml" out="${build.web.dir}/about/contact.html"/>
 	</target>
 	<!-- Creates the Calendar/Events section of the web site                         -->
 	<target name="web-calendar" depends="checkoptions" description="Creates the Calendar' section of the site.">

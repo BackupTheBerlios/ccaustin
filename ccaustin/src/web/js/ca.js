@@ -77,7 +77,7 @@ function	buildMenus()
   window.menuAbout = new Menu("About Calvary Austin");
 
   menuAbout.addMenuItem( "Weekly Schedule",       "location='../calendar/schedule.html'"    );
-  menuAbout.addMenuItem( "Location/Map",          "location='../about/location.html'"    );
+  menuAbout.addMenuItem( "Location/Map",          "location='../about/contact.html'"    );
   menuAbout.addMenuItem( "Our Vision",            "location='../about/vision.html'"    );
   menuAbout.addMenuItem( "We Believe",            "location='../about/beliefs.html'"    );
   menuAbout.addMenuItem( "History",               "location='../about/history.html'"    );

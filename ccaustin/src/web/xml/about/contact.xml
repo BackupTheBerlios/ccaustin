@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Contact information for the church
+	
+	$Id: contact.xml,v 1.1 2002/04/13 23:08:33 javajames27 Exp $
+		
+-->
+<content title="Contact/Map">
+	<contact-info>
+	   <address>
+		<address1>Calvary Chapel of Austin</address1>
+		<address2>9414 Parkfield</address2>
+		<address3>Austin, Texas 78758</address3>
+	   </address>
+	   <office-hours>Tuesday - Friday, 8:00 AM - 5:00 PM</office-hours>
+	   <phone>512.719.4667</phone>
+	   <fax>512.719.3177</fax>
+	   <email>info@calvaryaustin.org</email>
+ 	   <web>http://www.calvarychapel.org/austin</web> 
+ 	   <prayer-chain>512.930.1591</prayer-chain>
+ 	   <women-counseling>512.479.9454</women-counseling>
+	</contact-info>
+</content>
