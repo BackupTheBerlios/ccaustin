@@ -2,13 +2,15 @@
 <!--
 	Allen Rigg Bio - Part of the Staff Bios
 
-	$Id: allen.xml,v 1.4 2003/09/24 04:45:09 gregk Exp $
+	$Id: allen.xml,v 1.5 2004/07/08 00:56:44 premav Exp $
 
 -->
 
 <content title="Brief Bio of Pastor Allen">
 <heading>Meet Pastor Allen Rigg</heading>
 <br></br>
+
+<img src="../images/staff/allenweb.jpg" alt="Allen Rigg"/>
 
 <heading>Spouse</heading>
 <p>Andrea</p>

@@ -2,7 +2,7 @@
 <!--
 	Donna Cano Bio - Part of the Staff Bios
 
-	$Id: andrea.xml,v 1.1 2004/07/07 22:14:50 premav Exp $
+	$Id: andrea.xml,v 1.2 2004/07/08 00:56:58 premav Exp $
 
 -->
 
@@ -16,10 +16,10 @@
 <img src="../images/staff/andreaweb.jpg" alt="Andrea Rigg"></img>
 
 <heading>Spouse</heading>
-<p></p>
+<p>Allen</p>
 
 <heading>Children</heading>
-<p></p>
+<p>Lauren</p>
 
 <heading>Very Brief Testimony</heading>
 <p></p>

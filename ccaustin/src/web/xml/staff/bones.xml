@@ -2,17 +2,17 @@
 <!--
 	Donna Cano Bio - Part of the Staff Bios
 
-	$Id: bones.xml,v 1.1 2004/07/07 22:20:31 premav Exp $
+	$Id: bones.xml,v 1.2 2004/07/08 00:57:17 premav Exp $
 
 -->
 
-<content title="Brief Bio of Donna Cano">
-<heading>Future Site of Bio of Donna Cano</heading>
+<content title="Brief Bio of Bones Uk">
+<heading>Meet Bones Uk</heading>
 <br></br>
 <br></br>
 <br></br>
 <br></br>
-
+<img src="../images/staff/bonesweb.jpg" alt="Bones Uk"/>
 <heading>Spouse</heading>
 <p></p>
 
