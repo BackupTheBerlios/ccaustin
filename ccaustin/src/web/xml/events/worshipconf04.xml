@@ -2,7 +2,7 @@
 <!-- 
        Worship Life '04 Mid-South Worship Conference
 
-	$Id: worshipconf04.xml,v 1.3 2004/01/10 05:30:02 gregk Exp $
+	$Id: worshipconf04.xml,v 1.4 2004/01/10 14:11:52 gregk Exp $
 		
 -->
 <content title="MidSouth Worship Life Conference 2004">
@@ -45,8 +45,13 @@
       <p> Registration fee is per person for all or part of the conference. Cost includes conference materials, resource cd, t-shirt, two continental breakfasts and one lunch. Hotels, dinners and conference tapes will not be included.</p>
       <p>To register, call 512.719.4667</p>
 
-      <p>Or print out this <link href="../pdf/Worship2004Registration.pdf">online registration form</link> in Adobe PDF format.</p>
-
+      <p>Or print out this <link href="../pdf/Worship2004Registration.pdf">online registration form</link> in Adobe PDF format. Mail the completed form and appropriate fees to:</p>
+<table>
+ <row><data>Calvary Austin</data></row>
+ <row><data>Attn: Worship Life Conference</data></row>
+ <row><data>9414 Parkfield Drive</data></row>
+ <row><data>Austin,Texas 78758</data></row>
+</table>
 <!--
  <p>
   Below is a sample of the registration form. You can obtain a
