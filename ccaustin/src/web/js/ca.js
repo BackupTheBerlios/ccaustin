@@ -39,14 +39,24 @@ function	buildMenus()
 
   window.menuMinistry = new Menu();
 
-  menuMinistry.addMenuItem( "Children",  "location='children.html'" );
-  menuMinistry.addMenuItem( "Focus",     "location='focus.html'"    );
-  menuMinistry.addMenuItem( "FrontLine", "location='front.html'"    );
-  menuMinistry.addMenuItem( "Home",      "location='home.html'"     );
-  menuMinistry.addMenuItem( "Men",       "location='men.html'"      );
-  menuMinistry.addMenuItem( "Women",     "location='women.html'"    );
-  menuMinistry.addMenuItem( "Worship",   "location='worship.html'"  );
-  menuMinistry.addMenuItem( "Youth",     "location='youth.html'"    );
+  menuMinistry.addMenuItem( "Children",         "location='../ministries/ydc.html'" );
+  menuMinistry.addMenuItem( "College & Career", "location='../ministries/frontline.html'"    );
+  menuMinistry.addMenuItem( "Dinner Fellowship","location='../ministries/dinner.html'"      );
+  menuMinistry.addMenuItem( "Greeting",         "location='../ministries/greet.html'"     );
+  menuMinistry.addMenuItem( "Home Groups",      "location='../ministries/home.html'"     );
+  menuMinistry.addMenuItem( "Internet",         "location='../ministries/internet.html'"     );
+  menuMinistry.addMenuItem( "Meals",            "location='../ministries/meals.html'"      );
+  menuMinistry.addMenuItem( "Media",            "location='../ministries/media.html'"      );
+  menuMinistry.addMenuItem( "Men",              "location='../ministries/men.html'"      );
+  menuMinistry.addMenuItem( "Prayer",           "location='../ministries/prayer.html'"    );
+  menuMinistry.addMenuItem( "Prison",           "location='../ministries/prison.html'"    );
+  menuMinistry.addMenuItem( "Singles",          "location='../ministries/focus.html'"    );
+  menuMinistry.addMenuItem( "Sound",            "location='../ministries/sound.html'"    );
+  menuMinistry.addMenuItem( "Ushering",         "location='../ministries/usher.html'"    );
+  menuMinistry.addMenuItem( "Women",            "location='../ministries/women.html'"    );
+  menuMinistry.addMenuItem( "Worship",          "location='../ministries/worship.html'"  );
+  menuMinistry.addMenuItem( "Youth",            "location='../ministries/youth.html'"    );
+  menuMinistry.addMenuItem( "Youth Crisis",     "location='../ministries/youthcrisis.html'"    );
   menuMinistry.disableDrag = true;
 
   //

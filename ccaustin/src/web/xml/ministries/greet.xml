@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Greeting Ministry - The ministry and its detail
+	
+	$Id: greet.xml,v 1.1 2002/03/18 00:12:18 javajames27 Exp $
+		
+-->
+<content title="Greeting Ministry">
+	<ministry id="greet">
+	  <name>Greeting Ministry</name>
+	  <overview>Ever wonder where all of those friendly greeters come from on Sunday mornings...?</overview>
+	  <long-description>
+	    <heading>Greeting</heading>
+	    <p>Help greet folks who are new to Calvary Chapel by being a greeter on Sunday mornings.</p>
+	  </long-description>
+	  <contacts>
+   	  </contacts>
+	  <ministry-logo>/images/ministries/greet.gif</ministry-logo>
+	</ministry>
+</content>

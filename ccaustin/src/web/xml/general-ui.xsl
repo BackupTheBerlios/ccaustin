@@ -14,7 +14,7 @@
 	A variant of this file may offer more search engine or accessibility-friendly
 	navigation and less Javascript features for older browsers. 
 	
-	$Id: general-ui.xsl,v 1.2 2002/03/15 04:31:44 javajames27 Exp $
+	$Id: general-ui.xsl,v 1.3 2002/03/18 00:12:18 javajames27 Exp $
 -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl
@@ -90,10 +90,10 @@
               <tr>
                 <td><img height="15" src="../images/main007.jpg" width="37"></img></td>
                 <td><a href="../about/about.html" onmouseover="window.showMenu(window.menuAbout,198,84);"><img border="0" height="15" name="mitem1" src="../images/main008.jpg" width="58"></img></a></td>
-                <td><a href="../calendar/calendar.html" onmouseover="window.showMenu(window.menuEvent,258,84);"><img height="15" src="../images/main009.jpg" width="55" border="0"></img></a></td>
-                <td><a href="../ministries/ministries.html" onmouseover="window.showMenu(window.menuMinistry,308,84);"><img height="15" src="../images/main010.jpg" width="57" border="0"></img></a></td>
-                <td><a href="../media/media.html" onmouseover="window.showMenu(window.menuMedia,378,84);"><img height="15" src="../images/main011.jpg" width="59" border="0"></img></a></td>
-                <td><a href="../about/about.html" onmouseover="window.showMenu(window.menuAbout,428,84);"><img height="15" src="../images/main012.jpg" width="16" border="0"></img></a></td>
+                <td><a href="#" onmouseover="window.showMenu(window.menuEvent,258,84);"><img height="15" src="../images/main009.jpg" width="55" border="0"></img></a></td>
+                <td><a href="#" onmouseover="window.showMenu(window.menuMinistry,308,84);"><img height="15" src="../images/main010.jpg" width="57" border="0"></img></a></td>
+                <td><a href="#" onmouseover="window.showMenu(window.menuMedia,378,84);"><img height="15" src="../images/main011.jpg" width="59" border="0"></img></a></td>
+                <td><a href="#" onmouseover="window.showMenu(window.menuAbout,428,84);"><img height="15" src="../images/main012.jpg" width="16" border="0"></img></a></td>
 	      </tr>
               <tr>
                 <td colspan="6"><img height="16" src="../images/mainbtm.jpg" width="282"></img></td>
@@ -171,7 +171,7 @@
               <tr>
                 <td align="right" colspan="7">
 		  <font size="1">
-		  Copyright © 1999,2001 Calvary Chapel of Austin<br/>
+		  Copyright © 1999-2002 Calvary Chapel of Austin<br/>
 		  For Website problems or comments, send mail to
 		  <a href="mailto:webservant-austin@calvarychapel.org"><img border="0" src="../images/email.gif"></img> webservant-austin@calvarychapel.org</a><br/>
 		  Latest update: May 18, 2001<br/>

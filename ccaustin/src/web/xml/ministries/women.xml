@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Women's Ministry - The ministry and its detail
+	
+	$Id: women.xml,v 1.1 2002/03/18 00:12:18 javajames27 Exp $
+		
+-->
+<content title="Women's Ministry">
+	<ministry id="women">
+	  <name>Women's Ministry</name>
+	  <overview>The women's ministry focuses on bringing women to Christ, and to building up women in their faith.</overview>
+	  <long-description>
+	    <heading>Study</heading>
+	    <p>The Women’s Ministry is about seeing people moved by God’s word. This Bible study meets every other Tuesday night (7:00 PM) in the Youth Room. Check the <a href="../calendar/events.html">calendar</a> for upcoming meetings.</p>
+         <p>Our current study is taking us through the book of Ephesians.</p>
+	    <heading>Discipleship</heading>
+	    <p>"Heart to Heart" is the one-on-one discipleship, allowing new Christian women to grow in their faith.</p>
+	  </long-description>
+	  <contacts>
+  	    <contact-web href="../about/location.html">Location</contact-web>
+   	  </contacts>
+	  <ministry-logo>/images/ministries/women.gif</ministry-logo>
+	</ministry>
+</content>

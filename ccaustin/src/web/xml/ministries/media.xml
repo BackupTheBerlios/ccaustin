@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Multimedia Ministry - The ministry and its detail
+	
+	$Id: media.xml,v 1.1 2002/03/18 00:12:18 javajames27 Exp $
+		
+-->
+<content title="Multimedia Ministry">
+	<ministry id="multimedia">
+	  <name>Multimedia Ministry</name>
+	  <overview>Lights - Camera - Action and Power Point Presentations!</overview>
+	  <long-description>
+	    <heading>Multimedia</heading>
+	    <p>The Multimedia ministry is responsible for the lighting, video cameras, lyric slides, and special audio and visual presentations during 		services and special events.</p>
+	  </long-description>
+	  <contacts>
+   	  </contacts>
+	  <ministry-logo>/images/ministries/media.gif</ministry-logo>
+	</ministry>
+</content>

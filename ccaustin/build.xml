@@ -100,7 +100,20 @@
                 <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/frontline.xml" out="${build.web.dir}/ministries/frontline.html"/> 
                 <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/home.xml" out="${build.web.dir}/ministries/home.html"/> 
                 <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/men.xml" out="${build.web.dir}/ministries/men.html"/> 
-         </target>
+                <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/women.xml" out="${build.web.dir}/ministries/women.html"/> 
+                <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/worship.xml" out="${build.web.dir}/ministries/worship.html"/> 
+                <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/youth.xml" out="${build.web.dir}/ministries/youth.html"/> 
+                <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/dinner.xml" out="${build.web.dir}/ministries/dinner.html"/> 
+                <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/media.xml" out="${build.web.dir}/ministries/media.html"/> 
+                <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/greet.xml" out="${build.web.dir}/ministries/greet.html"/> 
+                <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/meals.xml" out="${build.web.dir}/ministries/meals.html"/> 
+                <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/newbelievers.xml" out="${build.web.dir}/ministries/newbelievers.html"/> 
+                <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/prayer.xml" out="${build.web.dir}/ministries/prayer.html"/> 
+                <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/prison.xml" out="${build.web.dir}/ministries/prison.html"/> 
+                <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/sound.xml" out="${build.web.dir}/ministries/sound.html"/> 
+                <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/usher.xml" out="${build.web.dir}/ministries/usher.html"/> 
+                <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/youthcrisis.xml" out="${build.web.dir}/ministries/youthcrisis.html"/> 
+                <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/internet.xml" out="${build.web.dir}/ministries/internet.html"/>          </target>
 
 	<!-- =================================================================== -->
 	<!-- =================================================================== -->

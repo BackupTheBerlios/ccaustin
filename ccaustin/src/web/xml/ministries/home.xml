@@ -3,7 +3,7 @@
 
 	Home Fellowship Ministry - The ministry and its detail
 	
-	$Id: home.xml,v 1.2 2002/03/15 23:39:05 javajames27 Exp $
+	$Id: home.xml,v 1.3 2002/03/18 00:12:18 javajames27 Exp $
 		
 -->
 <content title="Home Fellowship Ministry">
@@ -30,7 +30,7 @@
 
 	  </long-description>
 	  <contacts>
-  	    <contact-web name="Location">../about/location.html</contact-web>
+  	    <contact-web href="../about/location.html">Location</contact-web>
    	  </contacts>
 	  <ministry-logo>/images/ministries/home.gif</ministry-logo>
 	</ministry>

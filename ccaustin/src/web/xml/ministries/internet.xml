@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Internet Ministry - The ministry and its detail
+	
+	$Id: internet.xml,v 1.1 2002/03/18 00:12:18 javajames27 Exp $
+		
+-->
+<content title="Internet Ministry">
+	<ministry id="internet">
+	  <name>Internet Ministry</name>
+	  <overview>Wonder who puts this site together? The internet ministry pulls together all of the most current technologies to outreach over the    	  web.</overview>
+	  <long-description>
+	    <heading>Want to help?</heading>
+	    <p>We need help from people who know or are willing to learn XML, XSL, Java, Java Servlets/JSP, database technologies, and 			HTML/Javascript.</p>
+	    <p>We are also looking for anyone who knows how to perform basic computer operations, such as creating, editing, and copying files, for 		content management of this web site.</p>
+	  </long-description>
+	  <contacts>
+  	    <contact-email email="webservant-austin@calvarychapel.org">Web Servant Team</contact-email>
+   	  </contacts>
+	  <ministry-logo>/images/ministries/internet.gif</ministry-logo>
+	</ministry>
+</content>

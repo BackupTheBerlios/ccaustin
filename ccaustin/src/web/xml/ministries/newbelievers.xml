@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	New Believer's Ministry - The ministry and its detail
+	
+	$Id: newbelievers.xml,v 1.1 2002/03/18 00:12:18 javajames27 Exp $
+		
+-->
+<content title="New Believer's Ministry">
+	<ministry id="newbelievers">
+	  <name>New Believer's Ministry</name>
+	  <overview>Classes covers the basics of the Bible to applying the Bible to your daily Christian walk.</overview>
+	  <long-description>
+	    <heading>Classes</heading>
+	    <p>Have you just come to know Christ. Or do you lack the basic skills for studying the Bible? New classes start every few months and 		last for twelve weeks. Classes covers the basics of the Bible to applying the Bible to your daily Christian walk.</p>
+	  </long-description>
+	  <contacts>
+   	  </contacts>
+	  <ministry-logo>/images/ministries/newbelievers.gif</ministry-logo>
+	</ministry>
+</content>

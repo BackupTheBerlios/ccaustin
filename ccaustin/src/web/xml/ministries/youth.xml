@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Youth Ministry - The ministry and its detail
+	
+	$Id: youth.xml,v 1.1 2002/03/18 00:12:18 javajames27 Exp $
+		
+-->
+<content title="Youth  Ministry">
+	<ministry id="youth">
+	  <name>Youth Ministry</name>
+	  <overview>The youth ministry focuses on bringing young people to Christ, and to build them up in their faith.</overview>
+	  <long-description>
+	    <heading>High School Worship &amp; Teaching</heading>
+	    <p>9th grade - 12th grade </p>
+         <p>Wednesday @ 7PM Youth Room</p> 
+         <p>Sunday morning at the three services - Worship &amp; Teaching is in the Sanctuary with the adults.</p>
+	    <heading>Jr. High Worship &amp; Teaching</heading>
+	    <p>6th grade - 8th grade </p>
+         <p>Wednesday @ 7PM Youth Room</p> 
+         <p>Sunday morning at the three services - Youth Room (Worship in Sanctuary)</p>
+	  </long-description>
+	  <contacts>
+  	    <contact-web href="../about/location.html">Location</contact-web>
+  	    <contact-email email="john@calvaryaustin.org">John Newberry</contact-email>
+   	  </contacts>
+	  <ministry-logo>/images/ministries/women.gif</ministry-logo>
+	</ministry>
+</content>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Sound Ministry - The ministry and its detail
+	
+	$Id: sound.xml,v 1.1 2002/03/18 00:12:18 javajames27 Exp $
+		
+-->
+<content title="Sound Ministry">
+	<ministry id="sound">
+	  <name>Sound Ministry</name>
+	  <overview>The music sounds good each service thanks to the servants in the sound ministry.</overview>
+	  <long-description>
+	    <heading>Want to help?</heading>
+	    <p>If you have an interest in helping with sound then this is the team for you!</p>
+	  </long-description>
+	  <contacts>
+   	  </contacts>
+	  <ministry-logo>/images/ministries/sound.gif</ministry-logo>
+	</ministry>
+</content>

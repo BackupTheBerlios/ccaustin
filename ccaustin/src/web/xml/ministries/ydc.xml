@@ -3,7 +3,7 @@
 
 	Young Disciples Club Ministry - The ministry and its detail
 	
-	$Id: ydc.xml,v 1.2 2002/03/15 23:39:05 javajames27 Exp $
+	$Id: ydc.xml,v 1.3 2002/03/18 00:12:18 javajames27 Exp $
 		
 -->
 <content title="Young Disciples Club">
@@ -23,7 +23,7 @@
 	    <p>We want you! Calvary Chapel of Austin is looking for committed, fun-loving adults to work in this new ministry.</p>
 	  </long-description>
 	  <contacts>
-  	    <contact-web name="Location">../about/location.html</contact-web>
+  	    <contact-web href="../about/location.html">Location</contact-web>
    	  </contacts>
 	  <ministry-logo>/images/ministries/ydc.gif</ministry-logo>
 	</ministry>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Worship Ministry - The ministry and its detail
+	
+	$Id: worship.xml,v 1.1 2002/03/18 00:12:18 javajames27 Exp $
+		
+-->
+<content title="Worship Ministry">
+	<ministry id="worship">
+	  <name>Worship Ministry</name>
+	  <overview>The worship ministry leads the congregation in worship through the use of music and prayer.</overview>
+	  <long-description>
+	    <heading>Worship</heading>
+	    <p>We at Calvary Chapel believe that the worship of God should be inspirational. Therefore we give great place for music. Music is one of   		the different formats by which man can express feelings, desires, hope, peace, joy and love toward God. 
+		All of our services begin with a time of worship through music. It is an opportunity for believers to render themselves to the Lord by giving 		thanks and praise, as well as offering our confession, repentance and devotion to Him. It is truly a time where we give to the Lord our 		     worship. </p>
+		
+		<p>A song is a vehicle to convey the thoughts and feelings of the heart. The songs we sing are well grounded in the Word of God and are 		sung as praise (songs about God and His attributes), worship (songs that are directed towards God) and exhortation from God (God 		     speaking to the body of believers, as is found so often in scripture). </p>
+		
+		<p>Music is a gift of expression given to man by God. We use contemporary music in our worship services, including rock, pop, country, 		R&amp;B, and soft ballads. </p>
+	  </long-description>
+	  <contacts>
+  	    <contact-web href="../about/location.html">Location</contact-web>
+   	  </contacts>
+	  <ministry-logo>/images/ministries/worship.gif</ministry-logo>
+	</ministry>
+</content>

@@ -6,7 +6,7 @@
 	
 	Processes the ministry tag and its children tags
 	
-	$Id: ministry-home.xsl,v 1.2 2002/03/15 23:39:05 javajames27 Exp $
+	$Id: ministry-home.xsl,v 1.3 2002/03/18 00:12:18 javajames27 Exp $
 	
 -->	
 
@@ -50,6 +50,9 @@
 			<td width="100%" class="tableheader" align="left" valign="top" nowrap="true">Details</td>
 		</tr>
 		<tr>
+			<td><br/></td>
+		</tr>
+		<tr>
 			<td width="100%" class="tablecell" align="left" valign="top"><xsl:apply-templates/></td>
 		</tr>
 		<tr>
@@ -60,6 +63,7 @@
 <xsl:template match="contacts">
   	     <xsl:variable name="contactweb" select="contact-web"/>
   	     <xsl:variable name="contactemail" select="contact-email"/>
+  	     <xsl:variable name="contactphone" select="contact-phone"/>
 		<tr>
 			<td width="100%" class="tableheader" align="left" valign="top" nowrap="true">For More Information</td>
 		</tr>
@@ -67,8 +71,8 @@
   			<tr>
 				<td width="100%" class="tablecell" align="left" valign="top">More Info: 
 				  <a>
-				    <xsl:attribute name="href"><xsl:value-of select="contact-web"/></xsl:attribute>
-                         <xsl:value-of select="./contact-web/@name"/>
+				    <xsl:attribute name="href"><xsl:value-of select="./contact-web/@href"/></xsl:attribute>
+                         <xsl:value-of select="contact-web"/>
                        </a>
 				</td>
 			</tr>
@@ -80,6 +84,12 @@
 				    <xsl:attribute name="href">mailto:<xsl:value-of select="./contact-email/@email"/></xsl:attribute>
                          <xsl:value-of select="contact-email"/>
                        </a>
+                     </td>
+			</tr>
+		</xsl:if>
+		<xsl:if test="$contactphone != '' ">
+  			<tr>
+				<td width="100%" class="tablecell" align="left" valign="top"><xsl:value-of select="contact-phone"/> : <xsl:value-of select="./contact-phone/@phone"/> 
                      </td>
 			</tr>
 		</xsl:if>

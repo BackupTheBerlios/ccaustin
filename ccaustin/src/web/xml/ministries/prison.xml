@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Prison Ministry - The ministry and its detail
+	
+	$Id: prison.xml,v 1.1 2002/03/18 00:12:18 javajames27 Exp $
+		
+-->
+<content title="Prison Ministry">
+	<ministry id="prison">
+	  <name>Prison Ministry</name>
+	  <overview>A group of people go out each week to worship, share Christ and teach God's Word to prisoners at area prisons.</overview>
+	  <long-description>
+	    <heading>Who are we?</heading>
+	    <p>A group of people go out each week to worship, share Christ and teach God's Word to prisoners at area prisons.</p>
+	  </long-description>
+	  <contacts>
+   	  </contacts>
+	  <ministry-logo>/images/ministries/prison.gif</ministry-logo>
+	</ministry>
+</content>
