@@ -7,7 +7,7 @@
  Other variants of this file may offer more search engine or accessibility-friendly
  navigation and less Javascript features for older browsers. 
  
- $Id: default.xsl,v 1.3 2003/05/12 23:50:58 javajames27 Exp $
+ $Id: default.xsl,v 1.4 2003/05/20 22:34:36 javajames27 Exp $
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
  <xsl:output method="html" indent="yes"/>
@@ -37,7 +37,14 @@
     <script language="JavaScript1.2" src="../js/mm_menu.js"/>
     <script language="JavaScript1.2" src="../js/main_menu.js"/>
     <script language="JavaScript1.2" src="../js/win.js"/>
-    <script language="JavaScript1.2">mmLoadMenus();</script>
+    <script language="JavaScript1.2">
+      var onWindows = navigator.platform ? navigator.platform == "Win32" : false;
+      var macIE = document.all &amp;&amp; !onWindows;
+      if( !macIE )
+      {
+        mmLoadMenus();
+      }
+    </script>
     <xsl:if test="content/@onUnload != '' ">
      <xsl:attribute name="onUnload"><xsl:value-of select="content/@onUnload"/></xsl:attribute>
     </xsl:if>
