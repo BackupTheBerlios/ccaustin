@@ -6,7 +6,7 @@
         The sitemap contains the structure of the entire web site, and is used to drive
         the auto-generated scripts for generating the web site HTML from XML.
         
-        $Id: sitemap.xml,v 1.57 2004/06/19 18:06:15 javajames27 Exp $
+        $Id: sitemap.xml,v 1.58 2004/07/07 23:33:23 premav Exp $
         
         hidden="true" prevents the page from showing on the sitemap.
         
@@ -816,11 +816,95 @@
           html="/about/Allen.html">
       <title>Generates staff member Bio</title>
     </page>
+    <page datafile="/andrea.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/andrea.xsl"
+          html="/about/Andrea.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/katherine.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/katherine.xsl"
+          html="/about/Katherine.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/mike.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/mike.xsl"
+          html="/about/Mike.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/derrick.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/derrick.xsl"
+          html="/about/Derrick.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/jeremy.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/jeremy.xsl"
+          html="/about/Jeremy.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/vance.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/vance.xsl"
+          html="/about/Vance.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/jason.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/jason.xsl"
+          html="/about/Jason.html">
+      <title>Generates staff member Bio</title>
+    </page>
     <page datafile="/bunjee.xml"
           template="/templates/default.xsl"
           layout="/layouts/default.xsl"
           renderer="/renderers/bunjee.xsl"
           html="/about/Bunjee.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/james.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/james.xsl"
+          html="/about/James.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/bones.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/bones.xsl"
+          html="/about/Bones.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/craig.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/craig.xsl"
+          html="/about/Craig.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/mark.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/mark.xsl"
+          html="/about/Mark.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/matt.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/matt.xsl"
+          html="/about/Matt.html">
       <title>Generates staff member Bio</title>
     </page>
 <!--
