@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.81 2003/11/16 06:48:13 gregk Exp $
+	$Id: calendar.xml,v 1.82 2003/11/17 06:30:56 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -304,6 +304,15 @@ need for Praying Leaders.</detail>
 			<ministry id="coffee"/>
 		</ministries>
     </event>
+    <event id="11006" date="20031123" showOnHomepage="true">
+	 <title>Operation Christmas Child</title>
+		<date>Nov 23rd</date>
+		<detail>Fill an empty shoe box with children's toys and necesssitities and transform it into a child's treasure chest. Brochures are available at the Events Center. Treasure Chests are due on or before Nov 23.</detail>
+    </event>
+    <event id="11007" date="20031126" showOnHomepage="true">
+			<title>Thanksgiving Schedule Changes</title>
+			<detail>There will be no Wednesday evening service Nov 26th. Offices will be closed Nov 27th and 28th.</detail>
+    </event>
 
 		<!--
 	===============
@@ -313,7 +322,10 @@ need for Praying Leaders.</detail>
     <event id="12001" date="20031231" showOnHomepage="true">
 	 <title>Calvary Kids New Years' Eve Party</title>
 		<date>Dec 31st</date>
-                <detail>Snacks, Games, Prizes, Movies, Worship and Prayer.</detail>
+		<detail>On New Year's Eve 2003, Calvary Kids plan to have a fun celebration together including games, prizes, food and for the elementary age kids a special time of reflection and looking ahead to 2004 with a Bible devotion. Kids can show up in their warm pajamas, blankets and even a Teddy Bear! We promise to make their last day of the year a memorable one!</detail>
+		<ministries>
+			<ministry id="children"/>
+		</ministries>
     </event>
     <event id="12002" date="20031224" showOnHomepage="true">
 	 <title>Christmas Eve Service</title>

@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.55 2003/11/05 07:17:19 gregk Exp $
+	$Id: whatsnew.xml,v 1.56 2003/11/17 06:28:11 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -236,13 +236,25 @@
 			<title>Preorder Your "LIVE" Worship CD!</title>
 			<detail>You may support our recording project by preordering the Calvary Austin Worship CD at a 20% discount for $12. Come by the Events Center today. This offer is good only through this week.</detail>
 		</news-item>
-		<news-item id="83" date="20031024" expires="20031116" showOnHomepage="true">
+		<news-item id="83" date="20031024" expires="20031126" showOnHomepage="true">
 			<title>Multimedia Volunteers Needed</title>
 			<detail>The Media Ministry is in need of volunteers to help in the Video and Streaming Media areas. No experience is necessary, we will provide the training. All you need is a servant's heart. <link href="jeremy@calvaryaustin.org">Contact Jeremy</link> if you are interested in becoming a member of the team.</detail>
 		</news-item>
 		<news-item id="84" date="20031101" expires="20031106" showOnHomepage="true">
 			<title>Pastors and Leaders Conference</title>
 			<detail>The Mid-South and Leaders Conference is this week. Two of the sessions are open to those not signed up. Come Thursday and Friday evenings, Nov 6-7, at 7:00 pm.</detail>
+		</news-item>
+		<news-item id="85" date="20031114" expires="20031220" showOnHomepage="true">
+			<title>Christmas Adoptions</title>
+			<detail>The Children's Ministry is once again adopting children from our local neighborhood elementary schools to help out with meals and gifts during this Christmas season. Sign up this week at the Events Center. For more information call Jean Janes(345.8017)</detail>
+		</news-item>
+		<news-item id="86" date="20031116" expires="20031124" showOnHomepage="true">
+			<title>Actresses Needed</title>
+			<detail>Two female roles are available in a short drama to be part of Calvary's Christmas Eve service. One character is in her late teens, and the other is in her late 30's-early 40's. Roles must be cast before Thanksgiving with final auditions on Nov 23rd. Contact Nikki Zook(656.2631) ASAP to schedule an audition or for more information.</detail>
+		</news-item>
+		<news-item id="87" date="20031116" expires="20031130" showOnHomepage="true">
+			<title>Crown Financial Ministry</title>
+			<detail>Proverbs 21:20 "The wise man saves for the future, but the foolish man spends whatever he gets." Sign up for the Crown today at the Events Center. Payment is due by the end of Nov. This is a 10 week small group study. Childcare is provided in some groups.</detail>
 		</news-item>
 	</news>
 </content>
