@@ -13,10 +13,10 @@
 	A variant of this file may offer more search engine or accessibility-friendly
 	navigation and less Javascript features for older browsers. 
 	
-	$Id: general-ui.xsl,v 1.14 2002/06/30 00:34:40 javajames27 Exp $
+	$Id: general-ui.xsl,v 1.15 2002/06/30 02:25:40 javajames27 Exp $
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-	<xsl:output method="html" indent="yes" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"/>
+	<xsl:output method="html" indent="yes"/>
 	<!--
 	The start of the processing for a page begins here. 
 -->
@@ -37,10 +37,11 @@
 	<xsl:template name="layout">
 		<html>
 			<head>
+				<!--meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/ -->
 				<title>Calvary Austin / <xsl:value-of select="./content/@title"/>
 				</title>
 				<link REL="STYLESHEET" href="../css/ca.css"/>
-				<meta content="text/html; charset=windows-1252" http-equiv="Content-Type"/>
+				<meta content="text/html" http-equiv="Content-Type"/>
 				<script language="JavaScript1.2" src="../js/mm_menu.js"/>
 				<script language="JavaScript" src="../js/main_menu.js"/>
 				<script language="JavaScript1.2" src="../js/win.js"/>
@@ -81,7 +82,7 @@
 				  </tr>
 				  <tr> 
 				    <td background="../images/homepage/sidebar_gold.jpg" valign="top" align="left" width="131"><img src="../images/homepage/sidebar_gold.jpg" border="0" width="131" height="13"/></td>
-				    <td background="../images/homepage/goldbar.jpg" width="99%">
+				    <td background="../images/homepage/goldbar.gif" bgcolor="#BFA31B" width="99%"><br/>
 				      <!-- decrease this image to decrease overall page size -->
 				    </td>
 				  </tr>

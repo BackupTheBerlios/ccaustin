@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <!-- 
 
 	The home page for the church
 	
-	$Id: home.xml,v 1.6 2002/04/11 00:58:48 javajames27 Exp $
+	$Id: home.xml,v 1.7 2002/06/30 02:25:40 javajames27 Exp $
 		
 -->
 <content title="Home Page" base=".">
 	<news>
-	  <!-- Add or remove entries with the id and corresponding 
+		<!-- Add or remove entries with the id and corresponding 
 	        filename for a news item to feature on the home page -->
-	  <news-ref newsId="news1"/>
-	  <news-ref newsId="news2"/>
-	  <news-ref newsId="news3"/>
-	  <news-ref newsId="news4"/>
-	</news>        
+		<news-ref newsId="news1"/>
+		<news-ref newsId="news2"/>
+		<news-ref newsId="news3"/>
+		<news-ref newsId="news4"/>
+	</news>
 	<features>
-	  <!-- Add or remove entries with the id and corresponding 
+		<!-- Add or remove entries with the id and corresponding 
 	        filename for an article to feature on the home page -->
-	  <feature articleId="secretsuccess3"/>
+		<feature articleId="secretsuccess3"/>
 	</features>
 </content>

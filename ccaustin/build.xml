@@ -18,6 +18,8 @@
 	<property name="build.dir" value="${home}/build"/>
 	<property name="build.web.dir" value="${build.dir}/docs"/>
 	<property name="build.tmpgen.dir" value="${build.dir}/_tmpgen"/>
+	<property name="dist.dir" value="${home}/dist"/>
+	<property name="dist.web.dir" value="${dist.dir}/web"/>
 	<property name="autogen.build.web" value="${src.xml.dir}/autogen-build.xml"/>
 	<!-- Give user a chance to override without editing this file 
        (and without typing -D each time it compiles it -->
@@ -59,7 +61,7 @@
 	<!-- =================================================================== -->
     <target name="deploy" depends="checkoptions" description="Deploys the docs to the deploy.dir location">
       <copy todir="${deploy.dir}">
-	<fileset dir="${build.web.dir}"/>
+	<fileset dir="${dist.web.dir}"/>
        </copy>
     </target>
 
@@ -70,6 +72,7 @@
 		<mkdir dir="${build.web.dir}"/>
 		<ant antfile="${autogen.build.web}" target="web"/>
 		<antcall target="copy-files"/>
+		<antcall target="dist"/>
 	</target>
 	
 	<target name="copy-files">
@@ -80,6 +83,29 @@
 			<fileset dir="${src.js.dir}"/>
 		</copy>
 		<copy todir="${build.web.dir}/css">
+			<fileset dir="${src.css.dir}"/>
+		</copy>
+	</target>
+	<target name="dist">
+                <!-- STUPID Workaround to make NS 4.0 browsers not see
+                UTF-8 content type by using a hacked filter. This is
+                due to an XSL specification to force the meta entry
+                with UTF-8 in after the HEAD tag -->
+		<copy todir="${dist.web.dir}" filtering="true">
+			<fileset dir="${build.web.dir}">
+	                   <include name="**/*.html"/>
+                        </fileset>
+                        <filterset begintoken="=" endtoken="8">
+                            <filter token="utf-" value="=ISO-8859-1"/>
+                        </filterset>
+		</copy>
+		<copy todir="${dist.web.dir}/images">
+			<fileset dir="${src.images.dir}"/>
+		</copy>
+		<copy todir="${dist.web.dir}/js">
+			<fileset dir="${src.js.dir}"/>
+		</copy>
+		<copy todir="${dist.web.dir}/css">
 			<fileset dir="${src.css.dir}"/>
 		</copy>
 	</target>
