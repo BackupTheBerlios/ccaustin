@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.79 2003/10/26 05:16:47 gregk Exp $
+	$Id: calendar.xml,v 1.80 2003/11/02 06:28:14 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -217,7 +217,7 @@
 	 <title>Women's Tues AM Bible Study</title>
 		<date>Sept 23rd</date>
     </event>
-    <event id="09010" date="20031106" showOnHomepage="true">
+    <event id="09010" date="20031031" showOnHomepage="true">
 	 <title>Mid-South Pastors and Leaders Conference</title>
 	 <detail>Conference is open to all who wish to sign up.  The cost is $55.
 Sandy
@@ -270,7 +270,7 @@ need for Praying Leaders.</detail>
 			Nov
 	===============
 -->
-    <event id="11001" date="20031102" showOnHomepage="true">
+    <event id="11001" date="20031031" showOnHomepage="true">
 	 <title>Weight of Glory Concert</title>
 		<date>Nov 1st</date>
 		<detail>The Singles Group is sponsoring the Weight of Glory Concert on Saturday night, Nov 1, at 6:30pm. Join us in the youth room and enjoy this band whose members all call Calvary home and whose music venue is rock, blues and worship.</detail>
@@ -283,22 +283,29 @@ need for Praying Leaders.</detail>
 		<date>Nov 14th-16th</date>
 		<detail>Come share the love of Jesus with His children south of the border in Pan De Vida. Sign up at the Events Center. For those who cannot go, participate by donating from the list of needed items.</detail>
     </event>
+    <event id="11003" date="20031115" showOnHomepage="true">
+	 <title>Weight of Glory (live Music at Coffee Creator)</title>
+		<date>Nov 15th</date>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
+    </event>
 
 		<!--
 	===============
 			Dec
 	===============
 -->
-    <event id="12001" date="20031231" showOnHomepage="false">
+    <event id="12001" date="20031231" showOnHomepage="true">
 	 <title>Calvary Kids New Years' Eve Party</title>
 		<date>Dec 31st</date>
                 <detail>Snacks, Games, Prizes, Movies, Worship and Prayer.</detail>
     </event>
-    <event id="12002" date="20031224" showOnHomepage="false">
+    <event id="12002" date="20031224" showOnHomepage="true">
 	 <title>Christmas Eve Service</title>
 		<date>Dec 24th</date>
     </event>
-    <event id="12003" date="20031203" showOnHomepage="false">
+    <event id="12003" date="20031203" showOnHomepage="true">
 	 <title>Communion</title>
 		<date>Dec 3rd</date>
     </event>

@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.52 2003/10/27 06:28:11 gregk Exp $
+	$Id: whatsnew.xml,v 1.53 2003/11/02 06:27:48 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -238,7 +238,11 @@
 		</news-item>
 		<news-item id="83" date="20031024" expires="20031116" showOnHomepage="true">
 			<title>Multimedia Volunteers Needed</title>
-			<detail>The Media Ministry is in need of volunteers to help in the Video and Streaming Media areas. No experience is necessary, we will provide the training. All you need is a servant's heart. <link href="jeremy@calvaryaustin.org">Contact Jeremy</link> if you are interested in becoming a part of the team.</detail>
+			<detail>The Media Ministry is in need of volunteers to help in the Video and Streaming Media areas. No experience is necessary, we will provide the training. All you need is a servant's heart. <link href="jeremy@calvaryaustin.org">Contact Jeremy</link> if you are interested in becoming a member of the team.</detail>
+		</news-item>
+		<news-item id="84" date="20031101" expires="20031106" showOnHomepage="true">
+			<title>Pastors and Leaders Conference</title>
+			<detail>The Mid-South and Leaders Conference is this week. Two of the sesions are open to those not signed up. Come Thursday and Friday evenings, Nov 6-7, at 7:30 pm.</detail>
 		</news-item>
 	</news>
 </content>
