@@ -6,7 +6,7 @@
         The sitemap contains the structure of the entire web site, and is used to drive
         the auto-generated scripts for generating the web site HTML from XML.
         
-        $Id: sitemap.xml,v 1.59 2004/07/12 13:31:24 tie Exp $
+        $Id: sitemap.xml,v 1.60 2004/07/28 20:33:39 premav Exp $
         
         hidden="true" prevents the page from showing on the sitemap.
         
@@ -99,6 +99,14 @@
           html="/about/vision.html">
       <title>Our Vision</title>
       <description>Catch the vision for Calvary Chapel of Austin</description>
+    </page>
+	<page datafile="/staff.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/staff.xsl"
+          html="/about/staff.html">
+      <title>Our Staff</title>
+      <description>Meet Calvary Austin's Staff</description>
     </page>
     <page datafile="/aroundtown.xml"
           template="/templates/default.xsl"
