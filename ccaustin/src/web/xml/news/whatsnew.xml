@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.101 2004/09/27 02:40:08 gregk Exp $
+	$Id: whatsnew.xml,v 1.102 2004/10/08 23:39:30 premav Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -518,6 +518,14 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		<news-item id="151" date="20040926" expires="20041204" showOnHomepage="true">
 		   <title>Bulletin Board</title>
 		   <detail>If you would like to put a flyer on the bulletin board please check out the guidelines next to the bulletin board, and place the announcement in the wall tray for approval.</detail>
+		</news-item>
+		<news-item id="152" date="20041008" expires="20041101" showOnHomepage="true">
+		   <title>WOW Children's Ministry</title>
+		   <detail>We're looking for friendly faces to serve in our new children's ministry check-in and visitor center. To find our more about this exciting new ministry contact Laura Nattinger at 260-6851.</detail>
+		</news-item>
+		<news-item id="153" date="20041008" expires="20041101" showOnHomepage="true">
+		   <title>Administrative Ministry</title>
+		   <detail>There are several positions in the church office to volunteer. If you have attended Calvary Austin for six months or more and can commit to two to eight hours a week, please contact Katherine Nogues at 719-4667 to obtain a volunteer application, and to find out what positions are available.</detail>
 		</news-item>
 <!--
 -->

@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.131 2004/09/26 17:30:57 gregk Exp $
+	$Id: calendar.xml,v 1.132 2004/10/08 23:39:01 premav Exp $
 		
 -->
 <content title="Calendar">
@@ -679,16 +679,21 @@ Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE<
 	 <title>Israel Trip</title>
 		<date>Oct 11-22</date>
                 <detail>The Israel tour is scheduled for Oct. 11 - Oct. 22, 2004. For more information, stop by the Events Center.</detail>
+    <event id="10003" date="20041010" showOnHomepage="true">
+	 <title>Communion Service</title>
+		<date>Oct 10th</date>
+                <detail>Come join us Sunday, Oct 10th, for the celebration of communion during both the services.</detail>
     </event>
-    <event id="10002" date="20041015" showOnHomepage="true">
-	 <title>Men's Retreat</title>
+    </event>
+    <event id="10004" date="20041015" showOnHomepage="true">
+	 <title>Men's Retreat: Today is the Last Day</title>
 		<date>Oct 15-16</date>
-		<detail>The Men's Retreat with Pastor Art Murillo will be at Camp Tejas. To sign up and for more information, stop by the Events Center.</detail>
+		<detail>to sign up for the Men's Retreat with Pastor Art Murillo happening this Friday &amp; Saturday at Camp Tejas. To sign up go to the Events Center.</detail>
 		<ministries>
 			<ministry id="men"/>
 		</ministries>
     </event>
-    <event id="10003" date="20041002" showOnHomepage="true">
+    <event id="10005" date="20041002" showOnHomepage="true">
 	 <title>Got Milk?</title>
 		<date>Oct 2</date>
 		<detail>The Men's Ministry will have a men's breakfast on Saturday morning. October 2. Sign up and pick up the details at the Events Center today.</detail>
@@ -696,7 +701,7 @@ Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE<
 			<ministry id="men"/>
 		</ministries>
     </event>
-        <event id="10004" date="20040925" showOnHomepage="true">
+        <event id="10006" date="20040925" showOnHomepage="true">
 	 <title>Women Helping Women (Free Indeed Addictions)</title>
 		<date>Sept 25</date>
 		<detail>There will be a meeting at Calvary Austin on Saturday, September 25th from 8:30-9:30 (for existing counselors only). We will discuss the restructuring of the counseling ministry and new opportunities to diversify or specialize in a particular area. Training will be provided by <italics>Free Indeed</italics>, the Calvary addictions ministry from 9:30-12:00 (for anyone interested). Click <link href="http://www.calvaryaustin.org/ministries/womenhelp.html">HERE</link> for more details.</detail>
@@ -704,7 +709,7 @@ Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE<
 			<ministry id="women"/>
 		</ministries>
     </event>
-    <event id="10005" date="20041002" showOnHomepage="true">
+    <event id="10007" date="20041002" showOnHomepage="true">
 	 <title>Cross Culture Men's Conference</title>
 		<date>Oct 2</date>
 		<detail>The Cross Culture Men's Conference is being held at Calvary Chapel Houston on Sat Oct 2nd. Prepaid cost will be $39 and after Monday Sept 20, it will be $49. For more information, pick up a flyer at the Info Center.</detail>
@@ -715,9 +720,9 @@ Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE<
      ===============
 -->
     <event id="11001" date="20041106" showOnHomepage="true">
-	 <title>Pastors and Leaders Conference</title>
+	 <title>Mid-South Pastors and Leaders Conference</title>
 		<date>Nov 4-6</date>
-		<detail>The Mid-South Calvary Chapel Pastors and Leaders Conference for 2004 is to be held on November 4-6 at Calvary Chapel Austin. For more info go to <link href="http://www.calvaryaustin.org/313">www.calvaryaustin.org/313</link>.</detail>
+		<detail>Conference for 2004 / 313 will be held on Nov. 4-6 at Calvary Austin. Join Rob Salvato, Robert Furrow, Rod Carver and Allen Rigg for a look at how you can learn from you mistakes.  If you serve in any capacity, you should register at the Events Center. For more info go to <link href="http://www.calvaryaustin.org/313">www.calvaryaustin.org/313</link>.</detail>
 		<ministries>
 			<ministry id="singles"/>
 		</ministries>
