@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	News Index
+	
+	$Id: news-index.xml,v 1.1 2002/07/08 21:42:47 javajames27 Exp $
+		
+-->
+<content title="News Index">
+  <news-index/>
+</content>
