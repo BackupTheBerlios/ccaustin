@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.1 2002/05/24 00:03:07 javajames27 Exp $
+	$Id: calendar.xml,v 1.2 2002/05/24 00:11:44 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -40,7 +40,7 @@
 -->		
 		<event id="06001" date="20020607">
 			<title>Corpus Christi Outreach</title>
-			<date>June 7 - 9</date>
+			<date>June 7-9</date>
 			<detail>
 				Please call the church office at (512) 719-4667 for more information.
 			</detail>
@@ -50,7 +50,7 @@
 		</event>
 		<event id="06002" date="20020624">
 			<title>Vacation Bible School</title>
-			<date>June 24th - 28th</date>
+			<date>June 24th-28th</date>
 			<detail>
 				Vacation Bible School is offered both day and eve sessions from June 24-28th. We are going to "visit" CAMP LOGOS this year and have lots of exciting camp adventures awaiting your children ages 4-12.  This event is free.  Invite your friends and be prepared to have a great time with a special Bible lesson each day that is supported with all kinds of activities.  Our last day will include Parent Nite with bounce rides and live horses and a cookout!  Call Kerry Schroeder for details (512) 219-7028.
 			</detail>
@@ -62,7 +62,7 @@
 		<event id="06003" date="20020626" childcare="yes">
 			<title>Children's Ministry Conference</title>
 			<date>June 26th</date>
-			<time>10am - 9pm</time>
+			<time>10am-9pm</time>
 			<detail>
 				We are offering a conference for any person working with children in a church setting or even parents.  The conference will include special speakers, a conference manual, and 4 meals shared together on site as well as an abundance of workshops that you can choose from to enhance your ministry or parent skills.  Registration is open now. The event cost is $45.00 and will be held on July 26, from 10am-9pm and July 27 from 9am-4pm.  We are inviting churches locally as well as churches from several other mid-western states.  For more information call Donna Cano at (512) 255-7756.
 			</detail>
@@ -72,7 +72,7 @@
 			</ministries>
 		</event>
 		<event id="06004" date="20020622">
-			<title>Live Music - Paul Finley</title>
+			<title>Live Music-Paul Finley</title>
 			<date>June 22</date>
 			<time>8:00pm</time>
 			<detail>
@@ -84,7 +84,7 @@
 			</ministries>
 		</event>
 		<event id="06005" date="20020629">
-			<title>Live Music - Ten Thirty-One</title>
+			<title>Live Music-Ten Thirty-One</title>
 			<date>June 29</date>
 			<time>8:00pm</time>
 			<detail>
@@ -115,7 +115,7 @@
 		</event>
 		<event id="07002" date="20020717">
 			<title>Scopes Trial Outreach</title>
-			<date>July 17 - 21</date>
+			<date>July 17-21</date>
 			<detail>
 				Please call the church office at (512) 719-4667 for more information.
 			</detail>
@@ -141,7 +141,7 @@
 -->		
 		<event id="08001" date="20020830">
 			<title>Frontline Retreat</title>
-			<date>Aug 30 - Sept 2</date>
+			<date>Aug 30-Sept 2</date>
 			<detail>
 				Please call the church office at (512) 719-4667 for more information.
 			</detail>

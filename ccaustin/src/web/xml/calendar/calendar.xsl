@@ -6,7 +6,7 @@
 	
 	Processes the calendar tag and its children tags.
 	
-	$Id: calendar.xsl,v 1.1 2002/05/24 00:03:07 javajames27 Exp $
+	$Id: calendar.xsl,v 1.2 2002/05/24 00:11:44 javajames27 Exp $
 	
 -->	
 
@@ -35,12 +35,13 @@
 
 <xsl:template match="event">
 		<tr>
-			<td width="20%" class="tableheader" align="left" valign="top" nowrap="true"><xsl:value-of select="date"/></td>
-			<td width="80%" class="tableheader" align="left" valign="top" nowrap="true" colspan="2"><xsl:value-of select="title"/></td>
+			<td width="25%" class="tableheader" align="left" valign="top" nowrap="true"><xsl:value-of select="date"/></td>
+			<td width="65%" class="tableheader" align="left" valign="top" nowrap="true" colspan="2"><xsl:value-of select="title"/></td>
+			<td width="10%" class="tableheader" align="left" valign="top" nowrap="true" colspan="2"><br/></td>
 		</tr>
 		<tr>
-			<td width="20%" align="left" valign="top"><xsl:value-of select="time"/></td>
-			<td width="80%" align="left" valign="top" colspan="2"><span class="title">
+			<td width="25%" align="left" valign="top"><xsl:value-of select="time"/></td>
+			<td width="75%" align="left" valign="top" colspan="2">
 				<xsl:choose>
 					<xsl:when test="location != '' ">
 		  			  Location: <xsl:value-of select="location"/>
@@ -49,11 +50,11 @@
 					   <br/>
 					</xsl:otherwise>
 				</xsl:choose>
-		     </span></td>
+		     </td>
 		</tr>
 		<tr>
-			<td width="20%" align="left" valign="top"><br/></td>
-			<td width="80%" align="left" valign="top" colspan="2"><span class="detail"><xsl:value-of select="detail"/></span></td>
+			<td width="25%" align="left" valign="top"><br/></td>
+			<td width="75%" align="left" valign="top" colspan="2"><span class="detail"><xsl:value-of select="detail"/></span></td>
 		</tr>
 		<tr colspan="3">
 			<td><br/></td>

@@ -21,3 +21,4 @@ pre	{ FONT-FAMILY: "Courier New", Courier, mono }
 .detail {  font-style: italic}
 a:hover {  text-decoration: underline}
 .newsitem {  font-size: 85% }
+.indent { left-indent: 4 }
