@@ -149,6 +149,7 @@
         <!-- Creates the Media section of the web site                         -->
 	<target name="web-media" depends="checkoptions" description="Creates the media section of the site">
                 <style force="yes" style="${src.xml.dir}/media/live.xsl" in="${src.xml.dir}/media/live.xml" out="${build.web.dir}/media/live.html"/> 
+                <style force="yes" style="${src.xml.dir}/media/viewlive.xsl" in="${src.xml.dir}/media/viewlive.xml" out="${build.web.dir}/media/viewlive.html"/> 
         </target>
 
 	<!-- =================================================================== -->

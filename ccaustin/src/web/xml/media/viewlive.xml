@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Calvary View Live
+	
+	$Id: viewlive.xml,v 1.1 2002/04/11 01:45:49 javajames27 Exp $
+		
+-->
+<content title="Calvary Live" base=".">
+
+	<live-feed>
+		<embedded href="http://www.calvarychapel.org/austin/video/live.rpm"/>
+		<external href="http://www.calvarychapel.org/austin/video/live.ram"/>
+	</live-feed>
+	
+</content>
