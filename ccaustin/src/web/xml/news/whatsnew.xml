@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.27 2003/03/21 16:42:17 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.28 2003/03/28 18:49:24 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -210,32 +210,32 @@
 		<detail>Check out the <link href="http://www.calvarychapel.org/austin/video/2002yevb.ram">Year In Review Video</link> with your <link href="http://www.real.com">RealVideo</link> player!</detail>
     </news-item>
 
-    <news-item id="31" date="20030401" expires="20030401" showOnHomepage="true">
+    <news-item id="31" date="20030401" expires="20030401" showOnHomepage="false">
 		<title>Marriage Ministry</title>
 		<detail>The Spring group meetings begin this week. If you signed up, your books will be available at the first meeting. <link href="../ministries/marriage.html">Learn more...</link></detail>
     </news-item>
 
     <news-item id="32" date="20030201" expires="20030315" showOnHomepage="true">
 		<title>Children's Ministry</title>
-		<detail>Several volunteer positions are open on Sunday and Wednesday.  Please check the Calvary Kids Hallway board for more info.</detail>
+		<detail>Several volunteer positions are open on Sunday and Wednesday.  Please check the Calvary Kids Hallway board for more info. It is very important to pick up, at various places in the lobby, a schedule of training sessions if you've signed up.  The first session is Sunday, March 30, during the 2nd or 3rd services.</detail>
     </news-item>
 
-    <news-item id="33" date="20030301" expires="20030401" showOnHomepage="true">
+    <news-item id="33" date="20030301" expires="20030319" showOnHomepage="true">
 		<title>Stop and Seek</title>
 		<detail>Please join us this Wednesday evening, Mar 19, at 7PM, as Pastor Allen leads us in the last of four special services devoted to prayer and waiting for a word from the Lord for each of us, our families and our church.</detail>
     </news-item>
 
-    <news-item id="34" date="20030301" expires="20030401" showOnHomepage="true">
+    <news-item id="34" date="20030301" expires="20030319" showOnHomepage="true">
 		<title>Calvary Bookstore </title>
 		<detail>Several volunteer positions are open on Sundays and Wednesdays.  Please contact Andrea Rigg at the church office (719.4667) or come by the bookstore for more information.</detail>
     </news-item>
 
     <news-item id="35" date="20030301" expires="20030401" showOnHomepage="true">
 		<title>Children's Ministry Sign In</title>
-		<detail>Tired of keeping track of several coupons to pick up your children? Then you will like the new "One Number Family ID" system that will begin Apr 6. Pick up a flyer and a form to be filled out in the Children's Ministry area.</detail>
+		<detail>The new sign in system will begin April 6.  Pick up a flyer and a form to be filled out in the Children's Ministry area today.</detail>
     </news-item>
 
-    <news-item id="36" date="20030301" expires="20030401" showOnHomepage="true">
+    <news-item id="36" date="20030301" expires="20030327" showOnHomepage="true">
 		<title>Men's Ministry</title>
 		<detail>Starting Tuesday the men’s bible study will meet every Tuesday night until the end of May.</detail>
     </news-item>
@@ -248,6 +248,16 @@
     <news-item id="38" date="20030320" expires="20030418" showOnHomepage="true">
 		<title>Young Disciples Club</title>
 		<detail>“YDC” is a discipleship club for Wise Guys, Witnesses and Watchmen--boys and girls K-5th grade.  There is worship, Bible, game and group times each Wednesday evening.  Pick up a YDC flyer at the Octopus in the lobby for more information.</detail>
+    </news-item>
+
+    <news-item id="39" date="20030406" expires="20030406" showOnHomepage="true">
+		<title>Daylight Saving Time</title>
+		<detail>Next Sunday, April 6, is the time to “spring forward” by setting clocks ahead 1 hour Saturday night.</detail>
+    </news-item>
+
+    <news-item id="40" date="20030406" expires="20030406" showOnHomepage="true">
+		<title>Leander Home Fellowship</title>
+		<detail>The Leander Home Fellowship has a new meeting location.  For more information, call Robert and Sandra Verastegui (259.0251).</detail>
     </news-item>
 
 
