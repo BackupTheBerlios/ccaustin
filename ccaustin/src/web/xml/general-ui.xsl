@@ -14,7 +14,7 @@
 	A variant of this file may offer more search engine or accessibility-friendly
 	navigation and less Javascript features for older browsers. 
 	
-	$Id: general-ui.xsl,v 1.4 2002/04/02 04:10:10 javajames27 Exp $
+	$Id: general-ui.xsl,v 1.5 2002/04/09 00:45:37 javajames27 Exp $
 -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl
@@ -86,7 +86,7 @@
             <table border="0" cellpadding="0" cellspacing="0">
               <tbody>
               <tr>
-                <td colspan="6"><img height="64" src="../images/maintop.jpg" width="282"></img></td></tr>
+                <td colspan="6"><a href="../homepage/index.html"><img height="64" src="../images/maintop.jpg" width="282" border="0"></img></a></td></tr>
               <tr>
                 <td><img height="15" src="../images/main007.jpg" width="37"></img></td>
                 <td><a href="../about/about.html" onmouseover="window.showMenu(window.menuAbout,198,84);"><img border="0" height="15" name="mitem1" src="../images/main008.jpg" width="58"></img></a></td>

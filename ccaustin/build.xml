@@ -34,6 +34,12 @@
 	<!-- Check Options Target                                                -->
 	<!-- =================================================================== -->
 	<target name="checkoptions" description="Performs pre-processing checks for environment."/>
+	
+	<target name="validate-xml" description="Performs validation of all XML files">
+	    <xmlvalidate failonerror="no" lenient="yes" warn="yes">
+        <fileset dir="${src.xml.dir}" includes="**/*.xml"/>  
+    </xmlvalidate>
+	</target>
 	<!-- =================================================================== -->
 	<!-- =================================================================== -->
 	<!-- =================================================================== -->
