@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+       Worship Life '04 Mid-South Worship Conference
+
+	$Id: worshipconf04.xml,v 1.1 2004/01/09 11:31:36 gregk Exp $
+		
+-->
+<content title="MidSouth Worship Life Conference 2004">
+     <heading>Mid-South Worship Life Conference 2004</heading>
+<br></br>
+<table>
+      <row>
+       <data>Speakers:</data> 
+       <data>Art Murillo, Holland Davis, Allen Rigg</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+      <row>
+       <data>Worship Leaders:</data>
+       <data> Art Murillo, Sunday Drivers, Holland Davis, David Reynolds</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+      <row>
+        <data>Date:</data> 
+        <data>February 26-28, 2004</data>
+      </row>
+      <row><data xml:space="preserve"><br></br></data></row>
+
+      <row>
+       <data>Cost:</data>
+       <data>$65 if received on or before Feb 20</data>
+      </row>
+
+      <row>
+      <data>.</data>
+      <data>$75 if received after Feb 20</data>
+      </row>
+
+      <row>
+      <data>.</data>
+      <data>$60 Group rate (for groups of 10 or more and received before Feb 20)</data>
+      </row>
+
+      <row><data xml:space="preserve"><br></br></data></row>
+</table>
+      <p> Registration fee is per person for all or part of the conference. Cost includes conference materials, resource cd, t-shirt, two continental breakfasts and one lunch. Hotels, dinners and conference taps will not be included.</p>
+      <p>To register, call 512.719.4667</p>
+
+      <p>Or print out this <link href="../pdf/Worship2004Registration.pdf">online registration form</link> in Adobe PDF format.</p>
+
+<!--
+ <p>
+  Below is a sample of the registration form. You can obtain a
+  <link href="../pdf/Worship2004Registration.pdf">printable form</link> 
+  in Adobe PDF format. 
+ </p>
+-->
+
+<p>
+  <img href="http://www.adobe.com/products/acrobat/readstep2.html" src="../images/getacro.gif" align="middle" /> 
+  To obtain the free Adobe Acrobat Reader, visit the 
+  <link href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe Web Site</link> 
+  . 
+</p>
+
+<BR></BR>
+      <p><img href="../pdf/Worship2004Registration.pdf" src="../images/events/worshp04.jpg"/></p>
+<BR></BR>
+<!--
+      <p>Visit website at <link href= "../ministries/worship.html">www.calvaryaustinmusic.org</link> for more details</p>
+-->
+      <p>There are a number of hotels within a few miles of Calvary Austin.</p> 
+      <p>A few of the local choices can be found on our <link href="../about/aroundtown.html">Around Town</link> Web Page.</p>
+
+</content>
