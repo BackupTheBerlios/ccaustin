@@ -2,7 +2,7 @@
 <!-- 
         Music and Worship 2003 Conference
 
-	$Id: mwc2003.xml,v 1.5 2003/01/24 21:11:11 javajames27 Exp $
+	$Id: mwc2003.xml,v 1.6 2003/02/02 17:02:02 javajames27 Exp $
 		
 -->
 <content title="Music and Worship 2003 Conference">
@@ -123,39 +123,40 @@
       </table>
     </p>
     <p>
-	<table> 
-		<row> 
-		<label>Workshop I</label> 
-		<data> 
-		Acoustic Guitar - Devin Berryhill<br/> 
-		Bass - Darrell Cook<br/> 
-		Drums - Mitch Ross<br/> 
-		Keyboards - Noelle Cablay<br/> 
-		Worship Leading - Holland Davis 
-		</data> 
-		</row> 
-		<row> 
-		<label>Workshop II</label> 
-		<data> 
-		Bass - Darrell Cook<br/> 
-		Drums - Mitch Ross<br/> 
-		Electric Guitar - Devin Berryhill<br/> 
-		Songwriting - Holland Davis<br/> 
-		Sound I - tbd<br/> 
-		Vocals I - Noelle Cablay 
-		</data> 
-		</row> 
-		<row> 
-		<label>Workshop III</label> 
-		<data> 
-		Musicians (Playing Together) - Holland, Mitch<br/> 
-		Sound II (Mixing) - tbd<br/> 
-		Vocals II (Singing Together) - Katherine Nogues<br/> 
-		</data> 
-		</row> 
-	</table> 
+      <table> 
+        <row> 
+          <label>Workshop I</label> 
+          <data> 
+            Bass - Darrell Cook (Costa Mesa)<br/>
+            Drums - Mitch Ross (Costa Mesa)<br/>
+            Electric Guitar - Devin Berryhill (Costa Mesa)<br/>
+            Keyboards - Noelle Cablay (Costa Mesa)<br/>
+            Women in Worship - Heather Reynolds (Austin)<br/>
+            Worship Leading - Holland Davis (Costa Mesa)<br/>
+          </data> 
+        </row> 
+        <row> 
+          <label>Workshop II</label> 
+          <data> 
+            Acoustic Guitar - Devin Berryhill (Costa Mesa)<br/>
+            Bass - Darrell Cook (Costa Mesa)<br/>
+            Drums - Mitch Ross (Costa Mesa)<br/>
+            Songwriting - Holland Davis (Costa Mesa)<br/>
+            Sound I - Roger Gladhart, Tim Carwheel (Austin)<br/>
+            Vocals I - Noelle Cablay (Costa Mesa)<br/>
+          </data> 
+        </row> 
+        <row> 
+          <label>Workshop III</label> 
+          <data> 
+            Musicians (Playing Together) - Holland Davis, Mitch Ross (Costa Mesa)<br/>
+            Sound II (Mixing) - Roger Gladhart, Tim Carwheel (Austin)<br/>
+            Spouses of Worship Team Members - Dan and Angela Loaiza (Houston)<br/>
+            Vocals II (Singing Together) - Katherine Nogues (Austin)<br/>
+          </data> 
+        </row> 
+      </table> 
     </p>
-    <p>All of the folks leading the workshop are from Holland Davis' band, with the exception of Sound and vocals II which are led by people from our Calvary Austin. </p>
   </section>
   <section heading="Registration" img="../images/events/mwcinfo.jpg">
     <p>Print out the <link href="javascript:mwcWin()">registration form</link>, fill it out, and mail it, along with your remittance, to Calvary
