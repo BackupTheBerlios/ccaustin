@@ -2,6 +2,15 @@
 <!-- ===================================================================== -->
 <!-- Build File for ANT (http://jakarta.apache.org/ant                     -->
 <!-- ===================================================================== -->
+<!--
+  NOTE: To use the publish target, you will need to add the following
+  entries to a custom local.properties file:
+
+  ftp.id=yourid
+  ftp.password=yourpassword
+
+  This prevents the password from being checked in
+-->
 <project name="calvary" default="web" basedir=".">
   <!-- Global Settings -->
   <property name="Name" value="Calvary Chapel Austin"/>
@@ -23,8 +32,7 @@
   <property name="autogen.build.web" value="${src.xml.dir}/autogen-build.xml"/>
   <!-- Give user a chance to override without editing this file 
   (and without typing -D each time it compiles it -->
-  <property file="${home}/.ant.properties"/>
-  <property file="${user.home}/.ant.properties"/>
+  <property file="local.properties"/>
   
   <!-- =================================================================== -->
   <!-- Clean Target                                                        -->
@@ -129,12 +137,13 @@
   </target>
 
   <target name="publish" depends="checkoptions">
+    <echo message="Using ftp userid of ${ftp.id}. If this is not correct, create or edit your local.properties and add ftp.id and ftp.password entries."/>
     <ftp server="www.calvarychapel.org"
          remotedir="/austin/beta"
-         userid="111"
-         password="111"
+         userid="${ftp.id}"
+         password="${ftp.password}"
          verbose="yes">
-    <fileset dir="${dist.web.dir}"/>
+      <fileset dir="${dist.web.dir}"/>
     </ftp>    
   </target>
 </project>
