@@ -28,7 +28,7 @@
     <TABLE cellspacing="3" cellpadding="2" BORDER="0" WIDTH="100%">
 	<TR>
 	  <TD ALIGN="left"><FONT FACE="TAHOMA,VERDANA,ARIAL,HELVETICA">
-	    To hear Allen's <xsl:value-of select="$pcategorytitle"/> archive teachings via RealAudio<SUP>(R)</SUP> 
+	    To hear Allen's <xsl:value-of select="$pcategorytitle"/> archive teachings via Windows Media Audio<SUP>(R)</SUP> 
 	    for a 28.8 modem then click on the message title hyperlink.  If you don't have a 
 	    player, click on the download icon to the right to visit the Real Networks 
 	    site.
@@ -375,7 +375,7 @@
     <TABLE cellspacing="3" cellpadding="2" BORDER="0" WIDTH="100%">
 	<TR>
 	  <TD COLSPAN="2" ALIGN="left"><FONT FACE="TAHOMA,VERDANA,ARIAL,HELVETICA">
-	    To hear Allen's most recent <xsl:value-of select="$pservicetitle"/> teachings via RealAudio<SUP>(R)</SUP>
+	    To hear Allen's most recent <xsl:value-of select="$pservicetitle"/> teachings via Windows Media Audio<SUP>(R)</SUP>
 	    click on one of the icons below.  Note that all audio messages
 	    are encoded for a 28.8k modem.
 	    The highlighted scripture takes you to the Blue Letter Bible
@@ -392,7 +392,7 @@
 	<TR>
 	  <TD ALIGN="right" VALIGN="middle"><A HREF="../msgs/msgsAudioArchive.html"><IMG SRC="../images/filecab.jpg" ALT="View the online audio message archive" BORDER="0"/></A></TD>
 	  <TD ALIGN="left"><FONT FACE="TAHOMA,VERDANA,ARIAL,HELVETICA" SIZE="-1">
-	    Go to Pastor Allen's <A HREF="../msgs/msgsAudioArchive.html">RealAudio online message archive</A>.
+	    Go to Pastor Allen's <A HREF="../msgs/msgsAudioArchive.html">Windows Media Audio online message archive</A>.
 	    </FONT>
 	  </TD>
 	</TR>
