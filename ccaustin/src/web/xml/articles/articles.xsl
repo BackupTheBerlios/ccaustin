@@ -6,7 +6,7 @@
 	
 	Processes each article in this directory
 	
-	$Id: articles.xsl,v 1.1 2002/04/10 01:46:26 javajames27 Exp $
+	$Id: articles.xsl,v 1.2 2002/07/04 21:07:03 javajames27 Exp $
 	
 -->	
 
@@ -20,11 +20,9 @@
 
 <xsl:template match="article">
     <xsl:variable name="id"><xsl:value-of select="@id"/></xsl:variable>
+<table border="0" cellpadding="0" width="100%">
   <tr>
     <td colspan="2" align="left" class="tableheader"><xsl:value-of select="title"/></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="left" class="tablesubtitle"><br/></td>
   </tr>
   <tr>
     <td colspan="2" align="left" class="tablesubtitle"><xsl:apply-templates select="parts"/>
@@ -36,6 +34,7 @@
   <tr>
     <td colspan="2" align="left" class="tablecell"><xsl:apply-templates select="full"/></td>
   </tr>
+</table>
 </xsl:template>
 
 <xsl:template match="parts">

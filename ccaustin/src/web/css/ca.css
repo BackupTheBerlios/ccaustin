@@ -1,14 +1,17 @@
 A:link	{ TEXT-DECORATION: none }
-A:visited	{ TEXT-DECORATION: none }
+A:visited { TEXT-DECORATION: none }
+A:hover {  text-decoration: underline}
 body	{  FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif }
 td	{ FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif }
 pre	{ FONT-FAMILY: "Courier New", Courier, mono }
 p       { font-size: 90% }
+
 .note {  font-size: 10px; color: #FF0000}
 .tableheader {  background-color: #e6e6f7; font-weight: bold }
 .tableheaderdark {  color:#FFFFFF; background-color: #384D7A; font-weight: bold }
 .tablesubtitle {  font-size: 90%; font-style: italic; font-weight: bold }
 .tablecell {  }
+
 .textsubtitle {  font-size: 12px}
 .textemphasis {  font-style: italic}
 .textbold {  font-weight: bold}
@@ -18,12 +21,12 @@ p       { font-size: 90% }
 
 .title {  font-weight: bold}
 .heading {  font-weight: bold; font-size: 105% }
-.ministrytitle{  font-weight: bold; font-size: 150% }
 .subheading {  font-weight: bold; font-size: 100% }
 .detail {  font-style: italic}
-a:hover {  text-decoration: underline}
 .indent { left-indent: 4 }
 .darkbg { background-color: #384D7A; }
+
+.ministrytitle{  font-weight: bold; font-size: 150% }
 
 .sidebar { }
 
@@ -41,4 +44,6 @@ a:hover {  text-decoration: underline}
 .tableheaderfeature {  background-color: #daecfb; font-weight: bold }
 .tablecellfeature { background-color: #daecfb; }
 
+.verseref { font-size: 90%; font-weight: bold }
+.verse { font-size: 90%; }
 

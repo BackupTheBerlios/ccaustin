@@ -14,7 +14,7 @@
 	When a new tag is needed, consider using its HTML equivalent if its name and format is common english. 
 	(e.g. <a/> is not really anything meaningful for the average person, but <link/> is)
 	
-	$Id: general-html.xsl,v 1.9 2002/05/30 01:20:31 javajames27 Exp $
+	$Id: general-html.xsl,v 1.10 2002/07/04 21:07:03 javajames27 Exp $
 -->
 
 
@@ -380,55 +380,22 @@
 <xsl:template match="item">
 	<li><xsl:apply-templates select="*|text()"/></li>
 </xsl:template>
-<!-- 
-	 ============================
-  	 DEPRECATED tags
-      ============================ 
--->
 
-  <!-- DEPRECATED - Do not use! 
-  <xsl:template match="a">
-    <a>
-      <xsl:if test="@href">
-        <xsl:attribute name="href">
-          <xsl:value-of select="@href"/>
-        </xsl:attribute>
-      </xsl:if>
-      <xsl:for-each select="@*[not(name(.)='href')]">
-        <xsl:copy-of select="."/>
-      </xsl:for-each>
-      <xsl:apply-templates/>
-    </a>
-  </xsl:template>
+<!--
+	<verse/> verse tag
+	
+	Renders verse 
+	
+	Body: The text of the verse
+	
+	Attributes:
+	
+		ref - the reference text being quoted
+		
+	Processes Subtags: Yes
 -->
-
-  <!-- DEPRECATED - Do not use! 
-  <xsl:template match="td">
-    <td>
-      <xsl:copy-of select="@*"/>
-      <xsl:apply-templates select="*|@*|text()"/>
-    </td>
-  </xsl:template>
--->
-
-  <!-- DEPRECATED - Do not use!
-  <xsl:template match="ul">
-      <ul><xsl:apply-templates/></ul>
-  </xsl:template>
- -->
- 
-  <!-- DEPRECATED - Do not use!
-<xsl:template match="ol">
-	<ol>
-		<xsl:apply-templates select="li"/>
-	</ol>
+<xsl:template match="verse">
+	<span class="verseref"><xsl:value-of select="@ref"/></span><xsl:text> </xsl:text><span class="verse"> <xsl:apply-templates select="*|text()"/></span>
 </xsl:template>
-  -->
-  
-  <!-- DEPRECATED - Do not use!
-<xsl:template match="li">
-	<li><xsl:apply-templates select="*|@*|text()"/></li>
-</xsl:template>
- -->
- 
+
 </xsl:stylesheet>
