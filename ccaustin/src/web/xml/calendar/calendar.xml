@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.48 2003/05/27 20:41:19 javajames27 Exp $
+	$Id: calendar.xml,v 1.49 2003/05/27 22:36:26 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -307,7 +307,7 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
       <title>V.B.S. Day Camp</title>
       <date>June 23rd-27th</date>
       <intro>VBS is just around the corner, Jun 23-27. This year VBS will run from 9AM to 4PM daily. Pick up a flyer at the Events Center. The registration cost is $10.  Extended care will be provided for an additional $25.</intro>
-      <detail>Every year our church offers a wonderful Vacation Bible School.  This year, we want a more time to develop the lessons and teach with great effectiveness.  Therefore, we are increasing the times and changing the V. B. S.  to a full DAY CAMP.  We will offer lots of fun activities including camp crafts, snacks, games, worship, drama, prizes and, most of all, great Bible stories taught in a way that will leave a lasting impression.  Our theme this year will take us under the deep ocean, so if you think something "fishy" is going on, then you must come check it out!  We will offer V. B. S. Day Camp to all kids entering kindergarten this August through 5th grade.  Dates will be June 23-27th, (please register early because space is limited)!  For more information call Kerry Schroeder at 219-7028.</detail>
+      <detail>Every year our church offers a wonderful Vacation Bible School.  This year, we want a more time to develop the lessons and teach with great effectiveness.  Therefore, we are increasing the times and changing the V. B. S.  to a full DAY CAMP.  We will offer lots of fun activities including camp crafts, snacks, games, worship, drama, prizes and, most of all, great Bible stories taught in a way that will leave a lasting impression.  Our theme this year will take us under the deep ocean, so if you think something "fishy" is going on, then you must come check it out!  We will offer V. B. S. Day Camp to all kids entering kindergarten this August through 5th grade.  Dates will be June 23-27th, (please register early because space is limited)!  For more information call Kerry Schroeder at 219-7028. <link href="../events/vbsdaycamp2003.html">More details...</link></detail>
 		<ministries>
 			<ministry id="children"/>
 		</ministries>

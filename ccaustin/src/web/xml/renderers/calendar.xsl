@@ -6,7 +6,7 @@
 	
 	Processes the calendar tag and its children tags.
 	
-	$Id: calendar.xsl,v 1.1 2002/12/13 20:04:06 javajames27 Exp $
+	$Id: calendar.xsl,v 1.2 2003/05/27 22:36:26 javajames27 Exp $
 	
 -->	
 
@@ -61,7 +61,7 @@
        </xsl:otherwise>
      </xsl:choose>
      <tr>
-       <td width="75%" align="left" valign="top" colspan="3"><p><xsl:value-of select="detail"/></p></td>
+       <td width="75%" align="left" valign="top" colspan="3"><p><xsl:apply-templates select="detail"/></p></td>
      </tr>
      <tr colspan="3">
        <td><br/></td>
