@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.117 2004/05/18 18:39:43 gregk Exp $
+	$Id: calendar.xml,v 1.118 2004/06/05 06:38:08 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -548,29 +548,52 @@ and to register visit the Events Center.</detail>
     June 2004
     ===============
     -->
-    <event id="06001" date="20040621" showOnHomepage="true">
+    <event id="06001" date="20040607" showOnHomepage="true">
+	 <title>Seasoned Saints</title>
+		<date>Jun 6</date>
+                <detail>We'll be having an art historian who will be giving a presentation and talking on early Renaissance paintings such as Raphael Sanzio, Da Vinci, and Michelangelo. It will be held from 5:00pm to 7:00pm in the Youth Room. Refreshments will be served!</detail>
+    </event>
+    <event id="06002" date="20040614" showOnHomepage="true">
+	 <title>Extreme Camp!</title>
+		<date>Jun 13</date>
+                <detail>There will be a Parent/Camper meeting after 2nd service in the youth room. All money and forms are due June 13th. For your convenience we will be offering on-site notary services on June 9th and 13th for camp documentation. Contact David Robinson at vitallifecrew@yahoo.com for any questions or concerns.</detail>
+    </event>
+    <event id="06003" date="20040620" showOnHomepage="true">
+	 <title>Baptism and Picnic</title>
+		<date>Jun 19</date>
+                <detail>The Calvary Baptism &amp; Picnic will be Saturday, June 19 at Emma Long Park. Parking is $8 per vehicle. The catered lunch is at 12pm and the baptism is at 3pm. You can sign up to be baptized and/or purchase tickets for the catered lunch ($5/adult &amp; $3/child) at the Events Center.</detail>
+    </event>
+    <event id="06004" date="20040621" showOnHomepage="true">
 	 <title>Vacation Bible Study</title>
 		<date>Jun 21-25</date>
-                <detail>Stay tuned for more details !!!.</detail>
+                <detail>We have an exciting program this year, but enrollment is limited. So register at the Events Center.</detail>
 		<ministries>
 			<ministry id="children"/>
 		</ministries>
     </event>
-    <event id="06002" date="20040619" showOnHomepage="true">
-	 <title>Baptism and Picnic</title>
-		<date>Jun 19</date>
+    <event id="06005" date="20040701" showOnHomepage="true">
+	 <title>Rock and Roll Worship Circus</title>
+		<date>Jun 30</date>
+		<detail>The Rock and Roll Worship Circus will be performing and leading worship as part of our Wednesday night service on June 30th. Check out <link href="http://www.worshipcircus.com">worshipcircus.com</link> for more info.</detail>
     </event>
 		<!--
     ===============
     July 2004
     ===============
     -->
+    <event id="07001" date="20040703" showOnHomepage="true">
+	    <title>Pan de Vida</title>
+		<date>Jul 2-4</date>
+		<detail>Learn more about the ministry needed at this women and children's shelter. We will be going on a mission trip, July 2-4. For more information or to sign up, visit the Events Center.</detail>
+    </event>
+    <!--
     <event id="07001" date="20040705" showOnHomepage="false">
 	 <title> Men's Day Out - Summer 2004</title>
 		<ministries>
 			<ministry id="men"/>
 		</ministries>
     </event>
+    -->
 		<!--
     ===============
     August 2004
@@ -581,12 +604,17 @@ and to register visit the Events Center.</detail>
     September 2004
     ===============
     -->
+    <event id="09001" date="20040904" showOnHomepage="false">
+	    <title>College &amp; Career Retreat 2004</title>
+		<date>Sep 3-6</date>
+		<detail>The College Retreat will be at Balcones Retreat Center. The cost is $130. To make a down payment or to register, stop by the Events Center.</detail>
+    </event>
 		<!--
     ===============
     Oct 2004
     ===============
     -->
-    <event id="10001" date="20041001" showOnHomepage="true">
+    <event id="10001" date="20041001" showOnHomepage="false">
 	 <title>Family Camp</title>
 	 <date>Oct 1-3</date>
                 <detail>"Family", meaning our Calvary Family. All are welcome! Look for signups in the summer for a great time of fellowship and fun at our 3rd annual Camp. For more info, contact John Adams at 759.4433</detail>
@@ -594,14 +622,15 @@ and to register visit the Events Center.</detail>
 			<ministry id="children"/>
 		</ministries>
 	</event>
-    <event id="10002" date="20041011" showOnHomepage="true">
+	<event id="10002" date="20041011" showOnHomepage="false">
 	 <title>Israel Trip</title>
 		<date>Oct 11-22</date>
-                <detail>The Israel tour is scheduled for Oct. 11 - Oct. 22, 2004. The registration deadline is April 30th. For more information or to register, stop by the Events Center.</detail>
+                <detail>The Israel tour is scheduled for Oct. 11 - Oct. 22, 2004. For more information, stop by the Events Center.</detail>
     </event>
     <event id="10003" date="20041015" showOnHomepage="false">
 	 <title>Men's Retreat</title>
 		<date>Oct 15-16</date>
+		<detail>The Men's Retreat with Pastor Art Murillo will be at Camp Tejas. To sign up and for more information, stop by the Events Center.</detail>
 		<ministries>
 			<ministry id="men"/>
 		</ministries>

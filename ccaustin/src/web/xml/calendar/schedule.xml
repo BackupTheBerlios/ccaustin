@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
 
-	Weekly/Monthyl Reoccuring Calendar Events Content
+	Weekly/Monthy Reoccuring Calendar Events Content
 	
-	$Id: schedule.xml,v 1.39 2004/03/01 18:20:36 gregk Exp $
+	$Id: schedule.xml,v 1.40 2004/06/05 06:39:06 gregk Exp $
 
 -->
 <content title="Weekly &amp; Monthly Events">
@@ -19,21 +19,23 @@
       <shortnote/>
       <detail/>
     </event>
+<!--
     <event id="sun2" date="*" reoccur="Sun" time="9:30am" location="Youth Room" childMinistry="no" childCare="no">
       <title>"Vital Life" Jr. High</title>
       <shortnote/>
       <detail/>
       <ministries>
 	<ministry id="juniorhigh"/>
-	<ministry id="seniorhigh"/><!-- Not sure about this one -->
+	<ministry id="seniorhigh"/>
       </ministries>
     </event>
-    <event id="sun3" date="*" reoccur="Sun" time="11:30am" location="Auditorium" childMinistry="yes" childCare="no">
+-->
+    <event id="sun2" date="*" reoccur="Sun" time="11:30am" location="Auditorium" childMinistry="yes" childCare="no">
       <title>Second Service</title>
       <shortnote/>
       <detail/>
     </event>
-    <event id="sun4" date="*" reoccur="Sun" time="11:30am" location="Youth Room" childMinistry="no" childCare="no">
+    <event id="sun3" date="*" reoccur="Sun" time="11:30am" location="Youth Room" childMinistry="no" childCare="no">
       <title>"Vital Life" Jr. High</title>
       <shortnote/>
       <detail/>
@@ -42,14 +44,22 @@
 	<ministry id="seniorhigh"/><!-- Not sure about this one -->
       </ministries>
     </event>
-    <event id="sun5" date="*" reoccur="Sun" time="5:00pm" location="Youth Room" childMinistry="no" childCare="no">
+    <event id="sun4" date="*" reoccur="Sun" time="5:00pm" location="Youth Room" childMinistry="no" childCare="no">
       <title>Seasoned Saints Fellowship</title>
       <shortnote>(First Sunday of the month)</shortnote>
       <detail/>
     </event>
     <!--
     -->
-    <event id="mon1" date="*" reoccur="Mon" time="7:00pm" location="Auditorium" childMinistry="no" childCare="no">
+    <event id="mon1" date="*" reoccur="Mon" time="7:00pm" location="101, 201,&amp; 301" childMinistry="no" childCare="no">
+      <title>Calvary Discipleship Program</title>
+      <shortnote/>
+      <detail/>
+      <ministries>
+	<ministry id="school"/>
+      </ministries>
+    </event>
+<!--
       <title>School of Ministry Session 1</title>
       <shortnote/>
       <detail/>
@@ -65,7 +75,8 @@
 	<ministry id="school"/>
       </ministries>
     </event>
-    <!-- -->
+-->
+<!-- 
     <event id="mon3" date="*" reoccur="Mon" time="7:00pm" location="New Parents' Room" childMinistry="no" childCare="no">
       <title>New Believers' Class</title>
       <shortnote/>
@@ -74,7 +85,8 @@
 	<ministry id="newbelievers"/>
       </ministries>
     </event>
-    <!-- -->
+-->
+<!-- 
      <event id="tue1" date="*" reoccur="Tue" time="10:00am" location="Youth Room" childMinistry="no" childCare="no">
       <title>Face-to-Face with Women of Bible Study (Morning)</title>
       <shortnote>(Every Tuesday)</shortnote>
@@ -100,9 +112,9 @@
 	<ministry id="men"/>
       </ministries>
     </event>
+-->
 
-
-    <!--
+<!--
     <event id="tue2" date="*" reoccur="Tue" time="7:00pm" location="Youth Room" childMinistry="no" childCare="no">
       <title>Men's Bible Study</title>
       <shortnote>(every other Tues, next meeting Mar 11)</shortnote>
@@ -111,19 +123,19 @@
 	<ministry id="men"/>
       </ministries>
     </event>
-    -->
+-->
     <event id="wed1" date="*" reoccur="Wed" time="7:00pm" location="Auditorium " childMinistry="yes" childCare="no">
       <title>Midweek Service</title>
       <shortnote/>
       <detail/>
     </event>
     <event id="wed2" date="*" reoccur="Wed" time="7:00pm" location="Youth Room" childMinistry="no" childCare="no">
-      <title>"Vital Life" Junior and Senior High</title>
+      <title>"Vital Life" Jr. and Sr. High</title>
       <shortnote/>
       <detail/>
       <ministries>
-	<ministry id="juniorhigh"/>
 	<ministry id="seniorhigh"/>
+	<ministry id="juniorhigh"/>
       </ministries>
     </event>
     <event id="wed3" date="*" reoccur="Wed" time="7:00pm" location="Calvary Kids' Area " childMinistry="no" childCare="no">
@@ -145,10 +157,10 @@
       </ministries>
     </event>
     <event id="fri2" date="*" reoccur="Fri" time="7:00pm" location="Auditorium" childMinistry="yes" childCare="no">
-      <title>"Front Line" College and Career</title>
+      <title>"Life Line" College and Career</title>
       <shortnote/>
       <detail>
-	<p>Join the Frontline ministry for a bible study. Contact Bunjee Garrett for more information.</p>
+	<p>Join the Lifeline ministry for a bible study. Contact Bunjee Garrett for more information.</p>
       </detail>
       <ministries>
 	<ministry id="college"/>
