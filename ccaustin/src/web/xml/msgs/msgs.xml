@@ -4877,12 +4877,20 @@
 		<audio>guestspeaker/tmichaels0500.ram</audio>
 		<passageref></passageref>
 	</message>
-	<message date="20010400" service="sunday" category="misc">
+	<message date="20030201" service="sunday" category="misc">
 		<seriestitle>Guest Speaker</seriestitle>
-		<title>Simon, Ronnie - (History of the Israeli and Palestinian Conflict) - April 2001</title>
+		<title>Simon, Ronnie - (History of the Israeli and Palestinian Conflict) - Session I</title>
 		<passage></passage>
 		<tape></tape>
-		<audio>guestspeaker/rsimon2001.ram</audio>
+		<audio>guestspeaker/rsimon2003/ron2.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="20030201" service="sunday" category="misc">
+		<seriestitle>Guest Speaker</seriestitle>
+		<title>Simon, Ronnie - (History of the Israeli and Palestinian Conflict) - Session II</title>
+		<passage></passage>
+		<tape></tape>
+		<audio>guestspeaker/rsimon2003/ron2.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="20030201" service="sunday" category="misc">
@@ -4901,7 +4909,6 @@
 		<audio>guestspeaker/rsimon2003/ron4.ram</audio>
 		<passageref></passageref>
 	</message>
-
 	<message date="19991200" service="sunday" category="misc">
 		<seriestitle>Guest Speaker</seriestitle>
 		<title>Thompson, Rod - December 1999</title>
@@ -6665,6 +6672,14 @@
 		<passage>I Corinthians 6:1-11</passage>
 		<tape>BS070295</tape>
 		<audio>46-ico/46-ico-06-01.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19950716" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Sex</title>
+		<passage>I Corinthians 6:12-20</passage>
+		<tape>BS071695</tape>
+		<audio>46-ico/46-ico-06-12.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19950730" service="sunday" category="book studies">
