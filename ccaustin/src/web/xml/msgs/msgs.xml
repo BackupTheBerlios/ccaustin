@@ -8508,6 +8508,14 @@
 		<audio>42-luk/42-luk-01-26.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk001.html#top</passageref>
 	</message>
+	<message date="20021222" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>What Christmas Is All About</title>
+		<passage>Luke 2:1-20</passage>
+		<tape>BS122202</tape>
+		<audio>42-luk/42-luk-02-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk002.html#top</passageref>
+	</message>
 
 
 </messagecatalog>
