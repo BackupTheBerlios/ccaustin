@@ -9774,6 +9774,14 @@
 	<tape>TS042504</tape> 
 	<audio>topicseries/momentum/momentumthree.wma</audio> 
 	<passageref>http://www.blueletterbible.org/kjv/Neh/Neh002.html#top< /passager ef> 
-	</message>  
+	</message> 
+	<message date="20040502" service="sunday" category="topic series"> 
+	<seriestitle>Building Momentum</seriestitle> 	
+	<title>Pro Vision</title> 
+	<passage>Nehemiah 3</passage> 
+	<tape>TS050204</tape> 
+	<audio>topicseries/momentum/momentumfour.wma</audio> 
+	<passageref>http://www.blueletterbible.org/kjv/Neh/Neh003.html#top< /passager ef> 
+	</message>   
 
 </messagecatalog>
