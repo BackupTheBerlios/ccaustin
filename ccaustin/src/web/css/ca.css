@@ -1,6 +1,6 @@
 A:link	{ TEXT-DECORATION: none }
 A:visited	{ TEXT-DECORATION: none }
-body	{ FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif }
+body	{  FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif }
 td	{ FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif }
 pre	{ FONT-FAMILY: "Courier New", Courier, mono }
 p       { font-size: 90% }
@@ -23,3 +23,4 @@ p       { font-size: 90% }
 a:hover {  text-decoration: underline}
 .newsitem {  font-size: 85% }
 .indent { left-indent: 4 }
+.sidebar { background-color: #F6E9C6; }

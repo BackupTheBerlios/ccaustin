@@ -7,7 +7,7 @@
 	Processes the ministry tag and its children tags. Most tags reference news and articles located in other files, 
 	so we perform queries on other documents to obtain the data we need for this page. Nice for reusability!
 	
-	$Id: home.xsl,v 1.6 2002/07/01 02:15:13 javajames27 Exp $
+	$Id: home.xsl,v 1.7 2002/07/01 02:26:56 javajames27 Exp $
 	
 -->	
 
@@ -20,7 +20,7 @@
 <xsl:include href="../general-html.xsl"/>
 
 <xsl:template match="home">
-	<table width="100%">
+	<table width="100%" cellpadding="0" cellspacing="0">
 		<tbody>
 			<tr>
 				<td width="75%">
@@ -33,15 +33,15 @@
 						</tbody>
 					</table>
 				</td>
-				<td width="25%"></td>
+                                <td width="25%" class="sidebar"><br/></td>
 			</tr>
 			<tr>
 				<td width="75%"><xsl:apply-templates select="news"/></td>
-				<td width="25%"></td>
+                                <td width="25%" class="sidebar"><br/></td>
 			</tr>
 			<tr>
 				<td width="75%"><xsl:apply-templates select="features"/></td>
-				<td width="25%"></td>
+                                <td width="25%" class="sidebar"><br/></td>
 			</tr>
 		</tbody>
 	</table>
@@ -49,12 +49,6 @@
 
 <xsl:template match="news">
 	<table border="0" cellspacing="0" width="100%">
-	<!--
-		<tr>
-			<td width="95%" class="tablecell" align="center" valign="middle" nowrap="true"><img src="../images/homepage/stuff.gif" alt="Stuff To Know"/></td>
-             <td><br/></td>
-		</tr>
-		-->
 		<xsl:apply-templates select="news-ref"/>
 	</table>
 </xsl:template>
@@ -81,9 +75,11 @@
 </xsl:template>
 
 <xsl:template match="feature">
-    <xsl:variable name="id"><xsl:value-of select="@articleId"/></xsl:variable>
-    <xsl:variable name="id_file">../articles/<xsl:value-of select="@articleId"/>.xml</xsl:variable>
-    <xsl:apply-templates select="document($id_file)//content/article[@id=$id]"/>
+	<table border="0" cellspacing="0" width="100%">
+          <xsl:variable name="id"><xsl:value-of select="@articleId"/></xsl:variable>
+          <xsl:variable name="id_file">../articles/<xsl:value-of select="@articleId"/>.xml</xsl:variable>
+          <xsl:apply-templates select="document($id_file)//content/article[@id=$id]"/>
+	</table>
 </xsl:template>
 
 
