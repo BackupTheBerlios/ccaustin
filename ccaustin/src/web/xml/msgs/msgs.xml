@@ -3094,7 +3094,39 @@
 		<passage>Acts 1-2</passage>
 		<tape>B01284</tape>
 		<audio>bibleoverview/44-act-01.ram</audio>
-		<passageref>http://www.blueletterbible.org/kjv/Act/Act020.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/Act/Act001.html#top</passageref>
+	</message>
+	<message date="20020612" service="midweek" category="overview">
+		<seriestitle>Acts</seriestitle>
+		<title></title>
+		<passage>Acts 3</passage>
+		<tape>B01285</tape>
+		<audio>bibleoverview/44-act-03.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Act/Act003.html#top</passageref>
+	</message>
+	<message date="20020619" service="midweek" category="overview">
+		<seriestitle>Acts</seriestitle>
+		<title></title>
+		<passage>Acts 4-5</passage>
+		<tape>B01286</tape>
+		<audio>bibleoverview/44-act-04.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Act/Act004.html#top</passageref>
+	</message>
+	<message date="20020626" service="midweek" category="overview">
+		<seriestitle>Acts</seriestitle>
+		<title></title>
+		<passage>Acts 6-7</passage>
+		<tape>B01287</tape>
+		<audio>bibleoverview/44-act-06.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Act/Act006.html#top</passageref>
+	</message>
+	<message date="20020703" service="midweek" category="overview">
+		<seriestitle>Acts</seriestitle>
+		<title></title>
+		<passage>Acts 8-9</passage>
+		<tape>B01288</tape>
+		<audio>bibleoverview/44-act-08.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Act/Act008.html#top</passageref>
 	</message>
     <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
@@ -7944,4 +7976,38 @@
 		<audio>49-eph/49-eph-03-01.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph003.html#top</passageref>
 	</message>
+	<message date="20020609" service="sunday" category="book studies">
+		<seriestitle>Ephesians</seriestitle>
+		<title>Spiritual Passion</title>
+		<passage>Ephesians 3:14-21</passage>
+		<tape>BS060209</tape>
+		<audio>49-eph/49-eph-03-14.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph003.html#top</passageref>
+	</message>
+	<message date="20020616" service="sunday" category="book studies">
+		<seriestitle>Ephesians</seriestitle>
+		<title>Walking the Walk</title>
+		<passage>Ephesians 4:1-6</passage>
+		<tape>BS060216</tape>
+		<audio>49-eph/49-eph-04-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph004.html#top</passageref>
+	</message>
+	<message date="20020623" service="sunday" category="book studies">
+		<seriestitle>Ephesians</seriestitle>
+		<title>Spiritual Giftedness</title>
+		<passage>Ephesians 4:7-16</passage>
+		<tape>BS060223</tape>
+		<audio>49-eph/49-eph-04-07.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph004.html#top</passageref>
+	</message>
+	<message date="20020630" service="sunday" category="book studies">
+		<seriestitle>Ephesians</seriestitle>
+		<title>Different by Design</title>
+		<passage>Ephesians 4:17-24</passage>
+		<tape>BS06030</tape>
+		<audio>49-eph/49-eph-04-17.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph004.html#top</passageref>
+	</message>
+
+
 </messagecatalog>
