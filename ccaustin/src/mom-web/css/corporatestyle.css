@@ -1,0 +1,86 @@
+BODY {  FONT: 11px geneva, verdana, arial, sans-serif;
+	scrollbar-base-color: #000000 }
+
+
+a:link		{ color: #336600; text-decoration: none }
+
+a:visited	{ color: #336600; text-decoration: none }
+
+a:active	{ color: #666666; text-decoration: none }
+
+a:hover		{ color: #FF6600; text-decoration: none }
+
+
+
+TABLE 		{ COLOR: #666666; FONT: 12px geneva, verdana, arial, sans-serif }
+
+.title		{ COLOR: #000000; FONT: 16px verdana, arial, sans-serif; font-weight: bold }
+
+.subtitle	{ COLOR: #000000; FONT: 12px geneva, verdana, arial, sans-serif; font-weight: bold }
+
+.copyright	{ COLOR: #000033; FONT: 11px geneva, verdana, arial, sans-serif }
+
+
+.logo1 { COLOR: #CC9900; FONT: 32px verdana, geneva, verdana, arial, sans-serif; font-weight: normal; font-style: normal }
+
+.logo2 { COLOR: #FFFFFF; FONT: 24px verdana, geneva, verdana, arial, sans-serif; font-weight: bold; font-style: italic }
+
+.slogan { COLOR: #FFFFFF; FONT: 12px geneva, verdana, arial, sans-serif; font-weight: bold; font-style: italic }
+
+
+.biglink {
+	COLOR: #336600;
+	FONT: 12px verdana, arial, sans-serif; font-weight: bold;
+	font-style: italic;
+	TEXT-DECORATION: none }
+
+.biglink:hover {
+	COLOR: #FF6600;
+	FONT: 12px verdana, arial, sans-serif; font-weight: bold;
+	font-style: italic;
+	TEXT-DECORATION: none }
+
+
+.just {text-align: justify;}
+
+
+
+.button { 	background-image: url("../images/button.gif");
+		background-color:#CC9999;
+		FONT-FAMILY: arial, verdana, helvetica, sans;
+		color: #FFFFFF;
+		font-size: 9pt;
+		height: 18px;
+		width: 125px;
+		cursor:hand;
+		font-weight: bold;
+		text-align: left;
+		padding-left: 9px;
+		padding-bottom: 2px;
+		BORDER: #FFFFFF 0px solid }
+
+.buttonon { 	background-image: url("../images/buttonon.gif");
+		background-color:#CC9999;
+		FONT-FAMILY: arial, verdana, helvetica, sans;
+		color: #FFFF9C;
+		font-size: 9pt;
+		height: 18px;
+		width: 125px;
+		cursor:hand;
+		font-weight: bold;
+		text-align: left;
+		padding-left: 9px;
+		padding-bottom: 2px;
+		BORDER: #FFFFFF 0px solid }
+
+
+.whitecopy {
+	COLOR: #FFFFFF;
+	FONT: 11px geneva, verdana, arial, sans-serif }
+
+
+#menu { LEFT: 10px; WIDTH: 125px; POSITION: absolute; TOP: 115px }
+
+#wm-location 	{ LEFT: 0px; POSITION: absolute; TOP: 0px; z-index:-1; }
+
+#music-closebutton { POSITION: absolute; BOTTOM: 8px }
