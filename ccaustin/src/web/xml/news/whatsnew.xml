@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.63 2004/01/04 05:20:49 gregk Exp $
+	$Id: whatsnew.xml,v 1.64 2004/01/05 10:10:50 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -286,7 +286,7 @@
 			<detail>Effective Jan. 9 the home fellowship group currently meeting at the Uk residence will begin meeting at 1405 Willow Bluff Drive, Pflugerville at the Schumacher's. Contact number 252.7612. Group leaders: Matt Lang and Ken Henderson. Flyers with map and contact information are in the lobby.</detail>
 	</news-item>
 	<news-item id="95" date="20040103" expires="20040201" showOnHomepage="true">
-			<title>Schedule Changes</title>
+			<title>Schedule Changes: 3-2-1</title>
 			<detail>What does 3-2-1 stand for? We are moving from 3 services to 2 services on Feb 1 (2-1). We will also take the opportunity to introduce a slight time adjustment to allow for better traffic flow in the parking lot and children's ministry areas. Effective Sunday Feb 1, we will have two morning services; times are 9:30 AM and 11:30 AM.</detail>
 	</news-item>
   </news>

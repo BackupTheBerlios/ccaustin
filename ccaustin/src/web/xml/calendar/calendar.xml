@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.95 2004/01/05 10:02:19 gregk Exp $
+	$Id: calendar.xml,v 1.96 2004/01/05 10:06:27 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -408,7 +408,7 @@ need for Praying Leaders.</detail>
     -->
     <event id="02001" date="20040228" showOnHomepage="true">
 	<title>Worship Life '04</title>
-	<date>Feb 1</date>
+	<date>Feb 26-28</date>
 	<detail>Mid-South Worhip Conference will be held at Calvary Chapel Austin on Feb 26-28. More information and registration at the Events Center.</detail>
     </event>
 		<!--
