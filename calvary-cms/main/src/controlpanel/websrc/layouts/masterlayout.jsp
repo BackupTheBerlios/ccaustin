@@ -154,8 +154,8 @@ LINK 10
 <tr>
 <td height=10 class=c1></td></tr>
 <tr><td  height=100 class=c2>
-<center><a href="www.calvarychapel.org" class=l4>Calvary Chapel of Austin</center>
-<center><a href="http://www.calvarychapel.org" class=l4>www.calvarychapel.org</center>
+<center><a href="http://www.calvaryaustin.org" class=l4>Calvary Chapel of Austin</center>
+<center><a href="http://www.calvaryaustin.org" class=l4>www.calvaryaustin.org</center>
 </td></tr>
 </table>
 </body>

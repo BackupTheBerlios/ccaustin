@@ -3,6 +3,7 @@ package org.calvaryaustin.controlpanel.browser;
 import java.io.IOException;
 import java.security.Principal;
 import java.util.Date;
+import java.util.Iterator;
 import java.util.Locale;
 
 import javax.servlet.ServletContext;
@@ -19,14 +20,19 @@ import org.apache.slide.structure.*;
 import org.apache.struts.action.*;
 import org.apache.struts.util.MessageResources;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
 import org.calvaryaustin.controlpanel.*;
+import org.calvaryaustin.cms.RepositoryUtil;
+import org.calvaryaustin.cms.WebdavRepositoryDAO;
 
 /**
  * Controller that will process the viewing of site contents, and allow the user to (if authorized)
  * launch into content creation and editing.
  *
  * @author <a href="mailto:james@calvaryaustin.org">James Higginbotham</a>
- * @version $Revision: 1.1 $
+ * @version $Revision: 1.2 $
  */
 public final class BrowserAction extends AdminAction {
     
@@ -54,6 +60,18 @@ public final class BrowserAction extends AdminAction {
          HttpServletRequest request, HttpServletResponse response)
         throws IOException, ServletException {
         super.perform(mapping, form, request, response);
+
+
+        log.debug("Got here!");
+        String siteName = request.getParameter("site");
+        String path = request.getParameter("path");
+        // compute the path, using our DAO (which we shouldn't use from here, 
+        // but no time to do it right by talking to the repository right now -
+        // instead, we are going to use the Slide tags which talk directly to the kernel
+        String uri = RepositoryUtil.normalize(WebdavRepositoryDAO.FILES_PREFIX + WebdavRepositoryDAO.PATH_SITES + "/" + siteName + "/" + path); 
+        log.debug("uri="+uri);
+        request.setAttribute("uri", uri);
+        return mapping.findForward("browser.success");
         
 //         // extract attributes and parameters we will need
 //         Locale locale = getLocale(request);
@@ -152,9 +170,10 @@ public final class BrowserAction extends AdminAction {
 //         }
 //         request.setAttribute("user", userForm);
         
-        return mapping.findForward("addUser.failure");
+        //return mapping.findForward("addUser.failure");
     }
     
     
+  private static final Log log = LogFactory.getLog( BrowserAction.class );
 }
 

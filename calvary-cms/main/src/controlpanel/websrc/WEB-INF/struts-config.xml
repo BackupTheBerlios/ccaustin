@@ -106,6 +106,13 @@
                path="/locks.jsp"/>
     </action>
     
+    <action path="/browser" 
+            type="org.calvaryaustin.controlpanel.browser.BrowserAction"
+            input="browser">
+      <forward name="browser.success"
+               path="browser"/>
+    </action>
+    
   </action-mappings>
   
   <!-- ========== Request Processor =================== -->

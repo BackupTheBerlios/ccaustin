@@ -17,7 +17,7 @@ import org.apache.webdav.lib.WebdavResource;
  * Created: Mon Jan 13 21:16:30 2003
  *
  * @author <a href="mailto:jhigginbotham@betweenmarkets.com">James Higginbotham</a>
- * @version $Revision: 1.1 $
+ * @version $Revision: 1.2 $
  */
 public class WebdavRepositoryDAO
 {
@@ -321,8 +321,9 @@ public class WebdavRepositoryDAO
   private HttpURL httpURL;
   private int debugLevel = 0;
   private static final String ROOT = "";
-  private static final String PATH_PREFIX = "/slide/files/"; // move to config?
-  private static final String SITES_COLLECTION_NAME = "sites";
-  private static final String PATH_SITES = "/"+SITES_COLLECTION_NAME+"/";
+  public static final String FILES_PREFIX = "/files/"; // move to config?
+  public static final String PATH_PREFIX = "/slide"+FILES_PREFIX; // move to config?
+  public static final String SITES_COLLECTION_NAME = "sites";
+  public static final String PATH_SITES = "/"+SITES_COLLECTION_NAME+"/";
   private static final Log log = LogFactory.getLog( WebdavRepositoryDAO.class );
 }// WebdavRepositoryDAO
