@@ -6,7 +6,7 @@
         The sitemap contains the structure of the entire web site, and is used to drive
         the auto-generated scripts for generating the web site HTML from XML.
         
-        $Id: sitemap.xml,v 1.39 2003/08/13 04:15:58 gregk Exp $
+        $Id: sitemap.xml,v 1.40 2003/08/30 23:39:41 gregk Exp $
         
         hidden="true" prevents the page from showing on the sitemap.
         
@@ -203,6 +203,14 @@
           hidden="true">
       <title>Calvary Chapel Mid South College and Career Conference and Retreat 2003</title>
     </page>
+    <page datafile="/mens2003retreat.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/events/mens2003retreat.html"
+          hidden="true">
+      <title>Calvary Chapel Men's Retreat 2003</title>
+    </page>
     <page datafile="/vbsdaycamp2003.xml"
           template="/templates/default.xsl"
           layout="/layouts/default.xsl"
@@ -321,6 +329,31 @@
           renderer="/renderers/ministry-home.xsl"
           html="/ministries/freeindeed.html">
       <title>Free Indeed (Addictions)</title>
+    </page>
+    <page datafile="/testimonies.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/testimonies.xsl"
+          html="/ministries/testimonies.html"
+          hidden="true"
+          exclude="true">
+      <title>Free Indeed (Addictions) - Calvary Austin Testimonies</title>
+    </page>
+    <page datafile="/pf-male1.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/pf-male1.xsl"
+          html="/ministries/pf-male1.html"
+          exclude="true">
+      <title>Free Indeed (Addictions) - Calvary Austin Testimonies</title>
+    </page>
+    <page datafile="/oe-female1.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/oe-female1.xsl"
+          html="/ministries/oe-female1.html"
+          exclude="true"> 
+      <title>Free Indeed (Addictions) - Calvary Austin Testimonies</title>
     </page>
     <page datafile="/frontline.xml"
           template="/templates/default.xsl"
