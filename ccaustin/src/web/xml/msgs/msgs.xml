@@ -10059,7 +10059,7 @@
 	<passage>Exodus 20:3</passage> 
 	<tape>TS091204</tape> 
 	<audio>topicseries/ten/tenone.wma</audio> 
-	<passageref>http://www.blueletterbible.org/kjv/Exd/Exd001.html#top</passageref> 
+	<passageref>http://www.blueletterbible.org/kjv/Exd/Exd020.html#top</passageref> 
 	</message>
 	<message date="20040919" service="sunday" category="topic message"> 
 	<seriestitle>Guest Speaker</seriestitle> 
@@ -10069,5 +10069,14 @@
 	<audio>guestspeaker/bgarrett091904.wma</audio> 
 	<passageref></passageref> 
 	</message>
+	<message date="20040926" service="sunday" category="topical series"> 
+	<seriestitle>Ten</seriestitle> 
+	<title>Ten Commandments - Worship Well</title> 
+	<passage>Exodus 20:4-6</passage> 
+	<tape>TS092604</tape> 
+	<audio>topicseries/ten/tentwo.wma</audio> 
+	<passageref>http://www.blueletterbible.org/kjv/Exd/Exd020.html#top</passageref> 
+	</message>
+
 
 </messagecatalog>
