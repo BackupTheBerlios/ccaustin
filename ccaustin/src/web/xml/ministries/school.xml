@@ -3,7 +3,7 @@
 
 	FrontLine Ministry - The ministry and its detail
 	
-	$Id: school.xml,v 1.1 2002/07/08 19:41:15 javajames27 Exp $
+	$Id: school.xml,v 1.2 2002/07/08 21:12:22 javajames27 Exp $
 		
 -->
 <content title="School of Ministry">
@@ -28,18 +28,14 @@
       <table>
 	<row>
 	  <label>08/12/02 - 10/28/02</label>
-	  <data></data>
 	</row>
 	<row>
 	  <data>Monday Nights</data>
-	  <data></data>
 	</row>
 	<row>
-	  <data></data>
 	  <data>1st Period.......7:00pm</data>
 	</row>
 	<row>
-	  <data></data>
 	  <data>2nd Period......8:00pm</data>
 	</row>
       </table>
