@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.132 2004/10/08 23:39:01 premav Exp $
+	$Id: calendar.xml,v 1.133 2004/10/18 05:30:24 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -714,6 +714,14 @@ Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE<
 		<date>Oct 2</date>
 		<detail>The Cross Culture Men's Conference is being held at Calvary Chapel Houston on Sat Oct 2nd. Prepaid cost will be $39 and after Monday Sept 20, it will be $49. For more information, pick up a flyer at the Info Center.</detail>
     </event>
+        <event id="10008" date="20041029" showOnHomepage="true">
+	 <title>Lifeline Potluck Dinner</title>
+		<date>Oct 29</date>
+		<detail>There will be a potluck dinner in the Calvary Chapel Youth Room at 7pm. Please bring a side dish, dessert or drink to share. The main dish will be provided.</detail>
+		<ministries>
+			<ministry id="frontline"/>
+		</ministries>
+    </event>
 <!--
      ===============
      Nov 2004
@@ -731,6 +739,16 @@ Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE<
 	 <title>LCQ2 "Appreciation"</title>
 		<date>Nov 20</date>
 		<detail>The 2nd quarterly meeting of the Leadership Community will meet Saturday, November 20th. Come enjoy the fellowshipping, teaching, and sharing indeas to better facilitate ministry at Calvary Austin.</detail>
+    </event>
+    <event id="11003" date="20041107" showOnHomepage="true">
+	 <title>Mexico Mission Trip</title>
+		<date>Nov 5-7</date>
+		<detail>A Mexico mission trip to the women and children's shelter at Pan De Vida will be the weekend of Nov 5-7. Go to the Events Center to sign up or get more info.</detail>
+    </event>
+    <event id="11004" date="20041224" showOnHomepage="true">
+	 <title>Operation Christmas Child 2004</title>
+		<date>Dec</date>
+		<detail>Participate in a unique international ministry project without leaving Austin! Share God's love with kids around the globe who may have never heard the gospel or received a Christmas gift. Informative brochures and prayer guides are available at the Operation Christmas Child table in the lobby.</detail>
     </event>
 	</calendar>
 </content>
