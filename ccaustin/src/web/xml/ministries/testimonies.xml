@@ -3,7 +3,7 @@
 
 	Free Indeed (Addictions) Testimonies  
 	
-	$Id: testimonies.xml,v 1.6 2004/05/14 05:42:38 gregk Exp $
+	$Id: testimonies.xml,v 1.7 2004/06/09 04:11:44 tie Exp $
 		
 -->
 
@@ -20,7 +20,7 @@
 	 </row>
          <row><data><br></br></data></row>
 	 <row>
-	 	<data>....Male Testimonies</data>
+	 	<data>Male Testimonies</data>
 	 	<data>Female Testimonies</data>
 	 </row>
 	 <row>
@@ -96,9 +96,15 @@
 	 </row>
          <row><data xml:space="preserve"><br></br></data></row>
 	 <row>
-	 	<data>....	Male Testimonies</data>
+	 	<data>....Male Testimonies</data>
 	 	<data>Female Testimonies</data>
 	 </row>
+     <row>
+         <data>
+         <link href="../ministries/nuwine-male1.html">....Male#1</link>
+         </data>
+         </row>
+        
          <row><data xml:space="preserve"><br></br></data></row>
          <row><data xml:space="preserve"><br></br></data></row>
 </table>
