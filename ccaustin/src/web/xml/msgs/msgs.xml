@@ -32,22 +32,6 @@
 		<audio></audio>
 		<passageref></passageref>
 	</message>
-	<message date="20030831" service="sunday" category="topical series">
-		<seriestitle>Prayer</seriestitle>
-		<title>Connecting with God - Part I</title>
-		<passage>Luke 11:1-4</passage>
-		<tape>BS083103</tape>
-		<audio>42-luk/42-luk-11-01.ram</audio>
-		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk011.html#top</passageref>
-	</message> 
-	<message date="20030907" service="sunday" category="topical series">
-		<seriestitle>Prayer</seriestitle>
-		<title>Connecting with God - Part II</title>
-		<passage>Luke 11:2</passage>
-		<tape>BS090703</tape>
-		<audio>42-luk/42-luk-11-02.ram</audio>
-		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk011.html#top</passageref>
-	</message>  
 
 	<message date="19970112" service="sunday" category="topical series">
 		<seriestitle>Reach Out</seriestitle>
@@ -3504,6 +3488,14 @@
 		<tape>BO1328</tape>
 		<audio>bibleoverview/47-2co-11.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/2Cr/2Cr011.html#top</passageref>
+	</message>
+	<message date="20030910" service="midweek" category="overview">
+		<seriestitle>Galatians</seriestitle>
+		<title></title>
+		<passage>Galatians 1-2</passage>
+		<tape>BO1329</tape>
+		<audio>bibleoverview/48-gal-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Gal/Gal001.html#top</passageref>
 	</message>
 
     <message date="19940522" service="sunday" category="topical series">
