@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.33 2003/02/08 14:32:39 javajames27 Exp $
+	$Id: calendar.xml,v 1.34 2003/02/14 00:26:57 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -85,7 +85,7 @@
     <event id="02001" date="20030220" showOnHomepage="true">
       <title>2003 Mid-South Worship Conference</title>
       <date>Feb 20-22</date>
-      <detail>We are bringing a worship conference to you!!  Calvary Austin is hosting the Mid-South Music &amp; Worship Conference Feb 20-22.  Holland Davis of Calvary Chapel Costa Mesa will be our guest worship leader &amp; speaker.  Early registration is $45 through today, Sunday, Feb 9.  Come by the Events Center.  After today the cost is $55. <link href="../events/mwc2003.html">Learn more</link>...</detail> 
+      <detail>We are bringing a worship conference to you!!  Calvary Austin is hosting the Mid-South Music &amp; Worship Conference Feb 20-22.  Holland Davis of Calvary Chapel Costa Mesa will be our guest worship leader &amp; speaker.  Early registration is $45 through today, Sunday, Feb 9.  Come by the Events Center.  Registration is $55 at the Events Center.<link href="../events/mwc2003.html">Learn more</link>...</detail> 
     </event>
 
     <event id="02002" date="20030209" showOnHomepage="true">

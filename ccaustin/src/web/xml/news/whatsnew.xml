@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.22 2003/02/08 14:32:39 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.23 2003/02/14 00:26:57 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -208,6 +208,16 @@
 		<logo align="right" img="../images/YEV02b.jpg" alt="Year In Review Video"/>
 		<title>2002 Year In Review Video</title>
 		<detail>Check out the <link href="http://www.calvarychapel.org/austin/video/2002yevb.ram">Year In Review Video</link> with your <link href="http://www.real.com">RealVideo</link> player!</detail>
+    </news-item>
+
+    <news-item id="31" date="20030401" expires="20030401" showOnHomepage="true">
+		<title>Marriage Ministry</title>
+		<detail>Registration for Spring group meetings is now open. Groups are going through the HomeBuilder's curriculum, which are designed to help you build a godly marriage and develop relationships with other couples through the application of Biblical principles. Cost per participant guide is $8.  Register by Mar 2nd at the Events Center. <link href="../ministries/marriage.html">Learn more...</link></detail>
+    </news-item>
+
+    <news-item id="32" date="20030201" expires="20030315" showOnHomepage="true">
+		<title>Children's Ministry</title>
+		<detail>Several volunteer positions are open on Sunday and Wednesday.  Please check the Calvary Kids Hallway board for more info.</detail>
     </news-item>
 
 
