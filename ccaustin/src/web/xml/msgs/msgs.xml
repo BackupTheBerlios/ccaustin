@@ -3655,7 +3655,7 @@
 
 <message date="20040428" service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 5-6</passage> <tape>BO1352</tape> <audio>bibleoverview/58-heb-05.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr005.html#top</passageref> </message> 
 
-<message date="20040505 service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 7-8</passage> <tape>BO1353</tape> <audio>bibleoverview/58-heb-07.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr007.html#top</passageref> </message> 
+<message date="20040505" service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 7-8</passage> <tape>BO1353</tape> <audio>bibleoverview/58-heb-07.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr007.html#top</passageref> </message> 
 
     	<message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
