@@ -4984,7 +4984,7 @@
 	<message date="19940512" service="midweek" category="misc">
 		<seriestitle>Topical Message</seriestitle>
 		<title>Fruit of the Spirit</title>
-		<passage>Galations 5:16-26</passage>
+		<passage>Galatians 5:16-26</passage>
 		<tape>TM051294</tape>
 		<audio></audio>
 		<passageref></passageref>
@@ -6673,6 +6673,14 @@
 		<audio>46-ico/46-ico-06-12.ram</audio>
 		<passageref></passageref>
 	</message>
+	<message date="19950723" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Singleness</title>
+		<passage>I Corinthians 7</passage>
+		<tape>BS072395</tape>
+		<audio>46-ico/46-ico-07-single.ram</audio>
+		<passageref></passageref>
+	</message>
 	<message date="19950730" service="sunday" category="book studies">
 		<seriestitle>I Corinthians</seriestitle>
 		<title>Marriage</title>
@@ -7915,115 +7923,115 @@
 		<passageref></passageref>
 	</message>
 	<message date="19960630" service="sunday" category="book studies">
-		<seriestitle>Galations</seriestitle>
+		<seriestitle>Galatians</seriestitle>
 		<title>Man with a Message</title>
-		<passage>Galations 1:1-5</passage>
+		<passage>Galatians 1:1-5</passage>
 		<tape>BS063096</tape>
-		<audio></audio>
+		<audio>48-gal/48-gal-01-01.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19960707" service="sunday" category="book studies">
-		<seriestitle>Galations</seriestitle>
+		<seriestitle>Galatians</seriestitle>
 		<title>A Different Gospel</title>
-		<passage>Galations 1:6-10</passage>
+		<passage>Galatians 1:6-10</passage>
 		<tape>BS070796</tape>
-		<audio></audio>
+		<audio>48-gal/48-gal-01-06.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19960721" service="sunday" category="book studies">
-		<seriestitle>Galations</seriestitle>
+		<seriestitle>Galatians</seriestitle>
 		<title>Paul's Testimony</title>
-		<passage>Galations 1:11-24</passage>
+		<passage>Galatians 1:11-24</passage>
 		<tape>BS072196</tape>
-		<audio></audio>
+		<audio>48-gal/48-gal-01-11.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19960728" service="sunday" category="book studies">
-		<seriestitle>Galations</seriestitle>
+		<seriestitle>Galatians</seriestitle>
 		<title>Showdown at Jerusalem</title>
-		<passage>Galations 2:1-10</passage>
+		<passage>Galatians 2:1-10</passage>
 		<tape>BS072896</tape>
-		<audio></audio>
+		<audio>48-gal/48-gal-02-01.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19960804" service="sunday" category="book studies">
-		<seriestitle>Galations</seriestitle>
+		<seriestitle>Galatians</seriestitle>
 		<title>Confrontation at Antioch</title>
-		<passage>Galations 2:11-21</passage>
+		<passage>Galatians 2:11-21</passage>
 		<tape>BS080496</tape>
-		<audio></audio>
+		<audio>48-gal/48-gal-02-11.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19960811" service="sunday" category="book studies">
-		<seriestitle>Galations</seriestitle>
+		<seriestitle>Galatians</seriestitle>
 		<title>Back to Basics</title>
-		<passage>Galations 3:1-5</passage>
+		<passage>Galatians 3:1-5</passage>
 		<tape>BS081196</tape>
-		<audio></audio>
+		<audio>48-gal/48-gal-03-01.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19960818" service="sunday" category="book studies">
-		<seriestitle>Galations</seriestitle>
+		<seriestitle>Galatians</seriestitle>
 		<title>What the Bible Says</title>
-		<passage>Galations 3:6-14</passage>
+		<passage>Galatians 3:6-14</passage>
 		<tape>BS081896</tape>
-		<audio></audio>
+		<audio>48-gal/48-gal-03-06.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19960825" service="sunday" category="book studies">
-		<seriestitle>Galations</seriestitle>
+		<seriestitle>Galatians</seriestitle>
 		<title>God - The Promise Keeper</title>
-		<passage>Galations 3:15-29</passage>
+		<passage>Galatians 3:15-29</passage>
 		<tape>BS082596</tape>
-		<audio></audio>
+		<audio>48-gal/48-gal-03-15.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19960908" service="sunday" category="book studies">
-		<seriestitle>Galations</seriestitle>
+		<seriestitle>Galatians</seriestitle>
 		<title>On to Maturity</title>
-		<passage>Galations 4:1-20</passage>
+		<passage>Galatians 4:1-20</passage>
 		<tape>BS090896</tape>
-		<audio></audio>
+		<audio>48-gal/48-gal-04-01.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19960915" service="sunday" category="book studies">
-		<seriestitle>Galations</seriestitle>
+		<seriestitle>Galatians</seriestitle>
 		<title>An Allegory</title>
-		<passage>Galations 4:21-31</passage>
+		<passage>Galatians 4:21-31</passage>
 		<tape>BS091596</tape>
-		<audio></audio>
+		<audio>48-gal/48-gal-01-21.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19960929" service="sunday" category="book studies">
-		<seriestitle>Galations</seriestitle>
+		<seriestitle>Galatians</seriestitle>
 		<title>Don't Lose</title>
-		<passage>Galations 5:1-12</passage>
+		<passage>Galatians 5:1-12</passage>
 		<tape>BS092996</tape>
-		<audio></audio>
+		<audio>48-gal/48-gal-05-01.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19961006" service="sunday" category="book studies">
-		<seriestitle>Galations</seriestitle>
+		<seriestitle>Galatians</seriestitle>
 		<title>Walking in the Spirit</title>
-		<passage>Galations 5:13-26</passage>
+		<passage>Galatians 5:13-26</passage>
 		<tape>BS100696</tape>
-		<audio></audio>
+		<audio>48-gal/48-gal-05-13.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19961013" service="sunday" category="book studies">
-		<seriestitle>Galations</seriestitle>
+		<seriestitle>Galatians</seriestitle>
 		<title>Christian Casualties</title>
-		<passage>Galations 6:1-10</passage>
+		<passage>Galatians 6:1-10</passage>
 		<tape>BS101396</tape>
-		<audio></audio>
+		<audio>48-gal/48-gal-06-01.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19961027" service="sunday" category="book studies">
-		<seriestitle>Galations</seriestitle>
+		<seriestitle>Galatians</seriestitle>
 		<title>The Glory of the Cross</title>
-		<passage>Galations 6:11-18</passage>
+		<passage>Galatians 6:11-18</passage>
 		<tape>BS102796</tape>
-		<audio></audio>
+		<audio>48-gal/48-gal-06-11.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19940925" service="sunday" category="book studies">
@@ -8031,15 +8039,7 @@
 		<title>A Church is Born</title>
 		<passage>Philippians 1:1-2</passage>
 		<tape>BS092594</tape>
-		<audio></audio>
-		<passageref></passageref>
-	</message>
-	<message date="19941002" service="sunday" category="book studies">
-		<seriestitle>Philippians</seriestitle>
-		<title>Joy in Relationships</title>
-		<passage>Philippians 1:3-8</passage>
-		<tape>BS100294</tape>
-		<audio></audio>
+		<audio>50-phi/50-phi-01-01.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19941009" service="sunday" category="book studies">
@@ -8047,7 +8047,7 @@
 		<title>Joy in Prayer</title>
 		<passage>Philippians 1:9-11</passage>
 		<tape>BS100994</tape>
-		<audio></audio>
+		<audio>50-phi/50-phi-01-09.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19941016" service="sunday" category="book studies">
@@ -8055,7 +8055,7 @@
 		<title>Joy in Circumstances</title>
 		<passage>Philippians 1:12-20</passage>
 		<tape>BS101694</tape>
-		<audio></audio>
+		<audio>50-phi/50-phi-01-12.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19941023" service="sunday" category="book studies">
@@ -8063,7 +8063,7 @@
 		<title>Do You Want To Go To Heaven?</title>
 		<passage>Philippians 1:21-30</passage>
 		<tape>BS102394</tape>
-		<audio></audio>
+		<audio>50-phi/50-phi-01-21.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19941106" service="sunday" category="book studies">
@@ -8071,7 +8071,7 @@
 		<title>Our Great Example</title>
 		<passage>Philippians 2:1-11</passage>
 		<tape>BS110694</tape>
-		<audio></audio>
+		<audio>50-phi/50-phi-02-01.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19941113" service="sunday" category="book studies">
@@ -8079,7 +8079,7 @@
 		<title>Be an Example</title>
 		<passage>Philippians 2:12-16a</passage>
 		<tape>BS111394</tape>
-		<audio></audio>
+		<audio>50-phi/50-phi-02-12.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19941120" service="sunday" category="book studies">
@@ -8087,7 +8087,7 @@
 		<title>Three Godly Examples</title>
 		<passage>Philippians 2:16b-30</passage>
 		<tape>BS112094</tape>
-		<audio></audio>
+		<audio>50-phi/50-phi-02-16b.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19941127" service="sunday" category="book studies">
@@ -8095,7 +8095,7 @@
 		<title>Paul the Accountant</title>
 		<passage>Philippians 3:1-11</passage>
 		<tape>BS112794</tape>
-		<audio></audio>
+		<audio>50-phi/50-phi-03-01.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19941204" service="sunday" category="book studies">
@@ -8103,7 +8103,7 @@
 		<title>Paul the Athlete</title>
 		<passage>Philippians 3:12-16</passage>
 		<tape>BS120494</tape>
-		<audio></audio>
+		<audio>50-phi/50-phi-03-12.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19941211" service="sunday" category="book studies">
@@ -8111,7 +8111,7 @@
 		<title>Paul the Alien</title>
 		<passage>Philippians 3:17-21</passage>
 		<tape>BS121194</tape>
-		<audio></audio>
+		<audio>50-phi/50-phi-03-17.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19941218" service="sunday" category="book studies">
@@ -8119,7 +8119,7 @@
 		<title>Don't Worry</title>
 		<passage>Philippians 4:1-9</passage>
 		<tape>BS121894</tape>
-		<audio></audio>
+		<audio>50-phi/50-phi-04-01.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19950101" service="sunday" category="book studies">
@@ -8127,7 +8127,7 @@
 		<title>How to be Content</title>
 		<passage>Philippians 4:10-23</passage>
 		<tape>BS010195</tape>
-		<audio></audio>
+		<audio>50-phi/50-phi-04-10.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="19980614" service="sunday" category="book studies">
