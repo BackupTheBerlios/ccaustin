@@ -10313,6 +10313,14 @@
 	<audio>topicseries/ten/tenseven.wma</audio> 
 	<passageref>http://www.blueletterbible.org/kjv/Exd/Exd020.html#top</passageref> 
 	</message>
+	<message date="20041114" service="sunday" category="topic message"> 
+	<seriestitle>Guest Speaker</seriestitle> 
+	<title>Responsibility of Restoration</title> 
+	<passage>Galatians 6:1-5</passage> 
+	<tape>GS111404</tape> 
+	<audio>guestspeaker/dbrock111404.wma</audio> 
+	<passageref>http://www.blueletterbible.org/kjv/Gal/Gal006.html#top</passageref> 
+	</message>
 	<message date="20041121" service="sunday" category="topical series"> 
 	<seriestitle>Ten</seriestitle> 
 	<title>Ten Commandments - Be a Giver</title> 
@@ -10345,13 +10353,13 @@
 	<audio>topicseries/topicmessage/TM121204.wma</audio> 
 	<passageref>http://www.blueletterbible.org/kjv/Luk/Luk001.html#top</passageref> 
 	</message>
-	<message date="20041113" service="sunday" category="topic message"> 
-	<seriestitle>Guest Speaker</seriestitle> 
-	<title>Responsibility of Restoration</title> 
-	<passage>Galatians 6:1-5</passage> 
-	<tape>GS111304</tape> 
-	<audio>guestspeaker/dbrock111404.wma</audio> 
-	<passageref>http://www.blueletterbible.org/kjv/Gal/Gal006.html#top</passageref> 
+	<message date="20041219" service="sunday" category="topical series"> 
+	<seriestitle>Christmas Vacation 2004</seriestitle> 
+	<title>Christmas Vacation - Part Two</title> 
+	<passage>Luke 2:1-20</passage> 
+	<tape>TM121904</tape> 
+	<audio>topicseries/topicmessage/TM121904.wma</audio> 
+	<passageref>http://www.blueletterbible.org/kjv/Luk/Luk002.html#top</passageref> 
 	</message>
 
 </messagecatalog>
