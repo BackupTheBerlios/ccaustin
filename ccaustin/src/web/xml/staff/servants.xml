@@ -8,7 +8,7 @@
 	
 	allen-bio.xml - the biography for Pastor Allen
 	
-	$Id: servants.xml,v 1.11 2004/08/23 21:20:39 premav Exp $
+	$Id: servants.xml,v 1.12 2004/09/19 04:49:44 gregk Exp $
 		
 -->
 <content title="Servants" base=".">
@@ -195,7 +195,7 @@
 		<fullname>Craig Swearingen</fullname>
 		<first-name>Craig</first-name>
 		<last-name>Swearingen</last-name>
-		<emailid>swearing@us.ibm.com</emailid>
+		<emailid>craig.swearingen@netzero.com</emailid>
 		<thumbnail href="../images/staff/craigthumb.jpg"/>
 		<small-photo href="../images/staff/craigweb.jpg"/>
 		<large-photo href="../images/staff/craigweb.jpg"/>
