@@ -14,7 +14,7 @@
 	When a new tag is needed, consider using its HTML equivalent if its name and format is common english. 
 	(e.g. <a/> is not really anything meaningful for the average person, but <link/> is)
 	
-	$Id: general-html.xsl,v 1.10 2002/07/04 21:07:03 javajames27 Exp $
+	$Id: general-html.xsl,v 1.11 2002/07/08 19:41:15 javajames27 Exp $
 -->
 
 
@@ -226,6 +226,7 @@
 	Attributes:
 	
 		label - make the cell render as a labeled cell (bolder text and nowrap)
+                NOTE: You should now use the <label> tag instead 
 
 	Processes Subtags: No.
 -->
@@ -238,7 +239,30 @@
 	<xsl:if test="@align != '' ">
  		  <xsl:attribute name="align"><xsl:value-of select="@align"/></xsl:attribute>
 	</xsl:if>
+        <xsl:attribute name="valign">top</xsl:attribute>
 	<xsl:apply-templates select="*|text()"/></td>
+</xsl:template>
+
+<!--
+	<label/> Label tag
+	
+	Declares a new table cell of data that is larger and bold for labeling a row or column. 
+	
+	Body: The text for the label
+	
+	Attributes: N/A
+
+	Processes Subtags: Yes.
+-->
+<xsl:template match="label">
+	<td>
+          <xsl:attribute name="class">heading</xsl:attribute>
+          <xsl:attribute name="nowrap">true</xsl:attribute>
+          <xsl:if test="@align != '' ">
+            <xsl:attribute name="align"><xsl:value-of select="@align"/></xsl:attribute>
+          </xsl:if>
+          <xsl:attribute name="valign">top</xsl:attribute>
+          <xsl:apply-templates select="*|text()"/></td>
 </xsl:template>
 
 <!--

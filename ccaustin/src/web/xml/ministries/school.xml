@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	FrontLine Ministry - The ministry and its detail
+	
+	$Id: school.xml,v 1.1 2002/07/08 19:41:15 javajames27 Exp $
+		
+-->
+<content title="School of Ministry">
+  <ministry id="school">
+    <name>School of Ministry</name>
+    <overview>School of Ministry offers a broad perspective with
+      detailed directives in order to provide the student with a
+      competent education and clear vision to impact this dark
+      world with the light of Christ.  Our purpose is to prepare
+      and equip believers in spiritual maturity for active
+      ministry roles in service to Christ. </overview> 
+    <long-description>
+      <p>The School of Ministry is designed to guide those who
+	are seeking to serve from a practical to a professional level. Calvary
+	Austin's School of Ministry offers non-credited classes for
+	believers who are interested in growing in their knowledge of
+	Christianity.  Classes can be taken according to individual
+	interest or by a four year course plan.  The School of
+	Ministry is located at Calvary Austin, 9414 Parkfield Dr.  at
+	the intersection with Rundberg.</p>
+      <heading>Fall 2002 Schedule</heading>
+      <table>
+	<row>
+	  <label>08/12/02 - 10/28/02</label>
+	  <data></data>
+	</row>
+	<row>
+	  <data>Monday Nights</data>
+	  <data></data>
+	</row>
+	<row>
+	  <data></data>
+	  <data>1st Period.......7:00pm</data>
+	</row>
+	<row>
+	  <data></data>
+	  <data>2nd Period......8:00pm</data>
+	</row>
+      </table>
+      <table heading="Subjects">
+	<row>
+	  <label>Apologetics</label>
+	  <data>Types of Apologetics<br/>
+	    Christian Apologetics<br/>
+	    The Reliability of the Bible<br/>
+	    Answering the Bibles Critics<br/>
+	    Non-Christian religions &amp; Secular Religions<br/>
+	    Cults &amp; The Occult<br/>
+	    Science &amp; Archaeology<br/>
+	    Frequently Asked Questions and their Answers<br/></data>
+	</row>
+	<row><data></data><data></data></row>
+	<row>
+	  <label>Historical</label>
+	  <data>The Age of Jesus and the Apostles<br/>
+	    The Age of Catholic Christianity<br/>
+	    The Age of the Christian Roman Empire<br/>
+	    The Christian Middle Ages<br/>
+	    The Age of the Reformation<br/>
+	    The Age of Reason and Revival<br/>
+	    The Age of Progress<br/>
+	    The Age of Ideologies<br/></data>
+	</row>
+	<row><data></data><data></data></row>
+	<row>
+	  <label>Evangelism and Missions</label>
+	  <data>Introduction to the Mission of the Church<br/>
+	    Christianity in Today's World<br/>
+	    The Soul Winner - Spurgeon<br/>
+	    Evangelism Explosion<br/>
+	    Living in the Light of Eternity<br/>
+	    Cross-Cultural Communication<br/>
+	    The Persecuted Church<br/>
+	    Church Planting<br/></data>
+	</row>
+	<row><data></data><data></data></row>
+	<row>
+	  <label>Pastoral</label>
+	  <data>Calvary Distinctives<br/>
+	    Church Leadership<br/>
+	    Biblical Counseling<br/>
+	    Specialized Ministries<br/>
+	    Bible Study Methodology<br/>
+	    NT - Survey<br/>
+	    OT - Survey<br/>
+	    Teaching/Preaching<br/></data>
+	</row>
+	<row><data></data><data></data></row>
+	<row>
+	  <label>Practical</label>
+	  <data>Calvary Distinctives<br/>
+	    The Gifts of the Holy Spirit<br/>
+	    Biblical Counseling<br/>
+	    Inductive Bible Study Method<br/>
+	    Social Activitism<br/>
+	    Body Ministry<br/>
+	    Biblical Ethics<br/>
+	    Worship in the Church<br/></data>
+	</row>
+	<row><data></data><data></data></row>
+	<row>
+	  <label>Theological</label>
+	  <data>History of Theology<br/>
+	    Bible Doctrine<br/>
+	    Christian Theism<br/>
+	    Salvation, Sanctification &amp; Glorification<br/>
+	    Dispensationalism<br/>
+	    Ecumenism<br/>
+	    Philosophy<br/>
+	    Eschatology<br/></data>
+	</row>
+      </table>
+    </long-description>
+    <contacts>
+      <contact-phone phone="719-4667">Please pick up a course catalogue at the
+	information station in the church lobby or call the church office</contact-phone>
+    </contacts>
+    <ministry-logo>../images/ministries/school.jpg</ministry-logo>
+  </ministry>
+</content>
