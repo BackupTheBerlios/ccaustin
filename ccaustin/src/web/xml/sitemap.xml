@@ -6,7 +6,7 @@
         The sitemap contains the structure of the entire web site, and is used to drive
         the auto-generated scripts for generating the web site HTML from XML.
         
-        $Id: sitemap.xml,v 1.53 2004/04/07 17:49:38 gregk Exp $
+        $Id: sitemap.xml,v 1.54 2004/05/14 05:43:26 gregk Exp $
         
         hidden="true" prevents the page from showing on the sitemap.
         
@@ -412,6 +412,14 @@
           layout="/layouts/default.xsl"
           renderer="/renderers/oe-female1.xsl"
           html="/ministries/oe-female1.html"
+          exclude="true"> 
+      <title>Free Indeed (Addictions) - Calvary Austin Testimonies</title>
+    </page>
+    <page datafile="/oe-mntr-fem.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/oe-mntr-fem.xsl"
+          html="/ministries/oe-mntr-fem.html"
           exclude="true"> 
       <title>Free Indeed (Addictions) - Calvary Austin Testimonies</title>
     </page>
