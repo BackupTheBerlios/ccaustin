@@ -3424,6 +3424,14 @@
 		<audio>bibleoverview/46-ico-14.ram</audio>
 		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr014.html#top</passageref>
 	</message>
+	<message date="20030702" service="midweek" category="overview">
+		<seriestitle>I Corinthians</seriestitle>
+		<title></title>
+		<passage>I Corinthians 15-16</passage>
+		<tape>BO1318</tape>
+		<audio>bibleoverview/46-ico-15.ram</audio>
+		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr015.html#top</passageref>
+	</message>
 
     <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
@@ -9138,6 +9146,14 @@
 		<passage>Luke 9:1-17</passage>
 		<tape>BS062903</tape>
 		<audio>42-luk/42-luk-09-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk009.html#top</passageref>
+	</message> 
+	<message date="20030706" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>Fundamentals for Followers</title>
+		<passage>Luke 9:18-27</passage>
+		<tape>BS070603</tape>
+		<audio>42-luk/42-luk-09-18.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk009.html#top</passageref>
 	</message> 
 </messagecatalog>
