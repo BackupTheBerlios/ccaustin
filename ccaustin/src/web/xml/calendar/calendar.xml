@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.15 2002/09/30 20:53:57 javajames27 Exp $
+	$Id: calendar.xml,v 1.16 2002/10/06 23:05:32 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -140,7 +140,7 @@
     <event id="10001" date="20021019" showOnHomepage="true">
       <title>Mid-South Pastors and Ministry Leaders Conference</title>
       <date>Oct 17-19</date>
-      <detail>The Mid-South Pastors and Leaders Conference will be held Oct 17-19.  A mixture of speaking and workshop sessions designed to equip ministry leaders will be offered.  Pick up a brochure in the lobby and sign up by Oct 6 at the Events Center.<br/>Are you traveling to Austin for the conference? Find out what <link href="../about/aroundtown.html">hotels and restaurants</link> are nearby...</detail>  
+      <detail>The Mid-South Pastors and Leaders Conference will be held Oct 17-19.  A mixture of speaking and workshop sessions designed to equip ministry leaders will be offered.  Pick up a brochure in the lobby and sign up by Oct 6 at the Events Center.<br/><br/>Are you traveling to Austin for the conference? Find out what <link href="../about/aroundtown.html">hotels and restaurants</link> are nearby...</detail>  
       <location>Church</location>
       <ministries>
 	<ministry id="church"/>
@@ -174,9 +174,38 @@
       </ministries>
     </event>
 
-    <event id="10003" date="20021023" showOnHomepage="false">
+    <event id="10006" date="20021013" showOnHomepage="false">
+      <title>Communion Service</title>
+      <date>All three services on October 13th</date>
+      <detail>Come, join the Worship Community and the Worship Team next Sunday, Oct 13, for the celebration of communion during each of our services. </detail>  
+      <ministries>
+		<ministry id="church"/>
+      </ministries>
+    </event>
+    
+    <event id="10003" date="20021023" showOnHomepage="true">
       <title>Live Music - Daniel Baker</title>
       <date>October 23rd @ 9:00pm</date>
+      <detail>Come to <link
+      href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>  
+      <ministries>
+		<ministry id="coffee"/>
+      </ministries>
+    </event>
+
+
+    <event id="10007" date="20021027" showOnHomepage="true">
+      <title>CPR Training Class</title>
+      <date>October 27th, 1:30-6:30pm</date>
+      <detail>The Childrens Ministry is sponsoring a licensed CPR class open to anyone in the church on Sunday, Oct 27, from 1:30-6:30PM. The class will be held at the church in Swordfish Center.  For more information call Cynde Kaply (278.1510).  Sign up at the Events Center by Oct 20.  The cost is $40.</detail>  
+      <ministries>
+		<ministry id="church"/>
+      </ministries>
+    </event>
+
+    <event id="10008" date="20021030" showOnHomepage="false">
+      <title>Live Music - Ten-31</title>
+      <date>October 30th</date>
       <detail>Come to <link
       href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>  
       <ministries>
@@ -189,10 +218,19 @@
 			Nov
 	===============
 -->		
+    <event id="11002" date="20021102" showOnHomepage="false">
+      <title>Evening of Worship</title>
+      <date>Nov 2nd</date>
+      <detail>Can't get enough worship time? Join us for a full evening of worship.</detail>   
+      <ministries>
+	<ministry id="worship"/>
+      </ministries>
+    </event>
+
     <event id="11001" date="20021116" showOnHomepage="true">
       <title>Men's Retreat</title>
       <date>Nov 14-16</date>
-      <detail>Registrations start next Sunday, Sept 1 for the Nov 14-16 retreat at T-Bar-M Ranch in New Braunfels.  The main speaker will be Malcolm Wild from Calvary Chapel Merritt Island.  Men mark your calendars and sign up next week at the Events Center. A 50% deposit is due by Sep 29 with the balance due Oct 27.</detail>   
+      <detail>To register for the Nov 14-16 retreat at T-bar-M Ranch in New Braunfels the total payment is now required.  If you have made a deposit, the balance must be paid no later than Oct. 27.</detail>   
       <ministries>
 	<ministry id="men"/>
       </ministries>
@@ -203,6 +241,24 @@
 			Dec
 	===============
 -->		
+
+    <event id="12001" date="20021224" showOnHomepage="false">
+      <title>Christmas Eve Service</title>
+      <date>December 24th</date>
+      <detail>More details to come...</detail>   
+      <ministries>
+	<ministry id="church"/>
+      </ministries>
+    </event>
+		
+    <event id="12002" date="20021231" showOnHomepage="false">
+      <title>New Year's Eve Service</title>
+      <date>December 31st</date>
+      <detail>More details to come...</detail>   
+      <ministries>
+	<ministry id="church"/>
+      </ministries>
+    </event>
 		
 <!--
 	===============
