@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.30 2003/04/12 16:06:17 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.31 2003/04/18 19:26:58 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -74,6 +74,10 @@
 		<news-item id="44" date="20030402" expires="20030501" showOnHomepage="true">
 			<title>Women's Ministry</title>
 			<detail>Two studies are being offered this summer, June through August.  A bible study titled “Healed and Set Free” will meet every Tuesday, 7-9PM.  Sharing will be in very small groups.  Also, a study titled “Principles for Women in Leadership”, is designed for those in leadership or desiring to know more about becoming a leader.  It will meet every other Tuesday, 7-9PM. </detail>
+		</news-item>
+		<news-item id="45" date="20030418" expires="20030425" showOnHomepage="true">
+			<title>Women's Retreat Tapes</title>
+			<detail>Audio tapes from the women’s retreat are now available.  Place your order at the Media Center in the lobby.</detail>
 		</news-item>
 	</news>
 </content>

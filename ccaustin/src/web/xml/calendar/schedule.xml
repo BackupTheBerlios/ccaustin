@@ -3,7 +3,7 @@
 
 	Weekly/Monthyl Reoccuring Calendar Events Content
 	
-	$Id: schedule.xml,v 1.12 2003/03/28 18:49:24 javajames27 Exp $
+	$Id: schedule.xml,v 1.13 2003/04/18 19:26:58 javajames27 Exp $
 		
 -->
 <content title="Weekly &amp; Monthly Events">
@@ -144,7 +144,7 @@
     </event>
     <event id="sat1" date="*" reoccur="Sat" time="4:00pm" location="Parking Lot" childMinistry="no" childCare="no">
       <title>Skate Ministry</title>
-      <shortnote>(next Skate Park on April 19)</shortnote>
+      <shortnote></shortnote>
       <detail/>
       <ministries>
 	<ministry id="skate"/>
