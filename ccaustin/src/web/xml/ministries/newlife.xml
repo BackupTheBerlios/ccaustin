@@ -3,7 +3,7 @@
 
 	New Life Ministry - The ministry and its detail
 	
-	$Id: newlife.xml,v 1.2 2002/05/23 00:29:36 javajames27 Exp $
+	$Id: newlife.xml,v 1.3 2003/12/12 13:46:29 gregk Exp $
 		
 -->
 <content title="New Life Ministry">
@@ -24,5 +24,6 @@
 	  	<contact-email email="maryliz339@earthlink.com">Mary</contact-email>
 	  	<contact-phone phone="719-4667">Contact the church office</contact-phone>
    	  </contacts>
+         <ministry-logo>../images/ministries/alpha_omega.jpg </ministry-logo>
 	</ministry>
 </content>
