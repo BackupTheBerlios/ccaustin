@@ -3968,11 +3968,18 @@
 <seriestitle>Genesis</seriestitle> 
 <title></title> 
 <passage>Genesis 1-2</passage> 
-<tape>BO1379</tape> 
+<tape>BO2001</tape> 
 <audio>bibleoverview/01-gen-01.wma</audio> 
 <passageref>http://www.blueletterbible.org/kjv/Gen/Gen001.html#top</passageref> 
 </message>
-
+<message date="20050112" service="midweek" category="overview"> 
+<seriestitle>Genesis</seriestitle> 
+<title></title> 
+<passage>Genesis 3-4</passage> 
+<tape>BO2002</tape> 
+<audio>bibleoverview/01-gen-03.wma</audio> 
+<passageref>http://www.blueletterbible.org/kjv/Gen/Gen003.html#top</passageref> 
+</message>
 <message date="20041013" service="midweek" category="misc">
 <seriestitle>Guest Speaker</seriestitle>
 <title>Paul Kemp</title>
@@ -10393,4 +10400,13 @@
 	<audio>50-phi/50-phi-01-12.wma</audio>
 	<passageref>http://www.blueletterbible.org/kjv/Phl/Phl001.html#top</passageref>
 	</message>
+	<message date="20050116" service="sunday" category="book studies">
+	<seriestitle>Philippians - 2005</seriestitle>
+	<title>Team Spirited</title>
+	<passage>Philippians 1:27-30</passage>
+	<tape>BS011605</tape>
+	<audio>50-phi/50-phi-01-27.wma</audio>
+	<passageref>http://www.blueletterbible.org/kjv/Phl/Phl001.html#top</passageref>
+	</message>
+
 </messagecatalog>
