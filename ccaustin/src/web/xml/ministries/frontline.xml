@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	FrontLine Ministry - The ministry and its detail
+	
+	$Id: frontline.xml,v 1.1 2002/03/15 03:58:27 javajames27 Exp $
+		
+-->
+<content title="FrontLine &amp; College Career">
+	<ministry id="frontline">
+	  <name>FrontLine College &amp; Career</name>
+	  <overview>The College and Career group of Calvary Austin</overview>
+	  <long-description>
+	    <p>For married and singles, age 18 to 30-something</p>
+         <p>FrontLine is a group that offers Christianity at all levels, including:</p>
+         <p></p>
+         <p>A. Accountability (PlumbLine)<br/>
+               B. Bible Study (FrontLine)<br/>
+               C. Childcare<br/>
+	          D. Discipleship (DirectLine)<br/>
+	          E. Evangelism (LifeLine)<br/>
+	          F. Food, Fun, and Fellowship</p>
+	  </long-description>
+	  <contacts>
+  	    <contact-web>http://www.calvarychapel.org/austin/location.html</contact-web>
+   	  </contacts>
+	  <ministry-logo>/images/ministries/frontline.gif</ministry-logo>
+	</ministry>
+</content>
