@@ -4812,9 +4812,9 @@
 		<audio>guestspeaker/bgarrett0603.ram</audio>
 		<passageref></passageref>
 	</message>
-	<message date="20030709" service="sunday" category="misc">
+	<message date="20030709" service="midweek" category="misc">
 		<seriestitle>Guest Speaker</seriestitle>
-		<title>Garett, Bunjee - Beautifule Feet</title>
+		<title>Garett, Bunjee - Beautiful Feet</title>
 		<passage></passage>
 		<tape>GS070903</tape>
 		<audio>guestspeaker/bgarrett070903.ram</audio>
@@ -9185,6 +9185,14 @@
 		<passage>Luke 9:18-27</passage>
 		<tape>BS070603</tape>
 		<audio>42-luk/42-luk-09-18.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk009.html#top</passageref>
+	</message> 
+	<message date="20030720" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>Dynamic Christian Living</title>
+		<passage>Luke 9:28-45</passage>
+		<tape>BS072003</tape>
+		<audio>42-luk/42-luk-09-28.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk009.html#top</passageref>
 	</message> 
 </messagecatalog>
