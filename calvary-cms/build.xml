@@ -54,6 +54,7 @@
   <property name="project.src.controlpanel.tests" value="${project.src.home}/controlpanel/test"/>
   <property name="project.src.controlpanel.testresources" value="${project.src.home}/controlpanel/testresources"/>
   <property name="project.src.controlpanel.config" value="${project.src.home}/controlpanel/config"/>
+  <property name="project.src.controlpanel.config.test" value="${project.src.controlpanel.config}/test"/>
   <property name="project.src.controlpanel.web" value="${project.src.home}/controlpanel/websrc"/>
   <property name="project.build.controlpanel.home" value="${project.build.home}/controlpanel"/>
   <property name="project.build.controlpanel.classes" value="${project.build.controlpanel.home}/classes"/>
@@ -301,7 +302,7 @@
      <pathelement path="${project.src.tools.testresources}"/>
   </path>
 
-  <target name="build-tools" depends="init, compile-tools, jar-tools, compile-tools-tests"/>
+  <target name="build-tools" depends="init, compile-tools, jar-tools"/>
 
   <target name="compile-tools" depends="init">
      <!-- Compile -->
@@ -370,6 +371,8 @@
      <pathelement path="${slide.server.class.path}"/>
      <pathelement path="${slide.taglib.class.path}"/>
      <pathelement path="${j2ee.class.path}"/>
+     <path refid="class.path.cms"/>
+     <pathelement location="${project.build.cms.jar}"/>
   </path>
 
   <path id="junit.class.path.controlpanel">
@@ -380,7 +383,7 @@
      <pathelement path="${project.src.controlpanel.testresources}"/>
   </path>
 
-  <target name="build-controlpanel" depends="init, compile-controlpanel, jar-controlpanel, compile-controlpanel-tests"/>
+  <target name="build-controlpanel" depends="init, compile-controlpanel, jar-controlpanel"/>
 
   <target name="compile-controlpanel" depends="init">
      <!-- Compile -->
@@ -429,6 +432,7 @@
          appxml="${project.src.controlpanel}/../application.xml">
       <fileset dir="${project.build.controlpanel.home}" includes="**/*.war"/>
       <zipfileset prefix="lib" dir="${project.build.controlpanel.home}" includes="**/**.jar"/>
+      <zipfileset prefix="lib" dir="${project.build.cms.home}" includes="**/**.jar"/>
       <zipfileset prefix="lib" dir="${commons.home}/lib" includes="**/**.jar"/>
       <zipfileset prefix="lib" dir="${log4j.home}/lib" includes="**/**.jar"/>
       <zipfileset prefix="lib" dir="${apache.xml.home}/lib" includes="**/**.jar"/>
@@ -472,18 +476,37 @@
     <copy file="${slide.kernel.jar}" toDir="${jboss.lib.home}"/>
     <copy file="${slide.roles.jar}" toDir="${jboss.lib.home}"/>
     <copy file="${slide.stores.jar}" toDir="${jboss.lib.home}"/>
-    
+    <copy file="${slide.webdavservlet.jar}" toDir="${jboss.lib.home}"/>
+    <copy file="${slide.jdom.jar}" toDir="${jboss.lib.home}"/>
+    <copy file="${slide.jdomdev.jar}" toDir="${jboss.lib.home}"/>
+
+    <!-- Copy some apache libs over the pre-packaged ones under Tomcat (for jb3.0.6 hot deploy debugging)
+    <copy file="${commons.logging.jar}" toDir="${jboss.tomcat.lib.home}"/>
+    <copy file="${commons.digester.jar}" toDir="${jboss.tomcat.lib.home}"/>
+    <copy file="${commons.beanutils.jar}" toDir="${jboss.tomcat.lib.home}"/>
+    -->
+
     <!-- unjar the slide war file for faster deploy -->
     <mkdir dir="${jboss.deploy.home}/slide.war"/>
     <unjar src="${slide.war}" dest="${jboss.deploy.home}/slide.war"/>
-    
-    <!-- place our configuration files in the slide war structure -->
-    <copy file="${project.src.controlpanel.config}/slide/Domain.xml"
+    <!-- and remove a few files we are putting into the jboss lib -->
+    <delete file="${jboss.deploy.home}/slide.war/WEB-INF/lib/jdom.jar"/>
+    <delete file="${jboss.deploy.home}/slide.war/WEB-INF/lib/jdom-dev.jar"/>
+    <delete file="${jboss.deploy.home}/slide.war/WEB-INF/lib/slide-kernel.jar"/>
+    <delete file="${jboss.deploy.home}/slide.war/WEB-INF/lib/slide-roles.jar"/>
+    <delete file="${jboss.deploy.home}/slide.war/WEB-INF/lib/slide-stores.jar"/>
+    <delete file="${jboss.deploy.home}/slide.war/WEB-INF/lib/slide-webdavservlet.jar"/>
+
+    <!-- place our configuration files in the slide war structure using a jar file -->
+    <jar jarfile="${jboss.lib.home}/slide-properties.jar">
+      <fileset dir="${project.src.controlpanel.config.test}/slide">
+             <include name="**/*.properties"/>
+         </fileset>
+    </jar>
+    <!-- NOTE: This file may need to go into the jar above, as we are using basic configs right now,
+     so can't currently see if its picking this file up from the location its being copied to -->
+    <copy file="${project.src.controlpanel.config.test}/slide/Domain.xml"
           toDir="${jboss.deploy.home}/slide.war"/>
-    <copy file="${project.src.controlpanel.config}/slide/slide.properties.test"
-          toFile="${jboss.deploy.home}/slide.war/WEB-INF/classes/slide.properties"/>
-    <copy file="${project.src.controlpanel.config}/slide/log4j.properties.test"
-          toFile="${jboss.deploy.home}/slide.war/WEB-INF/classes/log4j.properties"/>
     
   </target>
   
