@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.32 2003/05/11 20:21:03 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.33 2003/05/19 14:57:20 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -86,11 +86,16 @@
 		</news-item>
 		<news-item id="47" date="20030511" expires="20030602" showOnHomepage="true">
 			<title>Free Indeed Addictions Ministry</title>
-			<detail>Calvary Austin is introducing a new internet-based ministry to address pornography, substance abuse, overeating, smoking or other addictive sins.  If you need help in one of these areas or would like to serve in this ministry visit the <link href="../ministries/freeindeed.html">ministry's home page</link></detail>
+			<detail>Calvary Austin is introducing a new internet-based ministry to address pornography, substance abuse, overeating, smoking or other addictions.  If you need help in one of these areas or would like to serve in this ministry visit the <link href="../ministries/freeindeed.html">ministry's home page</link></detail>
 		</news-item>
 		<news-item id="48" date="20030511" expires="20030602" showOnHomepage="true">
 			<title>The Cupboard</title>
 			<detail>Our food pantry provides food to families in the body of Calvary during times of need.  If you need assistance from this ministry, contact the church office. 
+</detail>
+		</news-item>
+		<news-item id="49" date="20030518" expires="20030702" showOnHomepage="true">
+			<title>Children's Conference Hosting</title>
+			<detail>Would you like to bless one or more peope attending our CM Conference from out of town with accommodations in your home?  If interested, sign up to be a host family at the Events Center. 
 </detail>
 		</news-item>
 	</news>
