@@ -9537,5 +9537,13 @@
 		<tape>BS113003</tape>
 		<audio>42-luk/42-luk-13-22.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk013.html#top</passageref>
-	</message>                                      
+	</message>
+	<message date="20031207" service="sunday" category="misc">
+		<seriestitle>Guest Speaker</seriestitle>
+		<title>How To Be a Crusty Christian</title>
+		<passage>Psalm 16:11</passage>
+		<tape>BS120703</tape>
+		<audio>guestspeaker/bgarrett1203.ram</audio>
+		<passageref></passageref>
+	</message> 
 </messagecatalog>
