@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.63 2003/07/13 03:37:29 gregk Exp $
+	$Id: calendar.xml,v 1.64 2003/07/26 05:32:58 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -44,7 +44,7 @@
     July
     ===============
     -->
-    <event id="07001" date="20030726" showOnHomepage="true">
+    <event id="07001" date="20030726" showOnHomepage="false">
       <title>Children's Ministry Conference</title>
       <date>July 24th-26th</date>
       <intro>Mark your calendars for July 24-26, 2003!  We will host our 3rd conference this year.  Our conference theme is "Shine, Jesus, Shine" taken from Matthew 5:16.  We want Jesus to shine through us as we serve Him by ministering to kids. Sign up today at the Events Center. For more information call Donna Cano (255-7756)</intro>
@@ -82,7 +82,7 @@
     Aug
     ===============
     -->
-    <event id="08001" date="20030829" showOnHomepage="true">
+    <event id="08001" date="20030829" showOnHomepage="false">
 	 <title>Calvary Chapel Mid South College and Career Conference and Retreat 2003</title>
 		<date>Aug 29th - Sept 1st </date>
 		<logo align="right" img="../images/events/ccccretreat2003-icon.jpg" alt="CCCC Retreat 2003"/>
@@ -91,7 +91,7 @@
 			<ministry id="frontine"/>
 		</ministries>
     </event>
-    <event id="08002" date="20030808" showOnHomepage="true">
+    <event id="08002" date="20030808" showOnHomepage="false">
 	 <title>Youth D.U.D.E. Camp</title>
 		<date>Aug 4th-8th</date>
 		<detail>More details coming soon!</detail>
@@ -104,25 +104,27 @@
 			<ministry id="worship"/>
 		</ministries>
     </event>
-    <event id="08003" date="20030803" showOnHomepage="false">
+    <event id="08004" date="20030803" showOnHomepage="true">
 	 <title>Communion</title>
 		<date>Aug 3rd</date>
+                <detail>Join us Sunday, Aug 3rd, for the celebration of communion during all three services.</detail>
     </event>
-    <event id="08004" date="20030806" showOnHomepage="false">
+    <event id="08005" date="20030806" showOnHomepage="false">
 	 <title>Extended Worship</title>
 		<date>Aug 6th</date>
     </event>
-    <event id="08005" date="20030831" showOnHomepage="false">
-	 <title>College and Career Retreat</title>
-		<date>Aug 29th-31th</date>
-		<ministries>
-			<ministry id="frontine"/>
-		</ministries>
-    </event>
     <event id="08006" date="20030804" showOnHomepage="true">
 	 <title>Calvary Kids</title>
-		<date>Aug 4th</date>
-		<detail>A Foundation Class for New Believers will start Sunday, Aug 4th, during the 9:45 service. This class is for 2nd-5th graders. Its lasts nine weeks. There is limited space. Sign up at the Events Center.</detail>
+		<date>Aug 3rd</date>
+		<detail>A Foundation Class for New Believers will start Sunday, Aug 3rd, during the 9:45 service. This class is for 2nd-5th graders. Its lasts nine weeks. There is limited space. Sign up at the Events Center.</detail>
+		<ministries>
+			<ministry id="children"/>
+		</ministries>
+    </event>
+    <event id="08007" date="20030809" showOnHomepage="true">
+	 <title>YDC STARTS A NEW YEAR</title>
+		<date>Aug 6th</date>
+		<detail>Young Disciples club is a discipleship club for Wise Guys, Witnesses and Watchmen -- boys and girls Kindergarten through Fifth grade. There is worship, Bible teaching, game and group times each Wednesday enening at 7PM.</detail>
 		<ministries>
 			<ministry id="children"/>
 		</ministries>
@@ -132,10 +134,10 @@
 	Sept
 	===============
 -->
-    <event id="09001" date="20030927" showOnHomepage="false">
+    <event id="09001" date="20030927" showOnHomepage="true">
 	 <title> Men's Retreat</title>
 		<date>Sept 25th - 27th </date>
-		<detail>Registration continues for the Sep 25-27 retreat at T-Bar-M Ranch in New Braunfels. The main speaker is Ken Graves from Calvary Chapel Bangor, Maine.  Men mark your calendars and sign up at the Events Center.</detail>
+		<detail>Registration continues for the Sep 25-27 retreat at T-Bar-M Ranch in New Braunfels. The main speaker is Ken Graves from Calvary Chapel Bangor, Maine.  Men mark your calendars and sign up at the Events Center. Registration deadline is Aug 10th</detail>
 		<ministries>
 			<ministry id="men"/>
 		</ministries>
@@ -146,6 +148,14 @@
 		<detail>More details to come soon</detail>
 		<ministries>
 			<ministry id="school"/>
+		</ministries>
+    </event>
+    <event id="09003" date="20030811" showOnHomepage="true">
+	 <title>Marriage Ministry</title>
+		<date>Sept 8th</date>
+		<detail>Registration for the Fall group meetings in now open. Topics will include: Building your Mate's Self-Esteem, Raising Children of Fatith, and Making Your Remarriage Last. Groups will meet starting the 2nd week of Sept. Cost is $16 per couple. Sign up at the Events Center. Spaces are limited. Registration deadline is Aug 10th.</detail>
+		<ministries>
+			<ministry id="marriage"/>
 		</ministries>
     </event>
 		<!--
