@@ -6,7 +6,7 @@
         The sitemap contains the structure of the entire web site, and is used to drive
         the auto-generated scripts for generating the web site HTML from XML.
         
-        $Id: sitemap.xml,v 1.40 2003/08/30 23:39:41 gregk Exp $
+        $Id: sitemap.xml,v 1.41 2003/09/23 19:47:39 javajames27 Exp $
         
         hidden="true" prevents the page from showing on the sitemap.
         
@@ -738,10 +738,82 @@
     <page datafile="/calvarykids.xml"
           template="/templates/empty.xsl"
           layout="/layouts/empty.xsl"
-          renderer="/renderers/calvarykids.xsl"
+          renderer="/renderers/calvarycalvarykids.xsl"
           html="/calvarykids/index.html">
       <title>Calvary Kids Page</title>
       <description>Learn more about Calvary Kids</description>
+    </page>
+    <page datafile="/contact.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/calvarykids/contact.html">
+      <title>Calvary Kids Contact Page</title>
+      <description>Contact Calvary Kids</description>
+    </page>
+    <page datafile="/serve.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/calvarykids/serve.html">
+      <title>Serve with Calvary Kids</title>
+      <description>Serve with Calvary Kids</description>
+    </page>
+    <page datafile="/openings.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/calvarykids/openings.html">
+      <title>Opportunities with Calvary Kids</title>
+      <description>Opportunities with Calvary Kids</description>
+    </page>
+    <page datafile="/tools.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/calvarykids/tools.html">
+      <title>Calvary Kids Ministry Tools</title>
+      <description>Calvary Kids Ministry Tools</description>
+    </page>
+    <page datafile="/links.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/calvarykids/links.html">
+      <title>Calvary Kids Links</title>
+      <description>Calvary Kids Links</description>
+    </page>
+    <page datafile="/ydc.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/calvarykids/ydc.html">
+      <title>Calvary Kids YDC</title>
+      <description>Calvary Kids YDC</description>
+    </page>
+    <page datafile="/sundays.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/calvarykids/sundays.html">
+      <title>Calvary Kids Sundays</title>
+      <description>Calvary Kids Sundays</description>
+    </page>
+    <page datafile="/purpose.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/calvarykids/purpose.html">
+      <title>Calvary Kids Purpose</title>
+      <description>Calvary Kids Purpose</description>
+    </page>
+    <page datafile="/home.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/calvarykids/home.html">
+      <title>Calvary Kids Home</title>
+      <description>Calvary Kids Home</description>
     </page>
   </section>
 
