@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+       Building Momentum 
+
+	$Id: buildingmomentum.xml,v 1.1 2004/03/09 03:36:14 gregk Exp $
+		
+-->
+<content title="Building Momentum">
+<br></br>
+<heading>COMING SOON!!!!!</heading>
+<!--
+     <heading>COMING SOON !!</heading>
+<table width="75%" border="0" align="center" background="../images/events/buildingmocomingsoon.jpg">
+</table>
+-->
+<BR></BR>
+<BR></BR>
+<img src="../images/events/buildingmocomingsoon.jpg">
+</img>
+<!--
+      <p>Visit website at <link href= "../ministries/worship.html">www.calvaryaustinmusic.org</link> for more details</p>
+-->
+
+</content>
