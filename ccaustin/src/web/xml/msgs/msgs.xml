@@ -10337,7 +10337,14 @@
 	<audio>topicseries/ten/tenten.wma</audio> 
 	<passageref>http://www.blueletterbible.org/kjv/Exd/Exd020.html#top</passageref> 
 	</message>
-
+	<message date="20041212" service="sunday" category="topical series"> 
+	<seriestitle>Christmas Vacation 2004</seriestitle> 
+	<title>Christmas Vacation - Part One</title> 
+	<passage>Luke 1:26-56</passage> 
+	<tape>TM121204</tape> 
+	<audio>topicseries/topicmessage/TM121204.wma</audio> 
+	<passageref>http://www.blueletterbible.org/kjv/Luk/Luk001.html#top</passageref> 
+	</message>
 	<message date="20041113" service="sunday" category="topic message"> 
 	<seriestitle>Guest Speaker</seriestitle> 
 	<title>Responsibility of Restoration</title> 
