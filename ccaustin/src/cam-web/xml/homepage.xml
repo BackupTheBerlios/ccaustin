@@ -1,46 +1,63 @@
-<html><!-- InstanceBegin template="/Templates/StandardTemplate.dwt" codeOutsideHTMLIsLocked="false" -->
-<head>
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>Home</title>
-</head>
-<body bgcolor="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
-
-    <h1>Welcome!</h1>
-      <p> Welcome to the Calvary Austin Worship Ministry! We at Calvary Chapel 
+<html>
+	<!-- InstanceBegin template="/Templates/StandardTemplate.dwt" codeOutsideHTMLIsLocked="false" -->
+	<head>
+		<!-- InstanceBeginEditable name="doctitle" -->
+		<title>Home</title>
+	</head>
+	<body bgcolor="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+		<h1>Welcome!</h1>
+		<p> Welcome to the Calvary Austin Worship Ministry! We at Calvary Chapel 
         believe that the worship of God should be inspirational. Music is one 
         of the different formats by which man can express feelings, desires, hope, 
         peace, joy and love toward God.</p>
-      <p align="center"><img src="images/horizline.gif" width="630" height="1"/></p>
-      <h2>CD Availability</h2>
-      <p>&quot;I Will&quot;, Live Worship from Calvary Chapel of Austin, is now available at Family Christian Stores at the Highland Mall, Brodie Oaks (South) and Lakeline Plaza (Cedar Park) locations. It is also available at the Calvary Chapel of Austin Bookstore. You can also take your credit card orders by phone at 512-719-4667. Pick up a copy for you and your friends!</p>
-      <p align="center"><img src="images/horizline.gif" width="630" height="1"/></p>
-      <h2>Radio Airplay</h2>
-      <p>Songs from &quot;I Will, Live Worship from Calvary Chapel of Austin&quot;, are receiving radio airplay on the following Calvary Satellite Network stations:</p>
-      <p>WGPS Elizabeth City, NC ("I Will Raise My Hands", "I Will Rise", "Draw Me Close" and "I Will Give You Everything")</p>
-      <p>WPGT Roanoke Rapids, NC ("I Will Raise My Hands", "I Will Rise", "Draw Me Close" and "I Will Give You Everything")</p>
-      <p>WJCA Albion, NY ("Your Word is You", "I Will Raise My Hands", "I Will Rise", "Draw Me Close" and "I Will Give You Everything")</p>
-      <p>WREQ Elmira, NY ("Your Word is You", "I Will Raise My Hands", "I Will Rise", "Draw Me Close" and "I Will Give You Everything")</p>
-      <p>WIFF Binghamton, NY ("Your Word is You", "I Will Raise My Hands", "I Will Rise", "Draw Me Close" and "I Will Give You Everything")</p>
-      <p align="center"><img src="images/horizline.gif" width="630" height="1"/></p>
-      <h2>New CD Release: &quot;I Will&quot; - Updated<br/>
-        <span class="dateSubtitle">April 3, 2004</span></h2>
-      <p>The Calvary Austin Worship Team is pleased to announce the release of 
+		<p align="center">
+			<img src="images/horizline.gif" width="630" height="1"/>
+		</p>
+		<h2>CD Availability</h2>
+		<p>&quot;I Will&quot;, Live Worship from Calvary Chapel of Austin, is now available at Family Christian Stores at the Highland Mall, Brodie Oaks (South) and Lakeline Plaza (Cedar Park) locations. It is also available at the Calvary Chapel of Austin Bookstore.</p>
+<p>You can also place a credit card order by phone at 512-719-4667. Pick up a copy for you and your friends!</p>
+		<p align="center">
+			<img src="images/horizline.gif" width="630" height="1"/>
+		</p>
+		<h2>Radio Airplay</h2>
+		<p>Songs from &quot;I Will, Live Worship from Calvary Chapel of Austin&quot;, are receiving radio airplay on the following Calvary Satellite Network stations:</p>
+		<p>WGPS Elizabeth City, NC ("I Will Raise My Hands", "I Will Rise", "Draw Me Close" and "I Will Give You Everything")</p>
+		<p>WPGT Roanoke Rapids, NC ("I Will Raise My Hands", "I Will Rise", "Draw Me Close" and "I Will Give You Everything")</p>
+		<p>WJCA Albion, NY ("Your Word is You", "I Will Raise My Hands", "I Will Rise", "Draw Me Close" and "I Will Give You Everything")</p>
+		<p>WREQ Elmira, NY ("Your Word is You", "I Will Raise My Hands", "I Will Rise", "Draw Me Close" and "I Will Give You Everything")</p>
+		<p>WIFF Binghamton, NY ("Your Word is You", "I Will Raise My Hands", "I Will Rise", "Draw Me Close" and "I Will Give You Everything")</p>
+		<p align="center">
+			<img src="images/horizline.gif" width="630" height="1"/>
+		</p>
+		<h2>New CD Release: &quot;I Will&quot; - Updated<br/>
+			<span class="dateSubtitle">April 3, 2004</span>
+		</h2>
+		<p>The Calvary Austin Worship Team is pleased to announce the release of 
         their first worship CD, &quot;I Will&quot;. The CD features songs written 
         and performed by members of the worship team. We hope you enjoy listening 
         to it as much as we were blessed to produce it.</p>
-      <table width="100%" border="0" cellspacing="0" cellpadding="2">
-        <tr>
-          <td width="25%" valign="top"><img src="images/CDCover.jpg" width="125" height="125" border="1"/></td>
-          <td width="75%" valign="top"><p align="left"><img src="images/arrow_bullet.gif" width="25" height="25" border="0" align="absmiddle"/><a href="listen.html">Listen</a> 
+		<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<tr>
+				<td width="25%" valign="top">
+					<img src="images/CDCover.jpg" width="125" height="125" border="1"/>
+				</td>
+				<td width="75%" valign="top">
+					<p align="left">
+						<img src="images/arrow_bullet.gif" width="25" height="25" border="0" align="absmiddle"/>
+						<a href="listen.html">Listen</a> 
               - Check out some samples (New!)</p>
-          <p align="left"><img src="images/arrow_bullet.gif" width="25" height="25" border="0" align="absmiddle"/><a href="resources.html">Resources</a> 
+					<p align="left">
+						<img src="images/arrow_bullet.gif" width="25" height="25" border="0" align="absmiddle"/>
+						<a href="resources.html">Resources</a> 
               - Music Chords and Lyrics for all songs</p>
-          <p align="left"><img src="images/arrow_bullet.gif" width="25" height="25" border="0" align="absmiddle"/><a href="behind.html">Behind 
+					<p align="left">
+						<img src="images/arrow_bullet.gif" width="25" height="25" border="0" align="absmiddle"/>
+						<a href="behind.html">Behind 
               the Music</a> - Learn the stories behind the songs</p>
-      </td>
-        </tr>
-      </table>
-      <!--
+				</td>
+			</tr>
+		</table>
+		<!--
       <p align="center"><img src="images/horizline.gif" width="630" height="1"/></p>
       <h2>Calvary Mid-South Worship Conference 2004<br/>
         <span class="dateSubtitle">Jan 1, 2004</span></h2>
@@ -50,11 +67,17 @@
         more</a></p>
       <p align="center" class="img"><a href="http://www.calvaryaustin.org/events/worshipconf04.html"><img src="images/worshbanner.jpg" width="600" height="120" border="0"/></a></p>
       -->
-      <p align="center"><nbsp/></p>
-      <div align="left">
-        <p><nbsp/></p>
-        <p><nbsp/></p>
-      </div>
-
-</body>
-<!-- InstanceEnd --></html>
+		<p align="center">
+			<nbsp/>
+		</p>
+		<div align="left">
+			<p>
+				<nbsp/>
+			</p>
+			<p>
+				<nbsp/>
+			</p>
+		</div>
+	</body>
+	<!-- InstanceEnd -->
+</html>
