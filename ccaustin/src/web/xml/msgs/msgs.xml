@@ -3634,6 +3634,23 @@
 		<audio>bibleoverview/54-1ti-01.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/1Ti/1Ti001.html#top</passageref>
 	</message>
+	<message date="20040208" service="midweek" category="overview"> 
+	<seriestitle>I Timothy</seriestitle> 
+	<title>/title> 
+	<passage>1 Timothy 3-4</passage> 
+	<tape>BO1344</tape> 
+	<audio>bibleoverview/54-1ti-03.wma</audio> 
+	<passageref>http://www.blueletterbible.org/kjv/1Ti/1Ti003.html#top</passageref> 
+	</message> 
+<message date="20040215" service="midweek" category="overview"> <seriestitle>I Timothy</seriestitle> <title></title> <passage>1 Timothy 5-6</passage> <tape>BO1345</tape> <audio>bibleoverview/54-1ti-05.wma</audio> <passageref>http://www.blueletterbible.org/kjv/1Ti/1Ti005.html#top</passageref> </message> 
+<message date="20040229" service="midweek" category="overview"> <seriestitle>2 Timothy</seriestitle> <title>/title> <passage>2 Timothy 1-2</passage> <tape>BO1346</tape> <audio>bibleoverview/55-2ti-01.wma</audio> <passageref>http://www.blueletterbible.org/kjv/2Ti/2Ti001.html#top</passageref> </message> 
+<message date="20040307" service="midweek" category="overview"> <seriestitle>2 Timothy</seriestitle> <title></title> <passage>2 Timothy 3-4</passage> <tape>BO1347</tape> <audio>bibleoverview/55-2ti-03.wma</audio> <passageref>http://www.blueletterbible.org/kjv/2Ti/2Ti003.html#top</passageref> </message> 
+<message date="20040328" service="midweek" category="overview"> <seriestitle>Titus</seriestitle> <title></title> <passage>Titus</passage> <tape>BO1348</tape> <audio>bibleoverview/56-tiu-01.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Tts/Tts001.html#top</passageref> </message> 
+
+<message date="20040407 service="midweek" category="overview"> <seriestitle>Philemon</seriestitle> <title></title> <passage>Philemon</passage> <tape>BO1349</tape> <audio>bibleoverview/57-phi.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Phm/Phm001.html#top</passageref> </message> 
+
+<message date="20040414 service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 1-2</passage> <tape>BO1350</tape> <audio>bibleoverview/58-heb-01.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr001.html#top</passageref> </message> 
+
     	<message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
 		<title>The Big Question</title>
