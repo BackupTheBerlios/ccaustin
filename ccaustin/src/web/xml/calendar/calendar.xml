@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.127 2004/08/07 21:02:08 premav Exp $
+	$Id: calendar.xml,v 1.128 2004/08/13 01:12:59 tie Exp $
 		
 -->
 <content title="Calendar">
@@ -627,9 +627,9 @@ and to register visit the Events Center.</detail>
     ===============
     -->
     <event id="08001" date="20040828" showOnHomepage="true">
-	    <title>Marriage Day Conference ~ "Enjoy the Difference" </title>
+	    <title>Marriage Day Conference: "Enjoying the Difference" </title>
 		<date>Aug 28th</date>
-		<detail>Come join other married couples as you discover how your differences can strengthen your marriage. Available workshops include: Finance, Conflict Resolution, Communication, Spiritual Maturity/Growth, and Romance/Intimacy. Registration cost is $25/couple. Box lunch provided.  Childcare not provided.  For more information, or to register, go to the Events Center.</detail>
+		<detail>Come join other married couples as you discover how your differences can strengthen your marriage. Available workshops include: Finance, Conflict Resolution, Communication, Spiritual Maturity/Growth, and Romance/Intimacy. Registration cost is $25/couple. Box lunch provided.  Childcare not provided. Click <link href="http://www.calvaryaustin.org/ministries/marriage.html">HERE</link> for more information and to download a brochure and registration form.</detail>
     </event>
     <event id="08002" date="20040814" showOnHomepage="true">
 	    <title>Weight of Glory Live Concert @ Coffee Creator</title>
@@ -658,7 +658,7 @@ Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE<
     <event id="09003" date="20040913" showOnHomepage="true">
 	    <title>School of Ministry</title>
 		<date>Sept 13th</date>
-		<detail>is gearing up for another semester. Classes offered: New Testament Survey, Cults and the Occult, Cross-cultural Communications in Missions and more. Evening classes begin Monday, Sept 13 and continue for 11 weeks. Course descriptions are located at the events center where you can also sign up.</detail>
+		<detail>School of Ministry is gearing up for another semester. Classes offered: New Testament Survey, Cults and the Occult, Cross-cultural Communications in Missions and more. Evening classes begin Monday, Sept 13 and continue for 11 weeks. Course descriptions are located at the events center where you can also sign up.</detail>
     </event>
 		<!--
     ===============

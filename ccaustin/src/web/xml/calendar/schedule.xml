@@ -3,7 +3,7 @@
 
 	Weekly/Monthy Reoccuring Calendar Events Content
 	
-	$Id: schedule.xml,v 1.46 2004/08/01 01:12:31 tie Exp $
+	$Id: schedule.xml,v 1.47 2004/08/13 01:17:37 tie Exp $
 
 -->
 <content title="Weekly &amp; Monthly Events">
@@ -125,7 +125,7 @@
     </event>
 -->
     <event id="wed1" date="*" reoccur="Wed" time="7:00pm" location="Auditorium " childMinistry="yes" childCare="no">
-      <title>Midweek Service - Aug. 4th: 2 Peter 1</title>
+      <title>Midweek Service - Aug. 18th: 1 John 3-4</title>
       <shortnote/>
       <detail/>
     </event>

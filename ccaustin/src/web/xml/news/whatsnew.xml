@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.97 2004/08/13 01:11:02 tie Exp $
+	$Id: whatsnew.xml,v 1.98 2004/08/13 01:21:35 tie Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -456,7 +456,7 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		   <detail>Join us for the College and Career 2004 Retreat. The retreat will be Sep. 3-5 at <link href="http://www.texasretreat.com">Balcones Retreat Center</link>. The cost is $130. To make a downpayment or to register, stop by the Events Center.</detail>
 		</news-item>
 		<news-item id="136" date="20040622" expires="20070622" showOnHomepage="true">
-		   <title>Buildling Momentum Informational Web Site</title>
+		   <title>Building Momentum Informational Web Site</title>
 		   <detail>Please visit the Calvary Austin <link href="http://www.calvaryaustin.org/buildingmomentum/index.html">Building Momentum Web Site</link>. Check the web site for the latest information about the Calvary Austin building project.</detail>
 		</news-item>
 		<news-item id="137" date="20040622" expires="20050622" showOnHomepage="true">

@@ -11,35 +11,6 @@
 		<large-photo href="../images/staff/allenweb.jpg"/>
 		<role ministry="church" title="Senior Pastor"/>
 	</servant>
-	<servant id="andrea">
-		<fullname>Andrea Rigg</fullname>
-		<first-name>Andrea</first-name>
-		<last-name>Rigg</last-name>
-		<thumbnail href="../images/staff/andreathumb.jpg"/>
-		<small-photo href="../images/staff/andreaweb.jpg"/>
-		<large-photo href="../images/staff/andreaweb.jpg"/>
-		<role ministry="church" title="Pastor's wife"/>
-	</servant>
-<!--
-	<servant id="jean">
-		<fullname>Jean Janes</fullname>
-		<first-name>Jean</first-name>
-		<last-name>Janes</last-name>
-		<thumbnail href="../images/staff/jeanthumb.jpg"/>
-		<small-photo href="../images/staff/jeanweb.jpg"/>
-		<large-photo href="../images/staff/jeanweb.jpg"/>
-		<role ministry="church" title="Secretary"/>
-	</servant>
--->
-	<servant id="donna">
-		<fullname>Donna Cano</fullname>
-		<first-name>Donna</first-name>
-		<last-name>Cano</last-name>
-		<thumbnail href="../images/staff/donnathumb.jpg"/>
-		<small-photo href="../images/staff/donnaweb.jpg"/>
-		<large-photo href="../images/staff/donnaweb.jpg"/>
-		<role ministry="children" title="Children's Ministry Director"/>
-	</servant>
 	<servant id="david">
 		<fullname>David Reynolds</fullname>
 		<first-name>David</first-name>
@@ -58,17 +29,6 @@
 		<large-photo href="../images/staff/bunjeeweb.jpg"/>
 		<role ministry="frontline" title="Discipleship Pastor"/>
 	</servant>
-<!--
-	<servant id="john">
-		<fullname>John Newberry</fullname>
-		<first-name>John</first-name>
-		<last-name>Newberry</last-name>
-		<thumbnail href="../images/staff/johnthumb.jpg"/>
-		<small-photo href="../images/staff/johnweb.jpg"/>
-		<large-photo href="../images/staff/johnweb.jpg"/>
-		<role ministry="youth" title="Youth Pastor"/>
-	</servant>
--->
 	<servant id="glendon">
 		<fullname>Glendon Nicks</fullname>
 		<first-name>Glendon</first-name>
@@ -107,6 +67,24 @@
 	</servant>
 </staffulltime>
 <staffparttime>
+		<servant id="andrea">
+		<fullname>Andrea Rigg</fullname>
+		<first-name>Andrea</first-name>
+		<last-name>Rigg</last-name>
+		<thumbnail href="../images/staff/andreathumb.jpg"/>
+		<small-photo href="../images/staff/andreaweb.jpg"/>
+		<large-photo href="../images/staff/andreaweb.jpg"/>
+		<role ministry="church" title="Pastor's wife"/>
+	</servant>
+		<servant id="donna">
+		<fullname>Donna Cano</fullname>
+		<first-name>Donna</first-name>
+		<last-name>Cano</last-name>
+		<thumbnail href="../images/staff/donnathumb.jpg"/>
+		<small-photo href="../images/staff/donnaweb.jpg"/>
+		<large-photo href="../images/staff/donnaweb.jpg"/>
+		<role ministry="children" title="Children's Ministry Director"/>
+	</servant>
 	<servant id="jeremy">
 		<fullname>Jeremy Valencia</fullname>
 		<first-name>Jeremy</first-name>
