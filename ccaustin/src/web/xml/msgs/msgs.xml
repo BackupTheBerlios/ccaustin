@@ -10361,5 +10361,12 @@
 	<audio>topicseries/topicmessage/TM121904.wma</audio> 
 	<passageref>http://www.blueletterbible.org/kjv/Luk/Luk002.html#top</passageref> 
 	</message>
-
+	<message date="20041226" service="sunday" category="topical series"> 
+	<seriestitle>Christmas Vacation 2004</seriestitle> 
+	<title>Christmas Vacation - Part Three</title> 
+	<passage>Luke 2:21-40</passage> 
+	<tape>TM122604</tape> 
+	<audio>topicseries/topicmessage/TM122604.wma</audio> 
+	<passageref>http://www.blueletterbible.org/kjv/Luk/Luk002.html#top</passageref> 
+	</message>
 </messagecatalog>
