@@ -2,7 +2,7 @@
 <!-- 
        Worship Life '04 Mid-South Worship Conference
 
-	$Id: worshipconf04.xml,v 1.2 2004/01/10 03:09:55 gregk Exp $
+	$Id: worshipconf04.xml,v 1.3 2004/01/10 05:30:02 gregk Exp $
 		
 -->
 <content title="MidSouth Worship Life Conference 2004">
@@ -16,11 +16,11 @@
       <row><data xml:space="preserve"><br></br></data></row>
       <row>
        <data>Worship Leaders:</data>
-       <data> Art Murillo, Sunday Drivers, Holland Davis, David Reynolds</data>
+       <data> Art Murillo and the Sunday Drivers, Holland Davis, David Reynolds</data>
       </row>
       <row><data xml:space="preserve"><br></br></data></row>
       <row>
-        <data>Date:</data> 
+        <data>Dates:</data> 
         <data>February 26-28, 2004</data>
       </row>
       <row><data xml:space="preserve"><br></br></data></row>
