@@ -1,0 +1,93 @@
+
+Setup for the first time
+========================
+
+This is a one-time setup procedure to get yourself ready to edit xml files:
+
+1. Install Cygwin (Unix tools for Windows - not needed for Unix systems) :
+     a. http://sources.redhat.com/cygwin/
+     b. Install using the internet installer. It will download and
+     install all appropriate things. I use c:\cygwin as the
+     installation location.
+2. Set the following environment variables:
+
+     CVSROOT=:ext:<your id>@cvs.ccaustin.berlios.de:/cvsroot/ccaustin
+     CVS_RSH=ssh
+
+     Windows 95, 98, ME:
+     
+     1. click start
+     2. click run
+     3. type "sysedit" in the white box.
+     4. click ok
+     5. goto the AUTOEXEC.BAT window
+     6. goto the bottom of the file (should be a blank line)
+     7. type the following 2 lines EXACTLY AS THEY APPEAR
+        Note: <your id> is the username (id) you created at the web site.
+
+     set CVSROOT=:ext:<your id>@cvs.ccaustin.berlios.de:/cvsroot/ccaustin
+     set CVS_RSH=ssh
+     
+     click file at the upper lefthand corner.
+     click exit
+     click yes to save 
+     
+     click start
+     click shutdown
+     click restart to restart your PC.
+     click ok
+
+     Windows NT:
+
+     1. On your desktop, right click the My Computer icon and click Properties from the shortcut menu. 
+     2. Click the Environment tab. 
+     3. In the System Variables box, click New.
+     4. Repeat the following for each of the variables above:
+     
+       a. In the Name box, enter the name of the variable (without the equals sign).
+       b. In the Value box, enter the value of the variable (without the equals sign). 
+       c. Click Set. 
+     
+     5. Click OK. 
+     6. Reboot your machine to ensure that the settings took effect.
+
+     Windows 2000/XP:
+
+     1. On your desktop, right click the My Computer icon and click Properties from the shortcut menu. 
+     2. Click the Advanced tab.  
+     3. Click Environment Variables. 
+     4. In the System Variables box, click New. 
+     5. Repeat the following for each of the variables above:
+     
+       a. In the Name box, enter the name of the variable (without the equals sign).
+       b. In the Value box, enter the value of the variable (without the equals sign). 
+       c. Click Set. 
+     6. Click Edit. 
+     7. Reboot your machine to ensure that the settings took effect.
+
+3. Start cygwin from the icon it created during installation.
+4. type: cd //c
+5. type: mkdir Projects
+6. type: cd Projects
+7. type: cvs co ccaustin
+8. Enter your password for the site when prompted. (You may see a message with a yes/no prompt. Just type 'yes' and press enter. You won't see this message again).
+
+The one-time setup is now complete!
+
+Routine editing of pages
+========================
+1. Start cygwin from the icon it created during installation.
+2. type: cd //c/Projects/ccaustin
+3. type: cvs update -dP
+4. Once all files have been updated, you can open the file you want to edit with your editor of choice. 
+
+   For example, to edit the Sun/Wed messages, you would locate the xml
+   file under c:\Projects\ccaustin\src\web\xml\msgs\msgs.xml and edit
+   it with your favorite editor and save it when completed.
+
+5. After editing the file, go back to the cygwin shell and type:
+    cvs commit -m "<some message like: Edited messages for May 15, 2002 service" src/web/xml/msgs
+6. Your changes are now in the source control server and will be
+    reviewed and published by the web ministry team.
+
+    

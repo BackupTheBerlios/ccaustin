@@ -3,7 +3,7 @@
 
 	Prayer Chain Ministry - The ministry and its detail
 	
-	$Id: prayer.xml,v 1.1 2002/03/18 00:12:18 javajames27 Exp $
+	$Id: prayer.xml,v 1.2 2002/05/23 00:29:36 javajames27 Exp $
 		
 -->
 <content title="Prayer Chain Ministry">
@@ -18,6 +18,5 @@
   	    <contact-email email="2ds@msn.com">Prayer Request via Email</contact-email>
   	    <contact-phone phone="512.479.9454">Prayer Request via Phone</contact-phone>
    	  </contacts>
-	  <ministry-logo>/images/ministries/prayer.gif</ministry-logo>
 	</ministry>
 </content>

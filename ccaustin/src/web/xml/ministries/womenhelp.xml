@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Women's Heart-to-Heart  - The ministry and its detail
+	
+	$Id: womenhelp.xml,v 1.1 2002/05/23 00:29:36 javajames27 Exp $
+		
+-->
+<content title="Women Helping Women">
+	<ministry id="womenhelp">
+	  <name>Women Helping Women</name>
+	  <overview>"Women Helping Women" is available to help provide scripture that can be directly applied to struggles occuring in women's lives.</overview>
+	  <long-description>
+	    <p>Women Helping Women was started in 1995 when the Women’s Ministry felt led to provide assistance to women from the church who were in need of biblical counseling for the struggles occurring in their lives. The counselors are not professionals.  They are women who feel called to help other women address their problems through prayer and the sharing of biblical principles.  Their desire is to help provide scripture that can be directly applied to each situation.  This helps not only with the present problem, but leaves a biblical guideline to be used throughout their lives.</p>
+	   <p>This is not long-term counseling and is usually done in one session of sharing and prayer. It is important to remember that this is not a crisis-counseling ministry, and that the ministry must be reserved for those who consider Calvary Chapel to be their church home.  Please call the church office to schedule appointments.</p>
+	  </long-description>
+	  <contacts>
+	  	<contact-phone phone="719-4667">Contact the church office</contact-phone>
+   	  </contacts>
+	  <ministry-logo>/images/ministries/womenhelp.gif</ministry-logo>
+	</ministry>
+</content>

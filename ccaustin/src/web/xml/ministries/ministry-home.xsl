@@ -6,7 +6,7 @@
 	
 	Processes the ministry tag and its children tags
 	
-	$Id: ministry-home.xsl,v 1.4 2002/05/22 16:59:23 javajames27 Exp $
+	$Id: ministry-home.xsl,v 1.5 2002/05/23 00:29:36 javajames27 Exp $
 	
 -->	
 
@@ -26,9 +26,24 @@
 
 <xsl:template match="name">
       <xsl:variable name="logo"><xsl:value-of select="../ministry-logo"/></xsl:variable>
-		<tr>
-			<td width="100%" class="tableheader" align="left" valign="top" nowrap="true"><!--img src="{$logo}"/--><xsl:value-of select="text()"/></td>
-		</tr>
+          <xsl:choose>
+		  <xsl:when test="$logo != '' ">
+			<tr>
+			     <td width="100%" align="left"><table border="0"><tr><td class="title"><xsl:value-of select="text()"/></td><td width="1%" nowrap="true"><img src="{$logo}"/></td></tr></table></td>
+			</tr>
+			<tr>
+			     <td width="100%" align="left"><br/></td>
+			</tr>
+		  </xsl:when>
+		  <xsl:otherwise>
+			<tr>
+			     <td width="100%" align="left"><table border="0"><tr><td class="title"><xsl:value-of select="text()"/></td><td width="1%" nowrap="true"><img src="../images/ministries/generic.gif"/></td></tr></table></td>
+			</tr>
+			<tr>
+			     <td width="100%" align="left"><br/></td>
+			</tr>
+		  </xsl:otherwise>
+		</xsl:choose>
 		<xsl:apply-templates select="overview"/>
 </xsl:template>
 

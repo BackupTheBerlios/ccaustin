@@ -3,7 +3,7 @@
 
 	Young Disciples Club Ministry - The ministry and its detail
 	
-	$Id: children.xml,v 1.1 2002/05/22 16:59:23 javajames27 Exp $
+	$Id: children.xml,v 1.2 2002/05/23 00:29:36 javajames27 Exp $
 		
 -->
 <content title="Calvary Kids">
@@ -18,6 +18,5 @@
 	    <contact-email email="donna@calvaryaustin.org">Donna Cano, Ministry Leader</contact-email>
 	  	<contact-phone phone="719-4667">Call the Church Office</contact-phone>
    	  </contacts>
-	  <ministry-logo>/images/ministries/ydc.gif</ministry-logo>
 	</ministry>
 </content>

@@ -3,7 +3,7 @@
 
 	Focus Ministry - The ministry and its detail
 	
-	$Id: focus.xml,v 1.2 2002/03/15 23:39:05 javajames27 Exp $
+	$Id: focus.xml,v 1.3 2002/05/23 00:29:36 javajames27 Exp $
 		
 -->
 <content title="Focus Singles Ministry">
@@ -17,6 +17,5 @@
 	  <contacts>
   	    <contact-web name="Location">../about/location.html</contact-web>
    	  </contacts>
-	  <ministry-logo>/images/ministries/focus.gif</ministry-logo>
 	</ministry>
 </content>

@@ -3,7 +3,7 @@
 
 	Worship Ministry - The ministry and its detail
 	
-	$Id: worship.xml,v 1.2 2002/05/22 16:59:23 javajames27 Exp $
+	$Id: worship.xml,v 1.3 2002/05/23 00:29:36 javajames27 Exp $
 		
 -->
 <content title="Worship Team">
@@ -30,6 +30,5 @@ and women from the general body of Calvary Chapel of Austin.<br/><link href="../
 	  	<contact-email email="david@calvaryaustin.org">David Reynolds, Worship Pastor</contact-email>
 	  	<contact-phone phone="719-4667">Contact Phone</contact-phone>
    	  </contacts>
-	  <ministry-logo>/images/ministries/worship.gif</ministry-logo>
 	</ministry>
 </content>

@@ -3,7 +3,7 @@
 
 	Men's Ministry - The ministry and its detail
 	
-	$Id: men.xml,v 1.3 2002/05/22 16:59:23 javajames27 Exp $
+	$Id: men.xml,v 1.4 2002/05/23 00:29:36 javajames27 Exp $
 		
 -->
 <content title="Men's Ministry">
@@ -23,6 +23,5 @@
 	  <contacts>
   	    <contact-email email="glendon@calvaryaustin.org">Glendon Nicks</contact-email>
    	  </contacts>
-	  <ministry-logo>/images/ministries/men.gif</ministry-logo>
 	</ministry>
 </content>

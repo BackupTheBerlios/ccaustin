@@ -120,6 +120,9 @@
                 <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/home.xml" out="${build.web.dir}/ministries/home.html"/> 
                 <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/men.xml" out="${build.web.dir}/ministries/men.html"/> 
                 <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/women.xml" out="${build.web.dir}/ministries/women.html"/> 
+                <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/womenheart.xml" out="${build.web.dir}/ministries/womenheart.html"/> 
+                <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/womenstudy.xml" out="${build.web.dir}/ministries/womenstudy.html"/> 
+                <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/womenhelp.xml" out="${build.web.dir}/ministries/womenhelp.html"/> 
                 <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/worship.xml" out="${build.web.dir}/ministries/worship.html"/> 
                 <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/youth.xml" out="${build.web.dir}/ministries/youth.html"/> 
                 <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/dinner.xml" out="${build.web.dir}/ministries/dinner.html"/> 

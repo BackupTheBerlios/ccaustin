@@ -3,7 +3,7 @@
 
 	Home Fellowship Ministry - The ministry and its detail
 	
-	$Id: home.xml,v 1.4 2002/05/22 16:59:23 javajames27 Exp $
+	$Id: home.xml,v 1.5 2002/05/23 00:29:36 javajames27 Exp $
 		
 -->
 <content title="Home Fellowship Ministry" onUnload="hfnWindow.close()">
@@ -33,7 +33,6 @@
 	  <contacts>
 	  	<contact-phone phone="719-4667">Contact the church office</contact-phone>
    	  </contacts>
-	  <ministry-logo>/images/ministries/home.gif</ministry-logo>
 	  
 	  <hfndata>
 	  </hfndata>

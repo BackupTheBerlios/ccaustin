@@ -3,7 +3,7 @@
 
 	New Believer's Ministry - The ministry and its detail
 	
-	$Id: newbelievers.xml,v 1.1 2002/03/18 00:12:18 javajames27 Exp $
+	$Id: newbelievers.xml,v 1.2 2002/05/23 00:29:36 javajames27 Exp $
 		
 -->
 <content title="New Believer's Ministry">
@@ -16,6 +16,5 @@
 	  </long-description>
 	  <contacts>
    	  </contacts>
-	  <ministry-logo>/images/ministries/newbelievers.gif</ministry-logo>
 	</ministry>
 </content>
