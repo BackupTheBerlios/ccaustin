@@ -3,7 +3,7 @@
 
 	New Believer's Ministry - The ministry and its detail
 	
-	$Id: newbelievers.xml,v 1.3 2002/06/02 20:27:30 swearingen Exp $
+	$Id: newbelievers.xml,v 1.4 2002/06/02 21:57:03 swearingen Exp $
 		
 -->
 <content title="New Believer's Ministry">
@@ -13,19 +13,21 @@
                 teaching students to observe all things Jesus has commanded us.
                 </overview>
 	  <long-description>
-	    <heading>Details</heading>
         <p>
         Want to grow in your understanding of basic Bible teachings?  Either for the
         first time or to refresh your understanding of these fundamental truths?  Then a
-        New Believer's class may be just for you.  These 12-week classes are offered at
-        various times through out the year and are available for adults seeking to grow
-        in this way.
+        New Believer's class may be just for you.  
+        The New Believer's classes are opportunities for other like minded individuals and
+        provide an opportunity for fellowship with one another.
         </p>
         <p>
-        The New Believer's classes are opportunities for other like minded individuals and
-        provide an opportunity for fellowship.  Students in advance of class night spend
-        time in prayer and studying the Bible using curriculum provided by the instructor.
-        The <a href="http://www.calvarychapel.com/costamesa/newbelievers/study/index.htm">New Believer's curriculum</a> is based 
+        These 12-week classes are offered at
+        various times through out the year and are available for adults seeking to grow
+        in this way.
+        Students in advance of class night spend
+        time in praying for one another and studying the Bible using curriculum provided
+        by the instructor.
+        The <link href="http://www.calvarychapel.com/costamesa/newbelievers/study/index.htm">New Believer's curriculum</link> is based 
         on materials provided by Calvary Chapel Costa Mesa.
 	    </p>
 	  </long-description>
