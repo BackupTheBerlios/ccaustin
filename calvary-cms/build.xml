@@ -8,7 +8,7 @@
   <property name="project.build.home" value="${project.home}/build"/>
   <property name="project.build.docs.home" value="${project.build.home}/docs"/>
   <property name="project.docs.home" value="${project.home}/docs"/>
-  <property name="project.dist.home" value="${project.home}/dist"/>
+  <property name="project.dist.home" value="${project.home}/main/dist"/>
   <property name="project.src.home" value="${project.home}/main/src"/>
 
   <!-- ================== UseCases ================== -->
@@ -83,6 +83,7 @@
   <property name="project.build.controlpanel.jar" value="${project.build.controlpanel.home}/${ant.project.name}-controlpanel.jar"/>
   <property name="project.build.controlpanel.war" value="${project.build.controlpanel.home}/controlpanel.war"/>
   <property name="project.build.controlpanel.ear" value="${project.build.controlpanel.home}/controlpanel.ear"/>
+  <property name="project.dist.controlpanel.home" value="${project.dist.home}/controlpanel"/>
 
   <!-- ================== Daily ================== -->
   <property name="project.src.daily.home" value="${project.src.home}/daily"/>
@@ -128,6 +129,7 @@
     <mkdir dir="${project.build.controlpanel.classes}"/>
     <mkdir dir="${project.build.controlpanel.testclasses}"/>
     <mkdir dir="${project.build.controlpanel.testout}"/>
+    <mkdir dir="${project.dist.controlpanel.home}"/>
     <mkdir dir="${project.dist.daily.home}"/>
     <mkdir dir="${project.dist.daily.lib}"/>
 
@@ -190,30 +192,8 @@
   <!-- ================================================= -->
   <!-- Dist Target -->
   <!-- ================================================= -->
-  <target name="dist" depends="build">
-    <copy toDir="${project.dist.daily.home}">
-      <fileset dir="${project.src.daily.home}"/>
-    </copy>
-
-    <copy toDir="${project.dist.daily.home}" file="${project.home}/build.properties"/>
-
-    <copy toDir="${project.dist.daily.lib}/apache/lib">
-      <fileset dir="${project.imports.home}/apache/lib"/>
-    </copy>
-
-    <copy toDir="${project.dist.daily.lib}/jakarta-slide/client/lib">
-      <fileset dir="${slide.home}/client/lib/"/>
-    </copy>
-
-    <copy toDir="${project.dist.daily.lib}" file="${project.build.cms.jar}"/>
-    <copy toDir="${project.dist.daily.lib}" file="${project.build.jbossext.jar}"/>
-    <copy toDir="${project.dist.daily.lib}" file="${project.build.webframework.jar}"/>
-    <copy toDir="${project.dist.daily.lib}" file="${project.build.tools.jar}"/>
-
-    <copy toDir="${project.dist.daily.lib}">
-      <fileset dir="${project.src.cms}/../testresources"/>
-    </copy>
-  </target>
+  <target name="dist" depends="init, build, dist-controlpanel, dist-daily"
+          description="Create a distribution for installation"/>
 
   <!-- ================================================= -->
   <!-- Deploy Target -->
@@ -243,7 +223,7 @@
   <!-- ================================================= -->
   <!-- InitServer Target -->
   <!-- ================================================= -->
-  <target name="initserver" depends="init,initserver-controlpanel-slide"
+  <target name="initserver" depends="init,initserver-controlpanel-slide,initserver-controlpanel-jars"
           description="Initializes your jboss server with the appropriate libs and directories. RUN THIS TARGET ONLY WHILE THE SERVER IS NOT RUNNING"/>
 
   <!-- ================================================= -->
@@ -675,19 +655,92 @@
      </junit>
   </target>
 
+  <target name="dist-controlpanel">
+    <!-- create the dist structure -->
+    <mkdir dir="${project.dist.controlpanel.home}/stage"/>
+    <mkdir dir="${project.dist.controlpanel.home}/stage/jboss/default"/>
+    <mkdir dir="${project.dist.controlpanel.home}/stage/jboss/default/server"/>
+    <mkdir dir="${project.dist.controlpanel.home}/stage/jboss/default/server/lib"/>
+    <mkdir dir="${project.dist.controlpanel.home}/stage/slide.war"/>
+
+    <!-- create the jboss server/default/lib structure and jar it -->
+    <antcall target="_initserver-controlpanel-jars">
+      <param name="dest" value="${project.dist.controlpanel.home}/stage/jboss/default/server/lib"/>
+    </antcall>
+    <jar jarfile="${project.dist.controlpanel.home}/jboss-default-server-lib.jar">
+      <fileset dir="${project.dist.controlpanel.home}/stage/jboss">
+        <include name="**"/>
+      </fileset>
+    </jar>
+
+    <!-- slide.war -->
+    <antcall target="_initserver-controlpanel-slide">
+      <param name="dest" value="${project.dist.controlpanel.home}/stage/slide.war"/>
+    </antcall>
+    <jar jarfile="${project.dist.controlpanel.home}/slide.war">
+      <fileset dir="${project.dist.controlpanel.home}/stage/slide.war">
+        <include name="**"/>
+      </fileset>
+    </jar>
+    <!-- controlpanel.ear -->
+    <copy file="${project.build.controlpanel.ear}" toDir="${project.dist.controlpanel.home}"/>
+
+    <!-- archive it up -->
+    
+  </target>
+
   <target name="initserver-controlpanel-slide">
+    <antcall target="_initserver-controlpanel-slide">
+      <param name="dest" value="${jboss.deploy.home}/slide.war"/>
+    </antcall>
+  </target>
+
+  <target name="_initserver-controlpanel-slide">
     <!-- Note: Its best if the server is not running when this is done, as the server may try to
     deploy the war before its fully copied -->
+
+    <!-- unjar the slide war file for faster deploy -->
+    <mkdir dir="${jboss.deploy.home}/slide.war"/>
+    <unjar src="${slide.war}" dest="${dest}"/>
+    <!-- and remove a few files we are putting into the jboss lib -->
+    <delete file="${dest}/WEB-INF/lib/jdom.jar"/>
+    <delete file="${dest}/WEB-INF/lib/jdom-dev.jar"/>
+    <delete file="${dest}/WEB-INF/lib/slide-kernel.jar"/>
+    <delete file="${dest}/WEB-INF/lib/slide-roles.jar"/>
+    <delete file="${dest}/WEB-INF/lib/slide-stores.jar"/>
+    <delete file="${dest}/WEB-INF/lib/slide-webdavservlet.jar"/>
+
+    <!-- NOTE: This file may need to go into the jar above, as we are using basic configs right now,
+     so can't currently see if its picking this file up from the location its being copied to -->
+    <delete file="${dest}/Domain.xml"/>
+    <delete file="${dest}/WEB-INF/web.xml"/>
+    <delete file="${dest}/WEB-INF/jboss-web.xml"/>
+    <copy file="${project.src.controlpanel.config.test}/slide/Domain.xml"
+          toDir="${dest}"/>
+    <copy file="${project.src.controlpanel.config.test}/slide/web.xml"
+      toDir="${dest}/WEB-INF"/>
+    <copy file="${project.src.controlpanel.config.test}/slide/jboss-web.xml"
+      toDir="${dest}/WEB-INF"/>
+  </target>
+
+  <target name="initserver-controlpanel-jars">
+    <antcall target="_initserver-controlpanel-jars">
+      <param name="dest" value="${jboss.lib.home}"/>
+    </antcall>
+  </target>
+
+  <target name="_initserver-controlpanel-jars">
+    <!-- Target which accepts a param called 'dest' where the jars should be copied - used by initserver and dist targets -->
 
     <!-- copy shared jars to JBoss's shared classpath dir, so we can deploy both slide.war and controlpanel.war -->
     <!-- NOTE: We could move these files from WEB-INF/lib to jboss's lib dir, but for now we'll keep
     it this way. Adjust if classloader issues start to show up -->
-    <copy file="${slide.kernel.jar}" toDir="${jboss.lib.home}"/>
-    <copy file="${slide.roles.jar}" toDir="${jboss.lib.home}"/>
-    <copy file="${slide.stores.jar}" toDir="${jboss.lib.home}"/>
-    <copy file="${slide.webdavservlet.jar}" toDir="${jboss.lib.home}"/>
-    <copy file="${slide.jdom.jar}" toDir="${jboss.lib.home}"/>
-    <copy file="${slide.jdomdev.jar}" toDir="${jboss.lib.home}"/>
+    <copy file="${slide.kernel.jar}" toDir="${dest}"/>
+    <copy file="${slide.roles.jar}" toDir="${dest}"/>
+    <copy file="${slide.stores.jar}" toDir="${dest}"/>
+    <copy file="${slide.webdavservlet.jar}" toDir="${dest}"/>
+    <copy file="${slide.jdom.jar}" toDir="${dest}"/>
+    <copy file="${slide.jdomdev.jar}" toDir="${dest}"/>
 
     <!-- Copy some apache libs over the pre-packaged ones under Tomcat (for jb3.0.6 hot deploy debugging)
     <copy file="${commons.logging.jar}" toDir="${jboss.tomcat.lib.home}"/>
@@ -695,34 +748,12 @@
     <copy file="${commons.beanutils.jar}" toDir="${jboss.tomcat.lib.home}"/>
     -->
 
-    <!-- unjar the slide war file for faster deploy -->
-    <mkdir dir="${jboss.deploy.home}/slide.war"/>
-    <unjar src="${slide.war}" dest="${jboss.deploy.home}/slide.war"/>
-    <!-- and remove a few files we are putting into the jboss lib -->
-    <delete file="${jboss.deploy.home}/slide.war/WEB-INF/lib/jdom.jar"/>
-    <delete file="${jboss.deploy.home}/slide.war/WEB-INF/lib/jdom-dev.jar"/>
-    <delete file="${jboss.deploy.home}/slide.war/WEB-INF/lib/slide-kernel.jar"/>
-    <delete file="${jboss.deploy.home}/slide.war/WEB-INF/lib/slide-roles.jar"/>
-    <delete file="${jboss.deploy.home}/slide.war/WEB-INF/lib/slide-stores.jar"/>
-    <delete file="${jboss.deploy.home}/slide.war/WEB-INF/lib/slide-webdavservlet.jar"/>
-
     <!-- place our configuration files in the slide war structure using a jar file -->
-    <jar jarfile="${jboss.lib.home}/slide-properties.jar">
+    <jar jarfile="${dest}/slide-properties.jar">
       <fileset dir="${project.src.controlpanel.config.test}/slide">
              <include name="**/*.properties"/>
          </fileset>
     </jar>
-    <!-- NOTE: This file may need to go into the jar above, as we are using basic configs right now,
-     so can't currently see if its picking this file up from the location its being copied to -->
-    <delete file="${jboss.deploy.home}/slide.war/Domain.xml"/>
-    <delete file="${jboss.deploy.home}/slide.war/WEB-INF/web.xml"/>
-    <delete file="${jboss.deploy.home}/slide.war/WEB-INF/jboss-web.xml"/>
-    <copy file="${project.src.controlpanel.config.test}/slide/Domain.xml"
-          toDir="${jboss.deploy.home}/slide.war"/>
-    <copy file="${project.src.controlpanel.config.test}/slide/web.xml"
-      toDir="${jboss.deploy.home}/slide.war/WEB-INF"/>
-    <copy file="${project.src.controlpanel.config.test}/slide/jboss-web.xml"
-      toDir="${jboss.deploy.home}/slide.war/WEB-INF"/>
   </target>
   
   <!-- ================================================= -->
@@ -781,6 +812,36 @@
            destdir="${project.build.devguide.html}"
            includes="**/*.xml">
     </style>
+  </target>
+
+  <!-- ================================================= -->
+  <!-- Daily Targets -->
+  <!-- ================================================= -->
+  <target name="dist-daily">
+    <copy toDir="${project.dist.daily.home}">
+      <fileset dir="${project.src.daily.home}"/>
+    </copy>
+
+    <copy toDir="${project.dist.daily.home}" file="${project.home}/build.properties"/>
+
+    <!--
+    <copy toDir="${project.dist.daily.lib}/apache/lib">
+      <fileset dir="${project.imports.home}/apache/lib"/>
+    </copy>
+-->
+
+    <copy toDir="${project.dist.daily.lib}/jakarta-slide/client/lib">
+      <fileset dir="${slide.home}/client/lib/"/>
+    </copy>
+
+    <copy toDir="${project.dist.daily.lib}" file="${project.build.cms.jar}"/>
+    <copy toDir="${project.dist.daily.lib}" file="${project.build.jbossext.jar}"/>
+    <copy toDir="${project.dist.daily.lib}" file="${project.build.webframework.jar}"/>
+    <copy toDir="${project.dist.daily.lib}" file="${project.build.tools.jar}"/>
+
+    <copy toDir="${project.dist.daily.lib}">
+      <fileset dir="${project.src.cms}/../testresources"/>
+    </copy>
   </target>
 
 </project>
