@@ -28,6 +28,7 @@ import org.apache.slide.webdav.util.resourcekind.VersionControlledImpl;
 import org.apache.slide.webdav.util.resourcekind.VersionHistoryImpl;
 import org.apache.slide.webdav.util.resourcekind.VersionImpl;
 import org.apache.util.HttpURL;
+import org.apache.webdav.lib.PropertyName;
 import org.apache.webdav.lib.WebdavResource;
 
  
@@ -38,7 +39,8 @@ import org.apache.webdav.lib.WebdavResource;
  */
 public class UpdateCommand extends AbstractSlideCommand
 {
-
+	public static final String CALVARY_PROP_PREFIX = "calvary:";
+	public static final String PROP_REASON_FOR_CHANGE = "reasonforchange";
     /**
      * Initialize the command that is to be performed
      * @param slideToken the client token to use for the work
@@ -46,12 +48,14 @@ public class UpdateCommand extends AbstractSlideCommand
      * @param uriToUpdate the URI to the resource to update
      */
     public UpdateCommand(SlideToken slideToken, NamespaceAccessToken namespace, 
-    					  String uriToUpdate, String contentType, String contentString)
+    					  String uriToUpdate, String contentType, String contentString,
+    					  String reasonForChange)
     {
         super(slideToken, namespace);
         this.uriToUpdate = uriToUpdate;
         this.contentType = contentType;
         this.contentString = contentString;
+        this.reasonForChange = reasonForChange;
         
         // hold-over from versioning helper code
         ActionNode actionNode = namespace.getNamespaceConfig().getModifyRevisionMetadataAction();
@@ -91,12 +95,20 @@ public class UpdateCommand extends AbstractSlideCommand
           webdavResource.setPath(subpath);
           if (webdavResource.putMethod("/slide"+uriToUpdate, contentString))
           {
-            log.debug("execute(): Succeeded");
+            log.debug("execute(): PUT Succeeded");
           } 
           else
           {
             //log.debug("importFile(): Failed. Reason: "+webdavResource.getStatusMessage());
             throw new SlideException("Import failed. Reason: "+webdavResource.getStatusMessage());
+          }
+          if(webdavResource.proppatchMethod("/slide"+uriToUpdate, new PropertyName(CALVARY_PROP_PREFIX,PROP_REASON_FOR_CHANGE), reasonForChange) )
+          {
+			log.debug("execute(): PROPPATCH Succeeded");
+          }
+          else 
+          {
+			throw new SlideException("Proppatch failed. Reason: "+webdavResource.getStatusMessage());
           }
         }
         catch (HttpException e)
@@ -616,7 +628,7 @@ public class UpdateCommand extends AbstractSlideCommand
     private String uriToUpdate;
     private String contentString;
 	private String contentType;
-	
+	private String reasonForChange;	
 	
 	// versioning helper stuff
     private String modifyMetadataUri;

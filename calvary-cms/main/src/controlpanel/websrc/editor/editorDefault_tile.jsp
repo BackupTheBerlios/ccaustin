@@ -20,6 +20,11 @@
 	<p>
 		<html:textarea property="content" rows="40" cols="80"/>
 	</p>
+	<p class="fieldLabel"><bean:message key="editorForm.reasonForChange.displayname"/>:</p>
+	<p class="error"><html:errors property="reasonForChange"/></p>
+	<p>
+		<html:textarea property="reasonForChange" rows="10" cols="80"/>
+	</p>
 	<p class="buttonBar">
 		<!--<input type="submit" name="Preview" value="Preview"/>-->  
 		<input type="Submit" name="Cancel" value="Cancel"/>

@@ -3,11 +3,11 @@ package org.calvaryaustin.controlpanel.editor;
 import org.calvaryaustin.web.BaseValidatorForm;
 
 /**
+ * Represents a document, its current or edited contents, and other view-related information
  * @author jhigginbotham
  */
 public class EditorForm extends BaseValidatorForm
 {
-	// TODO: Add requirement for a comment when saving change
 	// TODO: Add requirement for layout, renderer, and template to be selected
 
     /**
@@ -120,11 +120,29 @@ public class EditorForm extends BaseValidatorForm
         this.contentType = contentType;
     }
 
+	/**
+	 * Returns the reason for changing the content 
+	 * @return the reason for changing the content
+	 */
+	public String getReasonForChange()
+	{
+		return reasonForChange;
+	}
+
+	/**
+	 * Sets the reason for changing the content
+	 * @param string containing the reason for changing the content
+	 */
+	public void setReasonForChange(String string)
+	{
+		reasonForChange = string;
+	}
+
     private String site;
     private String path;
     private String file;
     private String computedUri;
     private String contentType;
     private String content;
-    
+	private String reasonForChange;    
 }

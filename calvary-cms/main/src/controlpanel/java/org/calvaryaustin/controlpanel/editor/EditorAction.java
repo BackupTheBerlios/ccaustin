@@ -134,7 +134,7 @@ public class EditorAction extends AdminAction
             // TODO: if not, show error
 
             // otherwise, update the content
-            UpdateCommand updateCommand = new UpdateCommand(slideToken, nat, form.getComputedUri(), form.getContentType(), form.getContent());
+            UpdateCommand updateCommand = new UpdateCommand(slideToken, nat, form.getComputedUri(), form.getContentType(), form.getContent(), form.getReasonForChange());
             updateCommand.execute();	
             
             // TODO: next, attach the properties for our build system
@@ -152,6 +152,7 @@ public class EditorAction extends AdminAction
         } catch(Exception e)
         {
             log.error("caught",e);
+            request.getErrors().add(ActionErrors.GLOBAL_ERROR, new ActionError("errors.exception",e.getMessage()));
         }
         // rollback the transaction, as something failed
         try

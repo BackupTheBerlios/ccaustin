@@ -68,13 +68,10 @@
         depends="required,xmldocument,wellformed">
         <arg0 key="editorForm.content.displayname"/>
       </field>
-      <!--
-      <field property="description"
+      <field property="reasonForChange"
         depends="required">
-        <arg0 key="editorForm.description.displayname"/>
+        <arg0 key="editorForm.reasonForChange.displayname"/>
       </field>
-      
-      -->
     </form>
     
     
