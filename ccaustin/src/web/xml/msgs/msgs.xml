@@ -9426,5 +9426,13 @@
 		<tape>BS110203</tape>
 		<audio>42-luk/42-luk-12-35.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk012.html#top</passageref>
-	</message>                                        
+	</message> 
+	<message date="20031109" service="sunday" category="misc">
+		<seriestitle>Guest Speaker</seriestitle>
+		<title>Psalm 19 - Bill Mobley</title>
+		<passage>Psalm 19</passage>
+		<tape>GS110903</tape>
+		<audio>guestspeaker/bmobley1103.ram</audio>
+		<passageref></passageref>
+	</message>                                       
 </messagecatalog>
