@@ -75,7 +75,9 @@
   <property name="project.src.controlpanel.testresources" value="${project.src.home}/controlpanel/testresources"/>
   <property name="project.src.controlpanel.config" value="${project.src.home}/controlpanel/config"/>
   <property name="project.src.controlpanel.config.test" value="${project.src.controlpanel.config}/test"/>
+  <property name="project.src.controlpanel.config.production" value="${project.src.controlpanel.config}/production"/>
   <property name="project.src.controlpanel.web" value="${project.src.home}/controlpanel/websrc"/>
+  <property name="project.src.controlpanel.scripts" value="${project.src.home}/controlpanel/scripts"/>
   <property name="project.build.controlpanel.home" value="${project.build.home}/controlpanel"/>
   <property name="project.build.controlpanel.classes" value="${project.build.controlpanel.home}/classes"/>
   <property name="project.build.controlpanel.testclasses" value="${project.build.controlpanel.home}/testclasses"/>
@@ -199,16 +201,13 @@
   <!-- Deploy Target -->
   <!-- ================================================= -->
   <target name="deploy" depends="build"
-          description="Deploys all units to the server (.ear, .war. .bsh, .sar)">
+          description="Deploys all units to the local development server (.ear, .war. .bsh, .sar)">
+    <antcall target="_deploy_controlpanel">
+      <param name="lib" value="${jboss.lib.home}"/>
+      <param name="config" value="${jboss.config.home}"/>
+    </antcall>
     <copy toDir="${jboss.deploy.home}">
       <fileset dir="${project.build.controlpanel.home}" includes="**/*.ear"/>
-    </copy>
-    <copy toDir="${jboss.lib.home}">
-      <fileset dir="${project.build.jbossext.home}" includes="**/*.jar"/>
-    </copy>
-    <copy toDir="${jboss.config.home}">
-      <fileset dir="${project.src.controlpanel.config.test}/jboss" includes="**/*-config.xml"/>
-      <fileset dir="${project.src.controlpanel.config.test}/jboss" includes="**/log4*.xml"/>
     </copy>
     <!-- Moved this to initserver to see if that works better and prevents bouncing of slide.war 
     <copy toDir="${jboss.deploy.home}/slide.war/WEB-INF" overwrite="true">
@@ -218,6 +217,18 @@
       <fileset dir="${project.src.controlpanel.config.test}/slide" includes="**/*web.xml"/>
     </copy>
     -->
+  </target>
+
+  <target name="_deploy_controlpanel">
+    <!-- PARAM lib - where the jboss lib dir jar files go -->
+    <!-- PARAM config - where the jboss config files go -->
+    <copy toDir="${lib}">
+      <fileset dir="${project.build.jbossext.home}" includes="**/*.jar"/>
+    </copy>
+    <copy toDir="${config}">
+      <fileset dir="${project.src.controlpanel.config.test}/jboss" includes="**/*-config.xml"/>
+      <fileset dir="${project.src.controlpanel.config.test}/jboss" includes="**/log4*.xml"/>
+    </copy>
   </target>
 
   <!-- ================================================= -->
@@ -568,7 +579,7 @@
      <pathelement path="${project.src.controlpanel.testresources}"/>
   </path>
 
-  <target name="build-controlpanel" depends="init, compile-controlpanel, jar-controlpanel"/>
+  <target name="build-controlpanel" depends="init, compile-controlpanel, compile-controlpanel-jsps, jar-controlpanel"/>
 
   <target name="compile-controlpanel" depends="init">
      <!-- Compile -->
@@ -583,6 +594,10 @@
               target="${JAVAC_TARGET}"
               fork="true"
      />
+  </target>
+
+  <target name="compile-controlpanel-jsps" depends="init">
+    <!-- TODO -->
   </target>
 
   <target name="compile-controlpanel-tests" depends="init">
@@ -658,16 +673,29 @@
   <target name="dist-controlpanel">
     <!-- create the dist structure -->
     <mkdir dir="${project.dist.controlpanel.home}/stage"/>
-    <mkdir dir="${project.dist.controlpanel.home}/stage/jboss/default"/>
-    <mkdir dir="${project.dist.controlpanel.home}/stage/jboss/default/server"/>
-    <mkdir dir="${project.dist.controlpanel.home}/stage/jboss/default/server/lib"/>
+    <mkdir dir="${project.dist.controlpanel.home}/stage/jboss/server"/>
+    <mkdir dir="${project.dist.controlpanel.home}/stage/jboss/server/default"/>
+    <mkdir dir="${project.dist.controlpanel.home}/stage/jboss/server/default/lib"/>
+    <mkdir dir="${project.dist.controlpanel.home}/stage/jboss/server/default/conf"/>
     <mkdir dir="${project.dist.controlpanel.home}/stage/slide.war"/>
+
+    <!-- copy scripts -->
+    <copy toDir="${project.dist.controlpanel.home}">
+      <fileset dir="${project.src.controlpanel.scripts}">
+        <include name="**/*.sh"/>
+      </fileset>
+    </copy>
 
     <!-- create the jboss server/default/lib structure and jar it -->
     <antcall target="_initserver-controlpanel-jars">
-      <param name="dest" value="${project.dist.controlpanel.home}/stage/jboss/default/server/lib"/>
+      <param name="dest" value="${project.dist.controlpanel.home}/stage/jboss/server/default/lib"/>
+      <param name="config" value="${project.src.controlpanel.config.test}"/>
     </antcall>
-    <tar compression="gzip" tarfile="${project.dist.controlpanel.home}/jboss-default-server-lib.tar.gz">
+    <antcall target="_deploy_controlpanel">
+      <param name="lib" value="${project.dist.controlpanel.home}/stage/jboss/server/default/lib"/>
+      <param name="config" value="${project.dist.controlpanel.home}/stage/jboss/server/default/conf"/>
+    </antcall>
+    <tar compression="gzip" tarfile="${project.dist.controlpanel.home}/jboss-server-default.tar.gz">
       <tarfileset dir="${project.dist.controlpanel.home}/stage/jboss">
         <include name="**"/>
       </tarfileset>
@@ -676,6 +704,7 @@
     <!-- slide.war -->
     <antcall target="_initserver-controlpanel-slide">
       <param name="dest" value="${project.dist.controlpanel.home}/stage/slide.war"/>
+      <param name="config" value="${project.src.controlpanel.config.test}"/> 
     </antcall>
     <jar jarfile="${project.dist.controlpanel.home}/slide.war">
       <fileset dir="${project.dist.controlpanel.home}/stage/slide.war">
@@ -698,10 +727,14 @@
   <target name="initserver-controlpanel-slide">
     <antcall target="_initserver-controlpanel-slide">
       <param name="dest" value="${jboss.deploy.home}/slide.war"/>
+      <param name="config" value="${project.src.controlpanel.config.test}"/>
     </antcall>
   </target>
 
   <target name="_initserver-controlpanel-slide">
+    <!-- Target which accepts a param called 'dest' where slide should be copied - used by initserver and dist targets -->
+    <!-- Target which accepts a param called 'config' where the slide config should be sourced from - used by initserver and dist targets -->
+
     <!-- Note: Its best if the server is not running when this is done, as the server may try to
     deploy the war before its fully copied -->
 
@@ -721,22 +754,24 @@
     <delete file="${dest}/Domain.xml"/>
     <delete file="${dest}/WEB-INF/web.xml"/>
     <delete file="${dest}/WEB-INF/jboss-web.xml"/>
-    <copy file="${project.src.controlpanel.config.test}/slide/Domain.xml"
+    <copy file="${config}/slide/Domain.xml"
           toDir="${dest}"/>
-    <copy file="${project.src.controlpanel.config.test}/slide/web.xml"
+    <copy file="${config}/slide/web.xml"
       toDir="${dest}/WEB-INF"/>
-    <copy file="${project.src.controlpanel.config.test}/slide/jboss-web.xml"
+    <copy file="${config}/slide/jboss-web.xml"
       toDir="${dest}/WEB-INF"/>
   </target>
 
   <target name="initserver-controlpanel-jars">
     <antcall target="_initserver-controlpanel-jars">
       <param name="dest" value="${jboss.lib.home}"/>
+      <param name="config" value="${project.src.controlpanel.config.test}"/>
     </antcall>
   </target>
 
   <target name="_initserver-controlpanel-jars">
     <!-- Target which accepts a param called 'dest' where the jars should be copied - used by initserver and dist targets -->
+    <!-- Target which accepts a param called 'config' where the slide config should be sourced from - used by initserver and dist targets -->
 
     <!-- copy shared jars to JBoss's shared classpath dir, so we can deploy both slide.war and controlpanel.war -->
     <!-- NOTE: We could move these files from WEB-INF/lib to jboss's lib dir, but for now we'll keep
@@ -756,7 +791,7 @@
 
     <!-- place our configuration files in the slide war structure using a jar file -->
     <jar jarfile="${dest}/slide-properties.jar">
-      <fileset dir="${project.src.controlpanel.config.test}/slide">
+      <fileset dir="${config}/slide">
              <include name="**/*.properties"/>
          </fileset>
     </jar>

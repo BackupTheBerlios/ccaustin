@@ -46,7 +46,6 @@
   
     <action path="/dashboard"
             type="org.calvaryaustin.controlpanel.dashboard.DashboardAction"
-            name="dashboard"
             scope="request">
       <forward name="dashboard.default"
                path="dashboard"/>
