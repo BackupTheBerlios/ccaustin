@@ -3,7 +3,7 @@
 
 	Coffee Creator - The ministry and its detail
 	
-	$Id: coffee.xml,v 1.11 2003/09/29 02:03:27 gregk Exp $
+	$Id: coffee.xml,v 1.12 2003/11/13 18:42:11 gregk Exp $
 		
 -->
 <content title="Coffee Creator">
@@ -38,7 +38,7 @@
 	    </table>
 	  </long-description>
 	  <contacts>
-	  	<contact-email email="coffeecreator@sbcglobal.net">Kenda Newberry, Manager</contact-email>
+	  	<contact-email email="coffeecreator@sbcglobal.net">Brooke Johnson, Manager</contact-email>
 	  	<contact-phone phone="512.719.4544">Phone</contact-phone>
 	  	<contact-phone phone="512.963.0113 (contact J.D.)">Booking for Music</contact-phone>
    	  </contacts>

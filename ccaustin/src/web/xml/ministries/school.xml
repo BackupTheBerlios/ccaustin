@@ -3,7 +3,7 @@
 
 	FrontLine Ministry - The ministry and its detail
 	
-	$Id: school.xml,v 1.4 2003/08/10 05:05:21 gregk Exp $
+	$Id: school.xml,v 1.5 2003/11/13 18:41:41 gregk Exp $
 		
 -->
 <content title="School of Ministry">
@@ -121,6 +121,7 @@
     <contacts>
       <contact-phone phone="719-4667">Please pick up a course catalogue at the
 	information station in the church lobby or call the church office</contact-phone>
+      <contact-email email="Bunjee@calvaryaustin.org">Bunjee Garrett</contact-email>
     </contacts>
     <ministry-logo>../images/ministries/school.jpg</ministry-logo>
   </ministry>
