@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.134 2004/10/31 13:50:58 premav Exp $
+	$Id: calendar.xml,v 1.135 2004/11/06 16:20:18 premav Exp $
 		
 -->
 <content title="Calendar">
@@ -745,10 +745,10 @@ Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE<
 		<date>Nov 5-7</date>
 		<detail>A Mexico mission trip to the women and children's shelter at Pan De Vida will be the weekend of Nov 5-7. Go to the Events Center to sign up or get more info.</detail>
     </event>
-    <event id="11004" date="20041224" showOnHomepage="true">
+    <event id="11004" date="20041123" showOnHomepage="true">
 	 <title>Operation Christmas Child 2004</title>
-		<date>Dec</date>
-		<detail>Participate in a unique international ministry project without leaving Austin! Share God's love with kids around the globe who may have never heard the gospel or received a Christmas gift. Informative brochures and prayer guides are available at the Operation Christmas Child table in the lobby.</detail>
+		<date>Nov 21st</date>
+		<detail>Share God's love with kids around the globe that may have never heard the gospel or received a Christmas gift. Participate by picking up shoeboxes and brochures that are available at the OCC table in the lobby. Last day to bring your filled and wrapped boxes is Sunday, November 21st.</detail>
     </event>
     <event id="11005" date="20041108" showOnHomepage="true">
 	 <title>WOW! Kids</title>
@@ -757,6 +757,11 @@ Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE<
 		<ministries>
 			<ministry id="children"/>
 		</ministries>
+    </event>
+    <event id="11006" date="20041126" showOnHomepage="true">
+	 <title>Gobble! Gobble! It's Turkey Bowl Time!</title>
+		<date>Nov 25th</date>
+		<detail>Flag football at its best. Join the fun Thanksgiving morning from 8:30 - 10:30am. Pick up a flier at the Events Center for more information.</detail>
     </event>
 	</calendar>
 </content>

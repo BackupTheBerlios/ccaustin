@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.104 2004/10/31 13:50:58 premav Exp $
+	$Id: whatsnew.xml,v 1.105 2004/11/06 16:20:18 premav Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -534,6 +534,10 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		<news-item id="155" date="20041008" expires="20041101" showOnHomepage="true">
 		   <title>Calling All Social Butterflies</title>
 		   <detail>We are looking for volunteers for our Welcome Center to greet new visitors, supply them with visitor packets and a good dose of pleasantries. If interested contact Bunjee Garrett at 719-4667. </detail>
+		</news-item>
+		<news-item id="156" date="20041105" expires="20041131" showOnHomepage="true">
+		   <title>Lighting Ministry</title>
+		   <detail>We are seeking servants with several varying abilities and skills. Electricians, artist, stage hands, and anyone with the heart to serve. Contact Jeremy Valencia at 719-4667 or <link href="Jeremy@calvaryaustin.org">Jeremy@calvaryaustin.org</link></detail>
 		</news-item>
 <!--
 -->
