@@ -91,6 +91,9 @@
     <copy todir="${build.web.dir}/js">
       <fileset dir="${src.js.dir}"/>
     </copy>
+    <copy todir="${build.web.dir}/js">
+      <fileset dir="${build.web.dir}/_js"/>
+    </copy>
     <copy todir="${build.web.dir}/css">
       <fileset dir="${src.css.dir}"/>
     </copy>
@@ -114,6 +117,9 @@
     </copy>
     <copy todir="${dist.web.dir}/js" overwrite="true">
       <fileset dir="${src.js.dir}"/>
+    </copy>
+    <copy todir="${dist.web.dir}/js" overwrite="true">
+      <fileset dir="${build.web.dir}/_js"/>
     </copy>
     <copy todir="${dist.web.dir}/css" overwrite="true">
       <fileset dir="${src.css.dir}"/>

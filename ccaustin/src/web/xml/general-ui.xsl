@@ -13,7 +13,7 @@
 	A variant of this file may offer more search engine or accessibility-friendly
 	navigation and less Javascript features for older browsers. 
 	
-	$Id: general-ui.xsl,v 1.25 2002/07/10 21:51:28 javajames27 Exp $
+	$Id: general-ui.xsl,v 1.26 2002/07/11 00:15:54 javajames27 Exp $
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html" indent="yes"/>
@@ -49,11 +49,11 @@
 				<script language="JavaScript1.2" src="../js/mm_menu.js"/>
 				<script language="JavaScript1.2" src="../js/main_menu.js"/>
 				<script language="JavaScript1.2" src="../js/win.js"/>
-				<script language="JavaScript1.2">mmLoadMenus();</script>
 				<xsl:apply-templates select="content/script"/>
 				<!-- allow our pages to include custom scripting -->
 			</head>
 			<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#2544a9">
+				<script language="JavaScript1.2">mmLoadMenus();</script>
 				<xsl:if test="content/@onUnload != '' ">
 					<xsl:attribute name="onUnload"><xsl:value-of select="content/@onUnload"/></xsl:attribute>
 				</xsl:if>
@@ -67,15 +67,15 @@
 				      <!-- navigation -->
 				      <table border="0" cellspacing="0" cellpadding="0" width="100%">
 				        <tr> 
-				          <td align="left" width="308" background="../images/homepage/blue.jpg"><a onmouseover="MM_showMenu(window.mm_menu_0610133358_0,0,17,null,'about_us');" onmouseout="MM_startTimeout();" href="../about/about.html">
+				          <td align="left" width="308" background="../images/homepage/blue.jpg"><a onmouseover="MM_showMenu(window.menu_about,0,17,null,'about_us');" onmouseout="MM_startTimeout();" href="../about/about.html">
 <img name="about_us" src="../images/homepage/about_us.jpg" border="0" width="72" height="19"/></a>
-				          <a onmouseover="MM_showMenu(window.mm_menu_0610133533_1,0,17,null,'whats_new');" onmouseout="MM_startTimeout();" href="../news/index.html">
+				          <a onmouseover="MM_showMenu(window.menu_news,0,17,null,'whats_new');" onmouseout="MM_startTimeout();" href="../news/index.html">
 <img name="whats_new" src="../images/homepage/whats_new.jpg" border="0" width="83" height="19"/></a>
-				          <a onmouseover="MM_showMenu(window.mm_menu_0610133621_2,0,17,null,'events');" onmouseout="MM_startTimeout();" href="../calendar/calendar.html">
+				          <a onmouseover="MM_showMenu(window.menu_calendar,0,17,null,'events');" onmouseout="MM_startTimeout();" href="../calendar/calendar.html">
 <img name="events" src="../images/homepage/events.jpg"  border="0" width="46" height="19"/></a>
-				          <a onmouseover="MM_showMenu(window.mm_menu_0610133816_3,0,17,null,'ministries');" onmouseout="MM_startTimeout();" href="../ministries/index.html">
+				          <a onmouseover="MM_showMenu(window.menu_ministries,0,17,null,'ministries');" onmouseout="MM_startTimeout();" href="../ministries/index.html">
 <img name="ministries" src="../images/homepage/ministries_1.jpg" border="0" width="63" height="19"/></a>
-				          <a onmouseover="MM_showMenu(window.mm_menu_0610133833_4,0,17,null,'media');" onmouseout="MM_startTimeout();" href="../media/index.html">
+				          <a onmouseover="MM_showMenu(window.menu_media,0,17,null,'media');" onmouseout="MM_startTimeout();" href="../media/index.html">
 <img name="media" src="../images/homepage/media.jpg" border="0" width="44" height="19"/></a></td>
 				        </tr>
 				      </table>

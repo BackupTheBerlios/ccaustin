@@ -1,13 +1,13 @@
 function mmLoadMenus() {
   if (window.mm_menu_0610133358_0) return;
-  window.mm_menu_0610133358_0 = new Menu("root",43,20,"Verdana, Arial, Helvetica, sans-serif",14,"#000000","#ffffff","#ffffff","#000084","left","middle",3,0,1000,-5,7,true,true,true,0,true,true);
-  mm_menu_0610133358_0.addMenuItem("link1","location='link1.html'");
-  mm_menu_0610133358_0.addMenuItem("link2","location='link2.html'");
-   mm_menu_0610133358_0.hideOnMouseOut=true;
-   mm_menu_0610133358_0.menuBorder=1;
-   mm_menu_0610133358_0.menuLiteBgColor='#ffffff';
-   mm_menu_0610133358_0.menuBorderBgColor='#555555';
-   mm_menu_0610133358_0.bgColor='#555555';
+  window.menu_about = new Menu("root",43,20,"Verdana, Arial, Helvetica, sans-serif",14,"#000000","#ffffff","#ffffff","#000084","left","middle",3,0,1000,-5,7,true,true,true,0,true,true);
+  menu_about.addMenuItem("link1","location='link1.html'");
+  menu_about.addMenuItem("link2","location='link2.html'");
+   menu_about.hideOnMouseOut=true;
+   menu_about.menuBorder=1;
+   menu_about.menuLiteBgColor='#ffffff';
+   menu_about.menuBorderBgColor='#555555';
+   menu_about.bgColor='#555555';
   window.mm_menu_0610133533_1 = new Menu("root",43,20,"Verdana, Arial, Helvetica, sans-serif",14,"#000000","#ffffff","#ffffff","#000084","left","middle",3,0,1000,-5,7,true,true,true,0,true,true);
   mm_menu_0610133533_1.addMenuItem("link3","location='link3.html'");
   mm_menu_0610133533_1.addMenuItem("link4","location='link4.html'");

@@ -6,7 +6,7 @@
 	The sitemap contains the structure of the entire web site, and is used to drive
 	the auto-generated scripts for generating the web site HTML from XML.
 	
-	$Id: sitemap.xml,v 1.11 2002/07/10 21:51:28 javajames27 Exp $
+	$Id: sitemap.xml,v 1.12 2002/07/11 00:15:54 javajames27 Exp $
 	
 	hidden="true" prevents the page from showing on the sitemap.
 	
@@ -29,28 +29,31 @@
 			<title>Homepage</title>
 			<description>Learn about what's new and what's coming</description>
 		</page>
+		<page datafile="/../sitemap.xml" style="/../globalmenu.xsl" html="/_js/main_menu.js" hidden="true">
+			<title>Javascript menus</title>
+		</page>
 	</section>
 	<section name="about" basedir="/about">
 		<title>About Calvary Austin</title>
 		<description>Learn more about Calvary Chapel of Austin - our services, our location, our staff, and our history.</description>
 		<page datafile="/about.xml" style="/about.xsl" html="/about/about.html">
-			<title>About Cavary Chapel of Austin</title>
+			<title>About Us</title>
 			<description>Learn more about Calvary Austin</description>
 		</page>
 		<page datafile="/beliefs.xml" style="/beliefs.xsl" html="/about/beliefs.html">
-			<title>Our Beliefs/Statement of Faith</title>
+			<title>Our Beliefs</title>
 			<description>Learn more about Calvary Austin's beliefs</description>
 		</page>
 		<page datafile="/contact.xml" style="/contact.xsl" html="/about/contact.html">
-			<title>Contact Information and Map</title>
+			<title>Contact and Map</title>
 			<description>Find out how to contact Calvary Austin and view a map to our church</description>
 		</page>
 		<page datafile="/history.xml" style="/history.xsl" html="/about/history.html">
-			<title>The History of Calvary Austin</title>
+			<title>Our History</title>
 			<description>Find out how Calvary Austin started</description>
 		</page>
 		<page datafile="/vision.xml" style="/vision.xsl" html="/about/vision.html">
-			<title>The Vision of Calvary Austin</title>
+			<title>Our Vision</title>
 			<description>Catch the vision for Calvary Chapel of Austin</description>
 		</page>
 	</section>
@@ -74,13 +77,14 @@
 			<title>Calvary Media</title>
 		</page>
 		<page datafile="/live.xml" style="/live.xsl" html="/media/live.html">
-			<title>Calvary Live Broadcast Schedule</title>
+			<title>Calvary Live Schedule</title>
 		</page>
 		<page datafile="/viewlive.xml" style="/viewlive.xsl" html="/media/viewlive.html">
 			<title>Watch Calvary Live</title>
 		</page>
 		<page datafile="/radiotv.xml" style="/radiotv.xsl" html="/media/radiotv.html">
-			<title>Calvary Radio and Television</title>
+			<title>Calvary Radio and TV</title>
+			<description>Calvary Radio and Television</description>
 		</page>
 		<page datafile="/continuum.xml" style="/continuum.xsl" html="/continuum.html" hidden="true">
 			<title>Redirect for historical URLs</title>
@@ -115,14 +119,15 @@
 		<page datafile="/internet.xml" style="/ministry-home.xsl" html="/ministries/internet.html">
 			<title>Internet Ministry</title>
 		</page>
-		  <page datafile="/internet-vision.xml" style="/internet-vision.xsl" html="/ministries/internet-vision.html">
-			  <title>Internet Ministry Vision</title>
-		  </page>
+		<page datafile="/internet-vision.xml" style="/internet-vision.xsl" html="/ministries/internet-vision.html">
+			<title>Internet Ministry Vision</title>
+		</page>
 		<page datafile="/meals.xml" style="/ministry-home.xsl" html="/ministries/meals.html" exclude="true">
 			<title>Meal Ministry</title>
 		</page>
 		<page datafile="/media.xml" style="/ministry-home.xsl" html="/ministries/media.html">
-			<title>Media (Calvary Continuum) Ministry</title>
+			<title>Media Ministry</title>
+			<description>Media (Calvary Continuum) Ministry</description>
 		</page>
 		<page datafile="/men.xml" style="/ministry-home.xsl" html="/ministries/men.html" exclude="true">
 			<title>Men's Ministry</title>
