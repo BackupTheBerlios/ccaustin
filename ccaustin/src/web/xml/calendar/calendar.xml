@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.138 2004/12/19 15:57:59 tie Exp $
+	$Id: calendar.xml,v 1.139 2005/01/28 00:16:57 tie Exp $
 		
 -->
 <content title="Calendar">
@@ -826,10 +826,28 @@ Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE<
 		<detail>Home Builders Parenting Series is offering sign-ups thru Dec 26th for the ‘Improving Your Parenting’ study. Improve communication, be a good disciplinarian, and build character in your child. Two groups will meet on Sunday afternoons for 6 weeks beginning January 16th. Details and registration are at the Events Center</detail>
 	 </event>
 	 
-	 	 	     <event id="01006" date="20050124" showOnHomepage="true">
+	 	 	     <event id="01006" date="20050130" showOnHomepage="true">
     	 <title>Calvary Discipleship Program</title>
 		<date>Jan 24th</date>
 		<detail>The Calvary Discipleship Program will be starting up again in January. Please check the Events Center for information and details about signing up for classes.</detail>
+	 </event>
+	 
+	 	 	 	     <event id="01007" date="20050205" showOnHomepage="true">
+    	 <title>Super-Duper Bowl</title>
+		<date>Feb 6th</date>
+		<detail>Come join us for some football fun! On February 5th, from 9am to 11am, we will be meeting at the Wells Branch activity field. Flyers with directions are available at the Events Center.</detail>
+	 </event>
+	 
+	 	 	 	 	     <event id="01008" date="20050206" showOnHomepage="true">
+    	 <title>Vision Sunday</title>
+		<date>Feb 6th</date>
+		<detail>Join us on Feb. 6th for Vision Sunday when Pastor Allen Rigg will share our vision as a church for the next year. If you are new to Calvary Austin or have attended for years, this is one service you don't want to miss!</detail>
+	 </event>
+	 
+	 	 	 	 	 	     <event id="01009" date="20050206" showOnHomepage="true">
+    	 <title>Leadership Community Quarterly 3</title>
+		<date>Feb 19th</date>
+		<detail>Come Join us on Feb. 19th, from 5pm-8pm, for the 3rd installement of our Leadership Community Quarterly meeting.</detail>
 	 </event>
     
 	</calendar>
