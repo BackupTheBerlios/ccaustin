@@ -8,7 +8,7 @@
 	
 	allen-bio.xml - the biography for Pastor Allen
 	
-	$Id: servants.xml,v 1.10 2004/08/11 00:01:51 premav Exp $
+	$Id: servants.xml,v 1.11 2004/08/23 21:20:39 premav Exp $
 		
 -->
 <content title="Servants" base=".">
@@ -17,6 +17,7 @@
 	     <fullname>Pastor Allen</fullname>
 		<first-name>Allen</first-name>
 		<last-name>Rigg</last-name>
+		<emailid>secretary@calvaryaustin.org</emailid>
 		<thumbnail href="../images/staff/allenthumb.jpg"/>
 		<small-photo href="../images/staff/allenweb.jpg"/>
 		<large-photo href="../images/staff/allenweb.jpg"/>
@@ -27,6 +28,7 @@
 		<fullname>Jean Janes</fullname>
 		<first-name>Jean</first-name>
 		<last-name>Janes</last-name>
+		<emailid></emailid>
 		<thumbnail href="../images/staff/jeanthumb.jpg"/>
 		<small-photo href="../images/staff/jeanweb.jpg"/>
 		<large-photo href="../images/staff/jeanweb.jpg"/>
@@ -37,6 +39,7 @@
 		<fullname>Glendon Nicks</fullname>
 		<first-name>Glendon</first-name>
 		<last-name>Nicks</last-name>
+		<emailid>glendon@calvaryaustin.org</emailid>
 		<thumbnail href="../images/staff/glendonthumb.jpg"/>
 		<small-photo href="../images/staff/glendonweb.jpg"/>
 		<large-photo href="../images/staff/glendonweb.jpg"/>
@@ -46,6 +49,7 @@
 		<fullname>David Reynolds</fullname>
 		<first-name>David</first-name>
 		<last-name>Reynolds</last-name>
+		<emailid>david@calvaryaustin.org</emailid>
 		<thumbnail href="../images/staff/davidthumb.jpg"/>
 		<small-photo href="../images/staff/davidweb.jpg"/>
 		<large-photo href="../images/staff/davidweb.jpg"/>
@@ -55,6 +59,7 @@
 		<fullname>Bunjee Garrett</fullname>
 		<first-name>Bunjee</first-name>
 		<last-name>Garrett</last-name>
+		<emailid>bunjee@calvaryaustin.org</emailid>
 		<thumbnail href="../images/staff/bunjeethumb.jpg"/>
 		<small-photo href="../images/staff/bunjeeweb.jpg"/>
 		<large-photo href="../images/staff/bunjeeweb.jpg"/>
@@ -65,6 +70,7 @@
 		<fullname>John Newberry</fullname>
 		<first-name>John</first-name>
 		<last-name>Newberry</last-name>
+		<emailid></emailid>
 		<thumbnail href="../images/staff/johnthumb.jpg"/>
 		<small-photo href="../images/staff/johnweb.jpg"/>
 		<large-photo href="../images/staff/johnweb.jpg"/>
@@ -75,6 +81,7 @@
 		<fullname>Katherine E. Nogues</fullname>
 		<first-name>Katherine</first-name>
 		<last-name>Nogues</last-name>
+		<emailid>secretary@calvaryaustin.org</emailid>
 		<thumbnail href="../images/staff/katherinethumb.jpg"/>
 		<small-photo href="../images/staff/katherineweb.jpg"/>
 		<large-photo href="../images/staff/katherineweb.jpg"/>
@@ -84,6 +91,7 @@
 		<fullname>Mike Hardcastle</fullname>
 		<first-name>Mike</first-name>
 		<last-name>Hardcastle</last-name>
+		<emailid>mike@calvaryaustin.org</emailid>
 		<thumbnail href="../images/staff/mikethumb.jpg"/>
 		<small-photo href="../images/staff/mikeweb.jpg"/>
 		<large-photo href="../images/staff/mikeweb.jpg"/>
@@ -93,6 +101,7 @@
 		<fullname>Derrick Kinney</fullname>
 		<first-name>Derrick</first-name>
 		<last-name>Kinney</last-name>
+		<emailid>derrick@calvaryaustin.org</emailid>
 		<thumbnail href="../images/staff/Derrickthumb.jpg"/>
 		<small-photo href="../images/staff/derrickweb.jpg"/>
 		<large-photo href="../images/staff/derrickweb.jpg"/>
@@ -104,6 +113,7 @@
 		<fullname>Andrea Rigg</fullname>
 		<first-name>Andrea</first-name>
 		<last-name>Rigg</last-name>
+		<emailid>andrea@calvaryaustin.org</emailid>
 		<thumbnail href="../images/staff/andreathumb.jpg"/>
 		<small-photo href="../images/staff/andreaweb.jpg"/>
 		<large-photo href="../images/staff/andreaweb.jpg"/>
@@ -113,6 +123,7 @@
 		<fullname>Donna Cano</fullname>
 		<first-name>Donna</first-name>
 		<last-name>Cano</last-name>
+		<emailid>donna@calvaryaustin.org</emailid>
 		<thumbnail href="../images/staff/donnathumb.jpg"/>
 		<small-photo href="../images/staff/donnaweb.jpg"/>
 		<large-photo href="../images/staff/donnaweb.jpg"/>
@@ -122,6 +133,7 @@
 		<fullname>Jeremy Valencia</fullname>
 		<first-name>Jeremy</first-name>
 		<last-name>Valencia</last-name>
+		<emailid>jeremy@calvaryaustin.org</emailid>
 		<thumbnail href="../images/staff/jeremythumb.jpg"/>
 		<small-photo href="../images/staff/jeremyweb.jpg"/>
 		<large-photo href="../images/staff/jeremyweb.jpg"/>
@@ -131,6 +143,7 @@
 		<fullname>Vance Zimmerman</fullname>
 		<first-name>Vance</first-name>
 		<last-name>Zimmerman</last-name>
+		<emailid>marcus_rey@hotmail.com</emailid>
 		<thumbnail href="../images/staff/vancethumb.jpg"/>
 		<small-photo href="../images/staff/vanceweb.jpg"/>
 		<large-photo href="../images/staff/vanceweb.jpg"/>
@@ -140,6 +153,7 @@
 		<fullname>Debbie Bryson</fullname>
 		<first-name>Debbie</first-name>
 		<last-name>Bryson</last-name>
+		<emailid>coffeecreator@sbcglobal.net</emailid>
 		<thumbnail href="../images/staff/soonthumb.jpg"/>
 		<small-photo href="../images/staff/soon.jpg"/>
 		<large-photo href="../images/staff/soon.jpg"/>
@@ -151,6 +165,7 @@
 		<fullname>Jason Moore</fullname>
 		<first-name>Jason</first-name>
 		<last-name>Moore</last-name>
+		<emailid>ra1461@yahoo.com</emailid>
 		<thumbnail href="../images/staff/Jasonthumb.jpg"/>
 		<small-photo href="../images/staff/jasonweb.jpg"/>
 		<large-photo href="../images/staff/jasonweb.jpg"/>
@@ -160,6 +175,7 @@
 		<fullname>James Lazono</fullname>
 		<first-name>James</first-name>
 		<last-name>Lazono</last-name>
+		<emailid>jvlozano@austin.rr.com</emailid>
 		<thumbnail href="../images/staff/Jamesthumb.jpg"/>
 		<small-photo href="../images/staff/jamesweb.jpg"/>
 		<large-photo href="../images/staff/jamesweb.jpg"/>
@@ -169,6 +185,7 @@
 		<fullname>Bones Uk</fullname>
 		<first-name>Bones</first-name>
 		<last-name>Uk</last-name>
+		<emailid>bonara.uk@earthlink.net</emailid>
 		<thumbnail href="../images/staff/bonesthumb.jpg"/>
 		<small-photo href="../images/staff/bonesweb.jpg"/>
 		<large-photo href="../images/staff/bonesweb.jpg"/>
@@ -178,6 +195,7 @@
 		<fullname>Craig Swearingen</fullname>
 		<first-name>Craig</first-name>
 		<last-name>Swearingen</last-name>
+		<emailid>swearing@us.ibm.com</emailid>
 		<thumbnail href="../images/staff/craigthumb.jpg"/>
 		<small-photo href="../images/staff/craigweb.jpg"/>
 		<large-photo href="../images/staff/craigweb.jpg"/>
@@ -187,6 +205,7 @@
 		<fullname>Mark Achee</fullname>
 		<first-name>Mark</first-name>
 		<last-name>Achee</last-name>
+		<emailid>mark.achee@sous.com</emailid>
 		<thumbnail href="../images/staff/markthumb.jpg"/>
 		<small-photo href="../images/staff/markweb.jpg"/>
 		<large-photo href="../images/staff/markweb.jpg"/>
@@ -196,6 +215,7 @@
 		<fullname>Matt Lang</fullname>
 		<first-name>Matt</first-name>
 		<last-name>Lang</last-name>
+		<emailid>tammyl91@swbell.net</emailid>
 		<thumbnail href="../images/staff/mattthumb.jpg"/>
 		<small-photo href="../images/staff/mattweb.jpg"/>
 		<large-photo href="../images/staff/mattweb.jpg"/>

@@ -2,7 +2,7 @@
 <!--
 	Donna Cano Bio - Part of the Staff Bios
 
-	$Id: mike.xml,v 1.3 2004/07/08 02:06:45 premav Exp $
+	$Id: mike.xml,v 1.4 2004/08/23 21:20:39 premav Exp $
 
 -->
 
@@ -35,9 +35,12 @@
 <heading>What do you do at Calvary</heading>
 <p>I am the Executive Director, overseeing the church staff and administration.</p>
 
-<br></br>
-<br></br>
-<br></br>
+<br/>
+<br/>
+Mail me at <link href="mailto:mike@calvaryaustin.org">mike@calvaryaustin.org</link>
+<br/>
+<br/>
+<br/>
 
 <p>back to ....<link href="../about/staff.html">Meet Our Staff</link></p>
 </content>

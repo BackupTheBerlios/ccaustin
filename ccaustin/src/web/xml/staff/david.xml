@@ -2,7 +2,7 @@
 <!--
 	David Reynolds Bio - Part of the Staff Bios
 
-	$Id: david.xml,v 1.3 2004/07/08 02:07:01 premav Exp $
+	$Id: david.xml,v 1.4 2004/08/23 21:20:39 premav Exp $
 
 -->
 
@@ -34,9 +34,12 @@
 <heading>What do you do at Calvary</heading>
 <p>I am the Worship Pastor (I sit in my office and play the guitar) and the Financial Adminstrator.</p>
 
-<br></br>
-<br></br>
-<br></br>
+<br/>
+<br/>
+Mail me at <link href="mailto:david@calvaryaustin.org">david@calvaryaustin.org</link>
+<br/>
+<br/>
+<br/>
 
 <p>back to ....<link href="../about/staff.html">Meet Our Staff</link></p>
 </content>
