@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+        Sitemap
+        
+        The sitemap contains the structure of the entire web site, and is used to drive
+        the auto-generated scripts for generating the web site HTML from XML.
+        
+        $Id: _sitemap.xml,v 1.1 2004/07/27 18:16:12 premav Exp $
+        
+        hidden="true" prevents the page from showing on the sitemap.
+        
+        exclude="true" tells other pages using this datafile to not include that entry (for things like the minstry-index.xsl)
+                
+-->
+<website basedir="/src/web/xml">
+  <section name="index" basedir="/homepage">
+    <title>Index</title>
+    <page datafile="/index.xml"
+          template="/templates/empty.xsl"
+          layout="/layouts/empty.xsl"
+          renderer="/renderers/directives.xsl"
+          html="/index.html"
+          hidden="true">
+      <title>Index page</title>
+    </page>
+    <page datafile="/construction-index.xml"
+          template="/templates/empty.xsl"
+          layout="/layouts/empty.xsl"
+          renderer="/renderers/directives.xsl"
+          html="/construction-index.html"
+          hidden="true">
+      <title>Index page</title>
+    </page>
+    <page datafile="/construction.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/homepage/construction.html"
+          hidden="true">
+      <title>Under construction page</title>
+    </page>
+    <page datafile="/home.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/homepage.xsl"
+          html="/homepage/index.html">
+      <title>Homepage</title>
+      <description>Learn about what's new and what's coming</description>
+    </page>
+    <page datafile="/_sitemap.xml"
+          template="/templates/text.xsl"
+          layout="/layouts/text.xsl"
+          renderer="/renderers/globalmenu.xsl"
+          html="/_js/main_menu.js"
+          hidden="true">
+      <title>Javascript menus</title>
+    </page>
+  </section>
+  <section name="about" basedir="/about">
+    <title>About Calvary Austin</title>
+    <description>Learn more about Calvary Chapel of Austin - our services, our location, our staff, and our history.</description>
+    <page datafile="/about.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/about/about.html">
+      <title>About Us</title>
+      <description>Learn more about Calvary Austin</description>
+    </page>
+    <page datafile="/beliefs.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/beliefs.xsl"
+          html="/about/beliefs.html">
+      <title>Our Beliefs</title>
+      <description>Learn more about Calvary Austin's beliefs</description>
+    </page>
+    <page datafile="/contact.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/contact.xsl"
+          html="/about/contact.html">
+      <title>Contact and Map</title>
+      <description>Find out how to contact Calvary Austin and view a map to our church</description>
+    </page>
+    <page datafile="/history.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/about/history.html">
+      <title>Our History</title>
+      <description>Find out how Calvary Austin started</description>
+    </page>
+    <page datafile="/vision.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/vision.xsl"
+          html="/about/vision.html">
+      <title>Our Vision</title>
+      <description>Catch the vision for Calvary Chapel of Austin</description>
+    </page>
+    <page datafile="/staff.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/staff.xsl"
+          html="/about/staff.html">
+      <title>Our Staff</title>
+      <description>Meet Calvary Austin's Staff</description>
+    </page>
+    <page datafile="/aroundtown.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/about/aroundtown.html">
+      <title>Around Town - What's Nearby?</title>
+      <description>Hotels and Restaurants near Calvary Chapel of Austin</description>
+    </page>
+  </section>
+
+  <section name="articles" basedir="/articles">
+    <title>Articles</title>
+    <description>Read articles published by our Pastor and staff.</description>
+    <page datafile="/secretsuccess3.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/articles.xsl"
+          html="/articles/secretsuccess3.html">
+    </page>
+    <page datafile="/riches1.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/articles.xsl"
+          html="/articles/riches1.html">
+    </page>
+    <page datafile="/fatherchoseyou.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/articles.xsl"
+          html="/articles/fatherchoseyou.html">
+    </page>
+  </section>
+
+  <section name="blogs" basedir="/blogs">
+    <title>Weblogs</title>
+    <description>Read Weblogs (blogs) published by our Pastor and staff.</description>
+    <page datafile="/allen.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/blog.xsl"
+          html="/blogs/allen.html">
+    </page>
+  </section>
+
+  <section name="calendar" basedir="/calendar">
+    <title>Weekly Schedule and Events Calendar</title>
+    <page datafile="/calendar.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/calendar.xsl"
+          html="/calendar/calendar.html">
+      <title>Events Calendar</title>
+    </page>
+    <page datafile="/schedule.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/schedule.xsl"
+          html="/calendar/schedule.html">
+      <title>Weekly Schedule</title>
+    </page>
+  </section>
+
+  <section name="events" basedir="/events">
+    <title>Various Events Sections</title>
+    <page datafile="/mwc2003.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/sectioned.xsl"
+          html="/events/mwc2003.html">
+      <title>Music and Worship 2003 Conference</title>
+    </page>
+    <page datafile="/holiday2002.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/events/holiday2002.html"
+          hidden="true">
+      <title>Holiday 2002 Events</title>
+    </page>
+    <page datafile="/holiday2003.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/events/holiday2003.html"
+          hidden="true">
+      <title>Holiday 2003 Events</title>
+    </page>
+    <page datafile="/easter2003.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/events/easter2003.html"
+          hidden="true">
+      <title>Easter 2003 Schedule</title>
+    </page>
+    <page datafile="/baptism2003.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/events/baptism2003.html"
+          hidden="true">
+      <title>Baptism and Picnic 2003 Schedule</title>
+    </page>
+    <page datafile="/ccccretreat2003.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/events/ccccretreat2003.html"
+          hidden="true">
+      <title>Calvary Chapel Mid South College and Career Conference and Retreat 2003</title>
+    </page>
+    <page datafile="/mens2003retreat.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/events/mens2003retreat.html"
+          hidden="true">
+      <title>Calvary Chapel Men's Retreat 2003</title>
+    </page>
+    <page datafile="/vbsdaycamp2003.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/events/vbsdaycamp2003.html"
+          hidden="true">
+      <title>Vacation Bible School Day Camp 2003</title>
+    </page>
+    <page datafile="/mwc2003-redirect.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/directives.xsl"
+          html="/mwc2003/index.html"
+          hidden="true">
+      <title>Redirect for a web alias</title>
+    </page>
+    <page datafile="/plconference2003.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/events/plconference2003.html">
+<!--
+          hidden="true">
+-->
+      <title>Calvary Chapel Mid South College and Career Conference and Retreat 2003</title>
+    </page>
+    <page datafile="/worshipconf04.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/events/worshipconf04.html"
+          hidden="true">
+      <title>Mid-South Worship Conference 2004</title>
+    </page>
+    <page datafile="/worshipschedule.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/events/worshipschedule.html"
+          hidden="true">
+      <title>2004 Mid-South Worship Conference Schedule</title>
+    </page>
+<!--
+    <page datafile="/buildingmomentum.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/events/buildingmomentum.html"
+          hidden="true">
+      <title>Building Momemtum Campaign</title>
+    </page>
+-->
+  </section>
+  
+  <section name="media" basedir="/media">
+    <title>Calvary Live</title>
+    <page datafile="/media.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/schedule.xsl"
+          html="/media/index.html">
+      <title>Calvary Audio/Tapes</title>
+    </page>
+    <page datafile="/live.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/live.xsl"
+          html="/media/live.html">
+      <title>Calvary Live Schedule</title>
+    </page>
+    <page datafile="/viewlive.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/viewlive.xsl"
+          html="/media/viewlive.html">
+      <title>Watch Calvary Live</title>
+    </page>
+    <page datafile="/radiotv.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/radiotv.xsl"
+          html="/media/radiotv.html">
+      <title>Calvary Radio and TV</title>
+      <description>Calvary Radio and Television</description>
+    </page>
+    <page menuOnly="true" html="/msgs/msgsSundayCur.html">
+      <title>Sunday Messages</title>
+    </page>
+    <page menuOnly="true" html="/msgs/msgsMidweekCur.html">
+      <title>Wednesday Messages</title>
+    </page>
+    <page datafile="/continuum.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/directives.xsl"
+          html="/continuum.html"
+          hidden="true">
+      <title>Redirect for historical URLs</title>
+    </page>
+    <page datafile="/continuum.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/directives.xsl"
+          html="/continuum/archive.html"
+          hidden="true">
+      <title>Redirect for historical URLs</title>
+    </page>
+  </section>
+
+  <section name="ministries" basedir="/ministries">
+    <title>Calvary Austin Ministries</title>
+    <page datafile="/_sitemap.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-index.xsl"
+          html="/ministries/index.html"
+          exclude="true">
+      <title>Ministry Index</title>
+    </page>
+    <page datafile="/children.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/children.html">
+      <title>Children's Ministry</title>
+    </page>
+    <page datafile="/coffee.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+         html="/ministries/coffee.html">
+      <title>Coffee Creator</title>
+    </page>
+    <page datafile="/crown.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+         html="/ministries/crown.html">
+      <title>Crown Financial Ministry</title>
+    </page>
+    <page datafile="/dinner.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/dinner.html"
+          exclude="true">
+      <title>Dinner for 8 Ministry</title>
+    </page>
+    <page datafile="/freeindeed.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/freeindeed.html">
+      <title>Free Indeed (Addictions)</title>
+    </page>
+    <page datafile="/testimonies.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/testimonies.xsl"
+          html="/ministries/testimonies.html"
+          hidden="true"
+          exclude="true">
+      <title>Free Indeed (Addictions) - Calvary Austin Testimonies</title>
+    </page>
+    <page datafile="/pf-male1.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/pf-male1.xsl"
+          html="/ministries/pf-male1.html"
+          exclude="true">
+      <title>Free Indeed (Addictions) - Calvary Austin Testimonies</title>
+    </page>
+    <page datafile="/pf-male2.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/pf-male2.xsl"
+          html="/ministries/pf-male2.html"
+          exclude="true">
+      <title>Free Indeed (Addictions) - Calvary Austin Testimonies</title>
+    </page>
+    <page datafile="/lt-male1.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/lt-male1.xsl"
+          html="/ministries/lt-male1.html"
+          exclude="true">
+      <title>Free Indeed (Addictions) - Calvary Austin Testimonies</title>
+    </page>
+    <page datafile="/oe-female1.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/oe-female1.xsl"
+          html="/ministries/oe-female1.html"
+          exclude="true"> 
+      <title>Free Indeed (Addictions) - Calvary Austin Testimonies</title>
+    </page>
+    <page datafile="/nuwine-male1.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/ministries/nuwine-male1.html"
+          exclude="true"> 
+      <title>Free Indeed (Addictions) - Calvary Austin Testimonies</title>
+    </page>
+    
+    
+    
+    <page datafile="/oe-mntr-fem.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/oe-mntr-fem.xsl"
+          html="/ministries/oe-mntr-fem.html"
+          exclude="true"> 
+      <title>Free Indeed (Addictions) - Calvary Austin Testimonies</title>
+    </page>
+    <page datafile="/frontline.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/frontline.html">
+      <title>College &amp; Career Ministry</title>
+    </page>
+    <page datafile="/greet.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/greet.html">
+      <title>Greeting Ministry</title>
+    </page>
+    <page datafile="/home.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/home.html">
+      <title>Home Fellowship Ministry</title>
+    </page>
+    <page datafile="/intercessory.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/intercessory.html"
+          hidden="true"
+          exlude="true">
+      <title>Intercessory Prayer Ministry</title>
+    </page>
+    <page datafile="/internet.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/internet.html" exclude="true">
+      <title>Internet Ministry</title>
+    </page>
+    <page datafile="/marriage.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/marriage.html">
+      <title>Marriage Ministry</title>
+    </page>
+    <page datafile="/meals.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/meals.html"
+          exclude="true">
+      <title>Meal Ministry</title>
+    </page>
+    <page datafile="/media.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/media.html">
+      <title>Media Ministry</title>
+      <description>Calvary Continuum</description>
+    </page>
+    <page datafile="/men.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/men.html">
+      <title>Men's Ministry</title>
+    </page>
+    <page datafile="/menaccount.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/menaccount.html"
+          exclude="true">
+      <title>Men's Accountability Ministry</title>
+    </page>
+    <page datafile="/newbelievers.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/newbelievers.html">
+      <title>New Believer's Ministry</title>
+    </page>
+    <page datafile="/newlife.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/newlife.html">
+      <title>Prayer Room Ministry</title>
+      <description>Prayer Room (New Life) Ministry</description>
+    </page>
+    <page datafile="/overhead.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/overhead.html"
+          exclude="true">
+      <title>Overhead/Lights Ministry</title>
+    </page>
+    <page datafile="/prayer.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/prayer.html">
+      <title>Prayer Chain Ministry</title>
+    </page>
+    <page datafile="/prison.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/prison.html"
+          exclude="true">
+      <title>Prison Ministry</title>
+    </page>
+    <page datafile="/radio.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/radio.html"
+          exclude="true">
+      <title>Radio Ministry</title>
+    </page>
+    <page datafile="/school.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/school.html">
+      <title>School of Ministry</title>
+    </page>
+    <page datafile="/singles.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/singles.html">
+      <title>Singles Ministry</title>
+    </page>
+    <page datafile="/sound.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/sound.html"
+          exclude="true">
+      <title>Sound Ministry</title>
+    </page>
+    <page datafile="/streaming.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/streaming.html"
+          exclude="true">
+      <title>Streaming Media Ministry</title>
+      <description>Streaming Media Ministry</description>
+    </page>
+    <page datafile="/tape.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/tape.html"
+          exclude="true">
+      <title>Tape Ministry</title>
+    </page>
+    <page datafile="/usher.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/usher.html"
+          exclude="true">
+      <title>Ushering Ministry</title>
+    </page>
+    <page datafile="/video.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/video.html"
+          exclude="true">
+      <title>Video Ministry</title>
+    </page>
+    <page datafile="/women.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/women.html">
+      <title>Women's Ministry</title>
+    </page>
+    <page datafile="/womenstudy.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/womenstudy.html" exclude="true">
+      <title>Women's Bible Study Ministry</title>
+    </page>
+    <page datafile="/womenheart.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/womenheart.html"
+          exclude="true">
+      <title>Women's Heart-to-Heart Ministry</title>
+    </page>
+    <page datafile="/womenhelp.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/womenhelp.html"
+          exclude="true">
+      <title>Women-to-Women Ministry</title>
+    </page>
+    <page datafile="/worship.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/worship.html">
+      <title>Worship Ministry</title>
+    </page>
+    <page datafile="/worshipcommunity.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/worshipcommunity.html"
+          exclude="true">
+      <title>Worship Community Ministry</title>
+    </page>
+    <page datafile="/youth.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/youth.html">
+      <title>Youth Ministry</title>
+    </page>
+    <page datafile="/youthcrisis.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/ministry-home.xsl"
+          html="/ministries/youthcrisis.html"
+          exclude="true">
+      <title>Youth Crisis Ministry</title>
+    </page>
+  </section>
+
+  <section name="messages" basedir="/msgs">
+    <title>Audio Messages and Tape Catalog</title>
+    <page datafile="/order.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/msgs/tapeorder.html">
+      <title>Calvary Continuum Tape Catalog</title>
+    </page>
+    <page datafile="/msgs.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/msgs-Sunday-cur.xsl"
+          html="/msgs/msgsSundayCur.html">
+      <title>Sunday Messages</title>
+    </page>
+    <page datafile="/msgs.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/msgs-Midweek-cur.xsl"
+          html="/msgs/msgsMidweekCur.html">
+      <title>Wednesday Messages</title>
+    </page>
+    <page datafile="/msgs.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/msgs-Audio-Overview.xsl"
+          html="/msgs/msgsAudioOverview.html">
+      <title>Audio Book Overviews</title>
+    </page>
+    <page datafile="/msgs-categories.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/msgs-Audio-categories.xsl"
+          html="/msgs/msgsAudioArchive.html">
+      <title>Audio Categories</title>
+    </page>
+    <page datafile="/msgs.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/msgs-Audio-BookStudies.xsl"
+          html="/msgs/msgsAudioBookStudies.html">
+      <title>Audio Book Studies</title>
+    </page>
+    <page datafile="/msgs.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/msgs-Audio-TopicalSeries.xsl"
+          html="/msgs/msgsAudioTopicalSeries.html">
+      <title>Audio Topical Studies</title>
+    </page>
+    <page datafile="/msgs.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/msgs-Audio-InDepth.xsl"
+          html="/msgs/msgsAudioInDepth.html">
+      <title>Audio Book In-Depth Studies</title>
+    </page>
+    <page datafile="/msgs.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/msgs-Audio-Misc.xsl"
+          html="/msgs/msgsAudioMisc.html">
+      <title>Audio Misc Studies (guests, special messages)</title>
+    </page>
+    <page datafile="/msgs.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/msgs-Tapes-Overview.xsl"
+          html="/msgs/msgsTapesOverview.html">
+      <title>Tape Book Overviews</title>
+    </page>
+    <page datafile="/msgs-categories.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/msgs-Tapes-categories.xsl"
+          html="/msgs/msgsTapeArchive.html">
+      <title>Tape Categories</title>
+    </page>
+    <page datafile="/msgs.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/msgs-Tapes-BookStudies.xsl"
+          html="/msgs/msgsTapesBookStudies.html">
+      <title>Tape Book Studies</title>
+    </page>
+    <page datafile="/msgs.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/msgs-Tapes-TopicalSeries.xsl"
+          html="/msgs/msgsTapesTopicalSeries.html">
+      <title>Tape Topical Studies</title>
+    </page>
+    <page datafile="/msgs.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/msgs-Tapes-InDepth.xsl"
+          html="/msgs/msgsTapesInDepth.html">
+      <title>Tape Book In-Depth Studies</title>
+    </page>
+    <page datafile="/msgs.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/msgs-Tapes-Misc.xsl"
+          html="/msgs/msgsTapesMisc.html">
+      <title>Tape Misc Studies (guests, special messages)</title>
+    </page>
+  </section>
+
+  <section name="news" basedir="/news">
+    <title>Recent News</title>
+    <page datafile="/whatsnew.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/whatsnew.xsl"
+          html="/news/index.html">
+      <title>What's New</title>
+    </page>
+  </section>
+
+  <section name="staff" basedir="/staff">
+    <title>Calvary Austin Staff</title>
+    <page datafile="/servants.xml"
+          template="/templates/empty.xsl"
+          layout="/layouts/empty.xsl"
+          renderer="/renderers/gen-staff.xsl"
+          tempout="/_staff.xml"
+          hidden="true">
+      <title>Generates staff members from the list of servants</title>
+    </page>
+    <page tempin="/_staff.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/staff.xsl"
+          html="/about/staff.html">
+      <title>Calvary Austin Staff Overview</title>
+    </page>
+    <page datafile="/allen.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/allen.xsl"
+          html="/about/Allen.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/andrea.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/andrea.xsl"
+          html="/about/Andrea.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/katherine.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/katherine.xsl"
+          html="/about/Katherine.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/mike.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/mike.xsl"
+          html="/about/Mike.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/derrick.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/derrick.xsl"
+          html="/about/Derrick.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/jeremy.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/jeremy.xsl"
+          html="/about/Jeremy.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/vance.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/vance.xsl"
+          html="/about/Vance.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/jason.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/jason.xsl"
+          html="/about/Jason.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/bunjee.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/bunjee.xsl"
+          html="/about/Bunjee.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/james.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/james.xsl"
+          html="/about/James.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/bones.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/bones.xsl"
+          html="/about/Bones.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/craig.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/craig.xsl"
+          html="/about/Craig.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/mark.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/mark.xsl"
+          html="/about/Mark.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/matt.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/matt.xsl"
+          html="/about/Matt.html">
+      <title>Generates staff member Bio</title>
+    </page>
+<!--
+    <page datafile="/jean.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/jean.xsl"
+          html="/about/Jean.html">
+      <title>Generates staff member Bio</title>
+    </page>
+-->
+    <page datafile="/david.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/david.xsl"
+          html="/about/David.html">
+      <title>Generates staff member Bio</title>
+    </page>
+<!--
+    <page datafile="/john.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/john.xsl"
+          html="/about/John.html">
+      <title>Generates staff member Bio</title>
+    </page>
+-->
+    <page datafile="/glendon.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/glendon.xsl"
+          html="/about/Glendon.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/donna.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/donna.xsl"
+          html="/about/Donna.html">
+      <title>Generates staff member Bio</title>
+    </page>
+<!--
+    <page datafile="/craig.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/craig.xsl"
+          html="/about/craig.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/jameslaz.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/jameslaz.xsl"
+          html="/about/jameslaz.html">
+      <title>Generates staff member Bio</title>
+    </page>
+-->
+  </section>
+
+  <section name="CalvaryKids" basedir="/calvarykids">
+    <title>Calvary Kids</title>
+    <description>Calvary Kids Page</description>
+    <page datafile="/calvarykids.xml"
+          template="/templates/empty.xsl"
+          layout="/layouts/empty.xsl"
+          renderer="/renderers/calvarykids.xsl"
+          html="/calvarykids/index.html">
+      <title>Calvary Kids Page</title>
+      <description>Learn more about Calvary Kids</description>
+    </page>
+    <page datafile="/events.xml"
+          template="/templates/calvarykids.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/calendar.xsl"
+          html="/calvarykids/events.html">
+      <title>Calvary Kids Event Calendar</title>
+      <description>Calvary Kids Event Calendar</description>
+    </page>
+    <page datafile="/contact.xml"
+          template="/templates/calvarykids.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/calvarykids/contact.html">
+      <title>Calvary Kids Contact Page</title>
+      <description>Contact Calvary Kids</description>
+    </page>
+    <page datafile="/serve.xml"
+          template="/templates/calvarykids.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/calvarykids/serve.html">
+      <title>Serve with Calvary Kids</title>
+      <description>Serve with Calvary Kids</description>
+    </page>
+    <page datafile="/openings.xml"
+          template="/templates/calvarykids.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/calvarykids/openings.html">
+      <title>Opportunities with Calvary Kids</title>
+      <description>Opportunities with Calvary Kids</description>
+    </page>
+    <page datafile="/tools.xml"
+          template="/templates/calvarykids.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/calvarykids/tools.html">
+      <title>Calvary Kids Ministry Tools</title>
+      <description>Calvary Kids Ministry Tools</description>
+    </page>
+    <page datafile="/links.xml"
+          template="/templates/calvarykids.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/calvarykids/links.html">
+      <title>Calvary Kids Links</title>
+      <description>Calvary Kids Links</description>
+    </page>
+    <page datafile="/ydc.xml"
+          template="/templates/calvarykids.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/calvarykids/ydc.html">
+      <title>Calvary Kids YDC</title>
+      <description>Calvary Kids YDC</description>
+    </page>
+    <page datafile="/sundays.xml"
+          template="/templates/calvarykids.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/calvarykids/sundays.html">
+      <title>Calvary Kids Sundays</title>
+      <description>Calvary Kids Sundays</description>
+    </page>
+    <page datafile="/purpose.xml"
+          template="/templates/calvarykids.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/calvarykids/purpose.html">
+      <title>Calvary Kids Purpose</title>
+      <description>Calvary Kids Purpose</description>
+    </page>
+    <page datafile="/home.xml"
+          template="/templates/calvarykids.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/calvarykids/home.html">
+      <title>Calvary Kids Home</title>
+      <description>Calvary Kids Home</description>
+    </page>
+  </section>
+  <!--
+  <section name="BuildingMo" basedir="/buildingmomentum">
+    <title>Building Momentum</title>
+    <description>Building Momentum Page</description>
+    <page datafile="/index.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/buildingmomentum/index.html">
+      <title>Building Momentum Page</title>
+      <description>Learn more about Building Momentum</description>
+    </page>
+  </section>
+  -->
+
+</website>
