@@ -3,7 +3,7 @@
 
 	FrontLine Ministry - The ministry and its detail
 	
-	$Id: frontline.xml,v 1.7 2002/08/17 17:00:16 javajames27 Exp $
+	$Id: frontline.xml,v 1.8 2003/04/30 02:32:26 javajames27 Exp $
 		
 -->
 <content title="FrontLine College &amp; Career">
@@ -28,19 +28,15 @@
 				<data label="true">Male Leaders</data>
 			</row>
 			<row>
-				<data>Brenda Garrett</data>
-				<data>Steve Clay</data>
-			</row>
-			<row>
-				<data>Amy Hine</data>
+				<data>Brandi Goodnight</data>
 				<data>David Hine</data>
 			</row>
 			<row>
-				<data>Brandi Goodnight</data>
-				<data>Craig Wilkerson</data>
+				<data>Amy Hine</data>
+				<data>Steve Clay</data>
 			</row>
 			<row>
-				<data></data>
+				<data>Jennifer Riley</data>
 				<data>Randall Scully</data>
 			</row>
 			<row>
@@ -53,7 +49,7 @@
 		<p>You can tune into FrontLine live Fridays at 7:30 <link href="http://www.calvarychapel.org/austin/media/viewlive.html">live</link>.</p>
 	  </long-description>
 	  <contacts>
-	  	<contact-email email="bunjee@calvaryaustin.org">Bunjee Garrett, FrontLine Pastor</contact-email>
+	  	<contact-email email="david_a_hine@yahoo.com">David Hine</contact-email>
    	  </contacts>
 	  <ministry-logo>../images/ministries/frontline.gif</ministry-logo>
 	</ministry>
