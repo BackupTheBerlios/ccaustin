@@ -7,6 +7,9 @@ import org.calvaryaustin.web.BaseValidatorForm;
  */
 public class EditorForm extends BaseValidatorForm
 {
+	// TODO: Add requirement for a comment when saving change
+	// TODO: Add requirement for layout, renderer, and template to be selected
+
     /**
      * Returns the path that is currently being browsed
      * @return the path that is currently being browsed

@@ -1,5 +1,6 @@
 package org.calvaryaustin.controlpanel.browser;
 
+import org.calvaryaustin.controlpanel.ResourceCollectionForm;
 import org.calvaryaustin.controlpanel.ResourceForm;
 import org.calvaryaustin.web.BaseValidatorForm;
 
@@ -7,12 +8,12 @@ import org.calvaryaustin.web.BaseValidatorForm;
  * Represents the fields necessary to browse a site
  * @author jhigginbotham
  */
-public class BrowserForm extends BaseValidatorForm
+public class BrowserForm extends BaseValidatorForm implements ResourceCollectionForm
 {
     public boolean isCollection()
     {
         return true;
-    }
+    } 
     
     public String getName()
     {

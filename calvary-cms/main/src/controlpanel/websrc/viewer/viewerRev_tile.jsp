@@ -8,6 +8,8 @@
 <%@ taglib uri="/WEB-INF/display.tld"          prefix="display" %>
 <%@ taglib uri="/WEB-INF/calvary.tld"          prefix="calvary" %>
 
+<calvary:browserBreadcrumb/>
+
 <%
 	// get our values that the taglibs won't let you ref via a xxxName, xxxProperty set
 	ViewerForm viewer = (ViewerForm)request.getAttribute("viewer");

@@ -17,11 +17,11 @@ import org.calvaryaustin.controlpanel.ResourceForm;
  */
 public class BrowserBreadcrumbTag extends TagSupport
 {
-
+    
 	public int doEndTag() throws JspException
 	{
 		ActionMapping mapping = (ActionMapping)pageContext.getRequest().getAttribute(Globals.MAPPING_KEY);
-		BrowserForm form = (BrowserForm)pageContext.getRequest().getAttribute( mapping.getAttribute() );
+        ResourceForm form = (ResourceForm)pageContext.getRequest().getAttribute( mapping.getAttribute() );
 		
 		try 
 		{
@@ -41,11 +41,12 @@ public class BrowserBreadcrumbTag extends TagSupport
 			//pageContext.getOut().println(" / ");
 			String currentPath = "";
             // tokenize the path, and for each part of the path show a link for that portion
+            boolean browsingContent = !form.isCollection();
 			StringTokenizer st = new StringTokenizer(form.getPath(),"/");
 			while(st.hasMoreTokens())
 			{
 				String segment = st.nextToken();
-				if(st.hasMoreTokens() )
+				if(st.hasMoreTokens() || browsingContent)
 				{
 					currentPath += "/" + segment;
 					pageContext.getOut().println("<a href='"+contextPath+"/browser.do?site="+form.getSite()+
@@ -59,21 +60,19 @@ public class BrowserBreadcrumbTag extends TagSupport
 				}
 				
 			}
-			pageContext.getOut().println("");
+			if( browsingContent )
+			{
+                //pageContext.getOut().println(" : ");
+                pageContext.getOut().println("<a href='"+contextPath+"/viewer.do?site="+form.getSite()+
+                    "&path="+form.getPath()+"&file="+form.getName()+"'>"+form.getName()+"</a>");
+			}
+            pageContext.getOut().println("");
 			pageContext.getOut().println("</div>");
 		} catch (java.io.IOException e)
 		{
 			throw new JspException("Error during I/O",e);
 		}
 		
-		return EVAL_PAGE;
-	}
-
-	/* (non-Javadoc)
-	 * @see javax.servlet.jsp.tagext.Tag#doStartTag()
-	 */
-	public int doStartTag() throws JspException
-	{
 		return EVAL_PAGE;
 	}
 

@@ -6,6 +6,9 @@
 <%@ taglib uri="/WEB-INF/slide-struts.tld"     prefix="slide" %>
 <%@ taglib uri="/WEB-INF/display.tld"          prefix="display" %>
 <%@ taglib uri="/WEB-INF/calvary.tld"          prefix="calvary" %>
+
+<calvary:browserBreadcrumb/>
+
 <bean:define id="viewer" name="viewer" type="org.calvaryaustin.controlpanel.viewer.ViewerForm"/>
 
 	<p>
