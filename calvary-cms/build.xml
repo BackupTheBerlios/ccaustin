@@ -186,17 +186,19 @@
   <!-- ================================================= -->
   <!-- Deploy Target -->
   <!-- ================================================= -->
-  <target name="deploy" depends="build">
-    <!-- For now, we are copying the slide kernel jars to the jboss lib dir so that the classpath is
-    shared with all deployed wars and ears. See comments below in the controlpanel.ear area. JWH -->
-    <copy toDir="${jboss.lib.home}">
-      <fileset dir="${slide.server.home}" includes="**/slide**.jar" excludes="**/*taglib*.jar,**/*servlet*.jar"/>
-    </copy>
+  <target name="deploy" depends="build"
+          description="Deploys all units to the server (.ear, .war. .bsh, .sar)">
     <copy toDir="${jboss.deploy.home}">
       <fileset dir="${project.build.controlpanel.home}" includes="**/*.ear"/>
     </copy>
   </target>
-  
+
+  <!-- ================================================= -->
+  <!-- InitServer Target -->
+  <!-- ================================================= -->
+  <target name="initserver" depends="init,initserver-controlpanel-slide"
+          description="Initializes your jboss server with the appropriate libs and directories. RUN THIS TARGET ONLY WHILE THE SERVER IS NOT RUNNING"/>
+
   <!-- ================================================= -->
   <!-- ================================================= -->
   <!-- =================         ======================= -->
@@ -460,6 +462,31 @@
      </junit>
   </target>
 
+  <target name="initserver-controlpanel-slide">
+    <!-- Note: Its best if the server is not running when this is done, as the server may try to
+    deploy the war before its fully copied -->
+
+    <!-- copy shared jars to JBoss's shared classpath dir, so we can deploy both slide.war and controlpanel.war -->
+    <!-- NOTE: We could move these files from WEB-INF/lib to jboss's lib dir, but for now we'll keep
+    it this way. Adjust if classloader issues start to show up -->
+    <copy file="${slide.kernel.jar}" toDir="${jboss.lib.home}"/>
+    <copy file="${slide.roles.jar}" toDir="${jboss.lib.home}"/>
+    <copy file="${slide.stores.jar}" toDir="${jboss.lib.home}"/>
+    
+    <!-- unjar the slide war file for faster deploy -->
+    <mkdir dir="${jboss.deploy.home}/slide.war"/>
+    <unjar src="${slide.war}" dest="${jboss.deploy.home}/slide.war"/>
+    
+    <!-- place our configuration files in the slide war structure -->
+    <copy file="${project.src.controlpanel.config}/slide/Domain.xml"
+          toDir="${jboss.deploy.home}/slide.war"/>
+    <copy file="${project.src.controlpanel.config}/slide/slide.properties.test"
+          toFile="${jboss.deploy.home}/slide.war/WEB-INF/classes/slide.properties"/>
+    <copy file="${project.src.controlpanel.config}/slide/log4j.properties.test"
+          toFile="${jboss.deploy.home}/slide.war/WEB-INF/classes/log4j.properties"/>
+    
+  </target>
+  
   <!-- ================================================= -->
   <!-- UseCases Targets -->
   <!-- ================================================= -->
