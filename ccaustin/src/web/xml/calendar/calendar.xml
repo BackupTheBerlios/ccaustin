@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.19 2002/11/14 21:41:13 javajames27 Exp $
+	$Id: calendar.xml,v 1.20 2002/11/22 20:32:39 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -13,6 +13,11 @@
     Jan
     ===============
     -->
+    <event id="01001" date="20030220" showOnHomepage="true">
+      <title>2003 Mid-South Worship Conference</title>
+      <date>Feb 20-22</date>
+      <detail>More details coming soon!</detail>
+    </event>
 		<!--
     ===============
     Feb
@@ -270,7 +275,7 @@
 				<ministry id="coffee"/>
 			</ministries>
 		</event>
-		<event id="12009" date="20021214" showOnHomepage="false">
+		<event id="12009" date="20021214" showOnHomepage="true">
 			<title>Poetry and Open Mic Night</title>
 			<date>Dec 14th</date>
 			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>

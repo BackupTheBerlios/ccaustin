@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.14 2002/11/14 21:41:13 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.15 2002/11/22 20:32:39 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -124,6 +124,24 @@
 		<news-item id="18" date="20021101" expires="20021129" showOnHomepage="true">
 			<logo align="left" img="../images/homepage/nothing.gif"/>
 			<title>Thanksgiving Week Schedule Changes</title>
-			<detail>There will be no service on Wednesday, Nov 27.  The church office will be closed Wednesday, Nov 27, at noon and also Nov 28-29.  There will be NO Men’s Prayer Group Friday, Nov 29.</detail>
+			<detail>There will be no service on Wednesday, Nov 27.  The church office
+			will be closed Wednesday, Nov 27, at noon and also Nov 28-29.  There will be
+			NO Men's Prayer Group Friday, Nov 29. Home Fellowship groups will not meet
+			Nov 29 or Dec 6.</detail> 
+		</news-item>
+		<news-item id="19" date="20021208" expires="20021208" showOnHomepage="true">
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>Year-End Video</title>
+			<detail>We need photos and videos from 2002 Calvary Events.  Please contact
+			Bunjee (719.4667 or bunjee@calvaryaustin.org) by Sunday, Dec 8.</detail>  
+		</news-item>
+		<news-item id="20" date="20021208" expires="20021209" showOnHomepage="true">
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>Fishes and Loaves Ministry</title>
+			<detail>This ministry consists of people who cook and deliver meals to those
+			who find it difficult to do so due to circumstances such as illness, surgery
+			recuperation or the arrival of a newborn baby.  The meals are provided on a
+			onetime basis or as long as the need exists.  If you are interested in being
+			part of the ministry, sign up at the Events Center.</detail>   
 		</news-item>
 </content>

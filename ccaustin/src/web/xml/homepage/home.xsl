@@ -7,7 +7,7 @@
 	Processes the ministry tag and its children tags. Most tags reference news and articles located in other files, 
 	so we perform queries on other documents to obtain the data we need for this page. Nice for reusability!
 	
-	$Id: home.xsl,v 1.22 2002/09/13 02:19:54 javajames27 Exp $
+	$Id: home.xsl,v 1.23 2002/11/22 20:32:39 javajames27 Exp $
 	
 -->	
 
@@ -85,7 +85,10 @@
                                   <tr>
                                     <td>
                                       <table border="0" cellspacing="0" cellpadding="0" width="100%">
-                                        <xsl:apply-templates select="document('../calendar/calendar.xml')/content/calendar/event[@showOnHomepage='true']"/>
+                                        <xsl:apply-templates
+                                          select="document('../calendar/calendar.xml')/content/calendar/event[@showOnHomepage='true']">
+                                          <xsl:sort select="@date"/>
+                                        </xsl:apply-templates>
                                         <tr>
                                           <td colspan="2" class="eventtitle" align="left" valign="top"><hr height="1" size="1" color="#2544a9" noshade="true"/></td>
                                         </tr>
