@@ -3352,6 +3352,14 @@
 		<audio>bibleoverview/45-rom-15.ram</audio>
 		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom015.html#top</passageref>
 	</message>
+	<message date="20030416" service="midweek" category="overview">
+		<seriestitle>I Corinthians</seriestitle>
+		<title></title>
+		<passage>I Corinthians 1-2</passage>
+		<tape>BO1312</tape>
+		<audio>bibleoverview/46-ico-01.ram</audio>
+		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr001.html#top</passageref>
+	</message>
 
 
     <message date="19940522" service="sunday" category="topical series">
@@ -5299,6 +5307,14 @@
 		<passage>James 4, Revelation 19 and Romans 13</passage>
 		<tape>TM032303</tape>
 		<audio>topicmessage/war.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="20030420" service="sunday" category="misc">
+		<seriestitle>Topical Message</seriestitle>
+		<title>Easter Changes Everything</title>
+		<passage>Mark 16</passage>
+		<tape>TM042003</tape>
+		<audio>topicmessage/easter2003.ram</audio>
 		<passageref></passageref>
 	</message>
 
