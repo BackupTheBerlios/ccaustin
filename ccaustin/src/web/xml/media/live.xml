@@ -3,14 +3,14 @@
 
 	Calvary Live
 	
-	$Id: live.xml,v 1.8 2004/05/14 21:15:35 gregk Exp $
+	$Id: live.xml,v 1.9 2004/08/01 01:19:16 tie Exp $
 		
 -->
 <content title="Calvary Live" base=".">
 
 	<welcome>
 		<p>Join us every Sunday morning and Wednesday evening for our live webcast. You may watch, using the Windows Media Player Series 9®, during the times 	listed below. When you're ready to go, click on the 	Live button below to join us at our home in Austin, Texas.</p>
-		<subtext>You need a recent version of the Windows Media Player. You can watch over a 	28K modem, 56K modem, or cable modem or DSL connection. </subtext>
+		<subtext>You need a recent version of the Windows Media Player. You can watch over a cable modem or DSL connection for optimal streaming media performance. </subtext>
 		<!--<note>Note that we are currently experiencing difficulties with live feeds. The video archive will be available no later than 24 hours after the initial broadcast using the links at the bottom of this page. Thanks for your understanding and prayers.</note>-->
 	</welcome>
 	
