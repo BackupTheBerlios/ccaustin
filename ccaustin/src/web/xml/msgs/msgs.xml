@@ -3656,9 +3656,9 @@
 <message date="20040428" service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 5-6</passage> <tape>BO1352</tape> <audio>bibleoverview/58-heb-05.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr005.html#top</passageref> </message> 
 
 <message date="20040505" service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 7-8</passage> <tape>BO1353</tape> <audio>bibleoverview/58-heb-07.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr007.html#top</passageref> </message> 
-<message date="20040512" service="midweek" category="guest speaker">
-		<seriestitle>Bunjee Garrett</seriestitle>
-		<title>Romans 12:2</title>
+<message date="20040512" service="midweek" category="misc">
+		<seriestitle>Guest Speaker</seriestitle>
+		<title>Garrett, Bunjee</title>
 		<passage>Romans 12:2</passage>
 		<tape>GS051204</tape>
 		<audio>guestspeaker/bgarrett051204.wma</audio>
