@@ -1,0 +1,1538 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List href="CMSRequirements_files/filelist.xml">
+<link rel=Edit-Time-Data href="CMSRequirements_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Content Management System Requirements</title>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PersonName"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="City"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="place"/>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>James Higginbotham</o:Author>
+  <o:LastAuthor>James Higginbotham</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>6707</o:TotalTime>
+  <o:Created>2002-11-19T17:48:00Z</o:Created>
+  <o:LastSaved>2002-11-19T17:49:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>2727</o:Words>
+  <o:Characters>15544</o:Characters>
+  <o:Company>BetweenMarkets</o:Company>
+  <o:Lines>129</o:Lines>
+  <o:Paragraphs>36</o:Paragraphs>
+  <o:CharactersWithSpaces>18235</o:CharactersWithSpaces>
+  <o:Version>10.2625</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:1627421319 -2147483648 8 0 66047 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:windowtext;}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.25in;
+	text-indent:-.25in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	mso-list:l12 level1 lfo3;
+	tab-stops:list .25in;
+	font-size:16.0pt;
+	font-family:Arial;
+	color:windowtext;
+	mso-font-kerning:16.0pt;
+	font-weight:bold;}
+h2
+	{mso-style-next:"Block Text";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.55in;
+	text-indent:-.3in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	mso-list:l12 level2 lfo3;
+	tab-stops:list .55in;
+	font-size:14.0pt;
+	font-family:Arial;
+	color:windowtext;
+	font-weight:bold;
+	font-style:italic;}
+h3
+	{mso-style-next:"Block Text";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.8in;
+	text-indent:-.3in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	mso-list:l12 level3 lfo3;
+	tab-stops:list 1.0in;
+	font-size:13.0pt;
+	font-family:Arial;
+	color:windowtext;
+	font-weight:bold;}
+h4
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	font-size:14.0pt;
+	font-family:"Times New Roman";
+	color:windowtext;
+	font-weight:bold;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-noshow:yes;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:windowtext;}
+span.MsoCommentReference
+	{mso-style-noshow:yes;
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	color:windowtext;
+	mso-font-kerning:14.0pt;
+	font-weight:bold;}
+p.MsoBlockText, li.MsoBlockText, div.MsoBlockText
+	{margin-top:0in;
+	margin-right:.3in;
+	margin-bottom:6.0pt;
+	margin-left:1.0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:windowtext;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-noshow:yes;
+	mso-style-parent:"Comment Text";
+	mso-style-next:"Comment Text";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:windowtext;
+	font-weight:bold;}
+span.Hyperlink10
+	{mso-style-name:Hyperlink10;
+	color:#000066;
+	mso-text-animation:none;
+	text-decoration:none;
+	text-underline:none;
+	text-decoration:none;
+	text-line-through:none;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:.3in .5in .5in .5in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+@page Section2
+	{size:8.5in 11.0in;
+	margin:.3in .5in .5in .5in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section2
+	{page:Section2;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:-132;
+	mso-list-type:simple;
+	mso-list-template-ids:922782046;}
+@list l0:level1
+	{mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:-131;
+	mso-list-type:simple;
+	mso-list-template-ids:-1990450908;}
+@list l1:level1
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:-130;
+	mso-list-type:simple;
+	mso-list-template-ids:-1010514974;}
+@list l2:level1
+	{mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:-129;
+	mso-list-type:simple;
+	mso-list-template-ids:1085341406;}
+@list l3:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4
+	{mso-list-id:-128;
+	mso-list-type:simple;
+	mso-list-template-ids:276852578;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l5
+	{mso-list-id:-127;
+	mso-list-type:simple;
+	mso-list-template-ids:129688346;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l6
+	{mso-list-id:-126;
+	mso-list-type:simple;
+	mso-list-template-ids:809678932;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l7
+	{mso-list-id:-125;
+	mso-list-type:simple;
+	mso-list-template-ids:-281247850;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l8
+	{mso-list-id:-120;
+	mso-list-type:simple;
+	mso-list-template-ids:993062142;}
+@list l8:level1
+	{mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;}
+@list l9
+	{mso-list-id:-119;
+	mso-list-type:simple;
+	mso-list-template-ids:1163672800;}
+@list l9:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l10
+	{mso-list-id:561719813;
+	mso-list-template-ids:1465167288;}
+@list l10:level1
+	{mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;}
+@list l10:level2
+	{mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:.55in;
+	mso-level-number-position:left;
+	margin-left:.55in;
+	text-indent:-.3in;}
+@list l10:level3
+	{mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:.85in;
+	text-indent:-.35in;}
+@list l10:level4
+	{mso-level-text:"%1\.%2\.%3\.%4\.";
+	mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.2in;
+	text-indent:-.45in;}
+@list l10:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.";
+	mso-level-tab-stop:1.75in;
+	mso-level-number-position:left;
+	margin-left:1.55in;
+	text-indent:-.55in;}
+@list l10:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.";
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	margin-left:1.9in;
+	text-indent:-.65in;}
+@list l10:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.";
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	margin-left:2.25in;
+	text-indent:-.75in;}
+@list l10:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.";
+	mso-level-tab-stop:2.75in;
+	mso-level-number-position:left;
+	margin-left:2.6in;
+	text-indent:-.85in;}
+@list l10:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9\.";
+	mso-level-tab-stop:3.25in;
+	mso-level-number-position:left;
+	margin-left:3.0in;
+	text-indent:-1.0in;}
+@list l11
+	{mso-list-id:689065625;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1193432080 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l11:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12
+	{mso-list-id:1280529990;
+	mso-list-template-ids:-1967480306;}
+@list l12:level1
+	{mso-level-style-link:"Heading 1";
+	mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;}
+@list l12:level2
+	{mso-level-style-link:"Heading 2";
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:.55in;
+	mso-level-number-position:left;
+	margin-left:.55in;
+	text-indent:-.3in;}
+@list l12:level3
+	{mso-level-style-link:"Heading 3";
+	mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:.85in;
+	text-indent:-.35in;}
+@list l12:level4
+	{mso-level-text:"%1\.%2\.%3\.%4\.";
+	mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.2in;
+	text-indent:-.45in;}
+@list l12:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.";
+	mso-level-tab-stop:1.75in;
+	mso-level-number-position:left;
+	margin-left:1.55in;
+	text-indent:-.55in;}
+@list l12:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.";
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	margin-left:1.9in;
+	text-indent:-.65in;}
+@list l12:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.";
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	margin-left:2.25in;
+	text-indent:-.75in;}
+@list l12:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.";
+	mso-level-tab-stop:2.75in;
+	mso-level-number-position:left;
+	margin-left:2.6in;
+	text-indent:-.85in;}
+@list l12:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9\.";
+	mso-level-tab-stop:3.25in;
+	mso-level-number-position:left;
+	margin-left:3.0in;
+	text-indent:-1.0in;}
+@list l13
+	{mso-list-id:1600485555;
+	mso-list-template-ids:1801506074;}
+@list l13:level1
+	{mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;}
+@list l13:level2
+	{mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:.55in;
+	mso-level-number-position:left;
+	margin-left:.55in;
+	text-indent:-.3in;}
+@list l13:level3
+	{mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:.85in;
+	text-indent:-.35in;}
+@list l13:level4
+	{mso-level-text:"%1\.%2\.%3\.%4\.";
+	mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.2in;
+	text-indent:-.45in;}
+@list l13:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.";
+	mso-level-tab-stop:1.75in;
+	mso-level-number-position:left;
+	margin-left:1.55in;
+	text-indent:-.55in;}
+@list l13:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.";
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	margin-left:1.9in;
+	text-indent:-.65in;}
+@list l13:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.";
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	margin-left:2.25in;
+	text-indent:-.75in;}
+@list l13:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.";
+	mso-level-tab-stop:2.75in;
+	mso-level-number-position:left;
+	margin-left:2.6in;
+	text-indent:-.85in;}
+@list l13:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9\.";
+	mso-level-tab-stop:3.25in;
+	mso-level-number-position:left;
+	margin-left:3.0in;
+	text-indent:-1.0in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor="#FFFFFF" lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<p class=MsoTitle><o:p>&nbsp;</o:p></p>
+
+<p class=MsoTitle><o:p>&nbsp;</o:p></p>
+
+<p class=MsoTitle><o:p>&nbsp;</o:p></p>
+
+<p class=MsoTitle><o:p>&nbsp;</o:p></p>
+
+<p class=MsoTitle><!--[if mso & !supportInlineShapes & supportFields]><span
+style='mso-element:field-begin;mso-field-lock:yes'></span><span
+style='mso-spacerun:yes'> </span>SHAPE<span style='mso-spacerun:yes'> 
+</span>\* MERGEFORMAT <span style='mso-element:field-separator'></span><![endif]--><!--[if gte vml 1]><v:group
+ id="_x0000_s1032" editas="canvas" style='width:459pt;height:9pt;
+ mso-position-horizontal-relative:char;mso-position-vertical-relative:line'
+ coordorigin="2370,5385" coordsize="7650,154">
+ <o:lock v:ext="edit" aspectratio="t"/>
+ <v:shapetype id="_x0000_t75" coordsize="21600,21600" o:spt="75"
+  o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+  <v:stroke joinstyle="miter"/>
+  <v:formulas>
+   <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+   <v:f eqn="sum @0 1 0"/>
+   <v:f eqn="sum 0 0 @1"/>
+   <v:f eqn="prod @2 1 2"/>
+   <v:f eqn="prod @3 21600 pixelWidth"/>
+   <v:f eqn="prod @3 21600 pixelHeight"/>
+   <v:f eqn="sum @0 0 1"/>
+   <v:f eqn="prod @6 1 2"/>
+   <v:f eqn="prod @7 21600 pixelWidth"/>
+   <v:f eqn="sum @8 21600 0"/>
+   <v:f eqn="prod @7 21600 pixelHeight"/>
+   <v:f eqn="sum @10 21600 0"/>
+  </v:formulas>
+  <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+  <o:lock v:ext="edit" aspectratio="t"/>
+ </v:shapetype><v:shape id="_x0000_s1033" type="#_x0000_t75" style='position:absolute;
+  left:2370;top:5385;width:7650;height:154' o:preferrelative="f">
+  <v:fill o:detectmouseclick="t"/>
+  <v:path o:extrusionok="t" o:connecttype="none"/>
+  <o:lock v:ext="edit" text="t"/>
+ </v:shape><v:line id="_x0000_s1034" style='position:absolute' from="2520,5385"
+  to="9720,5386"/>
+ <w:wrap type="none"/>
+ <w:anchorlock/>
+</v:group><![endif]--><![if !vml]><img width=612 height=13
+src="CMSRequirements_files/image003.gif" v:shapes="_x0000_s1032 _x0000_s1033 _x0000_s1034"><![endif]><!--[if mso & !supportInlineShapes & supportFields]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:459pt;height:9pt'>
+ <v:imagedata croptop="-65520f" cropbottom="65520f"/>
+</v:shape><span style='mso-element:field-end'></span><![endif]--></p>
+
+<p class=MsoTitle style='margin-left:1.0in'><span style='font-size:20.0pt'>Content
+Management System<o:p></o:p></span></p>
+
+<p class=MsoTitle style='margin-left:1.0in'>Requirements Document</p>
+
+<p class=MsoTitle style='margin-left:1.0in'><i style='mso-bidi-font-style:normal'><span
+style='font-weight:normal;mso-bidi-font-weight:bold'>Calvary Chapel of Austin
+Internet Ministry<o:p></o:p></span></i></p>
+
+<p class=MsoTitle><!--[if mso & !supportInlineShapes & supportFields]><span
+style='mso-element:field-begin;mso-field-lock:yes'></span><span
+style='mso-spacerun:yes'> </span>SHAPE<span style='mso-spacerun:yes'> 
+</span>\* MERGEFORMAT <span style='mso-element:field-separator'></span><![endif]--><!--[if gte vml 1]><v:group
+ id="_x0000_s1040" editas="canvas" style='width:459pt;height:9pt;
+ mso-position-horizontal-relative:char;mso-position-vertical-relative:line'
+ coordorigin="2370,5385" coordsize="7650,154">
+ <o:lock v:ext="edit" aspectratio="t"/>
+ <v:shape id="_x0000_s1041" type="#_x0000_t75" style='position:absolute;left:2370;
+  top:5385;width:7650;height:154' o:preferrelative="f">
+  <v:fill o:detectmouseclick="t"/>
+  <v:path o:extrusionok="t" o:connecttype="none"/>
+  <o:lock v:ext="edit" text="t"/>
+ </v:shape><v:line id="_x0000_s1042" style='position:absolute' from="2520,5385"
+  to="9720,5386"/>
+ <w:wrap type="none"/>
+ <w:anchorlock/>
+</v:group><![endif]--><![if !vml]><img width=612 height=13
+src="CMSRequirements_files/image003.gif" v:shapes="_x0000_s1040 _x0000_s1041 _x0000_s1042"><![endif]><!--[if mso & !supportInlineShapes & supportFields]><v:shape
+ id="_x0000_i1026" type="#_x0000_t75" style='width:459pt;height:9pt'>
+ <v:imagedata croptop="-65520f" cropbottom="65520f"/>
+</v:shape><span style='mso-element:field-end'></span><![endif]--></p>
+
+<p class=MsoTitle><o:p>&nbsp;</o:p></p>
+
+<p class=MsoTitle><o:p>&nbsp;</o:p></p>
+
+<p class=MsoTitle><o:p>&nbsp;</o:p></p>
+
+<p class=MsoTitle><o:p>&nbsp;</o:p></p>
+
+<p class=MsoTitle><o:p>&nbsp;</o:p></p>
+
+<p class=MsoTitle><o:p>&nbsp;</o:p></p>
+
+<p class=MsoTitle><span class=MsoHyperlink><o:p><span style='text-decoration:
+ none'>&nbsp;</span></o:p></span></p>
+
+<p class=MsoTitle align=right style='text-align:right'><st1:PersonName><i
+ style='mso-bidi-font-style:normal'><span style='font-size:12.0pt'>James
+ Higginbotham</span></i></st1:PersonName><i style='mso-bidi-font-style:normal'><span
+style='font-size:12.0pt'><o:p></o:p></span></i></p>
+
+<p class=MsoTitle align=right style='text-align:right'><i style='mso-bidi-font-style:
+normal'><a href="mailto:javajames27@hotmail.com">javajames27@hotmail.com</a></i><i
+style='mso-bidi-font-style:normal'><span style='font-size:12.0pt'> <o:p></o:p></span></i></p>
+
+<b><i style='mso-bidi-font-style:normal'><span style='font-size:16.0pt;
+font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-font-kerning:
+16.0pt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:
+AR-SA'><br clear=all style='page-break-before:always'>
+</span></i></b>
+
+<h1><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Introduction</h1>
+
+<p class=MsoNormal>This analysis document identifies the requirements of the
+Calvary Chapel of Austin Internet Ministry for content management of the church
+web site. The goal is to enable ministry leaders, servants, and church staff to
+create and publish new content to the web site without requiring technical
+skills for all but the most difficult of tasks. The document will also provide CMS
+resources, possible CMS solutions, and a requirements matrix of CMS solutions
+that met at least 50% of the identified requirements.</p>
+
+<h1><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Who Should Read This Document</h1>
+
+<p class=MsoNormal>This document is intended for the pastoral staff and
+internet ministry servants, as well as anyone interested in the analysis phase
+for the CMS solution.</p>
+
+<h1><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Content Management System Overview</h1>
+
+<p class=MsoNormal>A Content Management System (CMS) is a tool that enables a
+variety of (centralized) technical and (de-centralized) non technical staff to
+create, edit, manage and finally publish a variety of content (such as text,
+graphics, video etc), whilst being constrained by a centralized set of rules,
+process and workflows that ensure a coherent, validated website appearance.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Unfortunately, CMS has been used to identify any number of
+things that manage content or even just web pages. This document assumes that a
+CMS matches the definition above, but sub-categorizes them in the following
+manner: CMS frameworks and CMS solutions. CMS frameworks focus primarily on the
+server-side functionality necessary to create a CMS solution, but more than
+likely only offer a skeleton solution or no solution at all. Thus, programming
+is required to make a framework become a solution. A CMS solution is considered
+a fully-functional CMS that offers both the server-side functionality and a
+user interface for content management. In addition, a solution may offer either
+programmatic methods of customizing the CMS to suit one’s needs, or may offer a
+user interface for customization.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Other software solutions sometimes classified as a CMS
+include portal engines (<span class=SpellE>PHPNuke</span>, <span class=SpellE>Slashcode</span>,
+etc.), website management tools (Microsoft <span class=SpellE>Frontpage</span>),
+and Knowledge Management Systems (<span class=SpellE>Wiki</span>). These items,
+though they manage content, are not considered a full-blown CMS and are not
+included in this analysis document.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Note: There were found at <span class=SpellE>Sourceforge</span>
+(a hosting site for software projects) over 350 projects labeled “CMS” but
+either have not released any code or are not really a CMS after all. </p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h1><a name="_Content_Management_System_Requireme"></a><![if !supportLists]><span
+style='mso-fareast-font-family:Arial'><span style='mso-list:Ignore'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span><![endif]>Content
+Management System Requirements</h1>
+
+<p class=MsoNormal>The following section outlines the requirements identified
+for the CA Internet Ministry’s content management solution. Items marked with a
+<b style='mso-bidi-font-weight:normal'>must</b> are required features of the
+CMS solution to be considered for selection. Items marked <b style='mso-bidi-font-weight:
+normal'>should</b> are a high priority, but are not considered an essential
+requirement of the CMS solution. Items marked <span class=GramE><b
+style='mso-bidi-font-weight:normal'>may</b></span> are considered value-add
+only.<o:p></o:p></p>
+
+<h2><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Functional</h2>
+
+<p class=MsoBlockText>The functional section identifies requirements that are
+required functions of the CMS solution.<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Web Content Management</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>must</b>
+be designed to manage web-based content.</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Other Content Management</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+allow other types of content to be managed, such as Word documents, PowerPoint
+presentations, and PDF files.</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Content Import/Export</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+allow content to be imported and exported using multiple formats, such as plain
+text, PDF, and Word/Excel.</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Current Content Import </h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+store data in a manner that would allow content from the existing web site, in
+XML format, to be transformed to its internal format or pushed in via an API.<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Content Editing</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>must</b>
+have a method of editing content via the web using either simple HTML or
+HTML-like markup capabilities. </p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Content Security</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>must</b>
+be able to assign read/write permissions to content to prevent unwanted editing
+of content by other ministries and staff.<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Workflow-based Publishing</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>must</b>
+offer new content to be reviewed and edited before being published to the
+public.</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Automatic Publishing</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+offer an option to allow content to be automatically published, to enable
+weekly changes to skip the review process (events, audio catalog, etc).</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Versioning</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>must</b>
+offer to version historical versions of content, allowing for editors to
+approve changes to existing documents.<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.10.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Image Support</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+offer an option to allow content creators/editors to upload images to the
+system and link images into the content. <o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.11.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Writers/Editors User Account</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>must</b>
+offer signup for creating a user account for writers and editors and allow
+customizations to be stored and available on the next login.<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.12.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Online Help</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+offer online help to content writers and editors, to reduce support overhead on
+the Internet Ministry.<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.13.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Page Layout</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+offer more than one page layout style, to enable text and images to be offered
+in a variety of pleasing formats.</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.14.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Static Page Generation</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+offer capabilities to export published content as static HTML rather than
+dynamic, DB generated pages to enable easier replication and less runtime
+dependence on the content management system.<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.15.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Staging/Preview Capability</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+offer a method of previewing new/edited pages to determine the overall impact
+of the addition/change.</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.16.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Search</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+offer a search capability so that visitors may locate articles quickly.<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.17.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Content Filtering</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+offer a feature to scan for profanity if features are open to the public, such
+as discussion forums.</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.18.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Search Engine Keywords</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+allow writers and editors to specify keywords for the content and use these
+keywords to generate proper HTML for search engines to properly index the site.</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.19.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Pluggable Extensions</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+offer an option to extend the functionality of the CMS via extensions (e.g. <span
+class=SpellE>portlets</span> or module-based concepts)</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.20.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Surveys</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+offer a method of designing surveys for visitors. The system must offer
+reporting capabilities for the surveys if the survey feature is supported.<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.21.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Shopping Cart</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+offer a shopping cart for visitors to purchase books, tapes, CDs, and event
+signups.<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.22.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>E-Commerce</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>must</b>
+offer an online payment system or the capability if the shopping cart feature
+is supported, to enable visitors to pay for items in their shopping cart.<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.23.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>E-Commerce User Account</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>must</b>
+offer user accounts and allow customizations to be stored and available on the
+next login if the e-commerce feature is supported<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.24.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Private Areas</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+offer a private area that is accessible via their user account, controlled by a
+role-based access. This enables staff members to store private information
+available only to other staff rather than all staff and visitors.<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.25.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Discussion Forums</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+offer customizable discussion forms that offer moderated as well as
+non-moderated forums.<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.26.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Look-n-Feel</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+offer pluggable “skins” or offer documentation as to the steps required to
+replace the current look-and-feel. This may be satisfied by a simple <span
+class=SpellE>templating</span> or master template concept.</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.27.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Status Notification </h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>must</b>
+send an email with the new/edited content that was submitted to the editorial
+staff for review. </p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.28.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Task/Milestone Management</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+offer a method of managing progress for tasks/milestones associated with
+content generation.</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.29.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Reporting</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+offer reporting capabilities to determine usage statistics, as well as editing
+history (what pages were changed within a specified time period, who changed
+them, bad links, etc.). </p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.30.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Report Export</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+offer the ability to export reporting data to an external format for
+weekly/monthly status reports (e.g. PDF, XML, Excel, and Word).</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.31.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Timed Publishing</h3>
+
+<p class=MsoBlockText>The system should offer a feature to set the time/date
+when an article may be published to the public after being edited.</p>
+
+<h2><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Non-Functional</h2>
+
+<p class=MsoBlockText>Non-functional requirements are items identified as
+requirements but are not considered features within a CMS.<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.2.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Operating System</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>must</b>
+support the Linux operating system, and <b style='mso-bidi-font-weight:normal'>should</b>
+support the Windows 2000/XP operating system for extensions <st1:PersonName>dev</st1:PersonName>elopment
+by the ministry.<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.2.2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Programming Language</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+be written in Java due to the church’s availability of Java software <st1:PersonName>dev</st1:PersonName>elopers.
+<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.2.3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Database Support</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+support a database that is free and available on the Linux operating system.<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.2.4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Documentation</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+offer some level of documentation for the setup, customization, and
+administration of the site. </p>
+
+<p class=MsoBlockText>It <b style='mso-bidi-font-weight:normal'>must</b> offer
+documentation if online help is not offered</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.2.5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Customization</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>should</b>
+require minimal customization work using programming to ensure content can be
+managed. Programmatic customization may be required to extend the capabilities
+not supported by the system but are optional requirements as defined by this
+document.</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.2.6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Usability</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>must</b>
+be easy to use for content writers to enable all servants to learn how to
+create/edit content using the system with minimal training and support.</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>4.2.7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Cost</h3>
+
+<p class=MsoBlockText>The system <b style='mso-bidi-font-weight:normal'>must</b>
+have a cost of $500 or under. Preferably, the system should be open source so
+that changes can be made to the system without additional monetary cost.</p>
+
+<p class=MsoBlockText><o:p>&nbsp;</o:p></p>
+
+<b><span style='font-size:16.0pt;font-family:Arial;mso-fareast-font-family:
+"Times New Roman";mso-font-kerning:16.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA'><br clear=all style='page-break-before:always'>
+</span></b>
+
+<h1><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Conclusions</h1>
+
+<p class=MsoNormal>After evaluating the solutions with the best potential for
+satisfying the Calvary Austin Internet Ministry requirements, it was discovered
+that most solutions on the market either: 1) cost too much, 2) are composed of
+too many technical solutions that do not solve a complete problem set, and/or
+3) didn’t truly understand the purpose of a CMS solution after claiming to be a
+CMS. </p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>It is with careful consideration and prayer that the
+following decisions were made:</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<ol style='margin-top:0in' start=1 type=1>
+ <li class=MsoNormal style='mso-list:l11 level1 lfo14;tab-stops:list .5in'>A
+     solution will be built internally to solve the ministry’s content management
+     needs</li>
+ <li class=MsoNormal style='mso-list:l11 level1 lfo14;tab-stops:list .5in'>There
+     are a number of frameworks available to assist in this custom solution</li>
+ <li class=MsoNormal style='mso-list:l11 level1 lfo14;tab-stops:list .5in'>These
+     solutions include Slide (<span class=SpellE>WebDAV</span>-enabled content
+     management framework and user management system) and Cocoon (an XML/XSL
+     framework) that requires a J2EE server environment.</li>
+ <li class=MsoNormal style='mso-list:l11 level1 lfo14;tab-stops:list .5in'>The
+     church currently has a number of Java developers in the local body that
+     can assist the ministry in building this solution.</li>
+ <li class=MsoNormal style='mso-list:l11 level1 lfo14;tab-stops:list .5in'>We
+     will use the existing XML + XSL infrastructure to separate content and
+     layout</li>
+ <li class=MsoNormal style='mso-list:l11 level1 lfo14;tab-stops:list .5in'>Microsoft’s
+     emerging <span class=SpellE>XDocs</span> solution and move to a pure
+     XML-based Microsoft Office 10 indicates XML as a content solution will
+     become more mainstream – even more than HTML itself</li>
+</ol>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>With these decisions in place, the next document to be
+constructed and reviewed at this time is a software architecture document (SAD)
+to outline the software solution to meet the requirements documented above. </p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<b><span style='font-size:16.0pt;font-family:Arial;mso-fareast-font-family:
+"Times New Roman";mso-font-kerning:16.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA'><br clear=all style='page-break-before:always'>
+</span></b>
+
+<h1><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>References</h1>
+
+<h2><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Diagrams</h2>
+
+<p class=MsoBlockText><!--[if gte vml 1]><v:shape id="_x0000_i1027" type="#_x0000_t75"
+ alt="" style='width:412.5pt;height:225pt'>
+ <v:imagedata src="CMSRequirements_files/image002.gif" o:href="http://dcb.sun.com/images/selecting_cms_content-management.gif"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=550 height=300
+src="CMSRequirements_files/image002.gif" v:shapes="_x0000_i1027"><![endif]></p>
+
+<h2><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>CMS Portal Sites and Directories</h2>
+
+<p class=MsoBlockText><a href="http://www.intranetjournal.com/km/">http://www.intranetjournal.com/km/</a></p>
+
+<p class=MsoBlockText><a href="http://www.portalzine.de/">http://www.portalzine.de/</a>
+- commercial hosting with great UI!</p>
+
+<p class=MsoBlockText><a href="http://www.cmsinfo.org/">http://www.cmsinfo.org</a>
+– Nice site in <span class=SpellE>Postnuke</span> about CMS – check back</p>
+
+<p class=MsoBlockText><a href="http://www.oscom.org/">http://www.oscom.org</a>
+– Open Source Content Management non-profit org</p>
+
+<p class=MsoBlockText><a
+href="http://dmoz.org/Computers/Software/Internet/Site_Management/Content_Management/">http://dmoz.org/Computers/Software/Internet/Site_Management/Content_Management/</a>
+- <span class=SpellE>DMoz</span> directory<o:p></o:p></p>
+
+<h2><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Articles</h2>
+
+<p class=MsoBlockText><a
+href="http://dcb.sun.com/practices/howtos/selecting_cms.jsp">http://dcb.sun.com/practices/howtos/selecting_cms.jsp</a></p>
+
+<p class=MsoBlockText><a
+href="http://www.intranetjournal.com/articles/200107/wp_07_25_01h.html">http://www.intranetjournal.com/articles/200107/wp_07_25_01h.html</a>
+</p>
+
+<p class=MsoBlockText><a href="http://www.steptwo.com.au/papers/kmc_evaluate/">http://www.steptwo.com.au/papers/kmc_evaluate/</a></p>
+
+<p class=MsoBlockText><a
+href="http://newsforge.com/article.pl?sid=02/08/28/0013255">http://newsforge.com/article.pl?sid=02/08/28/0013255</a></p>
+
+<p class=MsoBlockText><a href="http://www.oscom.org/conferences/berkeley2002/">http://www.oscom.org/conferences/berkeley2002/</a></p>
+
+<p class=MsoBlockText><a
+href="http://www.svpal.org/~grantbow/groupware.html#outreach">http://www.svpal.org/~grantbow/groupware.html#outreach</a></p>
+
+<p class=MsoBlockText><a
+href="http://common.ziffdavisinternet.com/download/0/1616/CMSDirectory.pdf">http://common.ziffdavisinternet.com/download/0/1616/CMSDirectory.pdf</a>
+(good chart of $$$$-free servers and <span class=SpellE><span class=GramE>est</span></span>
+time to customize)</p>
+
+<p class=MsoBlockText><span style='mso-spacerun:yes'> </span></p>
+
+<h2><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>CMS Frameworks</h2>
+
+<p class=MsoBlockText>These solutions are CMS frameworks only and are not
+considered valid choices for the CMS solution. They are provided for future
+research and to document solutions that may be used if a complete solution is
+not found.<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.4.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>Axkit</span></h3>
+
+<p class=MsoBlockText><a href="http://www.axkit.org/">http://www.axkit.org/</a></p>
+
+<p class=MsoBlockText>XML presentation framework </p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.4.2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>XNGR<span style='mso-tab-count:1'>          </span></h3>
+
+<p class=MsoBlockText><a href="http://xngr.org/">http://xngr.org/</a></p>
+
+<p class=MsoBlockText>XML/Swing editor</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.4.3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><st1:City><st1:place>Jakarta</st1:place></st1:City>
+Slide</h3>
+
+<p class=MsoBlockText><a href="http://jakarta.apache.org/slide/">http://jakarta.apache.org/slide/</a></p>
+
+<p class=MsoBlockText><span class=SpellE>WebDAV</span>, CMS framework</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.4.4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>JPublish</span></h3>
+
+<p class=MsoBlockText><a href="http://www.jpublish.org/">http://www.jpublish.org/</a></p>
+
+<p class=MsoBlockText>CMS framework</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.4.5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>Quixite</span></h3>
+
+<p class=MsoBlockText><a href="http://qixite.sourceforge.net/">http://qixite.sourceforge.net/</a></p>
+
+<p class=MsoBlockText>XSL site framework; simple content mgmt, not a CMS</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.4.6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>Redhat</span> CCM</h3>
+
+<p class=MsoBlockText><a href="http://ccm.redhat.com/">http://ccm.redhat.com/</a></p>
+
+<p class=MsoBlockText>Nice J2EE framework for content management and essential
+components for any application. </p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.4.7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>Wyona</span></h3>
+
+<p class=MsoBlockText><a href="http://www.wyona.org/">http://www.wyona.org/</a></p>
+
+<p class=MsoBlockText>Java-based CMS that is more like a framework with an SDK;
+“The Network is the CMS” attitude</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.4.8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>Xims</span></h3>
+
+<p class=MsoBlockText><a href="http://xims.uibk.ac.at/">http://xims.uibk.ac.at/</a></p>
+
+<p class=MsoBlockText><span class=SpellE>AxKit</span> implementation that is
+for academic use mostly; Nice UI skin – see screenshots</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.4.9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>Midgard</span></h3>
+
+<p class=MsoBlockText><a href="http://www.midgard-project.org/">http://www.midgard-project.org/</a></p>
+
+<p class=MsoBlockText>Apache + PHP framework<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.4.10.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>ActivEdit</span></h3>
+
+<p class=MsoBlockText><a href="http://www.cfdev.com/activedit/php.cfm">http://www.cfdev.com/activedit/php.cfm</a></p>
+
+<p class=MsoBlockText>WYSIWYG Editor that goes inside an HTML page and generates
+HTML from the user</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.4.11.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>Editize</span></h3>
+
+<p class=MsoBlockText><a href="http://www.editize.com/">http://www.editize.com/</a></p>
+
+<p class=MsoBlockText>Rich Text Editor for CMS web forms.</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.4.12.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>HTML <span class=SpellE>Editbox</span></h3>
+
+<p class=MsoBlockText><a href="http://www.labs4.com/editbox.php">http://www.labs4.com/editbox.php</a></p>
+
+<p class=MsoBlockText>Editor in PHP for generating HTML within the browser</p>
+
+<h2><a name="_CMS_Solutions"></a><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>6.5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>CMS Solutions</h2>
+
+<p class=MsoBlockText>The following are links to CMS solutions that may be evaluated
+for functional and non-functional requirements. The top 3-5 products will be
+installed and further evaluated to determine their capabilities further.</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.5.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>Callisto</span> CMS</h3>
+
+<p class=MsoBlockText><a href="http://www.callistocms.com/">http://www.callistocms.com/</a></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.5.2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>CityDesk</span></h3>
+
+<p class=MsoBlockText><a href="http://www.fogcreek.com/CityDesk/">http://www.fogcreek.com/CityDesk/</a></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.5.3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>Cofax</span></h3>
+
+<p class=MsoBlockText><a href="http://www.cofax.org/">http://www.cofax.org/</a></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.5.4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>Idega</span> Web/CMS Builder</h3>
+
+<p class=MsoBlockText><a href="http://www.idega.is/">http://www.idega.is/</a></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.5.5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>OpenCms</span></h3>
+
+<p class=MsoBlockText><a
+href="http://www.opencms.org/opencms/opencms/index.html">http://www.opencms.org/opencms/opencms/index.html</a></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.5.6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>Vyre</span></h3>
+
+<p class=MsoBlockText><a href="http://www.vyre.com/">http://www.vyre.com/</a></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.5.7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=GramE>ion</span></h3>
+
+<p class=MsoBlockText><a
+href="http://ion-cms.sourceforge.net/section/index.html">http://ion-cms.sourceforge.net/section/index.html</a></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.5.8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>MySource</span></h3>
+
+<p class=MsoBlockText><a href="http://mysource.squiz.net/">http://mysource.squiz.net/</a></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.5.9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>APC <span class=SpellE>ActionApps</span></h3>
+
+<p class=MsoBlockText><a href="http://www.apc.org/actionapps/english/index.html">http://www.apc.org/actionapps/english/index.html</a></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.5.10.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE><span class=GramE>ezPublish</span></span></h3>
+
+<p class=MsoBlockText><span class=MsoHyperlink><a
+href="http://developer.ez.no/article/static/7/">http://developer.ez.no/article/static/7/</a><o:p></o:p></span></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.5.11.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>Managee</span><o:p></o:p></h3>
+
+<p class=MsoBlockText><span class=MsoHyperlink><a href="http://www.managee.com/">http://www.managee.com/</a><o:p></o:p></span></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.5.12.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>OmegaCMS</span></h3>
+
+<p class=MsoBlockText><span style='font-size:10.0pt;font-family:"Courier New"'><a
+href="http://www.omegacms.com/tour.html">http://www.omegacms.com/tour.html</a><o:p></o:p></span></p>
+
+<p class=MsoBlockText>A web application that creates a CMS application using a <span
+class=SpellE>Servlet</span> engine<span class=MsoHyperlink><o:p></o:p></span></p>
+
+<h2><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Disqualified CMS Solutions</h2>
+
+<p class=MsoBlockText>These CMS solutions were disqualified for any number of
+reasons, and were not reviewed in-depth. They are provided for future research
+and to document solutions that were investigated but found inappropriate.<o:p></o:p></p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.6.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>Jahia</span></h3>
+
+<p class=MsoBlockText><a href="http://www.jahia.org/jahia/Jahia">http://www.jahia.org/jahia/Jahia</a></p>
+
+<p class=MsoBlockText>$5-30k</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.6.2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>LiveJournal</span></h3>
+
+<p class=MsoBlockText><a href="http://www.livejournal.com/">http://www.livejournal.com/</a></p>
+
+<p class=MsoBlockText><span class=SpellE>Blogger</span> only</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.6.3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>MMBase</span></h3>
+
+<p class=MsoBlockText><a href="http://www.mmbase.org/">http://www.mmbase.org/</a></p>
+
+<p class=MsoBlockText><span class=SpellE>Aweful</span> <span class=SpellE>templating</span>
+and concepts</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.6.4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>XSP::Wiki</span></h3>
+
+<p class=MsoBlockText><a href="http://search.cpan.org/dist/AxKit-XSP-Wiki/">http://search.cpan.org/dist/AxKit-XSP-Wiki/</a></p>
+
+<p class=MsoBlockText><span class=SpellE>Perl</span>-based XSL content editor</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.6.5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>SnipSnap</span></h3>
+
+<p class=MsoBlockText><a href="http://snipsnap.org/space/start">http://snipsnap.org/space/start</a></p>
+
+<p class=MsoBlockText><span class=SpellE>Weblog</span> and <span class=SpellE>Wiki</span>
+written in Java</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.6.6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>WSPublisher</span></h3>
+
+<p class=MsoBlockText><a href="http://www.wspublisher.com/">http://www.wspublisher.com/</a></p>
+
+<p class=MsoBlockText>$5k, J2EE, web service support</p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.6.7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>Aegir</span></h3>
+
+<p class=MsoBlockText><a href="http://www.aegir-cms.org/">http://www.aegir-cms.org/</a></p>
+
+<p class=MsoBlockText>Built on <span class=SpellE>Midgard</span> (PHP based)
+and looks powerful, but will require too much customization to get started. </p>
+
+<h3><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>6.6.8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>Metadot</span></h3>
+
+<p class=MsoBlockText><a href="http://www.metadot.com/metadot/index.pl">http://www.metadot.com/metadot/index.pl</a></p>
+
+<p class=MsoBlockText><span class=GramE>Hosting service only, with no extension
+points.</span></p>
+
+<h1><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Requirements Matrix</h1>
+
+<p class=MsoNormal>The following is a matrix of the requirements listed in the <a
+href="#_Content_Management_System_Requireme">Content Management System
+Requirements</a> Section of the acceptable solutions from the <a
+href="#_CMS_Solutions">CMS Solutions</a> section.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>See the document “<a href="CMSComparison.xls">CMSComparison.xls</a>”
+for the complete matrix.<o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+<span style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='page-break-before:always;
+mso-break-type:section-break'>
+</span>
+
+<div class=Section2>
+
+<h1><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Evaluation Results</h1>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>The following section outlines the findings from the CMS
+solutions evaluated.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h2><![if !supportLists]><span style='mso-fareast-font-family:Arial'><span
+style='mso-list:Ignore'>8.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE>OpenCMS</span></h2>
+
+<p class=MsoBlockText><b style='mso-bidi-font-weight:normal'>Pros</b>: Java
+engine powerful, with module extension capabilities; open source; interesting
+but high learning curve to understand the custom Java content generation;
+documentation is good, with plenty of tutorials</p>
+
+<p class=MsoBlockText><b style='mso-bidi-font-weight:normal'>Cons</b>: Requires
+an ActiveX control and Windows OS to properly edit; too loose during the edit;
+no online help<span class=GramE>; <span style='mso-spacerun:yes'> </span>very</span>
+painful process to create and edit a document; unusual UI</p>
+
+<p class=MsoBlockText><b style='mso-bidi-font-weight:normal'>Summary</b>: Not
+sure of when a pure Java solution will be out, so non-Windows users would have
+to code HTML in the code editor or use a PC; Powerful, but will take about 4-6
+weeks of setup and work to get it ready for the ministry and still won’t offer
+all that we need; may want to contact mailing list and let them know/see if
+anyone has a better solution for the UI</p>
+
+<p class=MsoBlockText><o:p>&nbsp;</o:p></p>
+
+<p class=MsoBlockText><o:p>&nbsp;</o:p></p>
+
+<p class=MsoBlockText><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
