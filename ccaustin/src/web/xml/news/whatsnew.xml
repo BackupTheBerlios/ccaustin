@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.89 2004/06/07 15:16:24 tie Exp $
+	$Id: whatsnew.xml,v 1.90 2004/06/12 12:11:45 tie Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -437,7 +437,7 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		</news-item>
 	   <news-item id="131" date="20040604" expires="20040718" showOnHomepage="true">
 		   <title>Submit Your God Stories</title>
-		   <detail>Tell us what miracles and mighty works God has done in your life. Please send your stories and pictures to : godstories@kaply.com or drop them off at the Events Center for Cynde Kaply.</detail>
+		   <detail>Tell us what miracles and mighty works God has done in your life. Please send your stories and pictures to : <link href="mailto:godstories@kaply.com">godstories@kaply.com</link> or drop them off at the Events Center for Cynde Kaply.</detail>
 		</news-item>
 	   <news-item id="132" date="20040504" expires="20040718" showOnHomepage="true">
 		   <title>"Calvary Responder"</title>
@@ -445,11 +445,15 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		</news-item>
 	   <news-item id="133" date="20040504" expires="20040718" showOnHomepage="true">
 		   <title>Vital Life Jr. High</title>
-		   <detail>Starting Sunday, June 6th, there will only be one Jr. High Sunday service. It will be offered during the 2nd service. If you have any questions or concerns, contact David Robinson or email: vitallifecrew@yahoo.com</detail>
+		   <detail>Starting Sunday, June 6th, there will only be one Jr. High Sunday service. It will be offered during the 2nd service. If you have any questions or concerns, contact David Robinson or email: <link href="mailto:vitallifecrew@yahoo.com">vitallifecrew@yahoo.com</link>vitallifecrew@yahoo.com</detail>
 		</news-item>
 	   <news-item id="134" date="20040604" expires="20040718" showOnHomepage="true">
 		   <title>Israel Trip</title>
 		   <detail>If you are signed up for the Israel Trip, there is an information packet waiting for you at the Events Center.</detail>
+		</news-item>
+		<news-item id="135" date="20040604" expires="20040903" showOnHomepage="true">
+		   <title>College and Career Retreat</title>
+		   <detail>Join us for the College and Career 2004 Retreat. The retreat will be Sep. 3-5 at <link href="http://www.texasretreat.com">Balcones Retreat Center</link>. The cost is $130. To make a downpayment or to register, stop by the Events Center.</detail>
 		</news-item>
 <!--
 -->
