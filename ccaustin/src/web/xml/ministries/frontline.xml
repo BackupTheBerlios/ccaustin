@@ -3,24 +3,33 @@
 
 	FrontLine Ministry - The ministry and its detail
 	
-	$Id: frontline.xml,v 1.8 2003/04/30 02:32:26 javajames27 Exp $
+	$Id: frontline.xml,v 1.9 2004/07/09 02:22:31 tie Exp $
 		
 -->
-<content title="FrontLine College &amp; Career">
-	<ministry id="frontline">
-	  <name>FrontLine College &amp; Career</name>
+<content title="LifeLine College &amp; Career">
+	<ministry id="lifeline">
+	  <name>LifeLine College &amp; Career</name>
 	  <overview>The College and Career group of Calvary Austin</overview>
 	  <long-description>
-	    <p>FrontLine is the College &amp; Career group at Calvary Chapel of Austin. We meet for a Bible Study &amp; Fellowship every Friday night in the Main Auditorium. With live modern worship &amp; child care provided, FrontLine is a perfect way for young adults, singles &amp; couples (18-35) to learn, grow and serve.</p>
+	    <p>Lifeline is the College and Career group at Calvary Chapel of Austin.  We meet for a Bible study &amp; fellowship every Friday night on UT campus in room 21 of the Flawn Academic Center (FAC).  We have live, modern worship and time for connecting with other Christians.  Lifeline is the perfect way for young singles and couples (18-35) to learn, grow, and serve.</p>
 
 		<heading>Specialized Groups</heading>
-		<p>We have several groups available to meet the needs of our Frontline members and guests:</p>
-  		  <subheading>PlumbLine</subheading>
-		  <p>PlumbLine is our accountability group that meets every Sunday at lunch to discuss the sermon as a point of prayer &amp; application.</p>
-  		  <subheading>DirectLine</subheading>
-		  <p>DirectLine offers discipleship classes to our Frontline ministry. Titus 2 gives us an example for church discipleship which we offer to each person in the FrontLine. There are two Thursday night classes, one focuses on the Essentials of Christianity and the other on the Distinctives of Calvary Chapel. </p>
-  		  <subheading>LifeLine</subheading>
-		  <p>LifeLine is the name of our outreach ministry that is divided into teams. Every Friday, after the Bible Study, we send teams into the city to win some to Christ.</p>
+		<p>We have several groups available to meet the needs of our LifeLine members and guests:</p>
+  		  <subheading>Living Life</subheading>
+		  <p>“Living life” is the name of our accountability groups.  We meet for Sunday lunch to discuss the sermon as a point of prayer and application.</p>
+  		  <subheading>Learning Life</subheading>
+		  <p>“Learning Life” is the name of our discipleship teams.  Titus 2 gives us an example for church discipleship, which we offer to each person in LifeLine.</p>
+  		  <subheading>Loving Life</subheading>
+		  <p>“Loving Life” is the name of our outreach teams.  As scheduled we hit the streets of UT campus, and sometimes beyond, to share the love of Christ with a lost world.</p>
+			
+			<table heading="LifeLine Leadership">
+			<row>
+				<data label="true">College and Career Leader</data>
+			</row>
+			<row>
+				<data>David Hine</data>
+			</row>
+		</table>
 		
 		<table heading="Leadership">
 			<row>
@@ -28,29 +37,26 @@
 				<data label="true">Male Leaders</data>
 			</row>
 			<row>
-				<data>Brandi Goodnight</data>
-				<data>David Hine</data>
+				<data>Brandie Goodnight</data>
+				<data>David Napier</data>
 			</row>
 			<row>
-				<data>Amy Hine</data>
-				<data>Steve Clay</data>
-			</row>
-			<row>
-				<data>Jennifer Riley</data>
+				<data>Jennifer Cogburn</data>
 				<data>Randall Scully</data>
 			</row>
-			<row>
+		    <row>
 				<data></data>
 				<data>David Cogburn</data>
 			</row>
 		</table>
-
+<!-- 
 		<heading>Listen to FrontLine live!</heading>	
 		<p>You can tune into FrontLine live Fridays at 7:30 <link href="http://www.calvarychapel.org/austin/media/viewlive.html">live</link>.</p>
-	  </long-description>
+-->	  
+ </long-description>
 	  <contacts>
 	  	<contact-email email="david_a_hine@yahoo.com">David Hine</contact-email>
    	  </contacts>
-	  <ministry-logo>../images/ministries/frontline.gif</ministry-logo>
+	  <ministry-logo>../images/ministries/lifeline.gif</ministry-logo>
 	</ministry>
 </content>
