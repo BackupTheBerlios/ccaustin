@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.50 2003/06/03 16:38:53 javajames27 Exp $
+	$Id: calendar.xml,v 1.51 2003/06/04 16:13:24 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -312,10 +312,10 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
 			<ministry id="children"/>
 		</ministries>
     </event>
-    <event id="06002" date="20030618" showOnHomepage="false">
+    <event id="06002" date="20030618" showOnHomepage="true">
 	 <title>Crosswind</title>
 		<date>June 18th</date>
-		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	     </detail>
+		<detail>Crosswind is an electric full piece band from Austin. Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	     </detail>
 		<ministries>
 			<ministry id="coffee"/>
 		</ministries>
@@ -339,6 +339,24 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
 		<date>June 18th</date>
 		<detail>Join us for communion service</detail>
     </event>
+
+    <event id="06006" date="20030614" showOnHomepage="true">
+	 <title>Stone</title>
+		<date>June 14th</date>
+		<detail>Stone is an acoustic rock band from Dallas . Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	     </detail>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
+    </event>
+    
+    <event id="06007" date="20030625" showOnHomepage="true">
+	 <title>Jacques Grant and Rewird</title>
+		<date>June 25th</date>
+		<detail>Jacques Grant and Rewird is a Chicago style blues band from Austin. Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	     </detail>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
+    </event>
 		<!--
     ===============
     July
@@ -351,7 +369,7 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
       <detail>Mark your calendars for July 24-26, 2003!  We will host our 3rd conference this year.  Our conference theme is "Shine, Jesus, Shine" taken from Matthew 5:16.  We want Jesus to shine through us as we serve Him by ministering to kids.  Guest speaker Gary Rodriguez from Calvary Chapel Old Bridge joins us this year. There will be an abundance of workshops with leaders sharing from their personal experiences.  We desire to equip and encourage all those who work with children.  Registration will begin in May.  Call Donna Cano at the church for more info</detail>
     </event>
     <event id="07002" date="20030702" showOnHomepage="false">
-	 <title>Eph-pha-tha</title>
+	 <title>Christopher Ross</title>
 		<date>July 2nd</date>
 		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	     </detail>
 		<ministries>
@@ -364,6 +382,14 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
 		<detail>Be a part of the recording of Calvary Austin's first worship CD by our worship team!</detail>
 		<ministries>
 			<ministry id="worship"/>
+		</ministries>
+    </event>
+    <event id="07004" date="20030709" showOnHomepage="false">
+	 <title>Eph-pha-tha</title>
+		<date>July 9th</date>
+		<detail>Eph-pha-tha is a local full piece band with a new CD. Check out their <link href="www.ephphatha.com">web site</link>. Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	     </detail>
+		<ministries>
+			<ministry id="coffee"/>
 		</ministries>
     </event>
 		<!--
