@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.52 2003/06/04 21:44:17 javajames27 Exp $
+	$Id: calendar.xml,v 1.53 2003/06/06 01:47:00 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -376,10 +376,10 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
 			<ministry id="coffee"/>
 		</ministries>
     </event>
-    <event id="07003" date="20030716" showOnHomepage="true">
-	 <title>Calvary Austin's Recording of "Live" Worship CD</title>
+    <event id="07003" date="20030716" showOnHomepage="false">
+	 <title>Worshippers Wanted!</title>
 		<date>July 15th and 16th</date>
-		<detail>Be a part of the recording of Calvary Austin's first worship CD by our worship team!</detail>
+		<detail>We need you to participate in the "live" recording of our first worship CD. The recording will take place over two evenings, Jul 15-16 beginning at 7PM. Come sing and be a part of this worship experience.</detail>
 		<ministries>
 			<ministry id="worship"/>
 		</ministries>
@@ -411,6 +411,15 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
 	Sept
 	===============
 -->
+    <event id="09001" date="20030927" showOnHomepage="true">
+	 <title>Men's Retreat</title>
+		<date>Sept 25th - 27th</date>
+		<detail>Registration starts today for the Sep 25-27 retreat at T-Bar M Ranch in San Marcos. The main speaker will be Ken Graves from Calvary Chapel Bangor Maine. Men mark your calendars and sign up at the Events Center.
+</detail>
+		<ministries>
+			<ministry id="men"/>
+		</ministries>
+    </event>
 		<!--
 	===============
 			Oct
