@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.35 2003/05/30 02:04:18 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.36 2003/06/16 13:25:06 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -110,11 +110,12 @@
 			<title>Fan Drive</title>
 			<detail>Calvary Singles is sponsoring the 3rd annual fan drive for Eldercare.  Purchase a fan and drop it off by the front door in the lobby until the end of July.</detail>
 		</news-item>
+		<!--
 		<news-item id="53" date="20030529" expires="20030616" showOnHomepage="true">
 			<title>Calvary T-Shirt Blowout Sale</title>
 			<detail>Want to wear a Calvary t-shirt to the Baptism/Picnic?  Visit the bookstore and purchase one for only $3.00. Choose from many children¹s sizes.  A few adult sizes remain.</detail>
 		</news-item>
-
+		-->
 
 	</news>
 </content>
