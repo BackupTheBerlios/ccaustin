@@ -3,13 +3,13 @@
 
 	Coffee Creator - The ministry and its detail
 	
-	$Id: coffee.xml,v 1.8 2003/04/18 14:32:29 javajames27 Exp $
+	$Id: coffee.xml,v 1.9 2003/08/06 09:50:01 gregk Exp $
 		
 -->
 <content title="Coffee Creator">
 	<ministry id="coffee">
 	  <name>Coffee Creator</name>
-	  <overview>Coffee Creator is here to serve the fellowship of believers at Calvary and in the Austin area. We have limited operational hours due to our volunteers avaliablility. We also host live christian music on Saturday evenings.</overview>
+	  <overview>Coffee Creator is here to serve the fellowship of believers at Calvary and in the Austin area. We have limited operational hours due to our volunteers availability. We also host live christian music on Saturday evenings.</overview>
 	  <long-description>
 	    <table heading="Hours of Operation">
 	    	 <row>
