@@ -3602,6 +3602,14 @@
 		<audio>bibleoverview/51-col-03.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Col/Col003.html#top</passageref>
 	</message>
+	<message date="20040107" service="midweek" category="overview">
+		<seriestitle>I Thessalonians</seriestitle>
+		<title></title>
+		<passage>I Thessalonians 1-3</passage>
+		<tape>BO1340</tape>
+		<audio>bibleoverview/52-1th-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/1Th/1Th001.html#top</passageref>
+	</message>
     	<message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
 		<title>The Big Question</title>
