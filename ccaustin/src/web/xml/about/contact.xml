@@ -3,7 +3,7 @@
 
 	Contact information for the church
 	
-	$Id: contact.xml,v 1.3 2003/03/21 16:42:17 javajames27 Exp $
+	$Id: contact.xml,v 1.4 2004/02/04 23:22:26 javajames27 Exp $
 		
 -->
 <content title="Contact/Map">
@@ -17,7 +17,7 @@
 	   <phone>512.719.4667</phone>
 	   <fax>512.719.3177</fax>
 	   <email>info@calvaryaustin.org</email>
- 	   <web>http://www.calvarychapel.org/austin</web> 
+           <web>http://www.calvaryaustin.org/</web> 
  	   <prayer-chain>512.479.9454</prayer-chain>
 	</contact-info>
 </content>
