@@ -3,19 +3,20 @@
 
 	Overhead Ministry - The ministry and its detail
 	
-	$Id: overhead.xml,v 1.2 2002/05/23 00:29:36 javajames27 Exp $
+	$Id: overhead.xml,v 1.3 2004/06/09 20:41:15 tie Exp $
 		
 -->
 <content title="Overhead Ministry">
 	<ministry id="overhead">
 	  <name>Overhead Ministry</name>
-	  <overview>This ministry works in conjunction with the Worship Team.  We oversee the overhead projectors and lights for each service.</overview>
+	  <overview>Our Mission: We are committed to setting an atmosphere that enhances the worship service experience through lighting and graphic presentation that seeks to glorify God. We lead the body of Christ in worship and throughout the service through media presentation and distribution of information in an artistic manner.</overview>
 	  <long-description>
-	    <p>This ministry serves everyone who attends Calvary for each of the 3 Sunday services as well as the mid-week Wednesday service. Each member in this ministry runs the overhead projectors for their assigned service as well as controls the lighting in the auditroium and stage.
-</p>
+	        <p><strong>Lighting Vision: The Lighting ministry desires to equip its servants through service, set at atmosphere that draws both the lost and the saved to a closer relationship to God.</strong></p>
+	   <p><strong>Presnetation Vision: Equip the servant through fellowship and service. To be worship leaders, ministering to the body of Christ at Calvary Austin throughout the worship service.</strong></p>
+	   <p>The lighting ministry sets stage lights for worship services and special events, including plays, video productions, etc. and the presntation aspect is accomplished using computers, software and projection.</p> 
 	  </long-description>
 	  <contacts>
-	  	<contact-email email="julinepe@aol.com">Paul Juline</contact-email>
+	  	<contact-email email="jeremy@calvaryaustin.org">Jeremy Valencia</contact-email>
 	  	<contact-phone phone="345-9967">Contact Phone</contact-phone>
    	  </contacts>
 	</ministry>
