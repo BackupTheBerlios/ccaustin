@@ -15,6 +15,7 @@ var crossFadeDuration = 3;
 var Pix = new Array();
 Pix[0] = "../images/events/buildmobanner.jpg";
 Pix[1] = "../images/events/CAM-banner.jpg";
+Pix[2] = "../images/events/www-easterbanner.jpg";
 
 var t;
 var j = 0;
