@@ -59,6 +59,7 @@
         </xsl:otherwise>
       </xsl:choose>
       <param name="TODAY" expression="${{NOW}}"/>
+      <param name="DATE" expression="${{DATE}}"/>
       <param name="VERSION" expression="${{web.version}}"/>
     </style>
   </xsl:template>
