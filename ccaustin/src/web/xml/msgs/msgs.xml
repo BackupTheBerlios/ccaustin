@@ -5269,6 +5269,15 @@
 		<audio>topicmessage/55-ti-03-16.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/2Ti/2Ti003.html#top</passageref>
 	</message>
+	<message date="20030323" service="sunday" category="misc">
+		<seriestitle>Topical Message</seriestitle>
+		<title>What the Bible Says About War</title>
+		<passage>James 4, Revelation 19 and Romans 13</passage>
+		<tape>TM032303</tape>
+		<audio>topicmessage/war.ram</audio>
+		<passageref></passageref>
+	</message>
+
 	<message date="19990103" service="sunday" category="book studies">
 		<seriestitle>Genesis</seriestitle>
 		<title>Back to Basics</title>
