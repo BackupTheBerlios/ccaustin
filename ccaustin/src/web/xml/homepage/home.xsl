@@ -7,7 +7,7 @@
 	Processes the ministry tag and its children tags. Most tags reference news and articles located in other files, 
 	so we perform queries on other documents to obtain the data we need for this page. Nice for reusability!
 	
-	$Id: home.xsl,v 1.15 2002/07/11 13:55:44 javajames27 Exp $
+	$Id: home.xsl,v 1.16 2002/08/10 22:56:55 javajames27 Exp $
 	
 -->	
 
@@ -133,28 +133,37 @@
 </xsl:template>
 
 <xsl:template match="event">
-  <tr>
-    <td colspan="2" class="eventtitle" align="left" valign="top"><hr height="1" size="1" color="#2544a9" noshade="true"/><xsl:value-of select="title"/></td>
-  </tr>
+  <!-- First, make sure that the event date is still current -->
   <xsl:choose>
-    <xsl:when test="date/text()">
+    <xsl:when test="@date &gt;= $DATE">
       <tr>
-        <td colspan="2" class="eventsubtitle" align="left" valign="top"><xsl:value-of select="date"/></td>
+        <td colspan="2" class="eventtitle" align="left" valign="top"><hr height="1" size="1" color="#2544a9" noshade="true"/><xsl:value-of select="title"/></td>
       </tr>
-      
-    </xsl:when>
-  </xsl:choose>
-  <xsl:choose>
-    <xsl:when test="intro/text()">
-      <tr>
-        <td colspan="2" class="eventitem" align="left" valign="top"><xsl:value-of select="intro"/>
-        <xsl:text> </xsl:text><br/><span class="readmore">[<a href="../calendar/calendar.html#{@id}" class="readmore">Learn more...</a>]</span></td>
-      </tr>
+      <!-- Now, see if we have a date string -->
+      <xsl:choose>
+        <xsl:when test="date/text()">
+          <tr>
+            <td colspan="2" class="eventsubtitle" align="left" valign="top"><xsl:value-of select="date"/></td>
+          </tr>
+          
+        </xsl:when>
+      </xsl:choose>
+      <!-- Now, see if we have an intro string -->
+      <xsl:choose>
+        <xsl:when test="intro/text()">
+          <tr>
+            <td colspan="2" class="eventitem" align="left" valign="top"><xsl:value-of select="intro"/>
+            <xsl:text> </xsl:text><br/><span class="readmore">[<a href="../calendar/calendar.html#{@id}" class="readmore">Learn more...</a>]</span></td>
+          </tr>
+        </xsl:when>
+        <xsl:otherwise>
+          <tr>
+            <td colspan="2" class="eventitem" align="left" valign="top"><xsl:apply-templates select="detail"/></td>
+          </tr>
+        </xsl:otherwise>
+      </xsl:choose>
     </xsl:when>
     <xsl:otherwise>
-      <tr>
-        <td colspan="2" class="eventitem" align="left" valign="top"><xsl:apply-templates select="detail"/></td>
-      </tr>
     </xsl:otherwise>
   </xsl:choose>
 </xsl:template>
