@@ -3730,6 +3730,14 @@
 <audio>bibleoverview/60-ipe-03.wma</audio> 
 <passageref>http://www.blueletterbible.org/kjv/1Pe/1Pe003.html#top</passageref> 
 </message>  
+<message date="20040804" service="midweek" category="overview"> 
+<seriestitle>II Peter</seriestitle> 
+<title></title> 
+<passage>II Peter 1-3</passage> 
+<tape>BO1361</tape> 
+<audio>bibleoverview/61-ipe-01.wma</audio> 
+<passageref>http://www.blueletterbible.org/kjv/2Pe/2Pe001.html#top</passageref> 
+</message>  
 
     	<message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
@@ -9934,7 +9942,6 @@
 	<audio>59-jam/59-jam-02-14.wma</audio> 
 	<passageref>http://www.blueletterbible.org/kjv/Jam/Jam002.html#top</passageref> 
 	</message>
-  
 	<message date="20040725" service="sunday" category="book studies"> 
 	<seriestitle>James</seriestitle> 
 	<title>Spiritual Fast Tracking - Talk</title> 
@@ -9943,4 +9950,12 @@
 	<audio>59-jam/59-jam-03-01.wma</audio> 
 	<passageref>http://www.blueletterbible.org/kjv/Jam/Jam003.html#top</passageref> 
 	</message> 
+	<message date="20040801" service="sunday" category="book studies"> 
+	<seriestitle>James</seriestitle> 
+	<title>Spiritual Fast Tracking - Wisdom</title> 
+	<passage>James 3:13-18</passage> 
+	<tape>BS080104</tape> 
+	<audio>59-jam/59-jam-03-13.wma</audio> 
+	<passageref>http://www.blueletterbible.org/kjv/Jam/Jam003.html#top</passageref> 
+	</message>
 </messagecatalog>
