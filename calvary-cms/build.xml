@@ -68,7 +68,9 @@
   <property name="project.dist.daily.home" value="${project.dist.home}/daily"/>
   <property name="project.dist.daily.lib" value="${project.dist.daily.home}/lib"/>
   
-  <!-- External Properties -->
+  <!-- Overriden local Properties -->
+  <property file="local.properties"/>
+  <!-- Primary External Properties -->
   <property file="build.properties"/>
 
   
