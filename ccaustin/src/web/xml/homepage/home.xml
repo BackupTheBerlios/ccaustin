@@ -3,7 +3,7 @@
 
 	The home page for the church
 	
-	$Id: home.xml,v 1.8 2002/07/01 02:15:13 javajames27 Exp $
+	$Id: home.xml,v 1.9 2002/07/03 13:37:48 javajames27 Exp $
 		
 -->
 <content title="Home Page" base=".">
@@ -11,10 +11,10 @@
 	<news>
 		<!-- Add or remove entries with the id and corresponding 
 	        filename for a news item to feature on the home page -->
+		<news-ref newsId="news4"/>
 		<news-ref newsId="news1"/>
 		<news-ref newsId="news2"/>
 		<news-ref newsId="news3"/>
-		<news-ref newsId="news4"/>
 	</news>
 	<features>
 		<!-- Add or remove entries with the id and corresponding 

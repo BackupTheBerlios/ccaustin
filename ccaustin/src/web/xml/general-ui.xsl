@@ -13,7 +13,7 @@
 	A variant of this file may offer more search engine or accessibility-friendly
 	navigation and less Javascript features for older browsers. 
 	
-	$Id: general-ui.xsl,v 1.16 2002/07/01 02:15:13 javajames27 Exp $
+	$Id: general-ui.xsl,v 1.17 2002/07/03 13:37:48 javajames27 Exp $
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html" indent="yes"/>
@@ -49,7 +49,7 @@
 				<xsl:apply-templates select="content/script"/>
 				<!-- allow our pages to include custom scripting -->
 			</head>
-			<body bgColor="white" leftMargin="0" text="#2544a9" topMargin="0" vLink="#758ee1">
+			<body leftMargin="0" text="#2544a9" topMargin="0" vLink="#758ee1">
 				<xsl:if test="content/@onUnload != '' ">
 					<xsl:attribute name="onUnload"><xsl:value-of select="content/@onUnload"/></xsl:attribute>
 				</xsl:if>
@@ -59,7 +59,7 @@
 				<table border="0" cellspacing="0" cellpadding="0" width="100%">
 				  <tr> 
 				    <td background="../images/homepage/sidebar_gold.jpg" valign="top" width="131"><a href="../homepage/index.html"><img src="../images/homepage/cal_logo.jpg" border="0" width="131" height="84"/></a></td>
-				    <td valign="top" align="left" width="99%"><a href="../homepage/index.html"><img src="../images/homepage/cal_austin.jpg" border="0" width="145" height="65"/></a> 
+				    <td background="../images/homepage/clouds.jpg" valign="top" align="left" width="99%"><a href="../homepage/index.html"><img src="../images/homepage/cal_austin.jpg" border="0" width="145" height="65"/></a> 
 				      <!-- navigation -->
 				      <table border="0" cellspacing="0" cellpadding="0" width="100%">
 				        <tr> 
@@ -85,18 +85,14 @@
 				      <!-- decrease this image to decrease overall page size -->
 				    </td>
 				  </tr>
-				  <tr> 
-				    <td colspan="2" valign="top"> 
-				    </td>
-				  </tr>
 				</table>
 				<!-- bottom table (content and footer) -->
 			      <table border="0" width="100%" cellspacing="0" cellpadding="0">
 			        <tr> 
-			          <td width="100%"> 
-			            <table width="100%" cellspacing="2">
+			          <td width="100%" valign="top"> 
+			            <table width="100%" cellspacing="0">
 			              <tr>
-			              	<td><!-- BEGIN CONTENT --><xsl:apply-templates/><!-- END CONTENT --></td>
+			              	<td valign="top"><!-- BEGIN CONTENT --><xsl:apply-templates/><!-- END CONTENT --></td>
 			              </tr>
 			              <tr>
 			                <td align="center"><!-- FOOTER -->

@@ -23,4 +23,7 @@ p       { font-size: 90% }
 a:hover {  text-decoration: underline}
 .newsitem {  font-size: 85% }
 .indent { left-indent: 4 }
-.sidebar { background-color: #F6E9C6; }
+.sidebar { }
+.featurebox { background-color: #F6E9C6; }
+.featuredarticlebox { background-color: #FFFFFF; }
+.darkbg { background-color: #384D7A; }
