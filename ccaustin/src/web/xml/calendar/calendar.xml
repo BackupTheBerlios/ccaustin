@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.32 2003/01/24 21:11:11 javajames27 Exp $
+	$Id: calendar.xml,v 1.33 2003/02/08 14:32:39 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -85,18 +85,12 @@
     <event id="02001" date="20030220" showOnHomepage="true">
       <title>2003 Mid-South Worship Conference</title>
       <date>Feb 20-22</date>
-      <detail>We are bringing a worship conference to you!!  Calvary Austin is hosting the Mid-South Music &amp; Worship Conference Feb 20-22.  Holland Davis of Calvary Chapel Costa Mesa will be our guest worship leader &amp; speaker.  Early registration is $45 through    Feb 9.  Come by the Events Center today. <link href="../events/mwc2003.html">Learn more</link>...</detail> 
+      <detail>We are bringing a worship conference to you!!  Calvary Austin is hosting the Mid-South Music &amp; Worship Conference Feb 20-22.  Holland Davis of Calvary Chapel Costa Mesa will be our guest worship leader &amp; speaker.  Early registration is $45 through today, Sunday, Feb 9.  Come by the Events Center.  After today the cost is $55. <link href="../events/mwc2003.html">Learn more</link>...</detail> 
     </event>
 
     <event id="02002" date="20030209" showOnHomepage="true">
       <title>Communion Service</title>
       <date>Feb 9th, All Services</date>
-      <detail/>
-    </event>
-
-    <event id="02003" date="20030212" showOnHomepage="true">
-      <title>Extended Worship Service</title>
-      <date>Feb 12th</date>
       <detail/>
     </event>
 
@@ -122,8 +116,45 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
     <event id="02008" date="20030228" showOnHomepage="true">
 	 <title>Mexico Mission Trip</title>
 		<date>Feb 28th - Mar 2nd</date>
-		<detail>See the Events Center for more information.</detail>
+		<detail>Looking for an opportunity to serve the LORD while having sweet fellowship with your family of God?  The weekend trip to Pan De Vida Mexico is just around the corner.  Check the Events Center for details.</detail>
 	</event>
+
+    <event id="02009" date="20030212" showOnHomepage="true">
+	 <title>Extended Worship</title>
+		<date>Feb 12th, 7PM</date>
+		<detail>Let’s come together this Wednesday, Feb 12, for a time of extended worship of the Lord during our regular midweek service at 7PM.</detail>
+	</event>
+
+    <event id="02010" date="20030219" showOnHomepage="true">
+	 <title>Vision Night</title>
+		<date>Feb 19th, 7PM</date>
+		<detail>Be sure not to miss Wednesday evening, Feb 19, as Pastor Allen shares the things that God has placed on the hearts of the leadership here at Calvary.  He’ll be sharing from the Word as well as providing updates on the progress of our search for a new facility.</detail>
+	</event>
+
+    <event id="02011" date="20030217" showOnHomepage="true">
+	 <title>New Believer's Class</title>
+		<date>Feb 17th, 7PM</date>
+		<detail>A 12-week New Believers’ class starts Feb 17 at 7PM.  Sign up at the Events Center.  This class covers basic Bible fundamentals for those interested in getting a firmer foundation on what they believe.</detail>
+	</event>
+
+    <event id="02012" date="20030219" showOnHomepage="true">
+	 <title>Crosswind</title>
+		<date>Feb 19th</date>
+		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	     </detail>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
+	</event>
+
+    <event id="02013" date="20030226" showOnHomepage="false">
+	 <title>Eph-pha-tha</title>
+		<date>Feb 26th</date>
+		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	     </detail>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
+	</event>
+
 
 		<!--
     ===============
@@ -141,6 +172,11 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
     Apr
     ===============
     -->
+    <event id="04001" date="20030413" showOnHomepage="false">
+      <title>Calvary 2003 Women's Retreat</title>
+      <date>May 2-4th (Deadline is Apr 13th)</date>
+      <detail>The 3-day marriage conference, May 2-4, is put on by FamilyLife and will be held at the Omni Austin Hotel Southpark.  Join other couples for a time that will refresh your marriage as you learn to build oneness, rekindle the romance, and inspire commitment through the application of biblical truth.  A brochure with the registration form is available in the lobby.  Deadline for group registration at the Events Center is Apr 13.</detail>
+    </event>
 		<!--
     ===============
     May

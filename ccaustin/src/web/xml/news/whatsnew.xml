@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.21 2003/01/24 21:11:11 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.22 2003/02/08 14:32:39 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -173,10 +173,10 @@
 			<title>Spring 2003 Women's Bible Study</title>
 			<detail>The Women at Calvary continue the bible study “Jesus, the One and Only.”  The morning study meets every Tuesday at 10:00 AM.  The evening study meets every other Tuesday at 7:00 PM.  Cooperative childcare is available in the morning only.  Women are welcome to join at any time.   This is an exciting opportunity for spiritual growth. </detail>      
 		</news-item>
-		<news-item id="25" date="20030201" expires="20030201" showOnHomepage="true">
+		<news-item id="25" date="20030212" expires="20030212" showOnHomepage="true">
 			
 			<title>Spring 2003 Men's Bible Study</title>
-			<detail>The men will begin a study of Nehemiah starting Tuesday, Jan 28.  Sign up at the Events Center.  Books are $10.  You must pay to sign up.</detail>      
+			<detail>Every other Tuesday, next meeting Feb 11</detail>      
 		</news-item>
     <news-item id="26" date="20030101" expires="20030208" showOnHomepage="true">
 		
