@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.27 2003/01/04 15:39:47 javajames27 Exp $
+	$Id: calendar.xml,v 1.28 2003/01/04 15:46:50 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -37,6 +37,30 @@
       <detail>On Jan 3-5 come share the love of Jesus with His children South of the border in Ejido
       Sandoval, Mexico.  Sign up at the Events Center in the lobby.</detail>  
     </event>
+    <event id="01004" date="20030115" showOnHomepage="true">
+	 <title>Live Music - Eph-pha-tha</title>
+		<date>Jan 15th</date>
+		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. 	     </detail>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
+	</event>
+    <event id="01005" date="20030118" showOnHomepage="true">
+	 <title>Live Music - Lorenzo</title>
+		<date>Jan 15th</date>
+		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. 	     </detail>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
+	</event>
+    <event id="01006" date="20030125" showOnHomepage="true">
+	 <title>Live Music - Marcus Hernandez</title>
+		<date>Jan 15th</date>
+		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. 	     </detail>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
+	</event>
 		<!--
     ===============
     Feb
