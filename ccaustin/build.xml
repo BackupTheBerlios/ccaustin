@@ -34,7 +34,11 @@
 	<!-- Check Options Target                                                -->
 	<!-- =================================================================== -->
 	<target name="checkoptions" description="Performs pre-processing checks for environment."/>
-	
+	<!-- =================================================================== -->
+	<!-- =================================================================== -->
+	<!-- =================================================================== -->
+	<!-- Validate XML Target                                                -->
+	<!-- =================================================================== -->
 	<target name="validate-xml" description="Performs validation of all XML files">
 	    <xmlvalidate failonerror="no" lenient="yes" warn="yes">
         <fileset dir="${src.xml.dir}" includes="**/*.xml"/>  
@@ -125,7 +129,7 @@
                 <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/internet.xml" out="${build.web.dir}/ministries/internet.html"/>          
         </target>
 
-        <!-- Creates the Ministry section of the web site                         -->
+        <!-- Creates the Homepage section of the web site                         -->
 	<target name="web-homepage" depends="checkoptions" description="Creates the homepage section of the site">
                 <style force="yes" style="${src.xml.dir}/homepage/home.xsl" in="${src.xml.dir}/homepage/home.xml" out="${build.web.dir}/homepage/index.html"/> 
                 <style force="yes" style="${src.xml.dir}/homepage/index.xsl" in="${src.xml.dir}/homepage/index.xml" out="${build.web.dir}/index.html"/> 
@@ -133,12 +137,17 @@
 
         <!-- Creates the Articles section of the web site                         -->
 	<target name="web-articles" depends="checkoptions" description="Creates the global articles for the site">
-                <style force="yes" style="${src.xml.dir}/articles/articles.xsl" basedir="${src.xml.dir}/articles" destdir="${build.web.dir}/articles" includes="**/*.xml"/> 
+                <style force="yes" style="articles.xsl" basedir="${src.xml.dir}/articles" destdir="${build.web.dir}/articles" includes="**/*.xml"/> 
         </target>
 
-        <!-- Creates the Articles section of the web site                         -->
+        <!-- Creates the News section of the web site                         -->
 	<target name="web-news" depends="checkoptions" description="Creates the global news items for the site">
-                <style force="yes" style="${src.xml.dir}/news/news.xsl" basedir="${src.xml.dir}/news" destdir="${build.web.dir}/news" includes="**/*.xml"/> 
+                <style force="yes" style="news.xsl" basedir="${src.xml.dir}/news" destdir="${build.web.dir}/news" includes="**/*.xml"/> 
+        </target>
+
+        <!-- Creates the Media section of the web site                         -->
+	<target name="web-media" depends="checkoptions" description="Creates the media section of the site">
+                <style force="yes" style="${src.xml.dir}/media/live.xsl" in="${src.xml.dir}/media/live.xml" out="${build.web.dir}/media/live.html"/> 
         </target>
 
 	<!-- =================================================================== -->
