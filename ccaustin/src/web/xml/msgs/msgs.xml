@@ -9594,4 +9594,12 @@
 		<audio>topicseries/christmas2003/bachelor.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Mat/Mat001.html#top</passageref>
 	</message> 
+	<message date="20031228" service="sunday" category="topical series">
+		<seriestitle>Taking It Up a Notch</seriestitle>
+		<title>Up a Notch - Part I - Andy Neillie</title>
+		<passage>Luke 2:52</passage>
+		<tape>TS122803</tape>
+		<audio>topicseries/notch2003/notchone.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk002.html#top</passageref>
+	</message> 
 </messagecatalog>
