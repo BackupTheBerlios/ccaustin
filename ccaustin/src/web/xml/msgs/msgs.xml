@@ -4739,6 +4739,14 @@
 		<audio>guestspeaker/jnewberry0103.ram</audio>
 		<passageref></passageref>
 	</message>
+	<message date="20030316" service="sunday" category="misc">
+		<seriestitle>Guest Speaker</seriestitle>
+		<title>Newberry, John - Habakkuk's Journey</title>
+		<passage>Habakkuk 3:17-19</passage>
+		<tape>GS031603</tape>
+		<audio>guestspeaker/jnewberry0303.ram</audio>
+		<passageref></passageref>
+	</message>
 
 	<message date="19981002" service="sunday" category="misc">
 		<seriestitle>Guest Speaker</seriestitle>
