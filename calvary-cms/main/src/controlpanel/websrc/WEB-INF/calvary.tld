@@ -12,9 +12,9 @@
 	</tag>
 	
 	<tag>
-		<name>viewVersionDetail</name>
+		<name>viewVersionDetailButton</name>
 		<tagclass>org.calvaryaustin.controlpanel.viewer.ViewVersionDetailTag</tagclass>
-		<bodycontent>empty</bodycontent>
+		<bodycontent>JSP</bodycontent>
 		<attribute>
 			<name>revisionNumber</name>
 			<required>true</required>
@@ -25,6 +25,12 @@
 			<required>true</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
+	</tag>
+	
+	<tag>
+		<name>editButton</name>
+		<tagclass>org.calvaryaustin.controlpanel.editor.EditorButtonTag</tagclass>
+		<bodycontent>JSP</bodycontent>
 	</tag>
 	
 </taglib>

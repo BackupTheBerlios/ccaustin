@@ -69,10 +69,6 @@ public class KillLockAction extends AdminAction
         SlideToken slideToken = request.getSecurityToken();
         LockForm form = (LockForm)request.getActionForm();
     
-        // get the helpers	
-        Structure structure = nat.getStructureHelper();
-        Lock lock = nat.getLockHelper();
-
         // do the actual transaction
         try
         {

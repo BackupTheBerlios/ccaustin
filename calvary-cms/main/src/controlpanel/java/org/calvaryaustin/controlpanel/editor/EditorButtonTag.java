@@ -1,4 +1,4 @@
-package org.calvaryaustin.controlpanel.viewer;
+package org.calvaryaustin.controlpanel.editor;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.jsp.JspException;
@@ -9,10 +9,10 @@ import org.apache.struts.action.ActionMapping;
 import org.calvaryaustin.controlpanel.ResourceContentForm;
 
 /**
- * Generates the appropriate HTML to link to the detail view of a specific version of a content resource
+ * Generates the appropriate HTML for linking to the editor to edit a specific content resource
  * @author jhigginbotham
  */
-public class ViewVersionDetailTag extends TagSupport
+public class EditorButtonTag extends TagSupport
 {
 
     public int doStartTag() throws JspException
@@ -27,12 +27,10 @@ public class ViewVersionDetailTag extends TagSupport
         try 
         {
             String contextPath = ((HttpServletRequest)pageContext.getRequest()).getContextPath();
-            pageContext.getOut().print("<a href='"+contextPath+"/viewer.do?"+
+            pageContext.getOut().print("<a href='"+contextPath+"/editor.do?"+
                 "site="+form.getSite()+
                 "&path="+form.getPath()+
                 "&file="+form.getFile()+
-                "&rev="+getRevisionNumber()+
-                "&branch="+getRevisionBranch()+
                 "'>");
         } catch (java.io.IOException e)
         {
@@ -54,43 +52,4 @@ public class ViewVersionDetailTag extends TagSupport
 		
         return EVAL_PAGE;
     }
-
-
-    /**
-     * @return String
-     */
-    public String getRevisionBranch()
-    {
-        return revisionBranch;
-    }
-
-    /**
-     * @return String
-     */
-    public String getRevisionNumber()
-    {
-        return revisionNumber;
-    }
-
-    /**
-     * Sets the revisionBranch.
-     * @param revisionBranch The revisionBranch to set
-     */
-    public void setRevisionBranch(String revisionBranch)
-    {
-        this.revisionBranch = revisionBranch;
-    }
-
-    /**
-     * Sets the revisionNumber.
-     * @param revisionNumber The revisionNumber to set
-     */
-    public void setRevisionNumber(String revisionNumber)
-    {
-        this.revisionNumber = revisionNumber;
-    }
-
-    private String revisionNumber;
-    private String revisionBranch;
-
 }

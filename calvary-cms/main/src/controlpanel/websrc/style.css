@@ -338,3 +338,7 @@ pre.viewerName {
 .buttonBar {
   text-align: center;
 }
+
+.fieldLabel {
+  font-weight: bold;
+}

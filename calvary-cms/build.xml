@@ -230,12 +230,14 @@
       <fileset dir="${project.src.controlpanel.config.test}/jboss" includes="**/*-config.xml"/>
       <fileset dir="${project.src.controlpanel.config.test}/jboss" includes="**/log4*.xml"/>
     </copy>
-    <copy toDir="${jboss.deploy.home}/slide.war/WEB-INF">
+    <!-- Moved this to initserver to see if that works better and prevents bouncing of slide.war 
+    <copy toDir="${jboss.deploy.home}/slide.war/WEB-INF" overwrite="true">
       <fileset dir="${project.src.controlpanel.config.test}/slide" includes="**/*-web.xml"/>
     </copy>
-    <copy toDir="${jboss.deploy.home}/slide.war/WEB-INF">
+    <copy toDir="${jboss.deploy.home}/slide.war/WEB-INF" overwrite="true">
       <fileset dir="${project.src.controlpanel.config.test}/slide" includes="**/*web.xml"/>
     </copy>
+    -->
   </target>
 
   <!-- ================================================= -->
@@ -259,6 +261,8 @@
   <path id="class.path.cms">
      <path refid="class.path"/>
      <pathelement path="${slide.client.class.path}"/>
+     <pathelement path="${slide.server.class.path}"/>
+     <pathelement path="${j2ee.class.path}"/>
   </path>
 
   <path id="junit.class.path.cms">
@@ -636,6 +640,7 @@
       <zipfileset prefix="lib" dir="${project.build.cms.home}" includes="**/**.jar"/>
       <zipfileset prefix="lib" dir="${project.build.webframework.home}" includes="**/**.jar"/>
       <zipfileset prefix="lib" dir="${commons.home}/lib" includes="**/**.jar"/>
+      <zipfileset prefix="lib" dir="${display.home}/lib" includes="**/**.jar"/>
       <!--zipfileset prefix="lib" dir="${log4j.home}/lib" includes="**/**.jar"/!-->
       <zipfileset prefix="lib" dir="${apache.xml.home}/lib" includes="**/**.jar"/>
       <zipfileset prefix="lib" dir="${struts.home}/lib" includes="**/**.jar"/>
@@ -648,7 +653,8 @@
       <zipfileset prefix="lib" dir="${slide.server.home}" includes="**/**.jar"/>
       -->
       <zipfileset prefix="lib" dir="${slide.server.home}" includes="**/*taglib*.jar"/>
-      <zipfileset prefix="lib" dir="${display.home}/lib" includes="**/**.jar"/>
+      <zipfileset prefix="lib" file="${slide.httpclient.jar}"/>
+      <zipfileset prefix="lib" file="${slide.webdavclient.jar}"/>
     </ear>
   </target>
 
@@ -708,9 +714,15 @@
     </jar>
     <!-- NOTE: This file may need to go into the jar above, as we are using basic configs right now,
      so can't currently see if its picking this file up from the location its being copied to -->
+    <delete file="${jboss.deploy.home}/slide.war/Domain.xml"/>
+    <delete file="${jboss.deploy.home}/slide.war/WEB-INF/web.xml"/>
+    <delete file="${jboss.deploy.home}/slide.war/WEB-INF/jboss-web.xml"/>
     <copy file="${project.src.controlpanel.config.test}/slide/Domain.xml"
           toDir="${jboss.deploy.home}/slide.war"/>
-    
+    <copy file="${project.src.controlpanel.config.test}/slide/web.xml"
+      toDir="${jboss.deploy.home}/slide.war/WEB-INF"/>
+    <copy file="${project.src.controlpanel.config.test}/slide/jboss-web.xml"
+      toDir="${jboss.deploy.home}/slide.war/WEB-INF"/>
   </target>
   
   <!-- ================================================= -->

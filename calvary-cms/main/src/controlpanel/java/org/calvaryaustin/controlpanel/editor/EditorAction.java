@@ -26,7 +26,6 @@ import org.apache.struts.action.ActionErrors;
 import org.apache.struts.action.ActionForward;
 import org.calvaryaustin.cms.RepositoryUtil;
 import org.calvaryaustin.cms.WebdavRepositoryDAO;
-import org.calvaryaustin.cms.slide.CreateLockCommand;
 import org.calvaryaustin.cms.slide.KillLockCommand;
 import org.calvaryaustin.cms.slide.UpdateCommand;
 import org.calvaryaustin.controlpanel.AdminAction;
@@ -104,8 +103,9 @@ public class EditorAction extends AdminAction
 
     private ActionForward processSave( AdminUserRequest request, EditorForm form)
     {
-        // validate that, if the user submitted XML, its valid
+        // TODO: validate that, if the user submitted XML, its valid
         
+        // save the changes
         NamespaceAccessToken nat = request.getNamespaceAccessToken();
         SlideToken slideToken = request.getSecurityToken();
         try 
@@ -125,8 +125,8 @@ public class EditorAction extends AdminAction
             // TODO: next, attach the properties for our build system
             											  
             // now, remove the lock
-            KillLockCommand killCommand = new KillLockCommand(slideToken, nat, form.getComputedUri() );
-			killCommand.execute();  
+            //KillLockCommand killCommand = new KillLockCommand(slideToken, nat, form.getComputedUri() );
+			//killCommand.execute();  
 			
 			nat.commit();          												  
 

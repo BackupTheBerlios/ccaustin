@@ -7,20 +7,23 @@
 <%@ taglib uri="/WEB-INF/display.tld"          prefix="display" %>
 <%@ taglib uri="/WEB-INF/calvary.tld"          prefix="calvary" %>
 
-<html:form action="/editor">
+<html:errors/>
+<html:form action="/editorSave">
 	<html:hidden property="site"/>
 	<html:hidden property="path"/>
 	<html:hidden property="file"/>
 	<html:hidden property="contentType"/>
 	<p>
-		Content Type: <bean:write name="editor" property="contentType"/>
+		<bean:message key="editorForm.contentType.displayname"/>: <bean:write name="editor" property="contentType"/>
 	</p>
+	<p class="fieldLabel"><bean:message key="editorForm.content.displayname"/>:</p>
 	<p>
 		<html:textarea property="content" rows="40" cols="80"/>
 	</p>
 	<p class="buttonBar">
 		<!--<input type="submit" name="Preview" value="Preview"/>-->  
 		<input type="Submit" name="Cancel" value="Cancel"/>
-		<input type="Submit" name="Save" value="Save"/></p>
+		<input type="Submit" name="Save" value="Save"/>
+	</p>
 	 
 </html:form>

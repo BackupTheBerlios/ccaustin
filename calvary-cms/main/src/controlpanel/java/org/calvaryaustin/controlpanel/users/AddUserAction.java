@@ -1,34 +1,87 @@
 package org.calvaryaustin.controlpanel.users;
 
 import java.io.IOException;
-import java.security.Principal;
-import java.util.Date;
-import java.util.Locale;
-
-import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import javax.transaction.*;
-
-import org.apache.slide.authenticate.*;
 import org.apache.slide.common.*;
-import org.apache.slide.content.*;
-import org.apache.slide.security.*;
-import org.apache.slide.structure.*;
 import org.apache.struts.action.*;
-import org.apache.struts.util.MessageResources;
-
+import org.calvaryaustin.cms.slide.CreateUserCommand;
 import org.calvaryaustin.controlpanel.*;
 
-/**
- * Action that will try to add a user (as specified in a 
- * {@link org.apache.slide.admin.users.UserForm UserForm} to the namespace.
- *
- */
-public final class AddUserAction extends AdminAction {
+public class AddUserAction extends AdminAction
+{
+    public static final String BUTTON_CREATE = "Create";
+
+    public ActionForward handleRequest(AdminUserRequest request)
+        throws IOException, ServletException
+    {
+    	UserForm form = (UserForm)request.getActionForm();
+		if (buttonPressed(request, BUTTON_CREATE))
+		{
+			log.debug("Processing create");
+			return processCreate( request, form);
+		}
+		// else, default to initialization
+		else
+		{
+			log.debug("Initializing");
+			return processInit(request, form);
+		}
+    }
     
+    private ActionForward processCreate(AdminUserRequest request, UserForm form) 
+		throws IOException, ServletException
+    {
+		NamespaceAccessToken nat = request.getNamespaceAccessToken();
+		SlideToken slideToken = request.getSecurityToken();
+
+		// do the actual transaction
+		try
+		{
+			nat.begin();
+
+			// attempt to create the user 
+			CreateUserCommand command = new CreateUserCommand(slideToken, nat, form.getUsername(), form.getPassword(), form.getHasRootRole());
+			command.execute();
+			nat.commit();
+			return (request.getMapping().findForward("addUser.success"));
+
+		} catch (SlideException e)
+		{
+			log.error("Error while creating user",e);
+		} catch (Exception e)
+		{
+			log.error("Error while creating user",e);
+			// any other errors are unanticipated
+		}
+            
+		// rollback the transaction, as something failed
+		try
+		{
+			nat.rollback();
+		} catch (SystemException se)
+		{
+			// ignore
+			log.warn("Error during rollback",se);
+		}
+            
+
+		if (!request.getErrors().isEmpty())
+		{
+			saveErrors(request, request.getErrors());
+		}
+
+		// TODO: Fix this to forward to an error page
+
+		return (request.getMapping().findForward("addUser.failure"));
+    }
     
+	private ActionForward processInit(AdminUserRequest request, UserForm form) 
+		throws IOException, ServletException
+	{
+		return request.getMapping().findForward("addUser.default");
+	}
+	    
     // --------------------------------------------------------- Public Methods
     
     
@@ -153,13 +206,6 @@ public final class AddUserAction extends AdminAction {
     }
      */
     
-    
-    public ActionForward handleRequest(AdminUserRequest request)
-        throws IOException, ServletException
-    {
-        // TODO Auto-generated method stub
-		return null;
-    }
 
 }
 

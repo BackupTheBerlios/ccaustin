@@ -31,18 +31,21 @@
     <!--<constant name="protocols" value="^http:\/\/"/>-->
     <constant name="protocols" value="^http:|^https:|^ftp:|^smtp:|^dj:|^extricity:|^celebrate"/>
     
-    <!-- Login Form 
-    <form name="logonForm">
-      <field property="j_username"
+    <!-- Editor Form  -->
+    <form name="editor">
+      <field property="content"
         depends="required">
-        <arg0 key="logonForm.username.displayname"/>
+        <arg0 key="editorForm.content.displayname"/>
       </field>
-      <field property="j_password"
+      <!--
+      <field property="description"
         depends="required">
-        <arg0 key="logonForm.password.displayname"/>
+        <arg0 key="editorForm.description.displayname"/>
       </field>
+      
+      -->
     </form>
-    -->
+    
     
     
     

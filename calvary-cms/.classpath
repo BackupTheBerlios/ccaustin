@@ -29,7 +29,8 @@
     <classpathentry kind="lib" path="thirdparty/lea/lib/concurrent.jar"/>
     <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
     <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/jakarta-slide/slide/lib/slide-webdavservlet.jar"/>
-    <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/jakarta-slide/slide/lib/slide-kernel.jar"/>
+    <classpathentry kind="lib"
+        path="C:/Projects/calvary-cms/thirdparty/jakarta-slide/slide/lib/slide-kernel.jar" sourcepath="/Jakarta-Slide/src/share"/>
     <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/jakarta-slide/slide/lib/slide-roles.jar"/>
     <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/jakarta-slide/slide/lib/slide-stores.jar"/>
     <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/jakarta-slide/slide/lib/slide-taglib-common.jar"/>
@@ -39,5 +40,7 @@
     <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/jakarta-slide/client/lib/slide-client.jar"/>
     <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/display/lib/display.jar"/>
     <classpathentry kind="lib" path="thirdparty/jboss-3.0.4_tomcat-4.0.6/server/default/lib/jbosssx.jar"/>
+    <classpathentry kind="lib" path="thirdparty/jakarta-slide/client/lib/commons-httpclient.jar"/>
+    <classpathentry kind="lib" path="thirdparty/jakarta-slide/client/lib/slide-webdavlib.jar"/>
     <classpathentry kind="output" path="main/eclipse_build"/>
 </classpath>

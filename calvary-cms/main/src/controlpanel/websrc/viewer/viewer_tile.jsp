@@ -19,7 +19,7 @@
 			<tr>
 				<td width="95%">&nbsp;</td>
 				<td nowrap="true">
-					<p class="buttonBar"><html:link action='editor' name='viewer' property='parameterMapToFile'>Edit</html:link></p>
+					<p class="buttonBar"><calvary:editButton>Edit</calvary:editButton></p>
 				</td>
 			</tr>
 		</table>
@@ -37,7 +37,7 @@
 			<tr>
 				<td width="95%">&nbsp;</td>
 				<td nowrap="true">
-					<p class="buttonBar"><calvary:viewVersionDetail revisionNumber='<%=latestRevision.getNumber()%>' revisionBranch='<%=latestRevision.getBranch()%>'/></p>
+					<p class="buttonBar"><calvary:viewVersionDetailButton revisionNumber='<%=latestRevision.getNumber()%>' revisionBranch='<%=latestRevision.getBranch()%>'>View</calvary:viewVersionDetailButton></p>
 				</td>
 			</tr>
 		</table>

@@ -50,4 +50,9 @@
     <put name="body" value="/locks/locks_tile.jsp"/>
   </definition>
 
+  <definition name="addUser" extends="masterlayout">
+    <put name="title" value="Create User"/>
+    <put name="body" value="/users/add_user_tile.jsp"/>
+  </definition>
+
 </tiles-definitions>
