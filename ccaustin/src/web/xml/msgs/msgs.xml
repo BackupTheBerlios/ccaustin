@@ -3679,6 +3679,7 @@
 
 <message date="20040616" service="midweek" category="overview"> <seriestitle>James</seriestitle> <title></title> <passage>James 1</passage> <tape>BO1356</tape> <audio>bibleoverview/59-jam-01.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Jam/Jam001.html#top</passageref> </message> 
 <message date="20040623" service="midweek" category="overview"> <seriestitle>James</seriestitle> <title></title> <passage>James 2-3</passage> <tape>BO1357</tape> <audio>bibleoverview/59-jam-02.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Jam/Jam002.html#top</passageref> </message> 
+<message date="20040630" service="midweek" category="overview"> <seriestitle>James</seriestitle> <title></title> <passage>James 4-5</passage> <tape>BO1358</tape> <audio>bibleoverview/59-jam-04.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Jam/Jam004.html#top</passageref> </message> 
 
     	<message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
@@ -9873,6 +9874,14 @@
 	<passage>James 2:1-13</passage> 
 	<tape>BS062704</tape> 
 	<audio>59-jam/59-jam-02-01.wma</audio> 
+	<passageref>http://www.blueletterbible.org/kjv/Jam/Jam002.html#top</passageref> 
+	</message>  
+	<message date="20040704" service="sunday" category="book studies"> 
+	<seriestitle>James</seriestitle> 
+	<title>Spiritual Fast Tracking - Credibility</title> 
+	<passage>James 2:14-26</passage> 
+	<tape>BS070404</tape> 
+	<audio>59-jam/59-jam-02-14.wma</audio> 
 	<passageref>http://www.blueletterbible.org/kjv/Jam/Jam002.html#top</passageref> 
 	</message>  
 </messagecatalog>
