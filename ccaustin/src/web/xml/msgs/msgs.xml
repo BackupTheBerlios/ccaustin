@@ -3834,7 +3834,15 @@
 <audio>bibleoverview/66-rev-10.wma</audio> 
 <passageref>http://www.blueletterbible.org/kjv/Rev/Rev010.html#top</passageref> 
 </message>
-                     
+ <message date="20041103" service="midweek" category="overview"> 
+<seriestitle>Revelation</seriestitle> 
+<title></title> 
+<passage>Revelation 12-13</passage> 
+<tape>BO1372</tape> 
+<audio>bibleoverview/66-rev-12.wma</audio> 
+<passageref>http://www.blueletterbible.org/kjv/Rev/Rev012.html#top</passageref> 
+</message>
+                  
     	<message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
 		<title>The Big Question</title>
