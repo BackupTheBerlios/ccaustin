@@ -2,21 +2,25 @@
 <!-- 
        Building Momentum 
 
-	$Id: index.xml,v 1.1 2004/04/07 17:48:59 gregk Exp $
+	$Id: index.xml,v 1.2 2004/04/20 03:13:31 gregk Exp $
 		
 -->
 <content title="Building Momentum">
 <br></br>
-<heading>COMING SOON!!!!!</heading>
 <!--
+<heading>Begin the Journey to  BUILDING MOMENTUM!!!!!</heading>
      <heading>COMING SOON !!</heading>
 <table width="75%" border="0" align="center" background="../images/events/buildingmocomingsoon.jpg">
 </table>
 -->
 <BR></BR>
+<link href="http://www.equiptheword.com/index.html">Begin The Journey To .... BUILDING MOMENTUM!!!</link>
 <BR></BR>
-<img src="../images/events/buildingmocomingsoon.jpg">
+<p>
+<BR></BR>
+<img href="http://www.equiptheword.com/index.html" src="../images/events/buildingmocomingsoon.jpg">
 </img>
+</p>
 <!--
       <p>Visit website at <link href= "../ministries/worship.html">www.calvaryaustinmusic.org</link> for more details</p>
 -->
