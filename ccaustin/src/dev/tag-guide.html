@@ -82,6 +82,10 @@
     <td width="75%">Adds a row to the table</td>
   </tr>
   <tr> 
+    <td width="25%"><a href="#label">label</a></td>
+    <td width="75%">Adds a table cell label and its contents</td>
+  </tr>
+  <tr> 
     <td width="25%"><a href="#data">data</a></td>
     <td width="75%">Adds a table cell and its contents to the row</td>
   </tr>
@@ -110,6 +114,10 @@
   <tr> 
     <td width="25%"><a href="#emphasis">emphasis</a></td>
     <td width="75%">Marks a portion of text as emphasized (italic)</td>
+  </tr>
+  <tr> 
+    <td width="25%"><a href="#verse">verse</a></td>
+    <td width="75%">Marks a portion of text as a Bible verse</td>
   </tr>
   <tr> 
     <td width="25%"><a href="#subtext">subtext</a></td>
@@ -534,6 +542,45 @@
     </td>
   </tr>
 </table>
+<p><a name="label"></a></p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td class="tableheader" colspan="2">&lt;label&gt; Label tag</td>
+  </tr>
+  <tr> 
+    <td colspan="2">Declares a new table cell of data and renders its
+      as a label (bold). </td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Attributes:</td>
+  </tr>
+  <tr> 
+    <td>N/A</td>
+  </tr>
+  <tr> 
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Body:</td>
+  </tr>
+  <tr> 
+    <td colspan="2">The text for the label</td>
+  </tr>
+  <tr> 
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Example:</td>
+  </tr>
+  <tr> 
+    <td colspan="2"> 
+      <pre>&nbsp;</pre>
+    </td>
+  </tr>
+</table>
 <p><a name="data"></a></p>
 <table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
   <tr> 
@@ -549,10 +596,7 @@
     <td colspan="2" class="title">Attributes:</td>
   </tr>
   <tr> 
-    <td width="15%">label </td>
-    <td width="85%"> 
-      <p>make the cell render as a labeled cell (bolder text and nowrap)</p>
-    </td>
+    <td>N/A</td>
   </tr>
   <tr> 
     <td colspan="2">&nbsp;</td>
@@ -738,6 +782,47 @@
   </tr>
   <tr> 
     <td> 
+      <pre>&nbsp;</pre>
+    </td>
+  </tr>
+</table>
+<p><a name="verse"></a></p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td colspan="2" class="tableheader">&lt;verse&gt; Verse tag</td>
+  </tr>
+  <tr> 
+    <td colspan="2">Renders a Bible verse with a special style for better viewing</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Attributes:</td>
+  </tr>
+  <tr> 
+    <td width="15%">verseref </td>
+    <td width="85%"> 
+      <p>what verse(s) are being referenced - Eph 1:1-3, or 1 Cor 13</p>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Body:</td>
+  </tr>
+  <tr> 
+    <td colspan="2">The text of the verse </td>
+  </tr>
+  <tr> 
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Example:</td>
+  </tr>
+  <tr> 
+    <td colspan="2"> 
       <pre>&nbsp;</pre>
     </td>
   </tr>
