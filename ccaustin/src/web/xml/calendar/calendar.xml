@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.86 2003/12/02 20:46:05 javajames27 Exp $
+	$Id: calendar.xml,v 1.87 2003/12/05 17:14:13 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -352,6 +352,13 @@ need for Praying Leaders.</detail>
 	 <title>New Years Eve Service</title>
 		<date>Dec 31st</date>
                 <detail>Service starts at 7:00 pm. Childcare will be provided.</detail>
+    </event>
+    <event id="12006" date="20031218" showOnHomepage="false">
+	 <title>Glorious Dregs - from San Antonio(live Music at Coffee Creator)</title>
+		<date>Dec 17th</date>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
     </event>
 
 		<!--
