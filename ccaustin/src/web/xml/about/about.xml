@@ -5,12 +5,12 @@
 	
 	Standard text processing
 
-	$Id: about.xml,v 1.5 2003/02/19 18:06:51 javajames27 Exp $
+	$Id: about.xml,v 1.6 2003/09/20 04:25:40 gregk Exp $
 		
 -->
 <content title="About Us">
-	<heading>10th Anniversary in Austin</heading>
-	<p>Sunday, June 2, 2002 marked two milestones for Calvary Chapel of Austin: 10 years of meeting as a fellowship, and 4 years in our current building. Now, you can learn more about our <link href="../about/vision.html">vision</link> or <link href="../about/history.html">history</link> online. Don't know where we are? Check out the  <link href="../about/contact.html">Location page</link> for a map. </p>
+	<heading>Origins</heading>
+	<p>In 1992, Pastor Allen Rigg was sent from Calvary Chapel San Bernardino, California with a calling from God to plant a Calvary Chapel here in Austin Texas. Now, you can learn more about our <link href="../about/vision.html">vision</link> or <link href="../about/history.html">history</link> online. Don't know where we are? Check out the  <link href="../about/contact.html">Location page</link> for a map. </p>
 	<p>
 		<img src="../images/building-right.jpg"/>
 	</p> 
