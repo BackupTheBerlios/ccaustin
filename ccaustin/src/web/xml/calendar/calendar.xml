@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.88 2003/12/10 02:44:33 gregk Exp $
+	$Id: calendar.xml,v 1.89 2003/12/20 20:50:45 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -383,7 +383,17 @@ need for Praying Leaders.</detail>
 			<title>New Years Schedule Changes</title>
 			<detail>Offices will be closed January 1st and 2nd.</detail>
     </event>
-		<!--
+    <event id="01003" date="20040101" showOnHomepage="true">
+			<title>4th Annual New Year's Day Bowl</title>
+			<detail>Come out Thursday Jan. 1 from
+ 9:00-11:00 for flag football and fellowship. Pick up a flyer at the
+ Events Center for details and a map.</detail>
+    </event>
+    <event id="01004" date="20040104" showOnHomepage="true">
+			<title>Mexico Mission Trip</title>
+			<detail>On Jan 2-4 come and share the love of Jesus with His children south of the border in Pan De Vida. Sign up at the Events Center. For those who cannot go, participate by donating from the list of needed items.</detail>
+    </event>
+    <!--
     ===============
     Feb 2004
     ===============

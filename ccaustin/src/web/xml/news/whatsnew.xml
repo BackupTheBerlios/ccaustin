@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.61 2003/12/10 02:45:28 gregk Exp $
+	$Id: whatsnew.xml,v 1.62 2003/12/20 20:50:19 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -95,7 +95,7 @@
 		</news-item>
 		<news-item id="49" date="20030518" expires="20030713" showOnHomepage="true">
 			<title>Children's Conference Hosting</title>
-			<detail>Would you like to bless one or more peope attending our CM Conference from out of town with accommodations in your home?  If interested, sign up to be a host family at the Events Center. 
+			<detail>Would you like to bless one or more peope attending our CM Conference from out of town with accommodations in your home?  If interested, sign up to be a host family at the Events Center.
 </detail>
 		</news-item>
 		<news-item id="50" date="20030522" expires="20030714" showOnHomepage="true">
@@ -256,9 +256,9 @@
 			<title>Crown Financial Ministry</title>
 			<detail>Do you have a budget? Do you live within it? Do you have a current will, savings/investment plan, debt repayment plan, giving plan, and do they align with God's Word? Come learn what the Bible teaches about these things, make some new friends, and learn how to develop and manage these practical tools relating to finances. Stop by the Events Center today for details. Sign up and payment deadline is Sunday Nov 29th.</detail>
 		</news-item>
-		<news-item id="88" date="20031116" expires="20031222" showOnHomepage="true">
+		<news-item id="88" date="20031116" expires="20031228" showOnHomepage="true">
 			<title>Marriage Ministry</title>
-			<detail>Beginning in January, come join the many couples going through the Home Builder's curriculum. Topics include overcoming stress, building your mate's self-esteem, raising children of faith, making remarriage last, and mastering money. Cost for books are $8-$10. Groups meet weekly for 6 to 7 weeks. Space is limited. Sign up today at the Events Center. Registration deadline is Dec 21th.</detail>
+			<detail>Beginning in January, come join the many couples going through the Home Builder's curriculum. Topics include overcoming stress, building your mate's self-esteem, raising children of faith, making remarriage last, and mastering money. Cost for books are $8-$10. Groups meet weekly for 6 to 7 weeks. Space is limited. Sign up today at the Events Center. Registration deadline is Dec 28th.</detail>
 		</news-item>
 		<news-item id="89" date="20031116" expires="20031130" showOnHomepage="true">
 			<title>Win and Equip Our Children</title>
@@ -268,13 +268,22 @@
 			<title>"LIVE" Worship CD!</title>
 			<detail>The LIVE Worship CD now has an expected release date of Jan 2004. Sorry for any inconvenience; it will be worth the wait!</detail>
 		</news-item>
-		<news-item id="91" date="20031207" expires="20031231" showOnHomepage="true">
+		<news-item id="91" date="20031207" expires="20040307" showOnHomepage="true">
 			<title>School of Ministry</title>
 			<detail>We are taking sign-ups at the Events Center for the semester of classes to begin March 8.</detail>
 		</news-item>
 		<news-item id="92" date="20031207" expires="20031231" showOnHomepage="true">
 			<title>Usher Ministry</title>
-			<detail>Wanted: Men who want to serve in this ministry.</detail>
+			<detail>Wanted: Men who want to serve in this ministry. Call Johnny Arnold at 719.9060</detail>
 		</news-item>
-	</news>
+		<news-item id="93" date="20031219" expires="20031231" showOnHomepage="true">
+			<title>Calvary Discipleship Program</title>
+			<detail>Now taking sign-ups for 101, 201 and
+301 classes. More information at the Events Center.</detail>
+		</news-item>
+	<news-item id="94" date="20031219" expires="20040131" showOnHomepage="true">
+			<title>Home Fellowship</title>
+			<detail>Effective Jan. 9 the home fellowship group currently meeting at the Uk residence will begin meeting at 1405 Willow Bluff Drive, Pflugerville at the Schumacher's. Contact number 252.7612. Group leaders: Matt Lang and Ken Henderson. Flyers with map and contact information are in the lobby.</detail>
+	</news-item>
+  </news>
 </content>
