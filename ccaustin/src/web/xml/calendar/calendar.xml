@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.67 2003/08/05 03:56:13 gregk Exp $
+	$Id: calendar.xml,v 1.68 2003/08/06 00:40:10 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -131,8 +131,24 @@
     </event>
     <event id="08008" date="20030806" showOnHomepage="false">
 		<date>Aug 6th</date>
-	 <title>Coffee Creator Music for August</title>
-	 <detail>Daniel Baker : Acoustic Guitar and Stand up Bass</detail>
+	 <title>Daniel Baker</title>
+	 <detail>Acoustic Guitar and Stand up Bass</detail>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
+    </event>
+    <event id="08009" date="20030816" showOnHomepage="false">
+		<date>Aug 16th</date>
+	 <title>Kevin Gathright</title>
+	 <detail>Some plugged-in acoustic rock from his latest CD</detail>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
+    </event>
+    <event id="08010" date="20030820" showOnHomepage="false">
+	 <title>Eph-pha-tha</title>
+		<date>Aug 20th</date>
+		<detail>Eph-pha-tha is a local full piece band with a new CD. Check out their website at <link href="http://www.ephphatha.com">ephphatha.com</link></detail>
 		<ministries>
 			<ministry id="coffee"/>
 		</ministries>
