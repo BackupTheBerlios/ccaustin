@@ -8,7 +8,7 @@
 	
 	allen-bio.xml - the biography for Pastor Allen
 	
-	$Id: servants.xml,v 1.2 2002/05/27 18:35:20 javajames27 Exp $
+	$Id: servants.xml,v 1.3 2003/09/24 04:43:41 gregk Exp $
 		
 -->
 <content title="Servants" base=".">
@@ -16,7 +16,7 @@
 	     <fullname>Pastor Allen</fullname>
 		<first-name>Allen</first-name>
 		<last-name>Rigg</last-name>
-		<thumbnail href="../images/staff/allenthum.jpg"/>
+		<thumbnail href="../images/staff/allenthumb.jpg"/>
 		<small-photo href="../images/staff/allenweb.jpg"/>
 		<large-photo href="../images/staff/allenweb.jpg"/>
 		<role staff="true" ministry="church" title="Senior Pastor"/>
@@ -25,7 +25,7 @@
 		<fullname>Jean Janes</fullname>
 		<first-name>Jean</first-name>
 		<last-name>Janes</last-name>
-		<thumbnail href="../images/staff/jeanthum.jpg"/>
+		<thumbnail href="../images/staff/jeanthumb.jpg"/>
 		<small-photo href="../images/staff/jeanweb.jpg"/>
 		<large-photo href="../images/staff/jeanweb.jpg"/>
 		<role staff="true" ministry="church" title="Secretary"/>
@@ -34,7 +34,7 @@
 		<fullname>Donna Cano</fullname>
 		<first-name>Donna</first-name>
 		<last-name>Cano</last-name>
-		<thumbnail href="../images/staff/donnathum.jpg"/>
+		<thumbnail href="../images/staff/donnathumb.jpg"/>
 		<small-photo href="../images/staff/donnaweb.jpg"/>
 		<large-photo href="../images/staff/donnaweb.jpg"/>
 		<role staff="true" ministry="children" title="Children's Ministry Director"/>
@@ -43,7 +43,7 @@
 		<fullname>David Reynolds</fullname>
 		<first-name>David</first-name>
 		<last-name>Reynolds</last-name>
-		<thumbnail href="../images/staff/davidthum.jpg"/>
+		<thumbnail href="../images/staff/davidthumb.jpg"/>
 		<small-photo href="../images/staff/davidweb.jpg"/>
 		<large-photo href="../images/staff/davidweb.jpg"/>
 		<role staff="true" ministry="worship" title="Worship Leader"/>
@@ -52,7 +52,7 @@
 		<fullname>Bunjee Garrett</fullname>
 		<first-name>Bunjee</first-name>
 		<last-name>Garrett</last-name>
-		<thumbnail href="../images/staff/bunjeethum.jpg"/>
+		<thumbnail href="../images/staff/bunjeethumb.jpg"/>
 		<small-photo href="../images/staff/bunjeeweb.jpg"/>
 		<large-photo href="../images/staff/bunjeeweb.jpg"/>
 		<role staff="true" ministry="frontline" title="College and Career Pastor"/>
@@ -61,7 +61,7 @@
 		<fullname>John Newberry</fullname>
 		<first-name>John</first-name>
 		<last-name>Newberry</last-name>
-		<thumbnail href="../images/staff/johnthum.jpg"/>
+		<thumbnail href="../images/staff/johnthumb.jpg"/>
 		<small-photo href="../images/staff/johnweb.jpg"/>
 		<large-photo href="../images/staff/johnweb.jpg"/>
 		<role staff="true" ministry="youth" title="Youth Pastor"/>
@@ -70,7 +70,7 @@
 		<fullname>Glendon Nicks</fullname>
 		<first-name>Glendon</first-name>
 		<last-name>Nicks</last-name>
-		<thumbnail href="../images/staff/glendonthum.jpg"/>
+		<thumbnail href="../images/staff/glendonthumb.jpg"/>
 		<small-photo href="../images/staff/glendonweb.jpg"/>
 		<large-photo href="../images/staff/glendonweb.jpg"/>
 		<role staff="true" ministry="church" title="Assisting Pastor"/>
