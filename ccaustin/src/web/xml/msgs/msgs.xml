@@ -3689,7 +3689,7 @@
 <audio>guestspeaker/dkinney070704.wma</audio>
 <passageref>http://www.blueletterbible.org/kjv/Mar/Mar010.html#top</passageref>
 </message>
-<message date="20040711" service="midweek" category="misc">
+<message date="20040711" service="sunday" category="misc">
 <seriestitle>Guest Speaker</seriestitle>
 <title>Michaels, Terry</title>
 <passage>Mark 10:17-31</passage>
@@ -3704,6 +3704,14 @@
 <tape>GS071404</tape>
 <audio>guestspeaker/mhardcastle071404.wma</audio>
 <passageref></passageref>
+</message>
+<message date="20040714" service="sunday" category="misc">
+<seriestitle>Guest Speaker</seriestitle>
+<title>Hindt, Ron</title>
+<passage>2 Corinthians 5</passage>
+<tape>GS071804</tape>
+<audio>guestspeaker/rhindt071804.wma</audio>
+<passageref>http://www.blueletterbible.org/kjv/2Cr/2Cr001.html#top</passageref>
 </message>
 
     	<message date="19940522" service="sunday" category="topical series">
