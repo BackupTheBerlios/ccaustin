@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.73 2003/09/17 07:03:09 gregk Exp $
+	$Id: calendar.xml,v 1.74 2003/09/30 17:42:57 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -226,7 +226,7 @@
 			Oct
 	===============
 -->
-    <event id="10010" date="20031020" showOnHomepage="true">
+    <event id="10001" date="20031020" showOnHomepage="true">
 	 <title>Communion</title>
 		<date>Oct 19th</date>
     </event>
@@ -244,10 +244,79 @@
 			Dec
 	===============
 -->
+    <event id="12001" date="20031231" showOnHomepage="true">
+	 <title>Calvary Kids New Years' Eve Party</title>
+		<date>Dec 31st</date>
+                <detail>Snacks, Games, Prizes, Movies, Worship and Prayer.</detail>
+    </event>
+
 		<!--
 	===============
 		Coming Soon
 	===============
 -->
+		<!--
+    ===============
+    Jan 2004
+    ===============
+    -->
+    <event id="01001" date="20040124" showOnHomepage="false">
+	 <title>Childrens' Ministry Training Saturday Morning</title>
+		<date>Jan 24 2004</date>
+                <detail>All people who serve the kids come out for a great time of fun, fellowhip and very important training to develop hands-on skills and get great ideas to enhance the classroom environment.</detail>
+    </event>
+		<!--
+    ===============
+    Feb 2004
+    ===============
+    -->
+		<!--
+    ===============
+    Mar 2004
+    ===============
+    -->
+
+		<!--
+    ===============
+    Apr 2004
+    ===============
+    -->
+    <event id="04001" date="20040411" showOnHomepage="false">
+	 <title>Easter Sunday Calvary Kids</title>
+		<date>Apr 11 2004</date>
+                <detail>Special program for each service at 8:00AM, 9:45AM and 11:30AM.</detail>
+    </event>
+		<!--
+    ===============
+    May 2004
+    ===============
+    -->
+<!--
+    <event id="05001" date="20040515" showOnHomepage="false">
+	 <title>Childrens' Ministry Training Saturday Morning</title>
+		<date>Jan 24 2004</date>
+                <detail>All people who serve the kids come out for a great time of fun, fellowhip and very important training to develop hands-on skills and get great ideas to enhance the classroom environment.</detail>
+    </event>
+-->
+    <event id="05001" date="20040523" showOnHomepage="false">
+	 <title>Family Camp</title>
+		<date>May 21 - 23 2004</date>
+                <detail>Participate as a family ina cooperative camping adventure! This means we share in all the fun, planning and participation. Lots of special activities will be offered including a fishing contest, rowboat contest, worship, campfire fun, relaxing, sharing all meals together, camp art, and lots of swimming! Watch for pre-registration in the Fall of 2003.</detail>
+    </event>
+		<!--
+    ===============
+    June 2004
+    ===============
+    -->
+    <event id="06001" date="20040621" showOnHomepage="false">
+	 <title>Vacation Bible Study</title>
+		<date>Jun 21 - 25 2004</date>
+                <detail>Stay tuned for more details !!!.</detail>
+    </event>
+		<!--
+    ===============
+    July 2004
+    ===============
+    -->
 	</calendar>
 </content>
