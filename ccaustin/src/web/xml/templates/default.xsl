@@ -7,7 +7,7 @@
  Other variants of this file may offer more search engine or accessibility-friendly
  navigation and less Javascript features for older browsers. 
  
- $Id: default.xsl,v 1.7 2004/02/04 23:22:26 javajames27 Exp $
+ $Id: default.xsl,v 1.8 2004/03/18 08:13:42 gregk Exp $
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
  <xsl:output method="html" indent="yes"/>
@@ -33,10 +33,11 @@
     <xsl:apply-templates select="content/script"/>
     <!-- allow our pages to include custom scripting -->
    </head>
-   <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#2544a9" bgcolor="#FFFFFF">
+   <body onload="runSlideShow()" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#2544a9" bgcolor="#FFFFFF">
     <script language="JavaScript1.2" src="../js/mm_menu.js"/>
     <script language="JavaScript1.2" src="../js/main_menu.js"/>
     <script language="JavaScript1.2" src="../js/win.js"/>
+    <script language="JavaScript1.2" src="../js/events/slideshow.js"/>
     <script language="JavaScript1.2">
       var onWindows = navigator.platform ? navigator.platform == "Win32" : false;
       var macIE = document.all &amp;&amp; !onWindows;
