@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.57 2003/11/22 14:16:02 gregk Exp $
+	$Id: whatsnew.xml,v 1.58 2003/11/24 08:45:20 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -248,7 +248,7 @@
 			<title>Christmas Adoptions</title>
 			<detail>The Children's Ministry is once again adopting children from our local neighborhood elementary schools to help out with meals and gifts during this Christmas season. All collections due Dec 7th. Sign up this week at the Events Center. For more information call Donna Cano(255.7756)</detail>
 		</news-item>
-		<news-item id="86" date="20031116" expires="20031124" showOnHomepage="true">
+		<news-item id="86" date="20031116" expires="20031123" showOnHomepage="true">
 			<title>Actresses Needed</title>
 			<detail>Two female roles are available in a short drama to be part of Calvary's Christmas Eve service. One character is in her late teens, and the other is in her late 30's-early 40's. Roles must be cast before Thanksgiving with final auditions on Nov 23rd. Contact Nikki Zook(656.2631) ASAP to schedule an audition or for more information.</detail>
 		</news-item>
