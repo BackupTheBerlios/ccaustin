@@ -3456,6 +3456,14 @@
 		<audio>bibleoverview/47-2co-05.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/2Cr/2Cr005.html#top</passageref>
 	</message>
+	<message date="20030805" service="midweek" category="overview">
+		<seriestitle>2 Corinthians</seriestitle>
+		<title></title>
+		<passage>2 Corinthians 7</passage>
+		<tape>BO1325</tape>
+		<audio>bibleoverview/47-2co-07.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/2Cr/2Cr007.html#top</passageref>
+	</message>
 
     <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
