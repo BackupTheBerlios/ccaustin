@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.17 2002/12/13 20:24:45 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.18 2003/01/04 15:39:47 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -167,6 +167,16 @@
 			winter group session, which will meet weekly for 4 to 8 weeks depending upon
 			the topic.  Groups will start meeting the 3rd week of January.  Please sign
 			up at the Events Center.  Spaces are limited.</detail>      
+		</news-item>
+		<news-item id="24" date="20030201" expires="20030201" showOnHomepage="true">
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>Spring 2003 Women's Bible Study</title>
+			<detail>The Women at Calvary continue the bible study “Jesus, the One and Only.”  The morning study meets every Tuesday at 10:00 AM.  The evening study meets every other Tuesday at 7:00 PM.  Cooperative childcare is available in the morning only.  Women are welcome to join at any time.   This is an exciting opportunity for spiritual growth. </detail>      
+		</news-item>
+		<news-item id="25" date="20030201" expires="20030201" showOnHomepage="true">
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>Spring 2003 Men's Bible Study</title>
+			<detail>The Men’s study will start soon.  Begin blocking out your Tuesday nights and praying about your involvement. The study meets every other Tuesday evening at 7:00 PM.  This is an exciting opportunity for spiritual growth. </detail>      
 		</news-item>
 	</news>
 </content>

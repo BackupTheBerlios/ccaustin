@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.26 2002/12/31 02:20:24 javajames27 Exp $
+	$Id: calendar.xml,v 1.27 2003/01/04 15:39:47 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -45,11 +45,7 @@
     <event id="02001" date="20030220" showOnHomepage="true">
       <title>2003 Mid-South Worship Conference</title>
       <date>Feb 20-22</date>
-      <detail>Registration begins today, Dec 15, for our Mid-South Music &amp; Worship Conference.
-      Holland Davis will be our guest worship leader and speaker.  He is currently the worship
-      pastor at Calvary Chapel Costa Mesa and also oversees the CC Music record label.  He has
-      written several songs for Maranatha! Music.  Mark your calenders now for the Feb 20-22 event
-      and plan to register early. <link href="../events/mwc2003.html">Learn more</link>...</detail> 
+      <detail>We are bringing a worship conference to you!!  Calvary Austin is hosting the Mid-South Music &amp; Worship Conference Feb 20-22.  Holland Davis of Calvary Chapel Costa Mesa will be our guest worship leader &amp; speaker.  Early registration is $45 through    Feb 9.  Come by the Events Center today. <link href="../events/mwc2003.html">Learn more</link>...</detail> 
     </event>
 
     <event id="02002" date="20030209" showOnHomepage="true">
