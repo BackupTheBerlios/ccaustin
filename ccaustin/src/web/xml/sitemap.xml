@@ -6,7 +6,7 @@
         The sitemap contains the structure of the entire web site, and is used to drive
         the auto-generated scripts for generating the web site HTML from XML.
         
-        $Id: sitemap.xml,v 1.29 2003/03/21 15:18:34 javajames27 Exp $
+        $Id: sitemap.xml,v 1.30 2003/03/29 03:39:47 javajames27 Exp $
         
         hidden="true" prevents the page from showing on the sitemap.
         
@@ -237,7 +237,7 @@
     <page datafile="/continuum.xml"
           template="/templates/default.xsl"
           layout="/layouts/default.xsl"
-          renderer="/renderers/html.xsl"
+          renderer="/renderers/directives.xsl"
           html="/continuum.html"
           hidden="true">
       <title>Redirect for historical URLs</title>
