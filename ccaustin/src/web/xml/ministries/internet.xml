@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
 
-	Internet Ministry - The ministry and its detail
-	
-	$Id: internet.xml,v 1.7 2002/10/20 02:33:09 javajames27 Exp $
-		
+        Internet Ministry - The ministry and its detail
+        
+        $Id: internet.xml,v 1.8 2002/11/17 04:10:05 javajames27 Exp $
+                
 -->
 <content title="Internet Ministry">
-	<ministry id="internet">
-	  <name>Internet Ministry</name>
-	  <overview>Wonder who puts this site together? The internet
-	  ministry pulls together all of the most current technologies
-	  to outreach over the web.</overview> 
-	  <long-description>
-	    <p>Learn more about our <link
-	    href="../ministries/internet-vision.html">vision</link>
-	    for this ministry. </p>
-	    <heading>Recent Conferences</heading>
-            <p>Pastor and Leader's Conference 2002 - <link href="../conferences/PastorConf2002-Internet.html">Internet Ministry Workshop</link></p>
-	    <heading>Want to help?</heading>
-	    <p>We are looking for anyone who knows how to perform
-	    basic computer operations, such as creating, editing, and
-	    copying files, for content management of this web
-	    site.</p> 
-	    <p>We also need help from people who know or are willing to
-	    learn any of the following technologies: XML, XSL, Java, Java Servlets/JSP, database
-	    technologies, and HTML/Javascript.</p>
-            <p>To learn how to serve, contact the web servant team at
-	    the email address at the bottom of this page.</p>
-	  </long-description>
-	  <contacts>
-  	    <contact-email email="webservant-austin@calvarychapel.org">Web Servant Team</contact-email>
-   	  </contacts>
-	</ministry>
+  <ministry id="internet">
+    <name>Internet Ministry</name>
+    <overview>Wonder who puts this site together? The internet
+      ministry pulls together all of the most current technologies
+      to outreach and equip over the web.</overview> 
+    <long-description>
+      <p>Learn more about our <link
+          href="../ministries/internet-vision.html">vision</link>
+        for this ministry and how you can <link href="../ministries/internet-vision.html">help</link>. </p>
+      <heading>Recent Conferences</heading>
+      <p>Pastor and Leader's Conference 2002 - <link href="../conferences/PastorConf2002-Internet.html">Internet Ministry Workshop</link></p>
+    </long-description>
+    <contacts>
+      <contact-email email="webservant-austin@calvarychapel.org">Web Servant Team</contact-email>
+    </contacts>
+  </ministry>
 </content>
