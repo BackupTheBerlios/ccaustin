@@ -9666,5 +9666,61 @@
 		<audio>42-luk/42-luk-16-01.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk016.html#top</passageref>
 	</message>
+        <message date="20040201" service="sunday" category="book studies">
+          <seriestitle>Luke</seriestitle>
+          <title>Taking God for Granted</title>
+          <passage>Luke 17</passage>
+          <tape>BS020104</tape>
+          <audio>42-luk/42-luk-17-01.wma</audio>
+          <passageref>http://www.blueletterbible.org/kjv/Luk/Luk017.html#top</passageref>
+        </message> 
+        <message date="20040208" service="sunday" category="book studies">
+          <seriestitle>Luke</seriestitle>
+          <title>Take Heart</title>
+          <passage>Luke 18</passage>
+          <tape>BS020804</tape>
+          <audio>42-luk/42-luk-18-01.wma</audio>
+          <passageref>http://www.blueletterbible.org/kjv/Luk/Luk018.html#top</passageref>
+        </message> 
+        <message date="20040222" service="sunday" category="book studies">
+          <seriestitle>Luke</seriestitle>
+          <title>What Drives You?</title>
+          <passage>Luke 19:1-27</passage>
+          <tape>BS022204</tape>
+          <audio>42-luk/42-luk-19-01.wma</audio>
+          <passageref>http://www.blueletterbible.org/kjv/Luk/Luk019.html#top</passageref>
+        </message> 
+        <message date="20040229" service="sunday" category="book studies">
+          <seriestitle>Luke</seriestitle>
+          <title>ImPASSION</title>
+          <passage>Luke 19:28-20:47</passage>
+          <tape>BS022904</tape>
+          <audio>42-luk/42-luk-19-28.wma</audio>
+          <passageref>http://www.blueletterbible.org/kjv/Luk/Luk019.html#top</passageref>
+        </message> 
+        <message date="20040314" service="sunday" category="book studies">
+          <seriestitle>Luke</seriestitle>
+          <title>ComPASSION</title>
+          <passage>Luke 21</passage>
+          <tape>BS031404</tape>
+          <audio>42-luk/42-luk-21-01.wma</audio>
+          <passageref>http://www.blueletterbible.org/kjv/Luk/Luk021.html#top</passageref>
+        </message> 
+        <message date="20040321" service="sunday" category="book studies">
+          <seriestitle>Luke</seriestitle>
+          <title>DisPASSION</title>
+          <passage>Luke 22:1-62</passage>
+          <tape>BS032104</tape>
+          <audio>42-luk/42-luk-22-01.wma</audio>
+          <passageref>http://www.blueletterbible.org/kjv/Luk/Luk022.html#top</passageref>
+        </message> 
+        <message date="20040328" service="sunday" category="book studies">
+          <seriestitle>Luke</seriestitle>
+          <title>Passion</title>
+          <passage>Luke 22:63-23:56</passage>
+          <tape>BS032804</tape>
+          <audio>42-luk/42-luk-22-63.wma</audio>
+          <passageref>http://www.blueletterbible.org/kjv/Luk/Luk022.html#top</passageref>
+        </message>
 
 </messagecatalog>
