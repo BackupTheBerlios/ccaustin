@@ -3,7 +3,7 @@
 
 	Media Page Content
 	
-	$Id: media.xml,v 1.1 2002/05/27 23:29:04 javajames27 Exp $
+	$Id: media.xml,v 1.2 2002/06/25 17:13:49 javajames27 Exp $
 		
 -->
 <content title="Calvary Continuum">
@@ -11,6 +11,8 @@
 	<p>Continuum is the media ministry  of Calvary Chapel. It consists of the following areas:</p>
 	<p><link href="../media/live.html">Live Webcast</link> - View Sunday, Wednesday, and the College &amp; Career (Frontline) Friday service live or the video archives.</p>
 	<p><link href="../msgs/msgsAudioArchive.html">Audio Archives</link> - Listen to services from the past in streaming RealAudio.</p>
+	<p><link href="../msgs/msgsSundayCur.html">Sunday Messages</link> - Listen to Sunday messages from the past in streaming RealAudio.</p>
+	<p><link href="../msgs/msgsMidweekCur.html">Midweek Messages</link> - Listen to Midweek messages from the past in streaming RealAudio.</p>
 	<p><link href="../msgs/msgsTapeArchive.html">Tape Archives</link> - Order tapes of past services.</p>
 	<p><link href="../media/radiotv.html">Radio and TV</link> - Learn more about our radio and television broadcasts.</p>
 </content>

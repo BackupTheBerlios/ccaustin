@@ -22,37 +22,22 @@ Cygwin (Unix tools for Windows - not needed for Unix systems) :
      install all appropriate things. I use c:\cygwin as the
      installation location.
 
-Ant (build scripting - equiv to an XML-ed make): 
-     a. http://jakarta.apache.org/ant/index.html 
-     b. Download the Ant 1.4 archive and the optional archive
-     c. Create a directory to store Ant and extract the archive. I use
-        c:\libs to store it, allowing WinZip to create the appropriate
-        subdir under libs.
-     d. copy the optional ant 1.4 jar file to %ANT_HOME%/lib
-
-
-XalanJ (XSLT processor): 
-	a. http://xml.apache.org/xalan-j
-	b. Download and extract the xalan.jar to %ANT_HOME%/lib
-
 2. Define the following environment variables:
 
 CALVARY_HOME=<project root> (i.e. c:\Projects\calvary)
-ANT_HOME=<ant 1.4 installation root> (i.e. C:\libs\jakarta-ant-1.4)
 JAVA_HOME=<jdk installation root> (i.e. c:\jdk1.3.1)
-PATH=$CALVARY_HOME/bin:$ANT_HOME/bin:JAVA_HOME/bin:$PATH
+PATH=$CALVARY_HOME/bin:JAVA_HOME/bin:$PATH
 
 (May need to reboot or close/restart any shell prompts
 
 3. To build:
 
    a. start Cygwin or any bash shell
-   b. cd %CALVARY_HOME%
-   c. ant
+   b. cd %CALVARY_HOME% (e.g. cd /c/Projects/ccaustin)
+   c. ./ant
 
-   If your path is setup correctly, the ant shell script should be
-   found in ANT_HOME and it will load the build.xml file from
-   CALVARY_HOME and run the appropriate targets for building all web
+   If your path is setup correctly, the ant shell script will load the
+   build.xml file from CALVARY_HOME and run the appropriate targets for building all web
    pages (and eventually Java source code)
 
    All build pages are located in CALVARY_HOME/build
@@ -73,5 +58,5 @@ PATH=$CALVARY_HOME/bin:$ANT_HOME/bin:JAVA_HOME/bin:$PATH
 
 5. View the developer's guide: 
 
-   CALVARY_HOME/docs/dev/index.html
+   CALVARY_HOME/src/dev/index.html
 	

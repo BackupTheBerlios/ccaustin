@@ -6,7 +6,7 @@
 	The sitemap contains the structure of the entire web site, and is used to drive
 	the auto-generated scripts for generating the web site HTML from XML.
 	
-	$Id: sitemap.xml,v 1.4 2002/05/30 01:20:31 javajames27 Exp $
+	$Id: sitemap.xml,v 1.5 2002/06/25 17:13:49 javajames27 Exp $
 	
 	hidden="true" prevents the page from showing on the sitemap.
 	
@@ -112,13 +112,13 @@
 		<page datafile="/internet.xml" style="/ministry-home.xsl" html="/ministries/internet.html">
 			<title>Internet Ministry</title>
 		</page>
-		<page datafile="/meals.xml" style="/ministry-home.xsl" html="/ministries/meals.html">
+		<page datafile="/meals.xml" style="/ministry-home.xsl" html="/ministries/meals.html" exclude="true">
 			<title>Meal Ministry</title>
 		</page>
 		<page datafile="/media.xml" style="/ministry-home.xsl" html="/ministries/media.html">
 			<title>Media (Calvary Continuum) Ministry</title>
 		</page>
-		<page datafile="/men.xml" style="/ministry-home.xsl" html="/ministries/men.html">
+		<page datafile="/men.xml" style="/ministry-home.xsl" html="/ministries/men.html" exclude="true">
 			<title>Men's Ministry</title>
 		</page>
 		<page datafile="/menaccount.xml" style="/ministry-home.xsl" html="/ministries/menaccount.html">
@@ -136,7 +136,7 @@
 		<page datafile="/prayer.xml" style="/ministry-home.xsl" html="/ministries/prayer.html">
 			<title>Prayer Ministry</title>
 		</page>
-		<page datafile="/prison.xml" style="/ministry-home.xsl" html="/ministries/prison.html">
+		<page datafile="/prison.xml" style="/ministry-home.xsl" html="/ministries/prison.html" exclude="true">
 			<title>Prison Ministry</title>
 		</page>
 		<page datafile="/singles.xml" style="/ministry-home.xsl" html="/ministries/singles.html">
@@ -145,7 +145,7 @@
 		<page datafile="/sound.xml" style="/ministry-home.xsl" html="/ministries/sound.html">
 			<title>Sound Ministry</title>
 		</page>
-		<page datafile="/usher.xml" style="/ministry-home.xsl" html="/ministries/usher.html">
+		<page datafile="/usher.xml" style="/ministry-home.xsl" html="/ministries/usher.html" exclude="true">
 			<title>Ushering Ministry</title>
 		</page>
 		<page datafile="/women.xml" style="/ministry-home.xsl" html="/ministries/women.html">
@@ -169,7 +169,7 @@
 		<page datafile="/youth.xml" style="/ministry-home.xsl" html="/ministries/youth.html">
 			<title>Youth Ministry</title>
 		</page>
-		<page datafile="/youthcrisis.xml" style="/ministry-home.xsl" html="/ministries/youthcrisis.html">
+		<page datafile="/youthcrisis.xml" style="/ministry-home.xsl" html="/ministries/youthcrisis.html" exclude="true">
 			<title>Youth Crisis Ministry</title>
 		</page>
 	</section>
