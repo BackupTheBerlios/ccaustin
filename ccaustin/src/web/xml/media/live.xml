@@ -3,7 +3,7 @@
 
 	Calvary Live
 	
-	$Id: live.xml,v 1.7 2004/05/14 13:26:45 gregk Exp $
+	$Id: live.xml,v 1.8 2004/05/14 21:15:35 gregk Exp $
 		
 -->
 <content title="Calvary Live" base=".">
@@ -25,10 +25,10 @@
 	</video-archives>
 	
 	<broadcast-archive>
-	 	<broadcast href="http://www.calvarychapel.org/austin/video/sunday.ram">Most recent Sunday</broadcast>
-	 	<broadcast href="http://www.calvarychapel.org/austin/video/sundaylast.ram">Sunday 2 weeks ago</broadcast>
-	 	<broadcast href="http://www.calvarychapel.org/austin/video/wednesday.ram">Most recent Wednesday</broadcast>
-	 	<broadcast href="http://www.calvarychapel.org/austin/video/wednesdaylast.ram">Wednesday 2 weeks ago</broadcast>
+	 	<broadcast href="http://www.calvarychapel.org/austin/video/sunday.wmv">Most recent Sunday</broadcast>
+	 	<broadcast href="http://www.calvarychapel.org/austin/video/sundaylast.wmv">Sunday 2 weeks ago</broadcast>
+	 	<broadcast href="http://www.calvarychapel.org/austin/video/wednesday.wmv">Most recent Wednesday</broadcast>
+	 	<broadcast href="http://www.calvarychapel.org/austin/video/wednesdaylast.wmv">Wednesday 2 weeks ago</broadcast>
 	</broadcast-archive>
 	
 	<audio-archives>
