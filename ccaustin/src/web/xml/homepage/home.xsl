@@ -7,7 +7,7 @@
 	Processes the ministry tag and its children tags. Most tags reference news and articles located in other files, 
 	so we perform queries on other documents to obtain the data we need for this page. Nice for reusability!
 	
-	$Id: home.xsl,v 1.14 2002/07/10 21:51:28 javajames27 Exp $
+	$Id: home.xsl,v 1.15 2002/07/11 13:55:44 javajames27 Exp $
 	
 -->	
 
@@ -169,10 +169,14 @@
   <xsl:variable name="doc">../articles/<xsl:value-of select="@id"/>.xml</xsl:variable>
   <xsl:for-each select="document($doc)/content/article">
     <tr class="featuredarticlebox">
-      <td width="225"><img src="../images/{@image}" alt="Featured Article"/></td>
-      <td width="99%" valign="center"><xsl:value-of select="heading"/><br/><p class="featureintro"><xsl:value-of select="intro"/><xsl:text> </xsl:text><span class="readmore">[<a href="../articles/{@id}.html" class="readmore">Read More...</a>]</span></p></td>
+      <td width="225"><img width="175" height="175" src="../images/{@image}" alt="Featured Article"/></td>
+      <td width="2%"><br/></td>
+      <td width="99%" valign="center"><span class="subheading"><xsl:value-of select="heading"/></span><br/><p class="featureintro"><xsl:value-of select="intro"/><xsl:text> </xsl:text><span class="readmore">[<a href="../articles/{@id}.html" class="readmore">Read More...</a>]</span></p></td>
     </tr>
 	</xsl:for-each>
+    <tr>
+      <td colspan="3"><br/></td>
+    </tr>
 </xsl:template>
 
 </xsl:stylesheet>
