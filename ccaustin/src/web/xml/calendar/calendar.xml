@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.28 2003/01/04 15:46:50 javajames27 Exp $
+	$Id: calendar.xml,v 1.29 2003/01/06 19:31:46 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -47,7 +47,7 @@
 	</event>
     <event id="01005" date="20030118" showOnHomepage="true">
 	 <title>Live Music - Lorenzo</title>
-		<date>Jan 15th</date>
+		<date>Jan 18th</date>
 		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. 	     </detail>
 		<ministries>
 			<ministry id="coffee"/>
@@ -55,7 +55,23 @@
 	</event>
     <event id="01006" date="20030125" showOnHomepage="true">
 	 <title>Live Music - Marcus Hernandez</title>
-		<date>Jan 15th</date>
+		<date>Jan 25th</date>
+		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. 	     </detail>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
+	</event>
+    <event id="01007" date="20030108" showOnHomepage="true">
+	 <title>Live Music - Leaving Simon</title>
+		<date>Jan 8th</date>
+		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. 	     </detail>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
+	</event>
+    <event id="01008" date="20030111" showOnHomepage="true">
+	 <title>Live Music - Evans &amp; Curran</title>
+		<date>Jan 11th</date>
 		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. 	     </detail>
 		<ministries>
 			<ministry id="coffee"/>
@@ -72,13 +88,13 @@
       <detail>We are bringing a worship conference to you!!  Calvary Austin is hosting the Mid-South Music &amp; Worship Conference Feb 20-22.  Holland Davis of Calvary Chapel Costa Mesa will be our guest worship leader &amp; speaker.  Early registration is $45 through    Feb 9.  Come by the Events Center today. <link href="../events/mwc2003.html">Learn more</link>...</detail> 
     </event>
 
-    <event id="02002" date="20030209" showOnHomepage="true">
+    <event id="02002" date="20030209" showOnHomepage="false">
       <title>Communion Service</title>
       <date>Feb 9th, All Services</date>
       <detail/>
     </event>
 
-    <event id="02003" date="20030212" showOnHomepage="true">
+    <event id="02003" date="20030212" showOnHomepage="false">
       <title>Extended Worship Service</title>
       <date>Feb 12th</date>
       <detail/>
