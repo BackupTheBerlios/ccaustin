@@ -3,7 +3,7 @@
 
 	A news item
 	
-	$Id: news1.xml,v 1.1 2002/04/09 00:24:57 javajames27 Exp $
+	$Id: news1.xml,v 1.2 2002/05/23 17:57:38 javajames27 Exp $
 		
 -->
 <content title="News - 3 Services" base=".">
@@ -14,7 +14,7 @@
     <title>Calvary Austin announces three services!</title>
     <full>
       <p>Calvary Austin announces three services starting Sunday morning March 3, 2002 at 8, 9:45 and 11:30 am.</p>
-      <p>View the worship and message by Pastor Allen Rigg for God's vision for Calvary Austin on the Web in <a href="http://www.calvarychapel.org/austin/video/2002visionvideo.ram">Real Video</a>.</p>
+      <p>View the worship and message by Pastor Allen Rigg for God's vision for Calvary Austin on the Web in <link href="http://www.calvarychapel.org/austin/video/2002visionvideo.ram">Real Video</link>.</p>
           <p>Good Friday service on March 29, 2002 at 7 pm. </p>
     </full>
   </news-item>

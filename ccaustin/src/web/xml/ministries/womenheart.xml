@@ -3,7 +3,7 @@
 
 	Women's Heart-to-Heart  - The ministry and its detail
 	
-	$Id: womenheart.xml,v 1.1 2002/05/23 00:29:36 javajames27 Exp $
+	$Id: womenheart.xml,v 1.2 2002/05/23 17:57:38 javajames27 Exp $
 		
 -->
 <content title="Heart-to-Heart">
@@ -17,12 +17,12 @@ develop supportive, God-centered friendships.</p>
 		<p>Women will be paired up, after much prayer, based on the information provided in the profile forms. Since we enjoy such a wonderful diversity of women at Calvary, this often can provide an opportunity to get to know someone that might be different from yourself. God delights in the uniqueness of each of his creations, as should we.</p>
 
 		<p>Here are the simple guidelines Calvary Chapel has instituted for the Heart-to-Heart ministry. They have proven effective in developing meaningful relationships between women of Calvary Chapel of Austin, and we pray that they will continue to do so in this, the seventh year of the Heart-to-Heart ministry.</p>
-		<ol>
-			<li>Make a one year commitment to the relationship.</li>
-			<li>Contact each other once a week and meet at least once a month.</li>
-			<li>Pray for each other regularly.</li>
-			<li>Do things together (whether it be a Bible study, shipping, learning a new skill or just going to lunch or dinner): each set of partners is free to do what they want to do as long as they work in developing the relationship.</li>
-		</ol>
+		<list ordered="true">
+			<item>Make a one year commitment to the relationship.</item>
+			<item>Contact each other once a week and meet at least once a month.</item>
+			<item>Pray for each other regularly.</item>
+			<item>Do things together (whether it be a Bible study, shipping, learning a new skill or just going to lunch or dinner): each set of partners is free to do what they want to do as long as they work in developing the relationship.</item>
+		</list>
 
 	<p>The Heart-to-Heart program pairs up women during the month of February.  Occasionally, women are paired up at different times of the year.  Contact the church office to be put in touch with the program coordinator.</p>
 	  </long-description>

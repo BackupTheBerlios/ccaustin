@@ -6,7 +6,7 @@
 	
 	Processes the beliefs tag and its children tags.
 	
-	$Id: beliefs.xsl,v 1.1 2002/01/31 03:25:34 javajames27 Exp $
+	$Id: beliefs.xsl,v 1.2 2002/05/23 17:57:38 javajames27 Exp $
 	
 -->	
 
@@ -21,12 +21,17 @@
 
 <xsl:template match="beliefs">
 
-	<p><xsl:value-of select="intro"></xsl:value-of></p>
-	
-	 <xsl:for-each select="belief">
-		<p><b>We believe</b><br/><xsl:apply-templates select="*|@*|text()"/></p>
-	 </xsl:for-each>
-
+     <table>
+     	<tr>
+     		<td align="left">
+				<p><xsl:value-of select="intro"></xsl:value-of></p>
+				
+				 <xsl:for-each select="belief">
+					<p><b>We believe</b><br/><xsl:apply-templates select="*|@*|text()"/></p>
+				 </xsl:for-each>
+     		</td>
+     	</tr>
+     </table> 
 </xsl:template>
   
 </xsl:stylesheet>

@@ -3,7 +3,7 @@
 
 	A news item
 	
-	$Id: news3.xml,v 1.1 2002/04/09 00:24:57 javajames27 Exp $
+	$Id: news3.xml,v 1.2 2002/05/23 17:57:38 javajames27 Exp $
 		
 -->
 <content title="News - The Calvary Satellite Network" base=".">
@@ -13,7 +13,7 @@
     <logo align="left" img ="../images/homepage/csn.jpg"/>
     <title>The Calvary Satellite Network is on its way to Austin.</title>
     <full>
-      <p>The Calvary Satellite Network is on its way to Austin. To find out more about CSN, including their programming schedule, visit their <a href="http://www.calvarychapel.org/csn/">website</a> or listen to their <a href="http://www.calvarychapel.org/csn/live.ram">live webcast</a>. </p>
+      <p>The Calvary Satellite Network is on its way to Austin. To find out more about CSN, including their programming schedule, visit their <link href="http://www.calvarychapel.org/csn/">website</link> or listen to their <link href="http://www.calvarychapel.org/csn/live.ram">live webcast</link>. </p>
     </full>
   </news-item>
 </content>

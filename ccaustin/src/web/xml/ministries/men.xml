@@ -3,7 +3,7 @@
 
 	Men's Ministry - The ministry and its detail
 	
-	$Id: men.xml,v 1.4 2002/05/23 00:29:36 javajames27 Exp $
+	$Id: men.xml,v 1.5 2002/05/23 17:57:38 javajames27 Exp $
 		
 -->
 <content title="Men's Ministry">
@@ -14,7 +14,7 @@
 	    <heading>Prayer</heading>
 	    <p>The Men’s Ministry is about prayer. We call the men to pray for the church. Each Friday morning (6:00 AM) we invite the men to come pray in the Prayer room. Enter through the church back door.</p>
 	    <heading>Study</heading>
-	    <p>The Men’s Ministry is about God’s word. We desire to see men moved through the power of God’s word. This Bible study meets every other Tuesday night (7:00 PM) in the Youth Room. Check the <a href="../calendar/events.html">calendar</a> for upcoming meetings.</p>
+	    <p>The Men’s Ministry is about God’s word. We desire to see men moved through the power of God’s word. This Bible study meets every other Tuesday night (7:00 PM) in the Youth Room. Check the <link href="../calendar/events.html">calendar</link> for upcoming meetings.</p>
          <p>Our current study is taking us through the "Letters to the Churches." We are currently in the book of Colossians, which will be followed by the book of Phillipians. Join us! You are welcome to join at any time, as we only study a chapter each meeting.</p>
 	    <heading>Accountability</heading>
 	    <p>The Men’s Ministry is about growing together. As iron sharpens iron. <br/>
