@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.60 2003/12/07 15:14:07 gregk Exp $
+	$Id: whatsnew.xml,v 1.61 2003/12/10 02:45:28 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -275,10 +275,6 @@
 		<news-item id="92" date="20031207" expires="20031231" showOnHomepage="true">
 			<title>Usher Ministry</title>
 			<detail>Wanted: Men who want to serve in this ministry.</detail>
-		</news-item>
-		<news-item id="93" date="20031207" expires="20040531" showOnHomepage="true">
-			<title>Family Camp</title>
-			<detail>"Family", meaning our Calvary Family. All are welcome! Registration begins today at the Events Center for a deposit on this great time of fellowship and fun at our 3rd annual Camp. The event is at Blanco State Park, June 4-6, 2004. For more info, contact John Adams at 759.4433</detail>
 		</news-item>
 	</news>
 </content>

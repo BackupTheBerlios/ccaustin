@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.87 2003/12/05 17:14:13 gregk Exp $
+	$Id: calendar.xml,v 1.88 2003/12/10 02:44:33 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -424,12 +424,12 @@ need for Praying Leaders.</detail>
 -->
     <event id="05001" date="20040523" showOnHomepage="false">
 	 <title>Family Camp</title>
-		<date>May 21 - 23 2004</date>
-                <detail>Participate as a family in a cooperative camping adventure! This means we share in all the fun, planning and participation. Lots of special activities will be offered including a fishing contest, rowboat contest, worship, campfire fun, relaxing, sharing all meals together, camp art, and lots of swimming! Watch for pre-registration in the Fall of 2003.</detail>
+	 <date>June 4 -6, 2004</date>
+                <detail>"Family", meaning our Calvary Family. All are welcome! Registration begins today at the Events Center for a deposit on this great time of fellowship and fun at our 3rd annual Camp. The event is at Blanco State Park, June 4-6, 2004. For more info, contact John Adams at 759.4433</detail>
 		<ministries>
 			<ministry id="children"/>
 		</ministries>
-    </event>
+	</event>
 		<!--
     ===============
     June 2004
