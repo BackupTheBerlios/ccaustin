@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Sitemap
+	
+	The sitemap contains the structure of the entire web site, and is used to drive
+	the auto-generated scripts for generating the web site HTML from XML.
+	
+	$Id: sitemap.xml,v 1.1 2002/05/27 18:35:20 javajames27 Exp $
+		
+-->
+
+<website basedir="/src/web/xml">
+	<section name="index" basedir="/homepage">
+		<title>Index</title>
+		<page datafile="/index.xml" style="/index.xsl" html="/index.html" hidden="true">
+			<title>Index page</title>
+		</page>
+		<page datafile="/home.xml" style="/home.xsl" html="/homepage/index.html">
+			<title>Homepage</title>
+			<description>Learn about what's new and what's coming</description>
+		</page>
+	</section>
+	<section name="about" basedir="/about">
+		<title>About Calvary Austin</title>
+		<description>Learn more about Calvary Chapel of Austin - our services, our location, our staff, and our history.</description>
+		<page datafile="/about.xml" style="/about.xsl" html="/about/about.html">
+			<title>About Cavary Chapel of Austin</title>
+			<description>Learn more about Calvary Austin</description>
+		</page>
+		<page datafile="/beliefs.xml" style="/beliefs.xsl" html="/about/beliefs.html">
+			<title>Our Beliefs/Statement of Faith</title>
+			<description>Learn more about Calvary Austin's beliefs</description>
+		</page>
+		<page datafile="/contact.xml" style="/contact.xsl" html="/about/contact.html">
+			<title>Contact Information and Map</title>
+			<description>Find out how to contact Calvary Austin and view a map to our church</description>
+		</page>
+		<page datafile="/history.xml" style="/history.xsl" html="/about/history.html">
+			<title>The History of Calvary Austin</title>
+			<description>Find out how Calvary Austin started</description>
+		</page>
+		<page datafile="/vision.xml" style="/vision.xsl" html="/about/vision.html">
+			<title>The Vision of Calvary Austin</title>
+			<description>Catch the vision for Calvary Chapel of Austin</description>
+		</page>
+	</section>
+	<section name="articles" basedir="/articles">
+		<title>Articles</title>
+		<description>Read articles published by our Pastor and staff.</description>
+		<pageset match="**/*.xml" style="/articles.xsl" out="/articles">
+		</pageset>
+	</section>
+	<section name="calendar" basedir="/calendar">
+		<title>Weekly Schedule and Events Calendar</title>
+		<page datafile="/calendar.xml" style="/calendar.xsl" html="/calendar/calendar.html">
+			<title>Events Calendar</title>
+		</page>
+		<page datafile="/schedule.xml" style="/schedule.xsl" html="/calendar/schedule.html">
+			<title>Weekly Schedule</title>
+		</page>
+	</section>
+	<section name="media" basedir="/media">
+		<title>Calvary Live</title>
+		<page datafile="/live.xml" style="/live.xsl" html="/media/live.html">
+			<title>Calvary Live Broadcast Schedule</title>
+		</page>
+		<page datafile="/viewlive.xml" style="/viewlive.xsl" html="/media/viewlive.html">
+			<title>Watch Calvary Live</title>
+		</page>
+		<page datafile="/radiotv.xml" style="/radiotv.xsl" html="/media/radiotv.html">
+			<title>Calvary Radio and Television</title>
+		</page>
+		<page datafile="/continuum.xml" style="/continuum.xsl" html="/continuum.html" hidden="true">
+			<title>Redirect for historical URLs</title>
+		</page>
+	</section>
+	<section name="ministries" basedir="/ministries">
+		<title>Calvary Austin Ministries</title>
+		<page datafile="/children.xml" style="/ministry-home.xsl" html="/ministries/children.html">
+			<title>Children's Ministry</title>
+		</page>
+		<page datafile="/coffee.xml" style="/ministry-home.xsl" html="/ministries/coffee.html">
+			<title>Coffee Creator</title>
+		</page>
+		<page datafile="/dinner.xml" style="/ministry-home.xsl" html="/ministries/dinner.html">
+			<title>Dinner for 8 Ministry</title>
+		</page>
+		<page datafile="/frontline.xml" style="/ministry-home.xsl" html="/ministries/frontline.html">
+			<title>College &amp; Career Ministry</title>
+		</page>
+		<page datafile="/greet.xml" style="/ministry-home.xsl" html="/ministries/greet.html">
+			<title>Greeting Ministry</title>
+		</page>
+		<page datafile="/home.xml" style="/ministry-home.xsl" html="/ministries/home.html">
+			<title>Home Fellowship Ministry</title>
+		</page>
+		<page datafile="/internet.xml" style="/ministry-home.xsl" html="/ministries/internet.html">
+			<title>Internet Ministry</title>
+		</page>
+		<page datafile="/meals.xml" style="/ministry-home.xsl" html="/ministries/meals.html">
+			<title>Meal Ministry</title>
+		</page>
+		<page datafile="/media.xml" style="/ministry-home.xsl" html="/ministries/media.html">
+			<title>Media (Calvary Continuum) Ministry</title>
+		</page>
+		<page datafile="/men.xml" style="/ministry-home.xsl" html="/ministries/men.html">
+			<title>Men's Ministry</title>
+		</page>
+		<page datafile="/menaccount.xml" style="/ministry-home.xsl" html="/ministries/menaccount.html">
+			<title>Men's Accountability Ministry</title>
+		</page>
+		<page datafile="/newbelievers.xml" style="/ministry-home.xsl" html="/ministries/newbelievers.html">
+			<title>New Believer's Ministry</title>
+		</page>
+		<page datafile="/newlife.xml" style="/ministry-home.xsl" html="/ministries/newlife.html">
+			<title>Prayer Room (New Life) Ministry</title>
+		</page>
+		<page datafile="/overhead.xml" style="/ministry-home.xsl" html="/ministries/overhead.html">
+			<title>Overhead/Lights Ministry</title>
+		</page>
+		<page datafile="/prayer.xml" style="/ministry-home.xsl" html="/ministries/prayer.html">
+			<title>Prayer Ministry</title>
+		</page>
+		<page datafile="/prison.xml" style="/ministry-home.xsl" html="/ministries/prison.html">
+			<title>Prison Ministry</title>
+		</page>
+		<page datafile="/singles.xml" style="/ministry-home.xsl" html="/ministries/singles.html">
+			<title>Singles Ministry</title>
+		</page>
+		<page datafile="/sound.xml" style="/ministry-home.xsl" html="/ministries/sound.html">
+			<title>Sound Ministry</title>
+		</page>
+		<page datafile="/usher.xml" style="/ministry-home.xsl" html="/ministries/usher.html">
+			<title>Ushering Ministry</title>
+		</page>
+		<page datafile="/women.xml" style="/ministry-home.xsl" html="/ministries/women.html">
+			<title>Women's Ministry</title>
+		</page>
+		<page datafile="/womenstudy.xml" style="/ministry-home.xsl" html="/ministries/womenstudy.html">
+			<title>Women's Bible Study Ministry</title>
+		</page>
+		<page datafile="/womenheart.xml" style="/ministry-home.xsl" html="/ministries/womenheart.html">
+			<title>Women's Heart-to-Heart Ministry</title>
+		</page>
+		<page datafile="/womenhelp.xml" style="/ministry-home.xsl" html="/ministries/womenhelp.html">
+			<title>Women-to-Women Ministry</title>
+		</page>
+		<page datafile="/worship.xml" style="/ministry-home.xsl" html="/ministries/worship.html">
+			<title>Worship Ministry</title>
+		</page>
+		<page datafile="/worshipcommunity.xml" style="/ministry-home.xsl" html="/ministries/worshipcommunity.html">
+			<title>Worship Community Ministry</title>
+		</page>
+		<page datafile="/youth.xml" style="/ministry-home.xsl" html="/ministries/youth.html">
+			<title>Youth Ministry</title>
+		</page>
+		<page datafile="/youthcrisis.xml" style="/ministry-home.xsl" html="/ministries/youthcrisis.html">
+			<title>Youth Crisis Ministry</title>
+		</page>
+	</section>
+	<section name="messages" basedir="/msgs">
+		<title>Audio Messages and Tape Catalog</title>
+		<page datafile="/msgs.xml" style="/msgs-Sunday-cur.xsl" html="/msgs/msgsSundayCur.html">
+			<title>Sunday Messages</title>
+		</page>
+		<page datafile="/msgs.xml" style="/msgs-Midweek-cur.xsl" html="/msgs/msgsMidweekCur.html">
+			<title>Wednesday Messages</title>
+		</page>
+		<page datafile="/msgs.xml" style="/msgs-Audio-Overview.xsl" html="/msgs/msgsAudioOverview.html">
+			<title>Audio Book Overviews</title>
+		</page>
+		<page datafile="/msgs-categories.xml" style="/msgs-Audio-categories.xsl" html="/msgs/msgsAudioArchive.html">
+			<title>Audio Categories</title>
+		</page>
+		<page datafile="/msgs.xml" style="/msgs-Audio-BookStudies.xsl" html="/msgs/msgsAudioBookStudies.html">
+			<title>Audio Book Studies</title>
+		</page>
+		<page datafile="/msgs.xml" style="/msgs-Audio-TopicalSeries.xsl" html="/msgs/msgsAudioTopicalSeries.html">
+			<title>Audio Topical Studies</title>
+		</page>
+		<page datafile="/msgs.xml" style="/msgs-Audio-InDepth.xsl" html="/msgs/msgsAudioInDepth.html">
+			<title>Audio Book In-Depth Studies</title>
+		</page>
+		<page datafile="/msgs.xml" style="/msgs-Audio-Misc.xsl" html="/msgs/msgsAudioMisc.html">
+			<title>Audio Misc Studies (guests, special messages)</title>
+		</page>
+		<page datafile="/msgs.xml" style="/msgs-Tapes-Overview.xsl" html="/msgs/msgsTapeOverview.html">
+			<title>Tape Book Overviews</title>
+		</page>
+		<page datafile="/msgs-categories.xml" style="/msgs-Tapes-categories.xsl" html="/msgs/msgsTapeArchive.html">
+			<title>Tape Categories</title>
+		</page>
+		<page datafile="/msgs.xml" style="/msgs-Tapes-BookStudies.xsl" html="/msgs/msgsTapeBookStudies.html">
+			<title>Tape Book Studies</title>
+		</page>
+		<page datafile="/msgs.xml" style="/msgs-Tapes-TopicalSeries.xsl" html="/msgs/msgsTapeTopicalSeries.html">
+			<title>Tape Topical Studies</title>
+		</page>
+		<page datafile="/msgs.xml" style="/msgs-Tapes-InDepth.xsl" html="/msgs/msgsTapeInDepth.html">
+			<title>Tape Book In-Depth Studies</title>
+		</page>
+		<page datafile="/msgs.xml" style="/msgs-Tapes-Misc.xsl" html="/msgs/msgsTapeMisc.html">
+			<title>Tape Misc Studies (guests, special messages)</title>
+		</page>
+	</section>
+	<section name="news" basedir="/news">
+		<title>Recent News</title>
+		<pageset match="**/*.xml" style="/news.xsl" out="/news">
+		</pageset>
+	</section>
+	<section name="staff" basedir="/staff">
+		<title>Calvary Austin Staff</title>
+		<page datafile="/servants.xml" style="/gen-staff.xsl" tempout="/staff/_staff.xml" hidden="true">
+			<title>Generates staff members from the list of servants</title>
+		</page>
+		<page tempin="/_staff.xml" style="/staff.xsl" html="/about/staff.html">
+			<title>Calvary Austin Staff Overview</title>
+		</page>
+	</section>
+</website>

@@ -8,7 +8,7 @@
 	
 	allen-bio.xml - the biography for Pastor Allen
 	
-	$Id: servants.xml,v 1.1 2002/04/13 21:57:57 javajames27 Exp $
+	$Id: servants.xml,v 1.2 2002/05/27 18:35:20 javajames27 Exp $
 		
 -->
 <content title="Servants" base=".">
@@ -37,7 +37,7 @@
 		<thumbnail href="../images/staff/donnathum.jpg"/>
 		<small-photo href="../images/staff/donnaweb.jpg"/>
 		<large-photo href="../images/staff/donnaweb.jpg"/>
-		<role staff="true" ministry="ydc" title="Children's Ministry Director"/>
+		<role staff="true" ministry="children" title="Children's Ministry Director"/>
 	</servant>
 	<servant id="david">
 		<fullname>David Reynolds</fullname>
@@ -64,7 +64,7 @@
 		<thumbnail href="../images/staff/johnthum.jpg"/>
 		<small-photo href="../images/staff/johnweb.jpg"/>
 		<large-photo href="../images/staff/johnweb.jpg"/>
-		<role staff="true" ministry="youth" title="High School Pastor"/>
+		<role staff="true" ministry="youth" title="Youth Pastor"/>
 	</servant>
 	<servant id="glendon">
 		<fullname>Glendon Nicks</fullname>

@@ -18,10 +18,12 @@
 	<property name="build.dir" value="${home}/build"/>
 	<property name="build.web.dir" value="${build.dir}/docs"/>
 	<property name="build.tmpgen.dir" value="${build.dir}/_tmpgen"/>
+	<property name="autogen.build.web" value="${src.xml.dir}/autogen-build.xml"/>
 	<!-- Give user a chance to override without editing this file 
        (and without typing -D each time it compiles it -->
 	<property file="${home}/.ant.properties"/>
 	<property file="${user.home}/.ant.properties"/>
+
 	<!-- =================================================================== -->
 	<!-- Clean Target                                                        -->
 	<!-- =================================================================== -->
@@ -30,14 +32,19 @@
 		<delete dir="${build.dir}"/>
 		<delete dir="${build.tmpgen.dir}"/>
 	</target>
-	<!-- =================================================================== -->
-	<!-- =================================================================== -->
+
 	<!-- =================================================================== -->
 	<!-- Check Options Target                                                -->
 	<!-- =================================================================== -->
-	<target name="checkoptions" description="Performs pre-processing checks for environment."/>
+	<target name="checkoptions" depends="autogen-build" description="Performs pre-processing checks for environment."/>
+
 	<!-- =================================================================== -->
+	<!-- Auto gen build Target                                                -->
 	<!-- =================================================================== -->
+	<target name="autogen-build" description="Generates the part of the build based on the sitemap.xml file">
+           <style style="${src.xml.dir}/sitemap-build.xsl" in="${src.xml.dir}/sitemap.xml" out="${autogen.build.web}"/> 
+	</target>
+
 	<!-- =================================================================== -->
 	<!-- Validate XML Target                                                -->
 	<!-- =================================================================== -->
@@ -46,21 +53,22 @@
         <fileset dir="${src.xml.dir}" includes="**/*.xml"/>  
     </xmlvalidate>
 	</target>
+
 	<!-- =================================================================== -->
+	<!-- Deploys the web site                                                -->
 	<!-- =================================================================== -->
+    <target name="deploy" depends="checkoptions" description="Deploys the docs to the deploy.dir location">
+      <copy todir="${deploy.dir}">
+	<fileset dir="${build.web.dir}"/>
+       </copy>
+    </target>
+
 	<!-- =================================================================== -->
 	<!-- Creates the web site                                                -->
 	<!-- =================================================================== -->
 	<target name="web" depends="checkoptions" description="Creates all HTML by calling web-xyz targets.">
 		<mkdir dir="${build.web.dir}"/>
-		<antcall target="web-about"/>
-		<antcall target="web-calendar"/>
-		<antcall target="web-messages"/>
-		<antcall target="web-ministries"/>
-		<antcall target="web-homepage"/>
-		<antcall target="web-articles"/>
-		<antcall target="web-news"/>
-		<antcall target="web-media"/>
+		<ant antfile="${autogen.build.web}" target="web"/>
 		<antcall target="copy-files"/>
 	</target>
 	
@@ -172,12 +180,4 @@
                 <style force="yes" style="${src.xml.dir}/staff/gen-staff.xsl" in="${src.xml.dir}/staff/servants.xml" out="${build.tmpgen.dir}/_staff.xml"/> 
                 <style force="yes" style="${src.xml.dir}/staff/staff.xsl" in="${build.tmpgen.dir}/_staff.xml" out="${build.web.dir}/about/staff.html"/> 
 	</target>
-	<!-- =================================================================== -->
-	<!-- =================================================================== -->
-    <target name="deploy" depends="checkoptions" description="Deploys the docs to the deploy.dir location">
-      <copy todir="${deploy.dir}">
-	<fileset dir="${build.web.dir}"/>
-       </copy>
-    </target>
-
 </project>
