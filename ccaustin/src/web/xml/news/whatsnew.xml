@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.67 2004/01/18 04:10:24 gregk Exp $
+	$Id: whatsnew.xml,v 1.68 2004/01/24 16:32:40 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -299,11 +299,23 @@
 		</news-item>
 		<news-item id="98" date="20040117" expires="20041011" showOnHomepage="true">
 			<title>Israel Trip</title>
-			<detail>The long anticipated tour of Israel is scheduled for October 11 - 21, 2004. Flyers now available at the Events Center. For more information contact Bunjee Garrett at Bunjee@calvaryaustin.org or 512-719-4467.</detail>
+			<detail>The long anticipated tour of Israel is scheduled for October 11 - 21, 2004. Flyers now available at the Events Center. For more information contact Bunjee Garrett at Bunjee@calvaryaustin.org or 719-4467.</detail>
 		</news-item>
 		<news-item id="99" date="20040117" expires="20040201" showOnHomepage="true">
 			<title>Volunteers Needed</title>
 			<detail>Share your clerical skills and meet new people! The church office needs friendly people to help answer the phones from 1:00PM to 5:00PM, Tuesday, Wednesday, Thursday, or Friday. Call the office for more information.</detail>
+		</news-item>
+		<news-item id="100" date="20040124" expires="20040208" showOnHomepage="true">
+			<title>Volunteer Opportunity</title>
+			<detail>Do you have a desire to see Christ and Calvary Chapel through coffee? Coffee Creator wants you. For more information, see Brooke Johnson at Coffee Creator or call her at 719-4544 or by email at coffeecreator@calvaryaustin.org </detail>
+		</news-item>
+		<news-item id="101" date="20040124" expires="20040208" showOnHomepage="true">
+			<title>The Cupboard</title>
+			<detail>Please do not bring candy, soda pop, cookware, clothing, or other similar items for the food pantry. We can only stock non-perishable food items in our limited space. Thank you for your faithfulness and generosity.</detail>
+		</news-item>
+		<news-item id="102" date="20040124" expires="20040212" showOnHomepage="false">
+			<title>Radio, TV and Internet</title>
+			<detail>Hear Pastor Allen on Calvary Continuum at NOON and 7:30PM on KIXL 970AM or watch our television program on cable access channel 11 Saturdays at NOON. Watch select services live on the internet or check out the audio archive on our web site.</detail>
 		</news-item>
   </news>
 </content>

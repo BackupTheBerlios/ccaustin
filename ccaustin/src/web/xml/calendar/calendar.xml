@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.99 2004/01/18 04:11:01 gregk Exp $
+	$Id: calendar.xml,v 1.100 2004/01/24 16:32:23 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -443,7 +443,7 @@ need for Praying Leaders.</detail>
     ===============
     -->
 <!--
-    <event id="05001" date="20040515" showOnHomepage="false">
+    <event id="05001" date="20040515" showOnHomepage="true">
 	 <title>Childrens' Ministry Training Saturday Morning</title>
 		<date>Jan 24 2004</date>
                 <detail>All people who serve the kids come out for a great time of fun, fellowhip and very important training to develop hands-on skills and get great ideas to enhance the classroom environment.</detail>
@@ -465,7 +465,7 @@ need for Praying Leaders.</detail>
     June 2004
     ===============
     -->
-    <event id="06001" date="20040621" showOnHomepage="false">
+    <event id="06001" date="20040621" showOnHomepage="true">
 	 <title>Vacation Bible Study</title>
 		<date>Jun 21-25</date>
                 <detail>Stay tuned for more details !!!.</detail>
