@@ -3,18 +3,34 @@
 
 	New Believer's Ministry - The ministry and its detail
 	
-	$Id: newbelievers.xml,v 1.2 2002/05/23 00:29:36 javajames27 Exp $
+	$Id: newbelievers.xml,v 1.3 2002/06/02 20:27:30 swearingen Exp $
 		
 -->
 <content title="New Believer's Ministry">
 	<ministry id="newbelievers">
 	  <name>New Believer's Ministry</name>
-	  <overview>Classes covers the basics of the Bible to applying the Bible to your daily Christian walk.</overview>
+	  <overview>The purpose of the New Believer's Ministry is to make disciples by
+                teaching students to observe all things Jesus has commanded us.
+                </overview>
 	  <long-description>
-	    <heading>Classes</heading>
-	    <p>Have you just come to know Christ. Or do you lack the basic skills for studying the Bible? New classes start every few months and 		last for twelve weeks. Classes covers the basics of the Bible to applying the Bible to your daily Christian walk.</p>
+	    <heading>Details</heading>
+        <p>
+        Want to grow in your understanding of basic Bible teachings?  Either for the
+        first time or to refresh your understanding of these fundamental truths?  Then a
+        New Believer's class may be just for you.  These 12-week classes are offered at
+        various times through out the year and are available for adults seeking to grow
+        in this way.
+        </p>
+        <p>
+        The New Believer's classes are opportunities for other like minded individuals and
+        provide an opportunity for fellowship.  Students in advance of class night spend
+        time in prayer and studying the Bible using curriculum provided by the instructor.
+        The <a href="http://www.calvarychapel.com/costamesa/newbelievers/study/index.htm">New Believer's curriculum</a> is based 
+        on materials provided by Calvary Chapel Costa Mesa.
+	    </p>
 	  </long-description>
 	  <contacts>
+        <contact-email email="craig.swearingen@netzero.net">Craig Swearingen</contact-email>
    	  </contacts>
 	</ministry>
 </content>
