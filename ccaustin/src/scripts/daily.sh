@@ -4,7 +4,7 @@
 # Performs a checkout/update of the latest code from the ccaustin module,
 # executes the build, and copies the results to /daily under the html root
 #
-
+echo Starting daily build at `date`
 export CVSROOT=javajames27@cvs.ccaustin.berlios.de:/cvsroot/ccaustin
 export CVS_RSH=ssh
 export PROJECT_ROOT=/home/users/javajames27
@@ -40,3 +40,4 @@ fi
 # Do the work
 ant web deploy
 
+echo Ending daily build at `date`
