@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.66 2004/01/10 13:47:12 gregk Exp $
+	$Id: whatsnew.xml,v 1.67 2004/01/18 04:10:24 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -293,5 +293,17 @@
 			<title>Super Duper Bowl</title>
 			<detail>Why go to Houston when you can play football right here. Come join us Saturday Jan 31 from 9-11am. Flyer with more information at the Events Center.</detail>
 	</news-item>
+		<news-item id="97" date="20040117" expires="20040326" showOnHomepage="true">
+			<title>Women's Retreat</title>
+			<detail>Registration for the 2004 Women's Retreat at Camp Balcones Springs begins January 25. Register early and receive a discount! Come by the Events Center for more information and to register.</detail>
+		</news-item>
+		<news-item id="98" date="20040117" expires="20041011" showOnHomepage="true">
+			<title>Israel Trip</title>
+			<detail>The long anticipated tour of Israel is scheduled for October 11 - 21, 2004. Flyers now available at the Events Center. For more information contact Bunjee Garrett at Bunjee@calvaryaustin.org or 512-719-4467.</detail>
+		</news-item>
+		<news-item id="99" date="20040117" expires="20040201" showOnHomepage="true">
+			<title>Volunteers Needed</title>
+			<detail>Share your clerical skills and meet new people! The church office needs friendly people to help answer the phones from 1:00PM to 5:00PM, Tuesday, Wednesday, Thursday, or Friday. Call the office for more information.</detail>
+		</news-item>
   </news>
 </content>

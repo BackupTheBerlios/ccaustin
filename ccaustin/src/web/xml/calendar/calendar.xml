@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.98 2004/01/10 14:09:58 gregk Exp $
+	$Id: calendar.xml,v 1.99 2004/01/18 04:11:01 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -429,7 +429,7 @@ need for Praying Leaders.</detail>
     Apr 2004
     ===============
     -->
-    <event id="04001" date="20040411" showOnHomepage="false">
+    <event id="04001" date="20040411" showOnHomepage="true">
 	 <title>Easter Sunday Calvary Kids</title>
 		<date>Apr 11</date>
                 <detail>Special program for each service at 9:30AM and 11:30AM.</detail>
@@ -452,7 +452,7 @@ need for Praying Leaders.</detail>
 		</ministries>
     </event>
 -->
-    <event id="05001" date="20040514" showOnHomepage="false">
+    <event id="05001" date="20040514" showOnHomepage="true">
 	 <title>Family Camp</title>
 	 <date>May 14-16</date>
                 <detail>"Family", meaning our Calvary Family. All are welcome! Registration begins today at the Events Center for a deposit on this great time of fellowship and fun at our 3rd annual Camp. The event is at Kerrville Schreiner State Park.  For more info, contact John Adams at 759.4433</detail>
@@ -467,7 +467,7 @@ need for Praying Leaders.</detail>
     -->
     <event id="06001" date="20040621" showOnHomepage="false">
 	 <title>Vacation Bible Study</title>
-		<date>Jun 21 - 25</date>
+		<date>Jun 21-25</date>
                 <detail>Stay tuned for more details !!!.</detail>
 		<ministries>
 			<ministry id="children"/>
@@ -478,5 +478,24 @@ need for Praying Leaders.</detail>
     July 2004
     ===============
     -->
+		<!--
+    ===============
+    August 2004
+    ===============
+    -->
+		<!--
+    ===============
+    September 2004
+    ===============
+    -->
+		<!--
+    ===============
+    Oct 2004
+    ===============
+    -->
+    <event id="10001" date="20041011" showOnHomepage="true">
+	 <title>Israel Trip</title>
+		<date>Oct 11-21</date>
+    </event>
 	</calendar>
 </content>
