@@ -11,6 +11,8 @@ pre	{ FONT-FAMILY: "Courier New", Courier, mono }
 .textemphasis {  font-style: italic}
 .textbold {  font-weight: bold}
 .readmore {  font-size: 85% }
+.subtext{  font-size: 55% }
+.sidetext{  font-size: 75% }
 
 .title {  font-weight: bold}
 .heading {  font-weight: bold; font-size: 105% }

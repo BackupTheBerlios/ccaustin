@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Calvary Live
+	
+	$Id: live.xml,v 1.1 2002/04/10 01:46:26 javajames27 Exp $
+		
+-->
+<content title="Calvary Live" base=".">
+
+	<welcome>
+		<p>Join us every Sunday morning and Wednesday evening for our live webcast. You may watch, using RealVideo®, during the times 	listed below. Be sure to pick up a copy (by clicking on the icon below) of the RealPlayer; it's way cool! When you're ready to go, click on the 	Live button below to join us at our home in Austin, Texas.</p>
+	
+	 	<p>We are encountering problems with providing the live Webcast services. Please pray and bear with us as we attempt to solve this 	problem. </p>
+	
+		<subtext>Our RealVideo is a G2 stream. This means that you need a recent version of the RealPlayer, and that you can watch over a 	28K modem, 56K modem, or cable modem or DSL connection. </subtext>
+	
+	</welcome>
+	
+	 <broadcasts>
+	 	<broadcast>Sunday, 11:30 AM CDT</broadcast>
+	 	<broadcast>Wednesday, 7:00 PM CDT</broadcast>
+		     <sidetext>Note that this link is only active during the live webcast. During non-service times the RealPlayer will report an error.</sidetext>
+	 </broadcasts>
+	
+     <video-archives>
+		<p>If you've missed the live webcast you can view recent services here. We archive the 2 most recent Sunday and Wednesday 	RealVideos; click on one of the links below to watch.</p>
+	</video-archives>
+	
+	<broadcast-archive>
+	 	<broadcast href="http://www.calvarychapel.org/austin/video/sunday.ram">Most recent Sunday</broadcast>
+	 	<broadcast href="http://www.calvarychapel.org/austin/video/sundaylast.ram">Sunday 2 weeks ago</broadcast>
+	 	<broadcast href="http://www.calvarychapel.org/austin/video/wednesday.ram">Most recent Wednesday</broadcast>
+	 	<broadcast href="http://www.calvarychapel.org/austin/video/wednesdaylast.ram">Wednesday 2 weeks ago</broadcast>
+	</broadcast-archive>
+	
+	<audio-archives>
+		<p>A large number of the messages are available in Real Audio® format. Visit the <link href="../msgs/msgsAudioArchive.html">Audio Archives</link> for a list of available messages.</p>
+	</audio-archives>
+	
+</content>
