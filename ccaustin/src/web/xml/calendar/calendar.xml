@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.93 2004/01/04 05:42:35 gregk Exp $
+	$Id: calendar.xml,v 1.94 2004/01/04 05:47:41 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -408,6 +408,7 @@ need for Praying Leaders.</detail>
     -->
     <event id="02001" date="20040101" showOnHomepage="true">
 	<title>Worship Life '04</title>
+	<date>Feb 1</date>
 	<detail>Mid-South Worhip Conference will be held at Calvary Chapel Austin on Feb 26-28. More information and registration at the Events Center.</detail>
     </event>
 		<!--
@@ -423,7 +424,7 @@ need for Praying Leaders.</detail>
     -->
     <event id="04001" date="20040411" showOnHomepage="false">
 	 <title>Easter Sunday Calvary Kids</title>
-		<date>Apr 11 2004</date>
+		<date>Apr 11</date>
                 <detail>Special program for each service at 9:30AM and 11:30AM.</detail>
 		<ministries>
 			<ministry id="children"/>
@@ -446,7 +447,7 @@ need for Praying Leaders.</detail>
 -->
     <event id="05001" date="20040514" showOnHomepage="true">
 	 <title>Family Camp</title>
-	 <date>May 14-16, 2004</date>
+	 <date>May 14-16</date>
                 <detail>"Family", meaning our Calvary Family. All are welcome! Registration begins today at the Events Center for a deposit on this great time of fellowship and fun at our 3rd annual Camp. The event is at Kerrville Schreiner State Park.  For more info, contact John Adams at 759.4433</detail>
 		<ministries>
 			<ministry id="children"/>
@@ -459,7 +460,7 @@ need for Praying Leaders.</detail>
     -->
     <event id="06001" date="20040621" showOnHomepage="false">
 	 <title>Vacation Bible Study</title>
-		<date>Jun 21 - 25 2004</date>
+		<date>Jun 21 - 25</date>
                 <detail>Stay tuned for more details !!!.</detail>
 		<ministries>
 			<ministry id="children"/>
