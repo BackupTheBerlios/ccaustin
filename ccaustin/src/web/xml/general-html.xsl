@@ -14,7 +14,7 @@
 	When a new tag is needed, consider using its HTML equivalent if its name and format is common english. 
 	(e.g. <a/> is not really anything meaningful for the average person, but <link/> is)
 	
-	$Id: general-html.xsl,v 1.13 2002/08/27 23:13:40 javajames27 Exp $
+	$Id: general-html.xsl,v 1.14 2002/10/01 03:10:00 javajames27 Exp $
 -->
 
 
@@ -383,8 +383,8 @@
 -->
 <xsl:template match="list">
 	 <xsl:choose>
-	     <xsl:when test="@ordered = 'true' "><xsl:element name="ol"><xsl:apply-templates select="item"/></xsl:element></xsl:when>
-	     <xsl:otherwise><xsl:element name="ul"><xsl:apply-templates select="item"/></xsl:element></xsl:otherwise>
+	     <xsl:when test="@ordered = 'true' "><xsl:element name="ol"><xsl:if test="@letter = 'true'"><xsl:attribute name="type">A</xsl:attribute></xsl:if><xsl:apply-templates select="item"/></xsl:element></xsl:when>
+	     <xsl:otherwise><xsl:element name="ul"><xsl:if test="@letter = 'true'"><xsl:attribute name="type">A</xsl:attribute></xsl:if><xsl:apply-templates select="item"/></xsl:element></xsl:otherwise>
       </xsl:choose>
 </xsl:template>
 
