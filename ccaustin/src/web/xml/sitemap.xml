@@ -6,7 +6,7 @@
         The sitemap contains the structure of the entire web site, and is used to drive
         the auto-generated scripts for generating the web site HTML from XML.
         
-        $Id: sitemap.xml,v 1.56 2004/06/09 18:45:46 javajames27 Exp $
+        $Id: sitemap.xml,v 1.57 2004/06/19 18:06:15 javajames27 Exp $
         
         hidden="true" prevents the page from showing on the sitemap.
         
@@ -972,6 +972,7 @@
       <description>Calvary Kids Home</description>
     </page>
   </section>
+  <!--
   <section name="BuildingMo" basedir="/buildingmomentum">
     <title>Building Momentum</title>
     <description>Building Momentum Page</description>
@@ -984,5 +985,6 @@
       <description>Learn more about Building Momentum</description>
     </page>
   </section>
+  -->
 
 </website>
