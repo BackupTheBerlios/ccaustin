@@ -9410,5 +9410,13 @@
 		<tape>GS102603</tape>
 		<audio>guestspeaker/aneillie1003.ram</audio>
 		<passageref></passageref>
-	</message>                                         
+	</message> 
+	<message date="20031102" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>Living Generously - Part III</title>
+		<passage>Luke 12:35-48</passage>
+		<tape>BS110203</tape>
+		<audio>42-luk/42-luk-12-35.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk012.html#top</passageref>
+	</message>                                        
 </messagecatalog>
