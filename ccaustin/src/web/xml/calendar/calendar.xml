@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.23 2002/12/16 17:00:31 javajames27 Exp $
+	$Id: calendar.xml,v 1.24 2002/12/17 16:23:17 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -296,6 +296,7 @@
 				<ministry id="coffee"/>
 			</ministries>
 		</event>
+    <!--
 		<event id="12010" date="20021218" showOnHomepage="true">
 			<title>Live Music - Juan Gutierrez</title>
 			<date>Dec 18th</date>
@@ -312,6 +313,16 @@
 				<ministry id="church"/>
 			</ministries>
 		</event>
+    -->
+		<event id="12012" date="20021231" showOnHomepage="true">
+			<title>Holiday Events</title>
+			<date>Throughout December</date>
+			<detail>Find out what events Calvary Austin has in store for the holiday
+			season! <link href="../events/holiday2002.html">Learn more</link>...</detail>
+			<ministries>
+				<ministry id="church"/>
+			</ministries>
+		</event>
 		<event id="12011" date="20021228" showOnHomepage="true">
 			<title>Live Music - Kevin Gathright</title>
 			<date>Dec 28th</date>
@@ -320,6 +331,7 @@
 				<ministry id="coffee"/>
 			</ministries>
 		</event>
+    <!--
 		<event id="12002" date="20021231" showOnHomepage="true">
 			<title>New Year's Eve Service</title>
 			<date>December 31st</date>
@@ -328,6 +340,7 @@
 				<ministry id="church"/>
 			</ministries>
 		</event>
+    -->
 		<!--
 	===============
 		Coming Soon
