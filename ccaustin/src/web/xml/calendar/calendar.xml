@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.119 2004/06/05 19:42:16 tie Exp $
+	$Id: calendar.xml,v 1.120 2004/06/19 11:42:55 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -627,7 +627,7 @@ and to register visit the Events Center.</detail>
 		<date>Oct 11-22</date>
                 <detail>The Israel tour is scheduled for Oct. 11 - Oct. 22, 2004. For more information, stop by the Events Center.</detail>
     </event>
-    <event id="10003" date="20041015" showOnHomepage="false">
+    <event id="10002" date="20041015" showOnHomepage="false">
 	 <title>Men's Retreat</title>
 		<date>Oct 15-16</date>
 		<detail>The Men's Retreat with Pastor Art Murillo will be at Camp Tejas. To sign up and for more information, stop by the Events Center.</detail>
