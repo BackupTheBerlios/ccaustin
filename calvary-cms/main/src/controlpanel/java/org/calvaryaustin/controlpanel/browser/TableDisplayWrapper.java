@@ -37,11 +37,14 @@ public class TableDisplayWrapper extends TableDecorator
 		{
 			imageUrl += FOLDER_ICON;
 		} 
-		else
-		{
-			imageUrl += DOCUMENT_ICON;
-			// TODO: Link in locked document icon 
-		}
+        else if( node.getIsLocked() )
+        {
+            imageUrl += LOCKED_DOCUMENT_ICON;
+        }
+        else 
+        {
+            imageUrl += DOCUMENT_ICON;
+        }
 		return "<img src='"+imageUrl+"'/>";
 	}
 	
@@ -85,7 +88,8 @@ public class TableDisplayWrapper extends TableDecorator
 	
 	public static final String SITE_ICON = "/images/icons/sites-closed1.gif";
 	public static final String FOLDER_ICON = "/images/icons/folder2.gif";
-	public static final String DOCUMENT_ICON = "/images/icons/doc2.gif";
+    public static final String DOCUMENT_ICON = "/images/icons/doc2.gif";
+    public static final String LOCKED_DOCUMENT_ICON = "/images/icons/doc-locked.gif";
 	
 	private String contextPath;
 }

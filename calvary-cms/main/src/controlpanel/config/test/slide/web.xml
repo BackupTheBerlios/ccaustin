@@ -165,10 +165,10 @@
         <servlet-name>webdav</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
-    <!-- Set the default session timeout (in seconds) -->
+    <!-- Set the default session timeout (in seconds) 
     <session-config>
         <session-timeout>30</session-timeout>
-    </session-config>
+    </session-config>-->
     <!-- Establish the default MIME type mappings -->
     <mime-mapping>
         <extension>txt</extension>

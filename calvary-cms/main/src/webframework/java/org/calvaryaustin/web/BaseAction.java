@@ -92,7 +92,7 @@ import org.apache.commons.logging.LogFactory;
  * proper state.
  * </p>
  * @author jhigginbotham
- * @version $Revision: 1.1 $
+ * @version $Revision: 1.2 $
  */
 abstract public class BaseAction extends Action
 {
@@ -129,13 +129,8 @@ abstract public class BaseAction extends Action
 
     ActionForward forward = null;
 
-    UserRequest request = new UserRequest();
-
-    //      request.servlet_ = this;
-    request.mapping_ = mapping;
-    request.form_ = form;
-    request.request_ = req;
-    request.response_ = res;
+    UserRequest request = createUserRequest();
+    populateUserRequest(mapping, form, req, res, request);
 
     log.debug( "invoking subclass handleRequest()" );
 
@@ -154,6 +149,30 @@ abstract public class BaseAction extends Action
 
     return forward;
   }
+
+	/**
+	 * Fills in a new UserRequest with the values from the current request. Allows
+	 * subclasses to override and fill in their custom fields. Subclasses MUST call 
+	 * super.populateUserRequest(...) to properly init the request.
+     * @param servlet The ActionServlet making this request
+     * @param mapping The ActionMapping used to select this instance
+     * @param actionForm The optional ActionForm bean for this request (if any)
+     * @param request The HTTP request we are processing
+     * @param response The HTTP response we are creating
+	 * @param request The UserRequest to populate
+	 */
+	protected void populateUserRequest( ActionMapping mapping,
+  									      ActionForm form,
+										  HttpServletRequest req,
+										  HttpServletResponse res,
+										  UserRequest request)
+	{
+	    //      request.servlet_ = this;
+	    request.mapping_ = mapping;
+	    request.form_ = form;
+	    request.request_ = req;
+	    request.response_ = res;
+	}
 
 
   /**
@@ -263,7 +282,7 @@ abstract public class BaseAction extends Action
    * @see com.betweenmarkets.web.UserRequest#getErrors
    * @param userRequest The action to delegate the saveErrors call to
    */
-  public void saveErrors( UserRequest userRequest )
+  protected void saveErrors( UserRequest userRequest )
   {
     saveErrors( userRequest.getRequest(), userRequest.getErrors() );
   }
@@ -274,9 +293,18 @@ abstract public class BaseAction extends Action
    * @see com.betweenmarkets.web.UserRequest#getErrors
    * @param userRequest The action to delegate the saveErrors call to
    */
-  public void saveErrors( UserRequest userRequest, ActionErrors errors )
+  protected void saveErrors( UserRequest userRequest, ActionErrors errors )
   {
     saveErrors( userRequest.getRequest(), errors );
+  }
+
+  /**
+   * Creates a UserRequest - allows for subclasses to return a custom subclass
+   * @return a new UserRequest
+   */
+  protected UserRequest createUserRequest()
+  {
+      return new UserRequest();
   }
 
   /** reference to a logger that is setup during construction for this

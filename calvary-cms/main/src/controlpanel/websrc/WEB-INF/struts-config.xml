@@ -15,14 +15,17 @@
     <form-bean name="users"
                type="org.calvaryaustin.controlpanel.users.UsersForm"/>
     
-    <form-bean name="locks"
-               type="org.calvaryaustin.controlpanel.locks.LocksForm"/>
+    <form-bean name="lock"
+               type="org.calvaryaustin.controlpanel.locks.LockForm"/>
     
     <form-bean name="browser"
                type="org.calvaryaustin.controlpanel.browser.BrowserForm"/>
     
     <form-bean name="viewer"
                type="org.calvaryaustin.controlpanel.viewer.ViewerForm"/>
+    
+    <form-bean name="editor"
+               type="org.calvaryaustin.controlpanel.editor.EditorForm"/>
     
   </form-beans>
   
@@ -37,8 +40,8 @@
     <forward name="removeUsers"
              path="/removeUsers.do"/>
   
-    <forward name="killLocks"
-             path="/killLocks.do"/>
+    <forward name="killLock"
+             path="/killLock.do"/>
   
   </global-forwards>
   
@@ -100,12 +103,12 @@
                path="/editUser.jsp"/>
     </action>
     
-    <action path="/killLocks" 
-            type="org.calvaryaustin.controlpanel.locks.KillLocksAction"
-            name="locks"
+    <action path="/killLock" 
+            type="org.calvaryaustin.controlpanel.locks.KillLockAction"
+            name="lock"
             scope="request"
-            input="/locks.jsp">
-      <forward name="killLocks.success"
+            input="killLock">
+      <forward name="killLock.success"
                path="/locks.jsp"
                redirect="true"/>
       <forward name="killLocks.failure"
@@ -125,9 +128,20 @@
             type="org.calvaryaustin.controlpanel.viewer.ViewerAction"
             name="viewer"
             scope="request"
-            input="browser">
-      <forward name="viewer.success"
-               path="viewer"/>
+            input="viewer.summary">
+      <forward name="viewer.summary"
+               path="viewer.Summary"/>
+      <forward name="viewer.viewRev"
+               path="viewer.Rev"/>
+    </action>
+    
+    <action path="/editor" 
+            type="org.calvaryaustin.controlpanel.editor.EditorAction"
+            name="editor"
+            scope="request"
+            input="editor.default">
+      <forward name="editor.default"
+               path="editor.default"/>
     </action>
     
   </action-mappings>

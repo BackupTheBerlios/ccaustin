@@ -317,3 +317,16 @@ td.browserTableCell {
   font-size: small;
   vertical-align: middle;
 }
+
+.tableTitle {
+  font-size: medium;
+}
+
+.viewerName {
+  font-size: medium;
+}
+
+pre.viewerName {
+  font-size: x-small;
+}
+

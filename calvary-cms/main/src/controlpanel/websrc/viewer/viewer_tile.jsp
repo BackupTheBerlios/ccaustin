@@ -6,24 +6,24 @@
 <%@ taglib uri="/WEB-INF/slide-struts.tld"     prefix="slide" %>
 <%@ taglib uri="/WEB-INF/display.tld"          prefix="display" %>
 <%@ taglib uri="/WEB-INF/calvary.tld"          prefix="calvary" %>
-<p>URI=<bean:write name='viewer' property='computedUri'/></p>
 <p>
 	<slide:node id="node" uriName='viewer' uriProperty='computedUri' resolveLinks='true'>
-		<p>Name: <bean:write name='node' property='name'/></p>
-		<p>Type: <bean:write name='node' property='type'/></p>
-		<p>Versioned? <bean:write name='node' property='isVersioned'/></p>
-		<p>Locked? <bean:write name='node' property='isLocked'/></p>
-		<p>Locks</p>
-		<display:table width='95%' name='node' property='locks'>
-		  <display:column property="subjectUri"/>
-		  <display:column property="expirationDate"/>
-		  <display:column property="isExclusive"/>
-		  <display:column property="isShared"/>
+		<p class="viewerName"><bean:write name='node' property='name'/></p>
+		<p class="tableTitle">Locks</p>
+		<display:table width='95%' name='node' property='locks'
+			      decorator='org.calvaryaustin.controlpanel.viewer.TableDisplayWrapper'>
+		  <display:column property="subjectUri" title="Owner"/>
+		  <display:column property="expirationDate" title="Expires"/>
+		  <display:column property="lockType" title="Lock Type"/>
+		  <display:column property="typeUri" title="Lock URI"/>
+		  <display:column property="lockActions" title=""/>
 		</display:table>
-		<p>Revisions</p>
-		<display:table width='95%' name='node' property='revisions'>
-		  <display:column property="number"/>
-		  <display:column property="branch"/>
+		<p class="tableTitle">Revisions</p>
+		<display:table width='95%' name='node' property='revisions'
+			      decorator='org.calvaryaustin.controlpanel.viewer.TableDisplayWrapper'>
+		  <display:column property="linkedNumber" title="Version" width="25%"/>
+		  <display:column property="branch" width="25%"/>
+		  <display:column property="viewActions" title="Actions" width="50%"/>
 		</display:table>
 	</slide:node>	
 </p>

@@ -25,13 +25,28 @@
     <put name="body" value="/browser/browser_tile.jsp"/>
   </definition>
   
-  <definition name="viewer" extends="masterlayout">
+  <definition name="viewer.Summary" extends="masterlayout">
     <put name="title" value="Control Panel Viewer"/>
     <put name="body" value="/viewer/viewer_tile.jsp"/>
   </definition>
   
+  <definition name="viewer.Rev" extends="masterlayout">
+    <put name="title" value="Control Panel Viewer"/>
+    <put name="body" value="/viewer/viewerRev_tile.jsp"/>
+  </definition>
+  
+  <definition name="editor.default" extends="masterlayout">
+    <put name="title" value="Control Panel Editor"/>
+    <put name="body" value="/editor/editorDefault_tile.jsp"/>
+  </definition>
+  
   <definition name="viewLocks" extends="masterlayout">
     <put name="title" value="Manage Locks"/>
+    <put name="body" value="/locks/locks_tile.jsp"/>
+  </definition>
+
+  <definition name="killLock" extends="masterlayout">
+    <put name="title" value="Kill Lock"/>
     <put name="body" value="/locks/locks_tile.jsp"/>
   </definition>
 
