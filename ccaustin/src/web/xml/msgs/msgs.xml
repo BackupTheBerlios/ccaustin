@@ -9316,12 +9316,20 @@
 		<audio>42-luk/42-luk-11-02.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk011.html#top</passageref>
 	</message> 
-	<message date="20030907" service="sunday" category="book studies">
+	<message date="20030914" service="sunday" category="book studies">
 		<seriestitle>Luke</seriestitle>
 		<title>Connecting with God - Part III</title>
 		<passage>Luke 11:3-4</passage>
 		<tape>BS091403</tape>
 		<audio>42-luk/42-luk-11-03.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk011.html#top</passageref>
-	</message>   
+	</message>
+	<message date="20030921" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>Connecting with God - Part III</title>V
+		<passage>Luke 11:5-13</passage>
+		<tape>BS092103</tape>
+		<audio>42-luk/42-luk-11-05.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk011.html#top</passageref>
+	</message>      
 </messagecatalog>
