@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Around Town Page Content
+	
+	$Id: aroundtown.xml,v 1.1 2002/09/30 21:33:41 javajames27 Exp $
+		
+-->
+<content title="Around Town">
+	<heading>Traveling to Austin for a Conference or Family?</heading>
+	<subheading>Restaurants</subheading>
+	<p>There are a number of restaurants within a few miles of Calvary Austin. Here are just a few of the many choices:</p>
+	 <p>
+             1.Bennigan's (512-451-7953) 7604 N. IH-35 <br/>
+             2.Ninfa's (512-832-1833) 214 E. Anderson Ln. <br/>
+             3.Denny's (512-453-3617) 7100 N. IH-35 <br/>
+             4.Chili's Grill (512-454-8747) 7629 N. IH-35 <br/>
+             5.I-HOP (512-452-2253) 8702 Research Blvd. (Hwy 183) <br/>
+             6.Pappasitos and Pappadeaux (512-452-9363) 6319 N. IH-35 <br/>
+             7.Olive Garden (512-459-0701) 8833 Burnet Rd. <br/>
+             8.Lone Star Cafe (512-451-9675) 9070 Research Blvd.<br/> 
+             9.Chuy's (512-836-3218) 10520 N. Lamar Blvd. 
+	 </p>
+	<p>
+		<img src="../images/mwcrestaurant.jpg"/>
+	</p> 
+	<subheading>Hotels</subheading>
+	<p>There are a number of hotels within a few miles of Calvary Austin. Here are just a few of the many choices: </p>
+	<p>
+             A.Best Western Atrium North (512-339-7311) 7928 Gessner Drive, 1 block west of US 183 and IH-35 <br/>
+             B.Budget Inn (512-837-7900) 9016 N. IH-35 <br/>
+             C.Courtyard by Marriott (512-458-2340) 5660 N. IH-35 <br/>
+             D.Doubletree Austin (512-454-3737) 6505 N. IH-35 <br/>
+             E.Drury Inn and Suites North (512-467-9500) IH-35 and St. Johns <br/>
+             F.Embassy Suites (512-454-1386) 5901 N. IH-35 <br/>
+             G.La Quinta Inn North (512-452-9401) 7100 North IH-35<br/> 
+             H.Red Lion Austin (512-323-5466) 6121 North IH-35 <br/>
+             I.Red Roof Inn North (512-835-2200) 8210 North IH-35 <br/>
+	</p>
+</content>
