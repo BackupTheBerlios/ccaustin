@@ -3565,9 +3565,17 @@
 		<seriestitle>Philippians</seriestitle>
 		<title></title>
 		<passage>Philippians 2</passage>
-		<tape>BO1335</tape>
+		<tape>BO1336</tape>
 		<audio>bibleoverview/50-phi-02.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Phl/Phl002.html#top</passageref>
+	</message>
+	<message date="20031203" service="midweek" category="overview">
+		<seriestitle>Philippians</seriestitle>
+		<title></title>
+		<passage>Philippians 3-4</passage>
+		<tape>BO1337</tape>
+		<audio>bibleoverview/50-phi-03.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Phl/Phl003.html#top</passageref>
 	</message>
 
     	<message date="19940522" service="sunday" category="topical series">
