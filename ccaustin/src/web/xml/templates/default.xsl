@@ -7,7 +7,7 @@
  Other variants of this file may offer more search engine or accessibility-friendly
  navigation and less Javascript features for older browsers. 
  
- $Id: default.xsl,v 1.2 2003/01/24 23:37:20 javajames27 Exp $
+ $Id: default.xsl,v 1.3 2003/05/12 23:50:58 javajames27 Exp $
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
  <xsl:output method="html" indent="yes"/>
@@ -30,13 +30,13 @@
     </title>
     <link REL="STYLESHEET" href="../css/ca.css"/>
     <meta content="text/html" http-equiv="Content-Type"/>
-    <script language="JavaScript1.2" src="../js/mm_menu.js"/>
-    <script language="JavaScript1.2" src="../js/main_menu.js"/>
-    <script language="JavaScript1.2" src="../js/win.js"/>
     <xsl:apply-templates select="content/script"/>
     <!-- allow our pages to include custom scripting -->
    </head>
    <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#2544a9" bgcolor="#FFFFFF">
+    <script language="JavaScript1.2" src="../js/mm_menu.js"/>
+    <script language="JavaScript1.2" src="../js/main_menu.js"/>
+    <script language="JavaScript1.2" src="../js/win.js"/>
     <script language="JavaScript1.2">mmLoadMenus();</script>
     <xsl:if test="content/@onUnload != '' ">
      <xsl:attribute name="onUnload"><xsl:value-of select="content/@onUnload"/></xsl:attribute>
