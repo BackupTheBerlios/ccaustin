@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.10 2002/08/18 14:13:41 javajames27 Exp $
+	$Id: calendar.xml,v 1.11 2002/08/24 15:35:27 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -62,7 +62,7 @@
       </ministries>
     </event>
 
-    <event id="08003" date="20020830" showOnHomepage="true">
+    <event id="08003" date="20020826" showOnHomepage="true">
       <title>Marriage Ministry Fall Group Meeting Registration</title>
       <date>August 4 - 25</date>
       <detail>Ministry Fall group meetings will start Sep 13 and last 6 to 7 weeks.  Meetings will
@@ -99,7 +99,7 @@
 
 <!--
 	===============
-			Sept
+	Sept
 	===============
 -->		
     <event id="09001" date="20020914">
@@ -113,6 +113,15 @@
       </ministries>
     </event>
 
+    <event id="09002" date="20020908" showOnHomepage="true">
+      <title>Mexico Mission Trip</title>
+      <date>Sept 6-8</date>
+      <detail>Partner with Calvary Chapel Rio Grande Valley and minister to a women's
+      shelter/orphanage in Ejido Sandoval.  Sign up  and get a needs list at the Events Center.
+      Anyone may drop off beans, rice and flour at the church office to stock the shelters
+      pantry.</detail>   
+    </event>
+    
 <!--
 	===============
 			Oct
@@ -132,10 +141,10 @@
 			Nov
 	===============
 -->		
-    <event id="10001" date="20021016">
+    <event id="10001" date="20021016" showOnHomepage="true">
       <title>Men's Retreat</title>
       <date>Nov 14-16</date>
-      <detail>More details to come...</detail>   
+      <detail>Registrations start next Sunday, Sept 1 for the Nov 14-16 retreat at T-Bar-M Ranch in San Marcos.  The main speaker will be Malcolm Wild from Calvary Chapel Merritt Island.  Men mark your calendars and sign up next week at the Events Center.</detail>   
       <ministries>
 	<ministry id="men"/>
       </ministries>

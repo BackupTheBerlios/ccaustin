@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.5 2002/08/17 17:00:16 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.6 2002/08/24 15:35:27 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -51,13 +51,13 @@
     </news-item>
 
 
-    <news-item id="4" date="20020930" expires="20020930" showOnHomepage="true">
+    <news-item id="6" date="20020907" expires="20020907" showOnHomepage="true">
       <logo align="left" img ="../images/homepage/nothing.gif"/>
-      <title>Women's Morning and Evening Bible Study</title>
-      <date>Starts Tuesday, Sept 17</date>
-      <detail>The Women's bible study starts up again this fall. For more information, visit their
-      <link href="../ministries/women.html">ministry home page</link>.</detail>   
+      <title>Choir Auditions</title>
+      <date>Saturday, Sept 7</date>
+      <detail>We will be holding auditions again for our new <link href="../ministries/worship.html">Worship Community</link>.  This is a contemporary choir that will participate in select Sunday services as well as special events.  Please contact the church office to set up an interview and audition time.  </detail>   
     </news-item>
+    
     
     <news-item id="5" date="20020930" expires="20020930" showOnHomepage="true">
       <logo align="left" img ="../images/homepage/nothing.gif"/>
@@ -65,13 +65,15 @@
       <date>Starts Tuesday evening, Sep 10</date>
       <detail>Mark your calendars!  Bible study material will be available soon at the Events Center.  Contact <link href="mailto:andrew_berke@hotmail.com">Andy Berke</link> for more information.</detail>   
     </news-item>
-    
-    <news-item id="6" date="20020907" expires="20020907" showOnHomepage="true">
+
+    <news-item id="4" date="20020930" expires="20020930" showOnHomepage="true">
       <logo align="left" img ="../images/homepage/nothing.gif"/>
-      <title>Choir Auditions</title>
-      <date>Saturday, Sept 7</date>
-      <detail>We will be holding auditions again for our new <link href="../ministries/worship.html">Worship Community</link>.  This is a contemporary choir that will participate in select Sunday services as well as special events.  Please contact the church office to set up an interview and audition time.  </detail>   
+      <title>Women's Morning and Evening Bible Study</title>
+      <date>Starts Tuesday, Sept 17</date>
+      <detail>The Women's bible study starts up again this fall. For more information, visit their
+      <link href="../ministries/women.html">ministry home page</link>.</detail>   
     </news-item>
+
     
   </news>
 </content>
