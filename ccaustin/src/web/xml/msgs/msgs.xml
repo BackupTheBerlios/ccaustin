@@ -3088,6 +3088,14 @@
 		<audio>bibleoverview/43-joh-20.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn020.html#top</passageref>
 	</message>
+	<message date="20020529" service="midweek" category="overview">
+		<seriestitle>Acts</seriestitle>
+		<title></title>
+		<passage>Acts 1-2</passage>
+		<tape>B01284</tape>
+		<audio>bibleoverview/44-act-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Act/Act020.html#top</passageref>
+	</message>
     <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
 		<title>The Big Question</title>
@@ -7927,5 +7935,13 @@
 		<tape>BS052602</tape>
 		<audio>49-eph/49-eph-02-11.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph001.html#top</passageref>
+	</message>
+	<message date="20020602" service="sunday" category="book studies">
+		<seriestitle>Ephesians</seriestitle>
+		<title>Why Church Matters</title>
+		<passage>Ephesians 3:1-13</passage>
+		<tape>BS060202</tape>
+		<audio>49-eph/49-eph-03-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph003.html#top</passageref>
 	</message>
 </messagecatalog>
