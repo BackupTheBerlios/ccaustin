@@ -8,7 +8,7 @@
 	
 	allen-bio.xml - the biography for Pastor Allen
 	
-	$Id: servants.xml,v 1.7 2004/07/12 02:34:28 premav Exp $
+	$Id: servants.xml,v 1.8 2004/07/12 13:29:10 tie Exp $
 		
 -->
 <content title="Servants" base=".">
@@ -136,9 +136,17 @@
 		<large-photo href="../images/staff/vanceweb.jpg"/>
 		<role ministry="church" title="Sound Ministry Leader"/>
 	</servant>
+	<servant id="debbie">
+		<fullname>Debbie Bryson</fullname>
+		<first-name>Debbie</first-name>
+		<last-name>Bryson</last-name>
+		<thumbnail href="../images/staff/soonthumb.jpg"/>
+		<small-photo href="../images/staff/soon.jpg"/>
+		<large-photo href="../images/staff/soon.jpg"/>
+		<role ministry="church" title="Coffee Creator"/>
+	</servant>
 </staffparttime>
 <elder>
-	<!--Debbie-Coffee Creator-->
 	<servant id="jason">
 		<fullname>Jason Moore</fullname>
 		<first-name>Jason</first-name>
