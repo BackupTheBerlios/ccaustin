@@ -3,7 +3,7 @@
 
         Internet Ministry - The ministry and its detail
         
-        $Id: internet.xml,v 1.9 2003/06/22 18:33:31 javajames27 Exp $
+        $Id: internet.xml,v 1.10 2004/02/09 14:41:21 javajames27 Exp $
                 
 -->
 <content title="Internet Ministry">
@@ -40,7 +40,7 @@
       <p>Pastor and Leader's Conference 2002 - <link href="../conferences/PastorConf2002-Internet.html">Internet Ministry Workshop</link></p>
     </long-description>
     <contacts>
-      <contact-email email="webservant-austin@calvarychapel.org">Web Servant Team</contact-email>
+      <contact-email email="internet@calvaryaustin.org">Internet Ministry</contact-email>
     </contacts>
   </ministry>
 </content>
