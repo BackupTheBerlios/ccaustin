@@ -3594,6 +3594,14 @@
 		<audio>bibleoverview/51-col-01.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Col/Col001.html#top</passageref>
 	</message>
+	<message date="20031217" service="midweek" category="overview">
+		<seriestitle>Colossians</seriestitle>
+		<title></title>
+		<passage>Colossians 3-4</passage>
+		<tape>BO1339</tape>
+		<audio>bibleoverview/51-col-03.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Col/Col003.html#top</passageref>
+	</message>
     	<message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
 		<title>The Big Question</title>
@@ -9571,11 +9579,19 @@
 		<passageref></passageref>
 	</message> 
 	<message date="20031214" service="sunday" category="topical series">
-		<seriestitle>Reality Christmas</seriestitle>
+		<seriestitle>Reality Christmas 2003</seriestitle>
 		<title>Bachelorette</title>
 		<passage>Luke 1:26-38</passage>
 		<tape>TS121403</tape>
 		<audio>topicseries/christmas2003/bachelorette.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk001.html#top</passageref>
+	</message> 
+	<message date="20031221" service="sunday" category="topical series">
+		<seriestitle>Reality Christmas 2003</seriestitle>
+		<title>Bachelor</title>
+		<passage>Matthew 1:18-24</passage>
+		<tape>TS122103</tape>
+		<audio>topicseries/christmas2003/bachelor.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Mat/Mat001.html#top</passageref>
 	</message> 
 </messagecatalog>
