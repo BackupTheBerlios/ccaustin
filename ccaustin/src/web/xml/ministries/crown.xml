@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- 
+
+        Crown Financial Ministry  - The ministry and its detail 
+        
+	   $Id: crown.xml,v 1.1 2003/04/17 14:20:09 javajames27 Exp $ 
+                
+--> 
+<content title="crown"> 
+        <ministry id="crown"> 
+                <name>Crown Financial Ministry</name> 
+                <long-description> 
+                        <p><link href="http://www.crown.org/">Crown Financial Ministries</link> is an interdenominational ministry that uses a remarkably effective Small Group Bible Study to train adults to practically apply the financial principles from God's Word.  The small group study is a 12 week in-depth study of what scripture teaches about money and possessions. The group meets for 2 hours every week.  Calvary will provide enrollments two times a year (Fall and Spring), and the cost is $55 for couples and $45 for singles.  (partial scholarships are available)</p> 
+
+                        <p>Most Christians have been taught only God's principles of handling 10 percent of their incomethe area of giving. Although this is crucial, they do not understand the Lords perspective on handling the other 90 percent.</p>
+
+
+                        <p>In the Crown study you will learn what Scripture teaches about managing all your possessions. Topics include the following.</p>
+
+                  <list ordered="true"> 
+                                <item>Getting Out of Debt</item> 
+                                <item>Giving</item> 
+                                <item>Saving</item> 
+                                <item>Training Children</item>
+                                <item>Spending</item> 
+                                <item>Earning Money</item> 
+                                <item>Budgeting</item> 
+                                <item>Investing</item>
+
+                        </list> 
+
+                        <p>The study is very practical. Each time you learn a principle, you will apply what you have learned. For example, you will complete a debt repayment schedule and start a budget. Students in the adult study receive a Student Manual, the Practical Application Workbook and a copy of Your Money Counts.</p>
+
+                        <p>Graduates have confirmed that marriages are being strengthened and individuals are getting out of debt. They also are becoming consistent savers, generous givers, and prudent consumers. Most importantly, people are entering into a closer relationship with Jesus Christ as they learn to apply His Word.</p>
+
+
+    </long-description> 
+
+<contacts> 
+                        <contact-email email="mlhardcastle@hotmail.com">Mike Hardcastle</contact-email> 
+                        <contact-phone phone="990-5139">Mike Hardcastle</contact-phone> 
+                        <contact-phone phone="719-4667">Contact the church office</contact-phone> 
+                </contacts> 
+
+                
+                <ministry-logo>../images/ministries/crown.jpg</ministry-logo> 
+        </ministry> 
+</content> 
