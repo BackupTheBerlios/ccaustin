@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.93 2004/06/22 21:17:23 premav Exp $
+	$Id: whatsnew.xml,v 1.94 2004/07/16 20:44:42 tie Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -461,7 +461,7 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		</news-item>
 		<news-item id="137" date="20040622" expires="20050622" showOnHomepage="true">
 		   <title>Calvary Austin Music Web Site</title>
-		   <detail>Please visit the <link href="http://www.calvaryaustin.org/buildingmomentum/index.html">Calvary Austin Music</link> web site . You can get the latest information about the newest worhsip team CD release, "I Will", as well as information about TV and radio appearances. Go check it out!</detail>
+		   <detail>Please visit the <link href="http://www.calvaryaustinmusic.org">Calvary Austin Music</link> web site . You can get the latest information about the newest worhsip team CD release, "I Will", as well as information about TV and radio appearances. Go check it out!</detail>
 		</news-item>
 	   <news-item id="138" date="20040622" expires="20040731" showOnHomepage="true">
 		   <title>Sip on This</title>
