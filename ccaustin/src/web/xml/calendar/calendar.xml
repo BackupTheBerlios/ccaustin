@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.124 2004/07/14 16:02:45 tie Exp $
+	$Id: calendar.xml,v 1.125 2004/07/16 14:25:11 premav Exp $
 		
 -->
 <content title="Calendar">
@@ -626,6 +626,15 @@ and to register visit the Events Center.</detail>
 		<date>Sep 3-6</date>
 		<detail>The College Retreat will be at Balcones Retreat Center. The cost is $130. To make a down payment or to register, stop by the Events Center.</detail>
     </event>
+<event id="09002" date="20040911" showOnHomepage="true">
+         <title>2004 Mid-South Children's Ministry Conference</title>
+         <date>Sept 9-11</date>
+                <detail> Don't miss this opportunity to sharpen your children's ministry skills, right here at Calvary Austin.
+Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE</link> for all the details and to download a brochure and registration form!</detail>
+                <ministries>
+                        <ministry id="children"/>
+                </ministries>
+        </event>
 		<!--
     ===============
     Oct 2004
