@@ -7,7 +7,7 @@
 	Uses the servants.xml, finding only those servants who are flagged as staff members and generates a second 
 	xml file.
 	
-	$Id: staff.xsl,v 1.5 2004/07/02 21:04:26 premav Exp $
+	$Id: staff.xsl,v 1.6 2004/07/07 18:03:39 premav Exp $
 	
 -->	
 
@@ -15,101 +15,171 @@
 <xsl:output method="html" indent="yes"/>
 
 <xsl:include href="html.xsl"/>
+<!--xsl:template name="horizontaline">
+<xsl:param name="endof"/>
+</xsl:template-->
 
 <xsl:template match="stafflist">
+<xsl:variable name="total" select="count(servant)"/>
+<!--xsl:value-of select="$totalfulltime"/-->
 	<table width="100%">
 		<tr>
-			<td colspan="10" class="tableheader">Meet Our Staff</td>
+			<td colspan="4"  class="tableheader">
+				Meet Our Staff
+			</td>
 		</tr>
-		<tr><td><br/></td></tr>
-		<xsl:for-each select="servant">
 		<tr>
-		<xsl:choose>
-			<!-- 
-				The hardest part of the template: put Pastor Allen in the center top, the even number on the left, 
-				odd number on the right. When the foreach loop comes around for the odd, ignore it since the 
-				even number processes even and even +1.
-			-->
-			<xsl:when test="position()=1" >
-  		         <xsl:variable name="curr"><xsl:value-of select="position()"/></xsl:variable>
-				<td colspan="1"><br/></td>
-				<td colspan="2" width="40%" align="center" class="textsubtitle">
-			    <xsl:element name="img">
-  	                    <xsl:attribute name="src"><xsl:value-of select="thumbnail/@href"/></xsl:attribute>
-  	                    <xsl:attribute name="alt"><xsl:value-of select="fullname"/></xsl:attribute>
-  	                    </xsl:element>
+			<td colspan="4" >
+				<br/>
+			</td>
+		</tr>
+		<xsl:for-each select="servant">
+			<!--xsl:call-template name="horizontaline">
+			<xsl:with-param name="endof" select="1"/>
+			</xsl:call-template-->
+		<tr>
 
-  	                    <br/>
+			<xsl:if test="position()=1" >
+  		        <xsl:variable name="curr">
+				<xsl:value-of select="position()"/>
+			</xsl:variable>
+			<td colspan="1" width="30%">
+				<xsl:text> </xsl:text>
+			</td>
+			<td colspan="1" width="30%" class="textsubtitle">
+			    <xsl:element name="img">
+  	                	    <xsl:attribute name="src">
+					<xsl:value-of select="thumbnail/@href"/>
+				    </xsl:attribute>
+  	                    	    <xsl:attribute name="alt">
+					<xsl:value-of select="fullname"/>
+				    </xsl:attribute>
+  	                    </xsl:element>
+	                    <br/>
 			    <A HREF="{first-name}.html">
-				    <xsl:value-of select="first-name"/><xsl:text> </xsl:text>
+				    <xsl:value-of select="first-name"/>
+				    <xsl:text> </xsl:text>
 				    <xsl:value-of select="last-name"/>
 			    </A>
 			    <br/>
-
-			    <xsl:apply-templates select="role/@title"/><br/></td>
-				<td colspan="3"><br/></td>
-				<td colspan="2" width="10%" class="textsubtitle"><img src="{../servant[($curr+1)]/thumbnail/@href}" alt="{../servant[($curr+1)]/fullname}"/>
-
-  	                    <br/>
-					<A HREF="{../servant[($curr+1)]/first-name}.html">
+			    <xsl:apply-templates select="role/@title"/>
+			    <br/>
+			</td>
+			<td colspan="1" width="30%" class="textsubtitle">
+				<img src="{../servant[($curr+1)]/thumbnail/@href}" alt="{../servant[($curr+1)]/fullname}"/>
+  	                    	<br/>
+				<A HREF="{../servant[($curr+1)]/first-name}.html">
 					<xsl:apply-templates select="../servant[($curr+1)]/first-name"/>
 					<xsl:text> </xsl:text>
-					<xsl:apply-templates select="../servant[($curr+1)]/last-name"/></A>
-					<br/>
-					<xsl:value-of select="../servant[($curr+1)]/role/@title"/><br/></td>
-				<td colspan="2"><br/></td>
-			</xsl:when>
-
-		<!--from 2nd row onwards-->
-			<xsl:when test="position() mod 2 = 1">
-  		         <xsl:variable name="curr"><xsl:value-of select="position()"/></xsl:variable>
-				<td colspan="1" width="10%">
-			<!--image of the 1st staff member in column 1 -->
-				  <xsl:element name="img">
-  	                    <xsl:attribute name="src"><xsl:value-of select="thumbnail/@href"/></xsl:attribute>
-  	                    <xsl:attribute name="alt"><xsl:value-of select="fullname"/></xsl:attribute>
-  	                    </xsl:element>
-				</td>
-			<!--first and last name in 2nd and 3rd columns of the 1st staff member-->
-				<td colspan="2" align="left" class="textsubtitle">
-					<A HREF="{first-name}.html">
-						<xsl:value-of select="first-name"/>
+					<xsl:apply-templates select="../servant[($curr+1)]/last-name"/>
+				</A>
+				<br/>
+				<xsl:value-of select="../servant[($curr+1)]/role/@title"/>
+				<br/>
+			</td>
+			<td colspan="1" width="30%">
+				<xsl:text> </xsl:text>
+			</td>
+			<!--xsl:call-template name="horizontaline">
+			<xsl:with-param name="endof" select="0"/>
+			</xsl:call-template-->
+		</xsl:if>
+		<!--xsl:choose-->
+		 <!--from 2nd row onwards-->
+		 <xsl:if test="position() mod 2 = 1 and position() mod 4 = 3">
+        	 	<xsl:variable name="curr">
+ 				<xsl:value-of select="position()"/>
+			</xsl:variable>
+			 <td colspan="1" width="30%" class="textsubtitle">
+			 	<!--image of the 1st staff member in column 1 -->
+			 	<xsl:element name="img">
+  	        			 <xsl:attribute name="src">
+						<xsl:value-of select="thumbnail/@href"/>
+					 </xsl:attribute>
+  			                 <xsl:attribute name="alt">
+						<xsl:value-of select="fullname"/>
+					 </xsl:attribute>
+		  	        </xsl:element>
+				<br/>
+				<A HREF="{first-name}.html">
+					<xsl:value-of select="first-name"/>
 						<xsl:text> </xsl:text>
-						<xsl:value-of select="last-name"/></A>
-				   <br/>
-				   <xsl:apply-templates select="role/@title"/>
-				   <br/>
-			   </td>
-<!--
-			<td colspan="2" align="left" class="textsubtitle"><xsl:apply-templates select="fullname"/><br/><xsl:apply-templates select="role/@title"/><br/></td>
--->
-			<!-- br in 4th,5th,6th,7th columns -->
-				<td colspan="4" class="textsubtitle"><br/></td>
-			<!-- first and last name in 8th, 9th columns of the 2nd staff member-->
-				<td colspan="2" align="right" class="textsubtitle">
-					<A HREF="{../servant[($curr+1)]/first-name}.html">
-					<xsl:apply-templates select="../servant[($curr+1)]/first-name"/>
-					<xsl:text> </xsl:text>
-					<xsl:apply-templates select="../servant[($curr+1)]/last-name"/></A>
-					<br/>
-					<xsl:value-of select="../servant[($curr+1)]/role/@title"/><br/>
-				</td>
-<!--
-					<xsl:apply-templates select="../servant[($curr+1)]/fullname"/><br/><xsl:value-of select="../servant[($curr+1)]/@title"/><br/></td>
--->
-			<!--image in 10th column of the 2nd staff member-->
-				<td colspan="1" width="10%"><img src="{../servant[($curr+1)]/thumbnail/@href}" alt="{../servant[($curr+1)]/fullname}"/></td>
-			</xsl:when>
+					<xsl:value-of select="last-name"/>
+				</A>
+				<br/>
+				<xsl:apply-templates select="role/@title"/>
+				<br/>
+	        	</td>
+			<td colspan="1" width="30%" class="textsubtitle">
+				<!--xsl:value-of select="$curr+1"/>
+				<xsl:value-of select="$total"/-->
 
-			<xsl:otherwise>
-			</xsl:otherwise>
-			
-		</xsl:choose>
-		
-		</tr>
-		</xsl:for-each>
+				<xsl:variable name="actualcurr" select="$curr+1"/>
+				<xsl:if test="$actualcurr &lt;= $total">
+				 <img src="{../servant[($curr+1)]/thumbnail/@href}" alt="{../servant[($curr+1)]/fullname}"/>
+				 <br/>
+                                 <A HREF="{../servant[($curr+1)]/first-name}.html">
+					<xsl:apply-templates select="../servant[($curr+1)]/first-name"/>
+						<xsl:text> </xsl:text>
+					<xsl:apply-templates select="../servant[($curr+1)]/last-name"/>
+				 </A>
+				 <br/>
+				 <xsl:value-of select="../servant[($curr+1)]/role/@title"/>
+				 <br/>
+				</xsl:if>
+			</td>
+			<td colspan="1" width="30%" class="textsubtitle">
+				<xsl:variable name="actualcurr" select="$curr+2"/>
+				<xsl:if test="$actualcurr &lt;= $total">
+				 <img src="{../servant[($curr+2)]/thumbnail/@href}" alt="{../servant[($curr+2)]/fullname}"/>
+				 <br/>
+                                 <A HREF="{../servant[($curr+2)]/first-name}.html">
+					<xsl:apply-templates select="../servant[($curr+2)]/first-name"/>
+						<xsl:text> </xsl:text>
+					<xsl:apply-templates select="../servant[($curr+2)]/last-name"/>
+				 </A>
+				 <br/>
+				 <xsl:value-of select="../servant[($curr+2)]/role/@title"/>
+				 <br/>
+				</xsl:if>
+			</td>
+			<td colspan="1" width="30%" class="textsubtitle">
+				<xsl:variable name="actualcurr" select="$curr+3"/>
+				<xsl:if test="$actualcurr &lt;= $total">
+				 <img src="{../servant[($curr+3)]/thumbnail/@href}" alt="{../servant[($curr+3)]/fullname}"/>
+				 <br/>
+                                 <A HREF="{../servant[($curr+3)]/first-name}.html">
+					<xsl:apply-templates select="../servant[($curr+3)]/first-name"/>
+						<xsl:text> </xsl:text>
+					<xsl:apply-templates select="../servant[($curr+3)]/last-name"/>
+				 </A>
+				 <br/>
+				 <xsl:value-of select="../servant[($curr+3)]/role/@title"/>
+				 <br/>
+				</xsl:if>
+			</td>
+			<!--xsl:value-of select="$curr = $curr + 2"/-->
+			<!--xsl:call-template name="horizontaline">
+			<xsl:with-param name="endof" select="0"/>
+			</xsl:call-template-->
+		</xsl:if>
+
+		<!--xsl:otherwise>
+		</xsl:otherwise>
+
+		</xsl:choose-->
+	<!--xsl:call-template name="horizontaline"-->
+	<!--xsl:value-of select="4444"/-->
+	<!--/xsl:call-template-->
+	</tr>
+	<!--xsl:call-template name="horizontaline">
+	<xsl:if test="$endof=0">	
+	<tr><td colspan="4" width="100%"><hr/></td></tr>
+	</xsl:if>
+	</xsl:call-template-->
+	</xsl:for-each>
+
 	</table>
 </xsl:template>
-
 
 </xsl:stylesheet>

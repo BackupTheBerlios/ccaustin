@@ -8,7 +8,7 @@
 	
 	allen-bio.xml - the biography for Pastor Allen
 	
-	$Id: servants.xml,v 1.5 2004/07/02 20:58:10 premav Exp $
+	$Id: servants.xml,v 1.6 2004/07/07 18:04:02 premav Exp $
 		
 -->
 <content title="Servants" base=".">
@@ -88,24 +88,6 @@
 		<large-photo href="../images/staff/glendonweb.jpg"/>
 		<role staff="true" ministry="church" title="Assisting Pastor"/>
 	</servant>
-	<servant id="jason">
-		<fullname>Jason Moore</fullname>
-		<first-name>Jason</first-name>
-		<last-name>Moore</last-name>
-		<thumbnail href="../images/staff/Jasonthumb.jpg"/>
-		<small-photo href="../images/staff/jasonweb.jpg"/>
-		<large-photo href="../images/staff/jasonweb.jpg"/>
-		<role staff="true" ministry="church" title="Calvary Discipleship Leader"/>
-	</servant>
-	<servant id="jeremy">
-		<fullname>Jeremy Valencia</fullname>
-		<first-name>Jeremy</first-name>
-		<last-name>Valencia</last-name>
-		<thumbnail href="../images/staff/jeremythumb.jpg"/>
-		<small-photo href="../images/staff/jeremyweb.jpg"/>
-		<large-photo href="../images/staff/jeremyweb.jpg"/>
-		<role staff="true" ministry="church" title="Multi-Media Ministry Leader"/>
-	</servant>
 	<servant id="katherine">
 		<fullname>Katherine E. Nogues</fullname>
 		<first-name>Katherine</first-name>
@@ -133,6 +115,15 @@
 		<large-photo href="../images/staff/derrickweb.jpg"/>
 		<role staff="true" ministry="church" title="Marriage Ministry Leader"/>
 	</servant>
+	<servant id="jeremy">
+		<fullname>Jeremy Valencia</fullname>
+		<first-name>Jeremy</first-name>
+		<last-name>Valencia</last-name>
+		<thumbnail href="../images/staff/jeremythumb.jpg"/>
+		<small-photo href="../images/staff/jeremyweb.jpg"/>
+		<large-photo href="../images/staff/jeremyweb.jpg"/>
+		<role staff="true" ministry="church" title="Multi-Media Ministry Leader"/>
+	</servant>
 	<servant id="vance">
 		<fullname>Vance Zimmerman</fullname>
 		<first-name>Vance</first-name>
@@ -141,5 +132,60 @@
 		<small-photo href="../images/staff/vanceweb.jpg"/>
 		<large-photo href="../images/staff/vanceweb.jpg"/>
 		<role staff="true" ministry="church" title="Sound Ministry Leader"/>
+	</servant>
+	<!--Debbie-Coffee Creator-->
+	<servant id="jason">
+		<fullname>Jason Moore</fullname>
+		<first-name>Jason</first-name>
+		<last-name>Moore</last-name>
+		<thumbnail href="../images/staff/Jasonthumb.jpg"/>
+		<small-photo href="../images/staff/jasonweb.jpg"/>
+		<large-photo href="../images/staff/jasonweb.jpg"/>
+		<role staff="true" ministry="church" title="Calvary Discipleship Leader"/>
+	</servant>
+	<servant id="james">
+		<fullname>James Lazono</fullname>
+		<first-name>James</first-name>
+		<last-name>Lazono</last-name>
+		<thumbnail href="../images/staff/Jamesthumb.jpg"/>
+		<small-photo href="../images/staff/jamesweb.jpg"/>
+		<large-photo href="../images/staff/jamesweb.jpg"/>
+		<role staff="true" ministry="church" title="New Believer's Teacher"/>
+	</servant>
+	<servant id="bones">
+		<fullname>Bones Uk</fullname>
+		<first-name>Bones</first-name>
+		<last-name>Uk</last-name>
+		<thumbnail href="../images/staff/bonesthumb.jpg"/>
+		<small-photo href="../images/staff/bonesweb.jpg"/>
+		<large-photo href="../images/staff/bonesweb.jpg"/>
+		<role staff="true" ministry="church" title="Elder"/>
+	</servant>
+	<servant id="craig">
+		<fullname>Craig Swearingen</fullname>
+		<first-name>Craig</first-name>
+		<last-name>Swearingen</last-name>
+		<thumbnail href="../images/staff/craigthumb.jpg"/>
+		<small-photo href="../images/staff/craigweb.jpg"/>
+		<large-photo href="../images/staff/craigweb.jpg"/>
+		<role staff="true" ministry="church" title="Elder"/>
+	</servant>
+	<servant id="mark">
+		<fullname>Mark Achee</fullname>
+		<first-name>Mark</first-name>
+		<last-name>Achee</last-name>
+		<thumbnail href="../images/staff/markthumb.jpg"/>
+		<small-photo href="../images/staff/markweb.jpg"/>
+		<large-photo href="../images/staff/markweb.jpg"/>
+		<role staff="true" ministry="church" title="Elder &amp; Seasoned Saints Leader"/>
+	</servant>
+	<servant id="matt">
+		<fullname>Matt Lang</fullname>
+		<first-name>Matt</first-name>
+		<last-name>Lang</last-name>
+		<thumbnail href="../images/staff/mattthumb.jpg"/>
+		<small-photo href="../images/staff/mattweb.jpg"/>
+		<large-photo href="../images/staff/mattweb.jpg"/>
+		<role staff="true" ministry="church" title="Elder &amp; Greeting Ministry"/>
 	</servant>
 </content>
