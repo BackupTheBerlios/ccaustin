@@ -5,8 +5,8 @@ import javax.servlet.ServletException;
 import org.calvaryaustin.web.BaseAction;
 import org.calvaryaustin.web.UserRequest;
 import org.apache.struts.action.ActionForward;
-import org.calvaryaustin.cms.RepositoryUtil;
-import org.calvaryaustin.cms.WebdavRepositoryDAO;
+import org.calvaryaustin.cms.webdav.RepositoryUtil;
+import org.calvaryaustin.cms.webdav.WebdavRepositoryDAO;
 
 /**
  * Controller that will process the viewing of site contents, and allow the user to (if authorized)
@@ -18,7 +18,7 @@ import org.calvaryaustin.cms.WebdavRepositoryDAO;
  * node (either a site or directory).
  *
  * @author jhigginbotham
- * @version $Revision: 1.5 $
+ * @version $Revision: 1.6 $
  */
 public final class BrowserAction extends BaseAction 
 {

@@ -5,8 +5,8 @@ import java.io.IOException;
 import org.apache.commons.io.FileUtils;
 import org.apache.tools.ant.BuildException;
 import org.apache.tools.ant.Task;
-import org.calvaryaustin.cms.Repository;
 import org.calvaryaustin.cms.RepositoryException;
+import org.calvaryaustin.cms.webdav.Repository;
 
 public class FetchSiteFromRepository extends Task
 {

@@ -1,4 +1,4 @@
-package org.calvaryaustin.cms;
+package org.calvaryaustin.cms.webdav;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -9,6 +9,10 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.util.HttpURL;
 import org.apache.webdav.lib.WebdavResource;
+import org.calvaryaustin.cms.RepositoryException;
+import org.calvaryaustin.cms.SiteAlreadyExistsException;
+import org.calvaryaustin.cms.SiteNotFoundException;
+import org.calvaryaustin.cms.webdav.*;
 
 /**
  * WebdavRepositoryDAO.java
@@ -17,7 +21,7 @@ import org.apache.webdav.lib.WebdavResource;
  * Created: Mon Jan 13 21:16:30 2003
  *
  * @author <a href="mailto:jhigginbotham@betweenmarkets.com">James Higginbotham</a>
- * @version $Revision: 1.3 $
+ * @version $Revision: 1.1 $
  */
 public class WebdavRepositoryDAO
 {
@@ -301,7 +305,7 @@ public class WebdavRepositoryDAO
     {
       log.trace("findResource(): Finding resource "+path);
       String fullPath = ( path.startsWith( PATH_PREFIX ) ? path : PATH_PREFIX + "/" + path );
-      String normalizedPath = RepositoryUtil.normalize( fullPath );
+      String normalizedPath = WebdavConnection.normalize( fullPath );
       log.trace("findResource():   normalized path "+normalizedPath);
       WebdavResource webdavResource = new WebdavResource(httpURL);
       webdavResource.setDebug( debugLevel );

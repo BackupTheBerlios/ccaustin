@@ -5,8 +5,8 @@ import java.io.IOException;
 import javax.servlet.ServletException;
 
 import org.apache.struts.action.ActionForward;
-import org.calvaryaustin.cms.RepositoryUtil;
-import org.calvaryaustin.cms.WebdavRepositoryDAO;
+import org.calvaryaustin.cms.webdav.RepositoryUtil;
+import org.calvaryaustin.cms.webdav.WebdavRepositoryDAO;
 import org.calvaryaustin.web.BaseAction;
 import org.calvaryaustin.web.UserRequest;
 

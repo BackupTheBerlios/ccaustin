@@ -19,10 +19,10 @@ import org.apache.slide.structure.Structure;
 import org.apache.struts.action.ActionError;
 import org.apache.struts.action.ActionErrors;
 import org.apache.struts.action.ActionForward;
-import org.calvaryaustin.cms.RepositoryUtil;
-import org.calvaryaustin.cms.WebdavRepositoryDAO;
 import org.calvaryaustin.cms.slide.CreateLockCommand;
 import org.calvaryaustin.cms.slide.KillLockCommand;
+import org.calvaryaustin.cms.webdav.RepositoryUtil;
+import org.calvaryaustin.cms.webdav.WebdavRepositoryDAO;
 import org.calvaryaustin.controlpanel.AdminAction;
 import org.calvaryaustin.controlpanel.AdminUserRequest;
 

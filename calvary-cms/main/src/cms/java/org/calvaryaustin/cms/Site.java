@@ -1,56 +1,60 @@
 package org.calvaryaustin.cms;
 
-import java.io.File;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import java.util.List;
 
 /**
- * Site.java
- *
- *
- * Created: Tue Jan 28 17:04:06 2003
- *
- * @author <a href="mailto:jhigginbotham@betweenmarkets.com">James Higginbotham</a>
- * @version $Revision: 1.1 $
+ * A Site belongs to a repository and has one or more Pages.
+ * @author jhigginbotham
  */
-public class Site 
+public interface Site
 {
-  public String getName()
-  {
-    return siteName;
-  }
-  
-  public void exportSite( File baseDir ) throws RepositoryException
-  {
-    log.debug("Exporting site with name "+siteName+" to "+baseDir);
-    dao.exportSite( siteName, baseDir );
-    log.debug("Export complete for site "+siteName);
-  }
-
-  public void importFile( String destPath, File fileToImport )
-      throws RepositoryException
-  {
-    log.debug("Importing file "+fileToImport+" into site "+siteName);
-    dao.importFile( siteName, destPath, fileToImport );
-    log.debug("Import complete for file "+fileToImport);
-  }
-
-  public void importDirectory( String destPath, File dirToImport, boolean recurse )
-      throws RepositoryException
-  {
-    log.debug("Importing directory "+dirToImport+" into site "+siteName);
-    dao.importDirectory( siteName, destPath, dirToImport, recurse );
-    log.debug("Import complete for directory "+dirToImport);
-  }
-
-  protected Site( String siteName, WebdavRepositoryDAO dao )
-  {
-    this.dao = dao;
-    this.siteName = siteName;
-  }
-  
-  private String siteName;
-  private Repository repository;
-  private WebdavRepositoryDAO dao;
-  private static final Log log = LogFactory.getLog( Site.class );
-}// Site
+	/**
+	 * Returns the unique id of the site
+	 * @return the unique id of the site
+	 */
+	public String getId();
+	/**
+	 * Returns the unique name of the site
+	 * @return the unique name of the site
+	 */
+	public String getName();
+	/**
+	 * Returns the root folder for the site
+	 * @return the root folder for the site
+	 */
+	public Folder getRootFolder();
+	/**
+	 * Returns a list of handles to resources in the root of the site
+	 * @return a list of handles to resources in the root of the site
+	 * @throws RepositoryException if an error occurs during browsing
+	 */
+	public List browse() throws RepositoryException;
+	/**
+	 * Returns a list of handles to resources of the site relative to the starting path
+	 * @param startingPath the starting path to browse 
+	 * @return a list of handles to resources in the startingPath
+	 * @throws RepositoryException if an error occurs during browsing
+	 */
+	public List browse(SiteResourceHandle startingPath) throws RepositoryException;
+	/**
+	 * Returns a list of handles to resources of the site relative to the starting path
+	 * @param startingPath the starting path to browse 
+	 * @return a list of handles to resources in the startingPath
+	 * @throws RepositoryException if an error occurs during browsing
+	 */
+	public List browse(String startingPath) throws RepositoryException;
+	/**
+	 * Returns a resource from the site for viewing, editing, etc. 
+	 * @param handle a handle to the resource to retrieve
+	 * @return a resource from the site for viewing, editing, etc.
+	 * @throws RepositoryException if an error occurs during retrieval
+	 */
+	public SiteResource getResource(SiteResourceHandle handle) throws RepositoryException;
+	/**
+	 * Returns a resource from the site for viewing, editing, etc. 
+	 * @param uri uri to the resource to retrieve
+	 * @return a resource from the site for viewing, editing, etc.
+	 * @throws RepositoryException if an error occurs during retrieval
+	 */
+	public SiteResource getResource(String uri) throws RepositoryException;
+}

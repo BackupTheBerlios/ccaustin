@@ -35,12 +35,12 @@
     <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/jakarta-slide/slide/lib/slide-stores.jar"/>
     <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/jakarta-slide/slide/lib/slide-taglib-common.jar"/>
     <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/jakarta-slide/slide/lib/slide-taglib-struts.jar"/>
-    <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/jakarta-slide/client/lib/slide-webdavlib.jar"/>
-    <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/jakarta-slide/client/lib/commons-httpclient.jar"/>
     <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/jakarta-slide/client/lib/slide-client.jar"/>
     <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/display/lib/display.jar"/>
     <classpathentry kind="lib" path="thirdparty/jboss-3.0.4_tomcat-4.0.6/server/default/lib/jbosssx.jar"/>
     <classpathentry kind="lib" path="thirdparty/jakarta-slide/client/lib/commons-httpclient.jar"/>
-    <classpathentry kind="lib" path="thirdparty/jakarta-slide/client/lib/slide-webdavlib.jar"/>
+    <classpathentry kind="lib"
+        path="thirdparty/jakarta-slide/client/lib/slide-webdavlib.jar" sourcepath="C:/libs/jakarta-slide-2003-05-04-src/jakarta-slide/src/webdav/client/src"/>
+    <classpathentry kind="lib" path="main/src/cms/testresources"/>
     <classpathentry kind="output" path="main/eclipse_build"/>
 </classpath>

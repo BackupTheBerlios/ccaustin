@@ -6,7 +6,7 @@ import org.apache.slide.taglib.bean.NodeBean;
 import org.apache.struts.Globals;
 import org.apache.struts.action.ActionMapping;
 import org.apache.taglibs.display.TableDecorator;
-import org.calvaryaustin.cms.RepositoryUtil;
+import org.calvaryaustin.cms.webdav.RepositoryUtil;
 
 /**
  * A custom display taglibrary decorator for the browser web component

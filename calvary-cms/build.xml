@@ -780,7 +780,7 @@
     <copy file="${slide.roles.jar}" toDir="${dest}"/>
     <copy file="${slide.stores.jar}" toDir="${dest}"/>
     <copy file="${slide.webdavservlet.jar}" toDir="${dest}"/>
-    <copy file="${slide.jdom.jar}" toDir="${dest}"/>
+    <!-- copy file="${slide.jdom.jar}" toDir="${dest}"/ -->
     <copy file="${slide.jdomdev.jar}" toDir="${dest}"/>
 
     <!-- Copy some apache libs over the pre-packaged ones under Tomcat (for jb3.0.6 hot deploy debugging)

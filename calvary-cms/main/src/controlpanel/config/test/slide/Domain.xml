@@ -23,6 +23,7 @@
          The following memory configuration uses the MemoryDescriptorsStore for
          node, security, locks and revisions. For content the FileContentStore
          is used. Content is reset before start.
+         -->
     <definition>
       <store name="memory">
         <nodestore classname="slidestore.reference.MemoryDescriptorsStore"/>
@@ -46,14 +47,12 @@
       </store>
       <scope match="/" store="memory"/>
     </definition>
-         -->
     <!-- ### JDBC Configuration ###
          The following jdbc sample configuration uses the hsql Database Engine
          a relational database engine written in Java, for more info:
          http://hsqldb.sourceforge.net/
          -->
     <!--
-                   -->
          <definition>
            <store name="jdbc">
              <nodestore classname="slidestore.reference.JDBCDescriptorsStore">
@@ -85,6 +84,7 @@
                    </store>
                    <scope match="/" store="jdbc" />
                    </definition>
+                   -->
                    <!-- ### Mixed JDBC - Filesystem ###
                         stores: slidestore.reference.JDBCDescriptorsStore
                         slidestore.reference.FileContentStore

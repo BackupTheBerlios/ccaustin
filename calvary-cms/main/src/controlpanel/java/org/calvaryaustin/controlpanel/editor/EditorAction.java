@@ -26,10 +26,10 @@ import org.apache.struts.action.ActionErrors;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMessage;
 import org.apache.struts.action.ActionMessages;
-import org.calvaryaustin.cms.RepositoryUtil;
-import org.calvaryaustin.cms.WebdavRepositoryDAO;
 import org.calvaryaustin.cms.slide.KillLockCommand;
 import org.calvaryaustin.cms.slide.UpdateCommand;
+import org.calvaryaustin.cms.webdav.RepositoryUtil;
+import org.calvaryaustin.cms.webdav.WebdavRepositoryDAO;
 import org.calvaryaustin.controlpanel.AdminAction;
 import org.calvaryaustin.controlpanel.AdminUserRequest;
 

@@ -1,61 +1,43 @@
-package org.calvaryaustin.cms; // Generated package name
+package org.calvaryaustin.cms;
 
-import java.io.File;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import java.util.List;
 
 /**
- * Repository.java
- *
- *
- * Created: Mon Jan 13 21:16:30 2003
- *
- * @author <a href="mailto:jhigginbotham@betweenmarkets.com">James Higginbotham</a>
- * @version $Revision: 1.1 $
+ * A Repository manages sites
+ * 
+ * Independent of the transport used to connect to it.  
+ * @author jhigginbotham
  */
-public class Repository 
+public interface Repository
 {
-  public Repository(String serverUrl) throws RepositoryException
-  {
-    dao = new WebdavRepositoryDAO(serverUrl);
-    this.serverUrl = serverUrl;
-    init();
-  }
-
-  public Site createSite( String siteName ) throws RepositoryException
-  {
-    return dao.createSite( siteName );
-  }
-
-  public Site findSite( String siteName ) throws RepositoryException
-  {
-    return dao.findSite( siteName );
-  }
-
-  
-  /**
-   * Get the ServerUrl value.
-   * @return the ServerUrl value.
-   */
-  public String getServerUrl()
-  {
-    return serverUrl;
-  }
-
-  protected WebdavRepositoryDAO getDAO()
-  {
-    return dao;
-  }
-
-  private void init() throws RepositoryException
-  {
-    // make sure that the root level for all sites exists.. if not, we will create it to init the
-    // repository
-    dao.initRepository();
-  }
-  
-  private WebdavRepositoryDAO dao;
-  private String serverUrl;
-  private static final Log log = LogFactory.getLog( Repository.class );
-}// Repository
-
+	/**
+	 * Returns a list of SiteHandles managed by the repository
+	 * @return a list of SiteHandles managed by the repository
+	 * @throws RepositoryException if an error occurs 
+	 */
+	public List getSiteList() throws RepositoryException;
+	/**
+	 * Obtains a Site reference which can be used to perform further work, such as browsing a site
+	 * or creating/editing pages
+	 * @param handle a handle to the site to obtain
+	 * @return the site reference
+	 * @throws RepositoryException if an error occurs
+	 * @throws SiteNotFoundException if the site was not found given a handle
+	 */
+	public Site getSite(SiteHandle handle) throws RepositoryException, SiteNotFoundException;
+	/**
+	 * Creates a new site in the repository
+	 * @param sitename a sitename that is unique to the repository
+	 * @return a handle to the newly created site
+	 * @throws RepositoryException if an error occurs
+	 * @throws SiteAlreadyExistsException if the site already exists in the repository
+	 */
+	public SiteHandle createSite(String sitename) throws RepositoryException, SiteAlreadyExistsException;
+	/**
+	 * Deletes a site in the repository and all associated content
+	 * @param handle a handle to the site to delete
+	 * @throws RepositoryException if an error occurs
+	 * @throws SiteNotFoundException if the site was not found given a handle
+	 */
+	public void deleteSite(SiteHandle handle) throws RepositoryException, SiteAlreadyExistsException;
+}
