@@ -6,15 +6,94 @@
 </head>
 <body bgcolor="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 
-<h1>"I Will": Behind the Music</h1>
-<p>Coming soon...</p>
-<p><br/></p>
-<p><br/></p>
-<p><br/></p>
-<p><br/></p>
-<p><br/></p>
-<p><br/></p>
-<p><br/></p>
+      <h1>"I Will": Behind the music</h1>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+        <td width="95"><div class="img"><a href="http://www.adobe.com/products/acrobat/readstep2.html"><img src="images/getacro.gif" width="88" height="31" border="0"/></a></div></td>
+          <td valign="top">Want to learn more about how the songs were written?. Find out here! All documents use the <a href="http://www.adobe.com/products/acrobat/readermain.html">Adobe 
+            Acrobat</a> document format for better print quality. You may obtain 
+            the free <a href="http://www.adobe.com/products/acrobat/readermain.html">Adobe 
+            Acrobat Reader</a> by clicking on the button to the left. </td>
+        </tr>
+        <tr> 
+          <td><nbsp/></td>
+          <td valign="top"><nbsp/></td>
+        </tr>
+      </table>
+      <p><nbsp/></p>
+      <table width="100%" border="0" cellspacing="3" cellpadding="0">
+        <tr> 
+        <td width="144" rowspan="13" align="right" valign="bottom"><img src="images/guitar.jpg" width="188" height="300"/></td>
+          <td align="right" valign="top"><nbsp/></td>
+          <td valign="top"><h2>"I Will"</h2></td>
+        </tr>
+        <tr valign="top"> 
+          <td width="50" align="right"><img src="images/note.gif" width="17" height="20"/></td>
+          <td valign="middle"> 1. <a href="pdf/Behind-ThereIsNoOneLikeYou.pdf">There 
+            is No One Who is Like You</a></td>
+        </tr>
+        <tr> 
+          <td align="right"><img src="images/note.gif" width="17" height="20"/></td>
+          <td valign="middle">2. With One Voice <span class="notAvailNote">*</span></td>
+        </tr>
+        <tr> 
+          <td align="right"><img src="images/note.gif" width="17" height="20"/></td>
+          <td valign="middle">3. <a href="pdf/Behind-YourWordIsYou.pdf">Your 
+            Word is You</a></td>
+        </tr>
+        <tr> 
+          <td align="right"><img src="images/note.gif" width="17" height="20"/></td>
+          <td valign="middle">4. I Will Raise My Hands <span class="notAvailNote">*</span></td>
+        </tr>
+        <tr> 
+          <td align="right"><img src="images/note.gif" width="17" height="20"/></td>
+          <td valign="middle">5. <a href="pdf/Behind-IWillRise.pdf">I Will 
+            Rise</a></td>
+        </tr>
+        <tr> 
+          <td align="right"><img src="images/note.gif" width="17" height="20"/></td>
+          <td valign="middle">6. At the Feet of Christ <span class="notAvailNote">*</span></td>
+        </tr>
+        <tr> 
+          <td align="right"><img src="images/note.gif" width="17" height="20"/></td>
+          <td valign="middle">7. <a href="pdf/Behind-JesusSaviorAndLord.pdf">Jesus, 
+            Savior &amp; Lord</a>/At the Cross<span class="notAvailNote">*</span></td>
+        </tr>
+        <tr> 
+          <td align="right"><img src="images/note.gif" width="17" height="20"/></td>
+          <td valign="middle">8. <a href="pdf/Behind-DrawMeClose.pdf">Draw 
+            Me Close</a></td>
+        </tr>
+        <tr> 
+          <td align="right"><img src="images/note.gif" width="17" height="20"/></td>
+          <td valign="middle">9. I Will Give You Everything <span class="notAvailNote">*</span></td>
+        </tr>
+        <tr> 
+          <td align="right"><img src="images/note.gif" width="17" height="20"/></td>
+          <td valign="middle">10. Everlasting Love <span class="notAvailNote">*</span></td>
+        </tr>
+        <tr> 
+          <td align="right"><img src="images/note.gif" width="17" height="20"/></td>
+          <td valign="middle">11. I Have Decided<span class="notAvailNote">*</span></td>
+        </tr>
+        <tr> 
+          <td align="right"><img src="images/note.gif" width="17" height="20"/></td>
+          <td valign="middle">12. <a href="pdf/Behind-JesusSaviorAndLord.pdf">Jesus, 
+            Savior &amp; Lord (reprise)</a></td>
+        </tr>
+        <tr> 
+          <td align="right" valign="bottom"><nbsp/></td>
+          <td align="right"><nbsp/></td>
+          <td valign="middle"><nbsp/></td>
+        </tr>
+        <tr>
+          <td align="right" valign="bottom"><nbsp/></td>
+          <td align="right"><nbsp/></td>
+          <td valign="middle" class="notAvailNote">* - Not Currently Available</td>
+        </tr>
+      </table>
+      <p><nbsp/> </p>
+      <h1><nbsp/></h1>
 
 </body>
 </html>
