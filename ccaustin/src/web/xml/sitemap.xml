@@ -6,7 +6,7 @@
 	The sitemap contains the structure of the entire web site, and is used to drive
 	the auto-generated scripts for generating the web site HTML from XML.
 	
-	$Id: sitemap.xml,v 1.8 2002/07/08 19:58:58 javajames27 Exp $
+	$Id: sitemap.xml,v 1.9 2002/07/08 21:39:04 javajames27 Exp $
 	
 	hidden="true" prevents the page from showing on the sitemap.
 	
@@ -233,6 +233,7 @@
 	<section name="news" basedir="/news">
 		<title>Recent News</title>
 		<pageset match="**/*.xml" style="/news.xsl" out="/news"/>
+		<pageset datafile="/news-index.xml" style="/news-index.xsl" html="/news/index.html"/>
 	</section>
 	<section name="staff" basedir="/staff">
 		<title>Calvary Austin Staff</title>

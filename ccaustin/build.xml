@@ -41,8 +41,12 @@
   <target name="checkoptions" depends="autogen-build"
     description="Performs pre-processing checks for environment.">
     <tstamp>
-      <format property="NOW" pattern="MM/dd/yyyy hh:mm aa z" timezone="CST"/>
+      <format property="NOW" pattern="MM.dd.yyyy hh:mm aa z" timezone="CST"/>
     </tstamp>
+    <tstamp>
+      <format property="DATE" pattern="yyyyMMdd" timezone="CST"/>
+    </tstamp>
+    <echo message="DATE=${DATE}"/>
   </target>
   
   <!-- =================================================================== -->
