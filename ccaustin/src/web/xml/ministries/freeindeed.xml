@@ -3,16 +3,16 @@
 
         Free Indeed (Addictions) Ministry  - The ministry and its detail 
         
-	   $Id: freeindeed.xml,v 1.2 2003/03/13 17:47:04 javajames27 Exp $ 
+	   $Id: freeindeed.xml,v 1.3 2003/05/01 14:08:36 javajames27 Exp $ 
                 
 --> 
 <content title="Free Indeed"> 
         <ministry id="freeindeed"> 
                 <name>Free Indeed (Addictions) Ministry</name> 
-                <overview>So if the Son sets you free, you will be free indeed.  --  John 8:36</overview>
+                <overview>Calvary's Free Indeed Ministry is an outreach to our church and community to provide hope and freedom for those who are enslaved to sinful addictions, whether it be pornography, substance abuse, overeating, smoking or other addictive sins.</overview>
 
                 <long-description> 
-                        <p>Calvary's Free Indeed Ministry is an outreach to our church and community to provide hope and freedom for those who are enslaved to sinful addictions, whether it be pornography, substance abuse, overeating, smoking or other addictive sins.</p> 
+                        <p>So if the Son sets you free, you will be free indeed.  --  John 8:36</p> 
 
                         <p>First and foremost, we must tell you that God's grace is able to help you overcome any sin, and there is hope for you.  Our approach to dealing with these addictions is to partner with an online program made available through <link href="http://www.settingcaptivesfree.com/home/">Setting Captives Free</link>.  We direct you to their web page for the particular topic and study program, but also provide you local support and accountability.  The below links will connect you with their web page where you can read about the particular programs.  They will assign you a mentor, but you can also copy someone as an accountability partner.  If you don't already have an accountability partner in Calvary, we will provide you one, and we ask that you include the appropriate email below in the cc field at the bottom of your day one study.  This will forward your day 1 study to the accountability coordinator who will assign your accountability partner.  Your personal accountability partner will contact you immediately to provide you support.</p>
 
