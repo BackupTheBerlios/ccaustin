@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.90 2004/01/04 05:19:40 gregk Exp $
+	$Id: calendar.xml,v 1.91 2004/01/04 05:29:01 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -416,7 +416,7 @@ need for Praying Leaders.</detail>
     <event id="04001" date="20040411" showOnHomepage="false">
 	 <title>Easter Sunday Calvary Kids</title>
 		<date>Apr 11 2004</date>
-                <detail>Special program for each service at 8:00AM, 9:45AM and 11:30AM.</detail>
+                <detail>Special program for each service at 9:30AM and 11:30AM.</detail>
 		<ministries>
 			<ministry id="children"/>
 		</ministries>
