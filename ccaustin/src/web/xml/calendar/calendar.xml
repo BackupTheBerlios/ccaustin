@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.137 2004/11/22 05:04:14 gregk Exp $
+	$Id: calendar.xml,v 1.138 2004/12/19 15:57:59 tie Exp $
 		
 -->
 <content title="Calendar">
@@ -783,6 +783,54 @@ Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE<
 		<date>Dec 5th</date>
 		<detail> Volunteers are invited to our monthly volunteers' POW!WOW! meeting for a time of fellowship and training. We will offer a meal and a very exciting program for the kids that you won't want to miss! Check you e-mail for an e-vite or  flyers in the classrooms! Questions? Contact Donna at 255-7756.</detail>
     </event>
+                
+                <event id="12004" date="20041224" showOnHomepage="true">
+	 <title>Christmas Eve Candlelight Service</title>
+		<date>Dec 24th</date>
+		<detail>Join us on Friday, December 24th, for a special candlelight service. There will be no childcare for the Christmas Eve service. Instead, children of all ages are welcome to join the family in the auditorium.</detail>
+    </event>
+      
+               <event id="12004" date="20041231" showOnHomepage="true">
+	 <title>New Year's Eve Fellowship Parties</title>
+		<date>Dec 31st</date>
+		<detail>Join one of the many homes hosting a New Year’s Eve fellowship celebration on Dec 31st. Host homes are located throughout the area. So come, connect, and celebrate as we look forward to an exciting new year. Sign up at the Events Center.</detail>
+    </event>
+   
+                <event id="01001" date="20050101" showOnHomepage="true">
+    	 <title>New Year's Day Bowl</title>
+		<date>Jan 1st</date>
+		<detail>Are you ready for some football? If you missed out on the Turkey Bowl here’s your chance to get in on the action. Game Time is on New Year’s Day from 9am to 11am on the Wells Branch field. Flyers are available at the Events Center.</detail>
+    </event>
+    	 
+    	  <event id="01002" date="20050108" showOnHomepage="true">
+    	 <title>Men's Morning Bible Study</title>
+		<date>Jan 8th</date>
+		<detail>Come link arms with fellow Warriors as we study the life of Soldier/Poet/King David. Sign up at the Events Center for our Saturday Morning Bible Study. Contact Andy Berke @ 750-3567 or email <link href="Men's Prayer Group">calvaryaustinmen@austin.rr.com</link> for more info</detail>
+	 </event>
+    	 
+    	        <event id="01003" date="20050109" showOnHomepage="true">
+    	 <title>POW! WOW! Meeting</title>
+		<date>Jan 9th</date>
+		<detail> Volunteers are invited to our monthly volunteers' POW!WOW! meeting for a time of fellowship and training. We will offer a meal and a very exciting program for the kids that you won't want to miss! Check you e-mail for an e-vite or  flyers in the classrooms! Questions? Contact Donna at 255-7756.</detail>
+	 </event>
+	 
+	     	  <event id="01004" date="20050111" showOnHomepage="true">
+    	 <title>Women's Morning Bible Study</title>
+		<date>Jan 11th</date>
+		<detail>Starting January 11th we will meet Tuesday mornings at 10:00 – 11:30 for our study of the Bible in a year. There will be childcare and classes for the home schoolers. Cost for the study is $30.00 (Bible included). Cost for the home schooling families is $60.00 per family. Pick up a flier at the Events Center or call Billie Logiudice at 759-2436.</detail>
+	 </event>
+	 
+	 	     	  <event id="01005" date="20050116" showOnHomepage="true">
+    	 <title>Home Builder's Parenting Series</title>
+		<date>Jan 16th</date>
+		<detail>Home Builders Parenting Series is offering sign-ups thru Dec 26th for the ‘Improving Your Parenting’ study. Improve communication, be a good disciplinarian, and build character in your child. Two groups will meet on Sunday afternoons for 6 weeks beginning January 16th. Details and registration are at the Events Center</detail>
+	 </event>
+	 
+	 	 	     <event id="01006" date="20050124" showOnHomepage="true">
+    	 <title>Calvary Discipleship Program</title>
+		<date>Jan 24th</date>
+		<detail>The Calvary Discipleship Program will be starting up again in January. Please check the Events Center for information and details about signing up for classes.</detail>
+	 </event>
     
 	</calendar>
 </content>
