@@ -6,7 +6,7 @@
 	
 	Processes the ministry tag and its children tags
 	
-	$Id: ministry-home.xsl,v 1.1 2002/12/13 20:04:06 javajames27 Exp $
+	$Id: ministry-home.xsl,v 1.2 2003/03/13 18:25:50 javajames27 Exp $
 	
 -->	
 
@@ -50,7 +50,7 @@
 
 <xsl:template match="overview">
 		<tr>
-                  <td width="100%" class="tablecell" align="left" valign="top"><p><xsl:value-of select="text()"/></p></td>
+                  <td width="100%" class="tablecell" align="left" valign="top"><p class="textbold "><xsl:value-of select="text()"/></p></td>
 		</tr>
 		<tr>
 			<td><br/></td>
