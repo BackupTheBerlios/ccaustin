@@ -8516,6 +8516,15 @@
 		<audio>42-luk/42-luk-02-01.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk002.html#top</passageref>
 	</message>
+	<message date="20021229" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>The Secret of Life</title>
+		<passage>Luke 2:21-40</passage>
+		<tape>BS122902</tape>
+		<audio>42-luk/42-luk-02-21.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk002.html#top</passageref>
+	</message>
+
 
 
 </messagecatalog>
