@@ -9370,5 +9370,13 @@
 		<tape>BS100503</tape>
 		<audio>42-luk/42-luk-11-37.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk011.html#top</passageref>
-	</message>                      
+	</message> 
+	<message date="20031012" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>Living Generously - Part I</title>
+		<passage>Luke 12:1-21</passage>
+		<tape>BS101203</tape>
+		<audio>42-luk/42-luk-12-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk012.html#top</passageref>
+	</message>                     
 </messagecatalog>
