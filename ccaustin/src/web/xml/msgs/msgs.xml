@@ -8979,7 +8979,14 @@
 		<audio>42-luk/42-luk-05-17.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk005.html#top</passageref>
 	</message>
-
+	<message date="20030302" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>Three Traits of Intangible Christians</title>
+		<passage>Luke 5:27-39</passage>
+		<tape>BS030203</tape>
+		<audio>42-luk/42-luk-05-27.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk005.html#top</passageref>
+	</message>
 
 
 </messagecatalog>
