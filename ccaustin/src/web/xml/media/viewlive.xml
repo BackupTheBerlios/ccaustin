@@ -3,13 +3,13 @@
 
 	Calvary View Live
 	
-	$Id: viewlive.xml,v 1.6 2004/08/10 02:51:17 tie Exp $
+	$Id: viewlive.xml,v 1.7 2004/08/19 03:42:14 tie Exp $
 		
 -->
 <content title="View Calvary Live" base=".">
 	<live-feed>
-		<embedded href="http://www.calvarymedia.com/ccatx_video153"/>
-		<external href="http://www.calvarymedia.com/ccatx_video153"/>
+		<embedded href="mms://wm.calvarymedia.com/ccatx_video153"/>
+		<external href="mms://wm.calvarymedia.com/ccatx_video153"/>
 	</live-feed>
 
 <!--
