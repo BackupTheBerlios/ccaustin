@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Men's Ministry - The ministry and its detail
+	
+	$Id: men.xml,v 1.1 2002/03/15 23:39:05 javajames27 Exp $
+		
+-->
+<content title="Men's Ministry">
+	<ministry id="men">
+	  <name>Men's Ministry</name>
+	  <overview>The men's ministry concentrate's on building up men through prayer, study, and accountability.</overview>
+	  <long-description>
+	    <p><br/></p>
+	    <heading>Prayer<!--img src="../images/ministries/menh1.jpg" border="0"/--></heading>
+	    <p>The Men’s Ministry is about prayer. We call the men to pray for the church. Each Friday morning (6:00 AM) we invite the men to come pray in the Prayer room. Enter through the church back door.</p>
+	    <heading>Study<!--img src="../images/ministries/menh2.jpg" border="0"/--></heading>
+	    <p>The Men’s Ministry is about God’s word. We desire to see men moved through the power of God’s word. This Bible study meets every other Tuesday night (7:00 PM) in the Youth Room. Check the <a href="../calendar/events.html">calendar</a> for upcoming meetings.</p>
+         <p>Our current study is taking us through the "Letters to the Churches." We are currently in the book of Colossians, which will be followed by the book of Phillipians. Join us! You are welcome to join at any time, as we only study a chapter each meeting.</p>
+	    <heading>Accountability<!--img src="../images/ministries/menh3.jpg" border="0"/--></heading>
+	    <p>The Men’s Ministry is about growing together. As iron sharpens iron. Men meet Tuesday mornings (6:00 AM) at Kerby Lane Cafe on 183. </p>
+	  </long-description>
+	  <contacts>
+  	    <contact-email email="glendon@calvaryaustin.org">Glendon Nicks</contact-email>
+  	    <contact-web name="Location">../about/location.html</contact-web>
+   	  </contacts>
+	  <ministry-logo>/images/ministries/men.gif</ministry-logo>
+	</ministry>
+</content>

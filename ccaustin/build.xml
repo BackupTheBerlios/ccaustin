@@ -99,6 +99,7 @@
                 <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/focus.xml" out="${build.web.dir}/ministries/focus.html"/> 
                 <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/frontline.xml" out="${build.web.dir}/ministries/frontline.html"/> 
                 <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/home.xml" out="${build.web.dir}/ministries/home.html"/> 
+                <style style="${src.xml.dir}/ministries/ministry-home.xsl" force="yes" in="${src.xml.dir}/ministries/men.xml" out="${build.web.dir}/ministries/men.html"/> 
          </target>
 
 	<!-- =================================================================== -->

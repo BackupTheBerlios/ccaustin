@@ -10,7 +10,7 @@
 	Place all tag processing templates in here that are HTML-based or text-processing based 
 	(using the <text></text> tag set).
 	
-	$Id: general-html.xsl,v 1.2 2002/03/15 04:31:44 javajames27 Exp $
+	$Id: general-html.xsl,v 1.3 2002/03/15 23:39:05 javajames27 Exp $
 -->
 
 
@@ -105,6 +105,10 @@
 -->
 <xsl:template match="note">
 	<div class="note"><xsl:apply-templates select="text()"/></div>
+</xsl:template>
+
+<xsl:template match="heading">
+	<p class="heading"><xsl:apply-templates select="text()"/></p>
 </xsl:template>
 
 

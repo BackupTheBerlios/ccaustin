@@ -3,7 +3,7 @@
 
 	Home Fellowship Ministry - The ministry and its detail
 	
-	$Id: home.xml,v 1.1 2002/03/15 03:58:27 javajames27 Exp $
+	$Id: home.xml,v 1.2 2002/03/15 23:39:05 javajames27 Exp $
 		
 -->
 <content title="Home Fellowship Ministry">
@@ -30,7 +30,7 @@
 
 	  </long-description>
 	  <contacts>
-  	    <contact-web>http://www.calvarychapel.org/austin/location.html</contact-web>
+  	    <contact-web name="Location">../about/location.html</contact-web>
    	  </contacts>
 	  <ministry-logo>/images/ministries/home.gif</ministry-logo>
 	</ministry>
