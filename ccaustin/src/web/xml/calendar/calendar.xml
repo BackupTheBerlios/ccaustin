@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.89 2003/12/20 20:50:45 gregk Exp $
+	$Id: calendar.xml,v 1.90 2004/01/04 05:19:40 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -371,7 +371,7 @@ need for Praying Leaders.</detail>
     Jan 2004
     ===============
     -->
-    <event id="01001" date="20040124" showOnHomepage="false">
+    <event id="01001" date="20040124" showOnHomepage="true">
 	 <title>Childrens' Ministry Training Saturday Morning</title>
 		<date>Jan 24 2004</date>
                 <detail>All people who serve the kids come out for a great time of fun, fellowhip and very important training to develop hands-on skills and get great ideas to enhance the classroom environment.</detail>
@@ -398,6 +398,10 @@ need for Praying Leaders.</detail>
     Feb 2004
     ===============
     -->
+    <event id="02001" date="20040101" showOnHomepage="true">
+	<title>Worship Life '04</title>
+	<detail>Mid-South Worhip Conference will be held at Calvary Chapel Austin on Feb 26-28. More information and registration at the Events Center.</detail>
+    </event>
 		<!--
     ===============
     Mar 2004
@@ -432,10 +436,10 @@ need for Praying Leaders.</detail>
 		</ministries>
     </event>
 -->
-    <event id="05001" date="20040523" showOnHomepage="false">
+    <event id="05001" date="20040514" showOnHomepage="true">
 	 <title>Family Camp</title>
-	 <date>June 4 -6, 2004</date>
-                <detail>"Family", meaning our Calvary Family. All are welcome! Registration begins today at the Events Center for a deposit on this great time of fellowship and fun at our 3rd annual Camp. The event is at Blanco State Park, June 4-6, 2004. For more info, contact John Adams at 759.4433</detail>
+	 <date>May 14-16, 2004</date>
+                <detail>"Family", meaning our Calvary Family. All are welcome! Registration begins today at the Events Center for a deposit on this great time of fellowship and fun at our 3rd annual Camp. The event is at Kerrville Schreiner State Park.  For more info, contact John Adams at 759.4433</detail>
 		<ministries>
 			<ministry id="children"/>
 		</ministries>
