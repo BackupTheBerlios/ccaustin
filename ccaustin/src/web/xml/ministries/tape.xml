@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Tape Ministry - The ministry and its detail
+	
+	$Id: tape.xml,v 1.1 2002/07/08 19:59:30 javajames27 Exp $
+		
+-->
+<content title="Tape Ministry">
+  <ministry id="tape">
+    <name>Tape Ministry</name>
+    <overview>The Tape Ministry offers tapes and CDs of the
+      Sunday and Midweek messages for further review and study or
+      for evangelism.</overview>
+    <long-description>
+      <p>The Tape &amp; CD Ministry is a very important part of Calvary
+      Chapel Austin.  Most of us are blessed to receive the Gospel by
+      being able to learn and fellowship together at the church.  Some
+      people, for many reasons, can't attend the church in person or
+      they need to fill in weeks that they might have missed.  It also
+      offers a way that we as believers can evangelize friends, family
+      and strangers.  Not everyone is gifted to evangelize personally,
+      but what better way than by handing them a cassette or CD from
+      Calvary Austin!  We have many people who buy 5 or 10 tapes and
+      give them out to anyone who will take one and listen to it.  So,
+      with that being said, the purpose and mission of the tape
+      ministry is to spread the message of the Gospel!</p> 
+      <p>We Have tapes and CD's available for Sunday and Wednesday
+      services.  You can purchase messages following these services or
+      you can call the church office anytime to order a tape or CD
+      (Office# 512-719-4667).  We also offer a <link href="../msgs/msgsTapeArchive.html">catalog</link> of messages
+      that enables you to order any message you may have missed and
+      the catalog can also be requested by calling the office.  We
+      offer a subscription plan as well in which you can pay quarterly
+      and receive tapes or CD's in the mail automatically.  If you
+      have any questions about buying tapes or CD's, give us a call
+      and we'll make sure that you get what you want! </p>
+    </long-description>
+    <contacts>
+      <contact-phone phone="719-4667">Contact the church office</contact-phone>
+    </contacts>
+  </ministry>
+</content>
