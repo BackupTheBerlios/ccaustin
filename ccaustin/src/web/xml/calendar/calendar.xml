@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.68 2003/08/06 00:40:10 gregk Exp $
+	$Id: calendar.xml,v 1.69 2003/08/10 05:05:21 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -99,7 +99,7 @@
     <event id="08003" date="20030827" showOnHomepage="true">
 	 <title>Worshippers Wanted!</title>
 		<date>Aug 26th and 27th</date>
-		<detail>We need you to participate in the "live" recording of our first worship CD.  The recording will take place over two evenings, Aug 26 and 27 beginning at 7PM.  Come sing and be a part of this worship experience.</detail>
+		<detail>We need you to participate in the "live" recording of our first worship CD.  The recording will take place over two evenings, Aug 26 and 27 beginning at 7PM.  Come sing and be a part of this worship experience. Childcare will be provided on Tuesday, Aug 26th, for ages 2 years through 5th grade.</detail>
 		<ministries>
 			<ministry id="worship"/>
 		</ministries>
@@ -121,7 +121,7 @@
 			<ministry id="children"/>
 		</ministries>
     </event>
-    <event id="08007" date="20030809" showOnHomepage="true">
+    <event id="08007" date="20030806" showOnHomepage="true">
 	 <title>YDC Starts A New Year</title>
 		<date>Aug 6th</date>
 		<detail>Young Disciples Club is a discipleship club for Wise Guys, Witnesses and Watchmen -- boys and girls Kindergarten through Fifth grade. There is worship, Bible teaching, game and group times each Wednesday enening at 7PM.</detail>
@@ -153,6 +153,14 @@
 			<ministry id="coffee"/>
 		</ministries>
     </event>
+    <event id="08011" date="20030824" showOnHomepage="true">
+	 <title>Children's Ministry Orientation</title>
+		<date>Aug 24th</date>
+		<detail>Orientation is required for anyone involved in the children's ministry. Our next meeting is Aug 24th from 5:00-7:30 pm. Bring your family to church for dinner. New CM manual and childcare will be provided. Contact Lara Nattinger(260-6851) for more information. Please sign up at the Events Center.</detail>
+		<ministries>
+			<ministry id="children"/>
+		</ministries>
+    </event>
 		<!--
 	===============
 	Sept
@@ -161,7 +169,7 @@
     <event id="09001" date="20030927" showOnHomepage="true">
 	 <title> Men's Retreat</title>
 		<date>Sept 25th - 27th </date>
-		<detail>Registration continues for the Sep 25-27 retreat at T-Bar-M Ranch in New Braunfels. The main speaker is Ken Graves from Calvary Chapel Bangor, Maine.  Men mark your calendars and sign up at the Events Center. Registration deadline is Aug 10th</detail>
+		<detail>Sunday, Aug 10th is the last day to register for the Sep 25-27 retreat at T-Bar-M Ranch in New Braunfels. The main speaker is Ken Graves from Calvary Chapel Bangor, Maine.  Sign up at the Events Center. </detail>
 		<ministries>
 			<ministry id="men"/>
 		</ministries>
@@ -169,15 +177,15 @@
     <event id="09002" date="20030908" showOnHomepage="false">
 	 <title>School of Ministry - Fall Semester</title>
 		<date>Sept 8th</date>
-		<detail>More details to come soon</detail>
+		<detail>Interested in learning more about apologetics, theology, church history, small group ministry, evangelism or inductive Bible study? We are taking signups until Aug 31th at the Events Center. School of Ministry begins Sept 8th and meets on Wednesdays at 7PM at the church.</detail>
 		<ministries>
 			<ministry id="school"/>
 		</ministries>
     </event>
-    <event id="09003" date="20030811" showOnHomepage="true">
+    <event id="09003" date="20030908" showOnHomepage="true">
 	 <title>Marriage Ministry</title>
 		<date>Sept 8th</date>
-		<detail>Registration for the Fall group meetings in now open. Topics will include: Building your Mate's Self-Esteem, Raising Children of Faith, and Making Your Remarriage Last. Groups will meet starting the 2nd week of Sept. Cost is $16 per couple. Sign up at the Events Center. Spaces are limited. Registration deadline is Aug 10th.</detail>
+		<detail>Sunday, Aug 10th is the last day to register for the Fall group meetings. Topics will include: Building your Mate's Self-Esteem, Raising Children of Faith, and Making Your Remarriage Last. Groups will meet starting the 2nd week of Sept. Cost is $16 per couple. Sign up at the Events Center. Spaces are limited. </detail>
 		<ministries>
 			<ministry id="marriage"/>
 		</ministries>
