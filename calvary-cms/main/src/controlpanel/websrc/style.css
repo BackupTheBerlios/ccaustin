@@ -1,5 +1,29 @@
+/*
+   Calvary Control Panel
+  
+   Color Palette (from the Calvary logo):
+  
+   Dark Blue:    #333A6E - cross/ring
+   Steel Blue:   #545784 - name
+   Light Blue:   #CACCE5 - cross/ring shadow
+   Light Gold:   #E9E0A7 - starburst
+   Gold:         #A59700 - drop shadow to cross
+
+   New Color Palette (strong blues):
+
+   Dark Blue:    #0E3184
+   Light Blue:   #B2C7F7
+
+   Even Better (TM) Color Palette (pale blues):
+
+   Dark Blue:    #
+   Light Blue:   #
+   Lighest Blue: #
+
+*/
+
 body {
-	background-color: #999999;
+	background-color: #0E3184;
 	color: #000000;
 	font-family: sans-serif;
 	font-size: 10pt;
@@ -7,20 +31,25 @@ body {
 	padding: 0px;
 }
 
-.c1
+.header {
+    background-color: #6A6EA6
+}
+
+.footer {
+    background-color: #B2C7F7;
+    text-align: center;
+}
+
+.tableShadow
 {
     border-top: black thin;
     font-weight: bolder;
     font-size: 25pt;
     color: white;
     font-family: 'times new roman', arial;
-    background-color: #ffcc00
+    background-color: #6A6EA6
 }
-.c2
-{
-    background-color: black
-}
-.c3
+.tableFloating
 {
     border-right: black thin solid;
     border-top: black thin solid;
@@ -32,11 +61,11 @@ body {
     background-color: white;
     font-variant: normal
 }
-.c4
+.tableFloatingHeader
 {
     background-color: white
 }
-.c6
+.tableLayout
 {
     border-right: medium none;
     border-top: medium none;
@@ -44,7 +73,7 @@ body {
     border-bottom: medium none;
     background-color: #ffffff
 }
-.l1a
+.tableFloatingLink
 {
     border-right: #ffffff 1px;
     border-top: #ffffff 1px;
@@ -57,7 +86,7 @@ body {
     text-align: left;
     text-decoration: none
 }
-.l1b
+.tableFloatingLinkSelect
 {
     border-right: #ffffff 1px;
     border-top: #ffffff 1px;
@@ -70,79 +99,58 @@ body {
     text-align: left;
     text-decoration: none
 }
-a.l2:hover
+.navButtonBar
 {
-    font-size: 10pt;
-    color: #e3d266;
-    font-family: verdana, arial;
-    text-decoration: none
+    background-color: #B2C7F7;
 }
-a.l2
+.navButtonBorder
 {
-    font-size: 10pt;
+    padding-top: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 0px;
+    border-right: #FFFFFF 1px solid
+}
+a.navButtonLink
+{
+    font-size: 8pt;
     color: white;
     font-family: verdana, arial;
     text-decoration: none
 }
-.h3
-{
-    font-weight: bold;
-    font-size: 20pt;
-    color: black;
-    font-family: arial, 'verdana ref', verdana
-}
-.h1
-{
-    font-size: 25pt;
-    color: black;
-    font-family: 'times new roman', arial
-}
-.h2
+a.navButtonLink:hover
 {
     font-size: 8pt;
-    color: black;
-    font-family: verdana, arial
+    color: yellow;
+    font-family: verdana, arial;
+    text-decoration: none;
 }
-a.l3:hover
+a.navButtonFoo:hover
 {
     font-size: 10pt;
     color: #3399ff;
     font-family: arial, verdana
 }
-a.l3
+a.navButtonFoo
 {
     font-size: 10pt;
     color: blue;
     font-family: arial, verdana
 }
-.normal
-{
-    font-weight: normal;
-    font-size: 10pt;
-    color: gray;
-    font-family: 'verdana ref', verdana
-}
-.h4
-{
-    font-weight: bold;
-    font-size: 12pt;
-    color: black;
-    font-family: 'times new roman', arial, verdana
-}
-a.l4:hover
-{
-    font-weight: bold;
-    font-size: 12pt;
-    color: white;
-    font-family: 'times new roman';
-    text-decoration: none
-}
-a.l4
+a.navExternalLink
 {
     font-weight: bold;
     font-size: 12pt;
     text-transform: none;
     color: gainsboro;
+    font-family: 'times new roman';
+    text-decoration: none
+}
+a.navExternalLink:hover
+{
+    font-weight: bold;
+    font-size: 12pt;
+    color: white;
     font-family: 'times new roman';
     text-decoration: none
 }
@@ -271,46 +279,30 @@ a.l4
 
 
 tr.tableRowHeader {
-//  font-family: verdana, tahoma, arial, helvetica;
-//  font-size: x-small;
   font-weight: bold;
   background-color: #ffcc00;
 }
 td.tableCell_header {
-//  font-family: verdana, tahoma, arial, helvetica;
-//  font-size: x-small;
   font-weight: bold;
   color: black;
 }
 a.tableCellHeader {
-//  font-family: verdana, tahoma, arial, helvetica;
-//  font-size: x-small;
   font-weight: bold;
   text-decoration: none;
   color: black;
 }
 a.tableCellHeader:hover {
-//  font-family: verdana, tahoma, arial, helvetica;
-//  font-size: x-small;
   font-weight: bold;
   text-decoration: underline;
   color: black;
 }
 tr.tableRowOdd {
-//  font-family: verdana, tahoma, arial, helvetica;
-//  font-size: x-small;
-
   background-color: #ffffff
 }
 tr.tableRowEven {
-//  font-family: verdana, tahoma, arial, helvetica;
-//  font-size: x-small;
-
   background-color: #ffeeaa
 }
 td.tableCell {
-//  font-family: verdana, tahoma, arial, helvetica;
-//  font-size: x-small;
 }
 
 td.browserTableCell {
@@ -341,4 +333,26 @@ pre.viewerName {
 
 .fieldLabel {
   font-weight: bold;
+}
+
+.contentHead1
+{
+    font-weight: bold;
+    font-size: 20pt;
+    color: black;
+    font-family: arial, 'verdana ref', verdana
+}
+.contentHead2
+{
+    font-weight: bold;
+    font-size: 12pt;
+    color: black;
+    font-family: 'times new roman', arial, verdana
+}
+.miscnormal
+{
+    font-weight: normal;
+    font-size: 10pt;
+    color: gray;
+    font-family: 'verdana ref', verdana
 }
