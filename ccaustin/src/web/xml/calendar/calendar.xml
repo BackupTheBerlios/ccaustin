@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.110 2004/03/28 20:59:32 gregk Exp $
+	$Id: calendar.xml,v 1.111 2004/03/29 01:33:58 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -475,9 +475,9 @@ and to register visit the Events Center.</detail>
 		<date>Apr 04</date>
                 <detail>Don't forget <strong>Daylight Saving Time</strong> is this Sunday, April 4th. Move your clock forward one hour.</detail>
     </event>
-    <event id="04003" date="20040405" showOnHomepage="true">
+    <event id="04003" date="20040409" showOnHomepage="true">
 	 <title>Good Friday</title>
-		<date>Apr 05</date>
+		<date>Apr 09</date>
     </event>
     <event id="04004" date="20040411" showOnHomepage="true">
 	 <title>Easter Sunday Calvary Kids</title>
@@ -488,12 +488,12 @@ and to register visit the Events Center.</detail>
 		</ministries>
     </event>
     <event id="04005" date="20040412" showOnHomepage="true">
-	 <title>Building Momentum:     VISION NIGHT</title>
-		<date>Apr 12</date>
+	 <title>Building Momentum:     VISION NIGHTS</title>
+		<date>Apr 12 - 25</date>
     </event>
     <event id="04006" date="20040425" showOnHomepage="true">
 	 <title>Building Momentum:   FAMILY CONFERENCES</title>
-		<date>Apr 25</date>
+		<date>Apr 25 - May 1</date>
     </event>
 		<!--
     ===============
