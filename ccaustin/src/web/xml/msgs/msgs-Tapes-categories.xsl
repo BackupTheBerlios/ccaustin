@@ -21,11 +21,13 @@
 
 	<table>
 		<xsl:for-each select="category">
-		  <tr>
-	  	    <td width="25%" nowrap="true" align="right" valign="top"><a><xsl:attribute name="href"><xsl:value-of select="@tapepage"/></xsl:attribute><xsl:value-of select="@title"/></a></td>
-	  	    <td width="5%" align="left"><br/></td>
-	  	    <td width="70%" align="left"><xsl:value-of select="background"/></td>
-		  </tr>
+  		    <xsl:if test="@tapepage!= ''">
+			  <tr>
+		  	    <td width="25%" nowrap="true" align="right" valign="top"><a><xsl:attribute name="href"><xsl:value-of select="@tapepage"/></xsl:attribute><xsl:value-of 	select="@title"/></a></td>
+		  	    <td width="5%" align="left"><br/></td>
+		  	    <td width="70%" align="left"><xsl:value-of select="background"/></td>
+			  </tr>
+		    </xsl:if>
 		</xsl:for-each>
 	</table>
 

@@ -1,34 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <messagecatagories>
 	<category title="Book Studies" audiopage="msgsAudioBookStudies.html" tapepage="msgsTapesBookStudies.html">
-        <background>
+		<background>
         Our Book Studies completely cover Bible books expositionally.
         </background>
-    </category>
+	</category>
 	<category title="Overview" audiopage="msgsAudioOverview.html" tapepage="msgsTapesOverview.html">
-        <background>
+		<background>
         Our Bible Overview messages began in Genesis and continue through the Bible.
         Each message covers one or more chapters at a time. 
         </background>
-    </category>
+	</category>
 	<category title="In-Depth Studies" audiopage="msgsAudioInDepth.html" tapepage="msgsTapesInDepth.html">
-        <background>
+		<background>
         Our In-Depth Studies are a long-term detailed study of a specific book of the Bible. 
         </background>
-    </category>
+	</category>
 	<category title="Topical Series" audiopage="msgsAudioTopicalSeries.html" tapepage="msgsTapesTopicalSeries.html">
-        <background>
+		<background>
         Our Topical Series cover multiple messages focused on a primary topic.
         </background>
-    </category>
+	</category>
 	<category title="Topical Messages" audiopage="msgsAudioMisc.html" tapepage="msgsTapesMisc.html">
-        <background>
+		<background>
         Our Topical Messages cover significant times of the year such as Christmas, Easter, and Halloween.
         </background>
-    </category>
+	</category>
 	<category title="Guest Speakers" audiopage="msgsAudioMisc.html" tapepage="msgsTapesMisc.html">
-        <background>
+		<background>
         From time to time we are blessed to have a guest speaker share with us. 
         </background>
-    </category>
+	</category>
+	<category title="Sunday Messages" audiopage="msgsSundayCur.html">
+		<background>
+        Our archive of past Sunday Messages 
+        </background>
+	</category>
+	<category title="Midweek Messages" audiopage="msgsMidweekCur.html">
+		<background>
+        Our archive of past Sunday Messages 
+        </background>
+	</category>
 </messagecatagories>

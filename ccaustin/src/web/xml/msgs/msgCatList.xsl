@@ -125,7 +125,7 @@
 
 <xsl:template name="msgCatAudioEntry">
     <xsl:if test="string(audio) != ''">
-        <A><xsl:attribute name="href">/austin/audio/<xsl:value-of select="audio"/></xsl:attribute>
+        <A><xsl:attribute name="href">http://www.calvarychapel.org/austin/audio/<xsl:value-of select="audio"/></xsl:attribute>
         <xsl:if test="string(passage) != ''">
             <xsl:value-of select="passage"/>
             <xsl:if test="string(title) != ''">
@@ -379,16 +379,16 @@
 	  </FONT></TD>
 	</TR>
 	<TR>
-	  <TD ALIGN="right" VALIGN="middle"><A HREF="cctape.html"><IMG SRC="../images/cassette.jpg" ALT="View the Calvary Continuum Audio Tape catalog" BORDER="0"/></A></TD>
+	  <TD ALIGN="right" VALIGN="middle"><A HREF="../msgs/tapeorder.html"><IMG SRC="../images/cassette.jpg" ALT="View the Calvary Continuum Audio Tape catalog" BORDER="0"/></A></TD>
 	  <TD ALIGN="left"><FONT FACE="TAHOMA,VERDANA,ARIAL,HELVETICA" SIZE="-1">
-	    Go to the <A HREF="cctape.html">Calvary Continuum Audio Tape</A> catalog.
+	    Go to the <A HREF="../msgs/tapeorder.html">Calvary Continuum Audio Tape</A> catalog.
 	  </FONT>
 	  </TD>
 	</TR>
 	<TR>
-	  <TD ALIGN="right" VALIGN="middle"><A HREF="archive.html"><IMG SRC="../images/filecab.jpg" ALT="View the online audio message archive" BORDER="0"/></A></TD>
+	  <TD ALIGN="right" VALIGN="middle"><A HREF="../msgs/msgsAudioArchive.html"><IMG SRC="../images/filecab.jpg" ALT="View the online audio message archive" BORDER="0"/></A></TD>
 	  <TD ALIGN="left"><FONT FACE="TAHOMA,VERDANA,ARIAL,HELVETICA" SIZE="-1">
-	    Go to Pastor Allen's <A HREF="archive.html">RealAudio online message archive</A>.
+	    Go to Pastor Allen's <A HREF="../msgs/msgsAudioArchive.html">RealAudio online message archive</A>.
 	    </FONT>
 	  </TD>
 	</TR>
@@ -402,7 +402,7 @@
 	<xsl:sort select="@date" data-type="number" order="descending"/>
 	<xsl:if test="position() &lt; 24">
 	<TR>
-	  <TD WIDTH="48" ROWSPAN="2" ALIGN="center" VALIGN="middle"><A><xsl:attribute name="href">/austin/audio<xsl:value-of select="audio"/></xsl:attribute><IMG SRC="../images/rnicon.gif" ALT="Listen with RealAudio" BORDER="0"/></A></TD>
+	  <TD WIDTH="48" ROWSPAN="2" ALIGN="center" VALIGN="middle"><A><xsl:attribute name="href">http://www.calvarychapel.org/austin/audio<xsl:value-of select="audio"/></xsl:attribute><IMG SRC="../images/rnicon.gif" ALT="Listen with RealAudio" BORDER="0"/></A></TD>
 	  <TD ALIGN="left"><FONT FACE="TAHOMA,VERDANA,ARIAL,HELVETICA"><A TARGET="_blank"><xsl:attribute name="href"><xsl:value-of select="passageref"/></xsl:attribute><B><xsl:value-of select="passage"/></B></A></FONT></TD>
 	  <TD ALIGN="right"><FONT FACE="TAHOMA,VERDANA,ARIAL,HELVETICA"><xsl:value-of select="document('')/*/months:name[@sequence=substring(current()/@date,5,2)]"/><xsl:text> </xsl:text><xsl:value-of select="number(substring(@date,7,2))"/>, <xsl:value-of select="number(substring(@date,1,4))"/></FONT></TD>
 	</TR>
