@@ -10466,6 +10466,13 @@
 	<audio>topicmessage/TM020605.wma</audio> 
 	<passageref></passageref> 
 	</message>
-
+	<message date="20050213" service="sunday" category="book studies">
+	<seriestitle>Philippians - 2005</seriestitle>
+	<title>Achievers</title>
+	<passage>Philippians 3:1-11</passage>
+	<tape>BS021305</tape>
+	<audio>50-phi/50-phi-03-01.wma</audio>
+	<passageref>http://www.blueletterbible.org/kjv/Phl/Phl003.html#top</passageref>
+	</message>
 
 </messagecatalog>
