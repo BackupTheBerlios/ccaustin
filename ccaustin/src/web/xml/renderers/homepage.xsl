@@ -4,7 +4,7 @@
      
      Homepage custom renderer
 
-     $Id: homepage.xsl,v 1.13 2004/03/22 18:39:56 gregk Exp $
+     $Id: homepage.xsl,v 1.14 2004/03/31 18:00:24 gregk Exp $
      
 -->       
 
@@ -236,7 +236,7 @@
 	    <tr class="featuredarticlebox">
 		      <td width="225"><img width="125" height="125" src="../images/homepage/pastors_pen.jpg" alt="Featured Article"/></td>
 		      <td width="2%"><br/></td>
-		      <td width="99%" valign="center"><p><span class="featureheading">Pastor Allen's Blog</span><br/><xsl:value-of select="@date"/></p><xsl:if test="count(p) &gt; 3"><xsl:apply-templates select="p[1]"/><span class="readmore">[<a href="../blogs/allen.html" class="readmore">Read the complete weblog...</a>]	</span></xsl:if><xsl:if test="count(p) &lt; 4"><xsl:apply-templates/><span class="readmore">[<a href="../blogs/allen.html" class="readmore">Read Past Weblogs...</a>]	</span></xsl:if></td><br/><br/>
+		      <td width="99%" valign="center"><p><span class="featureheading">Pastor Allen's Blog</span><br/><xsl:value-of select="@date"/></p><xsl:if test="count(p) &gt; 4"><xsl:apply-templates select="p[1]"/><span class="readmore">[<a href="../blogs/allen.html" class="readmore">Read the complete weblog...</a>]	</span></xsl:if><xsl:if test="count(p) &lt; 5"><xsl:apply-templates/><span class="readmore">[<a href="../blogs/allen.html" class="readmore">Read Past Weblogs...</a>]	</span></xsl:if></td><br/><br/>
 	    </tr>
 	</table>
 </xsl:template>
