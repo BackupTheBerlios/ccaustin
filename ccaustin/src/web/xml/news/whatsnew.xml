@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.106 2004/11/19 01:04:59 tie Exp $
+	$Id: whatsnew.xml,v 1.107 2004/12/19 15:42:03 tie Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -550,6 +550,10 @@ internet or check out the audio archive on our web site.</detail></news-item>
 						<news-item id="159" date="20041118" expires="20041226" showOnHomepage="true">
 		   <title>Local Christmas Adoptions</title>
 		   <detail>We have ten families with needy children in our community that Calvary Austin has “adopted” for Christmas gifts and food. Participation includes: buying gifts for the children, buying food for the family, supplying extra treats, and delivering the gifts. We also will need those who can speak Spanish to help communicate with some families. Get involved by visiting the Events Center.</detail>
+		</news-item>
+			<news-item id="160" date="20041218" expires="20041223" showOnHomepage="true">
+		   <title>No Wednesday Service</title>
+		   <detail>There will be no midweek service on December 22nd, 2004. Join us for the Christmas Eve Candlelight Service on December 24th, 2004 for a special Christmas Eve Service.</detail>
 		</news-item>
 <!--
 -->
