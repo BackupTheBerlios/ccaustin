@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.83 2003/11/17 06:39:26 gregk Exp $
+	$Id: calendar.xml,v 1.84 2003/11/22 14:15:14 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -312,6 +312,11 @@ need for Praying Leaders.</detail>
     <event id="11007" date="20031126" showOnHomepage="true">
 			<title>Thanksgiving Schedule Changes</title>
 			<detail>There will be no Wednesday evening service Nov 26th. Offices will be closed Nov 27th and 28th.</detail>
+    </event>
+    <event id="11008" date="20031127" showOnHomepage="true">
+		<date>Nov 27th</date>
+			<title>5th Annual Turkey Bowl</title>
+			<detail>Come join us RAIN or SHINE for flag football at 8:30 at Wells Branch Community Center on Thanksgiving morning. Flyers available at the Events Center.</detail>
     </event>
 
 		<!--

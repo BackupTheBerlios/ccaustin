@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.56 2003/11/17 06:28:11 gregk Exp $
+	$Id: whatsnew.xml,v 1.57 2003/11/22 14:16:02 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -236,7 +236,7 @@
 			<title>Preorder Your "LIVE" Worship CD!</title>
 			<detail>You may support our recording project by preordering the Calvary Austin Worship CD at a 20% discount for $12. Come by the Events Center today. This offer is good only through this week.</detail>
 		</news-item>
-		<news-item id="83" date="20031024" expires="20031126" showOnHomepage="true">
+		<news-item id="83" date="20031024" expires="20031129" showOnHomepage="true">
 			<title>Multimedia Volunteers Needed</title>
 			<detail>The Media Ministry is in need of volunteers to help in the Video and Streaming Media areas. No experience is necessary, we will provide the training. All you need is a servant's heart. <link href="jeremy@calvaryaustin.org">Contact Jeremy</link> if you are interested in becoming a member of the team.</detail>
 		</news-item>
@@ -246,7 +246,7 @@
 		</news-item>
 		<news-item id="85" date="20031114" expires="20031220" showOnHomepage="true">
 			<title>Christmas Adoptions</title>
-			<detail>The Children's Ministry is once again adopting children from our local neighborhood elementary schools to help out with meals and gifts during this Christmas season. Sign up this week at the Events Center. For more information call Jean Janes(345.8017)</detail>
+			<detail>The Children's Ministry is once again adopting children from our local neighborhood elementary schools to help out with meals and gifts during this Christmas season. All collections due Dec 7th. Sign up this week at the Events Center. For more information call Donna Cano(255.7756)</detail>
 		</news-item>
 		<news-item id="86" date="20031116" expires="20031124" showOnHomepage="true">
 			<title>Actresses Needed</title>
@@ -254,7 +254,15 @@
 		</news-item>
 		<news-item id="87" date="20031116" expires="20031130" showOnHomepage="true">
 			<title>Crown Financial Ministry</title>
-			<detail>Proverbs 21:20 "The wise man saves for the future, but the foolish man spends whatever he gets." Sign up for the Crown today at the Events Center. Payment is due by the end of Nov. This is a 10 week small group study. Childcare is provided in some groups.</detail>
+			<detail>Do you have a budget? Do you live within it? Do you have a current will, savings/investment plan, debt repayment plan, giving plan, and do they align with God's Word? Come learn what the Bible teaches about these things, make some new friends, and learn how to develop and manage these practical tools relating to finances. Stop by the Events Center today for details. Sign up and payment deadline is Sunday Nov 29th.</detail>
+		</news-item>
+		<news-item id="88" date="20031116" expires="20031222" showOnHomepage="true">
+			<title>Marriage Ministry</title>
+			<detail>Beginning in January, come join the many couples going through the Home Builder's curriculum. Topics include overcoming stress, building your mate's self-esteem, raising children of faith, making remarriage last, and mastering money. Cost for books are $8-$10. Groups meet weekly for 6 to 7 weeks. Space is limited. Sign up today at the Events Center. Registration deadline is Dec 21th.</detail>
+		</news-item>
+		<news-item id="89" date="20031116" expires="20031130" showOnHomepage="true">
+			<title>Win and Equip Our Children</title>
+			<detail>Be a part of the Young Disciples Club (YDC). To maintain a quality discipleship club, we need several volunteers. We have a flexible monthly schedule. A YDC table will be in the Children's Ministry Hall after each service or contact Dee Dee Michell(512.759.2040).</detail>
 		</news-item>
 	</news>
 </content>
