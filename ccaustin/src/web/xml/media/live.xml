@@ -3,7 +3,7 @@
 
 	Calvary Live
 	
-	$Id: live.xml,v 1.2 2002/07/10 18:30:12 javajames27 Exp $
+	$Id: live.xml,v 1.3 2002/10/11 14:45:38 javajames27 Exp $
 		
 -->
 <content title="Calvary Live" base=".">
@@ -11,7 +11,7 @@
 	<welcome>
 		<p>Join us every Sunday morning and Wednesday evening for our live webcast. You may watch, using RealVideo®, during the times 	listed below. Be sure to pick up a copy (by clicking on the icon below) of the RealPlayer; it's way cool! When you're ready to go, click on the 	Live button below to join us at our home in Austin, Texas.</p>
 		<subtext>Our RealVideo is a G2 stream. This means that you need a recent version of the RealPlayer, and that you can watch over a 	28K modem, 56K modem, or cable modem or DSL connection. </subtext>
-	
+	     <note>We are currently experiencing problems with our streaming video and audio feed. We are working to resolve this problem as soon as possible. Thank you for your understanding and prayers.</note>
 	</welcome>
 	
 	 <broadcasts>

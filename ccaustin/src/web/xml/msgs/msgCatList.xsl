@@ -6,6 +6,9 @@
     doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
     doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" />
 
+<xsl:include href="../general-html.xsl"/>
+
+
 <months:name sequence="01">Jan</months:name>
 <months:name sequence="02">Feb</months:name>
 <months:name sequence="03">Mar</months:name>
@@ -35,6 +38,7 @@
 	  <TD COLSPAN="2" ALIGN="right"><IMG SRC="../images/underbar.gif" border="0"/><BR/></TD>
 	</TR>
     </TABLE>
+	     <div class="note">We are currently experiencing problems with our streaming video and audio feed. We are working to resolve this problem as soon as possible. Thank you for your understanding and prayers.</div>
 </xsl:template>
 
 <xsl:template name="msgCatAudioSwitcher">
@@ -378,6 +382,8 @@
 	    which is an excellent online Bible resource.
 	  </FONT></TD>
 	</TR>
+	<tr><td colspan="2">	     <div class="note">We are currently experiencing problems with our streaming video and audio feed. We are working to resolve this problem as soon as possible. Thank you for your understanding and prayers.</div>
+</td></tr>
 	<TR>
 	  <TD ALIGN="right" VALIGN="middle"><A HREF="../msgs/msgsTapeArchive.html"><IMG SRC="../images/cassette.jpg" ALT="View the Calvary Continuum Audio Tape catalog" BORDER="0"/></A></TD>
 	  <TD ALIGN="left"><FONT FACE="TAHOMA,VERDANA,ARIAL,HELVETICA" SIZE="-1">
