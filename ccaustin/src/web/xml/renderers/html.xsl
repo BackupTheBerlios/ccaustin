@@ -14,7 +14,7 @@
 	When a new tag is needed, consider using its HTML equivalent if its name and format is common english. 
 	(e.g. <a/> is not really anything meaningful for the average person, but <link/> is)
 	
-	$Id: html.xsl,v 1.1 2002/12/13 20:04:06 javajames27 Exp $
+	$Id: html.xsl,v 1.2 2002/12/17 01:02:35 javajames27 Exp $
 -->
 
 
@@ -418,6 +418,11 @@
 
 <xsl:template match="script">
   <script language="{@language}" type="{@type}" src="{@src}"></script>
+</xsl:template>
+
+<xsl:template match="html">
+  <!-- copy all child tags verbatim to the target page -->
+  <xsl:copy-of select="."/>
 </xsl:template>
 
 </xsl:stylesheet>

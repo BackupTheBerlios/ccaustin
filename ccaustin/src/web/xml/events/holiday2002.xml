@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	$Id: holiday2002.xml,v 1.1 2002/12/17 01:02:35 javajames27 Exp $
+		
+-->
+<content title="Holiday Events 2002">
+  <html>
+		<table width="75%" border="0" align="center" background="../images/events/holidaybg.jpg">
+		  <tr> 
+		    <td valign="top">
+		<h2 align="center">Holiday Events</h2>
+		      <table width="96%" border="0" align="center">
+		        <tr> 
+		          <td width="22%"><strong>Christmas Eve Service</strong></td>
+		          <td width="78%"><br/>
+		            December 24th, 6-7PM</td>
+		        </tr>
+		        <tr> 
+		          <td colspan="2"><hr noshade="true"/></td>
+		        </tr>
+		        <tr> 
+		          <td><strong>New Year's Eve Service </strong></td>
+		          <td>December 31st, 7:30-10:30PM</td>
+		        </tr>
+		        <tr> 
+		          <td colspan="2"><hr noshade="true"/></td>
+		        </tr>
+		        <tr> 
+		          <td><strong>No Wednesday Services</strong></td>
+		          <td>December 25th and January 1st</td>
+		        </tr>
+		        <tr> 
+		          <td colspan="2"><hr noshade="true"/></td>
+		        </tr>
+		        <tr> 
+		          <td valign="top"> <strong>Christmas Adoptions </strong></td>
+		          <td>The Children's Ministry is once again adopting children from our 
+		            local neighborhood elementary schools to help out with meals and gifts 
+		            during this Christmas season. You may participate or ger more information 
+		            by visiting the Events Center.</td>
+		        </tr>
+		      </table>
+		      <p><br/></p>
+		      <p><br/></p>
+		      <p><br/></p>
+		      <p><br/></p>
+		      </td>
+		  </tr>
+		</table>
+ </html>
+</content>
