@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.108 2004/03/16 18:57:00 gregk Exp $
+	$Id: calendar.xml,v 1.109 2004/03/18 08:16:28 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -542,7 +542,7 @@ and to register visit the Events Center.</detail>
     <event id="10001" date="20041001" showOnHomepage="true">
 	 <title>Family Camp</title>
 	 <date>Oct 1-3</date>
-                <detail>"Family", meaning our Calvary Family. All are welcome! Registration begins today at the Events Center for a deposit on this great time of fellowship and fun at our 3rd annual Camp. The event is at Kerrville Schreiner State Park.  For more info, contact John Adams at 759.4433</detail>
+                <detail>"Family", meaning our Calvary Family. All are welcome! Look for signups in the summer for a great time of fellowship and fun at our 3rd annual Camp. For more info, contact John Adams at 759.4433</detail>
 		<ministries>
 			<ministry id="children"/>
 		</ministries>
@@ -550,8 +550,8 @@ and to register visit the Events Center.</detail>
     <event id="10002" date="20041011" showOnHomepage="true">
 	 <title>Israel Trip</title>
 		<date>Oct 11-22</date>
-                <detail>The Israel tour is scheduled for Oct. 11 - Oct. 22, 2004. Join Pastor Allen in the New Parent's room, after either service on
-Sunday, February 29 for a brief presentation.</detail>
+                <detail>The Israel tour is scheduled for Oct. 11 - Oct. 22, 2004
+</detail>
     </event>
 	</calendar>
 </content>

@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.76 2004/03/06 03:28:09 gregk Exp $
+	$Id: whatsnew.xml,v 1.77 2004/03/18 08:15:54 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -329,11 +329,15 @@
 			<title>Intercessory Prayer Group </title>
 			<detail>New Christians, mature Christians, anyone with a heart for prayer is invited to join the Intercessory Prayer Connection for intercessory prayer. Please meet us in the prayer room during the 9:30 AM Sunday service.</detail>
 		</news-item>
-		<news-item id="106" date="20040201" expires="20040326" showOnHomepage="true">
+			<news-item id="106" date="20040105" expires="20040427" showOnHomepage="true">
+			<title>Calvary Austin Music WebPage</title>
+			<detail>The new <link href="http://www.calvaryaustinmusic.org">Calvary Austin Music WebPage</link> is here! Check out the new CD release <strong>"I Will"</strong>, learn the stories behind the songs, and much more!</detail>
+   </news-item>
+		<news-item id="118" date="20040201" expires="20040326" showOnHomepage="false">
 			<title>Audio</title>
 			<detail>Pastor Allen's messages are available on tape, CD, and MP3 after every service in the lobby. Tape catalogs are also available.</detail>
 		</news-item>
-		<news-item id="107" date="20040201" expires="20040328" showOnHomepage="true">
+		<news-item id="107" date="20040201" expires="20040328" showOnHomepage="false">
 			<title>Bookstore</title>
 			<detail>Check-out all the Bibles, books, study guides, journals, and books for kids. You can also special order. The bookstore is open after every Wednesday and Sunday service.</detail>
 		</news-item>
@@ -389,9 +393,5 @@ after every Wednesday and Sunday service.</detail>
 970AM or at 9:30am on 1010AM. Watch our tv program on cable access
 channel 11 Saturdays at NOON.  Watch select services live on the
 internet or check out the audio archive on our web site.</detail></news-item>
-			<news-item id="118" date="20040305" expires="20040327" showOnHomepage="true">
-			<title>Calvary Austin Music WebPage</title>
-			<detail>The new <link href="http://www.calvaryaustinmusic.org">Calvary Austin Music WebPage</link> is here! Check out the new CD release <strong>"I Will"</strong>, learn the stories behind the songs, and much more!</detail>
-   </news-item>
   </news>
 </content>
