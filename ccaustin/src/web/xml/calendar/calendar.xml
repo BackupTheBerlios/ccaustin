@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.78 2003/10/19 03:36:06 gregk Exp $
+	$Id: calendar.xml,v 1.79 2003/10/26 05:16:47 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -240,7 +240,7 @@ need for Praying Leaders.</detail>
 	 <title>Extended Worship</title>
 		<date>Oct 22nd</date>
     </event>
-    <event id="10003" date="20031117" showOnHomepage="false">
+    <event id="10003" date="20031017" showOnHomepage="false">
 	 <title>Mexico Mission Trip</title>
 		<date>Nov 14-16</date>
     </event>
@@ -278,6 +278,11 @@ need for Praying Leaders.</detail>
 			<ministry id="singles"/>
 		</ministries>
     </event>
+    <event id="11002" date="20031114" showOnHomepage="true">
+	 <title>Mexico Mission Trip</title>
+		<date>Nov 14th-16th</date>
+		<detail>Come share the love of Jesus with His children south of the border in Pan De Vida. Sign up at the Events Center. For those who cannot go, participate by donating from the list of needed items.</detail>
+    </event>
 
 		<!--
 	===============
@@ -288,6 +293,14 @@ need for Praying Leaders.</detail>
 	 <title>Calvary Kids New Years' Eve Party</title>
 		<date>Dec 31st</date>
                 <detail>Snacks, Games, Prizes, Movies, Worship and Prayer.</detail>
+    </event>
+    <event id="12002" date="20031224" showOnHomepage="false">
+	 <title>Christmas Eve Service</title>
+		<date>Dec 24th</date>
+    </event>
+    <event id="12003" date="20031203" showOnHomepage="false">
+	 <title>Communion</title>
+		<date>Dec 3rd</date>
     </event>
 
 		<!--
