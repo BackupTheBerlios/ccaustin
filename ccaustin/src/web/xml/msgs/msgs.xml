@@ -4020,6 +4020,14 @@
 <audio>bibleoverview/01-gen-09.wma</audio> 
 <passageref>http://www.blueletterbible.org/kjv/Gen/Gen009.html#top</passageref> 
 </message>
+<message date="20050223" service="midweek" category="misc">
+<seriestitle>Guest Speaker</seriestitle>
+<title>Bryce Heard</title>
+<passage></passage>
+<tape>GS022305</tape>
+<audio>guestspeaker/bheard022305.wma</audio>
+<passageref></passageref>
+</message> 
 
 
 <message date="20041013" service="midweek" category="misc">
@@ -10477,9 +10485,17 @@
 	<message date="20050213" service="sunday" category="book studies">
 	<seriestitle>Philippians - 2005</seriestitle>
 	<title>Achievers</title>
-	<passage>Philippians 3:1-11</passage>
+	<passage>Philippians 3:1-16</passage>
 	<tape>BS021305</tape>
 	<audio>50-phi/50-phi-03-01.wma</audio>
+	<passageref>http://www.blueletterbible.org/kjv/Phl/Phl003.html#top</passageref>
+	</message>
+	<message date="20050220" service="sunday" category="book studies">
+	<seriestitle>Philippians - 2005</seriestitle>
+	<title>Goal Directed</title>
+	<passage>Philippians 3:12-16</passage>
+	<tape>BS022005</tape>
+	<audio>50-phi/50-phi-03-12.wma</audio>
 	<passageref>http://www.blueletterbible.org/kjv/Phl/Phl003.html#top</passageref>
 	</message>
 
