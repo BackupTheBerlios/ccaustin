@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.125 2004/07/16 14:25:11 premav Exp $
+	$Id: calendar.xml,v 1.126 2004/07/17 16:46:40 premav Exp $
 		
 -->
 <content title="Calendar">
@@ -603,6 +603,16 @@ and to register visit the Events Center.</detail>
 		<date>Jul 30th &amp; 31st</date>
 		<detail>Join pastor &amp; author, Ted Tripp, for this insightful, informative, and inspiring seminar based on his popular child rearing book, Shepherding a Child.s Heart. Cost is $35 per couple or $25 per adult. Information is available at the Events Center or on <link href="www.hopeinthecity.org/shepherd.html">www.hopeinthecity.org/shepherd.html</link></detail>
     </event>
+    <event id="07003" date="20040726" showOnHomepage="true">
+	    <title>Got Discipleship?</title>
+		<date></date>
+		<detail>If you are looking for discipleship, look no further. The Calvary Discipleship Program is taking sign-ups for the 101, 201, and 301 classes starting on July 26th. Find out more at the Info Center.</detail>
+    </event>
+    <event id="07003" date="20040807" showOnHomepage="true">
+	    <title>A Building Project</title>
+		<date></date>
+		<detail>will be on July 31st &amp; Aug 7th, to construct staging &amp; storage in the children.s ministry. Skill sets like, painting, framing, electrical, sheetrock, texture, and float &amp; taping are needed. If interested in partnering sign up at the Events Center.</detail>
+    </event>
     <!--
     <event id="07001" date="20040705" showOnHomepage="false">
 	 <title> Men's Day Out - Summer 2004</title>
@@ -616,12 +626,17 @@ and to register visit the Events Center.</detail>
     August 2004
     ===============
     -->
+    <event id="08001" date="20040828" showOnHomepage="true">
+	    <title>Marriage Day Conference ~ "Enjoy the Difference" </title>
+		<date>Aug 28th</date>
+		<detail>Come join other married couples as you discover how your differences can strengthen your marriage. Available workshops include: Finance, Conflict Resolution, Communication, Spiritual Maturity/Growth, and Romance/Intimacy. Registration cost is $25/couple. Box lunch provided.  Childcare not provided.  For more information, or to register, go to the Events Center.</detail>
+    </event>
 		<!--
     ===============
     September 2004
     ===============
     -->
-    <event id="09001" date="20040904" showOnHomepage="false">
+    <event id="09001" date="20040904" showOnHomepage="true">
 	    <title>College &amp; Career Retreat 2004</title>
 		<date>Sep 3-6</date>
 		<detail>The College Retreat will be at Balcones Retreat Center. The cost is $130. To make a down payment or to register, stop by the Events Center.</detail>
@@ -630,7 +645,7 @@ and to register visit the Events Center.</detail>
          <title>2004 Mid-South Children's Ministry Conference</title>
          <date>Sept 9-11</date>
                 <detail> Don't miss this opportunity to sharpen your children's ministry skills, right here at Calvary Austin.
-Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE</link> for all the details and to download a brochure and registration form!</detail>
+Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE</link> for all the details and to download a brochure and registration form! For more information call Bille Logiudice at 759-2436.</detail>
                 <ministries>
                         <ministry id="children"/>
                 </ministries>
