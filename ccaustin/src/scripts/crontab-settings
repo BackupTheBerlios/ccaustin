@@ -1,0 +1,4 @@
+# Daily build of web site to /daily in htdocs
+0 10 * * * /home/users/javajames27/bin/daily.sh > /home/users/javajames27/daily-build.log 2>&1
+00,10,20,30,40,50 * * * * /home/users/javajames27/bin/ftpmonitor.sh > /home/users/javajames27/ftp-monitor.log 2>&1
+
