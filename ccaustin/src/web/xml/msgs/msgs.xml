@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- entry       A single message entry constitutes everything found within         -->
+<!--             the message - /message tags.                                       -->
+<!--                                                                                -->
+<!-- date        A Julian date (4-digit year)(2-digit month)(2-digit day)           -->
+<!--             The date is a key field to help get the proper order when          -->
+<!--             displaying the message.  For those cases where the order is        -->
+<!--             important but several messages end up on the same actual day       -->
+<!--             just increment the day field anyway to get the order you want.     -->
+<!--                                                                                -->
+<!-- category    There are several categories (topical series, in depth,            -->
+<!--             overview, topical message, book studies, and misc).  Some of the   -->
+<!--             views require that messages added be with all the other messages   -->
+<!--             in that category in the order in this file.  For instance, to add  -->
+<!--             an overview message just scroll til you find the last overview     -->
+<!--             message and add the new entry right after it.                      -->
+<!--                                                                                -->
+<!-- service     (sunday) or (midweek) are picked up on the current messages view   -->
+<!--                                                                                -->
+<!-- NOTE: The best way to make a change to this file is to copy an entry most like -->
+<!--       what you want to add and put it at the end of that categories messages.  -->
+<!--       Do not arbitrarily reorder or remove entries from this database as some  -->
+<!--       of this is required for various views on this data at this time.         -->
+
 <messagecatalog>
 	<message date="0" service="sunday" category="dummy">
 		<seriestitle>Dummy series title</seriestitle>
@@ -2920,7 +2944,151 @@
 		<audio>bibleoverview/42-luk-24.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk024.html#top</passageref>
 	</message>
-	<message date="19940522" service="sunday" category="topical series">
+	<message date="20020102" service="midweek" category="overview">
+		<seriestitle>John</seriestitle>
+		<title></title>
+		<passage>John 1</passage>
+		<tape>B01266</tape>
+		<audio>bibleoverview/43-jhn-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn001.html#top</passageref>
+	</message>
+	<message date="20020116" service="midweek" category="overview">
+		<seriestitle>John</seriestitle>
+		<title></title>
+		<passage>John 2</passage>
+		<tape>B01267</tape>
+		<audio>bibleoverview/43-jhn-02.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn002.html#top</passageref>
+	</message>
+	<message date="20020123" service="midweek" category="overview">
+		<seriestitle>John</seriestitle>
+		<title></title>
+		<passage>John 3</passage>
+		<tape>B01268</tape>
+		<audio>bibleoverview/43-jhn-03.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn003.html#top</passageref>
+	</message>
+	<message date="20020130" service="midweek" category="overview">
+		<seriestitle>John</seriestitle>
+		<title></title>
+		<passage>John 4</passage>
+		<tape>B01269</tape>
+		<audio>bibleoverview/43-jhn-04.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn004.html#top</passageref>
+	</message>
+	<message date="20020213" service="midweek" category="overview">
+		<seriestitle>John</seriestitle>
+		<title></title>
+		<passage>John 5</passage>
+		<tape>B01270</tape>
+		<audio>bibleoverview/43-jhn-05.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn005.html#top</passageref>
+	</message>
+	<message date="20020220" service="midweek" category="overview">
+		<seriestitle>John</seriestitle>
+		<title></title>
+		<passage>John 6</passage>
+		<tape>B01271</tape>
+		<audio>bibleoverview/43-jhn-06.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn006.html#top</passageref>
+	</message>
+	<message date="20020227" service="midweek" category="overview">
+		<seriestitle>John</seriestitle>
+		<title></title>
+		<passage>John 7</passage>
+		<tape>B01272</tape>
+		<audio>bibleoverview/43-jhn-07.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn007.html#top</passageref>
+	</message>
+	<message date="20020306" service="midweek" category="overview">
+		<seriestitle>John</seriestitle>
+		<title></title>
+		<passage>John 8</passage>
+		<tape>B01273</tape>
+		<audio>bibleoverview/43-jhn-08.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn008.html#top</passageref>
+	</message>
+	<message date="20020313" service="midweek" category="overview">
+		<seriestitle>John</seriestitle>
+		<title></title>
+		<passage>John 9</passage>
+		<tape>B01274</tape>
+		<audio>bibleoverview/43-jhn-09.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn009.html#top</passageref>
+	</message>
+	<message date="20020320" service="midweek" category="overview">
+		<seriestitle>John</seriestitle>
+		<title></title>
+		<passage>John 10</passage>
+		<tape>B01275</tape>
+		<audio>bibleoverview/43-jhn-10.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn010.html#top</passageref>
+	</message>
+	<message date="20020327" service="midweek" category="overview">
+		<seriestitle>John</seriestitle>
+		<title></title>
+		<passage>John 11</passage>
+		<tape>B01276</tape>
+		<audio>bibleoverview/43-jhn-11.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn011.html#top</passageref>
+	</message>
+	<message date="20020403" service="midweek" category="overview">
+		<seriestitle>John</seriestitle>
+		<title></title>
+		<passage>John 12</passage>
+		<tape>B01277</tape>
+		<audio>bibleoverview/43-jhn-12.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn012.html#top</passageref>
+	</message>
+	<message date="20020417" service="midweek" category="overview">
+		<seriestitle>John</seriestitle>
+		<title></title>
+		<passage>John 13</passage>
+		<tape>B01278</tape>
+		<audio>bibleoverview/43-jhn-13.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn013.html#top</passageref>
+	</message>
+	<message date="20020424" service="midweek" category="overview">
+		<seriestitle>John</seriestitle>
+		<title></title>
+		<passage>John 14</passage>
+		<tape>B01279</tape>
+		<audio>bibleoverview/43-jhn-14.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn014.html#top</passageref>
+	</message>
+	<message date="20020501" service="midweek" category="overview">
+		<seriestitle>John</seriestitle>
+		<title></title>
+		<passage>John 15</passage>
+		<tape>B01280</tape>
+		<audio>bibleoverview/43-jhn-15.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn015.html#top</passageref>
+	</message>
+	<message date="20020508" service="midweek" category="overview">
+		<seriestitle>John</seriestitle>
+		<title></title>
+		<passage>John 16-17</passage>
+		<tape>B01281</tape>
+		<audio>bibleoverview/43-jhn-16.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn016.html#top</passageref>
+	</message>
+	<message date="20020515" service="midweek" category="overview">
+		<seriestitle>John</seriestitle>
+		<title></title>
+		<passage>John 18-19</passage>
+		<tape>B01282</tape>
+		<audio>bibleoverview/43-jhn-18.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn018.html#top</passageref>
+	</message>
+	<message date="20020522" service="midweek" category="overview">
+		<seriestitle>John</seriestitle>
+		<title></title>
+		<passage>John 20-21</passage>
+		<tape>B01283</tape>
+		<audio>bibleoverview/43-jhn-20.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn020.html#top</passageref>
+	</message>
+    <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
 		<title>The Big Question</title>
 		<passage>Matthew 24:1-3</passage>
@@ -4080,6 +4248,46 @@
 		<audio>worship2001/dvpelt2001.ram</audio>
 		<passageref></passageref>
 	</message>
+	<message date="20020100" service="other" category="topical series">
+		<seriestitle>Worship Conference 2002</seriestitle>
+		<title>Ron Arbaugh</title>
+		<passage></passage>
+		<tape></tape>
+		<audio>worship2002/rarbaugh.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="20020101" service="other" category="topical series">
+		<seriestitle>Worship Conference 2002</seriestitle>
+		<title>Tony Garcia</title>
+		<passage></passage>
+		<tape></tape>
+		<audio>worship2002/tgarcia.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="20020102" service="other" category="topical series">
+		<seriestitle>Worship Conference 2002</seriestitle>
+		<title>Bob Lane</title>
+		<passage></passage>
+		<tape></tape>
+		<audio>worship2002/blane.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="20020103" service="other" category="topical series">
+		<seriestitle>Worship Conference 2002</seriestitle>
+		<title>Dennis Norman</title>
+		<passage></passage>
+		<tape></tape>
+		<audio>worship2002/dnorman.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="20020104" service="other" category="topical series">
+		<seriestitle>Worship Conference 2002</seriestitle>
+		<title>Allen Rigg</title>
+		<passage></passage>
+		<tape></tape>
+		<audio>worship2002/arigg.ram</audio>
+		<passageref></passageref>
+	</message>
 	<message date="20011202" service="sunday" category="topical series">
 		<seriestitle>God's Christmas Gift to You</seriestitle>
 		<title>Wonderful Counselor</title>
@@ -4384,6 +4592,14 @@
 		<audio>guestspeaker/roakland2001.ram</audio>
 		<passageref></passageref>
 	</message>
+	<message date="20020414" service="sunday" category="misc">
+		<seriestitle>Guest Speaker</seriestitle>
+		<title>Garrett, Bunjee</title>
+		<passage>Hebrews 4:1-10</passage>
+		<tape>GS041402</tape>
+		<audio>guestspeaker/bgarrett42002.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr004.html#top</passageref>
+	</message>
 	<message date="19920419" service="midweek" category="misc">
 		<seriestitle>Topical Message</seriestitle>
 		<title>Failure and Forgiveness</title>
@@ -4680,6 +4896,14 @@
 		<audio>topicmessage/halloween01.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Rev/Rev012.html#top</passageref>
 	</message>
+	<message date="20020206" service="midweek" category="misc">
+		<seriestitle>Topical Message</seriestitle>
+		<title>Nehemiah - Church Vision</title>
+		<passage>Nehemiah</passage>
+		<tape>TM020602</tape>
+		<audio>topicmessage/vision2002.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Neh/Neh001.html#top</passageref>
+	</message>
 	<message date="20010916" service="sunday" category="misc">
 		<seriestitle>Topical Message</seriestitle>
 		<title>Facing the Future Without Fear</title>
@@ -4687,6 +4911,22 @@
 		<tape>TM091601</tape>
 		<audio>topicmessage/september2001.ram</audio>
 		<passageref></passageref>
+	</message>
+	<message date="20020331" service="sunday" category="misc">
+		<seriestitle>Topical Message</seriestitle>
+		<title>Easter 2002: God's Life Changing Love</title>
+		<passage>John 3</passage>
+		<tape>TM033102</tape>
+		<audio>topicmessage/easter2002.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn003.html#top</passageref>
+	</message>
+	<message date="20020407" service="sunday" category="misc">
+		<seriestitle>Topical Message</seriestitle>
+		<title>Falling in Love with the Bible</title>
+		<passage>2 Timothy 3:16-17</passage>
+		<tape>TM0040702</tape>
+		<audio>topicmessage/55-ti-03-16.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/2Ti/2Ti003.html#top</passageref>
 	</message>
 	<message date="19990103" service="sunday" category="book studies">
 		<seriestitle>Genesis</seriestitle>
@@ -7551,5 +7791,141 @@
 		<tape>BS123001</tape>
 		<audio>09-isa/09-isa-25-01.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/1Sa/1Sa025.html#top</passageref>
+	</message>
+	<message date="20020106" service="sunday" category="book studies">
+		<seriestitle>I Samuel</seriestitle>
+		<title>Case Study in Compromise</title>
+		<passage>I Samuel 26:1-28:2</passage>
+		<tape>BS010602</tape>
+		<audio>09-isa/09-isa-26-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/1Sa/1Sa026.html#top</passageref>
+	</message>
+	<message date="20020113" service="sunday" category="book studies">
+		<seriestitle>I Samuel</seriestitle>
+		<title>God's Best for You</title>
+		<passage>I Samuel 28:3-31:13</passage>
+		<tape>BS011302</tape>
+		<audio>09-isa/09-isa-28-03.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/1Sa/1Sa028.html#top</passageref>
+	</message>
+	<message date="20020127" service="sunday" category="book studies">
+		<seriestitle>2 Samuel</seriestitle>
+		<title>Making the Most of Unwanted Change</title>
+		<passage>2 Samuel 1</passage>
+		<tape>BS012702</tape>
+		<audio>10-2sa/10-2sa-01-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/2Sa/2Sa001.html#top</passageref>
+	</message>
+	<message date="20020203" service="sunday" category="book studies">
+		<seriestitle>2 Samuel</seriestitle>
+		<title>Becoming Great Worshipers</title>
+		<passage>2 Samuel 2:12-6:23</passage>
+		<tape>BS020302</tape>
+		<audio>10-2sa/10-2sa-02-12.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/2Sa/2Sa002.html#top</passageref>
+	</message>
+	<message date="20020210" service="sunday" category="book studies">
+		<seriestitle>2 Samuel</seriestitle>
+		<title>How to Handle Disappointment</title>
+		<passage>2 Samuel 7-8</passage>
+		<tape>BS021002</tape>
+		<audio>10-2sa/10-2sa-07-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/2Sa/2Sa007.html#top</passageref>
+	</message>
+	<message date="20020217" service="sunday" category="book studies">
+		<seriestitle>2 Samuel</seriestitle>
+		<title>Grasping God's Grace</title>
+		<passage>2 Samuel 9-10</passage>
+		<tape>BS021702</tape>
+		<audio>10-2sa/10-2sa-09-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/2Sa/2Sa009.html#top</passageref>
+	</message>
+	<message date="20020224" service="sunday" category="book studies">
+		<seriestitle>2 Samuel</seriestitle>
+		<title>The Trap of Temptation</title>
+		<passage>2 Samuel 11</passage>
+		<tape>BS022402</tape>
+		<audio>10-2sa/10-2sa-01-11.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/2Sa/2Sa011.html#top</passageref>
+	</message>
+	<message date="20020303" service="sunday" category="book studies">
+		<seriestitle>2 Samuel</seriestitle>
+		<title>The Facts on Forgiveness</title>
+		<passage>2 Samuel 12</passage>
+		<tape>BS030302</tape>
+		<audio>10-2sa/10-2sa-12-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/2Sa/2Sa012.html#top</passageref>
+	</message>
+	<message date="20020310" service="sunday" category="book studies">
+		<seriestitle>2 Samuel</seriestitle>
+		<title>Mistakes Parents Make</title>
+		<passage>2 Samuel 13-15:12</passage>
+		<tape>BS031002</tape>
+		<audio>10-2sa/10-2sa-13-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/2Sa/2Sa013.html#top</passageref>
+	</message>
+	<message date="20020317" service="sunday" category="book studies">
+		<seriestitle>2 Samuel</seriestitle>
+		<title>Helping Those Who Hurt</title>
+		<passage>2 Samuel 15:13-19:43</passage>
+		<tape>BS031702</tape>
+		<audio>10-2sa/10-2sa-15-13.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/2Sa/2Sa015.html#top</passageref>
+	</message>
+	<message date="20020324" service="sunday" category="book studies">
+		<seriestitle>2 Samuel</seriestitle>
+		<title>Leaving a Legacy</title>
+		<passage>2 Samuel 20-24</passage>
+		<tape>BS032402</tape>
+		<audio>10-2sa/10-2sa-20-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/2Sa/2Sa020.html#top</passageref>
+	</message>
+	<message date="20020421" service="sunday" category="book studies">
+		<seriestitle>Ephesians</seriestitle>
+		<title>What You Must Know to Grow</title>
+		<passage>Ephesians 1:1-6</passage>
+		<tape>BS042102</tape>
+		<audio>49-eph/49-eph-01-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph001.html#top</passageref>
+	</message>
+	<message date="20020428" service="sunday" category="book studies">
+		<seriestitle>Ephesians</seriestitle>
+		<title>What You Must Know to Grow - The Son</title>
+		<passage>Ephesians 1:7-12</passage>
+		<tape>BS042802</tape>
+		<audio>49-eph/49-eph-01-07.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph001.html#top</passageref>
+	</message>
+	<message date="20020505" service="sunday" category="book studies">
+		<seriestitle>Ephesians</seriestitle>
+		<title>What You Must Know to Grow - The Spirit</title>
+		<passage>Ephesians 1:13-14</passage>
+		<tape>BS050502</tape>
+		<audio>49-eph/49-eph-01-13.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph001.html#top</passageref>
+	</message>
+	<message date="20020512" service="sunday" category="book studies">
+		<seriestitle>Ephesians</seriestitle>
+		<title>Spiritual Vision</title>
+		<passage>Ephesians 1:15-23</passage>
+		<tape>BS051202</tape>
+		<audio>49-eph/49-eph-01-15.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph001.html#top</passageref>
+	</message>
+	<message date="20020519" service="sunday" category="book studies">
+		<seriestitle>Ephesians</seriestitle>
+		<title>Power to Change</title>
+		<passage>Ephesians 2:1-10</passage>
+		<tape>BS051902</tape>
+		<audio>49-eph/49-eph-02-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph002.html#top</passageref>
+	</message>
+	<message date="20020526" service="sunday" category="book studies">
+		<seriestitle>Ephesians</seriestitle>
+		<title>Racial Reconciliation</title>
+		<passage>Ephesians 2:11-22</passage>
+		<tape>BS052602</tape>
+		<audio>49-eph/49-eph-02-11.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph001.html#top</passageref>
 	</message>
 </messagecatalog>
