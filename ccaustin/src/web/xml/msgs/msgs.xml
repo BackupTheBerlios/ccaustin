@@ -9570,4 +9570,12 @@
 		<audio>guestspeaker/bgarrett1203.ram</audio>
 		<passageref></passageref>
 	</message> 
+	<message date="20031214" service="sunday" category="topical series">
+		<seriestitle>Reality Christmas</seriestitle>
+		<title>Bachelorette</title>
+		<passage>Luke 1:26-38</passage>
+		<tape>TS121403</tape>
+		<audio>topicseries/christmas2003/bachelorette.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk001.html#top</passageref>
+	</message> 
 </messagecatalog>
