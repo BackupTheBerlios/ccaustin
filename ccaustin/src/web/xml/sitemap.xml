@@ -6,7 +6,7 @@
         The sitemap contains the structure of the entire web site, and is used to drive
         the auto-generated scripts for generating the web site HTML from XML.
         
-        $Id: sitemap.xml,v 1.42 2003/09/24 04:41:27 gregk Exp $
+        $Id: sitemap.xml,v 1.43 2003/09/24 06:00:44 gregk Exp $
         
         hidden="true" prevents the page from showing on the sitemap.
         
@@ -734,49 +734,49 @@
           template="/templates/default.xsl"
           layout="/layouts/default.xsl"
           renderer="/renderers/allen.xsl"
-          html="/about/allen.html">
+          html="/about/Allen.html">
       <title>Generates staff member Bio</title>
     </page>
     <page datafile="/bunjee.xml"
           template="/templates/default.xsl"
           layout="/layouts/default.xsl"
           renderer="/renderers/bunjee.xsl"
-          html="/about/bunjee.html">
+          html="/about/Bunjee.html">
       <title>Generates staff member Bio</title>
     </page>
     <page datafile="/jean.xml"
           template="/templates/default.xsl"
           layout="/layouts/default.xsl"
           renderer="/renderers/jean.xsl"
-          html="/about/jean.html">
+          html="/about/Jean.html">
       <title>Generates staff member Bio</title>
     </page>
     <page datafile="/david.xml"
           template="/templates/default.xsl"
           layout="/layouts/default.xsl"
           renderer="/renderers/david.xsl"
-          html="/about/david.html">
+          html="/about/David.html">
       <title>Generates staff member Bio</title>
     </page>
     <page datafile="/john.xml"
           template="/templates/default.xsl"
           layout="/layouts/default.xsl"
           renderer="/renderers/john.xsl"
-          html="/about/john.html">
+          html="/about/John.html">
       <title>Generates staff member Bio</title>
     </page>
     <page datafile="/glendon.xml"
           template="/templates/default.xsl"
           layout="/layouts/default.xsl"
           renderer="/renderers/glendon.xsl"
-          html="/about/glendon.html">
+          html="/about/Glendon.html">
       <title>Generates staff member Bio</title>
     </page>
     <page datafile="/donna.xml"
           template="/templates/default.xsl"
           layout="/layouts/default.xsl"
           renderer="/renderers/donna.xsl"
-          html="/about/donna.html">
+          html="/about/Donna.html">
       <title>Generates staff member Bio</title>
     </page>
 <!--
