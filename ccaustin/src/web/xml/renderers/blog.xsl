@@ -6,7 +6,7 @@
 	
 	Processes the blog <entry/> tag
 	
-	$Id: blog.xsl,v 1.1 2003/03/12 22:02:21 javajames27 Exp $
+	$Id: blog.xsl,v 1.2 2003/09/09 03:01:32 gregk Exp $
 	
 -->	
 
@@ -28,7 +28,9 @@
 		</tr>
 	</table>
 	<xsl:apply-templates select="entry">
+<!-- 
 		<xsl:sort select="@date" order="descending"/>
+-->
 	</xsl:apply-templates>
 </xsl:template>
 
