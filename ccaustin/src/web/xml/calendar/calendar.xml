@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.70 2003/08/27 06:05:33 gregk Exp $
+	$Id: calendar.xml,v 1.71 2003/08/31 02:08:43 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -169,7 +169,7 @@
     <event id="09001" date="20030927" showOnHomepage="true">
 	 <title> Men's Retreat</title>
 		<date>Sept 25th - 27th </date>
-		<detail>Signups are extended until Aug 31th. Register for the Sep 25-27 retreat at T-Bar-M Ranch in New Braunfels. The main speaker is Ken Graves from Calvary Chapel Bangor, Maine.  If your balance is not paid by this date or arrangements have not been made, you name will be dropped from the registration list. Sign up at the Events Center. </detail>
+		<detail>Signups are extended until Aug 31th. Register for the Sep 25-27 retreat at T-Bar-M Ranch in New Braunfels. The main speaker is Ken Graves from Calvary Chapel Bangor, Maine.  If your balance is not paid by this date or arrangements have not been made, you name will be dropped from the registration list. Sign up at the Events Center. Find out more details<link href="../events/mens2003retreat.html"> here.</link> </detail>
 		<ministries>
 			<ministry id="men"/>
 		</ministries>
