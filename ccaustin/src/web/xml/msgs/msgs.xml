@@ -3137,13 +3137,22 @@
 		<passageref>http://www.blueletterbible.org/kjv/Act/Act010.html#top</passageref>
 	</message>
 	<message date="20020717" service="midweek" category="guestspeaker">
-		<seriestitle>Acts</seriestitle>
+		<seriestitle>Guest Speaker</seriestitle>
 		<title>Let Us Draw Near</title>
 		<passage>Hebrews 10:22</passage>
 		<tape>GS071702</tape>
 		<audio>guestspeaker/dreynolds0702.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr010.html#top</passageref>
 	</message>
+	<message date="20020724" service="midweek" category="guestspeaker">
+		<seriestitle>Guest Speaker</seriestitle>
+		<title>Are You a Difference Maker?</title>
+		<passage>John 1:19-34</passage>
+		<tape>GS072402</tape>
+		<audio>guestspeaker/dbrock0702.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn001.html#top</passageref>
+	</message>
+
 
     <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
