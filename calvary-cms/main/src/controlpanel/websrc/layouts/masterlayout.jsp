@@ -64,7 +64,7 @@
 <img src='<html:rewrite page="/images/subhead1.jpg"/>' width="184" height="20"/>
 </td></tr>
 <!-- LINK 1 -->
-<tr><a href="browse.do?site=www.calvaryaustin.org%path=/"><td width=100% height=20 class=l1a onmouseover="this.className='l1b';" onmouseout="this.className='l1a';">
+<tr><a href="browser.do"><td width=100% height=20 class=l1a onmouseover="this.className='l1b';" onmouseout="this.className='l1a';">
 &nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/dot.jpg"/>' height="10" width="10"/>&nbsp;&nbsp;
 Browse Web Pages
 </td></a></tr>

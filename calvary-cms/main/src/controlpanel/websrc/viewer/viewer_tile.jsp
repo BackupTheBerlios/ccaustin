@@ -25,9 +25,5 @@
 		  <display:column property="number"/>
 		  <display:column property="branch"/>
 		</display:table>
-		<!--slide:revision number='1.0' -->
-			<!-- slide:content id='content'/>
-			<bean:write name='content'/ -->
-		<!-- /slide:revision -->
 	</slide:node>	
 </p>

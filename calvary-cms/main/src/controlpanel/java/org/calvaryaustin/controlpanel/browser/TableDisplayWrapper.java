@@ -75,9 +75,8 @@ public class TableDisplayWrapper extends TableDecorator
 		} 
 		else 
 		{
-			String site = form.getSite();
-			String path = RepositoryUtil.normalize( form.getPath()+"/"+node.getName() );
-			String link = "<a href='"+contextPath+"/viewer.do?site="+site+"&path="+path+
+			String link = "<a href='"+contextPath+"/viewer.do?site="+form.getSite()+
+				"&path="+form.getPath()+
 				"&file="+node.getName()+"'>"
 			  +node.getName()+"</a>";
 			return link;
