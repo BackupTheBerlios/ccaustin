@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.100 2004/08/25 00:39:22 tie Exp $
+	$Id: whatsnew.xml,v 1.101 2004/09/27 02:40:08 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -502,6 +502,22 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		<news-item id="147" date="20040810" expires="20040926" showOnHomepage="true">
 		   <title>Counseling Issues of Interest to You?</title>
 		   <detail>There will be an introductory meeting at Calvary Austin on September 25th from 9:30-12:00 pm for those of you who want more information about this ministry. Todd Ellsworth, overseer of Calvary's <italics>Free Indeed</italics> ministry, will talk about training opportunities and how to get involved. Anyone interested in the the Free Indeed (Addictions) ministry or the Women Helping Women counseling group are welcome to come.</detail>
+		</news-item>
+		<news-item id="148" date="20040926" expires="20041231" showOnHomepage="true">
+		   <title>Warfare Prayer</title>
+		   <detail>1st Service Sundays, the Intercessory Prayer Ministry prays for the Sunday workers and ministries, the lost, and for the Holy Spirit to heal, comfort and convict. Prayer Warriors meet at 9:30 am in the Prayer Room.</detail>
+		</news-item>
+		<news-item id="149" date="20040926" expires="20041004" showOnHomepage="true">
+		   <title>Calvary Discipleship Program</title>
+		   <detail>Calvary Discipleship Program is taking sign-ups for the 101, 201, and 301 classes. Classes start Oct 4th and will continue to Nov 8th. Sign up at the Events Center.</detail>
+		</news-item>
+		<news-item id="150" date="20040926" expires="20041204" showOnHomepage="true">
+		   <title>Vital Life</title>
+		   <detail>Our ministry to junior high school &amp; high school students build faith through bible teaching and ministry opportunities. Wednesdays we're teaching these main vision points: RESPOND, REACH, REPRODUCE. Sundays (junior high only) the series is on "faith". Have questions? Contact David Robinson or e-mail vitallifecrew@yahoo.com.</detail>
+		</news-item>
+		<news-item id="151" date="20040926" expires="20041204" showOnHomepage="true">
+		   <title>Bulletin Board</title>
+		   <detail>If you would like to put a flyer on the bulletin board please check out the guidelines next to the bulletin board, and place the announcement in the wall tray for approval.</detail>
 		</news-item>
 <!--
 -->
