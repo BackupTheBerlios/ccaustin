@@ -3,7 +3,7 @@
 
 	Men's Ministry - The ministry and its detail
 	
-	$Id: men.xml,v 1.10 2004/05/30 17:54:44 tie Exp $
+	$Id: men.xml,v 1.11 2004/05/30 19:35:31 tie Exp $
 		
 -->
 <content title="Men's Ministry">
@@ -31,6 +31,7 @@
        <heading><emphasis>Unite-Train-Disciple</emphasis></heading>
             <p>Oct 15-16 at Camp Tejas</p>
 	    <p><emphasis>WHO:</emphasis>Pastor Art Murillo of The Way Christian Church, Chula Vista, CA, a Calvary Chapel affiliate <link href="http://www.thewaycc.com">(www.thewaycc.com)</link></p>
+        <img src="../images/ministries/art.jpg"/>
         <p><emphasis>WHEN:</emphasis>October 15-16. Event registration starts Friday morning at 7 a.m. You must be signed up by 9:30 a.m. Don't miss the opening worship session with Pastor Murillo!</p>   
         <p><emphasis>WHERE:</emphasis>Camp Tejas<link href="http://www.camptejas.org/tejas/home">(www.camptejas.org)</link> in Giddings, Texas</p>
         <p><emphasis>WHY:</emphasis>To train up the men of our church body through instruction, prayer, small groups and focus groups. Also, to have some awesome time of fellowship and fun!</p>   
