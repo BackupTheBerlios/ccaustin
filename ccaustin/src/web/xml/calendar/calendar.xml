@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.69 2003/08/10 05:05:21 gregk Exp $
+	$Id: calendar.xml,v 1.70 2003/08/27 06:05:33 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -99,7 +99,7 @@
     <event id="08003" date="20030827" showOnHomepage="true">
 	 <title>Worshippers Wanted!</title>
 		<date>Aug 26th and 27th</date>
-		<detail>We need you to participate in the "live" recording of our first worship CD.  The recording will take place over two evenings, Aug 26 and 27 beginning at 7PM.  Come sing and be a part of this worship experience. Childcare will be provided on Tuesday, Aug 26th, for ages 2 years through 5th grade.</detail>
+		<detail>Participate in the "live" recording of our first worship CD.  The recording will take place over two evenings, Aug 26 and 27 beginning at 7PM.  Come sing and be a part of this worship experience. Childcare will be provided on Tuesday, Aug 26th, for ages 2 years through 5th grade.</detail>
 		<ministries>
 			<ministry id="worship"/>
 		</ministries>
@@ -169,7 +169,7 @@
     <event id="09001" date="20030927" showOnHomepage="true">
 	 <title> Men's Retreat</title>
 		<date>Sept 25th - 27th </date>
-		<detail>Sunday, Aug 10th is the last day to register for the Sep 25-27 retreat at T-Bar-M Ranch in New Braunfels. The main speaker is Ken Graves from Calvary Chapel Bangor, Maine.  Sign up at the Events Center. </detail>
+		<detail>Signups are extended until Aug 31th. Register for the Sep 25-27 retreat at T-Bar-M Ranch in New Braunfels. The main speaker is Ken Graves from Calvary Chapel Bangor, Maine.  If your balance is not paid by this date or arrangements have not been made, you name will be dropped from the registration list. Sign up at the Events Center. </detail>
 		<ministries>
 			<ministry id="men"/>
 		</ministries>
@@ -189,6 +189,20 @@
 		<ministries>
 			<ministry id="marriage"/>
 		</ministries>
+    </event>
+    <event id="09004" date="20030825" showOnHomepage="true">
+	 <title>Mexico Mission Trip</title>
+		<date>Sept 5th-7th</date>
+		<detail>On Sept 5-7 come share the love of Jesus with His children south of the border in Pan De Vida. Sign up at the Events Center in the lobby. </detail>
+    </event>
+    <event id="09005" date="20030825" showOnHomepage="true">
+	 <title>Communion</title>
+		<date>Sept 10th</date>
+                <detail>Join us Sunday, Sept 10th, for the celebration of communion during all three services.</detail>
+    </event>
+    <event id="09006" date="20030825" showOnHomepage="false">
+	 <title>New Believers Class</title>
+		<date>Sept 8th</date>
     </event>
 		<!--
 	===============

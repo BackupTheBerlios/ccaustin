@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.43 2003/08/10 05:05:21 gregk Exp $
+	$Id: whatsnew.xml,v 1.44 2003/08/27 06:05:33 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -124,13 +124,13 @@
 			<title>Lunch with Calvary Continuum</title>
 			<detail>Calvary Continuum, on 590AM KIXL, has moved to 12:00pm and 7:30pm every weekday. Spend your lunch break listening to Allen's message</detail>
 		</news-item>
-		<news-item id="56" date="20030712" expires="20030827" showOnHomepage="false">
+		<news-item id="56" date="20030712" expires="20030828" showOnHomepage="false">
 			<title>Worshippers Wanted!!</title>
-			<detail>We need you to participate in the "live" recording of our first worship CD. The recording will take place over two evenings, Aug 26 and 27 beginning at 7PM. Come sing and be a part of this worship experience.</detail>
+			<detail>Participate in the "live" recording of our first worship CD. The recording will take place over two evenings, Aug 26 and 27 beginning at 7PM. Come sing and be a part of this worship experience. Childcare will be provided on Tues for ages 2 years through 5th grade.</detail>
 		</news-item>
 		<news-item id="57" date="20030712" expires="20030927" showOnHomepage="false">
 			<title>Men's Retreat</title>
-			<detail>Registration continues for the Sept 25-27 retreat at T-Bar-M Ranch in New Braunfels. The main speaker is Ken Graves from Calvary Chapel Bangor, Maine. Sign up at the Events Center.</detail>
+			<detail>Registration continues until Aug 31th for the Sept 25-27 retreat at T-Bar-M Ranch in New Braunfels. The main speaker is Ken Graves from Calvary Chapel Bangor, Maine. Sign up at the Events Center.</detail>
 		</news-item>
 		<news-item id="58" date="20030712" expires="20030720" showOnHomepage="true">
 			<title>Prayer Chain</title>
@@ -171,6 +171,30 @@
 		<news-item id="67" date="20030810" expires="20030812" showOnHomepage="true">
 			<title>Radio, TV and Internet</title>
 			<detail>Hear Pastor Allen on Calvary Continuum at NOON and 7:30PM on KIXL 970AM or watch our television program on cable access channel 11 Saturdays at NOON. Watch select services live on the internet or check out the audio archive on our web site.</detail>
+		</news-item>
+		<news-item id="68" date="20030824" expires="20030912" showOnHomepage="true">
+			<title>Preorder Your "Live" Worship CD!</title>
+			<detail>Starting Aug 24th, you may support our recording project by preordering the Calvary Austin Worship CD at a 20% discount for $12. Come by the Events Center today.</detail>
+		</news-item>
+		<news-item id="69" date="20030824" expires="20030912" showOnHomepage="false">
+			<title>New Believers' Class</title>
+			<detail>The 12-week class in basic Bible fundamentals meets on Mondays at 7PM in the New Parents room starting Sept 8th. Sign up at the Events Center.</detail>
+		</news-item>
+		<news-item id="70" date="20030824" expires="20030923" showOnHomepage="false">
+			<title>Women's Fall Bible Studies</title>
+			<detail>Sign up at the Events Center for the Face-to-Face with Women of the Bible study. The costs is $13. The Tuesday Morning Study will begin Sept 23rd, meet at 10AM, and provide cooperative childcare. The Tuesday Evening Study will begin Sept 16th, meet every other Tuesday at 7PM, and will not provide childcare.</detail>
+		</news-item>
+		<news-item id="71" date="20030825" expires="20030925" showOnHomepage="true">
+			<title>Radio, TV and Internet</title>
+			<detail>Hear Pastor Allen on Calvary Continuum at NOON on KIXL 970AM or at 9:30AM on 1010AM. Watch our television program on cable access channel 11 Saturdays at NOON. Watch select services live on the internet or check out the audio archive on our web site.</detail>
+		</news-item>
+		<news-item id="72" date="20030825" expires="20030916" showOnHomepage="true">
+			<title>Audio</title>
+			<detail>Pastor Allen's messages are available on tape, CD, and MP3 after every service in the lobby. Tape catalogs are also available.</detail>
+		</news-item>
+		<news-item id="73" date="20030825" expires="20030916" showOnHomepage="true">
+			<title>Bookstore</title>
+			<detail>Check-out our large selection of books. You can also special order. The bookstore is open after every Wednesday and Sunday service.</detail>
 		</news-item>
 	</news>
 </content>
