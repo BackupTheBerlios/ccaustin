@@ -8,7 +8,7 @@
 	
 	allen-bio.xml - the biography for Pastor Allen
 	
-	$Id: servants.xml,v 1.12 2004/09/19 04:49:44 gregk Exp $
+	$Id: servants.xml,v 1.13 2004/09/19 05:06:38 gregk Exp $
 		
 -->
 <content title="Servants" base=".">
@@ -172,9 +172,9 @@
 		<role ministry="church" title="Elder"/>
 	</servant>
 	<servant id="james">
-		<fullname>James Lazono</fullname>
+		<fullname>James Lozano</fullname>
 		<first-name>James</first-name>
-		<last-name>Lazono</last-name>
+		<last-name>Lozano</last-name>
 		<emailid>jvlozano@austin.rr.com</emailid>
 		<thumbnail href="../images/staff/Jamesthumb.jpg"/>
 		<small-photo href="../images/staff/jamesweb.jpg"/>
