@@ -7,7 +7,7 @@
 	Uses the servants.xml, finding only those servants who are flagged as staff members and generates a second 
 	xml file.
 	
-	$Id: gen-staff.xsl,v 1.1 2002/12/13 20:04:06 javajames27 Exp $
+	$Id: gen-staff.xsl,v 1.2 2004/07/12 02:35:55 premav Exp $
 	
 -->	
 
@@ -22,11 +22,18 @@
 <xsl:element name="content">
   <xsl:attribute name="title">Meet the Staff</xsl:attribute>
   <xsl:element name="stafflist">
-  <xsl:for-each select="servant">
-		<xsl:if test="role[@staff = 'true']">
+  <xsl:for-each select="staffulltime">
+		<!--xsl:if test="role[@staff = 'true']">
 			<xsl:copy-of select="."/>
-		</xsl:if>
+		</xsl:if-->
+	<xsl:copy-of select="."/>
   </xsl:for-each>		
+<xsl:for-each select="staffparttime">
+	<xsl:copy-of select="."/>
+</xsl:for-each>
+<xsl:for-each select="elder">
+	<xsl:copy-of select="."/>
+</xsl:for-each>
   </xsl:element>
 </xsl:element>
 </xsl:template>

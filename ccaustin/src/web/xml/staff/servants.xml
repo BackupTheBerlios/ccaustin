@@ -8,10 +8,11 @@
 	
 	allen-bio.xml - the biography for Pastor Allen
 	
-	$Id: servants.xml,v 1.6 2004/07/07 18:04:02 premav Exp $
+	$Id: servants.xml,v 1.7 2004/07/12 02:34:28 premav Exp $
 		
 -->
 <content title="Servants" base=".">
+<staffulltime>
 	<servant id="allen">
 	     <fullname>Pastor Allen</fullname>
 		<first-name>Allen</first-name>
@@ -19,7 +20,7 @@
 		<thumbnail href="../images/staff/allenthumb.jpg"/>
 		<small-photo href="../images/staff/allenweb.jpg"/>
 		<large-photo href="../images/staff/allenweb.jpg"/>
-		<role staff="true" ministry="church" title="Senior Pastor"/>
+		<role ministry="church" title="Senior Pastor"/>
 	</servant>
 	<servant id="andrea">
 		<fullname>Andrea Rigg</fullname>
@@ -28,7 +29,7 @@
 		<thumbnail href="../images/staff/andreathumb.jpg"/>
 		<small-photo href="../images/staff/andreaweb.jpg"/>
 		<large-photo href="../images/staff/andreaweb.jpg"/>
-		<role staff="true" ministry="church" title="Pastor's wife"/>
+		<role  ministry="church" title="Pastor's wife"/>
 	</servant>
 <!--
 	<servant id="jean">
@@ -38,7 +39,7 @@
 		<thumbnail href="../images/staff/jeanthumb.jpg"/>
 		<small-photo href="../images/staff/jeanweb.jpg"/>
 		<large-photo href="../images/staff/jeanweb.jpg"/>
-		<role staff="true" ministry="church" title="Secretary"/>
+		<role ministry="church" title="Secretary"/>
 	</servant>
 -->
 	<servant id="donna">
@@ -48,7 +49,7 @@
 		<thumbnail href="../images/staff/donnathumb.jpg"/>
 		<small-photo href="../images/staff/donnaweb.jpg"/>
 		<large-photo href="../images/staff/donnaweb.jpg"/>
-		<role staff="true" ministry="children" title="Children's Ministry Director"/>
+		<role ministry="children" title="Children's Ministry Director"/>
 	</servant>
 	<servant id="david">
 		<fullname>David Reynolds</fullname>
@@ -57,7 +58,7 @@
 		<thumbnail href="../images/staff/davidthumb.jpg"/>
 		<small-photo href="../images/staff/davidweb.jpg"/>
 		<large-photo href="../images/staff/davidweb.jpg"/>
-		<role staff="true" ministry="worship" title="Worship Leader"/>
+		<role  ministry="worship" title="Worship Leader"/>
 	</servant>
 	<servant id="bunjee">
 		<fullname>Bunjee Garrett</fullname>
@@ -66,7 +67,7 @@
 		<thumbnail href="../images/staff/bunjeethumb.jpg"/>
 		<small-photo href="../images/staff/bunjeeweb.jpg"/>
 		<large-photo href="../images/staff/bunjeeweb.jpg"/>
-		<role staff="true" ministry="frontline" title="College and Career Pastor"/>
+		<role ministry="frontline" title="College and Career Pastor"/>
 	</servant>
 <!--
 	<servant id="john">
@@ -76,7 +77,7 @@
 		<thumbnail href="../images/staff/johnthumb.jpg"/>
 		<small-photo href="../images/staff/johnweb.jpg"/>
 		<large-photo href="../images/staff/johnweb.jpg"/>
-		<role staff="true" ministry="youth" title="Youth Pastor"/>
+		<role ministry="youth" title="Youth Pastor"/>
 	</servant>
 -->
 	<servant id="glendon">
@@ -86,7 +87,7 @@
 		<thumbnail href="../images/staff/glendonthumb.jpg"/>
 		<small-photo href="../images/staff/glendonweb.jpg"/>
 		<large-photo href="../images/staff/glendonweb.jpg"/>
-		<role staff="true" ministry="church" title="Assisting Pastor"/>
+		<role ministry="church" title="Assisting Pastor"/>
 	</servant>
 	<servant id="katherine">
 		<fullname>Katherine E. Nogues</fullname>
@@ -95,7 +96,7 @@
 		<thumbnail href="../images/staff/katherinethumb.jpg"/>
 		<small-photo href="../images/staff/katherineweb.jpg"/>
 		<large-photo href="../images/staff/katherineweb.jpg"/>
-		<role staff="true" ministry="church" title="Calvary Secretary"/>
+		<role ministry="church" title="Calvary Secretary"/>
 	</servant>
 	<servant id="mike">
 		<fullname>Mike Hardcastle</fullname>
@@ -104,7 +105,7 @@
 		<thumbnail href="../images/staff/mikethumb.jpg"/>
 		<small-photo href="../images/staff/mikeweb.jpg"/>
 		<large-photo href="../images/staff/mikeweb.jpg"/>
-		<role staff="true" ministry="church" title="Executive Director"/>
+		<role ministry="church" title="Executive Director"/>
 	</servant>
 	<servant id="derrick">
 		<fullname>Derrick Kinney</fullname>
@@ -113,8 +114,10 @@
 		<thumbnail href="../images/staff/Derrickthumb.jpg"/>
 		<small-photo href="../images/staff/derrickweb.jpg"/>
 		<large-photo href="../images/staff/derrickweb.jpg"/>
-		<role staff="true" ministry="church" title="Marriage Ministry Leader"/>
+		<role ministry="church" title="Marriage Ministry Leader"/>
 	</servant>
+</staffulltime>
+<staffparttime>
 	<servant id="jeremy">
 		<fullname>Jeremy Valencia</fullname>
 		<first-name>Jeremy</first-name>
@@ -122,7 +125,7 @@
 		<thumbnail href="../images/staff/jeremythumb.jpg"/>
 		<small-photo href="../images/staff/jeremyweb.jpg"/>
 		<large-photo href="../images/staff/jeremyweb.jpg"/>
-		<role staff="true" ministry="church" title="Multi-Media Ministry Leader"/>
+		<role ministry="church" title="Multi-Media Ministry Leader"/>
 	</servant>
 	<servant id="vance">
 		<fullname>Vance Zimmerman</fullname>
@@ -131,8 +134,10 @@
 		<thumbnail href="../images/staff/vancethumb.jpg"/>
 		<small-photo href="../images/staff/vanceweb.jpg"/>
 		<large-photo href="../images/staff/vanceweb.jpg"/>
-		<role staff="true" ministry="church" title="Sound Ministry Leader"/>
+		<role ministry="church" title="Sound Ministry Leader"/>
 	</servant>
+</staffparttime>
+<elder>
 	<!--Debbie-Coffee Creator-->
 	<servant id="jason">
 		<fullname>Jason Moore</fullname>
@@ -141,7 +146,7 @@
 		<thumbnail href="../images/staff/Jasonthumb.jpg"/>
 		<small-photo href="../images/staff/jasonweb.jpg"/>
 		<large-photo href="../images/staff/jasonweb.jpg"/>
-		<role staff="true" ministry="church" title="Calvary Discipleship Leader"/>
+		<role ministry="church" title="Calvary Discipleship Leader"/>
 	</servant>
 	<servant id="james">
 		<fullname>James Lazono</fullname>
@@ -150,7 +155,7 @@
 		<thumbnail href="../images/staff/Jamesthumb.jpg"/>
 		<small-photo href="../images/staff/jamesweb.jpg"/>
 		<large-photo href="../images/staff/jamesweb.jpg"/>
-		<role staff="true" ministry="church" title="New Believer's Teacher"/>
+		<role ministry="church" title="New Believer's Teacher"/>
 	</servant>
 	<servant id="bones">
 		<fullname>Bones Uk</fullname>
@@ -159,7 +164,7 @@
 		<thumbnail href="../images/staff/bonesthumb.jpg"/>
 		<small-photo href="../images/staff/bonesweb.jpg"/>
 		<large-photo href="../images/staff/bonesweb.jpg"/>
-		<role staff="true" ministry="church" title="Elder"/>
+		<role ministry="church" title="Elder"/>
 	</servant>
 	<servant id="craig">
 		<fullname>Craig Swearingen</fullname>
@@ -168,7 +173,7 @@
 		<thumbnail href="../images/staff/craigthumb.jpg"/>
 		<small-photo href="../images/staff/craigweb.jpg"/>
 		<large-photo href="../images/staff/craigweb.jpg"/>
-		<role staff="true" ministry="church" title="Elder"/>
+		<role ministry="church" title="Elder"/>
 	</servant>
 	<servant id="mark">
 		<fullname>Mark Achee</fullname>
@@ -177,7 +182,7 @@
 		<thumbnail href="../images/staff/markthumb.jpg"/>
 		<small-photo href="../images/staff/markweb.jpg"/>
 		<large-photo href="../images/staff/markweb.jpg"/>
-		<role staff="true" ministry="church" title="Elder &amp; Seasoned Saints Leader"/>
+		<role ministry="church" title="Elder &amp; Seasoned Saints Leader"/>
 	</servant>
 	<servant id="matt">
 		<fullname>Matt Lang</fullname>
@@ -186,6 +191,7 @@
 		<thumbnail href="../images/staff/mattthumb.jpg"/>
 		<small-photo href="../images/staff/mattweb.jpg"/>
 		<large-photo href="../images/staff/mattweb.jpg"/>
-		<role staff="true" ministry="church" title="Elder &amp; Greeting Ministry"/>
+		<role ministry="church" title="Elder &amp; Greeting Ministry"/>
 	</servant>
+</elder>
 </content>
