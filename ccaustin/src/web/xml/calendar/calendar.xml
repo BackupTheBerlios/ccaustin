@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.61 2003/06/30 17:17:13 javajames27 Exp $
+	$Id: calendar.xml,v 1.62 2003/07/03 17:49:47 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -44,7 +44,7 @@
     July
     ===============
     -->
-    <event id="07001" date="20030726" showOnHomepage="false">
+    <event id="07001" date="20030726" showOnHomepage="true">
       <title>Children's Ministry Conference</title>
       <date>July 24th-26th</date>
       <intro>Mark your calendars for July 24-26, 2003!  We will host our 3rd conference this year.  Our conference theme is "Shine, Jesus, Shine" taken from Matthew 5:16.  We want Jesus to shine through us as we serve Him by ministering to kids.</intro>
@@ -58,17 +58,6 @@
 			<ministry id="coffee"/>
 		</ministries>
     </event>
-<!--
-    Moving to Aug - details later....
-    <event id="07003" date="20030716" showOnHomepage="false">
-	 <title>Worshippers Wanted!</title>
-		<date>July 15th and 16th</date>
-		<detail>We need you to participate in the "live" recording of our first worship CD. The recording will take place over two evenings, Jul 15-16 beginning at 7PM. Come sing and be a part of this worship experience.</detail>
-		<ministries>
-			<ministry id="worship"/>
-		</ministries>
-    </event>
-    -->
     <event id="07004" date="20030709" showOnHomepage="false">
 	 <title>Eph-pha-tha</title>
 		<date>July 9th</date>
@@ -80,7 +69,7 @@
     <event id="07005" date="20030713" showOnHomepage="true">
 	 <title>Mexico Mission Trip</title>
 		<date>July 11th-13th</date>
-		<detail>Join the Pan de Vida Ministry on Jul 11-13 as they share the love of Jesus with His children south of the border.  Sign up at the Events Ceneter in the lobby.</detail>
+		<detail>Join the Pan de Vida Ministry this Friday, Jul 11-13, as they share the love of Jesus with His children south of the border.  Sign up at the Events Center in the lobby. </detail>
     </event>
     <event id="07006" date="20030704" showOnHomepage="true">
 	 <title>4th of July Festivities</title>
@@ -107,6 +96,14 @@
 		<date>August 4th-8th</date>
 		<detail>More details coming soon!</detail>
     </event>
+    <event id="08003" date="20030827" showOnHomepage="true">
+	 <title>Worshippers Wanted!</title>
+		<date>August 26th and 27th</date>
+		<detail>We need you to participate in the "live" recording of our first worship CD.  The recording will take place over two evenings, Aug 26 and 27 beginning at 7PM.  Come sing and be a part of this worship experience.</detail>
+		<ministries>
+			<ministry id="worship"/>
+		</ministries>
+    </event>
 		<!--
 	===============
 	Sept
@@ -115,9 +112,17 @@
     <event id="09001" date="20030927" showOnHomepage="true">
 	 <title>Men's Retreat</title>
 		<date>Sept 25th - 27th</date>
-		<detail>Registration continues for the Sep 25-27 retreat at T-Bar M Ranch in San Marcos. The main speaker will be Ken Graves from Calvary Chapel Bangor Maine. Men mark your calendars and sign up at the Events Center.  A 50% deposit is due by July 6.</detail>
+		<detail>Registration continues for the Sep 25-27 retreat at T-Bar-M Ranch in New Braunfels. The main speaker is Ken Graves from Calvary Chapel Bangor, Maine.  Men mark your calendars and sign up at the Events Center.  A 50% deposit is due by today, Jul 6.  Sign ups after today require 100%.</detail>
 		<ministries>
 			<ministry id="men"/>
+		</ministries>
+    </event>
+    <event id="09002" date="20030908" showOnHomepage="false">
+	 <title>School of Ministry - Fall Semester</title>
+		<date>Sept 8th</date>
+		<detail>More details to come soon</detail>
+		<ministries>
+			<ministry id="school"/>
 		</ministries>
     </event>
 		<!--

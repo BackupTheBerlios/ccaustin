@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.37 2003/06/30 17:17:13 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.38 2003/07/03 17:49:47 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -98,17 +98,17 @@
 			<detail>Would you like to bless one or more peope attending our CM Conference from out of town with accommodations in your home?  If interested, sign up to be a host family at the Events Center. 
 </detail>
 		</news-item>
-		<news-item id="50" date="20030522" expires="20030629" showOnHomepage="true">
+		<news-item id="50" date="20030522" expires="20030714" showOnHomepage="true">
 			<title>Crown Financial Ministry</title>
-			<detail>Sign ups begin today at the Events Center for an exciting new course focusing on handling money God¹s way.  Short daily studies, practical applications, and weekly small group meetings in host homes will last from Aug through Nov.  Limited enrollment.  A $20 deposit will secure your spot with final payment due by Jun 29.</detail>
+			<detail>There are still some spaces left for the course on handling money God's way.  Sign up at the Events Center today.</detail>
 		</news-item>
 		<news-item id="51" date="20030522" expires="20030713" showOnHomepage="true">
 			<title>Bookstore</title>
 			<detail>Want to grow deeper in your walk with the Lord?  Stop and check-out all the Bibles, books, study guides and CDs.  Open after every Wednesday &amp; Sunday service.</detail>
 		</news-item>
-		<news-item id="52" date="20030529" expires="20030629" showOnHomepage="true">
+		<news-item id="52" date="20030529" expires="20030713" showOnHomepage="true">
 			<title>Fan Drive</title>
-			<detail>Calvary Singles is sponsoring the 3rd annual fan drive for Eldercare.  Purchase a fan and drop it off by the front door in the lobby until the end of July.</detail>
+			<detail>Calvary Singles is sponsoring the 3rd annual fan drive for Eldercare.  Purchase a fan and drop it off in our new collection area in the back hall.</detail>
 		</news-item>
 		<!--
 		<news-item id="53" date="20030529" expires="20030616" showOnHomepage="true">
@@ -116,6 +116,10 @@
 			<detail>Want to wear a Calvary t-shirt to the Baptism/Picnic?  Visit the bookstore and purchase one for only $3.00. Choose from many children¹s sizes.  A few adult sizes remain.</detail>
 		</news-item>
 		-->
+		<news-item id="54" date="20030703" expires="20030729" showOnHomepage="true">
+			<title>Seasoned Saints Fellowship</title>
+			<detail>A new ministry has started.  Seasoned Saints is for those special folks in our church who, by the grace of God, have been a part of this world for a good spell longer than most others and have so much to offer by their presence.  We¹ll meet at the church the 1st Sunday of each month starting tonight, July 6, at 5PM for fellowship.  Pick up a flyer at the Info Center or call for more information</detail>
+		</news-item>
 
 	</news>
 </content>
