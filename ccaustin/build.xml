@@ -139,7 +139,7 @@
   <target name="publish" depends="checkoptions">
     <echo message="Using ftp userid of ${ftp.id}. If this is not correct, create or edit your local.properties and add ftp.id and ftp.password entries."/>
     <ftp server="www.calvarychapel.org"
-         remotedir="/austin/beta"
+         remotedir="/austin"
          userid="${ftp.id}"
          password="${ftp.password}"
          ignoreNoncriticalErrors="true"
