@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.114 2004/04/12 15:36:31 gregk Exp $
+	$Id: calendar.xml,v 1.115 2004/05/04 14:33:03 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -531,6 +531,7 @@ and to register visit the Events Center.</detail>
     <event id="05004" date="20040516" showOnHomepage="true">
 	 <title>Building Momentum:    CELEBRATION SUNDAY</title>
 		<date>May 16</date>
+		<detail>If you would like to participate financially in <strong>Building Momentum</strong>, Celebration Sunday will be your first opportunity to give. This will be a very strategic day as gifts placed in <strong>Building Momentum</strong> envelopes and left in the Collection Containers in the back of the auditorium will help get this three-year project off the ground.</detail>
     </event>
     <event id="05005" date="20040507" showOnHomepage="true">
 	 <title>Mexico Mission Trip</title>
@@ -547,7 +548,7 @@ and to register visit the Events Center.</detail>
     June 2004
     ===============
     -->
-    <event id="06001" date="20040621" showOnHomepage="true">
+    <event id="06001" date="20040621" showOnHomepage="false">
 	 <title>Vacation Bible Study</title>
 		<date>Jun 21-25</date>
                 <detail>Stay tuned for more details !!!.</detail>
@@ -555,7 +556,7 @@ and to register visit the Events Center.</detail>
 			<ministry id="children"/>
 		</ministries>
     </event>
-    <event id="06002" date="20040619" showOnHomepage="true">
+    <event id="06002" date="20040619" showOnHomepage="false">
 	 <title>Baptism and Picnic</title>
 		<date>Jun 19</date>
     </event>
@@ -593,7 +594,7 @@ and to register visit the Events Center.</detail>
 			<ministry id="children"/>
 		</ministries>
 	</event>
-    <event id="10002" date="20041011" showOnHomepage="true">
+    <event id="10002" date="20041011" showOnHomepage="false">
 	 <title>Israel Trip</title>
 		<date>Oct 11-22</date>
                 <detail>The Israel tour is scheduled for Oct. 11 - Oct. 22, 2004. The registration deadline is April 30th. For more information or to register, stop by the Events Center.</detail>
