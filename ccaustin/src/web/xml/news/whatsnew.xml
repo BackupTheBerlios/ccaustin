@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.20 2003/01/13 22:41:14 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.21 2003/01/24 21:11:11 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -201,13 +201,13 @@
     <news-item id="29" date="20030102" expires="20030430" showOnHomepage="true">
 		<logo align="right" img="../images/YEV02a.jpg" alt="Year End Video"/>
 		<title>2002 Year End Video</title>
-		<detail>Check out the <link href="http://www.calvarychapel.org/austin/video/2002yeva.rm ">Year End Video</link> with your <link href="http://www.real.com">RealVideo</link> player!</detail>
+		<detail>Check out the <link href="http://www.calvarychapel.org/austin/video/2002yeva.ram">Year End Video</link> with your <link href="http://www.real.com">RealVideo</link> player!</detail>
     </news-item>
 
     <news-item id="30" date="20030102" expires="20030430" showOnHomepage="true">
 		<logo align="right" img="../images/YEV02b.jpg" alt="Year In Review Video"/>
 		<title>2002 Year In Review Video</title>
-		<detail>Check out the <link href="http://www.calvarychapel.org/austin/video/2002yevb.rm ">Year In Review Video</link> with your <link href="http://www.real.com">RealVideo</link> player!</detail>
+		<detail>Check out the <link href="http://www.calvarychapel.org/austin/video/2002yevb.ram">Year In Review Video</link> with your <link href="http://www.real.com">RealVideo</link> player!</detail>
     </news-item>
 
 
