@@ -134,7 +134,7 @@ Coming Soon!
         </tr>
         <td width=80% class="tableLayout" valign=top>
             <!-- =============================== BEGIN CONTENT ================================ -->
-            <logic:messagesPresent message="false">
+            <logic:messagesPresent property="org.apache.struts.action.GLOBAL_ERROR" message="false">
 			  <p class="errorGlobal"><img src='<html:rewrite page="/images/icons/cancel3.gif"/>' align='left'/><html:errors property="org.apache.struts.action.GLOBAL_ERROR"/></p>
 			</logic:messagesPresent>
 			<logic:messagesPresent message="true">

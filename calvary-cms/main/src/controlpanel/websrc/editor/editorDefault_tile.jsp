@@ -6,7 +6,14 @@
 <%@ taglib uri="/WEB-INF/slide-struts.tld"     prefix="slide" %>
 <%@ taglib uri="/WEB-INF/display.tld"          prefix="display" %>
 <%@ taglib uri="/WEB-INF/calvary.tld"          prefix="calvary" %>
-
+<p>Tips:</p>
+<ul>
+  <li>All XML tags must end properly (i.e. %lt;p%gt;My text%lt;/p%gt;</li>
+  <li>Keep your editing time short to ensure others can edit the same file as well</li>
+  <li>Check the <a href="http://ccaustin.berlios.de/tag-guide.html" target="_new">Tag Reference</a> for guides on creating standard text markup tags</li>\
+  <li>Some files use special tags not covered in the reference. Refer to the notes at the top of the file or a content administrator for more information</li>
+  <li>Remember - feedback to the Control Panel staff helps ensure this application's ease of use improves</li>
+</ul>
 <html:form action="/editor">
 	<html:hidden property="site"/>
 	<html:hidden property="path"/>

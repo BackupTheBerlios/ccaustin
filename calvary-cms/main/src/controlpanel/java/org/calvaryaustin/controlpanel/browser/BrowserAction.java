@@ -18,10 +18,13 @@ import org.calvaryaustin.cms.WebdavRepositoryDAO;
  * node (either a site or directory).
  *
  * @author jhigginbotham
- * @version $Revision: 1.4 $
+ * @version $Revision: 1.5 $
  */
 public final class BrowserAction extends BaseAction 
 {
+	// TODO: Add reason for change column to the browser 
+	//       - this may require a rework of the models used in the UI (rather than slide taglibs)
+	
 	public ActionForward handleRequest( UserRequest request )
 		throws IOException, ServletException
 	{
