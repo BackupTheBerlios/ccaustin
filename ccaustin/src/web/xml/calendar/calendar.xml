@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.139 2005/01/28 00:16:57 tie Exp $
+	$Id: calendar.xml,v 1.140 2005/01/28 00:22:13 tie Exp $
 		
 -->
 <content title="Calendar">
@@ -834,7 +834,7 @@ Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE<
 	 
 	 	 	 	     <event id="01007" date="20050205" showOnHomepage="true">
     	 <title>Super-Duper Bowl</title>
-		<date>Feb 6th</date>
+		<date>Feb 5th</date>
 		<detail>Come join us for some football fun! On February 5th, from 9am to 11am, we will be meeting at the Wells Branch activity field. Flyers with directions are available at the Events Center.</detail>
 	 </event>
 	 

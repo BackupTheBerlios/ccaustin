@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.107 2004/12/19 15:42:03 tie Exp $
+	$Id: whatsnew.xml,v 1.108 2005/01/28 00:18:21 tie Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -555,6 +555,34 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		   <title>No Wednesday Service</title>
 		   <detail>There will be no midweek service on December 22nd, 2004. Join us for the Christmas Eve Candlelight Service on December 24th, 2004 for a special Christmas Eve Service.</detail>
 		</news-item>
+			<news-item id="161" date="20050126" expires="20050205" showOnHomepage="true">
+		   <title>Super-Duper Bowl</title>
+		   <detail>Turkey Bowl was 'gobblin" good and the New Year's Day Bowl was action-packed. To help prepare for the upcoming Super Bowl, we've got the Super-Duper Bowl. Come join the gridiron action on Feb. 5th from 9am-11am at the Wells Branch activity field. Flyers with directions are available at the Events Center.</detail>
+		</news-item>
+		<news-item id="162" date="20050126" expires="20050130" showOnHomepage="true">
+		   <title>G-force</title>
+		   <detail>Join the Children's Ministry on Sunday for an informational meeting regarding G-force. We will meet directly after 2nd service in the New Parents Room.</detail>
+		</news-item>
+		<news-item id="163" date="20050126" expires="20050226" showOnHomepage="true">
+		   <title>Seasoned Saints</title>
+		   <detail>Seasoned Saints will now be meeting on the 2nd Sunday of the month instead of the 1st Sunday of every month. We will continue meeting in the Youth Room.</detail>
+		</news-item>
+				<news-item id="164" date="20050126" expires="20050226" showOnHomepage="true">
+		   <title>Pflugerville Home Pfellowship</title>
+		   <detail>Want to plug in and find new relationships? The Wells Branch group will be moving to Pflugerville, starting Feb 13th, and will now be hosted by Mike and Liz Hardcastle. Pick up a flyer for directions and times.</detail>
+		</news-item> 
+		<news-item id="165" date="20050126" expires="20050226" showOnHomepage="true">
+		   <title>Vital Life</title>
+		   <detail>Do you have an interest in young people? Vital Life is seeking volunteers who will be committed to serving the LORD by investing themselves in the lives of today's youth. Contact David Robinson for more information at <link href="mailto:vitallifecrew@yahoo.com">vitallifecrew@yahoo.com</link>.</detail>
+		</news-item> 
+		<news-item id="166" date="20050126" expires="20050226" showOnHomepage="true">
+		   <title>Sound Ministry</title>
+		   <detail>Sound Ministry is looking for those with an ear for music and a heart to serve. If you are interested in volunteering, please Contact Vance at <link href="mailto:sound@calvaryaustin.org">sound@calvaryaustin.org</link>.</detail>
+		</news-item> 
+				<news-item id="167" date="20050126" expires="20050220" showOnHomepage="true">
+		   <title>LCQ3-Leadership Community Quarterly</title>
+		   <detail>Come Join us on Feb. 19th, from 5pm-8pm, for the 3rd installement of our Leadership Community Quarterly meeting. The topic will be Resting in the Lord while serving in the church. Email <link href="mailto:bunjee@calvaryaustin.org">bunjee@calvaryaustin.org</link> to sign up or go to the Events Center for info. Email <link href="mailto:spazx2@austin.rr.com">spazx2@austin.rr.com</link>.</detail>
+		</news-item> 
 <!--
 -->
   </news>
