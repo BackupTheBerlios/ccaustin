@@ -3,7 +3,7 @@
 
 	The home page for the church
 	
-	$Id: home.xml,v 1.23 2004/03/01 15:59:30 gregk Exp $
+	$Id: home.xml,v 1.24 2004/03/09 03:29:46 gregk Exp $
 		
 -->
 <content title="Home Page" base=".">
@@ -14,6 +14,10 @@
 			<article id="fatherchoseyou"/>
 			 -->
 		</featured-item>
+
+		<banner>
+			<event href="../events/buildingmomentum.html" img="../images/events/buildmobanner.jpg">Building Momentum</event>
+		</banner>
 <!--
 		<banner>
 			<event href="../events/plconference2003.html" img="../images/events/prayingleaders.jpg">Pastors and Leaders Conference 2003</event>
