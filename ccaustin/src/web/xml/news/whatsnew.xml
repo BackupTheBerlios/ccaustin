@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.38 2003/07/03 17:49:47 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.39 2003/07/11 20:37:03 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -119,6 +119,10 @@
 		<news-item id="54" date="20030703" expires="20030729" showOnHomepage="true">
 			<title>Seasoned Saints Fellowship</title>
 			<detail>A new ministry has started.  Seasoned Saints is for those special folks in our church who, by the grace of God, have been a part of this world for a good spell longer than most others and have so much to offer by their presence.  We¹ll meet at the church the 1st Sunday of each month starting tonight, July 6, at 5PM for fellowship.  Pick up a flyer at the Info Center or call for more information</detail>
+		</news-item>
+		<news-item id="55" date="20030704" expires="20030729" showOnHomepage="true">
+			<title>Lunch with Calvary Continuum</title>
+			<detail>Calvary Continuum, on 590AM KIXL, has moved to 12:00pm and 7:30pm every weekday. Spend your lunch break listening to Allen's message</detail>
 		</news-item>
 
 	</news>
