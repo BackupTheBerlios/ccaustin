@@ -3,13 +3,13 @@
 
 	Youth Ministry - The ministry and its detail
 	
-	$Id: youth.xml,v 1.4 2004/02/23 20:45:11 gregk Exp $
+	$Id: youth.xml,v 1.5 2004/06/04 03:17:08 tie Exp $
 		
 -->
-<content title="Youth  Ministry">
+<content title="Vital Life Youth  Ministry">
 	<ministry id="youth">
-	  <name>Youth Ministry</name>
-	  <overview>The youth ministry focuses on bringing young people to Christ, and to build them up in their faith.</overview>
+	  <name>Vital LifeYouth Ministry</name>
+	  <p><overview>Vital Life focuses on teaching and modeling to young people how to respond to God, reach others for Christ and reproduce themselves in others to build God's kingdom for His glory.</overview></p>
 	  <long-description>
 	    <heading>High School Worship &amp; Teaching</heading>
 	    <p>9th grade - 12th grade </p>
@@ -18,7 +18,7 @@
 	    <heading>Jr. High Worship &amp; Teaching</heading>
 	    <p>6th grade - 8th grade </p>
          <p>Wednesday @ 7PM Youth Room</p> 
-         <p>Sunday morning at the two services - Youth Room (Worship in Sanctuary)</p>
+         <p>Sunday morning @ 11:30 AM - Youth Room (Worship in Sanctuary)</p>
 	  </long-description>
 	  <contacts>
 <!--
