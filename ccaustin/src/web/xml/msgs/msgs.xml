@@ -3714,6 +3714,15 @@
 <passageref>http://www.blueletterbible.org/kjv/2Cr/2Cr001.html#top</passageref>
 </message>
 
+<message date="20040721" service="midweek" category="overview"> 
+<seriestitle>James</seriestitle> 
+<title></title> 
+<passage>I Peter 1-2</passage> 
+<tape>BO1359</tape> 
+<audio>bibleoverview/60-ipe-01.wma</audio> 
+<passageref>http://www.blueletterbible.org/kjv/1Pe/1Pe001.html#top</passageref> 
+</message> 
+
     	<message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
 		<title>The Big Question</title>
@@ -9916,5 +9925,14 @@
 	<tape>BS070404</tape> 
 	<audio>59-jam/59-jam-02-14.wma</audio> 
 	<passageref>http://www.blueletterbible.org/kjv/Jam/Jam002.html#top</passageref> 
-	</message>  
+	</message>
+  
+	<message date="20040725" service="sunday" category="book studies"> 
+	<seriestitle>James</seriestitle> 
+	<title>Spiritual Fast Tracking - Talk</title> 
+	<passage>James 3:1-12</passage> 
+	<tape>BS072504</tape> 
+	<audio>59-jam/59-jam-03-01.wma</audio> 
+	<passageref>http://www.blueletterbible.org/kjv/Jam/Jam003.html#top</passageref> 
+	</message> 
 </messagecatalog>
