@@ -7,7 +7,7 @@
 	Processes the ministry tag and its children tags. Most tags reference news and articles located in other files, 
 	so we perform queries on other documents to obtain the data we need for this page. Nice for reusability!
 	
-	$Id: home.xsl,v 1.20 2002/08/27 23:20:47 javajames27 Exp $
+	$Id: home.xsl,v 1.21 2002/09/13 02:17:06 javajames27 Exp $
 	
 -->	
 
@@ -116,6 +116,9 @@
 </xsl:template>
 
 <xsl:template match="news-item">
+  <!-- First, make sure that the event date is still current -->
+  <xsl:choose>
+    <xsl:when test="@date &gt;= $DATE">
   <tr>
     <td colspan="2" class="newstitle" align="left" valign="top"><hr height="1" size="1" color="#2544a9" noshade="true"/><xsl:value-of select="title"/></td>
   </tr>
@@ -130,6 +133,8 @@
   <tr>
     <td colspan="2" class="newsitem" align="left" valign="top"><p><xsl:apply-templates select="detail"/></p></td>
   </tr>
+    </xsl:when>
+  </xsl:choose>
 </xsl:template>
 
 <xsl:template match="event">
