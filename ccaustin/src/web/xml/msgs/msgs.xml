@@ -3412,7 +3412,7 @@
 		<seriestitle>I Corinthians</seriestitle>
 		<title></title>
 		<passage>I Corinthians 13</passage>
-		<tape>BO1318</tape>
+		<tape>BO1319</tape>
 		<audio>bibleoverview/46-ico-13.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/1Cr/1Cr013.html#top</passageref>
 	</message>
@@ -3420,7 +3420,7 @@
 		<seriestitle>I Corinthians</seriestitle>
 		<title></title>
 		<passage>I Corinthians 14</passage>
-		<tape>BO1318</tape>
+		<tape>BO1320</tape>
 		<audio>bibleoverview/46-ico-14.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/1Cr/1Cr014.html#top</passageref>
 	</message>
@@ -3428,7 +3428,7 @@
 		<seriestitle>I Corinthians</seriestitle>
 		<title></title>
 		<passage>I Corinthians 15-16</passage>
-		<tape>BO1318</tape>
+		<tape>BO1321</tape>
 		<audio>bibleoverview/46-ico-15.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/1Cr/1Cr015.html#top</passageref>
 	</message>
@@ -3436,9 +3436,17 @@
 		<seriestitle>2 Corinthians</seriestitle>
 		<title></title>
 		<passage>2 Corinthians 1-2</passage>
-		<tape>BO1319</tape>
+		<tape>BO1322</tape>
 		<audio>bibleoverview/47-2co-01.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/2Cr/2Cr001.html#top</passageref>
+	</message>
+	<message date="20030723" service="midweek" category="overview">
+		<seriestitle>2 Corinthians</seriestitle>
+		<title></title>
+		<passage>2 Corinthians 3-4</passage>
+		<tape>BO1323</tape>
+		<audio>bibleoverview/47-2co-03.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/2Cr/2Cr003.html#top</passageref>
 	</message>
 
     <message date="19940522" service="sunday" category="topical series">
@@ -9195,4 +9203,13 @@
 		<audio>42-luk/42-luk-09-28.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk009.html#top</passageref>
 	</message> 
+	<message date="20030727" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>A Loving Lifestyle</title>
+		<passage>Luke 9:46-62</passage>
+		<tape>BS072703</tape>
+		<audio>42-luk/42-luk-09-46.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk009.html#top</passageref>
+	</message> 
+
 </messagecatalog>
