@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Empty Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="devguide.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<h3>Sitemap</h3>
+<p>The sitemap is an <a href="process-xml.html">XML file</a> that defines all 
+  of the web site sections, including individual pages with the site. It is used 
+  to construct the following items:</p>
+<ul>
+  <li><a href="process-ant.html">Ant build script </a>- this allows the dedundant, 
+    error-prone work of keeping the ant script up to date with the current set 
+    of site pages to be removed. Our ant script, when the web target is invoked, 
+    will generate a new ant script using the sitemap and a custom XSL template. 
+    Thus, we actually use our build system to build our build system. Cool, eh?</li>
+  <li>Menus - The dynamic Javascript menus at the top menu bar of every page are 
+    generated automatically. This removes problems where a page may be added to 
+    the site but missing from the menu</li>
+  <li>Ministry list - The ministry home page contains a master list of ministries 
+    known to the site. We use the sitemap to produce this list.</li>
+</ul>
+<p>A page entry in the sitemap can be marked as excluded, which means it should 
+  not be used to generate menus or master lists (like the ministry page). They 
+  may also be marked hidden, which means that are not used for menus, master lists, 
+  or even the master sitemap page that shows the user an index of all pages in 
+  the site for finding that one ellusive page they know they saw once before (future).</p>
+<p>&nbsp;</p>
+</body>
+</html>

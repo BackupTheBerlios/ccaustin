@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Empty Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="devguide.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<h3>Ant Script</h3>
+<p>What's an Ant script? Well, its a library from the Apache group (they make 
+  web server software) which allows you to define the steps needed to build a 
+  project. We use Ant, which requires<a href="http://java.sun.com/products/j2se"> 
+  Java 1.3.1</a> or newer, to define how our web site gets built - from the XSL 
+  transformations, date/version substitutions, staging deployment, and publishing 
+  to production. An Ant script has one or more targets, which are commands that 
+  tell the script to do things. We currently use the following targets:</p>
+<h4>Web target</h4>
+<p>The web target builds the entire web site by using the <a href="process-sitemap.html">sitemap.xml 
+  </a>as a list of pages to build. This enables you to see the web site changes 
+  you made on your local machine, or build the site from the latest code stored 
+  in <a href="process-cvs.html">CVS source control</a>. </p>
+<h4>Dist target</h4>
+<p>The dist target copies the web site, all associated images, and supporting 
+  files (stylesheets, javascript libraries, etc) to a specific directory. This 
+  enables us to stage the site for our hourly builds (done automatically). </p>
+<h4>Publish target</h4>
+<p>The publish target takes a distribution and FTPs it to the production server, 
+  using the id and password located in a <a href="process-localprops.html">local.properties</a> 
+  file you create. This is done automatically, but also could be done manually 
+  from our staging server in an emergency.</p>
+<h4>For More Information</h4>
+<p>Visit the <a href="http://jakarta.apache.org/ant">Ant homepage</a></p>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Empty Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="devguide.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<h3>XSL Template</h3>
+<p>An XSL template, also called an XSL Stylesheet, defines the rules by which 
+  an XML document's contents get converted into something else. For the purposes 
+  of the Calvary Web Site, this means converting <a href="process-xml.html">XML</a> 
+  (the content) with XSL (the layout) to produce <a href="process-html.html">HTML</a> 
+  (what everyone sees). In general, XSL is like a basic scripting language, as 
+  it defines things called templates that match a particular XML tag, and operate 
+  on that tag. </p>
+<p>The following is an example of an XSL template:</p>
+<pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;ISO-8859-1&quot;?&gt;<br>&lt;xsl:stylesheet version=&quot;1.0&quot;<br>xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot;&gt;&lt;xsl:template match=&quot;/&quot;&gt;<br> &lt;html&gt;<br> &lt;body&gt;<br>   &lt;h2&gt;My CD Collection&lt;/h2&gt;<br>   &lt;table border=&quot;1&quot;&gt;<br>     &lt;tr bgcolor=&quot;#9acd32&quot;&gt;<br>       &lt;th&gt;Title&lt;/th&gt;<br>       &lt;th&gt;Artist&lt;/th&gt;<br>     &lt;/tr&gt;<br>     &lt;tr&gt;<br>       &lt;td&gt;&lt;xsl:value-of select=&quot;title&quot;/&gt;&lt;/td&gt;<br>       &lt;td&gt;&lt;xsl:value-of select=&quot;artist&quot;/&gt;&lt;/td&gt;<br>     &lt;/tr&gt;<br>   &lt;/table&gt;<br> &lt;/body&gt;<br> &lt;/html&gt;<br>&lt;/xsl:template&gt;&lt;/xsl:stylesheet&gt;</pre>
+<p>As you can see, its simply an XML document that defines a template, or rule, 
+  and a set of HTML to produce for that rule. Within each rule the XML data can 
+  be referenced so that when combined, they can produce an HTML page. </p>
+<p>The following are some links for more information about XSL:</p>
+<p><a href="http://www.w3.org/Style/XSL/WhatIsXSL.html">What is XSL?</a></p>
+<p><a href="http://xmlfiles.com/xsl/">Introduction and Tutorial</a></p>
+<p><a href="http://www.manning.com/ducharme/index.html">The book I learned from</a></p>
+<p>&nbsp;</p>
+</body>
+</html>

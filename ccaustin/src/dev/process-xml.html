@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Empty Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="devguide.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<h3>XML Document</h3>
+<p>An XML document is a text file that contains data, marked up by a beginning 
+  and ending tag set. Generally, an XML document should be thought of as content, 
+  or data, which is different from HTML pages which contain both content and layout 
+  (how it should look). An XML document can be edited using any sort of standard 
+  text editor, such as Wordpad that comes with Windows, or a full text editor 
+  like Emacs. It should never be edited with something like Microsoft Office, 
+  as it will ruin the content. </p>
+<p>An XML document is considered well-formed if all of its tags are properly opened 
+  and closed and it has the appropriate XML declaration heading in it. If a document 
+  is not well-formed, it cannot be processed and therefore cannot be published. 
+  The following is an example of a well-formed XML document:</p>
+<pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;<br>&lt;content title=&quot;About Us&quot;&gt;<br>	&lt;heading&gt;10th Anniversary in Austin&lt;/heading&gt;<br>	&lt;p&gt;Sunday, June 2 will mark two milestones
+	  for Calvary Chapel of Austin: 10 years of 
+      meeting as a fellowship, and 4 years in 
+      our current building. 
+    &lt;/p&gt;<br>&lt;/content&gt;</pre>
+<p>The following is <b>not</b> a well-formed document (notice the end tags &lt;/p&gt; 
+  and &lt;/content&gt; are missing:</p>
+<pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;<br>&lt;content title=&quot;About Us&quot;&gt;<br>	&lt;heading&gt;10th Anniversary in Austin&lt;/heading&gt;<br>	&lt;p&gt;Sunday</pre>
+<p>More about XML can be found using the following links:</p>
+<p><a href="http://www.w3.org/TR/REC-xml">The XML Specification </a>(dry but detailed)</p>
+<p><a href="http://www.xml.com/pub/a/2002/03/27/qanda.html">A nice intro to XML</a></p>
+<p><a href="http://www.kamath.com/columns/activetalk/ata008_xmlintro.asp">A light 
+  discussion of XML vs. HTML</a></p>
+<p>Books may also be found at your local bookstore or at <a href="http://www.amazon.com">Amazon.com</a></p>
+</body>
+</html>
