@@ -3,11 +3,10 @@
 
 	Calvary View Live
 	
-	$Id: viewlive.xml,v 1.4 2004/02/21 18:42:38 gregk Exp $
+	$Id: viewlive.xml,v 1.5 2004/04/23 18:17:19 gregk Exp $
 		
 -->
 <content title="View Calvary Live" base=".">
-<!--
 	<live-feed>
 		<embedded href="http://www.calvarychapel.org/austin/video/live.rpm"/>
 		<external href="http://www.calvarychapel.org/austin/video/live.ram"/>
@@ -16,7 +15,8 @@
 		<embedded href="http://157.238.51.2/austin/video/live.rpm"/>
 		<external href="http://157.238.51.2/austin/video/live.ram"/>
 	</live-feed>
--->
+<!--
  <heading> The Calvary Live WebCast Is Temporarily Down Due to Technical Difficulties</heading>
+-->
 	
 </content>
