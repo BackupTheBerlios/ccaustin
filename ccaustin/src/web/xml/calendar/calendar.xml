@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.64 2003/07/26 05:32:58 gregk Exp $
+	$Id: calendar.xml,v 1.65 2003/07/30 00:20:10 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -153,7 +153,7 @@
     <event id="09003" date="20030811" showOnHomepage="true">
 	 <title>Marriage Ministry</title>
 		<date>Sept 8th</date>
-		<detail>Registration for the Fall group meetings in now open. Topics will include: Building your Mate's Self-Esteem, Raising Children of Fatith, and Making Your Remarriage Last. Groups will meet starting the 2nd week of Sept. Cost is $16 per couple. Sign up at the Events Center. Spaces are limited. Registration deadline is Aug 10th.</detail>
+		<detail>Registration for the Fall group meetings in now open. Topics will include: Building your Mate's Self-Esteem, Raising Children of Faith, and Making Your Remarriage Last. Groups will meet starting the 2nd week of Sept. Cost is $16 per couple. Sign up at the Events Center. Spaces are limited. Registration deadline is Aug 10th.</detail>
 		<ministries>
 			<ministry id="marriage"/>
 		</ministries>
