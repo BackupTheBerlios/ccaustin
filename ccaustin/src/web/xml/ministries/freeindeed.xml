@@ -3,13 +3,13 @@
 
         Free Indeed (Addictions) Ministry  - The ministry and its detail 
         
-	   $Id: freeindeed.xml,v 1.5 2003/05/01 15:52:53 javajames27 Exp $ 
+	   $Id: freeindeed.xml,v 1.6 2003/05/14 22:41:42 javajames27 Exp $ 
                 
 --> 
 <content title="Free Indeed"> 
         <ministry id="freeindeed"> 
                 <name>Free Indeed (Addictions) Ministry</name> 
-                <overview>Calvary's Free Indeed Ministry is an outreach to our church and community to provide hope and freedom for those who are enslaved to sinful addictions, whether it be pornography, substance abuse, overeating, smoking or other addictive sins.</overview>
+                <overview>Calvary's Free Indeed Ministry is an outreach to our church and community to provide hope and freedom for those who are enslaved to addictions, whether it be pornography, substance abuse, overeating, smoking, homosexuality or other addictions.</overview>
 
                 <long-description> 
                         <p><strong>"So if the Son sets you free, you will be free indeed." -- John 8:36</strong></p> 
