@@ -7,7 +7,7 @@
  Other variants of this file may offer more search engine or accessibility-friendly
  navigation and less Javascript features for older browsers. 
  
- $Id: default.xsl,v 1.4 2003/05/20 22:34:36 javajames27 Exp $
+ $Id: default.xsl,v 1.5 2003/08/13 04:15:58 gregk Exp $
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
  <xsl:output method="html" indent="yes"/>
@@ -70,8 +70,10 @@
 <img name="media" src="../images/homepage/media.jpg" border="0" width="44" height="19"/></a>     
               <a href="../about/contact.html" alt="Get directions">
 <img name="directions" src="../images/homepage/directions.jpg" border="0" width="61" height="19"/></a>
+
               <a href="../calendar/schedule.html" alt="Find service times">
 <img name="servicetimes" src="../images/homepage/servicetimes.jpg" border="0" width="81" height="19"/></a></td>
+
             </tr>
           </table>
           <!-- end navigation -->
