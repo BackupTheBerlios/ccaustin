@@ -7,7 +7,7 @@
 	Uses the servants.xml, finding only those servants who are flagged as staff members and generates a second 
 	xml file.
 	
-	$Id: staff.xsl,v 1.4 2004/07/02 20:57:33 premav Exp $
+	$Id: staff.xsl,v 1.5 2004/07/02 21:04:26 premav Exp $
 	
 -->	
 
@@ -32,7 +32,7 @@
 			-->
 			<xsl:when test="position()=1" >
   		         <xsl:variable name="curr"><xsl:value-of select="position()"/></xsl:variable>
-				<td colspan="2"><br/></td>
+				<td colspan="1"><br/></td>
 				<td colspan="2" width="40%" align="center" class="textsubtitle">
 			    <xsl:element name="img">
   	                    <xsl:attribute name="src"><xsl:value-of select="thumbnail/@href"/></xsl:attribute>
@@ -47,7 +47,7 @@
 			    <br/>
 
 			    <xsl:apply-templates select="role/@title"/><br/></td>
-				<td colspan="2"><br/></td>
+				<td colspan="3"><br/></td>
 				<td colspan="2" width="10%" class="textsubtitle"><img src="{../servant[($curr+1)]/thumbnail/@href}" alt="{../servant[($curr+1)]/fullname}"/>
 
   	                    <br/>
