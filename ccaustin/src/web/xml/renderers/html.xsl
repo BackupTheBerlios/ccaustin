@@ -14,7 +14,7 @@
 	When a new tag is needed, consider using its HTML equivalent if its name and format is common english. 
 	(e.g. <a/> is not really anything meaningful for the average person, but <link/> is)
 	
-	$Id: html.xsl,v 1.2 2002/12/17 01:02:35 javajames27 Exp $
+	$Id: html.xsl,v 1.3 2003/05/01 15:49:04 javajames27 Exp $
 -->
 
 
@@ -278,6 +278,23 @@
 -->
 <xsl:template match="emphasis">
 	<div class="emphasis"><xsl:apply-templates select="text()"/></div>
+</xsl:template>
+
+<!--
+	<strong/> Strong tag
+	
+	Renders text with a special style for "strong" text (bold text)
+	
+	Body: The text of the emphasis 
+	
+	Attributes:
+	
+		NONE
+		
+	Processes Subtags: Yes
+-->
+<xsl:template match="strong">
+	<div class="textbold"><xsl:apply-templates select="text()"/></div>
 </xsl:template>
 
 <!--
