@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.80 2004/04/11 03:06:13 gregk Exp $
+	$Id: whatsnew.xml,v 1.81 2004/04/24 00:42:12 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -361,7 +361,7 @@
 			<title>Urgent Volunteer Need</title>
 			<detail>Do you have a desire to serve Christ and Calvary Chapel through coffee? For more information see Brooke Johnson at Coffee Creator, call her at 719-4544, or by email at coffeecreator@calvaryaustin.org.</detail>
 		</news-item>
-		<news-item id="114" date="20040227" expires="20040427" showOnHomepage="true">
+		<news-item id="114" date="20040227" expires="20040423" showOnHomepage="true">
 			<title>Bring Out Your Inner Geek</title>
 			<detail>The Internet Ministry is seeking people who
 have a willingness to minister to one another and serve the body with
