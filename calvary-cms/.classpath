@@ -35,5 +35,6 @@
     <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/jakarta-slide/client/lib/slide-webdavlib.jar"/>
     <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/jakarta-slide/client/lib/commons-httpclient.jar"/>
     <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/jakarta-slide/client/lib/slide-client.jar"/>
+    <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/display/lib/display.jar"/>
     <classpathentry kind="output" path="main/eclipse_build"/>
 </classpath>

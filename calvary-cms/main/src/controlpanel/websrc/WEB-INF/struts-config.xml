@@ -18,6 +18,9 @@
     <form-bean name="locks"
                type="org.calvaryaustin.controlpanel.locks.LocksForm"/>
     
+    <form-bean name="browser"
+               type="org.calvaryaustin.controlpanel.browser.BrowserForm"/>
+    
   </form-beans>
   
   <!-- ========== Global Forward Definitions ============================== -->
@@ -108,6 +111,8 @@
     
     <action path="/browser" 
             type="org.calvaryaustin.controlpanel.browser.BrowserAction"
+            name="browser"
+            scope="request"
             input="browser">
       <forward name="browser.success"
                path="browser"/>

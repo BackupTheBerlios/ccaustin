@@ -446,6 +446,7 @@
       <zipfileset prefix="lib" dir="${slide.server.home}" includes="**/**.jar"/>
       -->
       <zipfileset prefix="lib" dir="${slide.server.home}" includes="**/*taglib*.jar"/>
+      <zipfileset prefix="lib" dir="${display.home}/lib" includes="**/**.jar"/>
     </ear>
   </target>
 

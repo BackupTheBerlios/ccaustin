@@ -4,29 +4,24 @@
 <%@ taglib uri="/WEB-INF/struts-template.tld"  prefix="template" %>
 <%@ taglib uri="/WEB-INF/struts-tiles.tld"     prefix="tiles" %>
 <%@ taglib uri="/WEB-INF/slide-struts.tld"     prefix="slide" %>
+<%@ taglib uri="/WEB-INF/display.tld"          prefix="display" %>
+<%@ taglib uri="/WEB-INF/calvary.tld"          prefix="calvary" %>
 
-<% String uri = (String)request.getAttribute("uri"); %>
-<p>uri=<%=uri%></p>
-	<slide:node id="node" uri="<%=uri%>">
+<calvary:browserBreadcrumb/>
+
 <p>
-		URI:<bean:write name="node" property="uri"/>
-</p>
-<p>
-		Name:<bean:write name="node" property="name"/>
-</p>
-<p>
-  <logic:equal name='node' property='hasChildren' value='true'>
-  	<!-- Its a folder, show its contents -->
-  	<logic:iterate id='child' name='node' property='children'>
-        <p>Child:<bean:write name='child' property='name'/>
-        	<br/>has children? <bean:write name='child' property='hasChildren'/>
-      	</p>
-        
-    </logic:iterate>	
-  </logic:equal>
-  
-  <logic:equal name='node' property='hasChildren' value='false'>
-  	<!-- Its a file, show details - or should this be another JSP -->
-  </logic:equal>
-</p>
+	<slide:node id="node" uriName='browser' uriProperty='computedUri'>
+	  <logic:equal name='node' property='hasChildren' value='true'>
+		  <!-- Its a folder, show its contents -->
+		<display:table width='95%' name='node' property='children'
+				 decorator='org.calvaryaustin.controlpanel.browser.TableDisplayWrapper'>
+		  <display:column property="typeIcon" width="32" title=""/>
+		  <display:column property="linkedName" title="Folder Listing" styleClass='browserTableCell'/>
+		</display:table>
+	  </logic:equal>
+	  
+	  <logic:equal name='node' property='hasChildren' value='false'>
+		  <!-- Its a file, show details - or should this be another JSP -->
+	  </logic:equal>
 	</slide:node>
+</p>

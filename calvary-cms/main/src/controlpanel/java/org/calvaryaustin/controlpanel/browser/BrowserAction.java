@@ -32,7 +32,7 @@ import org.calvaryaustin.cms.WebdavRepositoryDAO;
  * launch into content creation and editing.
  *
  * @author <a href="mailto:james@calvaryaustin.org">James Higginbotham</a>
- * @version $Revision: 1.2 $
+ * @version $Revision: 1.3 $
  */
 public final class BrowserAction extends AdminAction {
     
@@ -61,16 +61,17 @@ public final class BrowserAction extends AdminAction {
         throws IOException, ServletException {
         super.perform(mapping, form, request, response);
 
-
-        log.debug("Got here!");
-        String siteName = request.getParameter("site");
-        String path = request.getParameter("path");
+		BrowserForm browserForm = (BrowserForm)form;
+        String siteName = browserForm.getSite();
+        siteName = siteName == null ? "" : siteName;
+        String path = browserForm.getPath();
+        path = path == null ? "" : path;
         // compute the path, using our DAO (which we shouldn't use from here, 
         // but no time to do it right by talking to the repository right now -
         // instead, we are going to use the Slide tags which talk directly to the kernel
         String uri = RepositoryUtil.normalize(WebdavRepositoryDAO.FILES_PREFIX + WebdavRepositoryDAO.PATH_SITES + "/" + siteName + "/" + path); 
         log.debug("uri="+uri);
-        request.setAttribute("uri", uri);
+        browserForm.setComputedUri( uri );
         return mapping.findForward("browser.success");
         
 //         // extract attributes and parameters we will need
