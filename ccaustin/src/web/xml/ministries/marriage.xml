@@ -3,7 +3,7 @@
 
 	Marriage Ministry - The ministry and its detail
 	
-	$Id: marriage.xml,v 1.1 2002/07/22 16:21:39 javajames27 Exp $
+	$Id: marriage.xml,v 1.2 2002/08/10 17:48:38 javajames27 Exp $
 		
 -->
 <content title="Marriage Ministry">
@@ -23,10 +23,19 @@
 	marriage and develop relationships with other couples through
 	the application of Biblical principles. Registration for Fall,
 	Winter, and Spring meetings will be announced prior to the
-	start of the session.    </p> 
+	start of the session.    </p>
+
+      <heading>Fall 2002 Meeting Topics</heading>
+      <p>Fall 2002 group meeting will start the second week of September.  Fall
+	meeting topics include:</p>
+      <p>Improving Communication in Your Marriage - 6 week series</p>
+      <p>Building Teamwork in Your Marriage - 7 week series</p>
+      <p>Resolving Conflicts in Your Marriage - 6 week series</p>
+      <p>Growing Together in Christ - 6 week series</p>
     </long-description>
     <contacts>
       <contact-email email="Bonarauk@yahoo.com">Bones and Laurie Uk</contact-email>
+      <contact-phone phone="252-3087">Contact by phone</contact-phone>
     </contacts>
   </ministry>
 </content>

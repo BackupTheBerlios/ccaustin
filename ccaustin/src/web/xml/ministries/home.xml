@@ -3,7 +3,7 @@
 
 	Home Fellowship Ministry - The ministry and its detail
 	
-	$Id: home.xml,v 1.6 2002/07/22 17:03:14 javajames27 Exp $
+	$Id: home.xml,v 1.7 2002/08/10 17:48:38 javajames27 Exp $
 		
 -->
 <content title="Home Fellowship Ministry" onUnload="hfnWindow.close()">
@@ -29,9 +29,10 @@
 		</map>
 		
 	  </long-description>
-	  <contacts>
-	  	<contact-phone phone="719-4667">Contact the church office</contact-phone>
-   	  </contacts>
+    <contacts>
+      <contact-email email="Bonarauk@yahoo.com">Bones and Laurie Uk</contact-email>
+      <contact-phone phone="252-3087">Contact by phone</contact-phone>
+    </contacts>
 	  
 	  <hfndata>
 	  </hfndata>
