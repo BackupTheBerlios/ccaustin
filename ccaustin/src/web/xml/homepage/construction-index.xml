@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	The simple index page for the site
+	
+	$Id: construction-index.xml,v 1.1 2002/05/28 21:01:26 javajames27 Exp $
+		
+-->
+<content title="Home" base=".">
+	<redirect href="homepage/construction.html"/>
+</content>
