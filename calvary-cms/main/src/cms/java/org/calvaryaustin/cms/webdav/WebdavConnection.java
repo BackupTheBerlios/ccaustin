@@ -1,12 +1,18 @@
 package org.calvaryaustin.cms.webdav;
 
 import java.io.IOException;
+import java.util.Enumeration;
+import java.util.HashMap;
 
 import org.apache.commons.httpclient.HttpException;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.util.HttpURL;
+import org.apache.webdav.lib.Property;
+import org.apache.webdav.lib.PropertyName;
+import org.apache.webdav.lib.ResponseEntity;
 import org.apache.webdav.lib.WebdavResource;
+import org.apache.webdav.lib.methods.DepthSupport;
 import org.calvaryaustin.cms.RepositoryException;
 
 /**
@@ -16,7 +22,7 @@ import org.calvaryaustin.cms.RepositoryException;
  * Created: Tue Jan 28 20:14:37 2003
  *
  * @author <a href="mailto:jhigginbotham@betweenmarkets.com">James Higginbotham</a>
- * @version $Revision: 1.1 $
+ * @version $Revision: 1.2 $
  */
 
 public class WebdavConnection 
@@ -114,38 +120,131 @@ public class WebdavConnection
     
 	}
 
-	public boolean deleteCollection(String path, String collectionName  ) throws RepositoryException
+	public boolean deleteResource(String path, String collectionName  ) throws RepositoryException
 	{
 	  try 
 	  {
-		log.trace("deleteCollection(): Deleting collection with name "+collectionName);
-		WebdavResource webdavResource = findResource( path + "/" + collectionName);
+		log.trace("deleteResource(): Deleting resource with name "+collectionName);
+		String fullPath = path + "/" + collectionName;
+		WebdavResource webdavResource = findResource( fullPath );
 		if ( webdavResource == null || !webdavResource.exists() )
 		{
-		  log.trace("deleteCollection(): site not found");
-		  return false;
+		  throw new RepositoryException("Resource not found "+fullPath);
 		} // end of if ()
 
 		if (webdavResource.deleteMethod() )
 		{
-		  log.trace("deleteCollection(): Directory deleted");
+		  log.trace("deleteResource(): Resource deleted");
 		  return true;
 		}
 		else
 		{
-		  log.trace("makeCollection(): Directory deletion failed: "+webdavResource.getStatusMessage());
-		  throw new RepositoryException("Directory deletion failed: "+webdavResource.getStatusMessage());
+		  log.trace("deleteResource(): Resource deletion failed: "+webdavResource.getStatusMessage());
+		  throw new RepositoryException("Resource deletion failed: "+webdavResource.getStatusMessage());
 		} // end of else
 	  }
 	  catch (HttpException e)
 	  {
-		throw new RepositoryException("HTTP Exception during directory creation",e);
+		throw new RepositoryException("HTTP Exception during resource deletion",e);
 	  } // end of try-catch
 	  catch (IOException e)
 	  {
-		throw new RepositoryException("I/O Exception during directory creation",e);
+		throw new RepositoryException("I/O Exception during resource deletion",e);
 	  } // end of try-catch
     
+	}
+	
+	public HashMap getProperties(String path) throws RepositoryException
+	{
+		HashMap map = new HashMap();
+		try 
+		{
+			WebdavResource webdavResource = findResource( path );
+			Enumeration responses = webdavResource.propfindMethod(webdavResource.getPath(), DepthSupport.DEPTH_0); 
+			while(responses.hasMoreElements())
+			{
+				ResponseEntity response = (ResponseEntity) responses.nextElement(); 
+				Enumeration properties = response.getProperties(); 
+				while (properties.hasMoreElements()) {
+					org.apache.webdav.lib.Property property = (Property)properties.nextElement();
+					log.trace("getProperties(): found property "+property.getName()+" with value "+property.getPropertyAsString());
+					map.put(property.getName(), property.getPropertyAsString());
+				}//while
+			}
+		}
+		catch (HttpException e)
+		{	
+  			throw new RepositoryException("HTTP Exception during directory creation",e);
+		} // end of try-catch
+		catch (IOException e)
+		{	
+		  throw new RepositoryException("I/O Exception during directory creation",e);
+		} // end of try-catch
+		return map;
+	}
+	
+	
+	public boolean setProperty(String path, String prefix, String name, String value) throws RepositoryException
+	{
+		try 
+		{
+	 	    log.trace("setProperty(): Setting propery name "+prefix+name+" with value "+value+" for "+path);
+		    WebdavResource webdavResource = findResource( path );
+		    if ( webdavResource == null || !webdavResource.exists() )
+		    {
+			  log.trace("setProperty(): path not found "+path);
+			  return false;
+		    } // end of if ()
+
+		
+		    if(webdavResource.proppatchMethod(webdavResource.getPath(), new PropertyName(prefix,name), value) )
+		    {
+			  log.debug("setProperty(): PROPPATCH Succeeded");
+			  return true;
+		    }
+		    else 
+		    {
+			  throw new RepositoryException("PROPPATCH failed. Reason: "+webdavResource.getStatusMessage());
+		    }
+		  }
+		  catch (HttpException e)
+	 	  {
+		    throw new RepositoryException("HTTP Exception during directory creation",e);
+		  } // end of try-catch
+		  catch (IOException e)
+		  {
+		    throw new RepositoryException("I/O Exception during directory creation",e);
+		  } // end of try-catch
+	}
+	
+	public boolean put(String path, String name, String contentType, String content) throws RepositoryException
+	{
+		try 
+		{
+			WebdavResource webdavResource = findResource( "/" );
+			webdavResource.setContentType(contentType);
+			String fullPath = ( path.startsWith( PATH_PREFIX ) ? path+"/"+name : PATH_PREFIX + "/" + path+"/"+name );
+			String normalizedPath = normalize( fullPath );
+			log.trace("findResource():   normalized path "+normalizedPath);
+			if (webdavResource.putMethod(normalizedPath, content))
+			{
+			  log.debug("put(): PUT Succeeded");
+			  return true;
+			} 
+			else
+			{
+			  throw new RepositoryException("PUT failed. Reason: "+webdavResource.getStatusMessage());
+			}
+		}
+		catch (HttpException e)
+		{
+		  throw new RepositoryException("HTTP Exception during file creation",e);
+		} // end of try-catch
+		catch (IOException e)
+		{
+		  throw new RepositoryException("I/O Exception during file creation",e);
+		} // end of try-catch
+
 	}
 
 

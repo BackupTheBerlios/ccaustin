@@ -3,7 +3,7 @@ package org.calvaryaustin.cms;
 import java.util.List;
 
 /**
- * A Site Resource is anything that a site may contain - pages, folders, links, etc. 
+ * A Site Resource is a base interface for anything that a site may contain 
  * @author jhigginbotham
  */
 public interface SiteResource
@@ -16,17 +16,4 @@ public interface SiteResource
 	 * @return
 	 */
 	public String getPath();
-	
-	public boolean isLocked();
-	
-	public boolean isFolder();
-	
-	public List getLocks();
-	
-	/**
-	 * @throws RepositoryException
-	 */
-	public void delete() throws RepositoryException;	
-	
-	
 }

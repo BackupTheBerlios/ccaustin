@@ -19,7 +19,7 @@ import org.apache.commons.logging.LogFactory;
  * Created: Fri Jan 17 20:30:31 2003
  *
  * @author <a href="mailto:jhigginbotham@betweenmarkets.com">James Higginbotham</a>
- * @version $Revision: 1.2 $
+ * @version $Revision: 1.3 $
  */
 public class RepositoryTest extends TestCase 
 {
@@ -39,7 +39,8 @@ public class RepositoryTest extends TestCase
  public static TestSuite suite()
   {
     TestSuite suite = new TestSuite ();
-    
+	suite.addTest(new RepositoryTest("testInitRepository"));
+	suite.addTest(new RepositoryTest("testCreateSite"));
     return suite;
   }
  */
@@ -57,6 +58,13 @@ public class RepositoryTest extends TestCase
   	log.info(">>>>>>>>>>>>> testInitRepository(): begin");
     // let's make sure our root dir exists and that the repository inits properly
 	repository = RepositoryFactory.getRepository( HOST, PORT, PATH, USERNAME, PASSWORD );
+	List results = repository.getSiteList();
+	Iterator iterator = results.iterator();
+	while(iterator.hasNext())
+	{
+		Site site = (Site)iterator.next();
+		site.delete();
+	}
 	log.info("<<<<<<<<<<<<< testInitRepository(): end");
   }
 
@@ -64,10 +72,11 @@ public class RepositoryTest extends TestCase
   {
 	log.info(">>>>>>>>>>>>> testCreateSite(): begin");
 	assertNotNull(repository);
-	repository.createSite( TEST_SITE );
+	repository.createSite( TEST_SITE, TEST_SITE_DESCRIPTION );
 	Site site = repository.getSite( new SiteHandle(TEST_SITE) );
 	assertNotNull( site );
 	assertEquals( TEST_SITE, site.getName() );
+	assertEquals( TEST_SITE_DESCRIPTION, site.getDescription() );
 	log.info("<<<<<<<<<<<<< testCreateSite(): end");
   }
 
@@ -75,7 +84,7 @@ public class RepositoryTest extends TestCase
   {
 	log.info(">>>>>>>>>>>>> testListSites(): begin");
   	assertNotNull(repository);
-    repository.createSite( TEST_SITE2 );
+    repository.createSite( TEST_SITE2, TEST_SITE2_DESCRIPTION );
     List results = repository.getSiteList();
     assertNotNull( results );
     assertEquals( 2, results.size() );
@@ -91,11 +100,80 @@ public class RepositoryTest extends TestCase
 	Iterator iterator = results.iterator();
 	while(iterator.hasNext())
 	{
-		SiteHandle handle = (SiteHandle)iterator.next();
-		repository.deleteSite(handle);
+		Site site = (Site)iterator.next();
+		site.delete();
 	}
+	results = repository.getSiteList();
+	assertNotNull( results );
+	assertEquals(0, results.size());
 	log.info("<<<<<<<<<<<<< testDeleteSites(): end");
   }
+  
+  public void testFolderLifecycle() throws Exception
+  {
+	log.info(">>>>>>>>>>>>> testCreateFolder(): begin");
+	assertNotNull(repository);
+	repository.createSite( TEST_SITE, TEST_SITE_DESCRIPTION );
+	Site site = repository.getSite( new SiteHandle(TEST_SITE) );
+	Folder rootFolder = site.getRootFolder();
+	assertNotNull( rootFolder  );
+	assertEquals( "/", rootFolder.getName() );
+	assertEquals( "/", rootFolder.getPath() );
+	FolderHandle handle = rootFolder.createFolder(TEST_FOLDER, TEST_FOLDER_DESCRIPTION);
+	assertNotNull( handle );
+	assertEquals("/"+TEST_FOLDER, handle.getPath());
+	Folder foundFolder = site.getFolder( handle );
+	assertNotNull(foundFolder);
+	assertEquals( TEST_FOLDER, foundFolder.getName() );
+	assertEquals( "/"+TEST_FOLDER, foundFolder.getPath() );
+	assertEquals( TEST_FOLDER_DESCRIPTION, foundFolder.getDescription() );
+	foundFolder.delete();
+	try 
+	{
+		site.getFolder( handle );
+		fail("Folder was deleted but was returned by a query.");
+	} catch( FolderNotFoundException e)
+	{
+		// expected
+	}
+	site.delete();
+	log.info("<<<<<<<<<<<<< testCreateFolder(): end");
+  }
+  
+  public void testFileLifecycle() throws Exception
+  {
+	log.info(">>>>>>>>>>>>> testCreateFile(): begin");
+	assertNotNull(repository);
+	repository.createSite( TEST_SITE, TEST_SITE_DESCRIPTION );
+	Site site = repository.getSite( new SiteHandle(TEST_SITE) );
+	Folder rootFolder = site.getRootFolder();
+	FolderHandle handle = rootFolder.createFolder(TEST_FOLDER, TEST_FOLDER_DESCRIPTION);
+	Folder foundFolder = site.getFolder( handle );
+	FileHandle fileHandle = foundFolder.createFile(TEST_FILE, TEST_FILE_DESCRIPTION, TEST_FILE_TYPE, TEST_FILE_CONTENT);
+	org.calvaryaustin.cms.File foundFile = foundFolder.getFile(fileHandle);
+	assertNotNull(foundFile);
+	assertEquals(TEST_FILE, foundFile.getName());
+	FileVersion latestVersion = foundFile.getLatestVersion();
+	assertNotNull(latestVersion);
+	assertEquals(TEST_FILE_DESCRIPTION, latestVersion.getDescription());
+	assertEquals(TEST_FILE_TYPE, latestVersion.getContentType());
+	assertEquals(TEST_FILE_CONTENT, latestVersion.getContent());
+	foundFile.delete();		
+	try 
+	{
+		foundFolder.getFile(fileHandle);
+		fail("File was deleted but was returned by a query.");
+	} catch( FileNotFoundException e)
+	{
+		// expected
+	}
+	site.delete();
+	log.info("<<<<<<<<<<<<< testCreateFile(): end");
+  }
+  
+  // TODO: Test the folder.browse() method
+  // TODO: Test the checkout/checkin method
+  
 /*  
   public void DISABLEDtestImportDirectory() throws Exception
   {
@@ -150,6 +228,14 @@ public class RepositoryTest extends TestCase
   private static final String USERNAME = "root";
   private static final String PASSWORD = "root";
   private static final String TEST_SITE = "testsite";
+  private static final String TEST_SITE_DESCRIPTION = "A test site";
   private static final String TEST_SITE2 = "testsite-2";
+  private static final String TEST_SITE2_DESCRIPTION = "Another test site";
+  private static final String TEST_FOLDER = "testfolder";
+  private static final String TEST_FOLDER_DESCRIPTION = "A test folder";
+  private static final String TEST_FILE = "testfile";
+  private static final String TEST_FILE_DESCRIPTION = "A test file";
+  private static final String TEST_FILE_TYPE = "text/plain";
+  private static final String TEST_FILE_CONTENT = "This is an example of a test file that is plain text.";
   private static final Log log = LogFactory.getLog( RepositoryTest.class );
 }// RepositoryTest

@@ -28,16 +28,10 @@ public interface Repository
 	/**
 	 * Creates a new site in the repository
 	 * @param sitename a sitename that is unique to the repository
+	 * @param description a description of the site
 	 * @return a handle to the newly created site
 	 * @throws RepositoryException if an error occurs
 	 * @throws SiteAlreadyExistsException if the site already exists in the repository
 	 */
-	public SiteHandle createSite(String sitename) throws RepositoryException, SiteAlreadyExistsException;
-	/**
-	 * Deletes a site in the repository and all associated content
-	 * @param handle a handle to the site to delete
-	 * @throws RepositoryException if an error occurs
-	 * @throws SiteNotFoundException if the site was not found given a handle
-	 */
-	public void deleteSite(SiteHandle handle) throws RepositoryException, SiteAlreadyExistsException;
+	public SiteHandle createSite(String sitename, String description) throws RepositoryException, SiteAlreadyExistsException;
 }

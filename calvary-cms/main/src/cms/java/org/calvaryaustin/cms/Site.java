@@ -19,42 +19,27 @@ public interface Site
 	 */
 	public String getName();
 	/**
+	 * Returns the description of the site
+	 * @return the description of the site
+	 */
+	public String getDescription();
+	/**
 	 * Returns the root folder for the site
 	 * @return the root folder for the site
 	 */
-	public Folder getRootFolder();
+	public Folder getRootFolder() throws RepositoryException;
 	/**
-	 * Returns a list of handles to resources in the root of the site
-	 * @return a list of handles to resources in the root of the site
-	 * @throws RepositoryException if an error occurs during browsing
+	 * Returns the folder for the given handle (path)
+	 * @param handle the handle to the folder
+	 * @return the folder for the path
+	 * @throws RepositoryException if an error occurs
+	 * @throws FolderNotFoundException if the folder was not found at the given path
 	 */
-	public List browse() throws RepositoryException;
+	public Folder getFolder(FolderHandle handle) throws RepositoryException, FolderNotFoundException;
+
 	/**
-	 * Returns a list of handles to resources of the site relative to the starting path
-	 * @param startingPath the starting path to browse 
-	 * @return a list of handles to resources in the startingPath
-	 * @throws RepositoryException if an error occurs during browsing
+	 * Deletes this site from the repository
+	 * @throws RepositoryException if an error occurs
 	 */
-	public List browse(SiteResourceHandle startingPath) throws RepositoryException;
-	/**
-	 * Returns a list of handles to resources of the site relative to the starting path
-	 * @param startingPath the starting path to browse 
-	 * @return a list of handles to resources in the startingPath
-	 * @throws RepositoryException if an error occurs during browsing
-	 */
-	public List browse(String startingPath) throws RepositoryException;
-	/**
-	 * Returns a resource from the site for viewing, editing, etc. 
-	 * @param handle a handle to the resource to retrieve
-	 * @return a resource from the site for viewing, editing, etc.
-	 * @throws RepositoryException if an error occurs during retrieval
-	 */
-	public SiteResource getResource(SiteResourceHandle handle) throws RepositoryException;
-	/**
-	 * Returns a resource from the site for viewing, editing, etc. 
-	 * @param uri uri to the resource to retrieve
-	 * @return a resource from the site for viewing, editing, etc.
-	 * @throws RepositoryException if an error occurs during retrieval
-	 */
-	public SiteResource getResource(String uri) throws RepositoryException;
+	public void delete() throws RepositoryException;
 }

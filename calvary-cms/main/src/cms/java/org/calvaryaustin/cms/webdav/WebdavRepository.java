@@ -1,6 +1,7 @@
 package org.calvaryaustin.cms.webdav;
 
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -37,11 +38,13 @@ public class WebdavRepository implements Repository
 	public List getSiteList() throws RepositoryException
 	{
 		LinkedList list = new LinkedList();
-		WebdavResource[] sites = connection.listResources( PATH_SITES );
+		WebdavResource[] sites = connection.listResources( WebdavConstants.PATH_SITES );
 		for(int i=0;i<sites.length;i++)
 		{
-			WebdavResource site = sites[i];
-			list.add( new SiteHandle( site.getDisplayName(), site.getDisplayName()));
+			WebdavResource site = sites[i]; 
+			HashMap properties = connection.getProperties( site.getPath() );
+			String description = (String)properties.get(WebdavConstants.CALVARY_PROP_PREFIX+WebdavConstants.PROP_DESCRIPTION);
+			list.add( new WebdavSite(connection, site.getDisplayName(), site.getDisplayName(), description) );
 		}
 		return list;
 	}
@@ -49,45 +52,41 @@ public class WebdavRepository implements Repository
 	public Site getSite(SiteHandle handle)
 		throws RepositoryException, SiteNotFoundException
 	{
-		WebdavResource site = connection.findResource( PATH_SITES + handle.getId() );
+		WebdavResource site = connection.findResource( WebdavConstants.PATH_SITES + handle.getId() );
 		if(site != null && site.exists())
 		{
-			WebdavSite foundSite = new WebdavSite(connection, site.getDisplayName(), site.getDisplayName());
+			HashMap properties = connection.getProperties( site.getPath() );
+			String description = (String)properties.get(WebdavConstants.CALVARY_PROP_PREFIX+WebdavConstants.PROP_DESCRIPTION);
+			WebdavSite foundSite = new WebdavSite(connection, site.getDisplayName(), site.getDisplayName(), description);
 			return foundSite;			
 		}
 		throw new SiteNotFoundException("Site not found: "+handle.getId());
 	}
 
-	public SiteHandle createSite(String sitename)
+	public SiteHandle createSite(String sitename, String description)
 		throws RepositoryException, SiteAlreadyExistsException
 	{
-		boolean result = connection.makeCollection( PATH_SITES, sitename );
+		boolean result = connection.makeCollection( WebdavConstants.PATH_SITES, sitename );
 		if( !result ) 
 		{
 			throw new SiteAlreadyExistsException("Site already exists: "+sitename);
 		}
-		return new SiteHandle(sitename, sitename);
-	}
-
-	public void deleteSite(SiteHandle handle) throws RepositoryException, SiteNotFoundException
-	{
-		boolean result = connection.deleteCollection( PATH_SITES, handle.getId() );
-		if( !result ) 
+		// Set description property
+		boolean propResult = connection.setProperty(WebdavConstants.PATH_SITES+sitename, WebdavConstants.CALVARY_PROP_PREFIX, WebdavConstants.PROP_DESCRIPTION, description);
+		if( !propResult ) 
 		{
-			throw new SiteNotFoundException("Site not found: "+handle.getId());
+			log.warn("createSite(): Could not set the property for the newly created site - not rolling back tx");
 		}
-		
+		return new SiteHandle(sitename, sitename);
 	}
 
 	private void initRepository() throws RepositoryException
 	{
 		// make the sites collection so we can create sites - will check if it exists first
-		connection.makeCollection( ROOT, SITES_COLLECTION_NAME );
+		connection.makeCollection( ROOT, WebdavConstants.SITES_COLLECTION_NAME );
 	}
 
 	private WebdavConnection connection;
 	private static final String ROOT = "";
-	private static final String SITES_COLLECTION_NAME = "sites";
-	private static final String PATH_SITES = "/"+SITES_COLLECTION_NAME+"/";
 	private static final Log log = LogFactory.getLog( WebdavRepository.class );
 }

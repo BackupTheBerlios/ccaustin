@@ -1,8 +1,12 @@
 package org.calvaryaustin.cms.webdav;
 
+import java.util.HashMap;
 import java.util.List;
 
+import org.apache.webdav.lib.WebdavResource;
 import org.calvaryaustin.cms.Folder;
+import org.calvaryaustin.cms.FolderHandle;
+import org.calvaryaustin.cms.FolderNotFoundException;
 import org.calvaryaustin.cms.RepositoryException;
 import org.calvaryaustin.cms.Site;
 import org.calvaryaustin.cms.SiteResource;
@@ -18,88 +22,64 @@ public class WebdavSite implements Site
 	/**
 	 * 
 	 */
-	public WebdavSite(WebdavConnection connection, String id, String name)
+	public WebdavSite(WebdavConnection connection, String id, String name, String description)
 	{
 		super();
 		
 		this.connection = connection;
 		this.id = id;
 		this.name = name;
+		this.description = description;
 	}
 
-	/* (non-Javadoc)
-	 * @see org.calvaryaustin.cms.Site#getId()
-	 */
 	public String getId()
 	{
 		return id;
 	}
 
-	/* (non-Javadoc)
-	 * @see org.calvaryaustin.cms.Site#getName()
-	 */
 	public String getName()
 	{
 		return name;
 	}
 
-	/* (non-Javadoc)
-	 * @see org.calvaryaustin.cms.Site#getRootFolder()
-	 */
-	public Folder getRootFolder()
+	public String getDescription()
 	{
-		// TODO Auto-generated method stub
-		return null;
+		return description;
 	}
 
-	/* (non-Javadoc)
-	 * @see org.calvaryaustin.cms.Site#browse()
-	 */
-	public List browse() throws RepositoryException
+	public Folder getRootFolder() throws RepositoryException
 	{
-		// TODO Auto-generated method stub
-		return null;
+		WebdavResource folderResource = connection.findResource( WebdavConstants.PATH_SITES + getName() );
+		if(folderResource != null && folderResource.exists())
+		{
+			HashMap properties = connection.getProperties( folderResource.getPath() );
+			String description = (String)properties.get(WebdavConstants.CALVARY_PROP_PREFIX+WebdavConstants.PROP_DESCRIPTION);
+			WebdavFolder folder = new WebdavFolder(connection, name, "/", "/", description);
+			return folder;			
+		}
+		throw new FolderNotFoundException("Root folder not found for site "+getName());
+	}
+	
+	public Folder getFolder(FolderHandle handle) throws RepositoryException, FolderNotFoundException
+	{
+		WebdavResource folderResource = connection.findResource( WebdavConstants.PATH_SITES + getName() +"/" + handle.getPath() );
+		if(folderResource != null && folderResource.exists())
+		{
+			HashMap properties = connection.getProperties( folderResource.getPath() );
+			String description = (String)properties.get(WebdavConstants.CALVARY_PROP_PREFIX+WebdavConstants.PROP_DESCRIPTION);
+			WebdavFolder folder = new WebdavFolder(connection, name, handle.getPath(), folderResource.getDisplayName(), description);
+			return folder;			
+		}
+		throw new FolderNotFoundException("Folder not found "+handle.getPath());
 	}
 
-	/* (non-Javadoc)
-	 * @see org.calvaryaustin.cms.Site#browse(org.calvaryaustin.cms.SiteResourceHandle)
-	 */
-	public List browse(SiteResourceHandle startingPath)
-		throws RepositoryException
+	public void delete() throws RepositoryException
 	{
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	/* (non-Javadoc)
-	 * @see org.calvaryaustin.cms.Site#browse(java.lang.String)
-	 */
-	public List browse(String startingPath) throws RepositoryException
-	{
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	/* (non-Javadoc)
-	 * @see org.calvaryaustin.cms.Site#getResource(org.calvaryaustin.cms.SiteResourceHandle)
-	 */
-	public SiteResource getResource(SiteResourceHandle handle)
-		throws RepositoryException
-	{
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	/* (non-Javadoc)
-	 * @see org.calvaryaustin.cms.Site#getResource(java.lang.String)
-	 */
-	public SiteResource getResource(String uri) throws RepositoryException
-	{
-		// TODO Auto-generated method stub
-		return null;
+		connection.deleteResource( WebdavConstants.PATH_SITES, getId() );
 	}
 
 	private WebdavConnection connection;
 	private String id;
 	private String name;
+	private String description;
 }
