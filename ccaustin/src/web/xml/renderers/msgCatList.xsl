@@ -382,8 +382,6 @@
 	    which is an excellent online Bible resource.
 	  </FONT></TD>
 	</TR>
-	<tr><td colspan="2">	     <div class="note">We are currently experiencing problems with our streaming video and audio feed. We are working to resolve this problem as soon as possible. Thank you for your understanding and prayers.</div>
-</td></tr>
 	<TR>
 	  <TD ALIGN="right" VALIGN="middle"><A HREF="../msgs/msgsTapeArchive.html"><IMG SRC="../images/cassette.jpg" ALT="View the Calvary Continuum Audio Tape catalog" BORDER="0"/></A></TD>
 	  <TD ALIGN="left"><FONT FACE="TAHOMA,VERDANA,ARIAL,HELVETICA" SIZE="-1">

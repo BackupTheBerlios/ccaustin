@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.25 2002/12/19 22:16:37 javajames27 Exp $
+	$Id: calendar.xml,v 1.26 2002/12/31 02:20:24 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -52,11 +52,29 @@
       and plan to register early. <link href="../events/mwc2003.html">Learn more</link>...</detail> 
     </event>
 
+    <event id="02002" date="20030209" showOnHomepage="true">
+      <title>Communion Service</title>
+      <date>Feb 9th, All Services</date>
+      <detail/>
+    </event>
+
+    <event id="02003" date="20030212" showOnHomepage="true">
+      <title>Extended Worship Service</title>
+      <date>Feb 12th</date>
+      <detail/>
+    </event>
+
 		<!--
     ===============
     Mar
     ===============
     -->
+    <event id="03001" date="20030316" showOnHomepage="false">
+      <title>Calvary 2003 Women's Retreat</title>
+      <date>March 14-16th</date>
+      <detail>More details to come...</detail>
+    </event>
+
 		<!--
     ===============
     Apr
@@ -347,16 +365,16 @@
 				<ministry id="coffee"/>
 			</ministries>
 		</event>
-    <!--
+
 		<event id="12002" date="20021231" showOnHomepage="true">
 			<title>New Year's Eve Service</title>
 			<date>December 31st</date>
-			<detail>Dec 31, 7:30-10:30PM</detail>
+			<detail>Come join us Tuesday, New Years Eve, from 7:30-10:30PM for a blast. You will hear music from the Youth &amp; College bands and our Worship team. There will be a 2-part year-end video of the happenings at Calvary in 2002 and a special message from Pastor Allen</detail>
 			<ministries>
 				<ministry id="church"/>
 			</ministries>
 		</event>
-    -->
+
 		<!--
 	===============
 		Coming Soon
