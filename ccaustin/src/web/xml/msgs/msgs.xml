@@ -3195,7 +3195,7 @@
 	<message date="20020904" service="midweek" category="overview">
 		<seriestitle>Acts</seriestitle>
 		<title></title>
-		<passage>Acts 190</passage>
+		<passage>Acts 19</passage>
 		<tape>B01293</tape>
 		<audio>bibleoverview/44-act-19.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Act/Act019.html#top</passageref>
@@ -3216,7 +3216,14 @@
 		<audio>bibleoverview/44-act-20.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Act/Act020.html#top</passageref>
 	</message>
-
+	<message date="20020925" service="midweek" category="overview">
+		<seriestitle>Acts</seriestitle>
+		<title></title>
+		<passage>Acts 22-23</passage>
+		<tape>B01295</tape>
+		<audio>bibleoverview/44-act-22.ram</audio>
+		<passageref>http://www.blueleterbible.org/kjv/Act/Act022.html#top</passageref>
+	</message>
 
 
     <message date="19940522" service="sunday" category="topical series">
@@ -8193,6 +8200,14 @@
 		<passage>Ephesians 6:5-9</passage>
 		<tape>BS092202</tape>
 		<audio>49-eph/49-eph-06-05.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph006.html#top</passageref>
+	</message>
+	<message date="20020929" service="sunday" category="book studies">
+		<seriestitle>Ephesians</seriestitle>
+		<title>Know Your Enemy</title>
+		<passage>Ephesians 6:10-12</passage>
+		<tape>BS092902</tape>
+		<audio>49-eph/49-eph-06-10.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph006.html#top</passageref>
 	</message>
 
