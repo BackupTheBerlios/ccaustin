@@ -3,7 +3,7 @@
 
 	The home page for the church
 	
-	$Id: home.xml,v 1.21 2004/01/04 05:22:33 gregk Exp $
+	$Id: home.xml,v 1.22 2004/01/09 11:26:18 gregk Exp $
 		
 -->
 <content title="Home Page" base=".">
@@ -22,6 +22,9 @@
 			<event href="../events/holiday2003.html" img="../images/events/happy-holidays.jpg">Holiday Events 2003</event>
 		</banner>
 -->
+		<banner>
+			<event href="../events/worshipconf04.html" img="../images/events/worshbanner.jpg">Worship Life 2004 Conference</event>
+		</banner>
 
 	</home>
 </content>
