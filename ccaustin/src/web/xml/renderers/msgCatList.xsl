@@ -39,7 +39,6 @@
 	  <TD COLSPAN="2" ALIGN="right"><IMG SRC="../images/underbar.gif" border="0"/><BR/></TD>
 	</TR>
     </TABLE>
-	     <div class="note">We are currently experiencing problems with our streaming video and audio feed. We are working to resolve this problem as soon as possible. Thank you for your understanding and prayers.</div>
 </xsl:template>
 
 <xsl:template name="msgCatAudioSwitcher">
