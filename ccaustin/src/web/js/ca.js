@@ -28,9 +28,10 @@ function	buildMenus()
   window.menuMedia = new Menu();
 
   menuMedia.addMenuItem( "Live Webcast",      "location='live.html'"      );
-  menuMedia.addMenuItem( "Audio Archives",      "location='live.html'"      );
-  menuMedia.addMenuItem( menuContinuum );
-  menuMedia.addMenuItem( "Links",             "location='links.html'"     );
+  menuMedia.addMenuItem( "Audio Archives",      "location='../msgs/msgsAudioArchive.html'"      );
+  menuMedia.addMenuItem( "Tape Catalog",      "location='../msgs/msgsTapeArchive.html'"      );
+  menuMedia.addMenuItem( "Radio &amp; Television", "location='continuum.html'" );
+
   menuMedia.disableDrag = true;
 
   //

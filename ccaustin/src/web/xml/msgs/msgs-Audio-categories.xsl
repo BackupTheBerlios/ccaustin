@@ -24,14 +24,15 @@
 	</TR>
     </TABLE>
 
-    <UL>
-	<xsl:for-each select="category">
-        <LI><A><xsl:attribute name="href"><xsl:value-of select="@audiopage"/></xsl:attribute><xsl:value-of select="@title"/></A>
-        <xsl:text> - </xsl:text>
-        <xsl:value-of select="background"/>
-        </LI>
-	</xsl:for-each>
-    </UL>
+	<table>
+		<xsl:for-each select="category">
+		  <tr>
+	  	    <td width="25%" nowrap="true" align="right" valign="top"><a><xsl:attribute name="href"><xsl:value-of select="@audiopage"/></xsl:attribute><xsl:value-of select="@title"/></a></td>
+	  	    <td width="5%" align="left"><br/></td>
+	  	    <td width="70%" align="left"><xsl:value-of select="background"/></td>
+		  </tr>
+		</xsl:for-each>
+	</table>
 
 </xsl:template>
 
