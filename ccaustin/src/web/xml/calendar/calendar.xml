@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.22 2002/12/13 20:24:45 javajames27 Exp $
+	$Id: calendar.xml,v 1.23 2002/12/16 17:00:31 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -33,7 +33,7 @@
       Holland Davis will be our guest worship leader and speaker.  He is currently the worship
       pastor at Calvary Chapel Costa Mesa and also oversees the CC Music record label.  He has
       written several songs for Maranatha! Music.  Mark your calenders now for the Feb 20-22 event
-      and plan to register early. </detail> 
+      and plan to register early. <link href="../events/mwc2003.html">Learn more</link>...</detail> 
     </event>
 
 		<!--

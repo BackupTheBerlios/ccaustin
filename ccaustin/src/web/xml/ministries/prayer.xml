@@ -3,7 +3,7 @@
 
 	Prayer Chain Ministry - The ministry and its detail
 	
-	$Id: prayer.xml,v 1.2 2002/05/23 00:29:36 javajames27 Exp $
+	$Id: prayer.xml,v 1.3 2002/12/16 17:00:31 javajames27 Exp $
 		
 -->
 <content title="Prayer Chain Ministry">
@@ -15,7 +15,7 @@
 	    <p>If you have a need for prayer then call and leave a confidential message. The messages are checked daily and this initiates a group of 		folks to pray to the Lord specifically about your situation.</p>
 	  </long-description>
 	  <contacts>
-  	    <contact-email email="2ds@msn.com">Prayer Request via Email</contact-email>
+  	    <contact-email email="calvaryprayerchain@hotmail.com">Prayer Request via Email</contact-email>
   	    <contact-phone phone="512.479.9454">Prayer Request via Phone</contact-phone>
    	  </contacts>
 	</ministry>

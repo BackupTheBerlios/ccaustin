@@ -2,7 +2,7 @@
 <!-- 
         Music and Worship 2003 Conference
 
-	$Id: mwc2003.xml,v 1.2 2002/12/16 17:00:31 javajames27 Exp $
+	$Id: mwc2003.xml,v 1.3 2002/12/16 17:02:51 javajames27 Exp $
 		
 -->
 <content title="Music and Worship 2003 Conference">
@@ -128,7 +128,7 @@
     opportunity to pre-order additional conference T-shirts at $10 each. Indicate the quantity
     desired on your registration form.  </p> 
   </section>
-  <section heading="More Information">
+  <section heading="More Information" img="../images/events/mwcmoreinfo.jpg">
     <p>Learn more about what restaurants and hotels are nearby on our <link
     href="../about/aroundtown.html">Around Town</link> page.</p>
     <p>Questions about the 2003 Calvary Chapel Mid-South Music and Worship Conference that are not
