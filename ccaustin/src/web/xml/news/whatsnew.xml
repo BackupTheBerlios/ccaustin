@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.94 2004/07/16 20:44:42 tie Exp $
+	$Id: whatsnew.xml,v 1.95 2004/07/27 17:08:40 premav Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -470,6 +470,22 @@ internet or check out the audio archive on our web site.</detail></news-item>
 	   <news-item id="139" date="20040622" expires="20040731" showOnHomepage="true">
 		   <title>Administrative Ministry Volunteers Sought </title>
 		   <detail>If you have a heart to serve the Lord, the staff, and the church body, please call Katherine at 719-4667.</detail>
+		</news-item>
+	   <news-item id="140" date="20040717" expires="20040817" showOnHomepage="true">
+		   <title>Women's Connection Group</title>
+		   <detail>This new ministry will consists of small groups of women whose core heart.s desire is to glorify God in every facet of their lives, who desire to be stretched, challenged, refined, transformed and built up in Him. For more information or to sign up go to the Events Center. Direct questions go to Andrea Rigg at 719-4667.</detail>
+		</news-item>
+	   <news-item id="141" date="20040717" expires="20040817" showOnHomepage="true">
+		   <title>Scholarships Needed</title>
+		   <detail>Calvary's college students need your help in attending this year's College and Career retreat. If you would like to help out please stop by the Events Center.</detail>
+		</news-item>
+	   <news-item id="142" date="20040725" expires="20040825" showOnHomepage="true">
+		   <title>Stand in the Gap</title>
+		   <detail>The message on Warfare Prayer has prompted people to pray! Sunday mornings the Intercessory Prayer Ministry prays specifically for the Sunday workers &amp; ministries, the lost, and for the Holy Spirit to heal, comfort &amp; convict. Join these Prayer Warriors during 1st service in the battle for lives in the Prayer Room.  Prayer starts at 9:30 a.m.</detail>
+		</news-item>
+	   <news-item id="143" date="20040725" expires="20040802" showOnHomepage="true">
+		   <title>Attention Men</title>
+		   <detail>Looking for a way to bless other men? Get involved with the Men.s Retreat Prep Team. Meet at the Coffee Creator Sunday Aug 1st 11-11:30 a.m. to hear how you can help make this event a success.</detail>
 		</news-item>
 <!--
 -->
