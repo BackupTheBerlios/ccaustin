@@ -3,7 +3,7 @@
 
 	Continuum - The ministry and its detail
 	
-	$Id: media.xml,v 1.6 2004/06/18 03:28:09 tie Exp $
+	$Id: media.xml,v 1.7 2004/09/17 17:07:48 tie Exp $
 		
 -->
 <content title="Calvary Continuum">
@@ -26,7 +26,7 @@
             <p>Visit the areas for more information about the media ministry and how you can serve. </p>
 	  </long-description>
 	  <contacts>
-	  	<contact-email email="bunjee@calvaryaustin.org">Bunjee Garrett</contact-email>
+	  	<contact-email email="jeremy@calvaryaustin.org">Jeremy Valencia</contact-email>
    	  </contacts>
 	</ministry>
 </content>
