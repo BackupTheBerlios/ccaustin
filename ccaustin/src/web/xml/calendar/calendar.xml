@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.4 2002/07/10 17:12:51 javajames27 Exp $
+	$Id: calendar.xml,v 1.5 2002/07/18 17:11:43 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -53,26 +53,6 @@
 			<date>June 24th-28th</date>
 			<detail>
 				Vacation Bible School is offered both day and eve sessions from June 24-28th. We are going to "visit" CAMP LOGOS this year and have lots of exciting camp adventures awaiting your children ages 4-12.  This event is free.  Invite your friends and be prepared to have a great time with a special Bible lesson each day that is supported with all kinds of activities.  Our last day will include Parent Nite with bounce rides and live horses and a cookout!  Call Kerry Schroeder for details (512) 219-7028.
-			</detail>
-			<location>Church</location>
-			<ministries>
-				<ministry id="children"/>
-			</ministries>
-		</event>
-		<event id="06003" date="20020626" childcare="yes" showOnHomepage="true">
-			<title>Children's Ministry Conference</title>
-			<date>June 26th</date>
-			<time>10am-9pm</time>
-                        <intro>We are offering a conference for any
-			person working with children in a church
-			setting or even parents.  The conference will
-			include special speakers, a conference manual,
-			and 4 meals shared together on site as well as
-			an abundance of workshops that you can choose
-			from to enhance your ministry or parent
-			skills. Registration is open now.</intro>
-			<detail>
-				We are offering a conference for any person working with children in a church setting or even parents.  The conference will include special speakers, a conference manual, and 4 meals shared together on site as well as an abundance of workshops that you can choose from to enhance your ministry or parent skills.  Registration is open now. The event cost is $45.00 and will be held on July 26, from 10am-9pm and July 27 from 9am-4pm.  We are inviting churches locally as well as churches from several other mid-western states.  For more information call Donna Cano at (512) 255-7756.
 			</detail>
 			<location>Church</location>
 			<ministries>
@@ -161,6 +141,26 @@
 				<ministry id="coffee"/>
 			</ministries>
 		</event>
+		<event id="07007" date="20020726" showOnHomepage="true">
+			<title>Children's Ministry Conference</title>
+			<date>July 26th</date>
+			<time>10am-9pm</time>
+                        <intro>We are offering a conference for any
+			person working with children in a church
+			setting or even parents.  The conference will
+			include special speakers, a conference manual,
+			and 4 meals shared together on site as well as
+			an abundance of workshops that you can choose
+			from to enhance your ministry or parent
+			skills. Registration is open now.</intro>
+			<detail>
+				We are offering a conference for any person working with children in a church setting or even parents.  The conference will include special speakers, a conference manual, and 4 meals shared together on site as well as an abundance of workshops that you can choose from to enhance your ministry or parent skills.  Registration is open now. The event cost is $45.00 and will be held on July 26, from 10am-9pm and July 27 from 9am-4pm.  We are inviting churches locally as well as churches from several other mid-western states.  For more information call Donna Cano at (512) 255-7756.
+			</detail>
+			<location>Church</location>
+			<ministries>
+				<ministry id="children"/>
+			</ministries>
+		</event>
 
 <!--
 	===============
@@ -176,6 +176,19 @@
 			<location>Camp Balcones</location>
 			<ministries>
 				<ministry id="frontline"/>
+			</ministries>
+		</event>
+
+		<event id="08002" date="20020803" showOnHomepage="true">
+			<title>Evening of Worship</title>
+			<date>Saturday, August 3rd from 7 to 8:30pm</date>
+			<detail>
+	                   Want more time for praise and worship music? Join us for a full
+	                   service to praise and worship the Lord!
+			</detail>
+			<location></location>
+			<ministries>
+				<ministry id="worship"/>
 			</ministries>
 		</event>
 
