@@ -14,7 +14,7 @@
 	When a new tag is needed, consider using its HTML equivalent if its name and format is common english. 
 	(e.g. <a/> is not really anything meaningful for the average person, but <link/> is)
 	
-	$Id: general-html.xsl,v 1.12 2002/07/08 21:12:22 javajames27 Exp $
+	$Id: general-html.xsl,v 1.13 2002/08/27 23:13:40 javajames27 Exp $
 -->
 
 
@@ -421,5 +421,20 @@
 <xsl:template match="verse">
 	<span class="verseref"><xsl:value-of select="@ref"/></span><xsl:text> </xsl:text><span class="verse"> <xsl:apply-templates select="*|text()"/></span>
 </xsl:template>
+
+<xsl:template match="footnote-ref">
+  [<a href="#footnote_{@ref}"><xsl:value-of select="@ref"/></a>]
+</xsl:template>
+
+<xsl:template match="footnotes">
+  <hr width="50%"/>
+  <xsl:apply-templates select="footnote"/>
+</xsl:template>
+
+<xsl:template match="footnote">
+  <a name="footnote_{@id}"/><span class="footnote">[<xsl:value-of select="@id"/>]<xsl:text> </xsl:text><xsl:value-of select="text()"/></span><br></br>
+</xsl:template>
+
+
 
 </xsl:stylesheet>

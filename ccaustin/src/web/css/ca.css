@@ -23,6 +23,7 @@ p       { font-size: 90% }
 .title {  font-weight: bold}
 .heading {  font-weight: bold; font-size: 105% }
 .subheading {  font-weight: bold; font-size: 100% }
+.featureheading {  font-weight: bold; font-size: 110% }
 .detail {  font-style: italic}
 .indent { left-indent: 4 }
 .darkbg { background-color: #384D7A; }
@@ -56,5 +57,6 @@ p       { font-size: 90% }
 
 .verseref { font-size: 90%; font-weight: bold }
 .verse { font-size: 90%; }
+.footnote { font-size: 80%; }
 
 
