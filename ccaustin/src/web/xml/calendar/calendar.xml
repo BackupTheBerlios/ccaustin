@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.128 2004/08/13 01:12:59 tie Exp $
+	$Id: calendar.xml,v 1.129 2004/08/13 16:33:57 tie Exp $
 		
 -->
 <content title="Calendar">
@@ -684,6 +684,14 @@ Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE<
 		<detail>The Men's Retreat with Pastor Art Murillo will be at Camp Tejas. To sign up and for more information, stop by the Events Center.</detail>
 		<ministries>
 			<ministry id="men"/>
+		</ministries>
+    </event>
+        <event id="10004" date="20040925" showOnHomepage="true">
+	 <title>Women Helping Women (Free Indeed Addictions)</title>
+		<date>Sept 25</date>
+		<detail>There will be a meeting at Calvary Austin on Saturday, September 25th from 8:30-9:30 (for existing counselors only). We will discuss the restructuring of the counseling ministry and new opportunities to diversify or specialize in a particular area. Training will be provided by <italics>Free Indeed</italics>, the Calvary addictions ministry from 9:30-12:00 (for anyone interested). Click <link href="http://www.calvaryaustin.org/ministries/womenhelp.html">HERE</link> for more details.</detail>
+		<ministries>
+			<ministry id="women"/>
 		</ministries>
     </event>
 	</calendar>

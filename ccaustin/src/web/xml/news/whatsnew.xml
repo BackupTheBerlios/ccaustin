@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.98 2004/08/13 01:21:35 tie Exp $
+	$Id: whatsnew.xml,v 1.99 2004/08/13 16:34:52 tie Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -473,7 +473,7 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		</news-item>
 	   <news-item id="140" date="20040717" expires="20040817" showOnHomepage="true">
 		   <title>Women's Connection Group</title>
-		   <detail>This new ministry will consists of small groups of women whose core heart.s desire is to glorify God in every facet of their lives, who desire to be stretched, challenged, refined, transformed and built up in Him. For more information or to sign up go to the Events Center. Direct questions go to Andrea Rigg at 719-4667.</detail>
+		   <detail>This new ministry will consists of small groups of women whose core heart's desire is to glorify God in every facet of their lives, who desire to be stretched, challenged, refined, transformed and built up in Him. For more information or to sign up go to the Events Center. Direct questions go to Andrea Rigg at 719-4667.</detail>
 		</news-item>
 	   <news-item id="141" date="20040717" expires="20040817" showOnHomepage="true">
 		   <title>Scholarships Needed</title>
@@ -498,6 +498,10 @@ internet or check out the audio archive on our web site.</detail></news-item>
 	   <news-item id="146" date="20040807" expires="20040807" showOnHomepage="true">
 		   <title>A Building Project</title>
 		   <detail>will be on July 31st &amp; Aug 7th, to construct staging &amp; storage in the children.s ministry. Skill sets like, painting, framing, electrical, sheetrock, texture, and float &amp; taping are needed. If interested in partnering sign up at the Events Center.</detail>
+		</news-item>
+		<news-item id="147" date="20040810" expires="20040926" showOnHomepage="true">
+		   <title>Women's Counseling Issues of Interest to You?</title>
+		   <detail>There will be an introductory meeting at Calvary Austin on September 25th from 9:30-12:00 pm for those of you who want more information about this ministry. Todd Ellsworth, overseer of Calvary's <italics>Free Indeed</italics> ministry, will talk about training opportunities and how to get involved.</detail>
 		</news-item>
 <!--
 -->
