@@ -110,6 +110,8 @@ public class KillLockAction extends AdminAction
         }
         //request.setAttribute("locks", locksForm);
 
+		// TODO: Fix this to forward to an error page
+
         return (request.getMapping().findForward("killLock.failure"));
     }
 }

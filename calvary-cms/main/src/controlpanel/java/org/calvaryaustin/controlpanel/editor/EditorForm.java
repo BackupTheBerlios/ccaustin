@@ -79,13 +79,6 @@ public class EditorForm extends BaseValidatorForm
         this.computedUri = computedUri;
     }
 
-    private String site;
-    private String path;
-    private String file;
-    private String computedUri;
-    private String contentType;
-    private String content;
-    
     /**
      * Returns the form bean's current contents, initialized from the server if editing
      * an existing resource
@@ -124,4 +117,11 @@ public class EditorForm extends BaseValidatorForm
         this.contentType = contentType;
     }
 
+    private String site;
+    private String path;
+    private String file;
+    private String computedUri;
+    private String contentType;
+    private String content;
+    
 }

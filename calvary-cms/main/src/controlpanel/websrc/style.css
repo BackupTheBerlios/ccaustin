@@ -318,6 +318,11 @@ td.browserTableCell {
   vertical-align: middle;
 }
 
+.sectionTitle {
+  font-size: large;
+  
+}
+
 .tableTitle {
   font-size: medium;
 }
@@ -330,3 +335,6 @@ pre.viewerName {
   font-size: x-small;
 }
 
+.buttonBar {
+  text-align: center;
+}

@@ -8,6 +8,7 @@ import javax.servlet.jsp.tagext.TagSupport;
 
 import org.apache.struts.Globals;
 import org.apache.struts.action.ActionMapping;
+import org.calvaryaustin.controlpanel.ResourceForm;
 
 /**
  * A tag that uses the form bean for the current action and renders a navigator (breadcrumbs)
@@ -39,11 +40,12 @@ public class BrowserBreadcrumbTag extends TagSupport
 			//pageContext.getOut().println(link);
 			//pageContext.getOut().println(" / ");
 			String currentPath = "";
+            // tokenize the path, and for each part of the path show a link for that portion
 			StringTokenizer st = new StringTokenizer(form.getPath(),"/");
 			while(st.hasMoreTokens())
 			{
 				String segment = st.nextToken();
-				if(st.hasMoreTokens())
+				if(st.hasMoreTokens() )
 				{
 					currentPath += "/" + segment;
 					pageContext.getOut().println("<a href='"+contextPath+"/browser.do?site="+form.getSite()+
@@ -52,12 +54,11 @@ public class BrowserBreadcrumbTag extends TagSupport
 				}
 				else
 				{
-					// we are on the last element, so don't make a link, its redundant
-					pageContext.getOut().println(segment);
+                   // we are on the last element, so don't make a link, its redundant
+                   pageContext.getOut().println(segment);
 				}
 				
 			}
-			// tokenize the path, and for each part of the path show a link for that portion
 			pageContext.getOut().println("");
 			pageContext.getOut().println("</div>");
 		} catch (java.io.IOException e)

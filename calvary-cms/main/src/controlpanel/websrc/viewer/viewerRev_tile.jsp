@@ -7,6 +7,7 @@
 <%@ taglib uri="/WEB-INF/slide-struts.tld"     prefix="slide" %>
 <%@ taglib uri="/WEB-INF/display.tld"          prefix="display" %>
 <%@ taglib uri="/WEB-INF/calvary.tld"          prefix="calvary" %>
+
 <%
 	// get our values that the taglibs won't let you ref via a xxxName, xxxProperty set
 	ViewerForm viewer = (ViewerForm)request.getAttribute("viewer");
@@ -23,6 +24,8 @@
 			  <display:column property="qualifiedName" title="Name"/>
 			  <display:column property="value"/>
 			</display:table>
+			<p class="tableTitle">File Contents</p>
+			<pre><bean:write name='content'/></pre>
 		</slide:revision>
 	</slide:node>	
 </p>

@@ -1,5 +1,9 @@
 package org.calvaryaustin.controlpanel.viewer;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import org.calvaryaustin.controlpanel.ResourceForm;
 import org.calvaryaustin.web.BaseValidatorForm;
 
 /**
@@ -7,7 +11,7 @@ import org.calvaryaustin.web.BaseValidatorForm;
  * ViewerAction
  * @author jhigginbotham
  */
-public class ViewerForm extends BaseValidatorForm
+public class ViewerForm extends BaseValidatorForm implements ResourceForm
 {
 	/**
 	 * Returns the path that is currently being browsed
@@ -121,6 +125,34 @@ public class ViewerForm extends BaseValidatorForm
 	{
 		this.computedUri = computedUri;
 	}
+
+    /**
+     * Return a map of the parameters that represent the path to the file without revision info
+     * @return a map of the parameters that represent the path to the file without revision info
+     */
+    public Map getParameterMapToFile()
+    {
+        Map map = new HashMap();
+        map.put("site",site);
+        map.put("path",path);
+        map.put("file",file);
+        return map;
+    }
+
+    /**
+     * Return a map of the parameters that represent the path to the file with revision info
+     * @return a map of the parameters that represent the path to the file with revision info
+     */
+    public Map getParameterMapToRev()
+    {
+        Map map = new HashMap();
+        map.put("site",site);
+        map.put("path",path);
+        map.put("file",file);
+        map.put("rev",rev);
+        map.put("branch",branch);
+        return map;
+    }
 
 	private String site;
 	private String path;

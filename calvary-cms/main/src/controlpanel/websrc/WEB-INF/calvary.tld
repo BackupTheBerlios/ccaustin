@@ -11,4 +11,20 @@
 		<bodycontent>empty</bodycontent>
 	</tag>
 	
+	<tag>
+		<name>viewVersionDetail</name>
+		<tagclass>org.calvaryaustin.controlpanel.viewer.ViewVersionDetailTag</tagclass>
+		<bodycontent>empty</bodycontent>
+		<attribute>
+			<name>revisionNumber</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>revisionBranch</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
 </taglib>

@@ -8,10 +8,19 @@
 <%@ taglib uri="/WEB-INF/calvary.tld"          prefix="calvary" %>
 
 <html:form action="/editor">
+	<html:hidden property="site"/>
+	<html:hidden property="path"/>
+	<html:hidden property="file"/>
+	<html:hidden property="contentType"/>
 	<p>
-		<html:text property="contentType"/>
+		Content Type: <bean:write name="editor" property="contentType"/>
 	</p>
 	<p>
 		<html:textarea property="content" rows="40" cols="80"/>
 	</p>
+	<p class="buttonBar">
+		<!--<input type="submit" name="Preview" value="Preview"/>-->  
+		<input type="Submit" name="Cancel" value="Cancel"/>
+		<input type="Submit" name="Save" value="Save"/></p>
+	 
 </html:form>

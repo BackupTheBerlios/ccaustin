@@ -17,7 +17,7 @@ import org.apache.webdav.lib.WebdavResource;
  * Created: Mon Jan 13 21:16:30 2003
  *
  * @author <a href="mailto:jhigginbotham@betweenmarkets.com">James Higginbotham</a>
- * @version $Revision: 1.2 $
+ * @version $Revision: 1.3 $
  */
 public class WebdavRepositoryDAO
 {
@@ -142,10 +142,10 @@ public class WebdavRepositoryDAO
       // TODO: Fix this to ensure prefix is not duplicated, /'s are not duplicated or missing, etc
       webdavResource.setPath(PATH_PREFIX+siteName+"/");
       String fullDestPath = PATH_PREFIX+siteName+"/"+destPath+fileToImport.getName();
-//       log.trace("importFile():   siteName="+siteName);
-//       log.trace("importFile():   destPath="+destPath);
-//       log.trace("importFile():   fileToImport="+fileToImport);
-//       log.trace("importFile():   fullDestPath="+fullDestPath);
+       log.trace("importFile():   siteName="+siteName);
+       log.trace("importFile():   destPath="+destPath);
+       log.trace("importFile():   fileToImport="+fileToImport);
+       log.trace("importFile():   fullDestPath="+fullDestPath);
       if (webdavResource.putMethod(fullDestPath, fileToImport))
       {
         log.trace("importFile(): Succeeded");

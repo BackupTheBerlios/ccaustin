@@ -1,5 +1,6 @@
 package org.calvaryaustin.controlpanel.browser;
 
+import org.calvaryaustin.controlpanel.ResourceForm;
 import org.calvaryaustin.web.BaseValidatorForm;
 
 /**

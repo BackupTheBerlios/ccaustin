@@ -33,13 +33,16 @@
   
   <global-forwards>
     
+    <forward name="index"
+             path="/index.do"/>
+             
+    <!-- older ones -->         
     <forward name="addUser"
              path="/addUser.jsp"/>
     <forward name="editUser"
              path="/editUser.do"/>
     <forward name="removeUsers"
              path="/removeUsers.do"/>
-  
     <forward name="killLock"
              path="/killLock.do"/>
   
@@ -109,8 +112,7 @@
             scope="request"
             input="killLock">
       <forward name="killLock.success"
-               path="/locks.jsp"
-               redirect="true"/>
+               path="/viewer.do"/>
       <forward name="killLocks.failure"
                path="/locks.jsp"/>
     </action>
@@ -142,6 +144,10 @@
             input="editor.default">
       <forward name="editor.default"
                path="editor.default"/>
+      <forward name="editor.save.success"
+               path="/viewer.do"/>
+      <forward name="editor.cancel"
+               path="/viewer.do"/>
     </action>
     
   </action-mappings>
