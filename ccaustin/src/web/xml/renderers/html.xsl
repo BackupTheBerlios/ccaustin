@@ -14,7 +14,7 @@
 	When a new tag is needed, consider using its HTML equivalent if its name and format is common english. 
 	(e.g. <a/> is not really anything meaningful for the average person, but <link/> is)
 	
-	$Id: html.xsl,v 1.5 2003/09/12 19:14:41 javajames27 Exp $
+	$Id: html.xsl,v 1.6 2003/09/29 18:06:04 javajames27 Exp $
 -->
 
 
@@ -163,6 +163,12 @@
 	Processes Subtags: No
 -->
 <xsl:template match="link">
+	  <xsl:element name="a">
+	    <xsl:attribute name="href"><xsl:value-of select="@href"/></xsl:attribute>
+	    <xsl:value-of select="text()"/>
+	  </xsl:element>
+</xsl:template>
+<xsl:template match="a">
 	  <xsl:element name="a">
 	    <xsl:attribute name="href"><xsl:value-of select="@href"/></xsl:attribute>
 	    <xsl:value-of select="text()"/>

@@ -3,18 +3,18 @@
 
 	Calvary Chapel Singles Ministry - The ministry and its detail
 	
-	$Id: singles.xml,v 1.4 2003/02/19 18:06:51 javajames27 Exp $
+	$Id: singles.xml,v 1.5 2003/09/29 18:06:04 javajames27 Exp $
 		
 -->
 <content title="Calvary Chapel Singles">
   <ministry id="singles">
-    <name>Calvary Chapel Singles</name>
-    <overview>Faith with Works, Evangelism through Service, Relationship Development through Fellowships.</overview>
+    <name>Calvary Singles</name>
+    <overview>Calvary Singles provides fellowship, support, and spiritual guidance to singles within the church. We also have many ministry and service opportunties within as well as outside of the church.</overview> 
     <long-description>
-      <p>During our Saturday night meetings, we have Bible Studies and Prayer time.  (Both requests and praise)  After the structured meeting, we stay and fellowship, confide, stretch our minds, discover new ministry opportunities and mentor each other.  We are undergoing some focus adjustments, since there has been a change in leadership and we presently have temporary leaders.  We are prayerfully waiting on the Lord to send us the person He has chosen for this position.</p>
+      <p>Calvary Singles consists of men and women of all ages. The primary reason we meet together is to focus our attention on the Lord in praise, prayer, Bible study, service, and fellowship. We build bonds of concern and friendship amongst one another. We meet at the church on Saturday nights at 6:30pm for study of the Bible, prayer, and fellowship (check out the <link href="../calendar/schedule.html">weekly schedule</link> for details). We are involved in various ministries within the church as well as outside. We also have monthly social activies.</p>
     </long-description>
     <contacts>
-      <contact-phone phone="441-8909">Joe Beltran</contact-phone>
+      <contact-email email="joe.beltran@sbcglobal.net">Joe Beltran</contact-email>
     </contacts>
   </ministry>
 </content>
