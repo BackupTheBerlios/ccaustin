@@ -2,7 +2,7 @@
 <!-- 
         Music and Worship 2003 Conference
 
-	$Id: mwc2003.xml,v 1.3 2002/12/16 17:02:51 javajames27 Exp $
+	$Id: mwc2003.xml,v 1.4 2002/12/20 04:24:51 javajames27 Exp $
 		
 -->
 <content title="Music and Worship 2003 Conference">
@@ -15,10 +15,16 @@
   <intro>
     <!-- Should I add an img and imgalign attribute to the paragraph tag for things like maps, pics,
     etc. next to text? -->
-    <p>We are pleased to have songwriter and Calvary Chapel Costa Mesa Worship Pastor Holland Davis as our guest worship leader and speaker for this year's event. A gifted songwriter, musician and
-    teacher, Holland has much to share about leading worship. He has worked with Maranatha! Music as
-    an A&amp;R representative, and has had several songs recorded on Maranatha! Praise Series
-    recordings, including "Let It Rise", "At the Cross", and "Who is Like the Lord?". </p>
+    <p>We are pleased to have songwriter and Calvary Chapel Costa Mesa 
+      Worship Pastor Holland Davis as our guest worship leader and 
+      speaker for this year's event. A gifted songwriter, musician 
+      and teacher, Holland has much to share about leading worship. 
+      Before joining the staff of Calvary Chapel Costa Mesa, 
+      he was the Director of A&amp;R and Marketing for Maranatha! Music 
+      and the creator of the modern worship label Worship Underground. 
+      Holland's songs have been recorded on Maranatha! Praise Series 
+      recordings, including "Let It Rise", "At the Cross", and 
+      "Who is Like the Lord?".</p> 
     <p>Check-in for the conference will begin at 5:30 PM on Thursday, February 20st; the first
     session begins at 7:30 PM that evening. The conference is scheduled to end at 12:00 Noon
     Saturday, February 22rd. </p> 

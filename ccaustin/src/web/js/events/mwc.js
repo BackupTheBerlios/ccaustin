@@ -86,8 +86,8 @@ function mwcWin()
   mwcWindow.document.writeln( '<P><TABLE WIDTH="100%" CELLPADDING="2" CELLSPACING="4" BORDER="0">' );
   mwcCell2( 'Registration:', 'SIZE="-1"', '$', 'SIZE="+1"' );
   mwcCell2comment( '$45 until February 9, 2003; $55 thereafter' );
-  mwcCell2( 'T-Shirt Size (Adult M/L/XL/XXL)', 'SIZE="-1"', '', 'SIZE="+1"' );
-  mwcCell2comment( 'Conference fee includes 1 T-shirt' );
+  mwcCell2( 'T-Shirt (Adult M/L/XL/XXL)', 'SIZE="-1"', 'Size', 'SIZE="+1"' ); 
+  mwcCell2comment( '<B>NOTE: Conference fee includes 1 T-shirt</B>' ); 
   mwcCell2( 'Additional T-Shirts, $10 ea', 'SIZE="-1"', '$', 'SIZE="+1"' );
 
   mwcWindow.document.write( '<TR><TD></TD><TD COLSPAN="2" ALIGN="left"><TABLE CELLPADDING="4" CELLSPACING="4" BORDER="0"' );
