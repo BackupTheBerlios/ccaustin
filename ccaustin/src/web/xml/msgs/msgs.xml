@@ -3293,11 +3293,19 @@
 		<title></title>
 		<passage>Romans 5</passage>
 		<tape>B01304</tape>
-		<audio></audio>
+		<audio>bibleoverview/45-rom-05.ram</audio>
 		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom005.html#top</passageref>
 	</message>
+	<message date="20021218" service="midweek" category="overview">
+		<seriestitle>Romans</seriestitle>
+		<title></title>
+		<passage>Romans 6</passage>
+		<tape>B01305</tape>
+		<audio></audio>
+		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom006.html#top</passageref>
+	</message>
 
-
+	
 
     <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
@@ -8381,13 +8389,20 @@
 		<audio>49-eph/49-eph-06-17b.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph006.html#top</passageref>
 	</message>
-
 	<message date="20021208" service="sunday" category="book studies">
 		<seriestitle>Luke</seriestitle>
 		<title>Defeating Doubt</title>
 		<passage>Luke 1:1-25; 57-80</passage>
 		<tape>BS120802</tape>
 		<audio>42-luk/42-luk-01-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk001.html#top</passageref>
+	</message>
+	<message date="20021215" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>God Blesses the Humble Heart</title>
+		<passage>Luke 1:26-56</passage>
+		<tape>BS121502</tape>
+		<audio>42-luk/42-luk-01-26.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk001.html#top</passageref>
 	</message>
 
