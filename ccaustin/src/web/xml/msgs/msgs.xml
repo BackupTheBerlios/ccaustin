@@ -3980,6 +3980,15 @@
 <audio>bibleoverview/01-gen-03.wma</audio> 
 <passageref>http://www.blueletterbible.org/kjv/Gen/Gen003.html#top</passageref> 
 </message>
+<message date="20050119" service="midweek" category="misc"> 
+<seriestitle>Newberry, John</seriestitle> 
+<title>The Cross Bearer</title> 
+<passage>John 12:20-36</passage> 
+<tape>GS011905</tape> 
+<audio>guestspeaker/jnewberry011905.wma</audio> 
+<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn012.html#top</passageref> 
+</message>
+
 <message date="20041013" service="midweek" category="misc">
 <seriestitle>Guest Speaker</seriestitle>
 <title>Paul Kemp</title>
@@ -10407,6 +10416,14 @@
 	<tape>BS011605</tape>
 	<audio>50-phi/50-phi-01-27.wma</audio>
 	<passageref>http://www.blueletterbible.org/kjv/Phl/Phl001.html#top</passageref>
+	</message>
+	<message date="20050123" service="sunday" category="book studies">
+	<seriestitle>Philippians - 2005</seriestitle>
+	<title>Downwardly Mobile</title>
+	<passage>Philippians 2:1-11</passage>
+	<tape>BS012305</tape>
+	<audio>50-phi/50-phi-02-01.wma</audio>
+	<passageref>http://www.blueletterbible.org/kjv/Phl/Phl002.html#top</passageref>
 	</message>
 
 </messagecatalog>
