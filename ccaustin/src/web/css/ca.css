@@ -41,6 +41,7 @@ p       { font-size: 90% }
 .featuretitle {  font-size: 95%; font-weight: bold }
 .featuresubtitle {  font-size: 85%; font-weight: bold }
 .featureitem {  font-size: 85% }
+.featureintro {  font-size: 75% }
 .tableheaderfeature {  background-color: #daecfb; font-weight: bold }
 .tablecellfeature { background-color: #daecfb; }
 
