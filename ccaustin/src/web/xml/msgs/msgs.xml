@@ -1889,7 +1889,7 @@
 		<passageref></passageref>
 	</message>
 	<message date="134" service="midweek" category="overview">
-		<seriestitle>Proberbs</seriestitle>
+		<seriestitle>Proverbs</seriestitle>
 		<title></title>
 		<passage>Proverbs 1-3</passage>
 		<tape>B01134</tape>
@@ -1897,7 +1897,7 @@
 		<passageref></passageref>
 	</message>
 	<message date="135" service="midweek" category="overview">
-		<seriestitle>Proberbs</seriestitle>
+		<seriestitle>Proverbs</seriestitle>
 		<title></title>
 		<passage>Proverbs 4-6</passage>
 		<tape>B01135</tape>
@@ -1905,7 +1905,7 @@
 		<passageref></passageref>
 	</message>
 	<message date="136" service="midweek" category="overview">
-		<seriestitle>Proberbs</seriestitle>
+		<seriestitle>Proverbs</seriestitle>
 		<title></title>
 		<passage>Proverbs 7-9</passage>
 		<tape>B01136</tape>
@@ -1913,7 +1913,7 @@
 		<passageref></passageref>
 	</message>
 	<message date="137" service="midweek" category="overview">
-		<seriestitle>Proberbs</seriestitle>
+		<seriestitle>Proverbs</seriestitle>
 		<title></title>
 		<passage>Proverbs 10-11</passage>
 		<tape>B01137</tape>
@@ -1921,7 +1921,7 @@
 		<passageref></passageref>
 	</message>
 	<message date="138" service="midweek" category="overview">
-		<seriestitle>Proberbs</seriestitle>
+		<seriestitle>Proverbs</seriestitle>
 		<title></title>
 		<passage>Proverbs 12-14</passage>
 		<tape>B01138</tape>
@@ -1929,7 +1929,7 @@
 		<passageref></passageref>
 	</message>
 	<message date="139" service="midweek" category="overview">
-		<seriestitle>Proberbs</seriestitle>
+		<seriestitle>Proverbs</seriestitle>
 		<title></title>
 		<passage>Proverbs 15-16</passage>
 		<tape>B01139</tape>
@@ -1937,7 +1937,7 @@
 		<passageref></passageref>
 	</message>
 	<message date="140" service="midweek" category="overview">
-		<seriestitle>Proberbs</seriestitle>
+		<seriestitle>Proverbs</seriestitle>
 		<title></title>
 		<passage>Proverbs 17-18</passage>
 		<tape>B01140</tape>
@@ -1945,7 +1945,7 @@
 		<passageref></passageref>
 	</message>
 	<message date="141" service="midweek" category="overview">
-		<seriestitle>Proberbs</seriestitle>
+		<seriestitle>Proverbs</seriestitle>
 		<title></title>
 		<passage>Proverbs 19</passage>
 		<tape>B01141</tape>
@@ -1953,7 +1953,7 @@
 		<passageref></passageref>
 	</message>
 	<message date="142" service="midweek" category="overview">
-		<seriestitle>Proberbs</seriestitle>
+		<seriestitle>Proverbs</seriestitle>
 		<title></title>
 		<passage>Proverbs 20-21</passage>
 		<tape>B01142</tape>
@@ -1961,7 +1961,7 @@
 		<passageref></passageref>
 	</message>
 	<message date="143" service="midweek" category="overview">
-		<seriestitle>Proberbs</seriestitle>
+		<seriestitle>Proverbs</seriestitle>
 		<title></title>
 		<passage>Proverbs 22-23</passage>
 		<tape>B01143</tape>
@@ -1969,7 +1969,7 @@
 		<passageref></passageref>
 	</message>
 	<message date="144" service="midweek" category="overview">
-		<seriestitle>Proberbs</seriestitle>
+		<seriestitle>Proverbs</seriestitle>
 		<title></title>
 		<passage>Proverbs 24-25</passage>
 		<tape>B01144</tape>
@@ -1977,7 +1977,7 @@
 		<passageref></passageref>
 	</message>
 	<message date="145" service="midweek" category="overview">
-		<seriestitle>Proberbs</seriestitle>
+		<seriestitle>Proverbs</seriestitle>
 		<title></title>
 		<passage>Proverbs 26-27</passage>
 		<tape>B01145</tape>
@@ -1985,7 +1985,7 @@
 		<passageref></passageref>
 	</message>
 	<message date="146" service="midweek" category="overview">
-		<seriestitle>Proberbs</seriestitle>
+		<seriestitle>Proverbs</seriestitle>
 		<title></title>
 		<passage>Proverbs 28-29</passage>
 		<tape>B01146</tape>
@@ -1993,7 +1993,7 @@
 		<passageref></passageref>
 	</message>
 	<message date="147" service="midweek" category="overview">
-		<seriestitle>Proberbs</seriestitle>
+		<seriestitle>Proverbs</seriestitle>
 		<title></title>
 		<passage>Proverbs 30</passage>
 		<tape>B01147</tape>
@@ -2001,7 +2001,7 @@
 		<passageref></passageref>
 	</message>
 	<message date="148" service="midweek" category="overview">
-		<seriestitle>Proberbs</seriestitle>
+		<seriestitle>Proverbs</seriestitle>
 		<title></title>
 		<passage>Proverbs 31</passage>
 		<tape>B01148</tape>
@@ -3222,7 +3222,7 @@
 		<passage>Acts 22</passage>
 		<tape>B01295</tape>
 		<audio>bibleoverview/44-act-22.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/Act/Act022.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/Act/Act022.html#top</passageref>
 	</message>
 	<message date="20021002" service="midweek" category="overview">
 		<seriestitle>Acts</seriestitle>
@@ -3230,7 +3230,7 @@
 		<passage>Acts 23</passage>
 		<tape>B01296</tape>
 		<audio>bibleoverview/44-act-23.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/Act/Act023.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/Act/Act023.html#top</passageref>
 	</message>
 	<message date="20021009" service="midweek" category="overview">
 		<seriestitle>Acts</seriestitle>
@@ -3238,7 +3238,7 @@
 		<passage>Acts 24</passage>
 		<tape>B01297</tape>
 		<audio>bibleoverview/44-act-24.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/Act/Act024.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/Act/Act024.html#top</passageref>
 	</message>
 	<message date="20021016" service="midweek" category="overview">
 		<seriestitle>Acts</seriestitle>
@@ -3246,7 +3246,7 @@
 		<passage>Acts 25-26</passage>
 		<tape>B01298</tape>
 		<audio>bibleoverview/44-act-25.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/Act/Act025.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/Act/Act025.html#top</passageref>
 	</message>
 	<message date="20021030" service="midweek" category="overview">
 		<seriestitle>Acts</seriestitle>
@@ -3254,7 +3254,7 @@
 		<passage>Acts 27-28</passage>
 		<tape>B01299</tape>
 		<audio>bibleoverview/44-act-27.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/Act/Act027.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/Act/Act027.html#top</passageref>
 	</message>
 	<message date="20021106" service="midweek" category="overview">
 		<seriestitle>Romans</seriestitle>
@@ -3262,7 +3262,7 @@
 		<passage>Romans 1</passage>
 		<tape>BO1300</tape>
 		<audio>bibleoverview/45-rom-01.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom001.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/Rom/Rom001.html#top</passageref>
 	</message>
 	<message date="20021113" service="midweek" category="overview">
 		<seriestitle>Romans</seriestitle>
@@ -3270,7 +3270,7 @@
 		<passage>Romans 2</passage>
 		<tape>BO1301</tape>
 		<audio>bibleoverview/45-rom-02.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom002.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/Rom/Rom002.html#top</passageref>
 	</message>
 	<message date="20021120" service="midweek" category="overview">
 		<seriestitle>Romans</seriestitle>
@@ -3278,7 +3278,7 @@
 		<passage>Romans 3</passage>
 		<tape>BO1302</tape>
 		<audio>bibleoverview/45-rom-03.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom003.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/Rom/Rom003.html#top</passageref>
 	</message>
 	<message date="20021204" service="midweek" category="overview">
 		<seriestitle>Romans</seriestitle>
@@ -3286,7 +3286,7 @@
 		<passage>Romans 4</passage>
 		<tape>BO1303</tape>
 		<audio>bibleoverview/45-rom-04.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom004.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/Rom/Rom004.html#top</passageref>
 	</message>
 	<message date="20021211" service="midweek" category="overview">
 		<seriestitle>Romans</seriestitle>
@@ -3294,7 +3294,7 @@
 		<passage>Romans 5</passage>
 		<tape>BO1304</tape>
 		<audio>bibleoverview/45-rom-05.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom005.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/Rom/Rom005.html#top</passageref>
 	</message>
 	<message date="20021218" service="midweek" category="overview">
 		<seriestitle>Romans</seriestitle>
@@ -3302,7 +3302,7 @@
 		<passage>Romans 6</passage>
 		<tape>BO1305</tape>
 		<audio>bibleoverview/45-rom-06.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom006.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/Rom/Rom006.html#top</passageref>
 	</message>
 	<message date="20030115" service="midweek" category="overview">
 		<seriestitle>Romans</seriestitle>
@@ -3310,7 +3310,7 @@
 		<passage>Romans 7</passage>
 		<tape>BO1306</tape>
 		<audio>bibleoverview/45-rom-07.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom007.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/Rom/Rom007.html#top</passageref>
 	</message>
 	<message date="20030129" service="midweek" category="overview">
 		<seriestitle>Romans</seriestitle>
@@ -3318,7 +3318,7 @@
 		<passage>Romans 8</passage>
 		<tape>BO1307</tape>
 		<audio>bibleoverview/45-rom-08.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom008.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/Rom/Rom008.html#top</passageref>
 	</message>
 	<message date="20030205" service="midweek" category="overview">
 		<seriestitle>Romans</seriestitle>
@@ -3326,7 +3326,7 @@
 		<passage>Romans 9-11</passage>
 		<tape>BO1308</tape>
 		<audio>bibleoverview/45-rom-09.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom009.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/Rom/Rom009.html#top</passageref>
 	</message>
 	<message date="20030326" service="midweek" category="overview">
 		<seriestitle>Romans</seriestitle>
@@ -3334,7 +3334,7 @@
 		<passage>Romans 12</passage>
 		<tape>BO1309</tape>
 		<audio>bibleoverview/45-rom-12.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom012.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/Rom/Rom012.html#top</passageref>
 	</message>
 	<message date="20030402" service="midweek" category="overview">
 		<seriestitle>Romans</seriestitle>
@@ -3342,7 +3342,7 @@
 		<passage>Romans 13-14</passage>
 		<tape>BO1310</tape>
 		<audio>bibleoverview/45-rom-13.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom013.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/Rom/Rom013.html#top</passageref>
 	</message>
 	<message date="20030409" service="midweek" category="overview">
 		<seriestitle>Romans</seriestitle>
@@ -3350,7 +3350,7 @@
 		<passage>Romans 15-16</passage>
 		<tape>BO1311</tape>
 		<audio>bibleoverview/45-rom-15.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom015.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/Rom/Rom015.html#top</passageref>
 	</message>
 	<message date="20030416" service="midweek" category="overview">
 		<seriestitle>I Corinthians</seriestitle>
@@ -3358,7 +3358,7 @@
 		<passage>I Corinthians 1-2</passage>
 		<tape>BO1312</tape>
 		<audio>bibleoverview/46-ico-01.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr001.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/1Cr/1Cr001.html#top</passageref>
 	</message>
 	<message date="20030423" service="midweek" category="overview">
 		<seriestitle>I Corinthians</seriestitle>
@@ -3366,7 +3366,7 @@
 		<passage>I Corinthians 3-4</passage>
 		<tape>BO1313</tape>
 		<audio>bibleoverview/46-ico-03.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr003.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/1Cr/1Cr003.html#top</passageref>
 	</message>
 	<message date="20030430" service="midweek" category="overview">
 		<seriestitle>I Corinthians</seriestitle>
@@ -3374,7 +3374,7 @@
 		<passage>I Corinthians 5-6</passage>
 		<tape>BO1314</tape>
 		<audio>bibleoverview/46-ico-05.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr005.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/1Cr/1Cr005.html#top</passageref>
 	</message>
 	<message date="20030507" service="midweek" category="overview">
 		<seriestitle>I Corinthians</seriestitle>
@@ -3382,7 +3382,7 @@
 		<passage>I Corinthians 7</passage>
 		<tape>BO1315</tape>
 		<audio>bibleoverview/46-ico-07.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr007.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/1Cr/1Cr007.html#top</passageref>
 	</message>
 	<message date="20030514" service="midweek" category="overview">
 		<seriestitle>I Corinthians</seriestitle>
@@ -3390,7 +3390,7 @@
 		<passage>I Corinthians 8-9</passage>
 		<tape>BO1316</tape>
 		<audio>bibleoverview/46-ico-08.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr008.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/1Cr/1Cr008.html#top</passageref>
 	</message>
 	<message date="20030521" service="midweek" category="overview">
 		<seriestitle>I Corinthians</seriestitle>
@@ -3398,7 +3398,7 @@
 		<passage>I Corinthians 10-11</passage>
 		<tape>BO1317</tape>
 		<audio>bibleoverview/46-ico-10.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr010.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/1Cr/1Cr010.html#top</passageref>
 	</message>
 	<message date="20030528" service="midweek" category="overview">
 		<seriestitle>I Corinthians</seriestitle>
@@ -3406,7 +3406,7 @@
 		<passage>I Corinthians 12</passage>
 		<tape>BO1318</tape>
 		<audio>bibleoverview/46-ico-12.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr012.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/1Cr/1Cr012.html#top</passageref>
 	</message>
 	<message date="20030618" service="midweek" category="overview">
 		<seriestitle>I Corinthians</seriestitle>
@@ -3414,7 +3414,7 @@
 		<passage>I Corinthians 13</passage>
 		<tape>BO1318</tape>
 		<audio>bibleoverview/46-ico-13.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr013.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/1Cr/1Cr013.html#top</passageref>
 	</message>
 	<message date="20030625" service="midweek" category="overview">
 		<seriestitle>I Corinthians</seriestitle>
@@ -3422,7 +3422,7 @@
 		<passage>I Corinthians 14</passage>
 		<tape>BO1318</tape>
 		<audio>bibleoverview/46-ico-14.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr014.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/1Cr/1Cr014.html#top</passageref>
 	</message>
 	<message date="20030702" service="midweek" category="overview">
 		<seriestitle>I Corinthians</seriestitle>
@@ -3430,7 +3430,7 @@
 		<passage>I Corinthians 15-16</passage>
 		<tape>BO1318</tape>
 		<audio>bibleoverview/46-ico-15.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr015.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/1Cr/1Cr015.html#top</passageref>
 	</message>
 
     <message date="19940522" service="sunday" category="topical series">
@@ -4794,7 +4794,7 @@
 		<passage>John 1:29</passage>
 		<tape>GS011903</tape>
 		<audio>guestspeaker/bgarrett011903.ram</audio>
-		<passageref>http://www.blueleterbible.org/kjv/Jhn/Jhn001.html#top</passageref>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn001.html#top</passageref>
 	</message>
 	<message date="19960331" service="sunday" category="misc">
 		<seriestitle>Guest Speaker</seriestitle>
