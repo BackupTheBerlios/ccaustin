@@ -5661,11 +5661,76 @@
 		<audio>27-dan/27-dan-11-36.ram</audio>
 		<passageref></passageref>
 	</message>
+	<message date="19960630" service="sunday" category="book studies">
+		<seriestitle>Galatians</seriestitle>
+		<title>Man With a Difference</title>
+		<passage>Galatians 1:1-5</passage>
+		<tape>BS063096</tape>
+		<audio>48-gal/48-gal-01-01.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19960707" service="sunday" category="book studies">
+		<seriestitle>Galatians</seriestitle>
+		<title>A Different Gospel</title>
+		<passage>Galatians 1:6-10</passage>
+		<tape>BS070796</tape>
+		<audio>48-gal/48-gal-01-06.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19960721" service="sunday" category="book studies">
+		<seriestitle>Galatians</seriestitle>
+		<title>Paul's Testimony</title>
+		<passage>Galatians 1:11-24</passage>
+		<tape>BS072196</tape>
+		<audio>48-gal/48-gal-01-11.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19960728" service="sunday" category="book studies">
+		<seriestitle>Galatians</seriestitle>
+		<title>Showdown at Jerusalem</title>
+		<passage>Galatians 2:1-10</passage>
+		<tape>BS072896</tape>
+		<audio>48-gal/48-gal-02-01.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19960804" service="sunday" category="book studies">
+		<seriestitle>Galatians</seriestitle>
+		<title>Confrontation at Antioch</title>
+		<passage>Galatians 2:11-21</passage>
+		<tape>BS080496</tape>
+		<audio>48-gal/48-gal-02-11.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19960811" service="sunday" category="book studies">
+		<seriestitle>Galatians</seriestitle>
+		<title>Back to Basics</title>
+		<passage>Galatians 3:1-5</passage>
+		<tape>BS081196</tape>
+		<audio>48-gal/48-gal-03-01.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19960818" service="sunday" category="book studies">
+		<seriestitle>Galatians</seriestitle>
+		<title>What the Bible Says</title>
+		<passage>Galatians 3:6-14</passage>
+		<tape>BS081896</tape>
+		<audio>48-gal/48-gal-03-06.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19960825" service="sunday" category="book studies">
+		<seriestitle>Galatians</seriestitle>
+		<title>God - The Promise Keeper</title>
+		<passage>Galatians 3:15-29</passage>
+		<tape>BS082596</tape>
+		<audio>48-gal/48-gal-03-15.ram</audio>
+		<passageref></passageref>
+	</message>
+
 	<message date="19921115" service="sunday" category="book studies">
 		<seriestitle>Nehemiah</seriestitle>
 		<title>God Calls the Man Who Cares</title>
 		<passage>Nehemiah 1</passage>
-		<tape>BS1115992</tape>
+		<tape>BS111592</tape>
 		<audio>16-neh/16-neh-01.ram</audio>
 		<passageref></passageref>
 	</message>
@@ -6359,6 +6424,7 @@
 		<audio>40-mat/40-mat-28.ram</audio>
 		<passageref></passageref>
 	</message>
+
 	<message date="19940925" service="sunday" category="book studies">
 		<seriestitle>Philippians</seriestitle>
 		<title>Wisdom Regarding:  A Church Is Born</title>
@@ -6463,6 +6529,192 @@
 		<audio>50-phi/50-phi-04-10.ram</audio>
 		<passageref></passageref>
 	</message>
+
+	<message date="19950423" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>The Christian Life</title>
+		<passage>I Corinthians 1:1-9</passage>
+		<tape>BS042395</tape>
+		<audio>46-ico/46-ico-01-01.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19950430" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Division</title>
+		<passage>I Corinthians 1:10-17</passage>
+		<tape>BS043095</tape>
+		<audio>46-ico/46-ico-01-10.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19950507" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>The Message</title>
+		<passage>I Corinthians 1:18-25</passage>
+		<tape>BS050795</tape>
+		<audio>46-ico/46-ico-01-18.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19950514" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Our Calling</title>
+		<passage>I Corinthians 1:26-2:5</passage>
+		<tape>BS051495</tape>
+		<audio>46-ico/46-ico-01-26.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19950521" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Spiritual Things</title>
+		<passage>I Corinthians 2:6-16</passage>
+		<tape>BS052195</tape>
+		<audio>46-ico/46-ico-02-06.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19950604" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Service</title>
+		<passage>I Corinthians 3</passage>
+		<tape>BS060495</tape>
+		<audio>46-ico/46-ico-03.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19950611" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>The Servant</title>
+		<passage>I Corinthians 4</passage>
+		<tape>BS061195</tape>
+		<audio>46-ico/46-ico-04.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19950625" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Church Discipline</title>
+		<passage>I Corinthians 5</passage>
+		<tape>BS062595</tape>
+		<audio>46-ico/46-ico-05.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19950702" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Disputes</title>
+		<passage>I Corinthians 6:1-11</passage>
+		<tape>BS070295</tape>
+		<audio>46-ico/46-ico-06-01.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19950730" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Marriage</title>
+		<passage>I Corinthians 7</passage>
+		<tape>BS073095</tape>
+		<audio>46-ico/46-ico-07-marg.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19950806" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Divorce</title>
+		<passage>I Corinthians 7</passage>
+		<tape>BS080695</tape>
+		<audio>46-ico/46-ico-07-div.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19950813" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Christian Liberty - Part I</title>
+		<passage>I Corinthians 8</passage>
+		<tape>BS081395</tape>
+		<audio>46-ico/46-ico-08.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19950827" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Christian Liberty - Part II</title>
+		<passage>I Corinthians 9</passage>
+		<tape>BS082795</tape>
+		<audio>46-ico/46-ico-09.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19950903" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Christian Liberty - Part III</title>
+		<passage>I Corinthians 10</passage>
+		<tape>BS090395</tape>
+		<audio>46-ico/46-ico-10.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19950910" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Gender Roles</title>
+		<passage>I Corinthians 11:1-16</passage>
+		<tape>BS091095</tape>
+		<audio>46-ico/46-ico-11-01.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19950917" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>The Lord's Supper</title>
+		<passage>I Corinthians 11:17-34</passage>
+		<tape>BS091795</tape>
+		<audio>46-ico/46-ico-11-17.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19950924" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Spiritual Gifts - Part I</title>
+		<passage>I Corinthians 12:1-11</passage>
+		<tape>BS092495</tape>
+		<audio>46-ico/46-ico-12-01.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19951001" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Spiritual Gifts - Part II</title>
+		<passage>I Corinthians 12:12-31</passage>
+		<tape>BS100195</tape>
+		<audio>46-ico/46-ico-12-12.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19951008" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Spiritual Gifts - Part III</title>
+		<passage>I Corinthians 13</passage>
+		<tape>BS100895</tape>
+		<audio>46-ico/46-ico-13.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19951015" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Spiritual Gifts - Part IV</title>
+		<passage>I Corinthians 14</passage>
+		<tape>BS101595</tape>
+		<audio>46-ico/46-ico-14.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19951022" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Resurrection - Part I</title>
+		<passage>I Corinthians 15:1-19</passage>
+		<tape>BS102295</tape>
+		<audio>46-ico/46-ico-15-01.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19951029" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Resurrection - Part II</title>
+		<passage>I Corinthians 15:20-49</passage>
+		<tape>BS102995</tape>
+		<audio>46-ico/46-ico-15-20.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19951112" service="sunday" category="book studies">
+		<seriestitle>I Corinthians</seriestitle>
+		<title>Stewardship</title>
+		<passage>I Corinthians 16</passage>
+		<tape>BS111295</tape>
+		<audio>46-ico/46-ico-16.ram</audio>
+		<passageref></passageref>
+	</message>
+
 	<message date="19961117" service="sunday" category="book studies">
 		<seriestitle>John</seriestitle>
 		<title>The Word Became Flesh</title>
@@ -8717,6 +8969,14 @@
 		<passage>Luke 5:12-16</passage>
 		<tape>BS021603</tape>
 		<audio>42-luk/42-luk-05-12.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk005.html#top</passageref>
+	</message>
+	<message date="20030223" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>First Things First</title>
+		<passage>Luke 5:17-26</passage>
+		<tape>BS022303</tape>
+		<audio>42-luk/42-luk-05-17.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk005.html#top</passageref>
 	</message>
 
