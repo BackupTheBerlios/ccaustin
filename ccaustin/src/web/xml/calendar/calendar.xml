@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.41 2003/03/28 18:49:24 javajames27 Exp $
+	$Id: calendar.xml,v 1.42 2003/04/04 21:29:39 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -218,7 +218,7 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
     <event id="04001" date="20030413" showOnHomepage="true">
       <title>Marriage Conference</title>
       <date>May 2-4th (Deadline is Apr 13th)</date>
-      <detail>A 3-day marriage conference, May 2-4, by FamilyLife will be held at the Omni Austin Hotel Southpark.  The deadline for group registration at the Events Center (significant savings) is April 13.</detail>
+      <detail>A 3-day marriage conference, May 2-4, by FamilyLife will be held at the Omni Austin Hotel Southpark.  The deadline for group registration at the Events Center (significant savings) is next Sunday, Apr 13.</detail>
     </event>
 
     <event id="04002" date="20030405" showOnHomepage="true">
@@ -235,7 +235,7 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
     <event id="05001" date="20030530" showOnHomepage="true">
       <title>Family Camp</title>
       <date>May 30th-June 1st</date>
-      <detail>Blanco State Park, May 30 - Jun 1, limited space. Call John Adams for details (834.0173). Sign your family up at the Events Center today for a Calvary camping adventure.</detail>
+      <detail>Blanco State Park, May 30 - Jun 1, limited space.  Call John Adams (834.0173) for details.  Sign up and pay your deposit at the Events Center by next Sunday, Apr 13, for a Calvary camping adventure.</detail>
 		<ministries>
 			<ministry id="children"/>
 		</ministries>
@@ -245,11 +245,26 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
       <date>May 2-4</date>
       <detail>Consider coming on a short mission trip, Friday through Sunday, to Pan De Vida, Mexico to take supplies and minister to a women’s shelter and orphanage.</detail>
     </event>
+    <event id="05003" date="20030501" showOnHomepage="true">
+      <title>National Day of Prayer</title>
+      <date>May 1</date>
+      <detail></detail>
+    </event>
+    <event id="05004" date="20030507" showOnHomepage="false">
+      <title>Extended Worship Service</title>
+      <date>May 7</date>
+      <detail></detail>
+    </event>
 		<!--
     ===============
     June
     ===============
     -->
+    <event id="06001" date="20030615" showOnHomepage="false">
+      <title>Front Line Corpus Mission Trip</title>
+      <date>June 13-15</date>
+      <detail>More details coming soon</detail>
+    </event>
 		<!--
     ===============
     July

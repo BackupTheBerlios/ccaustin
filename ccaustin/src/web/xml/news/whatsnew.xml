@@ -3,266 +3,73 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.28 2003/03/28 18:49:24 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.29 2003/04/04 21:29:39 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
 	<news>
-		<news-item id="0" date="20020602" expires="20020701">
-			<date/>
-			
-			<title>Test</title>
-			<detail>
-	Testing expired item....
-      </detail>
+		<news-item id="29" date="20030430" expires="20030430" showOnHomepage="true">
+			<logo align="right" img="../images/YEV02a.jpg" alt="Year End Video"/>
+			<title>2002 Year End Video</title>
+			<detail>Check out the <link href="http://www.calvarychapel.org/austin/video/2002yeva.ram">Year End Video</link> with your <link href="http://www.real.com">RealVideo</link> player!</detail>
 		</news-item>
-		<news-item id="1" date="20020702" expires="20020901" showOnHomepage="false">
-			<date/>
-			
-			<title>Calvary Austin T-Shirts</title>
-			<detail>
-	T-shirts in red, green, blue, and black colors are
-	available in adult and youth sizes. The cost is $10. Come to
-	the Events Center to purchase your t-shirts today.
-      </detail>
+		<news-item id="30" date="20030430" expires="20030430" showOnHomepage="true">
+			<logo align="right" img="../images/YEV02b.jpg" alt="Year In Review Video"/>
+			<title>2002 Year In Review Video</title>
+			<detail>Check out the <link href="http://www.calvarychapel.org/austin/video/2002yevb.ram">Year In Review Video</link> with your <link href="http://www.real.com">RealVideo</link> player!</detail>
 		</news-item>
-		<news-item id="2" date="20020711" expires="20020911" showOnHomepage="false">
-			<date/>
-			
-			<title>New Web Site</title>
-			<detail>
-	As you have noticed by now, the Calvary Austin web site has
-	a new look and fresh content. <link href="../ministries/internet.html">Find out more</link> about
-	the internet ministry, as well as the <link href="../ministries/internet-vision.html">vision for the Calvary
-	Austin web site</link>. 
-      </detail>
-		</news-item>
-		<news-item id="3" date="20020830" expires="20020830" showOnHomepage="true">
-			
-			<title>YDC is Starting a New Year</title>
-			<detail>"YDC" begins its new year Wednesday, Aug 21, at 7PM.  It is a discipleship club for
-      Wise Guys, Witnesses and Watchmen--boys and girls Kindergarten through Fifth grade.  There is
-      worship, Bible study, game and group times each week.  Pick up a brochure at the Octopus in
-      the lobby for more information.<br/>
-				<link href="../ministries/children.html">Learn
-      more...</link>
+		<news-item id="31" date="20030401" expires="20030401" showOnHomepage="false">
+			<title>Marriage Ministry</title>
+			<detail>The Spring group meetings begin this week. If you signed up, your books will be available at the first meeting. <link href="../ministries/marriage.html">Learn more...</link>
 			</detail>
 		</news-item>
-		<news-item id="8" date="20020904" expires="20020904" showOnHomepage="true">
-			
-			<title>Communion Service</title>
-			<date>Wednesday, Sept 4th</date>
-			<detail>The Wednesday service this week will include the celebration of communion.  Come hear from God’s word and also participate in the Lord’s Supper.</detail>
+		<news-item id="32" date="20030201" expires="20030315" showOnHomepage="true">
+			<title>Children's Ministry</title>
+			<detail>Several volunteer positions are open on Sunday and Wednesday.  Please check the Calvary Kids Hallway board for more info. It is very important to pick up, at various places in the lobby, a schedule of training sessions if you've signed up.  There are sessions Apr 6, during the 2nd or 3rd services and also on Apr 13.</detail>
 		</news-item>
-		<news-item id="6" date="20020907" expires="20020907" showOnHomepage="true">
-			
-			<title>Choir Auditions</title>
-			<date>Saturday, Sept 7</date>
-			<detail>We will be holding auditions again for our new <link href="../ministries/worship.html">Worship Community</link>.  This is a contemporary choir that will participate in select Sunday services as well as special events.  Please contact the church office to set up an interview and audition time.  </detail>
+		<news-item id="33" date="20030301" expires="20030319" showOnHomepage="true">
+			<title>Stop and Seek</title>
+			<detail>Please join us this Wednesday evening, Mar 19, at 7PM, as Pastor Allen leads us in the last of four special services devoted to prayer and waiting for a word from the Lord for each of us, our families and our church.</detail>
 		</news-item>
-		<news-item id="9" date="20020908" expires="20020908" showOnHomepage="true">
-			
-			<title>Home Fellowships</title>
-			<date>Sept 6th-8th</date>
-			<detail>Home fellowships will not meet the weekend of Sep 6-8 since Home Fellowships do not meet on the first Friday weekend of each month.</detail>
+		<news-item id="34" date="20030301" expires="20030319" showOnHomepage="true">
+			<title>Calvary Bookstore </title>
+			<detail>Several volunteer positions are open on Sundays and Wednesdays.  Please contact Andrea Rigg at the church office (719.4667) or come by the bookstore for more information.</detail>
 		</news-item>
-		<news-item id="5" date="20020930" expires="20021010" showOnHomepage="true">
-			
-			<title>Men's Evening Bible Study</title>
-			<date>Starts Tuesday evening, Sep 10</date>
-			<detail>Mark your calendars!  Bible study material will be available soon at the Events Center.  Contact <link href="mailto:andrew_berke@hotmail.com">Andy Berke</link> for more information.</detail>
+		<news-item id="35" date="20030301" expires="20030401" showOnHomepage="true">
+			<title>Children's Ministry Sign In</title>
+			<detail>The new sign in system will begin April 6.  Pick up a flyer and a form to be filled out in the Children's Ministry area today.</detail>
 		</news-item>
-		<news-item id="7" date="20020930" expires="20021010" showOnHomepage="true">
-			
-			<title>Women's Morning and Evening Bible Study</title>
-			<date>Starts Tuesday, Sept 17</date>
-			<detail>The Women's bible study starts up again this fall. For more information, visit their
-      <link href="../ministries/women.html">ministry home page</link>.</detail>
+		<news-item id="36" date="20030301" expires="20030327" showOnHomepage="true">
+			<title>Men's Ministry</title>
+			<detail>Starting Tuesday the men’s bible study will meet every Tuesday night until the end of May.</detail>
 		</news-item>
-		<news-item id="10" date="20020920" expires="20020920" showOnHomepage="true">
-			
-			<title>Women's Ministry Opportunity</title>
-			<detail>The women in the Tuesday morning, 10-11:30AM, Bible study are looking for 2 teachers for the children at the church during that time.  It could be a ministry opportunity for you or a chance to earn a little extra income.  Please contact Ali Luberto (255.5004) if interested. For more information about the ministry, visit their
-      <link href="../ministries/women.html">ministry home page</link>.</detail>
+		<news-item id="37" date="20030320" expires="20030418" showOnHomepage="true">
+			<title>New Home Fellowship</title>
+			<detail>A new home group will start meeting on Friday, Apr 11, at 7:30PM in Cedar Park.  It will be lead by James Lozano and hosted by James and Talinda Higginbotham (1800 Nelson Ranch Loop).  Flyers with directions are available in the lobby.  Contact the Higginbotham's (336.8493) for more information.</detail>
 		</news-item>
-		<news-item id="11" date="20021012" expires="20021031" showOnHomepage="true">
-			
-			<title>Poetry Night @ The Creator</title>
-			<detail>The 2nd Saturday of each month from 7-8PM is Poetry Night, starting October 12th. Poetry Night consists of Christ-centered poetry, prose, short stories or personal testimonies.  Sign up at the Events Center.</detail>
+		<news-item id="38" date="20030320" expires="20030418" showOnHomepage="true">
+			<title>Young Disciples Club</title>
+			<detail>“YDC” is a discipleship club for Wise Guys, Witnesses and Watchmen--boys and girls K-5th grade.  There is worship, Bible, game and group times each Wednesday evening.  Pick up a YDC flyer at the Octopus in the lobby for more information.</detail>
 		</news-item>
-		<news-item id="12" date="20021018" expires="20021018" showOnHomepage="true">
-			
-			<title>Home Fellowship  Groups</title>
-			<detail>Because of the Pastors and Leaders Conference we will not meet on Oct 18.</detail>
+		<news-item id="39" date="20030406" expires="20030406" showOnHomepage="true">
+			<title>Daylight Saving Time</title>
+			<detail>Next Sunday, April 6, is the time to “spring forward” by setting clocks ahead 1 hour Saturday night.</detail>
 		</news-item>
-		<news-item id="13" date="20021030" expires="20021030" showOnHomepage="true">
-			
-			<title>Live Music - Ten-31</title>
-			<detail>October 30th - Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
+		<news-item id="40" date="20030403" expires="20030406" showOnHomepage="true">
+			<title>Leander Home Fellowship</title>
+			<detail>The Leander Home Fellowship has a new meeting location.  For more information, call Robert and Sandra Verastegui (259.0251).</detail>
 		</news-item>
-		<news-item id="14" date="20021030" expires="20021030" showOnHomepage="true">
-			
-			<title>Live Music - Daniel Baker</title>
-			<detail>October 23rd @ 9:00pm - Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
+		<news-item id="41" date="20030404" expires="20030501" showOnHomepage="true">
+			<title>God Bless Our Military Serving in Iraq</title>
+			<detail>We want to pray for all those who are serving and their families.  We want to pray especially for our own Calvary families.  If you are a member of one of those families or know of one, please call the office (719-4667) so we may pray for them by name!</detail>
 		</news-item>
-		<news-item id="15" date="20021101" expires="20021117" showOnHomepage="true">
-			
-			<title>Schedule Changes</title>
-			<detail>Because of the Men's Retreat this week, Home Fellowships and the Men’s Prayer Group will NOT meet and the church office will be closed on Friday, Nov 15.</detail>
+		<news-item id="42" date="20030404" expires="20030501" showOnHomepage="true">
+			<title>Bookstore</title>
+			<detail>Want to grow deeper in your walk with the Lord?  There's something for everyone in the family including great music, journals, and books for kids.  If you can't find what you're looking for, we can order it for you.</detail>
 		</news-item>
-		<news-item id="16" date="20021101" expires="20021201" showOnHomepage="true">
-			
-			<title>The Cupboard</title>
-			<detail>A new ministry is starting at Calvary Austin.  Our food pantry will provide food to families in the body of Calvary during times of need. You may help by donating non-perishable food items and personal hygiene items.  Place donations in the bin located between the nursery and the administration office door. If you need assistance from this ministry, contact the church office.  For more information, pick up a sheet at the Events Center or contact Derrick or Crystal Kinney (310.2590).</detail>
+		<news-item id="43" date="20030301" expires="20030501" showOnHomepage="true">
+			<title>Internet Ministry</title>
+			<detail>Want to grow deeper in your walk with the Lord by serving?  <link href="mailto:webservant-austin@calvarychapel.org">Contact the web ministry</link> if you have skills in any of the following areas: Java, JSP, XML, Javascript, HTML, and professional web design. </detail>
 		</news-item>
-		<news-item id="17" date="20021101" expires="20021201" showOnHomepage="true">
-			
-			<title>T-Shirt Sale!</title>
-			<detail>The cost of all sizes of Calvary Austin t-shirts has been reduced to $5.  There is a good selection of kid’s sizes.  They would maske great gifts!  Pick yours up today at the bookstore in the lobby.    </detail>
-		</news-item>
-		<news-item id="18" date="20021101" expires="20021129" showOnHomepage="true">
-			
-			<title>Thanksgiving Week Schedule Changes</title>
-			<detail>There will be no service on Wednesday, Nov 27.  The church office
-			will be closed Wednesday, Nov 27, at noon and also Nov 28-29.  There will be
-			NO Men's Prayer Group Friday, Nov 29. Home Fellowship groups will not meet
-			Nov 29 or Dec 6.</detail> 
-		</news-item>
-		<news-item id="19" date="20021208" expires="20021208" showOnHomepage="true">
-			
-			<title>Year-End Video</title>
-			<detail>We need photos and videos from 2002 Calvary Events.  Please contact
-			Bunjee (719.4667) or bunjee@calvaryaustin.org) by Sunday, Dec 8.</detail>  
-		</news-item>
-		<news-item id="20" date="20021208" expires="20021229" showOnHomepage="true">
-			
-			<title>Fishes and Loaves Ministry</title>
-			<detail>This ministry consists of people who cook and deliver meals to those
-			who find it difficult to do so due to circumstances such as illness, surgery
-			recuperation or the arrival of a newborn baby.  The meals are provided on a
-			onetime basis or as long as the need exists.  If you are interested in being
-			part of the ministry, sign up at the Events Center.</detail>   
-		</news-item>
-		<news-item id="21" date="20021231" expires="20021231" showOnHomepage="true">
-			
-			<title>Christmas Adoptions</title>
-			<detail>The Children's Ministry is once again adopting children from our
-			local neighborhood elementary schools to help out with meals and gifts
-			during this Christmas season. You may participate or ger more information by
-			visiting the Events Center.</detail>    
-		</news-item>
-		<news-item id="22" date="20030101" expires="20030101" showOnHomepage="true">
-			
-			<title>Holiday Schedule Changes</title>
-			<detail>During the week of Christmas the church office will be closed
-			Tue-Thu, Dec 24-26.  During the week of New Years the office will be closed
-			Tue and Wed, Dec 31 and Jan 1</detail>     
-		</news-item>
-		<news-item id="23" date="20030108" expires="20030108" showOnHomepage="true">
-			
-			<title>Marriage Ministry</title>
-			<detail>Come join and fellowship with other married couples to learn and
-			apply Biblical principles that will help strengthen your marriage.  What a
-			great way to start the New Year!  We are currently taking sign ups for the
-			winter group session, which will meet weekly for 4 to 8 weeks depending upon
-			the topic.  Groups will start meeting the 3rd week of January.  Please sign
-			up at the Events Center.  Spaces are limited.</detail>      
-		</news-item>
-		<news-item id="24" date="20030201" expires="20030201" showOnHomepage="true">
-			
-			<title>Spring 2003 Women's Bible Study</title>
-			<detail>The Women at Calvary continue the bible study “Jesus, the One and Only.”  The morning study meets every Tuesday at 10:00 AM.  The evening study meets every other Tuesday at 7:00 PM.  Cooperative childcare is available in the morning only.  Women are welcome to join at any time.   This is an exciting opportunity for spiritual growth. </detail>      
-		</news-item>
-		<news-item id="25" date="20030212" expires="20030212" showOnHomepage="true">
-			
-			<title>Spring 2003 Men's Bible Study</title>
-			<detail>Every other Tuesday, next meeting Feb 11</detail>      
-		</news-item>
-    <news-item id="26" date="20030101" expires="20030208" showOnHomepage="true">
-		
-		<title>Homeless Outreach</title>
-		<detail>Donations are needed for an outreach to the homeless scheduled for Saturday, Feb 8.  A list of  needed items is 		available at the Information Center.  Please place the items you bring in receptacles located in the lobby near the front doors.	</detail>
-</news-item>
-	<news-item id="27" date="20030101" expires="20030125" showOnHomepage="true">
-		
-		<title>Youth Day Retreat</title>
-		<detail>The deadline for signing up for the Jan 25,
-		9AM-5PM,"Vital Life" Youth Day Retreat at the church is next Sunday, Jan 19.
-		Come by the Events Center to sign up &amp; pay the $17.  Lunch and a  t-shirt
-		are included!
-		</detail>
-	</news-item>
-    <news-item id="28" date="20030102" expires="20030202" showOnHomepage="true">
-		
-		<title>School of Ministry</title>
-		<detail>The 2nd semester will start on Monday, Feb 17.  Sign up by Feb 2 at the Events Center for one or two classes in the 		Pastoral, Practical, Apologetics, Evangelism &amp; Missions, Theological, and Historical courses of study.  The cost is $25 	for 	one and $40 for two classes.</detail>
-    </news-item>
-
-    <news-item id="29" date="20030430" expires="20030430" showOnHomepage="true">
-		<logo align="right" img="../images/YEV02a.jpg" alt="Year End Video"/>
-		<title>2002 Year End Video</title>
-		<detail>Check out the <link href="http://www.calvarychapel.org/austin/video/2002yeva.ram">Year End Video</link> with your <link href="http://www.real.com">RealVideo</link> player!</detail>
-    </news-item>
-
-    <news-item id="30" date="20030430" expires="20030430" showOnHomepage="true">
-		<logo align="right" img="../images/YEV02b.jpg" alt="Year In Review Video"/>
-		<title>2002 Year In Review Video</title>
-		<detail>Check out the <link href="http://www.calvarychapel.org/austin/video/2002yevb.ram">Year In Review Video</link> with your <link href="http://www.real.com">RealVideo</link> player!</detail>
-    </news-item>
-
-    <news-item id="31" date="20030401" expires="20030401" showOnHomepage="false">
-		<title>Marriage Ministry</title>
-		<detail>The Spring group meetings begin this week. If you signed up, your books will be available at the first meeting. <link href="../ministries/marriage.html">Learn more...</link></detail>
-    </news-item>
-
-    <news-item id="32" date="20030201" expires="20030315" showOnHomepage="true">
-		<title>Children's Ministry</title>
-		<detail>Several volunteer positions are open on Sunday and Wednesday.  Please check the Calvary Kids Hallway board for more info. It is very important to pick up, at various places in the lobby, a schedule of training sessions if you've signed up.  The first session is Sunday, March 30, during the 2nd or 3rd services.</detail>
-    </news-item>
-
-    <news-item id="33" date="20030301" expires="20030319" showOnHomepage="true">
-		<title>Stop and Seek</title>
-		<detail>Please join us this Wednesday evening, Mar 19, at 7PM, as Pastor Allen leads us in the last of four special services devoted to prayer and waiting for a word from the Lord for each of us, our families and our church.</detail>
-    </news-item>
-
-    <news-item id="34" date="20030301" expires="20030319" showOnHomepage="true">
-		<title>Calvary Bookstore </title>
-		<detail>Several volunteer positions are open on Sundays and Wednesdays.  Please contact Andrea Rigg at the church office (719.4667) or come by the bookstore for more information.</detail>
-    </news-item>
-
-    <news-item id="35" date="20030301" expires="20030401" showOnHomepage="true">
-		<title>Children's Ministry Sign In</title>
-		<detail>The new sign in system will begin April 6.  Pick up a flyer and a form to be filled out in the Children's Ministry area today.</detail>
-    </news-item>
-
-    <news-item id="36" date="20030301" expires="20030327" showOnHomepage="true">
-		<title>Men's Ministry</title>
-		<detail>Starting Tuesday the men’s bible study will meet every Tuesday night until the end of May.</detail>
-    </news-item>
-
-    <news-item id="37" date="20030320" expires="20030418" showOnHomepage="true">
-		<title>New Home Fellowship</title>
-		<detail>A new home group will start meeting on Friday, Apr 11, at 7:30PM in Cedar Park.  It will be lead by James Lozano and hosted by James and Talinda Higginbotham (1800 Nelson Ranch Loop).  Flyers with directions are available in the lobby.  Contact the Higginbotham's (336.8493) for more information.</detail>
-    </news-item>
-
-    <news-item id="38" date="20030320" expires="20030418" showOnHomepage="true">
-		<title>Young Disciples Club</title>
-		<detail>“YDC” is a discipleship club for Wise Guys, Witnesses and Watchmen--boys and girls K-5th grade.  There is worship, Bible, game and group times each Wednesday evening.  Pick up a YDC flyer at the Octopus in the lobby for more information.</detail>
-    </news-item>
-
-    <news-item id="39" date="20030406" expires="20030406" showOnHomepage="true">
-		<title>Daylight Saving Time</title>
-		<detail>Next Sunday, April 6, is the time to “spring forward” by setting clocks ahead 1 hour Saturday night.</detail>
-    </news-item>
-
-    <news-item id="40" date="20030406" expires="20030406" showOnHomepage="true">
-		<title>Leander Home Fellowship</title>
-		<detail>The Leander Home Fellowship has a new meeting location.  For more information, call Robert and Sandra Verastegui (259.0251).</detail>
-    </news-item>
-
-
-
-</news>
-
-
+	</news>
 </content>
