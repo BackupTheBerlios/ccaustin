@@ -3376,6 +3376,14 @@
 		<audio>bibleoverview/46-ico-05.ram</audio>
 		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr005.html#top</passageref>
 	</message>
+	<message date="20030507" service="midweek" category="overview">
+		<seriestitle>I Corinthians</seriestitle>
+		<title></title>
+		<passage>I Corinthians 7</passage>
+		<tape>BO1315</tape>
+		<audio>bibleoverview/46-ico-07.ram</audio>
+		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr007.html#top</passageref>
+	</message>
 
     <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
@@ -9066,5 +9074,14 @@
 		<audio>42-luk/42-luk-06-43.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk006.html#top</passageref>
 	</message>
+	<message date="20030504" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>Putting Problems in Perspective</title>
+		<passage>Luke 7:1-10</passage>
+		<tape>BS050403</tape>
+		<audio>42-luk/42-luk-07-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk007.html#top</passageref>
+	</message>
+
 
 </messagecatalog>
