@@ -3,7 +3,7 @@
 
 	New Life Ministry - The ministry and its detail
 	
-	$Id: newlife.xml,v 1.4 2004/07/07 04:31:24 tie Exp $
+	$Id: newlife.xml,v 1.5 2004/07/11 03:30:27 gregk Exp $
 		
 -->
 <content title="New Life Ministry">
@@ -19,7 +19,8 @@
 	  <heading>Join us!</heading>	
 	  <p>We invite you to prayerfully consider New Life Ministry as a way to serve here at Calvary Chapel Austin. This is a ministry which is created for mature Christians who enjoy praying with others. Come and experience the joy of sharing a moment with men and women as they dedicate their lives to Jesus Christ.</p>
 	  <heading>Blue Letter Bible</heading>	
-	  <p>Please feel free to use the following link for the <link href="http://www.blueletterbible.org/">Bluletter Bible</link>. This resource has a free bible, commentaries and other useful study guides that will get you started in your new relationship with Jesus Christ.</p>
+	  <p>Please feel free to use the following link for the <link href="http://www.blueletterbible.org/">Blueletter Bible</link>. This resource has a free bible, commentaries and other useful study guides that will get you started in your new relationship with Jesus Christ.</p>
+	<p><img href="http://www.blueletterbible.org/" src="http://blueletterbible.org/gifs/home.gif"/></p>
 	  </long-description>
 	  <contacts>
 	  	<contact-email email="surfdisciple@hotmail.com">Damon Cotter</contact-email>
