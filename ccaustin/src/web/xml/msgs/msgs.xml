@@ -8678,7 +8678,14 @@
 		<audio>42-luk/42-luk-04-01.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk004.html#top</passageref>
 	</message>
-
-
+	</message>
+	<message date="20030202" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>What God Can Do In You</title>
+		<passage>Luke 4:14-44</passage>
+		<tape>BS020203</tape>
+		<audio>42-luk/42-luk-04-14.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk004.html#top</passageref>
+	</message>
 
 </messagecatalog>
