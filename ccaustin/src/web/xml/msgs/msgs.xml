@@ -3948,6 +3948,22 @@
 <audio>bibleoverview/66-rev-17.wma</audio> 
 <passageref>http://www.blueletterbible.org/kjv/Rev/Rev017.html#top</passageref> 
 </message>
+<message date="20041208" service="midweek" category="overview"> 
+<seriestitle>Revelation</seriestitle> 
+<title></title> 
+<passage>Revelation 19-20</passage> 
+<tape>BO1376</tape> 
+<audio>bibleoverview/66-rev-19.wma</audio> 
+<passageref>http://www.blueletterbible.org/kjv/Rev/Rev019.html#top</passageref> 
+</message>
+<message date="20041215" service="midweek" category="overview"> 
+<seriestitle>Revelation</seriestitle> 
+<title></title> 
+<passage>Revelation 21-22</passage> 
+<tape>BO1377</tape> 
+<audio>bibleoverview/66-rev-21.wma</audio> 
+<passageref>http://www.blueletterbible.org/kjv/Rev/Rev021.html#top</passageref> 
+</message>
 
 <message date="20041013" service="midweek" category="misc">
 <seriestitle>Guest Speaker</seriestitle>
@@ -10313,7 +10329,14 @@
 	<audio>topicseries/ten/tennine.wma</audio> 
 	<passageref>http://www.blueletterbible.org/kjv/Exd/Exd020.html#top</passageref> 
 	</message>
-
+	<message date="20041205" service="sunday" category="topical series"> 
+	<seriestitle>Ten</seriestitle> 
+	<title>Ten Commandments - Coveting</title> 
+	<passage>Exodus 20:17</passage> 
+	<tape>TS120504</tape> 
+	<audio>topicseries/ten/tenten.wma</audio> 
+	<passageref>http://www.blueletterbible.org/kjv/Exd/Exd020.html#top</passageref> 
+	</message>
 
 	<message date="20041113" service="sunday" category="topic message"> 
 	<seriestitle>Guest Speaker</seriestitle> 
