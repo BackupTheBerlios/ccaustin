@@ -106,7 +106,7 @@
   <tag>
    <name>content</name>
    <tagclass>org.apache.slide.taglib.tag.struts.ContentTag</tagclass>
-   <bodycontent>empty</bodycontent>
+   <bodycontent>JSP</bodycontent>
    <attribute>
     <name>id</name>
     <required>false</required>

@@ -111,7 +111,7 @@
   <!-- Login Configuration -->
   <login-config>
     <auth-method>BASIC</auth-method>
-    <realm-name>Slide Administration</realm-name>
+    <realm-name>SlideRealm</realm-name>
   </login-config>
   
 </web-app>

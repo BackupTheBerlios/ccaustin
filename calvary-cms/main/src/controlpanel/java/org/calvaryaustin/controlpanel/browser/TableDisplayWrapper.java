@@ -75,12 +75,12 @@ public class TableDisplayWrapper extends TableDecorator
 		} 
 		else 
 		{
-			// TODO: Add link to detail page when avail
-			//String site = form.getSite();
-			//String path = RepositoryUtil.normalize( form.getPath()+"/"+node.getName() );
-			//String link = "<a href='"+contextPath+"/browser.do?site="+site+"&path="+path+"'>"
-			//  +node.getName()+"</a>";
-			return node.getName();
+			String site = form.getSite();
+			String path = RepositoryUtil.normalize( form.getPath()+"/"+node.getName() );
+			String link = "<a href='"+contextPath+"/viewer.do?site="+site+"&path="+path+
+				"&file="+node.getName()+"'>"
+			  +node.getName()+"</a>";
+			return link;
 		}
 	}
 	

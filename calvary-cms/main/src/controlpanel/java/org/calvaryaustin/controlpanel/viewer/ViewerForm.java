@@ -1,12 +1,11 @@
-package org.calvaryaustin.controlpanel.browser;
+package org.calvaryaustin.controlpanel.viewer;
 
 import org.calvaryaustin.web.BaseValidatorForm;
 
 /**
- * Represents the fields necessary to browse a site
  * @author jhigginbotham
  */
-public class BrowserForm extends BaseValidatorForm
+public class ViewerForm extends BaseValidatorForm
 {
 	/**
 	 * Returns the path that is currently being browsed
@@ -43,6 +42,16 @@ public class BrowserForm extends BaseValidatorForm
 	{
 		this.site = site;
 	}
+	
+	public String getFile()
+	{
+		return file;
+	}
+	
+	public void setFile(String file)
+	{
+		this.file = file;
+	}
 
 	public String getComputedUri()
 	{
@@ -56,5 +65,7 @@ public class BrowserForm extends BaseValidatorForm
 
 	private String site;
 	private String path;
+	private String file;
 	private String computedUri;
+
 }

@@ -21,6 +21,9 @@
     <form-bean name="browser"
                type="org.calvaryaustin.controlpanel.browser.BrowserForm"/>
     
+    <form-bean name="viewer"
+               type="org.calvaryaustin.controlpanel.viewer.ViewerForm"/>
+    
   </form-beans>
   
   <!-- ========== Global Forward Definitions ============================== -->
@@ -116,6 +119,15 @@
             input="browser">
       <forward name="browser.success"
                path="browser"/>
+    </action>
+    
+    <action path="/viewer" 
+            type="org.calvaryaustin.controlpanel.viewer.ViewerAction"
+            name="viewer"
+            scope="request"
+            input="browser">
+      <forward name="viewer.success"
+               path="viewer"/>
     </action>
     
   </action-mappings>

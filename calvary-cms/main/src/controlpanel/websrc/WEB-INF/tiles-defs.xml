@@ -25,6 +25,11 @@
     <put name="body" value="/browser/browser_tile.jsp"/>
   </definition>
   
+  <definition name="viewer" extends="masterlayout">
+    <put name="title" value="Control Panel Viewer"/>
+    <put name="body" value="/viewer/viewer_tile.jsp"/>
+  </definition>
+  
   <definition name="viewLocks" extends="masterlayout">
     <put name="title" value="Manage Locks"/>
     <put name="body" value="/locks/locks_tile.jsp"/>

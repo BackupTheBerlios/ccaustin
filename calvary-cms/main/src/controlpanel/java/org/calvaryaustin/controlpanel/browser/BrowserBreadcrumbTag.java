@@ -32,7 +32,7 @@ public class BrowserBreadcrumbTag extends TagSupport
 				pageContext.getOut().println("sites");
 				return EVAL_PAGE; 
 			}
-			pageContext.getOut().println("<a href='"+contextPath+"/browser.do'>sites</a> : /");
+			pageContext.getOut().println("<a href='"+contextPath+"/browser.do'>sites</a> : ");
 			pageContext.getOut().println("<a href='"+contextPath+"/browser.do?site="+
 			  form.getSite()+"&path=/'>"+form.getSite()+"</a>");
 			pageContext.getOut().println(" : ");
