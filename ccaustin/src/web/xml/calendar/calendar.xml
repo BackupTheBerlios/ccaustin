@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.49 2003/05/27 22:36:26 javajames27 Exp $
+	$Id: calendar.xml,v 1.50 2003/06/03 16:38:53 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -375,7 +375,7 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
 	 <title>Calvary Chapel Mid South College and Career Conference and Retreat 2003</title>
 		<date>August 29th - Sept 1st</date>
 		<logo align="right" img="../images/events/ccccretreat2003-icon.jpg" alt="CCCC Retreat 2003"/>
-		<detail>Early registration is over, but time is still available to sign up! <link href="../events/ccccretreat2003.html">Find out more</link></detail>
+		<detail>Early registration is over, but time is still available to sign up! Find out more <link href="../events/ccccretreat2003.html">details</link> and view the <link href="http://www.calvarychapel.org/austin/video/FLRetreatRegen.ram">retreat video</link> with some clips from last year!</detail>
 		<ministries>
 			<ministry id="frontine"/>
 		</ministries>
