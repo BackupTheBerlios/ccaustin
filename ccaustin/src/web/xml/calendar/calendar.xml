@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.92 2004/01/04 05:33:56 gregk Exp $
+	$Id: calendar.xml,v 1.93 2004/01/04 05:42:35 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -373,15 +373,15 @@ need for Praying Leaders.</detail>
     -->
     <event id="01001" date="20040124" showOnHomepage="true">
 	 <title>Childrens' Ministry Training Saturday Morning</title>
-		<date>Jan 24 2004</date>
+		<date>Jan 24</date>
                 <detail>All people who serve the kids come out for a great time of fun, fellowhip and very important training to develop hands-on skills and get great ideas to enhance the classroom environment.</detail>
 		<ministries>
 			<ministry id="children"/>
 		</ministries>
     </event>
     <event id="01002" date="20040102" showOnHomepage="true">
-			<title>New Years Schedule Changes</title>
-			<detail>Offices will be closed January 1st and 2nd.</detail>
+		<title>New Years Schedule Changes</title>
+		<detail>Offices will be closed January 1st and 2nd.</detail>
     </event>
     <event id="01003" date="20040101" showOnHomepage="true">
 			<title>4th Annual New Year's Day Bowl</title>
@@ -390,10 +390,11 @@ need for Praying Leaders.</detail>
  Events Center for details and a map.</detail>
     </event>
     <event id="01004" date="20040104" showOnHomepage="true">
-			<title>Mexico Mission Trip</title>
-			<detail>On Jan 2-4 come and share the love of Jesus with His children south of the border in Pan De Vida. Sign up at the Events Center. For those who cannot go, participate by donating from the list of needed items.</detail>
+		<title>Mexico Mission Trip</title>
+		<date>Jan 2-4</date>
+		<detail>On Jan 2-4 come and share the love of Jesus with His children south of the border in Pan De Vida. Sign up at the Events Center. For those who cannot go, participate by donating from the list of needed items.</detail>
     </event>
-    <event id="01005" date="20040103" showOnHomepage="true">
+    <event id="01005" date="20040128" showOnHomepage="true">
 	 <title>Weight of Glory (live Music at Coffee Creator)</title>
 		<date>Jan 28</date>
 		<ministries>
