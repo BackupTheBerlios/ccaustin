@@ -10037,5 +10037,14 @@
 	<audio>topicmessage/TM090504.wma</audio>
 	<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn007.html#top</passageref>
 	</message>
+	<message date="20040912" service="sunday" category="topical series"> 
+	<seriestitle>Ten</seriestitle> 
+	<title>Ten Commandments - Put God First</title> 
+	<passage>Exodus 20:3</passage> 
+	<tape>TS091204</tape> 
+	<audio>topicseries/ten/tenone.wma</audio> 
+	<passageref>http://www.blueletterbible.org/kjv/Exd/Exd001.html#top</passageref> 
+	</message>
+
 
 </messagecatalog>
