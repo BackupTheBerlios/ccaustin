@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.126 2004/07/17 16:46:40 premav Exp $
+	$Id: calendar.xml,v 1.127 2004/08/07 21:02:08 premav Exp $
 		
 -->
 <content title="Calendar">
@@ -608,7 +608,7 @@ and to register visit the Events Center.</detail>
 		<date></date>
 		<detail>If you are looking for discipleship, look no further. The Calvary Discipleship Program is taking sign-ups for the 101, 201, and 301 classes starting on July 26th. Find out more at the Info Center.</detail>
     </event>
-    <event id="07003" date="20040807" showOnHomepage="true">
+    <event id="07003" date="20040807" showOnHomepage="false">
 	    <title>A Building Project</title>
 		<date></date>
 		<detail>will be on July 31st &amp; Aug 7th, to construct staging &amp; storage in the children.s ministry. Skill sets like, painting, framing, electrical, sheetrock, texture, and float &amp; taping are needed. If interested in partnering sign up at the Events Center.</detail>
@@ -631,6 +631,11 @@ and to register visit the Events Center.</detail>
 		<date>Aug 28th</date>
 		<detail>Come join other married couples as you discover how your differences can strengthen your marriage. Available workshops include: Finance, Conflict Resolution, Communication, Spiritual Maturity/Growth, and Romance/Intimacy. Registration cost is $25/couple. Box lunch provided.  Childcare not provided.  For more information, or to register, go to the Events Center.</detail>
     </event>
+    <event id="08002" date="20040814" showOnHomepage="true">
+	    <title>Weight of Glory Live Concert @ Coffee Creator</title>
+		<date>Aug 14th</date>
+		<detail>Bring your non-perishable food items to the Coffee Creator on Saturday, August 14th, to hear Weight of Glory in concert, sponsored by Calvary Singles Fellowship. Food items donated will go to the Calvary Austin Food Pantry.</detail>
+    </event>
 		<!--
     ===============
     September 2004
@@ -650,6 +655,11 @@ Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE<
                         <ministry id="children"/>
                 </ministries>
         </event>
+    <event id="09003" date="20040913" showOnHomepage="true">
+	    <title>School of Ministry</title>
+		<date>Sept 13th</date>
+		<detail>is gearing up for another semester. Classes offered: New Testament Survey, Cults and the Occult, Cross-cultural Communications in Missions and more. Evening classes begin Monday, Sept 13 and continue for 11 weeks. Course descriptions are located at the events center where you can also sign up.</detail>
+    </event>
 		<!--
     ===============
     Oct 2004

@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.95 2004/07/27 17:08:40 premav Exp $
+	$Id: whatsnew.xml,v 1.96 2004/08/07 21:02:33 premav Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -451,7 +451,7 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		   <title>Israel Trip</title>
 		   <detail>If you are signed up for the Israel Trip, there is an information packet waiting for you at the Events Center.</detail>
 		</news-item>
-		<news-item id="135" date="20040604" expires="20040903" showOnHomepage="true">
+		<news-item id="135" date="20040604" expires="20040903" showOnHomepage="false">
 		   <title>College and Career Retreat</title>
 		   <detail>Join us for the College and Career 2004 Retreat. The retreat will be Sep. 3-5 at <link href="http://www.texasretreat.com">Balcones Retreat Center</link>. The cost is $130. To make a downpayment or to register, stop by the Events Center.</detail>
 		</news-item>
@@ -486,6 +486,18 @@ internet or check out the audio archive on our web site.</detail></news-item>
 	   <news-item id="143" date="20040725" expires="20040802" showOnHomepage="true">
 		   <title>Attention Men</title>
 		   <detail>Looking for a way to bless other men? Get involved with the Men.s Retreat Prep Team. Meet at the Coffee Creator Sunday Aug 1st 11-11:30 a.m. to hear how you can help make this event a success.</detail>
+		</news-item>
+	   <news-item id="144" date="20040807" expires="20040808" showOnHomepage="true">
+		   <title>Children s Ministry Make-over Tour!</title>
+		   <detail>Come by after service for a quick tour of our new worship room and stage and hear the fresh vision for our kids.</detail>
+		</news-item>
+	   <news-item id="145" date="20040807" expires="20040915" showOnHomepage="true">
+		   <title>Got Kids?</title>
+		   <detail>We ve got parenting!!! HomeBuilders Parenting Series is now open for small group sign-ups. Groups will meet in host homes the 3rd week of Sept for 6 weeks. Book cost is $10 per person / $20 per couple. Register by August 29th at the Events Center.</detail>
+		</news-item>
+	   <news-item id="146" date="20040807" expires="20040807" showOnHomepage="true">
+		   <title>A Building Project</title>
+		   <detail>will be on July 31st &amp; Aug 7th, to construct staging &amp; storage in the children.s ministry. Skill sets like, painting, framing, electrical, sheetrock, texture, and float &amp; taping are needed. If interested in partnering sign up at the Events Center.</detail>
 		</news-item>
 <!--
 -->
