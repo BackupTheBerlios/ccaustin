@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	The simple index page for the site
+	
+	$Id: index.xml,v 1.1 2002/04/01 02:07:06 javajames27 Exp $
+		
+-->
+<content title="Home" base=".">
+	<redirect href="homepage/index.html"/>
+</content>

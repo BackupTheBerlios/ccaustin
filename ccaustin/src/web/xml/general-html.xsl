@@ -10,7 +10,7 @@
 	Place all tag processing templates in here that are HTML-based or text-processing based 
 	(using the <text></text> tag set).
 	
-	$Id: general-html.xsl,v 1.3 2002/03/15 23:39:05 javajames27 Exp $
+	$Id: general-html.xsl,v 1.4 2002/04/01 02:07:06 javajames27 Exp $
 -->
 
 
@@ -109,6 +109,16 @@
 
 <xsl:template match="heading">
 	<p class="heading"><xsl:apply-templates select="text()"/></p>
+</xsl:template>
+
+<xsl:template match="redirect">
+    <!-- xsl:element name="meta">
+      <xsl:attribute name="http-equiv">Refresh</xsl:attribute>
+      <xsl:attribute name="content">0; <xsl:value-of select="@href"/></xsl:attribute>
+    </xsl:element -->
+	<script>
+	<![CDATA[document.location="]]><xsl:value-of select="@href"/><![CDATA[";]]>
+	</script>
 </xsl:template>
 
 

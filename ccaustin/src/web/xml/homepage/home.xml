@@ -3,14 +3,14 @@
 
 	The home page for the church
 	
-	$Id: home.xml,v 1.1 2002/03/27 03:32:24 javajames27 Exp $
+	$Id: home.xml,v 1.2 2002/04/01 02:07:06 javajames27 Exp $
 		
 -->
 <content title="Home Page" base=".">
 	<news>
 	  <item>
 	    <heading>3 Services</heading>
-	    <logo align="left" img ="images/homepage/3-3-3-color.gif"/>
+	    <logo align="left" img ="../images/homepage/3-3-3-color.gif"/>
 	    <intro>Calvary Austin announces three services starting Sunday morning March 3, 2002 at 8, 9:45 and 11:30 am.</intro>
 	    <full>
 	      <p>Calvary Austin announces three services starting Sunday morning March 3, 2002 at 8, 9:45 and 11:30 am.</p>

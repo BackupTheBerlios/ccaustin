@@ -6,7 +6,7 @@
 	
 	Processes the ministry tag and its children tags
 	
-	$Id: home.xsl,v 1.1 2002/03/27 03:32:24 javajames27 Exp $
+	$Id: home.xsl,v 1.2 2002/04/01 02:07:06 javajames27 Exp $
 	
 -->	
 
@@ -15,7 +15,7 @@
     doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
     doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" />
 
-<xsl:include href="../homepage-ui.xsl"/>
+<xsl:include href="../general-ui.xsl"/>
 <xsl:include href="../general-html.xsl"/>
 
 <xsl:template match="news">
@@ -26,7 +26,7 @@
 
 <xsl:template match="item">
 		<tr>
-			<td width="50%" class="tablecell" align="center" valign="top" nowrap="true"><img src="images/homepage/stuff.gif" alt="Stuff To Know"/></td>
+			<td width="50%" class="tablecell" align="center" valign="top" nowrap="true"><img src="../images/homepage/stuff.gif" alt="Stuff To Know"/></td>
              <td><br/></td>
 		</tr>
 		<tr>
