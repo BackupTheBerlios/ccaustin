@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.83 2004/05/04 14:31:12 gregk Exp $
+	$Id: whatsnew.xml,v 1.84 2004/05/05 19:13:01 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -395,11 +395,11 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		<title>VBS Fair and Registration</title>
 		<detail>On April 18 look for the Olympic flag and stop by to get a sneak preview of this year's Vacation Bible School. Children who register at the fair will receive a small gift; parents who stop by will have a chance to see how they can help make this year's VBS success. For more information contact Kerry Schroeder at 219-7028.</detail>
 	</news-item>
-	<news-item id="121" date="20040401" expires="20040423" showOnHomepage="false">
+	<news-item id="121" date="20040401" expires="20040516" showOnHomepage="false">
 		<title>The Cupboard</title>
 		<detail> Our food pantry will provide food to families within Calvary during times of need. You may donate non-perishable food and personal hygiene items. Place donations in the Collection Area near the restrooms. If you need assistance from this ministry, contact the church office.</detail>
 	</news-item>
-	<news-item id="122" date="20040401" expires="20040423" showOnHomepage="false">
+	<news-item id="122" date="20040401" expires="20040516" showOnHomepage="false">
 		<title>Volunteers for Events Center</title>
 		<detail>If you are interested, outgoing, personal, and like to meet people, come to the Events Center to fill out a ministry application.</detail>
 	</news-item>
@@ -419,7 +419,7 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		<title>Web Designers Wanted!</title>
 		<detail>If you are interested in joining the Calvary Austin Web Team on any level, please contact Bunjee Garrett at the church. 512-719-4667.</detail>
 	</news-item>
-	<news-item id="127" date="20040428" expires="20040503" showOnHomepage="true">
+	<news-item id="127" date="20040428" expires="20040517" showOnHomepage="true">
 		<title>Motley Crew Needed</title>
 		<detail>Not musically, but facility speaking. The "Facility Team" is expanding to meet various needs within our current location.You can come and learn more about this great opportunity by joining us by a breakfast on Saturday May 1st at 8am in the Youth Room. Contact Glendon Nicks at 512-719-4667 for more information.</detail>
 	</news-item>
