@@ -58,6 +58,7 @@
 		<antcall target="web-homepage"/>
 		<antcall target="web-articles"/>
 		<antcall target="web-news"/>
+		<antcall target="web-media"/>
 		<antcall target="copy-files"/>
 	</target>
 	
