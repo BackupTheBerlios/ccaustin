@@ -14,3 +14,4 @@ pre	{ FONT-FAMILY: "Courier New", Courier, mono }
 .heading {  font-weight: bold; font-size: 105% }
 .detail {  font-style: italic}
 a:hover {  text-decoration: underline}
+.newsitem {  font-size: 85% }
