@@ -9642,5 +9642,13 @@
 		<audio>42-luk/42-luk-15-01.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk015.html#top</passageref>
 	</message>
+	<message date="20040125" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>Life Is Too Short</title>
+		<passage>Luke 16</passage>
+		<tape>BS012504</tape>
+		<audio>42-luk/42-luk-16-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk016.html#top</passageref>
+	</message>
 
 </messagecatalog>
