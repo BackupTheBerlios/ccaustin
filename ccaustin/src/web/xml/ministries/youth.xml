@@ -3,7 +3,7 @@
 
 	Youth Ministry - The ministry and its detail
 	
-	$Id: youth.xml,v 1.3 2004/01/15 11:14:34 gregk Exp $
+	$Id: youth.xml,v 1.4 2004/02/23 20:45:11 gregk Exp $
 		
 -->
 <content title="Youth  Ministry">
@@ -14,11 +14,11 @@
 	    <heading>High School Worship &amp; Teaching</heading>
 	    <p>9th grade - 12th grade </p>
          <p>Wednesday @ 7PM Youth Room</p> 
-         <p>Sunday morning at the three services - Worship &amp; Teaching is in the Sanctuary with the adults.</p>
+         <p>Sunday morning at the two services - Worship &amp; Teaching is in the Sanctuary with the adults.</p>
 	    <heading>Jr. High Worship &amp; Teaching</heading>
 	    <p>6th grade - 8th grade </p>
          <p>Wednesday @ 7PM Youth Room</p> 
-         <p>Sunday morning at the three services - Youth Room (Worship in Sanctuary)</p>
+         <p>Sunday morning at the two services - Youth Room (Worship in Sanctuary)</p>
 	  </long-description>
 	  <contacts>
 <!--
