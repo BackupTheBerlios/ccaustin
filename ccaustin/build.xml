@@ -99,13 +99,13 @@
                             <filter token="utf-" value="=ISO-8859-1"/>
                         </filterset>
 		</copy>
-		<copy todir="${dist.web.dir}/images">
+		<copy todir="${dist.web.dir}/images" overwrite="true">
 			<fileset dir="${src.images.dir}"/>
 		</copy>
-		<copy todir="${dist.web.dir}/js">
+		<copy todir="${dist.web.dir}/js" overwrite="true">
 			<fileset dir="${src.js.dir}"/>
 		</copy>
-		<copy todir="${dist.web.dir}/css">
+		<copy todir="${dist.web.dir}/css" overwrite="true">
 			<fileset dir="${src.css.dir}"/>
 		</copy>
 	</target>

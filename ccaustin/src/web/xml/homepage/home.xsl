@@ -7,7 +7,7 @@
 	Processes the ministry tag and its children tags. Most tags reference news and articles located in other files, 
 	so we perform queries on other documents to obtain the data we need for this page. Nice for reusability!
 	
-	$Id: home.xsl,v 1.5 2002/04/09 00:24:57 javajames27 Exp $
+	$Id: home.xsl,v 1.6 2002/07/01 02:15:13 javajames27 Exp $
 	
 -->	
 
@@ -18,6 +18,34 @@
 
 <xsl:include href="../general-ui.xsl"/>
 <xsl:include href="../general-html.xsl"/>
+
+<xsl:template match="home">
+	<table width="100%">
+		<tbody>
+			<tr>
+				<td width="75%">
+					<table width="100%" cellpadding="0" cellspacing="0">
+						<tbody>
+							<tr>
+								<td width="225"><img src="../images/homepage/featured-article-placeholder.jpg" alt="Featured Article"/></td>
+								<td width="99%" valign="top"><br/><p>Text Text Text Text Text Text Text Text Text Text Text </p></td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				<td width="25%"></td>
+			</tr>
+			<tr>
+				<td width="75%"><xsl:apply-templates select="news"/></td>
+				<td width="25%"></td>
+			</tr>
+			<tr>
+				<td width="75%"><xsl:apply-templates select="features"/></td>
+				<td width="25%"></td>
+			</tr>
+		</tbody>
+	</table>
+</xsl:template>
 
 <xsl:template match="news">
 	<table border="0" cellspacing="0" width="100%">
@@ -68,7 +96,7 @@
     <td colspan="2" align="left" class="tablesubtitle"><xsl:value-of select="title"/></td>
   </tr>
   <tr>
-    <td colspan="2" align="left" class="tablecell"><xsl:value-of select="intro"/><span class="readmore">[<a href="../articles/{$id}.html" class="readmore ">Read More</a>]</span></td>
+    <td colspan="2" align="left" class="tablecell"><p><xsl:value-of select="intro"/><span class="readmore">[<a href="../articles/{$id}.html" class="readmore ">Read More</a>]</span></p></td>
   </tr>
 </xsl:template>
 

@@ -13,7 +13,7 @@
 	A variant of this file may offer more search engine or accessibility-friendly
 	navigation and less Javascript features for older browsers. 
 	
-	$Id: general-ui.xsl,v 1.15 2002/06/30 02:25:40 javajames27 Exp $
+	$Id: general-ui.xsl,v 1.16 2002/07/01 02:15:13 javajames27 Exp $
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html" indent="yes"/>
@@ -43,7 +43,7 @@
 				<link REL="STYLESHEET" href="../css/ca.css"/>
 				<meta content="text/html" http-equiv="Content-Type"/>
 				<script language="JavaScript1.2" src="../js/mm_menu.js"/>
-				<script language="JavaScript" src="../js/main_menu.js"/>
+				<script language="JavaScript1.2" src="../js/main_menu.js"/>
 				<script language="JavaScript1.2" src="../js/win.js"/>
 				<script language="JavaScript1.2">mmLoadMenus();</script>
 				<xsl:apply-templates select="content/script"/>
@@ -53,14 +53,13 @@
 				<xsl:if test="content/@onUnload != '' ">
 					<xsl:attribute name="onUnload"><xsl:value-of select="content/@onUnload"/></xsl:attribute>
 				</xsl:if>
-				<!-- Header
-					The entire page is enclosed in a table that forces the
-					width to 800.
+				<!-- 
+				       Header
 				-->
 				<table border="0" cellspacing="0" cellpadding="0" width="100%">
 				  <tr> 
 				    <td background="../images/homepage/sidebar_gold.jpg" valign="top" width="131"><a href="../homepage/index.html"><img src="../images/homepage/cal_logo.jpg" border="0" width="131" height="84"/></a></td>
-				    <td valign="top" width="99%"><a href="../homepage/index.html"><img src="../images/homepage/cal_austin.jpg" border="0" width="145" height="65"/></a> 
+				    <td valign="top" align="left" width="99%"><a href="../homepage/index.html"><img src="../images/homepage/cal_austin.jpg" border="0" width="145" height="65"/></a> 
 				      <!-- navigation -->
 				      <table border="0" cellspacing="0" cellpadding="0" width="100%">
 				        <tr> 
@@ -74,7 +73,7 @@
 <img name="ministries" src="../images/homepage/ministries_1.jpg" border="0" width="63" height="19"/></a>
 				          <a onmouseover="MM_showMenu(window.mm_menu_0610133833_4,0,17,null,'media');" onmouseout="MM_startTimeout();" href="../media/index.html">
 <img name="media" src="../images/homepage/media.jpg" border="0" width="44" height="19"/></a></td>
-				          <td bgcolor="#-394d7b" width="99%" background="../images/homepage/blue.jpg"><br/></td>
+				          <td  width="99%" background="../images/homepage/blue.jpg"><br/></td>
 				        </tr>
 				      </table>
 				      <!-- end navigation -->
@@ -88,48 +87,49 @@
 				  </tr>
 				  <tr> 
 				    <td colspan="2" valign="top"> 
-				      <table border="0" width="100%" cellspacing="0" cellpadding="0">
-				        <tr> 
-				          <td width="100%"> 
-				            <table width="100%" cellspacing="2">
-				              <tr>
-				              	<td><!-- BEGIN CONTENT --><xsl:apply-templates/><!-- END CONTENT --></td>
-				              </tr>
-				              <tr>
-				                <td align="center"><!-- FOOTER -->
-						            <table border="0" cellpadding="0" cellspacing="0">
-						              <tbody>
-						              <tr>
-						                <td align="left" colspan="7"><br/></td>
-							      </tr>
-						              <tr>
-						                <td align="left" colspan="7"><img border="0" src="../images/arcupper.jpg"></img></td>
-							      </tr>
-						              <tr>
-						                <td align="center" colspan="7">
-								  <font size="1">
-								  Copyright © 1999-2002 Calvary Chapel of Austin<br/>
-								  For Website problems or comments, send mail to
-								  <a href="mailto:webservant-austin@calvarychapel.org"><img border="0" src="../images/email.gif"></img> webservant-austin@calvarychapel.org</a><br/>
-								  Latest update: May 18, 2001<br/>
-								  </font>
-								</td>
-							      </tr>
-						              <tr>
-						                <td align="left" colspan="7"><img border="0" src="../images/arclower.jpg"></img></td>
-							      </tr>
-							      </tbody>
-							    </table>
-				                </td>
-				              </tr>
-				            </table>
-				            
-				          </td>
-				        </tr>
-				      </table>
 				    </td>
 				  </tr>
 				</table>
+				<!-- bottom table (content and footer) -->
+			      <table border="0" width="100%" cellspacing="0" cellpadding="0">
+			        <tr> 
+			          <td width="100%"> 
+			            <table width="100%" cellspacing="2">
+			              <tr>
+			              	<td><!-- BEGIN CONTENT --><xsl:apply-templates/><!-- END CONTENT --></td>
+			              </tr>
+			              <tr>
+			                <td align="center"><!-- FOOTER -->
+					            <table border="0" cellpadding="0" cellspacing="0">
+					              <tbody>
+					              <tr>
+					                <td align="left" colspan="7"><br/></td>
+						      </tr>
+					              <tr>
+					                <td align="left" colspan="7"><img border="0" src="../images/arcupper.jpg"></img></td>
+						      </tr>
+					              <tr>
+					                <td align="center" colspan="7">
+							  <font size="1">
+							  Copyright © 1999-2002 Calvary Chapel of Austin<br/>
+							  For Website problems or comments, send mail to
+							  <a href="mailto:webservant-austin@calvarychapel.org"><img border="0" src="../images/email.gif"></img> webservant-austin@calvarychapel.org</a><br/>
+							  Latest update: May 18, 2001<br/>
+							  </font>
+							</td>
+						      </tr>
+					              <tr>
+					                <td align="left" colspan="7"><img border="0" src="../images/arclower.jpg"></img></td>
+						      </tr>
+						      </tbody>
+						    </table>
+			                </td>
+			              </tr>
+			            </table>
+			            
+			          </td>
+			        </tr>
+			      </table>
 			</body>
 		</html>
 	</xsl:template>

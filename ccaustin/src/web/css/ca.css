@@ -3,10 +3,11 @@ A:visited	{ TEXT-DECORATION: none }
 body	{ FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif }
 td	{ FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif }
 pre	{ FONT-FAMILY: "Courier New", Courier, mono }
+p       { font-size: 90% }
 .note {  font-size: 10px; color: #FF0000}
 .tableheader {  background-color: #e6e6f7; font-weight: bold }
 .tablesubtitle {  font-size: 90%; font-style: italic; font-weight: bold }
-.tablecell {  font-size: 16px }
+.tablecell {  }
 .textsubtitle {  font-size: 12px}
 .textemphasis {  font-style: italic}
 .textbold {  font-weight: bold}

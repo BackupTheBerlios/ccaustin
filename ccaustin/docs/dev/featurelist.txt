@@ -1,0 +1,9 @@
+Feature List
+============
+
+1. Manage events online via hidden page
+2. Take online orders for tapes
+3. Take online orders for books, etc.
+4. Take online orders and reservations for events
+5. Make a multimedia-heavy version of the web site
+6. Newsletter - subscribe, unsubscribe, send to

@@ -6,7 +6,7 @@
 	
 	Uses the sitemap to produce an index to all the ministries
 	
-	$Id: ministry-index.xsl,v 1.1 2002/05/27 23:29:04 javajames27 Exp $
+	$Id: ministry-index.xsl,v 1.2 2002/07/01 02:15:13 javajames27 Exp $
 	
 -->	
 
@@ -25,7 +25,7 @@
 			<td class="tableheader"><xsl:value-of select="title"/></td>
 		</tr>
 		<tr>
-			<td>The following is a complete list of ministries at Calvary Chapel of Austin:</td>
+			<td><p>The following is a complete list of ministries at Calvary Chapel of Austin:</p></td>
 		</tr>
 		<tr>
 			<td><br/></td>
@@ -34,8 +34,16 @@
 			<xsl:choose>
 				<xsl:when test="@exclude = 'true'"></xsl:when>
 				<xsl:otherwise>
+				       <xsl:variable name="doc"><xsl:value-of select="substring-after(@datafile,'/')"/></xsl:variable>
 					<tr>
-						<td><a><xsl:attribute name="href">..<xsl:value-of select="@html"/></xsl:attribute><xsl:value-of select="title"/></a></td>
+						<td><p>
+						  <a><xsl:attribute name="href">..<xsl:value-of select="@html"/></xsl:attribute><xsl:value-of select="title"/></a>
+						  <br/><xsl:value-of select="document($doc)/content/ministry/overview"/>
+						  </p>
+						 </td>
+					</tr>
+					<tr>
+						<td><br/></td>
 					</tr>
 				</xsl:otherwise>
 			</xsl:choose>
