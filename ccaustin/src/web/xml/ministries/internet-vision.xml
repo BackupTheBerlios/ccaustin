@@ -3,27 +3,24 @@
 
         The internet ministry's vision
         
-        $Id: internet-vision.xml,v 1.3 2003/05/11 20:21:03 javajames27 Exp $
+        $Id: internet-vision.xml,v 1.4 2003/05/16 00:21:47 javajames27 Exp $
                 
 -->
 <content title="Calvary Austin Internet Ministry Vision" base=".">
   <heading>Internet Ministry Vision</heading>
   <subheading>Our Mission</subheading>
-  <p>The mission of the Calvary Internet Ministry extends the Calvary
-    Chapel Austin mission statement to the internet:</p>
-  <p>We are committed to execute the church's vision of "win, equip, and send" by empowering every
-    ministry with Internet technologies.</p>
+  <p>The Calvary Austin Internet Ministry is committed to the presentation of the Gospel of Jesus, edification of the church body, and ministering to the lost and hurting through the use of innovative Internet technologies in a professional and compelling manner.</p>
   <subheading>Our Vision</subheading>
-  <p>The Internet Ministry is an extension of every member and ministry in the Calvary Austin
-    church body.</p>
+  <p>Every visitor to the Calvary Austin Web Site is given the gospel message, an opportunity for edification, and the ability to minister to others in need. This is accomplished by every servant of the local church body through the use of multimedia presentations, articles, forums, and other technologies. The Internet Ministry is an extension of every member and ministry in the Calvary Austin church body, enabling them to reach those previously unreachable beyond the local church attendees.</p>
   <subheading>Execution</subheading>
   <p>Over the next few months, the Internet ministry will be constructing a toolset from a variety
-    of existing frameworks and tools to enable each ministry to edit their own content. A longer term
-    goal is to extend these tools to allow ministries to perform more administrative tasks, such as
-    goal tracking, self-maintained mailing lists, and event management. In parallel to this effort,
-    work will be done to extend our current web site offering to visitors through the use of current
-    technologies like Flash presentations, discussion forums, and other mechanisms that enable others
-    to learn more about our church and the Christian faith.</p>
+    of existing frameworks and tools to make our vision statement a reality. The toolset will enable
+    each ministry to edit their own content, and in the medium to long term, extend the toolset to
+    allow ministries to perform even more administrative tasks, such as
+    goal tracking, self-maintained announcement lists and newsletters, and special event management.
+    As always, work will continue to be done to extend our current web site content to visitors through the use of current
+  technologies like Flash presentations, discussion forums, news articles, streaming audio/video content, as well as others to enable visitors
+    to learn more about our church, the Christian faith, and grow deeper in their walk with Jesus.</p>
   <subheading>Helping</subheading>
   <p>There are quite a few ways that you can help with the internet ministry. Above all, your
     prayers and encouragement are always needed, as the Internet is a battleground that has continual
