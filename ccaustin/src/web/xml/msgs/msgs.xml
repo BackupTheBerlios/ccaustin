@@ -3529,6 +3529,15 @@
 		<audio>bibleoverview/49-eph-03.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph003.html#top</passageref>
 	</message>
+	<message date="20031015" service="midweek" category="overview">
+		<seriestitle>Ephesians</seriestitle>
+		<title></title>
+		<passage>Ephesians 5-6</passage>
+		<tape>BO1334</tape>
+		<audio>bibleoverview/49-eph-05.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph005.html#top</passageref>
+	</message>
+
     <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
 		<title>The Big Question</title>
