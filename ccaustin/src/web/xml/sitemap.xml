@@ -6,10 +6,13 @@
 	The sitemap contains the structure of the entire web site, and is used to drive
 	the auto-generated scripts for generating the web site HTML from XML.
 	
-	$Id: sitemap.xml,v 1.1 2002/05/27 18:35:20 javajames27 Exp $
+	$Id: sitemap.xml,v 1.2 2002/05/27 23:29:03 javajames27 Exp $
+	
+	hidden="true" prevents the page from showing on the sitemap.
+	
+	exclude="true" tells other pages using this datafile to not include that entry (for things like the minstry-index.xsl)
 		
 -->
-
 <website basedir="/src/web/xml">
 	<section name="index" basedir="/homepage">
 		<title>Index</title>
@@ -48,8 +51,7 @@
 	<section name="articles" basedir="/articles">
 		<title>Articles</title>
 		<description>Read articles published by our Pastor and staff.</description>
-		<pageset match="**/*.xml" style="/articles.xsl" out="/articles">
-		</pageset>
+		<pageset match="**/*.xml" style="/articles.xsl" out="/articles"/>
 	</section>
 	<section name="calendar" basedir="/calendar">
 		<title>Weekly Schedule and Events Calendar</title>
@@ -62,6 +64,9 @@
 	</section>
 	<section name="media" basedir="/media">
 		<title>Calvary Live</title>
+		<page datafile="/media.xml" style="/media.xsl" html="/media/index.html">
+			<title>Calvary Media</title>
+		</page>
 		<page datafile="/live.xml" style="/live.xsl" html="/media/live.html">
 			<title>Calvary Live Broadcast Schedule</title>
 		</page>
@@ -77,6 +82,9 @@
 	</section>
 	<section name="ministries" basedir="/ministries">
 		<title>Calvary Austin Ministries</title>
+		<page datafile="/../sitemap.xml" style="/ministry-index.xsl" html="/ministries/index.html" exclude="true">
+			<title>Ministry Index</title>
+		</page>
 		<page datafile="/children.xml" style="/ministry-home.xsl" html="/ministries/children.html">
 			<title>Children's Ministry</title>
 		</page>
@@ -206,8 +214,7 @@
 	</section>
 	<section name="news" basedir="/news">
 		<title>Recent News</title>
-		<pageset match="**/*.xml" style="/news.xsl" out="/news">
-		</pageset>
+		<pageset match="**/*.xml" style="/news.xsl" out="/news"/>
 	</section>
 	<section name="staff" basedir="/staff">
 		<title>Calvary Austin Staff</title>
