@@ -3,18 +3,29 @@
 
 	Men's Ministry - The ministry and its detail
 	
-	$Id: menaccount.xml,v 1.2 2002/05/23 00:29:36 javajames27 Exp $
+	$Id: menaccount.xml,v 1.3 2003/07/13 03:37:30 gregk Exp $
 		
 -->
-<content title="Men's Accountability Group">
+<content title="Men's Accountability Groups">
 	<ministry id="menaccount">
-	  <name>Men's Accountability Group</name>
-	  <overview>The men's accountability group meets to provide men a place to form relationships while being discipled through teaching, accountability and prayer.</overview>
+	  <name>Men's Accountability Groups</name>
+	   <overview>The men's accountability groups meet to provide men a place to form relationships while being discipled through teaching, accountability and prayer.</overview>
 	  <long-description>
-	    <p>The men's accountability group meets every Tuesday morning at 6am at Coffee Creator. We have a devotion with emphasis on application, then discuss whatever is going on in our lives. We close by sharing prayer requests and praying for each other. Relationships are formed, so if someone is struggling in a particular area that person can either bring the issue before the group or get together with one or two other men for counseling or discipleship. </p>
-	  </long-description>
-	  <contacts>
+	   <heading>Central</heading>
+	    <p>The men's accountability group meets every Tuesday morning at 6am at Seattle's Best Coffee at Parmer and IH35. We have a devotion with emphasis on application, then discuss whatever is going on in our lives. We close by sharing prayer requests and praying for each other. Relationships are formed, so if someone is struggling in a particular area that person can either bring the issue before the group or get together with one or two other men for counseling or discipleship. </p>
+           <br></br>
+	   <contacts>
 	  	<contact-phone phone="989-8575">Contact Matt Lang</contact-phone>
-   	  </contacts>
+   	   </contacts>
+	  </long-description>
+	  <long-description>
+	   <heading>North</heading>
+	    <p>The men's accountability group meets 6:15am every Monday morning at the Cedar Perk Coffee and Cream Shop at Buttercup and 183 (200 Buttercup Creek Blvd. Ste. 123). Further info is forthcoming</p>
+          <br></br>
+	  <contacts>
+	  	<contact-phone phone="336-8368">Contact James Lozano</contact-phone>
+	  </contacts>
+	  </long-description>
 	</ministry>
 </content>
+

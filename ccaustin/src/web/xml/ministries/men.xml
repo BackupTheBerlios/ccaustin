@@ -3,25 +3,27 @@
 
 	Men's Ministry - The ministry and its detail
 	
-	$Id: men.xml,v 1.6 2002/05/24 01:08:16 javajames27 Exp $
+	$Id: men.xml,v 1.7 2003/07/13 03:37:30 gregk Exp $
 		
 -->
 <content title="Men's Ministry">
 	<ministry id="men">
-	  <name>Men's Ministry</name>
-	  <overview>The men's ministry concentrate's on building up men through prayer, study, and accountability.</overview>
+	  <name>Men's Ministry Purpose Statement</name>
+	  <overview>Allow men to realize the power of God's word and discover all God has in store for them.</overview>
+	  <overview>Create Godly leaders for our homes, church, and community.</overview>
+	  <overview>Create healthy brotherhood through Fellowship and Accountability.</overview>
 	  <long-description>
 	    <heading>Prayer</heading>
-	    <p>The Men’s Ministry is about prayer. We call the men to pray for the church. Each Friday morning (6:00 AM) we invite the men to come pray in the Prayer room. Enter through the church back door.</p>
+	    <p>The Men’s Ministry is about prayer. We call the men to pray for the church. Each Friday morning (6:00 AM) we invite the men to come pray in the New Parent's room. Enter through the church front door.</p>
 	    <heading>Study</heading>
-	    <p>The Men’s Ministry is about God’s word. We desire to see men moved through the power of God’s word. This Bible study meets every other Tuesday night (7:00 PM) in the Youth Room. Check the <link href="../calendar/calendar.html">calendar</link> for upcoming meetings.</p>
-         <p>Our current study is taking us through the "Letters to the Churches." We are currently in the book of Colossians, which will be followed by the book of Phillipians. Join us! You are welcome to join at any time, as we only study a chapter each meeting.</p>
+	    <p>The Men’s Ministry is about God’s word. We desire to see men moved through the power of God’s word. This Bible study meets every Tuesday night (7:00 PM) in the Youth Room and Saturday mornings at a private home. Check the <link href="../calendar/calendar.html">calendar</link> for upcoming meetings.</p>
+         <p>Our current study will cover I and II Timothy. Join us! You are welcome to join at any time, as we only study a chapter each meeting.</p>
 	    <heading>Accountability</heading>
 	    <p>The Men’s Ministry is about growing together. As iron sharpens iron. <br/>
 	    <link href="../ministries/menaccount.html">Read more...</link></p>
 	  </long-description>
 	  <contacts>
-  	    <contact-email email="glendon@calvaryaustin.org">Glendon Nicks</contact-email>
+  	    <contact-email email="calvaryaustinmen@austin.rr.com">Andy Berke</contact-email>
    	  </contacts>
 	</ministry>
 </content>

@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.39 2003/07/11 20:37:03 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.40 2003/07/13 03:37:30 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -102,13 +102,13 @@
 			<title>Crown Financial Ministry</title>
 			<detail>There are still some spaces left for the course on handling money God's way.  Sign up at the Events Center today.</detail>
 		</news-item>
-		<news-item id="51" date="20030522" expires="20030713" showOnHomepage="true">
+		<news-item id="51" date="20030522" expires="20030712" showOnHomepage="true">
 			<title>Bookstore</title>
-			<detail>Want to grow deeper in your walk with the Lord?  Stop and check-out all the Bibles, books, study guides and CDs.  Open after every Wednesday &amp; Sunday service.</detail>
+			<detail>Want to grow deeper in your walk with the Lord?  Stop and check-out all the Bibles, books, study guides and CDs.  Open after every Wednesday and Sunday service.</detail>
 		</news-item>
-		<news-item id="52" date="20030529" expires="20030713" showOnHomepage="true">
+		<news-item id="52" date="20030529" expires="20030720" showOnHomepage="true">
 			<title>Fan Drive</title>
-			<detail>Calvary Singles is sponsoring the 3rd annual fan drive for Eldercare.  Purchase a fan and drop it off in our new collection area in the back hall.</detail>
+			<detail>Calvary Singles is sponsoring the 3rd annual fan drive for Eldercare.  Purchase a fan and drop it off in our new Collection Area in the hall near the restroom.</detail>
 		</news-item>
 		<!--
 		<news-item id="53" date="20030529" expires="20030616" showOnHomepage="true">
@@ -118,11 +118,39 @@
 		-->
 		<news-item id="54" date="20030703" expires="20030729" showOnHomepage="true">
 			<title>Seasoned Saints Fellowship</title>
-			<detail>A new ministry has started.  Seasoned Saints is for those special folks in our church who, by the grace of God, have been a part of this world for a good spell longer than most others and have so much to offer by their presence.  We¹ll meet at the church the 1st Sunday of each month starting tonight, July 6, at 5PM for fellowship.  Pick up a flyer at the Info Center or call for more information</detail>
+			<detail>A new ministry has started.  Seasoned Saints is for those special folks in our church who, by the grace of God, have been a part of this world for a good spell longer than most others and have so much to offer by their presence.  We'll meet at the church the 1st Sunday of each month starting July 6, at 5PM for fellowship.  Pick up a flyer at the Info Center or call for more information</detail>
 		</news-item>
-		<news-item id="55" date="20030704" expires="20030729" showOnHomepage="true">
+		<news-item id="55" date="20030704" expires="20030712" showOnHomepage="false">
 			<title>Lunch with Calvary Continuum</title>
 			<detail>Calvary Continuum, on 590AM KIXL, has moved to 12:00pm and 7:30pm every weekday. Spend your lunch break listening to Allen's message</detail>
+		</news-item>
+		<news-item id="56" date="20030712" expires="20030827" showOnHomepage="false">
+			<title>Worshippers Wanted!!</title>
+			<detail>We need you to participate in the "live" recording of our first worship CD. The recording will take place over two evenings, Aug 26 and 27 beginning at 7PM. Come sing and be a part of this worship experience.</detail>
+		</news-item>
+		<news-item id="57" date="20030712" expires="20030927" showOnHomepage="false">
+			<title>Men's Retreat</title>
+			<detail>Registration continues for the Sept 25-27 retreat at T-Bar-M Ranch in New Braunfels. The main speaker is Ken Graves from Calvary Chapel Bangor, Maine. Sign up at the Events Center.</detail>
+		</news-item>
+		<news-item id="58" date="20030712" expires="20030720" showOnHomepage="true">
+			<title>Prayer Chain</title>
+			<detail>Members of the body of Calvary are encouraged to contact the Prayer Chain with prayer needs so those who are a part of the ministry may lift them up to the Lord (479-9454).</detail>
+		</news-item>
+		<news-item id="59" date="20030712" expires="20030720" showOnHomepage="true">
+			<title>The Cupboard</title>
+			<detail>Our food pantry will provide food to families in the body of Calvary during times of need. You may donate non-perishable food and personal hygiene items. Place donations in the Collection Area near the restrooms. If you need assistance from this ministry, contact the church office. For more information contact Derrick or Crystal Kinney (310-2590).</detail>
+		</news-item>
+		<news-item id="60" date="20030712" expires="20030720" showOnHomepage="false">
+			<title>Bookstore</title>
+			<detail>Check-out all the Bibles, books, study guides, journals, and books for kids. You can also special order. The bookstore is open after every Wednesday and Sunday service.</detail>
+		</news-item>
+		<news-item id="61" date="20030712" expires="20030720" showOnHomepage="false">
+			<title>Audio</title>
+			<detail>Pastor Allen's messages are available on tape, CD, and MP3 after every service in the lobby. Tape catalogs are also available.</detail>
+		</news-item>
+		<news-item id="62" date="20030712" expires="20030720" showOnHomepage="true">
+			<title>Radio, TV and Internet</title>
+			<detail>Hear Pastor Allen on Calvary Continuum at NOON and 7:30PM on KIXL 970AM or watch our television program on cable access channel 11 Saturdays at NOON. Watch select services live on the internet or check out the audio archive on our web site.</detail>
 		</news-item>
 
 	</news>
