@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.18 2002/11/10 02:43:17 javajames27 Exp $
+	$Id: calendar.xml,v 1.19 2002/11/14 21:41:13 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -210,6 +210,14 @@
 				<ministry id="men"/>
 			</ministries>
 		</event>
+		<event id="11005" date="20021120" showOnHomepage="true">
+			<title>Live Music - David and Heather Reynolds</title>
+			<date>November 20th</date>
+			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
+			<ministries>
+				<ministry id="coffee"/>
+			</ministries>
+		</event>
 		<event id="11003" date="20021124" showOnHomepage="true">
 			<title>Operation Christmas Child</title>
 			<date>Sun, Nov 24th</date>
@@ -219,14 +227,6 @@
 			<title>4th Annual Turkey Bowl</title>
 			<date>Nov 28th</date>
 			<detail>4th Annual Turkey Bowl  Get off your couch and join us at the Wells Branch Community Center activity field on Thanksgiving Day at 8AM.  Coffee and donuts will be available and then we will cast lots for teams.  See the flyers at the info area for directions.  Don't forget your cleats...</detail>
-		</event>
-		<event id="11005" date="20021120" showOnHomepage="true">
-			<title>Live Music - David and Heather Reynolds</title>
-			<date>November 20th</date>
-			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
-			<ministries>
-				<ministry id="coffee"/>
-			</ministries>
 		</event>
 		<event id="11006" date="20021123" showOnHomepage="false">
 			<title>Live Music - Eph'-pha-tha</title>
@@ -241,7 +241,7 @@
 			Dec
 	===============
 -->
-		<event id="12004" date="20021104" showOnHomepage="false">
+		<event id="12004" date="20021204" showOnHomepage="false">
 			<title>Live Music - Dan Baker</title>
 			<date>Dec 4th</date>
 			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
@@ -254,12 +254,52 @@
 			<date>Dec 7th</date>
 			<detail>Come Saturday, Dec 7, 8:30AM-2:30PM to see presentations on practical job searching tips and techniques.  We’ll have a time of praise and worship, a devotional message, small group prayer, and a discussion of the affects unemployment have on marriage and family.  Lunch will be provided.  To help us plan for lunch please sign up at the Events Center.</detail>
 		</event>
+		<event id="12005" date="20021207" showOnHomepage="false">
+			<title>Live Music - David Cloud from Point of Contact</title>
+			<date>Dec 7th</date>
+			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. Find out more about David Cloud at their <link href="http://pointofcontact.tripod.com ">homepage</link>.</detail>
+			<ministries>
+				<ministry id="coffee"/>
+			</ministries>
+		</event>
+		<event id="12006" date="20021211" showOnHomepage="false">
+			<title>Live Music - Ten-31 with Julie Karrow</title>
+			<date>Dec 11th</date>
+			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
+			<ministries>
+				<ministry id="coffee"/>
+			</ministries>
+		</event>
+		<event id="12009" date="20021214" showOnHomepage="false">
+			<title>Poetry and Open Mic Night</title>
+			<date>Dec 14th</date>
+			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
+			<ministries>
+				<ministry id="coffee"/>
+			</ministries>
+		</event>
+		<event id="12010" date="20021218" showOnHomepage="false">
+			<title>Live Music - Juan Gutierrez</title>
+			<date>Dec 18th</date>
+			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
+			<ministries>
+				<ministry id="coffee"/>
+			</ministries>
+		</event>
 		<event id="12001" date="20021224" showOnHomepage="false">
 			<title>Christmas Eve Service</title>
 			<date>December 24th</date>
 			<detail>More details to come...</detail>
 			<ministries>
 				<ministry id="church"/>
+			</ministries>
+		</event>
+		<event id="12011" date="20021228" showOnHomepage="false">
+			<title>Live Music - Kevin Gathright</title>
+			<date>Dec 28th</date>
+			<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
+			<ministries>
+				<ministry id="coffee"/>
 			</ministries>
 		</event>
 		<event id="12002" date="20021231" showOnHomepage="false">

@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.13 2002/11/10 02:43:17 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.14 2002/11/14 21:41:13 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -121,4 +121,9 @@
 			<detail>The cost of all sizes of Calvary Austin t-shirts has been reduced to $5.  There is a good selection of kid’s sizes.  They would maske great gifts!  Pick yours up today at the bookstore in the lobby.    </detail>
 		</news-item>
 	</news>
+		<news-item id="18" date="20021101" expires="20021129" showOnHomepage="true">
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>Thanksgiving Week Schedule Changes</title>
+			<detail>There will be no service on Wednesday, Nov 27.  The church office will be closed Wednesday, Nov 27, at noon and also Nov 28-29.  There will be NO Men’s Prayer Group Friday, Nov 29.</detail>
+		</news-item>
 </content>
