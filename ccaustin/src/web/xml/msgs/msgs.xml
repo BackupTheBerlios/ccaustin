@@ -3361,7 +3361,6 @@
 		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr001.html#top</passageref>
 	</message>
 
-
     <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
 		<title>The Big Question</title>
@@ -9041,6 +9040,14 @@
 		<passage>Luke 6:37-45</passage>
 		<tape>BS041303</tape>
 		<audio>42-luk/42-luk-06-37.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk006.html#top</passageref>
+	</message>
+	<message date="20030427" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>Upside Down Discipleship</title>
+		<passage>Luke 6:43-49</passage>
+		<tape>BS042703</tape>
+		<audio>42-luk/42-luk-06-43.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk006.html#top</passageref>
 	</message>
 
