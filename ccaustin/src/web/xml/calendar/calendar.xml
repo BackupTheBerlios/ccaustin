@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.35 2003/02/14 18:28:42 javajames27 Exp $
+	$Id: calendar.xml,v 1.36 2003/03/03 00:15:50 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -161,22 +161,48 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
     Mar
     ===============
     -->
-    <event id="03001" date="20030316" showOnHomepage="false">
+    <event id="03001" date="20030316" showOnHomepage="true">
       <title>Calvary 2003 Women's Retreat</title>
       <date>March 14-16th</date>
-      <detail>Registration continues for the women’s retreat to be held at Balcones Springs March 14-16.  The cost is $115 and a deposit of $60 will reserve your spot.  Sign up at the Events Center.</detail>
+      <detail>There is still room available to sign up for the Mar 14-16 women’s retreat.  Join us at beautiful Camp Balcones Springs for a refreshing time of teaching, reflection and fellowship. If you made a deposit, the remaining balances are due today at the Events Center.</detail>
     </event>
+
+    <event id="03002" date="20030322" showOnHomepage="true">
+      <title>Worship Team/Community Auditions</title>
+      <date>Mar 22nd</date>
+      <detail>Auditions will be held on Mar 22. The necessary audition packets will be available beginning Mar 9, on the counter outside of the prayer room.  Please call the office if you have further questions.</detail>
+    </event>
+
+    <event id="03003" date="20030323" showOnHomepage="true">
+      <title>Heart-to-Heart</title>
+      <date>Mar 23rd</date>
+      <detail>Sign ups begin today for Heart-to-Heart, the women's ministry that pairs up women once a year for the purpose of developing meaningful Christ-centered relationships. Pick up a pink Heart-to-Heart form, fill it out and turn it in at the Events Center by Mar 23.</detail>
+    </event>
+
+    <event id="03004" date="20030326" showOnHomepage="true">
+      <title>Communion Service</title>
+      <date>Mar 26th</date>
+      <detail></detail>
+    </event>
+
 
 		<!--
     ===============
     Apr
     ===============
     -->
-    <event id="04001" date="20030413" showOnHomepage="false">
+    <event id="04001" date="20030413" showOnHomepage="true">
       <title>Marriage Conference</title>
       <date>May 2-4th (Deadline is Apr 13th)</date>
-      <detail>The 3-day marriage conference, May 2-4, is put on by FamilyLife and will be held at the Omni Austin Hotel Southpark.  Join other couples for a time that will refresh your marriage as you learn to build oneness, rekindle the romance, and inspire commitment through the application of biblical truth.  A brochure with the registration form is available in the lobby.  Deadline for group registration at the Events Center is Apr 13.</detail>
+      <detail>A 3-day marriage conference, May 2-4, by FamilyLife and held at the Omni Austin Hotel Southpark will offer a couple a time to get away and to refresh their marriage.  The deadline for group registration (significant savings) at the Events Center is Apr 13.</detail>
     </event>
+
+    <event id="04002" date="20030405" showOnHomepage="true">
+      <title>Evening of Worship</title>
+      <date>April 5th</date>
+      <detail>Come join us for an evening of worship</detail>
+    </event>
+
 		<!--
     ===============
     May

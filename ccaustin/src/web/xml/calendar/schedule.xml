@@ -3,7 +3,7 @@
 
 	Weekly/Monthyl Reoccuring Calendar Events Content
 	
-	$Id: schedule.xml,v 1.9 2003/02/14 00:26:57 javajames27 Exp $
+	$Id: schedule.xml,v 1.10 2003/03/03 00:15:50 javajames27 Exp $
 		
 -->
 <content title="Weekly &amp; Monthly Events">
@@ -57,11 +57,43 @@
       </ministries>
     </event>
     <event id="mon1" date="*" reoccur="Mon" time="7:00pm" location="Auditorium" childMinistry="no" childCare="no">
-      <title>School of Ministry</title>
+      <title>School of Ministry Session 1</title>
       <shortnote/>
       <detail/>
       <ministries>
 	<ministry id="school"/>
+      </ministries>
+    </event>
+    <event id="mon2" date="*" reoccur="Mon" time="8:00pm" location="Auditorium" childMinistry="no" childCare="no">
+      <title>School of Ministry Session 2</title>
+      <shortnote/>
+      <detail/>
+      <ministries>
+	<ministry id="school"/>
+      </ministries>
+    </event>
+    <event id="mon3" date="*" reoccur="Mon" time="7:00pm" location="New Parents' Room" childMinistry="no" childCare="no">
+      <title>New Believers' Class</title>
+      <shortnote/>
+      <detail/>
+      <ministries>
+	<ministry id="newbelievers"/>
+      </ministries>
+    </event>
+    <event id="tue1" date="*" reoccur="Tue" time="10:00am" location="Youth Room" childMinistry="no" childCare="no">
+      <title>Women's Bible Study</title>
+      <shortnote></shortnote>
+      <detail/>
+      <ministries>
+	<ministry id="women"/>
+      </ministries>
+    </event>
+    <event id="tue2" date="*" reoccur="Tue" time="7:00pm" location="Youth Room" childMinistry="no" childCare="no">
+      <title>Men's Bible Study</title>
+      <shortnote>(every other Tues, next meeting Mar 11)</shortnote>
+      <detail/>
+      <ministries>
+	<ministry id="men"/>
       </ministries>
     </event>
     <event id="wed1" date="*" reoccur="Wed" time="7:00pm" location="Auditorium " childMinistry="yes" childCare="no">

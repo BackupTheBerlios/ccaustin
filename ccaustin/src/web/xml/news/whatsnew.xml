@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.23 2003/02/14 00:26:57 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.24 2003/03/03 00:15:50 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -218,6 +218,21 @@
     <news-item id="32" date="20030201" expires="20030315" showOnHomepage="true">
 		<title>Children's Ministry</title>
 		<detail>Several volunteer positions are open on Sunday and Wednesday.  Please check the Calvary Kids Hallway board for more info.</detail>
+    </news-item>
+
+    <news-item id="33" date="20030301" expires="20030401" showOnHomepage="true">
+		<title>Stop and Seek</title>
+		<detail>Please join us this Wednesday evening, Mar 5, at 7PM and the two Wednesdays following, as Pastor Allen leads us in special services devoted to prayer and waiting for a word from God for each of us, our families and our church.</detail>
+    </news-item>
+
+    <news-item id="34" date="20030301" expires="20030401" showOnHomepage="true">
+		<title>Calvary Bookstore </title>
+		<detail>Several volunteer positions are open on Sundays and Wednesdays.  Please contact Andrea Rigg at the church office (719.4667) or come by the bookstore for more information.</detail>
+    </news-item>
+
+    <news-item id="35" date="20030301" expires="20030401" showOnHomepage="true">
+		<title>Children's Ministry Sign In</title>
+		<detail>Tired of keeping track of several coupons to pick up your children?  Then you will like the new "One Number Family ID" system that will begin Apr 6.  Pick up a flyer and a form to be filled out in the Children's Ministry area.</detail>
     </news-item>
 
 

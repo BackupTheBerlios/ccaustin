@@ -6,7 +6,7 @@
 	
 	Processes the events  tag and its children tags.
 	
-	$Id: schedule.xsl,v 1.1 2002/12/13 20:04:06 javajames27 Exp $
+	$Id: schedule.xsl,v 1.2 2003/03/03 00:15:50 javajames27 Exp $
 	
 -->	
 
@@ -94,7 +94,7 @@
 <xsl:template name="event">
 		<tr>
 			<td width="20%" align="left" valign="top"><xsl:value-of select="@time"/></td>
-			<td width="60%" align="left" valign="top"><div class="textbold"><xsl:value-of select="title"/></div><xsl:if test="@childCare = 'yes'"><div class="textemphasis">Childcare provided</div></xsl:if><xsl:if test="@childMinistry = 'yes'"><div class="textemphasis">Child care provided</div></xsl:if></td>
+			<td width="60%" align="left" valign="top"><div class="textbold"><xsl:value-of select="title"/></div><div class="textemphasis"><xsl:if test="@childCare = 'yes'">Childcare provided</xsl:if><xsl:value-of select="shortnote"/></div></td>
 			<td width="20%" align="right" valign="top"><xsl:value-of select="@location"/></td>
 		</tr>
 		<tr colspan="3">
