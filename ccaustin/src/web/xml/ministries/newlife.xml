@@ -3,7 +3,7 @@
 
 	New Life Ministry - The ministry and its detail
 	
-	$Id: newlife.xml,v 1.7 2005/02/26 02:30:06 javajames27 Exp $
+	$Id: newlife.xml,v 1.8 2005/02/26 02:39:20 javajames27 Exp $
 		
 -->
 <content title="New Life Ministry">
@@ -26,7 +26,7 @@
 	  </long-description>
           
 	  <contacts>
-	  	<contact-email email="surfdisciple@hotmail.com">Damon Cotter</contact-email>
+	  	<contact-email email="newlife@calvaryaustin.org">Damon Cotter and David McConnell</contact-email>
 	  	<contact-phone phone="719-4667">Contact the church office</contact-phone>
    	  </contacts>
          <ministry-logo>../images/ministries/alpha_omega.jpg </ministry-logo>

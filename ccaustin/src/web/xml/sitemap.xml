@@ -6,7 +6,7 @@
         The sitemap contains the structure of the entire web site, and is used to drive
         the auto-generated scripts for generating the web site HTML from XML.
         
-        $Id: sitemap.xml,v 1.62 2004/07/29 14:14:46 premav Exp $
+        $Id: sitemap.xml,v 1.63 2005/02/26 02:39:20 javajames27 Exp $
         
         hidden="true" prevents the page from showing on the sitemap.
         
@@ -529,8 +529,8 @@
           layout="/layouts/default.xsl"
           renderer="/renderers/ministry-home.xsl"
           html="/ministries/newlife.html">
-      <title>Prayer Room Ministry</title>
-      <description>Prayer Room (New Life) Ministry</description>
+      <title>New Life Ministry</title>
+      <description>New Life Prayer Ministry</description>
     </page>
     <page datafile="/overhead.xml"
           template="/templates/default.xsl"
