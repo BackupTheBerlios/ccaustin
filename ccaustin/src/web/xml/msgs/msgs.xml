@@ -3636,24 +3636,24 @@
 	</message>
 	<message date="20040208" service="midweek" category="overview"> 
 	<seriestitle>I Timothy</seriestitle> 
-	<title>/title> 
+	<title></title> 
 	<passage>1 Timothy 3-4</passage> 
 	<tape>BO1344</tape> 
 	<audio>bibleoverview/54-1ti-03.wma</audio> 
 	<passageref>http://www.blueletterbible.org/kjv/1Ti/1Ti003.html#top</passageref> 
 	</message> 
 <message date="20040215" service="midweek" category="overview"> <seriestitle>I Timothy</seriestitle> <title></title> <passage>1 Timothy 5-6</passage> <tape>BO1345</tape> <audio>bibleoverview/54-1ti-05.wma</audio> <passageref>http://www.blueletterbible.org/kjv/1Ti/1Ti005.html#top</passageref> </message> 
-<message date="20040229" service="midweek" category="overview"> <seriestitle>2 Timothy</seriestitle> <title>/title> <passage>2 Timothy 1-2</passage> <tape>BO1346</tape> <audio>bibleoverview/55-2ti-01.wma</audio> <passageref>http://www.blueletterbible.org/kjv/2Ti/2Ti001.html#top</passageref> </message> 
+<message date="20040229" service="midweek" category="overview"> <seriestitle>2 Timothy</seriestitle> <title></title> <passage>2 Timothy 1-2</passage> <tape>BO1346</tape> <audio>bibleoverview/55-2ti-01.wma</audio> <passageref>http://www.blueletterbible.org/kjv/2Ti/2Ti001.html#top</passageref> </message> 
 <message date="20040307" service="midweek" category="overview"> <seriestitle>2 Timothy</seriestitle> <title></title> <passage>2 Timothy 3-4</passage> <tape>BO1347</tape> <audio>bibleoverview/55-2ti-03.wma</audio> <passageref>http://www.blueletterbible.org/kjv/2Ti/2Ti003.html#top</passageref> </message> 
 <message date="20040328" service="midweek" category="overview"> <seriestitle>Titus</seriestitle> <title></title> <passage>Titus</passage> <tape>BO1348</tape> <audio>bibleoverview/56-tiu-01.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Tts/Tts001.html#top</passageref> </message> 
 
-<message date="20040407 service="midweek" category="overview"> <seriestitle>Philemon</seriestitle> <title></title> <passage>Philemon</passage> <tape>BO1349</tape> <audio>bibleoverview/57-phi.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Phm/Phm001.html#top</passageref> </message> 
+<message date="20040407" service="midweek" category="overview"> <seriestitle>Philemon</seriestitle> <title></title> <passage>Philemon</passage> <tape>BO1349</tape> <audio>bibleoverview/57-phi.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Phm/Phm001.html#top</passageref> </message> 
 
-<message date="20040414 service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 1-2</passage> <tape>BO1350</tape> <audio>bibleoverview/58-heb-01.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr001.html#top</passageref> </message> 
+<message date="20040414" service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 1-2</passage> <tape>BO1350</tape> <audio>bibleoverview/58-heb-01.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr001.html#top</passageref> </message> 
 
-<message date="20040421 service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 3-4</passage> <tape>BO1351</tape> <audio>bibleoverview/58-heb-03.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr003.html#top</passageref> </message> 
+<message date="20040421" service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 3-4</passage> <tape>BO1351</tape> <audio>bibleoverview/58-heb-03.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr003.html#top</passageref> </message> 
 
-<message date="20040428 service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 5-6</passage> <tape>BO1352</tape> <audio>bibleoverview/58-heb-05.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr005.html#top</passageref> </message> 
+<message date="20040428" service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 5-6</passage> <tape>BO1352</tape> <audio>bibleoverview/58-heb-05.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr005.html#top</passageref> </message> 
 
     	<message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
@@ -9749,7 +9749,7 @@
 	<passage>Nehemiah 1</passage> 
 	<tape>TS040404</tape> 
 	<audio>topicseries/momentum/momentumone.wma</audio> 
-	<passageref>http://www.blueletterbible.org/kjv/Neh/Neh001.html#top< /passager ef> 
+	<passageref>http://www.blueletterbible.org/kjv/Neh/Neh001.html#top</passageref> 
 	</message> 
 	<message date="20040411" service="sunday" category="book studies"> 
 	<seriestitle>Luke</seriestitle> 
@@ -9757,7 +9757,7 @@
 	<passage>Luke 24</passage> 
 	<tape>BS041104</tape> 
 	<audio>42-luk/42-luk-24-01.wma</audio> 
-	<passageref>http://www.blueletterbible.org/kjv/Luk/Luk024.html#top< /passager ef> 
+	<passageref>http://www.blueletterbible.org/kjv/Luk/Luk024.html#top</passageref> 
 	</message> 
 	<message date="20040418" service="sunday" category="topic series"> 
 	<seriestitle>Building Momentum</seriestitle> 	
@@ -9765,7 +9765,7 @@
 	<passage>Nehemiah 2:1-10</passage> 
 	<tape>TS041804</tape> 
 	<audio>topicseries/momentum/momentumtwo.wma</audio> 
-	<passageref>http://www.blueletterbible.org/kjv/Neh/Neh002.html#top< /passager ef> 
+	<passageref>http://www.blueletterbible.org/kjv/Neh/Neh002.html#top</passageref> 
 	</message>
 	<message date="20040425" service="sunday" category="topic series"> 
 	<seriestitle>Building Momentum</seriestitle> 	
@@ -9773,7 +9773,7 @@
 	<passage>Nehemiah 2:11-20</passage> 
 	<tape>TS042504</tape> 
 	<audio>topicseries/momentum/momentumthree.wma</audio> 
-	<passageref>http://www.blueletterbible.org/kjv/Neh/Neh002.html#top< /passager ef> 
+	<passageref>http://www.blueletterbible.org/kjv/Neh/Neh002.html#top</passageref> 
 	</message> 
 	<message date="20040502" service="sunday" category="topic series"> 
 	<seriestitle>Building Momentum</seriestitle> 	
@@ -9781,7 +9781,6 @@
 	<passage>Nehemiah 3</passage> 
 	<tape>TS050204</tape> 
 	<audio>topicseries/momentum/momentumfour.wma</audio> 
-	<passageref>http://www.blueletterbible.org/kjv/Neh/Neh003.html#top< /passager ef> 
+	<passageref>http://www.blueletterbible.org/kjv/Neh/Neh003.html#top</passageref> 
 	</message>   
-
 </messagecatalog>
