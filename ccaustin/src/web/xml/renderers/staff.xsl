@@ -7,14 +7,12 @@
 	Uses the servants.xml, finding only those servants who are flagged as staff members and generates a second 
 	xml file.
 	
-	$Id: staff.xsl,v 1.1 2002/12/13 20:04:06 javajames27 Exp $
+	$Id: staff.xsl,v 1.2 2003/03/15 20:43:37 javajames27 Exp $
 	
 -->	
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:output method="html" indent="yes" 
-    doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
-    doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" />
+<xsl:output method="html" indent="yes"/>
 
 <xsl:include href="html.xsl"/>
 

@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.38 2003/03/13 16:57:51 javajames27 Exp $
+	$Id: calendar.xml,v 1.39 2003/03/15 20:43:37 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -170,13 +170,13 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
     <event id="03002" date="20030322" showOnHomepage="true">
       <title>Worship Team/Community Auditions</title>
       <date>Mar 22nd</date>
-      <detail>Auditions will be held on Mar 22. The necessary audition packets will be available today, Mar 9, at the Events Center in the lobby.  Please call the office if you have further questions. </detail>
+      <detail>Auditions will be held this Saturday, Mar 22. The necessary audition packets are available at the Events Center in the lobby.  Please call the office if you have further questions. </detail>
     </event>
 
     <event id="03003" date="20030323" showOnHomepage="true">
       <title>Heart-to-Heart</title>
       <date>Mar 23rd</date>
-      <detail>Sign ups continue for Heart-to-Heart, the women's ministry that pairs up women once a year for the purpose of developing meaningful Christ-centered relationships. Pick up a pink Heart-to-Heart form, fill it out and turn it in at the Events Center by Mar 23.</detail>
+      <detail>Sign ups continue for Heart-to-Heart, the women's ministry that pairs up women once a year for the purpose of developing meaningful Christ-centered relationships. Pick up a pink Heart-to-Heart form, fill it out and turn it in at the Events Center by next Sunday, Mar 23.</detail>
     </event>
 
     <event id="03004" date="20030326" showOnHomepage="true">
@@ -201,6 +201,12 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
 		<ministries>
 			<ministry id="coffee"/>
 		</ministries>
+	</event>
+
+    <event id="03007" date="20030322" showOnHomepage="true">
+	 <title>Work Day</title>
+		<date>March 22th</date>
+		<detail>Saturday, Mar 22, will be a work day at the church from 8AM to 3PM.  No tools needed, just bodies.  There will be indoor and outdoor work to be done.  Come hang out and enjoy the fellowship.</detail>
 	</event>
 
 
@@ -229,7 +235,7 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
     <event id="05030" date="20030530" showOnHomepage="true">
       <title>Family Camp</title>
       <date>May 30th-June 1st</date>
-      <detail>Call John Adams for details (834.0173).  Sign your family up at the Events Center today for a Calvary camping adventure.</detail>
+      <detail>Blanco State Park, May 30 - Jun 1, limited space.  Call John Adams for details (834.0173).  Sign your family up at the Events Center today for a Calvary camping adventure.</detail>
 		<ministries>
 			<ministry id="children"/>
 		</ministries>
