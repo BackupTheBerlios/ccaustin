@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.88 2004/06/05 06:38:36 gregk Exp $
+	$Id: whatsnew.xml,v 1.89 2004/06/07 15:16:24 tie Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -439,11 +439,11 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		   <title>Submit Your God Stories</title>
 		   <detail>Tell us what miracles and mighty works God has done in your life. Please send your stories and pictures to : godstories@kaply.com or drop them off at the Events Center for Cynde Kaply.</detail>
 		</news-item>
-	   <news-item id="132" date="20040604" expires="20040718" showOnHomepage="true">
+	   <news-item id="132" date="20040504" expires="20040718" showOnHomepage="true">
 		   <title>"Calvary Responder"</title>
 		   <detail>We are forming an emergency response team. If you are experienced with emergency procedures and interested, please sign up at the Events Center.</detail>
 		</news-item>
-	   <news-item id="133" date="20040604" expires="20040718" showOnHomepage="true">
+	   <news-item id="133" date="20040504" expires="20040718" showOnHomepage="true">
 		   <title>Vital Life Jr. High</title>
 		   <detail>Starting Sunday, June 6th, there will only be one Jr. High Sunday service. It will be offered during the 2nd service. If you have any questions or concerns, contact David Robinson or email: vitallifecrew@yahoo.com</detail>
 		</news-item>
