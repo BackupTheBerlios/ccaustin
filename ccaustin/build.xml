@@ -47,6 +47,7 @@
 		<antcall target="web-ministries"/>
 		<antcall target="web-homepage"/>
 		<antcall target="web-articles"/>
+		<antcall target="web-news"/>
 		<antcall target="copy-files"/>
 	</target>
 	
@@ -125,9 +126,13 @@
         </target>
 
         <!-- Creates the Articles section of the web site                         -->
-	<target name="web-articles" depends="checkoptions" description="Creates the homepage section of the site">
+	<target name="web-articles" depends="checkoptions" description="Creates the global articles for the site">
                 <style force="yes" style="${src.xml.dir}/articles/articles.xsl" basedir="${src.xml.dir}/articles" destdir="${build.web.dir}/articles" includes="**/*.xml"/> 
-                <style force="yes" style="${src.xml.dir}/homepage/index.xsl" in="${src.xml.dir}/homepage/index.xml" out="${build.web.dir}/index.html"/> 
+        </target>
+
+        <!-- Creates the Articles section of the web site                         -->
+	<target name="web-news" depends="checkoptions" description="Creates the global news items for the site">
+                <style force="yes" style="${src.xml.dir}/news/news.xsl" basedir="${src.xml.dir}/news" destdir="${build.web.dir}/news" includes="**/*.xml"/> 
         </target>
 
 	<!-- =================================================================== -->

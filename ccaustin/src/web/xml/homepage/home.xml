@@ -3,42 +3,20 @@
 
 	The home page for the church
 	
-	$Id: home.xml,v 1.4 2002/04/08 21:11:38 javajames27 Exp $
+	$Id: home.xml,v 1.5 2002/04/09 00:24:57 javajames27 Exp $
 		
 -->
 <content title="Home Page" base=".">
 	<news>
-	  <item>
-	    <heading>3 Services</heading>
-	    <date>Feb 24th, 2002</date>
-	    <logo align="left" img ="../images/homepage/3-3-3-color.gif"/>
-	    <intro>Calvary Austin announces three services!</intro>
-	    <full>
-	      <p>Calvary Austin announces three services starting Sunday morning March 3, 2002 at 8, 9:45 and 11:30 am.</p>
-	      <p>View the worship and message by Pastor Allen Rigg for God's vision for Calvary Austin on the Web in <a href="http://www.calvarychapel.org/austin/video/2002visionvideo.ram">Real Video</a>.</p>
-           <p>Good Friday service on March 29, 2002 at 7 pm. </p>
-	    </full>
-	  </item>
-	  <item>
-	    <heading>New Drama Ministry</heading>
-	    <date>Feb 24th, 2002</date>
-	    <logo align="right" img ="../images/homepage/drama_sm_bw.jpg"/>
-	    <intro>Find out about the new drama ministry!</intro>
-	    <full>
-	      <p>Do you have an interest in theater? Then read all about the new Drama Ministry at Calvary Austin and get involved!</p>
-	    </full>
-	  </item>
-	  <item>
-	    <heading>The Calvary Satellite Network</heading>
-	    <date>Feb 24th, 2002</date>
-	    <logo align="left" img ="../images/homepage/csn.jpg"/>
-	    <intro>The Calvary Satellite Network is on its way to Austin.</intro>
-	    <full>
-	      <p>The Calvary Satellite Network is on its way to Austin. To find out more about CSN, including their programming schedule, visit their <a href="http://www.calvarychapel.org/csn/">website</a> or listen to their <a href="http://www.calvarychapel.org/csn/live.ram">live webcast</a>. </p>
-	    </full>
-	  </item>
+	  <!-- Add or remove entries with the id and corresponding 
+	        filename for a news item to feature on the home page -->
+	  <news-ref newsId="news1"/>
+	  <news-ref newsId="news2"/>
+	  <news-ref newsId="news3"/>
 	</news>        
 	<features>
+	  <!-- Add or remove entries with the id and corresponding 
+	        filename for an article to feature on the home page -->
 	  <feature articleId="secretsuccess3"/>
 	</features>
 </content>

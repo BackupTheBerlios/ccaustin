@@ -4,9 +4,10 @@
 
 	Ministry Home Page
 	
-	Processes the ministry tag and its children tags
+	Processes the ministry tag and its children tags. Most tags reference news and articles located in other files, 
+	so we perform queries on other documents to obtain the data we need for this page. Nice for reusability!
 	
-	$Id: home.xsl,v 1.4 2002/04/08 21:11:38 javajames27 Exp $
+	$Id: home.xsl,v 1.5 2002/04/09 00:24:57 javajames27 Exp $
 	
 -->	
 
@@ -26,13 +27,19 @@
              <td><br/></td>
 		</tr>
 		-->
-		<xsl:apply-templates/>
+		<xsl:apply-templates select="news-ref"/>
 	</table>
 </xsl:template>
 
-<xsl:template match="item">
+<xsl:template match="news-ref">
+    <xsl:variable name="id"><xsl:value-of select="@newsId"/></xsl:variable>
+    <xsl:variable name="id_file">../news/<xsl:value-of select="@newsId"/>.xml</xsl:variable>
+    <xsl:apply-templates select="document($id_file)//content/news-item[@id=$id]"/>
+</xsl:template>
+
+<xsl:template match="news-item">
 		<tr>
-			<td colspan="2" class="tableheader" align="left">News: <xsl:value-of select="intro"/></td>
+			<td colspan="2" class="tableheader" align="left">News: <xsl:value-of select="title"/></td>
   	     </tr>
 		<tr>
 			<td colspan="2" class="tablesubtitle" align="left"><xsl:value-of select="date"/></td>
@@ -44,25 +51,6 @@
              <td colspan="2"><br/></td>
 		</tr>
 </xsl:template>
-
-<!-- old Slashdot like look
-<xsl:template match="item">
-		<tr>
-			<td width="95%" class="tablecell" align="left" valign="middle">
-			  <xsl:element name="img">
-			    <xsl:attribute name="src"><xsl:value-of select="logo/@img"/></xsl:attribute>
-			    <xsl:attribute name="align"><xsl:value-of select="logo/@align"/></xsl:attribute>
-			  </xsl:element>
-			  <span class="newsitem"><xsl:apply-templates select="full"/></span>
-			</td>
-             <td><br/></td>
-  	     </tr>
-		<tr>
-             <td><br/></td>
-             <td><br/></td>
-		</tr>
-</xsl:template>
--->
 
 <xsl:template match="feature">
     <xsl:variable name="id"><xsl:value-of select="@articleId"/></xsl:variable>
