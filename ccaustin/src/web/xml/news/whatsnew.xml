@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.68 2004/01/24 16:32:40 gregk Exp $
+	$Id: whatsnew.xml,v 1.69 2004/02/01 19:40:36 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -289,23 +289,23 @@
 			<title>Schedule Changes: 3-2-1</title>
 			<detail>What does 3-2-1 stand for? We are moving from 3 services to 2 services on Feb 1 (2-1). We will also take the opportunity to introduce a slight time adjustment to allow for better traffic flow in the parking lot and children's ministry areas. Effective Sunday Feb 1, we will have two morning services; times are 9:30 AM and 11:30 AM.</detail>
 	</news-item>
-	<news-item id="96" date="20040109" expires="20040201" showOnHomepage="true">
+	<news-item id="96" date="20040109" expires="20040131" showOnHomepage="true">
 			<title>Super Duper Bowl</title>
 			<detail>Why go to Houston when you can play football right here. Come join us Saturday Jan 31 from 9-11am. Flyer with more information at the Events Center.</detail>
 	</news-item>
-		<news-item id="97" date="20040117" expires="20040326" showOnHomepage="true">
+		<news-item id="97" date="20040117" expires="20040326" showOnHomepage="false">
 			<title>Women's Retreat</title>
 			<detail>Registration for the 2004 Women's Retreat at Camp Balcones Springs begins January 25. Register early and receive a discount! Come by the Events Center for more information and to register.</detail>
 		</news-item>
-		<news-item id="98" date="20040117" expires="20041011" showOnHomepage="true">
+		<news-item id="98" date="20040117" expires="20041011" showOnHomepage="false">
 			<title>Israel Trip</title>
 			<detail>The long anticipated tour of Israel is scheduled for October 11 - 21, 2004. Flyers now available at the Events Center. For more information contact Bunjee Garrett at Bunjee@calvaryaustin.org or 719-4467.</detail>
 		</news-item>
-		<news-item id="99" date="20040117" expires="20040201" showOnHomepage="true">
+		<news-item id="99" date="20040117" expires="20040201" showOnHomepage="false">
 			<title>Volunteers Needed</title>
 			<detail>Share your clerical skills and meet new people! The church office needs friendly people to help answer the phones from 1:00PM to 5:00PM, Tuesday, Wednesday, Thursday, or Friday. Call the office for more information.</detail>
 		</news-item>
-		<news-item id="100" date="20040124" expires="20040208" showOnHomepage="true">
+		<news-item id="100" date="20040124" expires="20040208" showOnHomepage="false">
 			<title>Volunteer Opportunity</title>
 			<detail>Do you have a desire to see Christ and Calvary Chapel through coffee? Coffee Creator wants you. For more information, see Brooke Johnson at Coffee Creator or call her at 719-4544 or by email at coffeecreator@calvaryaustin.org </detail>
 		</news-item>
@@ -316,6 +316,30 @@
 		<news-item id="102" date="20040124" expires="20040212" showOnHomepage="false">
 			<title>Radio, TV and Internet</title>
 			<detail>Hear Pastor Allen on Calvary Continuum at NOON and 7:30PM on KIXL 970AM or watch our television program on cable access channel 11 Saturdays at NOON. Watch select services live on the internet or check out the audio archive on our web site.</detail>
+		</news-item>
+		<news-item id="103" date="20040117" expires="20040211" showOnHomepage="true">
+			<title>Bring Out Your Inner Geek</title>
+			<detail>The Internet Ministry is looking for people who have a willingness to minister to one another and serve the body with the following skills: IT, networking, Linux server management, HTML, web designers/graphics artists, and Java developers. Contact internet@calvaryaustin.org for more information.</detail>
+		</news-item>
+		<news-item id="104" date="20040124" expires="20040218" showOnHomepage="true">
+			<title>Volunteers Needed</title>
+			<detail>The Tape/CD Ministry is looking for volunteers with a servant's heart to help sell tapes. Visit the Tape Booth for more information.</detail>
+		</news-item>
+		<news-item id="105" date="20040124" expires="20040218" showOnHomepage="true">
+			<title>Intercessory Prayer Group </title>
+			<detail>New Christians, mature Christians, anyone with a heart for prayer is invited to join the Intercessory Prayer Connection for intercessory prayer. Please meet us in the prayer room during the 9:30 AM Sunday service.</detail>
+		</news-item>
+		<news-item id="106" date="20040201" expires="20040221" showOnHomepage="false">
+			<title>Audio</title>
+			<detail>Pastor Allen's messages are available on tape, CD, and MP3 after every service in the lobby. Tape catalogs are also available.</detail>
+		</news-item>
+		<news-item id="107" date="20040201" expires="20040221" showOnHomepage="false">
+			<title>Bookstore</title>
+			<detail>Check-out all the Bibles, books, study guides, journals, and books for kids. You can also special order. The bookstore is open after every Wednesday and Sunday service.</detail>
+		</news-item>
+		<news-item id="108" date="20040201" expires="20040221" showOnHomepage="true">
+			<title>Missing Your Bible?</title>
+			<detail>Please check the bible lost and found table in the lobby if you have misplaced your bible. We will donate all unclaimed bibles to other ministries.</detail>
 		</news-item>
   </news>
 </content>

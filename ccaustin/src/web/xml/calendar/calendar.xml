@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.100 2004/01/24 16:32:23 gregk Exp $
+	$Id: calendar.xml,v 1.101 2004/02/01 19:40:03 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -411,14 +411,20 @@ need for Praying Leaders.</detail>
 	<date>Feb 26-28</date>
 	<detail>Mid-South Worhip Conference will be held at Calvary Chapel Austin on Feb 26-28. More information and registration at the Events Center.</detail>
     </event>
+    <event id="02002" date="20040214" showOnHomepage="true">
+	<title>Singles</title>
+	<date>Feb 14</date>
+	<detail>All singles are invited to attend a Valentine's Day dinner on Feb. 14 at 7:00pm at the Coffee Creator. Stop by the Events Center to sign up. For more information, contact Joe Beltran at 451-9940 or by email at jsbltrn1@aol.com</detail>
+    </event>
 		<!--
     ===============
     Mar 2004
     ===============
     -->
-    <event id="02001" date="20040326" showOnHomepage="true">
+    <event id="03001" date="20040326" showOnHomepage="true">
 	 <title>Women's Retreat</title>
 		<date>Mar 26-28</date>
+                <detail>Our annual Women's Retreat will be held at the beautiful Camp Balcones Springs. Register soon to receive a discount. Come by the Events Center for more information.</detail>
 		<ministries>
 			<ministry id="women"/>
 		</ministries>
@@ -496,6 +502,7 @@ need for Praying Leaders.</detail>
     <event id="10001" date="20041011" showOnHomepage="true">
 	 <title>Israel Trip</title>
 		<date>Oct 11-21</date>
+                <detail>The long anticipated tour of Israel is scheduled for Oct. 11-22. A $300.00 deposit is due no later than Feb 19th to reserve your place. Flyers now available at the Events Center. For more information contact Bunjee Garrett at Bunjee@calvaryaustin.org or 512-719-4667</detail>
     </event>
 	</calendar>
 </content>
