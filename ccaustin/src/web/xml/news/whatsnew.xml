@@ -3,126 +3,122 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.12 2002/10/20 02:33:09 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.13 2002/11/10 02:43:17 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
-  <news>
-    <news-item id="0" date="20020602" expires="20020701">
-      <date></date>
-      <logo align="left" img ="../images/homepage/nothing.gif"/>
-      <title>Test</title>
-      <detail>
+	<news>
+		<news-item id="0" date="20020602" expires="20020701">
+			<date/>
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>Test</title>
+			<detail>
 	Testing expired item....
       </detail>
-    </news-item>
-    <news-item id="1" date="20020702" expires="20020901" showOnHomepage="false">
-      <date></date>
-      <logo align="left" img ="../images/homepage/nothing.gif"/>
-      <title>Calvary Austin T-Shirts</title>
-      <detail>
+		</news-item>
+		<news-item id="1" date="20020702" expires="20020901" showOnHomepage="false">
+			<date/>
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>Calvary Austin T-Shirts</title>
+			<detail>
 	T-shirts in red, green, blue, and black colors are
 	available in adult and youth sizes. The cost is $10. Come to
 	the Events Center to purchase your t-shirts today.
       </detail>
-    </news-item>
-    
-    <news-item id="2" date="20020711" expires="20020911" showOnHomepage="false">
-      <date></date>
-      <logo align="left" img ="../images/homepage/nothing.gif"/>
-      <title>New Web Site</title>
-      <detail>
+		</news-item>
+		<news-item id="2" date="20020711" expires="20020911" showOnHomepage="false">
+			<date/>
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>New Web Site</title>
+			<detail>
 	As you have noticed by now, the Calvary Austin web site has
-	a new look and fresh content. <link
-	href="../ministries/internet.html">Find out more</link> about
+	a new look and fresh content. <link href="../ministries/internet.html">Find out more</link> about
 	the internet ministry, as well as the <link href="../ministries/internet-vision.html">vision for the Calvary
 	Austin web site</link>. 
       </detail>
-    </news-item>
-
-    <news-item id="3" date="20020830" expires="20020830" showOnHomepage="true">
-      <logo align="left" img ="../images/homepage/nothing.gif"/>
-      <title>YDC is Starting a New Year</title>
-      <detail>"YDC" begins its new year Wednesday, Aug 21, at 7PM.  It is a discipleship club for
+		</news-item>
+		<news-item id="3" date="20020830" expires="20020830" showOnHomepage="true">
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>YDC is Starting a New Year</title>
+			<detail>"YDC" begins its new year Wednesday, Aug 21, at 7PM.  It is a discipleship club for
       Wise Guys, Witnesses and Watchmen--boys and girls Kindergarten through Fifth grade.  There is
       worship, Bible study, game and group times each week.  Pick up a brochure at the Octopus in
-      the lobby for more information.<br/> <link href="../ministries/children.html">Learn
-      more...</link></detail>   
-    </news-item>
-
-    <news-item id="8" date="20020904" expires="20020904" showOnHomepage="true">
-      <logo align="left" img ="../images/homepage/nothing.gif"/>
-      <title>Communion Service</title>
-      <date>Wednesday, Sept 4th</date>
-      <detail>The Wednesday service this week will include the celebration of communion.  Come hear from God’s word and also participate in the Lord’s Supper.</detail>   
-    </news-item>
-
-    <news-item id="6" date="20020907" expires="20020907" showOnHomepage="true">
-      <logo align="left" img ="../images/homepage/nothing.gif"/>
-      <title>Choir Auditions</title>
-      <date>Saturday, Sept 7</date>
-      <detail>We will be holding auditions again for our new <link href="../ministries/worship.html">Worship Community</link>.  This is a contemporary choir that will participate in select Sunday services as well as special events.  Please contact the church office to set up an interview and audition time.  </detail>   
-    </news-item>
-
-    <news-item id="9" date="20020908" expires="20020908" showOnHomepage="true">
-      <logo align="left" img ="../images/homepage/nothing.gif"/>
-      <title>Home Fellowships</title>
-      <date>Sept 6th-8th</date>
-      <detail>Home fellowships will not meet the weekend of Sep 6-8 since Home Fellowships do not meet on the first Friday weekend of each month.</detail>   
-    </news-item>
-
-    
-    <news-item id="5" date="20020930" expires="20021010" showOnHomepage="true">
-      <logo align="left" img ="../images/homepage/nothing.gif"/>
-      <title>Men's Evening Bible Study</title>
-      <date>Starts Tuesday evening, Sep 10</date>
-      <detail>Mark your calendars!  Bible study material will be available soon at the Events Center.  Contact <link href="mailto:andrew_berke@hotmail.com">Andy Berke</link> for more information.</detail>   
-    </news-item>
-
-    <news-item id="7" date="20020930" expires="20021010" showOnHomepage="true">
-      <logo align="left" img ="../images/homepage/nothing.gif"/>
-      <title>Women's Morning and Evening Bible Study</title>
-      <date>Starts Tuesday, Sept 17</date>
-      <detail>The Women's bible study starts up again this fall. For more information, visit their
-      <link href="../ministries/women.html">ministry home page</link>.</detail>   
-    </news-item>
-
-    <news-item id="10" date="20020920" expires="20020920" showOnHomepage="true">
-      <logo align="left" img ="../images/homepage/nothing.gif"/>
-      <title>Women's Ministry Opportunity</title>
-      <detail>The women in the Tuesday morning, 10-11:30AM, Bible study are looking for 2 teachers for the children at the church during that time.  It could be a ministry opportunity for you or a chance to earn a little extra income.  Please contact Ali Luberto (255.5004) if interested. For more information about the ministry, visit their
-      <link href="../ministries/women.html">ministry home page</link>.</detail>   
-    </news-item>
-
-    <news-item id="11" date="20021012" expires="20021031" showOnHomepage="true">
-      <logo align="left" img ="../images/homepage/nothing.gif"/>
-      <title>Poetry Night @ The Creator</title>
-      <detail>The 2nd Saturday of each month from 7-8PM is Poetry Night, starting October 12th. Poetry Night consists of Christ-centered poetry, prose, short stories or personal testimonies.  Sign up at the Events Center.</detail>   
-    </news-item>
-
-    <news-item id="12" date="20021018" expires="20021018" showOnHomepage="true">
-      <logo align="left" img ="../images/homepage/nothing.gif"/>
-      <title>Home Fellowship  Groups</title>
-      <detail>Because of the Pastors and Leaders Conference we will not meet on Oct 18.</detail>   
-    </news-item>
-
-
-    <news-item id="13" date="20021030" expires="20021030" showOnHomepage="true">
-      <logo align="left" img ="../images/homepage/nothing.gif"/>
-      <title>Live Music - Ten-31</title>
-      <detail>October 30th - Come to <link
-      href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>  
-    </news-item>
-
-    <news-item id="14" date="20021030" expires="20021030" showOnHomepage="true">
-      <logo align="left" img ="../images/homepage/nothing.gif"/>
-      <title>Live Music - Daniel Baker</title>
-      <detail>October 23rd @ 9:00pm - Come to <link
-      href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>  
-    </news-item>
-
-    
-  </news>
+      the lobby for more information.<br/>
+				<link href="../ministries/children.html">Learn
+      more...</link>
+			</detail>
+		</news-item>
+		<news-item id="8" date="20020904" expires="20020904" showOnHomepage="true">
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>Communion Service</title>
+			<date>Wednesday, Sept 4th</date>
+			<detail>The Wednesday service this week will include the celebration of communion.  Come hear from God’s word and also participate in the Lord’s Supper.</detail>
+		</news-item>
+		<news-item id="6" date="20020907" expires="20020907" showOnHomepage="true">
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>Choir Auditions</title>
+			<date>Saturday, Sept 7</date>
+			<detail>We will be holding auditions again for our new <link href="../ministries/worship.html">Worship Community</link>.  This is a contemporary choir that will participate in select Sunday services as well as special events.  Please contact the church office to set up an interview and audition time.  </detail>
+		</news-item>
+		<news-item id="9" date="20020908" expires="20020908" showOnHomepage="true">
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>Home Fellowships</title>
+			<date>Sept 6th-8th</date>
+			<detail>Home fellowships will not meet the weekend of Sep 6-8 since Home Fellowships do not meet on the first Friday weekend of each month.</detail>
+		</news-item>
+		<news-item id="5" date="20020930" expires="20021010" showOnHomepage="true">
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>Men's Evening Bible Study</title>
+			<date>Starts Tuesday evening, Sep 10</date>
+			<detail>Mark your calendars!  Bible study material will be available soon at the Events Center.  Contact <link href="mailto:andrew_berke@hotmail.com">Andy Berke</link> for more information.</detail>
+		</news-item>
+		<news-item id="7" date="20020930" expires="20021010" showOnHomepage="true">
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>Women's Morning and Evening Bible Study</title>
+			<date>Starts Tuesday, Sept 17</date>
+			<detail>The Women's bible study starts up again this fall. For more information, visit their
+      <link href="../ministries/women.html">ministry home page</link>.</detail>
+		</news-item>
+		<news-item id="10" date="20020920" expires="20020920" showOnHomepage="true">
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>Women's Ministry Opportunity</title>
+			<detail>The women in the Tuesday morning, 10-11:30AM, Bible study are looking for 2 teachers for the children at the church during that time.  It could be a ministry opportunity for you or a chance to earn a little extra income.  Please contact Ali Luberto (255.5004) if interested. For more information about the ministry, visit their
+      <link href="../ministries/women.html">ministry home page</link>.</detail>
+		</news-item>
+		<news-item id="11" date="20021012" expires="20021031" showOnHomepage="true">
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>Poetry Night @ The Creator</title>
+			<detail>The 2nd Saturday of each month from 7-8PM is Poetry Night, starting October 12th. Poetry Night consists of Christ-centered poetry, prose, short stories or personal testimonies.  Sign up at the Events Center.</detail>
+		</news-item>
+		<news-item id="12" date="20021018" expires="20021018" showOnHomepage="true">
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>Home Fellowship  Groups</title>
+			<detail>Because of the Pastors and Leaders Conference we will not meet on Oct 18.</detail>
+		</news-item>
+		<news-item id="13" date="20021030" expires="20021030" showOnHomepage="true">
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>Live Music - Ten-31</title>
+			<detail>October 30th - Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
+		</news-item>
+		<news-item id="14" date="20021030" expires="20021030" showOnHomepage="true">
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>Live Music - Daniel Baker</title>
+			<detail>October 23rd @ 9:00pm - Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>
+		</news-item>
+		<news-item id="15" date="20021101" expires="20021117" showOnHomepage="true">
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>Schedule Changes</title>
+			<detail>Because of the Men's Retreat this week, Home Fellowships and the Men’s Prayer Group will NOT meet and the church office will be closed on Friday, Nov 15.</detail>
+		</news-item>
+		<news-item id="16" date="20021101" expires="20021201" showOnHomepage="true">
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>The Cupboard</title>
+			<detail>A new ministry is starting at Calvary Austin.  Our food pantry will provide food to families in the body of Calvary during times of need. You may help by donating non-perishable food items and personal hygiene items.  Place donations in the bin located between the nursery and the administration office door. If you need assistance from this ministry, contact the church office.  For more information, pick up a sheet at the Events Center or contact Derrick or Crystal Kinney (310.2590).</detail>
+		</news-item>
+		<news-item id="17" date="20021101" expires="20021201" showOnHomepage="true">
+			<logo align="left" img="../images/homepage/nothing.gif"/>
+			<title>T-Shirt Sale!</title>
+			<detail>The cost of all sizes of Calvary Austin t-shirts has been reduced to $5.  There is a good selection of kid’s sizes.  They would maske great gifts!  Pick yours up today at the bookstore in the lobby.    </detail>
+		</news-item>
+	</news>
 </content>
-
-
