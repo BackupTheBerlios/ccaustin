@@ -7,3 +7,6 @@ Feature List
 4. Take online orders and reservations for events
 5. Make a multimedia-heavy version of the web site
 6. Newsletter - subscribe, unsubscribe, send to
+7. Add a Flash movie to the homepage with a skip intro button
+8. Add meta data to HTML for search engines
+9. Submit site to search engines
