@@ -3,7 +3,7 @@
 
 	Calvary Chapel Singles Ministry - The ministry and its detail
 	
-	$Id: singles.xml,v 1.5 2003/09/29 18:06:04 javajames27 Exp $
+	$Id: singles.xml,v 1.6 2003/11/17 14:44:28 gregk Exp $
 		
 -->
 <content title="Calvary Chapel Singles">
@@ -16,5 +16,6 @@
     <contacts>
       <contact-email email="joe.beltran@sbcglobal.net">Joe Beltran</contact-email>
     </contacts>
+    <ministry-logo>../images/ministries/singleslogo.jpg</ministry-logo>
   </ministry>
 </content>
