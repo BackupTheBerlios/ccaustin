@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.51 2003/10/22 04:55:25 gregk Exp $
+	$Id: whatsnew.xml,v 1.52 2003/10/27 06:28:11 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -234,7 +234,11 @@
 		</news-item>
 		<news-item id="83" date="20031004" expires="20031031" showOnHomepage="true">
 			<title>Preorder Your "LIVE" Worship CD!</title>
-			<detail>You may support our recording project by preordering the Calvary Austin Worship CD at a 20% discount for $12. Come by the Events Center today. This offer is good until the end of October.</detail>
+			<detail>You may support our recording project by preordering the Calvary Austin Worship CD at a 20% discount for $12. Come by the Events Center today. This offer is good only through this week.</detail>
+		</news-item>
+		<news-item id="83" date="20031024" expires="20031116" showOnHomepage="true">
+			<title>Multimedia Volunteers Needed</title>
+			<detail>The Media Ministry is in need of volunteers to help in the Video and Streaming Media areas. No experience is necessary, we will provide the training. All you need is a servant's heart. <link href="jeremy@calvaryaustin.org">Contact Jeremy</link> if you are interested in becoming a part of the team.</detail>
 		</news-item>
 	</news>
 </content>
