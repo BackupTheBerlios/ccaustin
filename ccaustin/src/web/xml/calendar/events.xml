@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Calendar Events Content - references event IDs in schedule.xml
+	
+	$Id: events.xml,v 1.1 2002/01/31 03:25:34 javajames27 Exp $
+		
+-->
+<content title="Calendar">
+	<calendar>
+		<calendarEvent day="Friday" date="November 2">
+			<event id="100" scheduleRefId="11"/>
+			<event id="101" scheduleRefId="12"/>
+			<event id="102" scheduleRefId="13"/>
+		</calendarEvent>
+		<calendarEvent day="Sunday" date="November 4">
+			<event id="103" scheduleRefId="13" time="1:00pm">
+				<detail>
+					<text>Join the singles for lunch at El Arroyo. Contact Dan Garcia for more information.</text>
+				</detail>
+			</event>
+		</calendarEvent>
+		<calendarEvent day="Tuesday" date="November 6">
+			<event id="104" scheduleRefId="5"/>
+			<event id="105" scheduleRefId="7"/>
+		</calendarEvent>
+		<calendarEvent day="Friday" date="November 9">
+			<event id="106" scheduleRefId="13" time="6:00pm">
+				<detail>
+					<text>Join the singles as they go Camping at Garner State Park followed by a day trip to Lost Maples State Park. Contact Dan Garcia for more information.</text>
+				</detail>
+			</event>
+			<event id="107" scheduleRefId="11"/>
+			<event id="108" scheduleRefId="12"/>
+		</calendarEvent>
+		<calendarEvent day="Saturday" date="November 10">
+			<event id="109" time="9:00am" location="Church" childCare="no">
+				<title>Marriage Ministry</title>
+				<shortnote/>
+				<detail>
+					<text>"Nurturing your marriage &amp; family" is a one day marriage conference Nov 10th from 9am to 4pm. The cost is $25 per couple. Childcare provided. Register for the event in the church lobby</text>
+				</detail>
+				<ministries>
+					<ministry id="marriage"/>
+				</ministries>
+			</event>
+		</calendarEvent>
+		<calendarEvent day="Tuesday" date="November 13">
+			<event id="110" scheduleRefId="5"/>
+			<event id="111" scheduleRefId="6"/>
+		</calendarEvent>
+		<calendarEvent day="Friday" date="November 16">
+			<event id="112" scheduleRefId="11"/>
+			<event id="113" scheduleRefId="12"/>
+			<event id="114" scheduleRefId="13"/>
+		</calendarEvent>
+		<calendarEvent day="Tuesday" date="November 20">
+			<event id="115" scheduleRefId="5"/>
+			<event id="116" scheduleRefId="7"/>
+		</calendarEvent>
+		<calendarEvent day="Friday" date="November 23">
+			<event id="117" scheduleRefId="11"/>
+		</calendarEvent>
+		<calendarEvent day="Tuesday" date="November 27">
+			<event id="118" scheduleRefId="5"/>
+			<event id="119" scheduleRefId="6"/>
+		</calendarEvent>
+		<calendarEvent day="Friday" date="November 30">
+			<event id="120" scheduleRefId="11"/>
+			<event id="121" scheduleRefId="12"/>
+			<event id="122" scheduleRefId="13"/>
+		</calendarEvent>
+	</calendar>
+</content>

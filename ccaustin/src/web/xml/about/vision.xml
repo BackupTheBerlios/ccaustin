@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+
+	About Vision Content
+	
+	Contains each vision statement, along with purpose and footer text.
+
+	$Id: vision.xml,v 1.1 2002/01/31 03:25:34 javajames27 Exp $
+		
+-->	    
+
+<content title="Our Vision">
+	<visionstatement>
+		<purpose>To win lost people to Christ, to equip them for ministry, and to send them to serve. </purpose>
+		<vision>
+			<item id="1" goal="Win a person to Christ" goalLogo="../images/win.gif" goalImg="../images/winttl.gif" according="Mark 16:15" quote="and He said to them, 'Go into all the world and preach the gospel to every creature."/>
+			<item id="2" goal="Equip a person in Christ" goalLogo="../images/equip.gif" goalImg="../images/equipttl.gif" according="Ephesians 4:11-12" quote="And He Himself gave some to be apostles, some prophets, some evangelists, and some pastors and teachers, for the equipping of the saints for the work of minstry, for the edifying of the body of Christ."/>
+			<item id="3" goal="Send  a person for Christ" goalLogo="../images/send.gif" goalImg="../images/sendttl.gif" according="Acts 1:8" quote="But you shall receive power when the Holy Spirit has come upon you; and you shall be witnesses to Me in Jerusalem, and in all Judea and Samaria, and to the end of the earth."/>
+		</vision>
+		<text>
+			<p align="center">Our Jerusalem - Austin<br/>
+			Our Judea - Central Texas<br/>
+			Our Samaria - the United States<br/>
+			The End of the Earth - the World</p>
+		</text>
+	</visionstatement>
+</content>

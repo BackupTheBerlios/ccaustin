@@ -1,0 +1,14 @@
+A:link	{ TEXT-DECORATION: none }
+A:visited	{ TEXT-DECORATION: none }
+body	{ FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif }
+td	{ FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif }
+pre	{ FONT-FAMILY: "Courier New", Courier, mono }
+.note {  font-size: 10px; color: #FF0000}
+.tableheader {  font-style: italic; background-color: #e6e6f7; font-weight: bold }
+.textsubtitle {  font-size: 12px}
+.textemphasis {  font-style: italic}
+.textbold {  font-weight: bold}
+
+.title {  font-weight: bold}
+.detail {  font-style: italic}
+a:hover {  text-decoration: underline}

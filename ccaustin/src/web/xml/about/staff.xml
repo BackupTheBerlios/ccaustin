@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+
+	About Staff Content
+	
+	Contains each staff member and details about them. 
+	
+	Note: This document should be used to render indiv. staff member pages in the future.
+
+	$Id: staff.xml,v 1.1 2002/01/31 03:25:34 javajames27 Exp $
+		
+-->	    
+
+<content title="Meet the Staff">
+	<stafflist>
+		<staff id="1" name="Allen Rigg" role="Senior Pastor" thumbnail="../images/staff/allenthum.jpg" photo="../images/staff/allenweb.jpg">
+			<summary>Allen has his own <a href="../allen/index.html">page</a>.</summary>
+			<background/>
+		</staff>
+		<staff id="2" name="Jean Janes" role="Secretary" thumbnail="../images/staff/jeanthum.jpg" photo="../images/staff/jeanweb.jpg">
+			<summary/>
+			<background/>
+		</staff>
+		<staff id="3" name="Donna Cano" role="Children's Ministry Director" thumbnail="../images/staff/donnathum.jpg" photo="../images/staff/donnaweb.jpg">
+			<summary/>
+			<background/>
+		</staff>
+		<staff id="4" name="David Reynolds" role="Worship Leader" thumbnail="../images/staff/davidthum.jpg" photo="../images/staff/davidweb.jpg">
+			<summary/>
+			<background/>
+		</staff>
+		<staff id="5" name="Bunjee Garrett" role="College and Career Pastor" thumbnail="../images/staff/bunjeethum.jpg" photo="../images/staff/bunjeeweb.jpg">
+			<summary/>
+			<background/>
+		</staff>
+		<staff id="6" name="John Newberry" role="High School Pastor" thumbnail="../images/staff/johnthum.jpg" photo="../images/staff/johnweb.jpg">
+			<summary/>
+			<background/>
+		</staff>
+		<staff id="7" name="Glendon Nicks" role="Assisting Pastor" thumbnail="../images/staff/glendonthum.jpg" photo="../images/staff/glendonweb.jpg">
+			<summary/>
+			<background/>
+		</staff>
+	</stafflist>
+</content>

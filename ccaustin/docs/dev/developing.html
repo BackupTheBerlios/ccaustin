@@ -1,0 +1,193 @@
+<html>
+<head>
+<title>Developing Pages</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="devguide.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<h2>Developing Pages</h2>
+<p>This page provides an overview of the process, components, and roles of the 
+  Calvary 2.0 Web site for understanding how everything fits together to compose 
+  the static web pages. It also provides a simple step-by-step guide for building 
+  your first few XML/XSL pages after you have successfully installed and processed 
+  existing pages into HTML.</p>
+<h3>Process Overview</h3>
+<p>The following diagram shows the roles (blue), the primary components (white) 
+  and the locations where the components live (brown/green):</p>
+<p><img src="images/WebSiteStaticOverview.gif" width="568" height="252"> </p>
+<h4>&nbsp;</h4>
+<h4>Components</h4>
+<h5>XML Document</h5>
+<p>Contains the data for one or more targeted HTML pages. Data is usually in the 
+  format:</p>
+<table width="70%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td> 
+      <pre class="codecell">&lt;content title=&quot;Our Vision&quot;&gt;<br>	&lt;visionstatement&gt;<br>		&lt;purpose&gt;To win lost people to Christ,
+       to equip them for ministry, and to send 
+       them to serve. 
+       &lt;/purpose&gt;
+       &lt;vision&gt;<br>			&lt;item id=&quot;1&quot; goal=&quot;Win a person to Christ&quot;
+            goalLogo=&quot;../images/win.gif&quot; 
+            goalImg=&quot;../images/winttl.gif&quot;
+            according=&quot;Mark 16:15&quot; 
+            quote=&quot;and He said to them,...&quot;/&gt;<br>       &lt;/vision&gt;
+   &lt;/visionstatement&gt;</pre>
+    </td>
+  </tr>
+</table>
+<h5>XSL Document</h5>
+<p>An XSL Document uses an XML format and special tags to tell an XSL processor 
+  how to convert XML to any format. For the web site, we use HTML so the XSL file 
+  will contain HTML templates with XSL code that manipulates an XML document's 
+  contents and merges them into the resulting HTML. XSL has a very simple format 
+  and is easy to learn. XSL usually is in the format:</p>
+<table width="70%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td> 
+      <pre class="codecell">&lt;?xml version=&quot;1.0&quot;?&gt;<br>    <br>&lt;xsl:stylesheet version=&quot;1.0&quot; 
+ xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot;&gt;<br>
+ &lt;xsl:output method=&quot;html&quot; indent=&quot;yes&quot;
+  doctype-system=&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;
+  doctype-public=&quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; /&gt;
+
+ &lt;xsl:include href=&quot;../general-ui.xsl&quot;/&gt;
+ &lt;xsl:include href=&quot;../general-html.xsl&quot;/&gt;
+ 
+ &lt;xsl:template match=&quot;visionstatement&quot;&gt;
+   &lt;xsl:apply-templates select=&quot;purpose&quot;/&gt;<br>   &lt;xsl:apply-templates select=&quot;vision&quot;/&gt;<br>     &lt;p align=&quot;center&quot;&gt;&lt;xsl:apply-templates select=&quot;text&quot;/&gt;&lt;/p&gt;<br> &lt;/xsl:template&gt;
+
+&lt;/xsl:stylesheet&gt;<br>
+      </pre>
+      </td>
+  </tr>
+</table>
+<h5>Ant Script</h5>
+<p>Ant is a pure Java version of Make and uses XML to define the steps necessary 
+  to compile code, process XML and XSL, and perform other tasks like creating, 
+  removing, and renaming files and folders. It in essence provides a simple way 
+  to manage project work without writing a lot of hard to read scripting. The 
+  script is used by Calvary Web to perform XSL transformation by identifying the 
+  XML, XSL and resulting HTML output names and it will do the appropriate work 
+  using the Apache Xalan XSL processor.</p>
+<h5>HTML</h5>
+<p>The HTML is a result of the XSL + XML processed through the Ant script.</p>
+<h4>Roles</h4>
+<p>The following roles are required for the Calvary Web site to be created and 
+  published: </p>
+<h5>Content Writer</h5>
+The content writer is responsible for working with ministry leaders to obtain 
+the appropriate ministry information, page requirements, and content. This is 
+then used to construct XML documents with the data, and work with the HTML writer 
+to determine the best method of page structure and layout. The content writer 
+need only to know how to use the most basic of text editors (notepad or similiar) 
+to do their job, and must be willing to interact with a number of ministries and 
+stay abreast of changes in ministry events and update the content appropriately. 
+<h5>HTML Writer</h5>
+<p>The HTML writer role requires basic knowledge of HTML and possibly Javascript. 
+  They should have a flare for web design and be able to work with content writers 
+  on the appropriate page structure and layout. They may utilize others familiar 
+  with web graphics design, or if possible, construct the web graphics themselves. 
+  The HTML writer works with the XSL writer to help transition the design of web 
+  pages into the appropriate format as the XSL is constructed (no XSL expertise 
+  is required).</p>
+<h5>XSL Writer</h5>
+<p>The XSL writer role requires a bit more of a scripting or programming background, 
+  as they must be able to use XML and HTML sources to properly construct an XSL 
+  document. Control flow, such as loops, tests, and text/data maniplation is common 
+  in XSL to properly process an XML document and create HTML. HTML background 
+  is nice but not a must, since buggy XSL templates could render bad HTML and 
+  cause problems that must be debugged.</p>
+<h5>User with Browser</h5>
+<p>The user and browser is the target audience and overall recipient of the hard 
+  work. Prior to a user being able to view a page, the page should be reviewed 
+  by one or more ministry staff and then published from the local Calvary Austin 
+  network to the Costa Mesa servers.</p>
+<h3>How XML Becomes HTML</h3>
+<p>(With apologies to School House Rock)</p>
+<p>TBD...</p>
+<h3>Getting Started: Step-By-Step</h3>
+<p>1. Choose a layout</p>
+<p>There are currently 3 layouts to choose from:</p>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr align="center" valign="top"> 
+    <td> 
+      <p><img src="images/layout-std.gif" width="111" height="99"></p>
+      <p>Standard</p>
+    </td>
+    <td> 
+      <p><img src="images/layout-sb-left.gif" width="111" height="99"></p>
+      <p>Left Sidebar</p>
+    </td>
+    <td> 
+      <p><img src="images/layout-sb-right.gif" width="111" height="99"></p>
+      <p>Right Sidebar</p>
+    </td>
+  </tr>
+</table>
+<p>Generally, the standard layout is chosen, but the left or right sidebar enable 
+  an image to be placed in a sidebar next to the content (photos of people, topics, 
+  etc.) </p>
+<p>&nbsp;</p>
+<p>2. Create XML document</p>
+<p>TBD - content outer tag, optional inner tags, HTML tags using existing code 
+  as an example</p>
+<table width="70%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td> 
+      <pre class="codecell">TBD - XML template <br>
+      </pre>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>3. Create XSL document</p>
+<p>TBD - appropriate includes for layout type, strategies, predefined templates, 
+  processing order using existing code as an example</p>
+<table width="70%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td> 
+      <pre class="codecell">TBD - XSL template and includes for layout<br>
+      </pre>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>4. Add to Ant Script</p>
+<p>TBD - copy and paste existing line, talk about 3 arguments in script, consider 
+  future and better methods for removing this step</p>
+<table width="70%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td> 
+      <pre class="codecell">TBD - Ant script entry example<br>
+      </pre>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>5. Run Ant</p>
+<p>Start a shell (Cygwin on NT), change to CALVARY_HOME and run:</p>
+<table width="70%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td> 
+      <pre class="codecell">prompt&gt; ant<br>
+      </pre>
+    </td>
+  </tr>
+</table>
+<p>Refer to the installation instructions for proper setup and configuration of 
+  Ant and its dependencies.</p>
+<p>&nbsp;</p>
+<p>6. View Result</p>
+<p>Go to the CALVARY_HOME/build directory and view the resulting HTML document. 
+</p>
+<p>7. Rinse, Lather, Repeat</p>
+<p>This may require several steps until the HTML works correctly. When trouble 
+  occurs, make a backup of the XSL and start simple, then add complexity as successes 
+  occur. Hint: Use the browser refresh button after making changes and running 
+  ant again. This will reduce the number of browser windows open. F5 or CTRL-R 
+  are nice keyboard shortcuts for this.</p>
+<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<!-- ===================================================================== -->
+<!-- Build File for ANT (http://jakarta.apache.org/ant                     -->
+<!-- ===================================================================== -->
+<project name="calvary" default="web" basedir=".">
+	<!-- Global Settings -->
+	<property name="Name" value="Calvary Chapel Austin"/>
+	<property name="name" value="calvary"/>
+	<property name="version" value="2.0"/>
+	<property name="home" value="."/>
+	<property name="src.dir" value="${home}/src"/>
+	<property name="src.web.dir" value="${src.dir}/web"/>
+	<property name="src.xml.dir" value="${src.web.dir}/xml"/>
+	<property name="src.xsl.dir" value="${src.web.dir}/xsl"/>
+	<property name="src.js.dir" value="${src.web.dir}/js"/>
+	<property name="src.images.dir" value="${src.web.dir}/images"/>
+	<property name="src.css.dir" value="${src.web.dir}/css"/>
+	<property name="build.dir" value="${home}/build"/>
+	<property name="build.web.dir" value="${build.dir}/docs"/>
+	<!-- Give user a chance to override without editing this file 
+       (and without typing -D each time it compiles it -->
+	<property file="${home}/.ant.properties"/>
+	<property file="${user.home}/.ant.properties"/>
+	<!-- =================================================================== -->
+	<!-- Clean Target                                                        -->
+	<!-- =================================================================== -->
+	<target name="clean" description="Removes all build and deploy output.">
+		<echo message="...........Cleaning project directories..........."/>
+		<delete dir="${build.dir}"/>
+	</target>
+	<!-- =================================================================== -->
+	<!-- =================================================================== -->
+	<!-- =================================================================== -->
+	<!-- Check Options Target                                                -->
+	<!-- =================================================================== -->
+	<target name="checkoptions" description="Performs pre-processing checks for environment."/>
+	<!-- =================================================================== -->
+	<!-- =================================================================== -->
+	<!-- =================================================================== -->
+	<!-- Creates the web site                                                -->
+	<!-- =================================================================== -->
+	<target name="web" depends="checkoptions" description="Creates all HTML by calling web-xyz targets.">
+		<mkdir dir="${build.web.dir}"/>
+		<antcall target="web-about"/>
+		<antcall target="web-calendar"/>
+		<antcall target="web-messages"/>
+		<copy todir="${build.web.dir}/images">
+			<fileset dir="${src.images.dir}"/>
+		</copy>
+		<copy todir="${build.web.dir}/js">
+			<fileset dir="${src.js.dir}"/>
+		</copy>
+		<copy todir="${build.web.dir}/css">
+			<fileset dir="${src.css.dir}"/>
+		</copy>
+	</target>
+	<!-- Creates the About section of the web site                         -->
+	<target name="web-about" depends="checkoptions" description="Creates the 'About' section of the site.">
+		<!-- style style="${src.xml.dir}/globalmenu.xsl" force="yes" in="${src.xml.dir}/globalmenu.xml" out="${build.web.dir}/js/ca.js"/ -->
+		<style style="${src.xml.dir}/about/about.xsl" force="yes" in="${src.xml.dir}/about/about.xml" out="${build.web.dir}/about/about.html"/>
+		<style style="${src.xml.dir}/about/beliefs.xsl" force="yes" in="${src.xml.dir}/about/beliefs.xml" out="${build.web.dir}/about/beliefs.html"/>
+		<style style="${src.xml.dir}/about/history.xsl" force="yes" in="${src.xml.dir}/about/history.xml" out="${build.web.dir}/about/history.html"/>
+		<style style="${src.xml.dir}/about/vision.xsl" force="yes" in="${src.xml.dir}/about/vision.xml" out="${build.web.dir}/about/vision.html"/>
+		<style style="${src.xml.dir}/about/staff.xsl" force="yes" in="${src.xml.dir}/about/staff.xml" out="${build.web.dir}/about/staff.html"/>
+		<!-- style style="${src.xml.dir}/about/staff-detail.xsl" force="yes" in="${src.xml.dir}/about/staff.xml" out="${build.web.dir}/about/staff-detail.html"/ -->
+		<style style="${src.xml.dir}/staff/allen.xsl" force="yes" in="${src.xml.dir}/staff/allen.xml" out="${build.web.dir}/staff/allen.html"/>
+	</target>
+	<!-- Creates the Calendar/Events section of the web site                         -->
+	<target name="web-calendar" depends="checkoptions" description="Creates the Calendar' section of the site.">
+		<style style="${src.xml.dir}/calendar/schedule.xsl" force="yes" in="${src.xml.dir}/calendar/schedule.xml" out="${build.web.dir}/calendar/schedule.html"/>
+		<style style="${src.xml.dir}/calendar/events.xsl" force="yes" in="${src.xml.dir}/calendar/events.xml" out="${build.web.dir}/calendar/events.html"/>
+         </target>
+
+        <!-- Creates the Tape/RealAudio section of the web site                         -->
+	<target name="web-messages" depends="checkoptions" description="Creates the tape and RealAudio section of the site">
+                <style style="${src.xml.dir}/msgs/msgs-Audio-BookStudies.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsAudioBookStudies.html"/> 
+                <style style="${src.xml.dir}/msgs/msgs-Audio-Overview.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsAudioOverview.html"/> 
+                <style style="${src.xml.dir}/msgs/msgs-Audio-TopicalSeries.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsAudioTopicalSeries.html"/> 
+                <style style="${src.xml.dir}/msgs/msgs-Audio-InDepth.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsAudioInDepth.html"/> 
+                <style style="${src.xml.dir}/msgs/msgs-Audio-Misc.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsAudioMisc.html"/> 
+                <style style="${src.xml.dir}/msgs/msgs-Audio-categories.xsl" force="yes" in="${src.xml.dir}/msgs/msgs-categories.xml" out="${build.web.dir}/msgs/msgsAudioArchive.html"/> 
+                <style style="${src.xml.dir}/msgs/msgs-Tapes-Overview.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsTapesOverview.html"/> 
+                <style style="${src.xml.dir}/msgs/msgs-Tapes-TopicalSeries.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsTapesTopicalSeries.html"/> 
+                <style style="${src.xml.dir}/msgs/msgs-Tapes-BookStudies.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsTapesBookStudies.html"/> 
+                <style style="${src.xml.dir}/msgs/msgs-Tapes-InDepth.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsTapesInDepth.html"/> 
+                <style style="${src.xml.dir}/msgs/msgs-Tapes-Misc.xsl" force="yes" in="${src.xml.dir}/msgs/msgs.xml" out="${build.web.dir}/msgs/msgsTapesMisc.html"/> 
+                <style style="${src.xml.dir}/msgs/msgs-Tapes-categories.xsl" force="yes" in="${src.xml.dir}/msgs/msgs-categories.xml" out="${build.web.dir}/msgs/msgsTapeArchive.html"/>
+         </target>
+
+	<!-- =================================================================== -->
+	<!-- =================================================================== -->
+</project>

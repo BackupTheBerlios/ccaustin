@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<?xml:stylesheet type="text/xsl" href="domain.xsl" version="1.0" encoding="UTF-8"?>
+<domain xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:noNamespaceSchemaLocation="domain.xsd">
+	<title>Dotw Domain Model</title>
+	<overview>This document outlines the primary domain models used
+  within the Dotw web site.</overview>
+	<class id="10">
+		<name>User</name>
+		<description>A user is a unique identity within the system that
+    has a number of preferences and customizable profile
+    information. A user may have any number of roles, including standard, staff, admin.</description>
+		<create-destroy>Created by a global account manager when a user signs up. Never destroyed unless requested by email from the user.</create-destroy>
+		<relations>
+			<relation toClass="20" type="0..*"/>
+			<relation toClass="70" type="1"/>
+		</relations>
+		<properties>
+			<property id="1">
+				<name>email</name>
+				<description>The email address of the user</description>
+				<type>String</type>
+			</property>
+		</properties>
+		<operations>
+			<operation id="1">
+				<name>getFullName</name>
+				<description>Return the full name of the user</description>
+				<return-type>String</return-type>
+			</operation>
+		</operations>
+	</class>
+	<class id="20">
+		<name>Ministry</name>
+		<description>A ministry is managed by a user and contains a number of resources that may be private or public.</description>
+		<create-destroy>Created by a user at any time after the user account is active (the user becomes the owner). Destroyed by the owner.</create-destroy>
+		<relations>
+			<relation toClass="30" type="1"/>
+			<relation toClass="40" type="0..*"/>
+			<relation toClass="50" type="0..*"/>
+			<relation toClass="60" type="0..*"/>
+			<relation toClass="70" type="1"/>
+		</relations>
+	</class>
+
+	<class id="30">
+		<name>Calendar</name>
+		<description>Contains the various events for a ministry. A calendar may be private (staff only) or public (viewable by everyone). A ministry may have one public and one private calendar that are used to manage public and staff-related events and milestones.</description>
+		<create-destroy>Created by a ministry staff member. Destroyed by the owner.</create-destroy>
+		<relations>
+			<relation toClass="31" type="0..*"/>
+		</relations>
+	</class>
+	<class id="31">
+		<name>Event</name>
+		<description>Contains event information for a ministry calendar. An event may be private (viewable only by staff) or public (viewable by everyone).</description>
+		<create-destroy>Created by a ministry member. Destroyed by the owner.</create-destroy>
+	</class>
+	
+	<class id="40">
+		<name>Task List</name>
+		<description>Contains the various tasks for a ministry. A task list may be private (staff only) or public (viewable by everyone). A ministry may have one or more task lists that are used to manage goals, and may be associated with events.</description>
+		<create-destroy>Created by a ministry staff member. Destroyed by the owner.</create-destroy>
+		<relations>
+			<relation toClass="41" type="0..*"/>
+		</relations>
+	</class>
+	<class id="41">
+		<name>Task</name>
+		<description>Contains task information for a ministry task list. All tasks are private or public based on the task list setting.</description>
+		<create-destroy>Created by a ministry member. Destroyed by the owner.</create-destroy>
+	</class>
+	
+	<class id="50">
+		<name>Section</name>
+		<description>Groups common articles for a ministry. A section may be private (staff only) or public (viewable by everyone). A ministry may have one or more sections that are used to manage articles. A section may be moderated (posting requires authorization before available) or unmoderated (posting free to all)</description>
+		<create-destroy>Created by a ministry staff member. Destroyed by the owner.</create-destroy>
+		<relations>
+			<relation toClass="51" type="0..*"/>
+		</relations>
+	</class>
+	<class id="51">
+		<name>Article</name>
+		<description>Contains task information for a ministry task list. All tasks are private or public based on the task list setting.</description>
+		<create-destroy>Created by a ministry member. Destroyed by the owner.</create-destroy>
+	</class>
+	
+	<class id="60">
+		<name>News Section</name>
+		<description>Contains news items for a ministry. A news section may private or public news items. A ministry may have one or more news sections that are used to manage news items.</description>
+		<create-destroy>Created by a ministry staff member. Destroyed by the owner.</create-destroy>
+		<relations>
+			<relation toClass="61" type="0..*"/>
+		</relations>
+	</class>
+	<class id="61">
+		<name>News Item</name>
+		<description>Contains news item information for a ministry news section. An item may be private or public.</description>
+		<create-destroy>Created by a ministry member. Destroyed by the owner.</create-destroy>
+	</class>
+	
+	<class id="70">
+		<name>Prayer List</name>
+		<description>Contains prayer items for a ministry. A prayer list may contain public or private prayer requests. A prayer list have to be moderated (requires authorization before posted) and thus cannot be unmoderated (all posts immediately available to the public). A prayer list may have a mailing list associated with it to inform members of the ministry, if desired (configured on a list or request basis).</description>
+		<create-destroy>Created by a ministry member. Destroyed by the owner.</create-destroy>
+	</class>
+	<class id="71">
+		<name>Prayer Request</name>
+		<description>Contains a specific prayer request for a prayer list. </description>
+		<create-destroy>Created by a ministry member. Destroyed by the owner.</create-destroy>
+	</class>
+</domain>

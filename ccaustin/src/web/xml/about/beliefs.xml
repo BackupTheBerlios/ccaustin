@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+
+	About Beliefs Content
+	
+	Contains each belief, along with an intro. Belief content is processed using standard HTML tags.
+
+	$Id: beliefs.xml,v 1.1 2002/01/31 03:25:34 javajames27 Exp $
+		
+-->	    
+
+<content title="Our Beliefs">
+	<beliefs>
+		<intro>This is our Statement of Faith:</intro>
+		<belief>that there is one living and true God, eternally existing in three persons: the Father, the Son, and the Holy Spirit, 	equal in power and glory; this triune God created all, upholds all, and governs all. </belief>
+		<belief>that the scriptures of the Old and New Testaments are the Word of God, fully inspired, without error in the 	original manuscripts, and the infallible rule of faith and practice. </belief>
+		<belief>in God the Father, an infinite, personal Spirit, perfect in holiness, wisdom, power, and love; that He concerns 	Himself mercifully in the affairs of men; that He hears and answers prayer; and that He saves from sin and death all who 	come to Him through Jesus Christ. </belief>
+		<belief>in Jesus Christ, God's only begotten Son, conceived by the Holy Spirit. We believe in His virgin birth, sinless life, 	miracles and teachings, His substitutionary atoning death, bodily resurrection, ascension into heaven, perpetual 	intercession for His people, and personal, visible return to earth. </belief>
+		<belief>in the Holy Spirit, who came forth from the Father and Son to convict the world of sin, righteousness, and 	judgment; and to regenerate, sanctify, and empower all who believe in Jesus Christ for ministry. We believe that the Holy 	Spirit indwells every believer in Jesus Christ and that He is an abiding helper, teacher, and guide. We believe in the present 	ministry of the Holy Spirit and in the exercise of all the Biblical gifts of the Holy Spirit. </belief>
+		<belief>that all People are sinners by nature and choice, and, therefore, are under condemnation; that God regenerates 	by the Holy Spirit those who repent of their sins and confess Jesus Christ as Lord. We believe that the Holy Spirit baptizes 	the believer into the Body of Christ at regeneration and empowers the believer for service, often subsequent to 	regeneration. </belief>
+		<belief>in the universal Church, the living spiritual body, of which Christ is the head and all regenerated persons are 	members. </belief>
+		<belief>that Jesus Christ committed two ordinances to the Church: <ol>
+				<li>Baptism</li>
+				<li>The Lord's Supper</li>
+			</ol> We believe in baptism by immersion and communion open to all believers. </belief>
+		<belief>in the pre-millennial, pre-tribulation rapture of the church. We also believe in the personal, visible return of Christ 	to the earth and the establishing of His kingdom, the resurrection of the body, the final judgment and eternal blessing of the 	righteous, and in the endless suffering of the wicked. </belief>
+	</beliefs>
+</content>

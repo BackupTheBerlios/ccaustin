@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Defines the global menu for the header of each page. This data
+	can be included by any template that needs to locate a menu option.
+	
+	$Id: globalmenu.xml,v 1.1 2002/01/31 03:25:33 javajames27 Exp $
+	
+-->
+<menus>
+	<menu id="menuAbout" name="About" image="images/main007.jpg" page="/about/about.html">
+		<menuitem name="Schedule" page="schedule.html"/>
+		<menuitem name="Location" page="'location.html"/>
+		<menu id="menuStaff" name="Staff" image="/about/staff.html" page="">
+			<menuitem name="TODO" page="TODO.html"/>
+		</menu>
+		<menuitem name="Our Vision" page="'/about/vision.html"/>
+		<menuitem name="We Believe" page="/about/beliefs.html"/>
+		<menuitem name="History" page="'/about/history.html"/>
+	</menu> 
+	<menu id="menuEvents" name="Events" image="images/main009.jpg" page="" disabled="true">
+		<menuitem id="" name="" image="" page=""/>
+	</menu>
+	<menu id="menuMinistry" name="Ministry" image="images/main010.jpg" page="" disabled="true">
+		<menuitem id="" name="" image="" page=""/>
+	</menu>
+	<menu id="menuMedia" name="Menu" image="images/main011.jpg" page="" disabled="true">
+		<menuitem id="" name="" image="" page=""/>
+	</menu>
+</menus>

@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>Technology Overview</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="devguide.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<h2>Technology Overview </h2>
+<p>The Calvary Web Site is composed of the following components:</p>
+<ul>
+  <li>Static web pages - what you see when you visit (<a href="http://www.calvarychapel.org/austin">http://www.calvarychapel.org/austin</a>)</li>
+  <li>Local server - the server that handles email and the redirection from <a href="http://www.calvaryaustin.org">http://www.calvaryaustin.org</a> 
+    to <a href="http://www.calvarychapel.org/austin">http://www.calvarychapel.org/austin</a></li>
+  <li>RealVideo feed - live RealVideo recorded at Calvary Austin and sent to Calvary 
+    Chapel Costa Mesa where it is multicast to all currently viewing browsers.</li>
+  <li>RealAudio feed - archived broadcasts and special events stored in Costa 
+    Mesa</li>
+</ul>
+<p>Notice that Calvary Austin does not host the equipment to broadcast ReadAudio 
+  and RealVideo to all users. CCCA encodes the signal in either real time or offline 
+  and transmits the data to CCCM, where it is available to anyone who wishes to 
+  view/listen.</p>
+<h3>Static Web Pages</h3>
+<p>Version 1 of the web site used standard HTML coded by hand or using HTML tools. 
+  Several problems were identified:</p>
+<ol>
+  <li>Anyone who wanted to modify the content of a page must know HTML</li>
+  <li>Ministry leaders cannot update their own pages without first having the 
+    change reviewed (if they were even familiar with HTML) to prevent incorrect 
+    or inconsistent style</li>
+  <li>Transitioning to a more dynamic web site would prove more cumbersome since 
+    content and layout (text and HTML tags) were mixed in the same format</li>
+  <li>The web site look and feel is still functional but 2 years old - to change 
+    the look and color set would require large amounts of labor</li>
+</ol>
+<p>Version 2 is targeted with the following ideas in mind:</p>
+<ol>
+  <li>Some of the web pages will be dynamic and provide searchable content (tape 
+    catalog, audio archives, discussion areas, etc.)</li>
+  <li>The web site should be able to change looks based on the ministry section, 
+    season of the year, etc.</li>
+  <li>It should start as static pages, including content from the existing site 
+    plus new ministry content, and eventually take on more dynamic capabilities 
+    as needed</li>
+  <li>Provide a cleaner separation of content and HTML to enable quick UI changes 
+    and easier migration to dynamic generation</li>
+</ol>
+<p>Thus, the following technologies were chosen for v2.0:</p>
+<ul>
+  <li>XML for content management - simple flat files that contain marked up content 
+    that may eventually be moved to a database for dynamic web page generation.</li>
+  <li>XSLT for the transformation of XML into HTML using a template-based approach</li>
+  <li>Initially, all HTML will be generated from XML + XSL on a Calvary Austin 
+    server, previewed, then transmitted (FTP) to the Calvary Chapel Costa Mesa 
+    static web servers</li>
+</ul>
+<p>Future versions (2.1+) will utilize the following technologies:</p>
+<ul>
+  <li>Java servlets and Java server pages for dynamic content</li>
+  <li>A server-side database</li>
+  <li>One or more dynamic servers using Tomcat and MySql, or something similiar 
+    (on Linux)</li>
+</ul>
+<h3>Local Server</h3>
+<p>TBD</p>
+<h3>Multimedia (Video/Audio)</h3>
+<p>TBD</p>
+<p>&nbsp; </p>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Weekly/Monthyl Reoccuring Calendar Events Content
+	
+	$Id: schedule.xml,v 1.1 2002/01/31 03:25:34 javajames27 Exp $
+		
+-->
+<content title="Weekly &amp; Monthly Events">
+	<intro>
+		<text>
+			<p>This is the general weekly schedule for Calvary Chapel of Austin. Check the <a href="">calendar</a> for details.</p>
+		</text>
+	</intro>
+	<events>
+		<event id="1" date="*" reoccur="Sun" time="9:00am" location="Auditorium" childMinistry="yes" childCare="no">
+			<title>Morning Service</title>
+			<shortnote/>
+			<detail/>
+		</event>
+		<event id="2" date="*" reoccur="Sun" time="9:00am" location="Youth Room" childMinistry="no" childCare="no">
+			<title>"Vital Life"</title>
+			<shortnote/>
+			<detail/>
+			<ministries>
+				<ministry id="juniorhigh"/>
+				<ministry id="seniorhigh"/>
+				<!-- Not sure about this one -->
+			</ministries>
+		</event>
+		<event id="3" date="*" reoccur="Sun" time="11:00am" location="Auditorium" childMinistry="yes" childCare="no">
+			<title>Morning Service</title>
+			<shortnote/>
+			<detail/>
+		</event>
+		<event id="4" date="*" reoccur="Sun" time="11:00am" location="Youth Room" childMinistry="no" childCare="no">
+			<title>"Vital Life"</title>
+			<shortnote/>
+			<detail/>
+			<ministries>
+				<ministry id="juniorhigh"/>
+			</ministries>
+		</event>
+		<event id="5" date="*" reoccur="Tue" time="10:00am" location="Auditorium " childMinistry="no" childCare="yes">
+			<title>Women's Morning Bible Study</title>
+			<shortnote/>
+			<detail>
+				<text>
+					<p>"Becoming a Woman of Beauty and Strength: a study in the book of Esther meets every Tuesday. Contact Ali Luberto for more information. </p>
+				</text>
+			</detail>
+			<ministries>
+				<ministry id="women"/>
+			</ministries>
+		</event>
+		<event id="6" date="*" reoccur="AltTue" time="7:00pm" location="Auditorium " childMinistry="no" childCare="no">
+			<title>Women's Evening Bible Study</title>
+			<shortnote>every other Tuesday starting Sept. 4</shortnote>
+			<detail>
+				<text>
+					<p>The evening study, "Discovering the Path to God's Treasures," from the book of Ephesians will meet every other Tuesday night from 7-8:30pm. Contact Andrea Rigg for more information.</p>
+				</text>
+			</detail>
+			<ministries>
+				<ministry id="women"/>
+			</ministries>
+		</event>
+		<event id="7" date="*" reoccur="AltTue" time="7:00pm" location="Auditorium " childMinistry="no" childCare="no">
+			<title>Men's Bible Study</title>
+			<shortnote>every other Tuesday starting Sept. 11</shortnote>
+			<detail>
+				<text>
+					<p>A new Bible study begins this day and meets every other Tuesday. The study will be based on the Letters to the Church - Phillipians, Colossians, and Ephesians. Contact Glendon Nicks for more information.</p>
+				</text>
+			</detail>
+			<ministries>
+				<ministry id="men"/>
+			</ministries>
+		</event>
+		<event id="8" date="*" reoccur="Wed" time="7:00pm" location="Auditorium " childMinistry="yes" childCare="no">
+			<title>Midweek Service</title>
+			<shortnote/>
+			<detail/>
+		</event>
+		<event id="9" date="*" reoccur="Wed" time="7:00pm" location="Youth Room" childMinistry="no" childCare="no">
+			<title>"Vital Life" Junior and Senior High</title>
+			<shortnote/>
+			<detail/>
+			<ministries>
+				<ministry id="juniorhigh"/>
+				<ministry id="seniorhigh"/>
+			</ministries>
+		</event>
+		<event id="10" date="*" reoccur="Wed" time="7:00pm" location="Calvary Kids' Area " childMinistry="no" childCare="no">
+			<title>"Young Disciples Club"</title>
+			<shortnote/>
+			<detail/>
+			<ministries>
+				<ministry id="children"/>
+			</ministries>
+		</event>
+		<event id="11" date="*" reoccur="Fri" time="6:00am" location="Prayer Room" childMinistry="no" childCare="no">
+			<title>Men's Prayer Meeting</title>
+			<shortnote/>
+			<detail>
+				<text>
+					<p>Time of prayer and sharing with Pastor Allen and staff.</p>
+				</text>
+			</detail>
+			<ministries>
+				<ministry id="men"/>
+			</ministries>
+		</event>
+		<event id="12" date="*" reoccur="Fri" time="7:00pm" location="Youth Room" childMinistry="no" childCare="no">
+			<title>"Front Line" College and Career</title>
+			<shortnote/>
+			<detail>
+				<text>
+					<p>Join the Frontline ministry for a bible study. Contact Bunjee Garrett for more information.</p>
+				</text>
+			</detail>
+			<ministries>
+				<ministry id="college"/>
+			</ministries>
+		</event>
+		<event id="13" date="*" reoccur="Fri" time="7:00pm" location="Youth Room" childMinistry="no" childCare="no">
+			<title>"Focus" Single's Ministry</title>
+			<shortnote/>
+			<detail>
+				<text>
+					<p>Join the singles for bible study. Contact Dan Garcia for more information.</p>
+				</text>
+			</detail>
+			<ministries>
+				<ministry id="singles"/>
+			</ministries>
+		</event>
+		<event id="14" date="*" reoccur="Sat" time="4:00pm" location="Parking Lot" childMinistry="no" childCare="no">
+			<title>Skate Ministry</title>
+			<shortnote/>
+			<detail/>
+			<ministries>
+				<ministry id="skate"/>
+			</ministries>
+		</event>
+	</events>
+</content>
