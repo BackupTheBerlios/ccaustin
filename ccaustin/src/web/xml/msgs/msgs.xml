@@ -3171,7 +3171,7 @@
 	<message date="20020814" service="midweek" category="overview">
 		<seriestitle>Acts</seriestitle>
 		<title></title>
-		<passage>Acts 16-17</passage>
+		<passage>Acts 16</passage>
 		<tape>B01292</tape>
 		<audio>bibleoverview/44-act-16.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Act/Act016.html#top</passageref>
@@ -8113,6 +8113,14 @@
 		<tape>GS081802</tape>
 		<audio>guestspeaker/dbrock0802.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn002.html#top</passageref>
+	</message>
+	<message date="20020825" service="sunday" category="topicmessage">
+		<seriestitle>II Timothy</seriestitle>
+		<title>Life in the Last Days</title>
+		<passage>II Timothy 3:1-9</passage>
+		<tape>TS082502</tape>
+		<audio>topicmessage/arigg0802.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/2Ti/2Ti003.html#top</passageref>
 	</message>
 
 
