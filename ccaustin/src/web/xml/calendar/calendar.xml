@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.59 2003/06/22 18:35:22 javajames27 Exp $
+	$Id: calendar.xml,v 1.60 2003/06/23 13:50:09 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -420,7 +420,7 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
 		</ministries>
     </event>
     <event id="08002" date="20030808" showOnHomepage="true">
-	 <title>Youth D.U.D. Camp</title>
+	 <title>Youth D.U.D.E. Camp</title>
 		<date>August 4th-8th</date>
 		<detail>More details coming soon!</detail>
     </event>
