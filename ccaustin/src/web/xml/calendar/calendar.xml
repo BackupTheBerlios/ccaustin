@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.112 2004/03/29 01:37:07 gregk Exp $
+	$Id: calendar.xml,v 1.113 2004/04/11 03:06:37 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -495,6 +495,10 @@ and to register visit the Events Center.</detail>
 	 <title>Building Momentum:   FAMILY CONFERENCES</title>
 		<date>Apr 25 - May 1</date>
     </event>
+    <event id="04007" date="20040428" showOnHomepage="false">
+	 <title>Guest Worship Leader - Terry Clark</title>
+		<date>Apr 28</date>
+    </event>
 		<!--
     ===============
     May 2004
@@ -528,7 +532,12 @@ and to register visit the Events Center.</detail>
 	 <title>Building Momentum:    CELEBRATION SUNDAY</title>
 		<date>May 16</date>
     </event>
-    <event id="05005" date="20040514" showOnHomepage="false">
+    <event id="05005" date="20040507" showOnHomepage="true">
+	 <title>Mexico Mission Trip</title>
+		<date>May 7 - 9</date>
+		<detail>On May 7th - 9th come and share the love of Jesus with His children south of the border in Pan De Vida. Participate by donating need items or joining us on the trip. Sign ups and a list of items needed located at the Events Center.</detail>
+    </event>
+    <event id="05006" date="20040514" showOnHomepage="true">
 	 <title>Weekend To Remember</title> 
 		<date>May 14 - 16</date>
                 <detail>Come join other couples at the Family Life Conference May 14th - 16th at the Capitol Marriott. You will learn and be challenged to apply timeless principles for a great marriage through insiring speakers and the use of practical tools. Sign up by April 21st at the Events Center to getthe special Calvary group rate of $138 per couple. Details and brochures at the Events Center.</detail>
@@ -538,13 +547,17 @@ and to register visit the Events Center.</detail>
     June 2004
     ===============
     -->
-    <event id="06001" date="20040621" showOnHomepage="false">
+    <event id="06001" date="20040621" showOnHomepage="true">
 	 <title>Vacation Bible Study</title>
 		<date>Jun 21-25</date>
                 <detail>Stay tuned for more details !!!.</detail>
 		<ministries>
 			<ministry id="children"/>
 		</ministries>
+    </event>
+    <event id="06002" date="20040619" showOnHomepage="true">
+	 <title>Baptism and Picnic</title>
+		<date>Jun 19</date>
     </event>
 		<!--
     ===============
@@ -567,12 +580,6 @@ and to register visit the Events Center.</detail>
     September 2004
     ===============
     -->
-    <event id="09001" date="20040905" showOnHomepage="false">
-	 <title> Men's Retreat - Fall 2004</title>
-		<ministries>
-			<ministry id="men"/>
-		</ministries>
-    </event>
 		<!--
     ===============
     Oct 2004
@@ -589,8 +596,14 @@ and to register visit the Events Center.</detail>
     <event id="10002" date="20041011" showOnHomepage="true">
 	 <title>Israel Trip</title>
 		<date>Oct 11-22</date>
-                <detail>The Israel tour is scheduled for Oct. 11 - Oct. 22, 2004
-</detail>
+                <detail>The Israel tour is scheduled for Oct. 11 - Oct. 22, 2004. The registration deadline is April 30th. For more information or to register, stop by the Events Center.</detail>
+    </event>
+    <event id="10003" date="20041015" showOnHomepage="false">
+	 <title>Men's Retreat</title>
+		<date>Oct 15-16</date>
+		<ministries>
+			<ministry id="men"/>
+		</ministries>
     </event>
 	</calendar>
 </content>
