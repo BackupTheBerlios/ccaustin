@@ -2,14 +2,14 @@
 <!--
 	Glendon Nicks Bio - Part of the Staff Bios
 
-	$Id: glendon.xml,v 1.1 2003/09/24 04:51:39 gregk Exp $
+	$Id: glendon.xml,v 1.2 2004/07/08 01:11:48 premav Exp $
 
 -->
 
 <content title="Brief Bio of Glendon Nicks">
 <heading>Meet Glendon Nicks</heading>
 <br></br>
-
+<img src="../images/staff/glendonweb.jpg" alt="Glendon Nicks"/>
 <heading>Spouse</heading>
 <p>Carol</p>
 

@@ -2,14 +2,14 @@
 <!--
 	Bunjee Garrett Bio - Part of the Staff Bios
 
-	$Id: bunjee.xml,v 1.1 2003/09/24 04:49:57 gregk Exp $
+	$Id: bunjee.xml,v 1.2 2004/07/08 01:11:48 premav Exp $
 
 -->
 
 <content title="Brief Bio of Bunjee Garrett">
 <heading>Meet Bunjee Garrett</heading>
 <br></br>
-
+<img src="../images/staff/bunjeeweb.jpg" alt="Bunjee Garrett"/>
 <heading>Spouse</heading>
 <p>Brenda</p>
 
