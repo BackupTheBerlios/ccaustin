@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.77 2003/10/05 13:38:23 gregk Exp $
+	$Id: calendar.xml,v 1.78 2003/10/19 03:36:06 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -240,12 +240,12 @@ need for Praying Leaders.</detail>
 	 <title>Extended Worship</title>
 		<date>Oct 22nd</date>
     </event>
-    <event id="10003" date="20031117" showOnHomepage="true">
+    <event id="10003" date="20031117" showOnHomepage="false">
 	 <title>Mexico Mission Trip</title>
 		<date>Nov 14-16</date>
     </event>
 <event id="10004" date="20031124" showOnHomepage="false">
-	 <title>Operation Christmas Child Shoe Box</title>
+	 <title>Operation Christmas Child</title>
 		<date>Nov 23rd</date>
     </event>
     <event id="10005" date="20031018" showOnHomepage="false">
@@ -270,13 +270,21 @@ need for Praying Leaders.</detail>
 			Nov
 	===============
 -->
+    <event id="11001" date="20031102" showOnHomepage="true">
+	 <title>Weight of Glory Concert</title>
+		<date>Nov 1st</date>
+		<detail>The Singles Group is sponsoring the Weight of Glory Concert on Saturday night, Nov 1, at 6:30pm. Join us in the youth room and enjoy this band whose members all call Calvary home and whose music venue is rock, blues and worship.</detail>
+		<ministries>
+			<ministry id="singles"/>
+		</ministries>
+    </event>
 
 		<!--
 	===============
 			Dec
 	===============
 -->
-    <event id="12001" date="20031231" showOnHomepage="true">
+    <event id="12001" date="20031231" showOnHomepage="false">
 	 <title>Calvary Kids New Years' Eve Party</title>
 		<date>Dec 31st</date>
                 <detail>Snacks, Games, Prizes, Movies, Worship and Prayer.</detail>

@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.49 2003/10/14 06:26:31 gregk Exp $
+	$Id: whatsnew.xml,v 1.50 2003/10/19 03:35:28 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -208,11 +208,11 @@
 			<title>Radio Ministry Note</title>
 			<detail>Pastor Allen's 7:30 PM Mon-Fri broadcast on KIXL has moved to 9:30 AM on KBBW 1010AM.</detail>
 		</news-item>
-		<news-item id="77" date="20030915" expires="20031030" showOnHomepage="true">
+		<news-item id="77" date="20030915" expires="20031030" showOnHomepage="false">
 			<title>Women's Ministry Worship Team</title>
 			<detail>The Women's Ministry is in need of a Women's Worship Team, both vocalist and instrumentalist. Contact Heather Reynolds (565-3859) if you are interested in becoming a part of the team.</detail>
 		</news-item>
-		<news-item id="78" date="20030915" expires="20031030" showOnHomepage="true">
+		<news-item id="78" date="20030915" expires="20031030" showOnHomepage="false">
 			<title>Women Helping Women</title>
 			<detail>This ministry offers prayer, spiritual guidance, and support to any woman who makes Calvary Chapel her church home. For an appointment, call the church office during normal working hours.</detail>
 		</news-item>
@@ -220,13 +220,21 @@
 			<title>Men's Bible Study</title>
 			<detail>Sign up today at the Events Center for a study involving the New Testament Men of Faith. This class will meet every other Tuesday evening at 7PM starting on Sept 23.</detail>
 		</news-item>
-<news-item id="80" date="20031004" expires="20031030" showOnHomepage="true">
-			<title>Operation Christmas Child Shoe Box</title>
-			<detail>On Nov 23rd. So start saving medium to large shoe boxes to fill with gifts for poor and needy children around the world. Information on this ministry and how you can participate will be coming soon.</detail>
+<news-item id="80" date="20031004" expires="20031115" showOnHomepage="true">
+			<title>Operation Christmas Child</title>
+			<detail>Fill an empty shoebox with children's toys and necessities and transform it into a child's treasure chest. Brochures are available at the Events Center. Treasure chests are due on or before Nov 23.</detail>
 		</news-item>
-		<news-item id="81" date="20031004" expires="20031130" showOnHomepage="false">
+		<news-item id="81" date="20031004" expires="20031130" showOnHomepage="true">
 			<title>The Cupboard</title>
 			<detail>Our food pantry will provide food to families in the body of Calvary during times of need. You may donate non-perishable food and personal hygiene items. Place donations in the Collection Area near the restrooms. If you need assistance from this ministry, contact the church office. For more information contact Derrick or Crystal Kinney at 310-2590</detail>
+		</news-item>
+		<news-item id="82" date="20031004" expires="20031016" showOnHomepage="true">
+			<title>Extended Worship Service</title>
+			<detail>Join us for a time of extended worship of the Lord during our regular 7pm Wednesday service Oct 15.</detail>
+		</news-item>
+		<news-item id="83" date="20031004" expires="20031031" showOnHomepage="true">
+			<title>Preorder Your "LIVE" Worship CD!</title>
+			<detail>You may support our recording project by preordering the Calvary Austin Worship CD at a 20% discount for $12. Come by the Events Center today. This offer is good until the end of October.</detail>
 		</news-item>
 	</news>
 </content>
