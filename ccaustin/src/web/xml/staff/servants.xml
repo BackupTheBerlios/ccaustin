@@ -8,7 +8,7 @@
 	
 	allen-bio.xml - the biography for Pastor Allen
 	
-	$Id: servants.xml,v 1.13 2004/09/19 05:06:38 gregk Exp $
+	$Id: servants.xml,v 1.14 2004/10/02 15:18:53 gregk Exp $
 		
 -->
 <content title="Servants" base=".">
@@ -215,7 +215,7 @@
 		<fullname>Matt Lang</fullname>
 		<first-name>Matt</first-name>
 		<last-name>Lang</last-name>
-		<emailid>tammyl91@swbell.net</emailid>
+		<emailid>langm@fms-regional.com</emailid>
 		<thumbnail href="../images/staff/mattthumb.jpg"/>
 		<small-photo href="../images/staff/mattweb.jpg"/>
 		<large-photo href="../images/staff/mattweb.jpg"/>
