@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.99 2004/08/13 16:34:52 tie Exp $
+	$Id: whatsnew.xml,v 1.100 2004/08/25 00:39:22 tie Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -500,8 +500,8 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		   <detail>will be on July 31st &amp; Aug 7th, to construct staging &amp; storage in the children.s ministry. Skill sets like, painting, framing, electrical, sheetrock, texture, and float &amp; taping are needed. If interested in partnering sign up at the Events Center.</detail>
 		</news-item>
 		<news-item id="147" date="20040810" expires="20040926" showOnHomepage="true">
-		   <title>Women's Counseling Issues of Interest to You?</title>
-		   <detail>There will be an introductory meeting at Calvary Austin on September 25th from 9:30-12:00 pm for those of you who want more information about this ministry. Todd Ellsworth, overseer of Calvary's <italics>Free Indeed</italics> ministry, will talk about training opportunities and how to get involved.</detail>
+		   <title>Counseling Issues of Interest to You?</title>
+		   <detail>There will be an introductory meeting at Calvary Austin on September 25th from 9:30-12:00 pm for those of you who want more information about this ministry. Todd Ellsworth, overseer of Calvary's <italics>Free Indeed</italics> ministry, will talk about training opportunities and how to get involved. Anyone interested in the the Free Indeed (Addictions) ministry or the Women Helping Women counseling group are welcome to come.</detail>
 		</news-item>
 <!--
 -->
