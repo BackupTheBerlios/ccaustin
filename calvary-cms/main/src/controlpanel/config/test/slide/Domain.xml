@@ -152,31 +152,34 @@
                             -->
                        <!-- <permission action="/actions" subject="root"/> -->
                        <permission action="/actions" subject="/users/root"/>
-                       <permission action="/actions/read" subject="/users" inheritable="false"/>
+                       <!-- <permission action="/actions/read" subject="/users" inheritable="false"/> -->
+                       <permission action="/actions/read" subject="/users" inheritable="true"/>
                        <permission action="/actions/read" subject="nobody" inheritable="false"/>
                        <!-- /users -->
                        <objectnode classname="org.apache.slide.structure.SubjectNode" uri="/users">
                          <permission action="/actions" subject="~"/>
                          <permission action="/actions" subject="/users/guest" inheritable="true" negative="true"/>
-                         <permission action="/actions/read" subject="/users" inheritable="false"/>
-                         <!-- Permission group example -->
+                         <permission action="/actions/read" subject="/users" inheritable="true"/>
+                         <!-- Permission group example
                          <objectnode classname="org.apache.slide.structure.GroupNode" uri="/users/groupA">
                            <objectnode classname="org.apache.slide.structure.LinkNode" uri="/users/groupA/john" linkedUri="/users/john"/>
                            <objectnode classname="org.apache.slide.structure.LinkNode" uri="/users/groupA/root" linkedUri="/users/root"/>
                            <objectnode classname="org.apache.slide.structure.SubjectNode" uri="/users/groupA/singleGroupMember"/>
                          </objectnode>
+                          -->
                          <!-- /users/root represents the administrator -->
                          <objectnode classname="slideroles.basic.RootRoleImpl" uri="/users/root">
                            <revision>
                              <property namespace="http://jakarta.apache.org/slide/" name="password">root</property>
                            </revision>
                          </objectnode>
-                         <!-- /users/john represents an authenticated user -->
+                         <!-- /users/john represents an authenticated user 
                          <objectnode classname="slideroles.basic.UserRoleImpl" uri="/users/john">
                            <revision>
                              <property namespace="http://jakarta.apache.org/slide/" name="password">john</property>
                            </revision>
                          </objectnode>
+                         -->
                          <!-- /users/guest represents an authenticated or
                               unauthenticated guest user -->
                          <objectnode classname="slideroles.basic.GuestRoleImpl" uri="/users/guest">
@@ -196,10 +199,10 @@
                               actions on /files to guest (unauthenticated users) -->
                          <!--
                               <permission action="/actions" subject="/users/guest"/>
-                              -->
                               <permission action="/actions/manage" subject="/users/john"/>
                               <permission action="/actions/write" subject="+/users/groupA"/>
                               <permission action="/actions/read" subject="nobody"/>
+                              -->
                             </objectnode>
                             <!-- DeltaV: default history and workspace paths -->
                             <objectnode classname="org.apache.slide.structure.SubjectNode" uri="/history"/>

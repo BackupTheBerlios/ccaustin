@@ -568,13 +568,13 @@
     <!-- Uncomment this to get authentication -->
     <security-constraint>
         <web-resource-collection>
-            <web-resource-name>Calvary resource</web-resource-name>
+            <web-resource-name>Slide resource</web-resource-name>
             <url-pattern>/*</url-pattern>
         </web-resource-collection>
         <auth-constraint>
+            <role-name>user</role-name>
             <role-name>root</role-name>
             <role-name>guest</role-name>
-            <role-name>user</role-name>
         </auth-constraint>
     </security-constraint>
     <login-config>

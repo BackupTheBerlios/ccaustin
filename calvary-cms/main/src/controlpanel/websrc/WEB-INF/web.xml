@@ -100,11 +100,12 @@
   <!-- Security Contraints -->
   <security-constraint>
     <web-resource-collection>
-      <web-resource-name>Slide Administration</web-resource-name>
+      <web-resource-name>Calvary ControlPanel</web-resource-name>
       <url-pattern>/*</url-pattern>
     </web-resource-collection>
     <auth-constraint>
       <role-name>root</role-name>
+      <role-name>user</role-name>
     </auth-constraint>
   </security-constraint>
   
