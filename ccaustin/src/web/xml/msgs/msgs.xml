@@ -10022,7 +10022,13 @@
 	<audio>59-jam/59-jam-05-07.wma</audio> 
 	<passageref>http://www.blueletterbible.org/kjv/Jam/Jam005.html#top</passageref> 
 	</message>
-
-
+	<message date="20040905" service="sunday" category="topic message">
+	<seriestitle>When Family Won't Believe</seriestitle>
+	<title></title>
+	<passage>John 7:1-9</passage>
+	<tape>TM090504</tape>
+	<audio>topicmessage/TM090504.wma</audio>
+	<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn007.html#top</passageref>
+	</message>
 
 </messagecatalog>
