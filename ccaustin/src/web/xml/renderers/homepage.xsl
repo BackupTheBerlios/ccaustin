@@ -4,7 +4,7 @@
      
      Homepage custom renderer
 
-     $Id: homepage.xsl,v 1.17 2004/04/12 15:58:21 gregk Exp $
+     $Id: homepage.xsl,v 1.18 2004/06/19 21:04:58 gregk Exp $
      
 -->       
 
@@ -33,6 +33,12 @@
 <td  align="center" valign="top" id="MU" height="280" width="1000"><a href="javascript:slideLink()"><img border="0" alt="click here to learn more" src="../images/events/buildmobanner.jpg" name="SlideShow" height="280" width="800"></img></a><br/>
                         </td>
 			</tr>
+                  <tr><br></br></tr>
+		  <tr>
+		  <td align="center">
+			<p>We are Building Momentum, visit our <a href="../buildingmomentum/index.html">Building Momentum</a> site for more details</p>
+		  </td>
+		  </tr>
 	          <tr>
 	            <td align="center">
 	              <xsl:apply-templates select="banner/event"/>
