@@ -3456,7 +3456,7 @@
 		<audio>bibleoverview/47-2co-05.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/2Cr/2Cr005.html#top</passageref>
 	</message>
-	<message date="20030805" service="midweek" category="overview">
+	<message date="20030806" service="midweek" category="overview">
 		<seriestitle>2 Corinthians</seriestitle>
 		<title></title>
 		<passage>2 Corinthians 7</passage>
@@ -3464,13 +3464,21 @@
 		<audio>bibleoverview/47-2co-07.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/2Cr/2Cr007.html#top</passageref>
 	</message>
-	<message date="20030812" service="midweek" category="overview">
+	<message date="20030813" service="midweek" category="overview">
 		<seriestitle>2 Corinthians</seriestitle>
 		<title></title>
 		<passage>2 Corinthians 8-9</passage>
 		<tape>BO1326</tape>
 		<audio>bibleoverview/47-2co-08.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/2Cr/2Cr008.html#top</passageref>
+	</message>
+	<message date="20030820" service="midweek" category="overview">
+		<seriestitle>2 Corinthians</seriestitle>
+		<title></title>
+		<passage>2 Corinthians 10-11</passage>
+		<tape>BO1327</tape>
+		<audio>bibleoverview/47-2co-10.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/2Cr/2Cr010.html#top</passageref>
 	</message>
 
     <message date="19940522" service="sunday" category="topical series">
