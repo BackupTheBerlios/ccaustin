@@ -7,7 +7,7 @@
 <!--                                                                       -->
 <!-- ===================================================================== -->
 
-<!-- $Id: log4j.xml,v 1.1 2003/02/26 02:56:03 javajames27 Exp $ -->
+<!-- $Id: log4j.xml,v 1.2 2003/02/26 03:49:14 javajames27 Exp $ -->
 
 <!--
    | For more configuration infromation and examples see the Jakarta Log4j
@@ -186,6 +186,13 @@
   </category>
   -->
 
+  <!-- 3rd party lib filters
+  	-->
+  <category name="org.apache.commons">
+    <priority value="WARN" />
+  </category>
+  	
+  	
   <!-- Calvary specific classes
   	-->
   <category name="org.calvaryaustin">
