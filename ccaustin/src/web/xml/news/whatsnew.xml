@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.1 2002/07/08 23:25:13 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.2 2002/07/10 17:12:51 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -34,6 +34,18 @@
 	<p>T-shirts in red, green, blue, and black colors are
 	available in adult and youth sizes. The cost is $10. Come to
 	the Events Center to purchase your t-shirts today.</p>
+      </full>
+    </news-item>
+    <news-item id="2" date="20020711" expires="20020911" showOnHomepage="true">
+      <date></date>
+      <logo align="left" img ="../images/homepage/nothing.gif"/>
+      <title>New Web Site</title>
+      <full>
+	<p>As you have noticed by now, the Calvary Austin web site has
+	a new look and fresh content. <link
+	href="../ministries/internet.html">Find out more</link> about
+	the internet ministry, as well as the <link href="../internet/vision.html">vision for the Calvary
+	Austin web site</link>. </p>
       </full>
     </news-item>
   </news>

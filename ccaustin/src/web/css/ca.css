@@ -1,5 +1,5 @@
-A:link	{ TEXT-DECORATION: none }
-A:visited { TEXT-DECORATION: none }
+A:link	{ color: #B0A200; TEXT-DECORATION: none }
+A:visited { color: #B0A200; TEXT-DECORATION: none } /*#33396D*/
 A:hover {  text-decoration: underline}
 body	{  bg-color: #FFFFFF; color: #2544a9; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif }
 td	{ FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif }
@@ -39,6 +39,13 @@ p       { font-size: 90% }
 /* #CED3E7 */
 .tablecellnews { background-color: #EFF3FF; }
 .tableheadernews {  font-size: 105%; background-color: #EFF3FF; font-weight: bold }
+
+.eventtitle {  font-size: 85%; font-weight: bold }
+.eventsubtitle {  font-size: 75%; font-weight: bold }
+.eventitem {  font-size: 75% }
+/* #CED3E7 */
+.tablecellevent { background-color: #EFF3FF; }
+.tableheaderevent {  font-size: 105%; background-color: #EFF3FF; font-weight: bold }
 
 .featuretitle {  font-size: 95%; font-weight: bold }
 .featuresubtitle {  font-size: 85%; font-weight: bold }

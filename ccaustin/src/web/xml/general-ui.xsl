@@ -13,7 +13,7 @@
 	A variant of this file may offer more search engine or accessibility-friendly
 	navigation and less Javascript features for older browsers. 
 	
-	$Id: general-ui.xsl,v 1.23 2002/07/08 22:02:42 javajames27 Exp $
+	$Id: general-ui.xsl,v 1.24 2002/07/10 17:12:51 javajames27 Exp $
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html" indent="yes"/>
@@ -69,8 +69,8 @@
 				        <tr> 
 				          <td align="left" width="308" background="../images/homepage/blue.jpg"><a onmouseover="MM_showMenu(window.mm_menu_0610133358_0,0,17,null,'about_us');" onmouseout="MM_startTimeout();" href="../about/about.html">
 <img name="about_us" src="../images/homepage/about_us.jpg" border="0" width="72" height="19"/></a>
-				          <!-- a onmouseover="MM_showMenu(window.mm_menu_0610133533_1,0,17,null,'whats_new');" onmouseout="MM_startTimeout();" href="../news/whatsnew.html">
-<img name="whats_new" src="../images/homepage/whats_new.jpg" border="0" width="83" height="19"/></a -->
+				          <a onmouseover="MM_showMenu(window.mm_menu_0610133533_1,0,17,null,'whats_new');" onmouseout="MM_startTimeout();" href="../news/index.html">
+<img name="whats_new" src="../images/homepage/whats_new.jpg" border="0" width="83" height="19"/></a>
 				          <a onmouseover="MM_showMenu(window.mm_menu_0610133621_2,0,17,null,'events');" onmouseout="MM_startTimeout();" href="../calendar/calendar.html">
 <img name="events" src="../images/homepage/events.jpg"  border="0" width="46" height="19"/></a>
 				          <a onmouseover="MM_showMenu(window.mm_menu_0610133816_3,0,17,null,'ministries');" onmouseout="MM_startTimeout();" href="../ministries/index.html">
