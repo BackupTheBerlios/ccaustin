@@ -3195,10 +3195,26 @@
 	<message date="20020904" service="midweek" category="overview">
 		<seriestitle>Acts</seriestitle>
 		<title></title>
-		<passage>Acts 19-20</passage>
+		<passage>Acts 190</passage>
 		<tape>B01293</tape>
 		<audio>bibleoverview/44-act-19.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Act/Act019.html#top</passageref>
+	</message>
+	<message date="20020911" service="midweek" category="topic message">
+		<seriestitle>September 11, 2002</seriestitle>
+		<title></title>
+		<passage>Luke 8:1-13</passage>
+		<tape>TM20020911</tape>
+		<audio>topicmessage/arigg0902.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk008.html#top</passageref>
+	</message>
+	<message date="20020918" service="midweek" category="overview">
+		<seriestitle>Acts</seriestitle>
+		<title></title>
+		<passage>Acts 20-21</passage>
+		<tape>B01294</tape>
+		<audio>bibleoverview/44-act-20.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Act/Act020.html#top</passageref>
 	</message>
 
 
@@ -8155,13 +8171,29 @@
 		<audio>49-eph/49-eph-05-22.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph005.html#top</passageref>
 	</message>
-	<message date="20020901" service="sunday" category="book studies">
+	<message date="20020908" service="sunday" category="book studies">
 		<seriestitle>Ephesians</seriestitle>
 		<title>Making the Most of Your Marriage - Part II</title>
 		<passage>Ephesians 5:25-33</passage>
 		<tape>BS090802</tape>
 		<audio>49-eph/49-eph-05-25.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph005.html#top</passageref>
+	</message>
+	<message date="20020915" service="sunday" category="book studies">
+		<seriestitle>Ephesians</seriestitle>
+		<title>Parenting on Purpose</title>
+		<passage>Ephesians 6:1-4</passage>
+		<tape>BS091502</tape>
+		<audio>49-eph/49-eph-06-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph006.html#top</passageref>
+	</message>
+	<message date="20020922" service="sunday" category="book studies">
+		<seriestitle>Ephesians</seriestitle>
+		<title>Christians at Work</title>
+		<passage>Ephesians 6:5-9</passage>
+		<tape>BS092202</tape>
+		<audio>49-eph/49-eph-06-05.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph006.html#top</passageref>
 	</message>
 
 
