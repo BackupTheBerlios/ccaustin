@@ -3513,7 +3513,22 @@
 		<audio>bibleoverview/48-gal-05.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Gal/Gal005.html#top</passageref>
 	</message>
-
+	<message date="20031001" service="midweek" category="overview">
+		<seriestitle>Ephesians</seriestitle>
+		<title></title>
+		<passage>Ephesians 1-2</passage>
+		<tape>BO1332</tape>
+		<audio>bibleoverview/49-eph-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph001.html#top</passageref>
+	</message>
+	<message date="20031008" service="midweek" category="overview">
+		<seriestitle>Ephesians</seriestitle>
+		<title></title>
+		<passage>Ephesians 3-4</passage>
+		<tape>BO1333</tape>
+		<audio>bibleoverview/49-eph-03.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph003.html#top</passageref>
+	</message>
     <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
 		<title>The Big Question</title>
