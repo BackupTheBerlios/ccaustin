@@ -9307,5 +9307,13 @@
 		<tape>BS090703</tape>
 		<audio>42-luk/42-luk-11-02.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk011.html#top</passageref>
-	</message>  
+	</message> 
+	<message date="20030907" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>Connecting with God - Part III</title>
+		<passage>Luke 11:3-4</passage>
+		<tape>BS091403</tape>
+		<audio>42-luk/42-luk-11-03.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk011.html#top</passageref>
+	</message>   
 </messagecatalog>
