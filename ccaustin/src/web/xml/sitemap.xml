@@ -6,7 +6,7 @@
         The sitemap contains the structure of the entire web site, and is used to drive
         the auto-generated scripts for generating the web site HTML from XML.
         
-        $Id: sitemap.xml,v 1.41 2003/09/23 19:47:39 javajames27 Exp $
+        $Id: sitemap.xml,v 1.42 2003/09/24 04:41:27 gregk Exp $
         
         hidden="true" prevents the page from showing on the sitemap.
         
@@ -730,6 +730,71 @@
           html="/about/staff.html">
       <title>Calvary Austin Staff Overview</title>
     </page>
+    <page datafile="/allen.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/allen.xsl"
+          html="/about/allen.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/bunjee.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/bunjee.xsl"
+          html="/about/bunjee.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/jean.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/jean.xsl"
+          html="/about/jean.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/david.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/david.xsl"
+          html="/about/david.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/john.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/john.xsl"
+          html="/about/john.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/glendon.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/glendon.xsl"
+          html="/about/glendon.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/donna.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/donna.xsl"
+          html="/about/donna.html">
+      <title>Generates staff member Bio</title>
+    </page>
+<!--
+    <page datafile="/craig.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/craig.xsl"
+          html="/about/craig.html">
+      <title>Generates staff member Bio</title>
+    </page>
+    <page datafile="/jameslaz.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/jameslaz.xsl"
+          html="/about/jameslaz.html">
+      <title>Generates staff member Bio</title>
+    </page>
+-->
   </section>
 
   <section name="CalvaryKids" basedir="/calvarykids">
@@ -738,7 +803,7 @@
     <page datafile="/calvarykids.xml"
           template="/templates/empty.xsl"
           layout="/layouts/empty.xsl"
-          renderer="/renderers/calvarycalvarykids.xsl"
+          renderer="/renderers/calvarykids.xsl"
           html="/calvarykids/index.html">
       <title>Calvary Kids Page</title>
       <description>Learn more about Calvary Kids</description>

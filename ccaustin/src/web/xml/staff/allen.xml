@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<content title="Meet Pastor Allen" sidebar-image="../images/staff/allen5.jpg" sidebar-imagealt="Pastor Allen">
-		<p>Allen grew up attending church and Christian school but without having a personal relationship with Jesus Christ. In 1979, at age fourteen, he received Christ and immediately began to study and to teach the Bible. Allen graduated with honors from Pacific High School in San Bernardino, CA in 1983. He then began what would become an eight-year internship at Calvary Chapel of San Bernardino.</p>
-		<p>In 1986 and 1987 Allen was part of a music ministry. He had the opportunity to share Christ through music in many venues in four different counties in Southern California. Allen was married to Andrea in 1989 and accepted the position of Assistant Pastor at <link href="http://www.calvarychapel.org/redbarn">Calvary Chapel of San Bernardino.</link>
-		</p>
-		<p>Allen moved with Andrea to Austin in 1991 and, at age 26, planted Calvary Chapel of Austin. In just eight years the church has grown from eight adults and children to nearly 1,000. Allen's contemporary style is popular with audiences of all ages. He is heard twice daily throughout the Austin area on the "Calvary Continuum" radio broadcast and has traveled and ministered in Australia, Austria, China, Hungary, Israel, and Serbia. </p>
-		<p>Allen lives in Austin with his wife and daughter. </p>
-		<p> Listen to Allen's teaching on the  
-			<list>
-				<item><link href="continuum/sunmsg.html">Sunday Messages</link> page, </item>
-				<item>the <link href="continuum/midmsg.html">Midweek Messages</link> page, </item>
-				<item>or via the <link href="continuum/cctape.html">Calvary Continuum Tape Catalog</link>. </item>
-			</list>
-		</p>
+<!--
+	Allen Rigg Bio - Part of the Staff Bios
+
+	$Id: allen.xml,v 1.4 2003/09/24 04:45:09 gregk Exp $
+
+-->
+
+<content title="Brief Bio of Pastor Allen">
+<heading>Meet Pastor Allen Rigg</heading>
+<br></br>
+
+<heading>Spouse</heading>
+<p>Andrea</p>
+
+<heading>Children</heading>
+<p>Lauren</p>
+
+<heading>Very Brief Testimony</heading>
+<p>I grew up going to church and believing all the right things. While on summer vacation between eighth and ninth grade, I spent a lot of time reading the Bible and came to understand the difference between being religious and having a relationship with God. I made a commitment to Christ and knew in my heart that God's plan for my life was to plant and pastor a Calvary Chapel someday.</p>
+
+<heading>Favorite Book of the Bible and Why</heading>
+<p>Ephesians was an early favorite. It captures the essence of the Christian life.</p>
+
+<heading>Favorite Verse and Why</heading>
+<p>Ephesians 2:8-9. One word: grace.</p>
+
+<heading>Favorite Book (besides the Bible) and Why</heading>
+<p>I have read "Walking with the Giants" by Warren Wiersbe over and over again. It inspires me to give God my best.</p>
+
+<heading>Who do you most admire (besides Jesus)</heading>
+<p>My wife, Andrea, for the way she handles the impossible role of "pastor's wife".</p>
+
+<heading>What do you do at Calvary</heading>
+<p>My God-given role is two-fold: teacher and vision-caster (i.e. I communicate and lead).</p>
+
+<br></br>
+<br></br>
+<br></br>
+
+<p>back to ....<link href="../about/staff.html">Meet Our Staff</link></p>
 </content>
