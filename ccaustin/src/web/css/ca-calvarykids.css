@@ -1,0 +1,153 @@
+A:link {
+	FONT-WEIGHT: bold; COLOR: #2544a9; TEXT-DECORATION: underline
+}
+A:visited {
+	FONT-WEIGHT: bold; COLOR: #2544a9; TEXT-DECORATION: underline
+}
+A:hover {
+	FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+BODY {
+	COLOR: #FFFFFF;
+	bg-color: #FFFFFF;
+	font-family: Comic Sans MS, Arial, Helvetica;
+
+}
+TD {
+	font-family: Comic Sans MS, Arial, Helvetica;
+}
+PRE {
+	font-family: Comic Sans MS, Arial, Helvetica;
+}
+P {
+	FONT-SIZE: 100%
+}
+.text {
+	FONT-SIZE: 100%
+}
+.note {
+	FONT-SIZE: 12px; COLOR: #ff0000
+}
+.tableheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 120%; TEXT-DECORATION: underline
+}
+.tableheaderdark {
+	FONT-WEIGHT: bold; COLOR: #ffffff; BACKGROUND-COLOR: #384d7a
+}
+.tablesubtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; FONT-STYLE: italic
+}
+.tablecell {
+	
+}
+.textsubtitle {
+	FONT-SIZE: 14px
+}
+.textemphasis {
+	FONT-STYLE: italic
+}
+.textbold {
+	FONT-WEIGHT: bold
+}
+.readmore {
+	FONT-SIZE: 95%
+}
+.subtext {
+	FONT-SIZE: 85%
+}
+.sidetext {
+	FONT-SIZE: 85%
+}
+.title {
+	FONT-WEIGHT: bold
+}
+.pagetitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 36pt
+}
+.heading {
+	FONT-WEIGHT: bold; FONT-SIZE: 120%
+}
+.subheading {
+	FONT-WEIGHT: bold; FONT-SIZE: 110%
+}
+.featureheading {
+	FONT-WEIGHT: bold; FONT-SIZE: 120%
+}
+.detail {
+	FONT-STYLE: italic
+}
+.indent {
+	left-indent: 4
+}
+.darkbg {
+	BACKGROUND-COLOR: #384d7a
+}
+.ministrytitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 150%
+}
+.sidebar {
+	
+}
+.featuredarticlebox {
+	BACKGROUND-COLOR: #ffffff
+}
+.newstitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 95%
+}
+.newssubtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 85%
+}
+.newsitem {
+	FONT-SIZE: 85%
+}
+.tablecellnews {
+	BACKGROUND-COLOR: #eff3ff
+}
+.tableheadernews {
+	FONT-WEIGHT: bold; FONT-SIZE: 105%; BACKGROUND-COLOR: #eff3ff
+}
+.eventtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 95%
+}
+.eventsubtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 85%
+}
+.eventitem {
+	FONT-SIZE: 75%
+}
+.tablecellevent {
+	BACKGROUND-COLOR: #eff3ff
+}
+.tableheaderevent {
+	FONT-WEIGHT: bold; FONT-SIZE: 105%; BACKGROUND-COLOR: #eff3ff
+}
+.featuretitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 105%
+}
+.featuresubtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 95%
+}
+.featureitem {
+	FONT-SIZE: 85%
+}
+.featureintro {
+	FONT-SIZE: 75%
+}
+.tableheaderfeature {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: #daecfb
+}
+.tablecellfeature {
+	BACKGROUND-COLOR: #daecfb
+}
+.verseref {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%
+}
+.verse {
+	FONT-SIZE: 90%
+}
+.footnote {
+	FONT-SIZE: 80%
+}
+TR.underwater {
+	background-color: #6699ff;
+}

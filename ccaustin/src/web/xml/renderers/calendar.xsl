@@ -6,7 +6,7 @@
 	
 	Processes the calendar tag and its children tags.
 	
-	$Id: calendar.xsl,v 1.2 2003/05/27 22:36:26 javajames27 Exp $
+	$Id: calendar.xsl,v 1.3 2003/12/02 20:46:05 javajames27 Exp $
 	
 -->	
 
@@ -18,18 +18,32 @@
 
 <xsl:include href="html.xsl"/>
 
+<xsl:template match="ministry-calendar">
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tr>
+      <td width="100%" class="heading" align="left" valign="top" nowrap="true" colspan="3">Upcoming Events</td>
+    </tr>
+    <tr>
+      <td width="100%" class="tablecell" align="left" valign="top" nowrap="true" colspan="3"><br/></td>
+    </tr>
+  <xsl:variable name="filter"><xsl:value-of select="@ministry"/></xsl:variable>
+    <xsl:apply-templates select="document('../../src/web/xml/calendar/calendar.xml')/content/calendar/event[ministries/ministry/@id = $filter]">
+  </xsl:apply-templates>
+  </table>
+</xsl:template>
+
 <xsl:template match="calendar">
-	<table border="0" cellspacing="0" cellpadding="0" width="100%">
-		<tr>
-			<td width="100%" class="heading" align="left" valign="top" nowrap="true" colspan="3">Upcoming Events</td>
-		</tr>
-		<tr>
-			<td width="100%" class="tablecell" align="left" valign="top" nowrap="true" colspan="3"><br/></td>
-		</tr>
-		<xsl:apply-templates>
-			<xsl:sort select="@date"/>
-		</xsl:apply-templates>
-	</table>
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tr>
+      <td width="100%" class="heading" align="left" valign="top" nowrap="true" colspan="3">Upcoming Events</td>
+    </tr>
+    <tr>
+      <td width="100%" class="tablecell" align="left" valign="top" nowrap="true" colspan="3"><br/></td>
+    </tr>
+	    <xsl:apply-templates >
+	      <xsl:sort select="@date"/>
+	    </xsl:apply-templates>
+  </table>
 </xsl:template>
 
 <xsl:template match="event">

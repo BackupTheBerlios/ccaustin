@@ -7,7 +7,7 @@
  Other variants of this file may offer more search engine or accessibility-friendly
  navigation and less Javascript features for older browsers. 
  
- $Id: calvarykids.xsl,v 1.1 2003/09/23 19:47:39 javajames27 Exp $
+ $Id: calvarykids.xsl,v 1.2 2003/12/02 20:46:05 javajames27 Exp $
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
  <xsl:output method="html" indent="yes"/>
@@ -28,7 +28,7 @@
     <!--meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/ -->
     <title>Calvary Austin / <xsl:value-of select="./content/@title"/>
     </title>
-    <link REL="STYLESHEET" href="../css/ca-kids.css"/>
+    <link REL="STYLESHEET" href="../css/ca-calvarykids.css"/>
     <meta content="text/html" http-equiv="Content-Type"/>
     <xsl:apply-templates select="content/script"/>
     <!-- allow our pages to include custom scripting -->
@@ -87,39 +87,81 @@
       </tr>
     </table>
     <!-- bottom table (content and footer) -->
-         <table border="0" width="100%" cellspacing="0" cellpadding="0">
-           <tr>
-                                  <td width="2%"><br/></td>
-             <td width="98%" valign="top"> 
-               <table width="100%" cellspacing="0">
-                 <tr>
-                  <td valign="top"><!-- BEGIN LAYOUT --><xsl:call-template name="perform-layout"/><!-- END LAYOUT --></td>
-                 </tr>
-                 <tr>
-                   <td align="center"><!-- FOOTER -->
-                 <table border="0" cellpadding="0" cellspacing="0">
-                   <tbody>
-                   <tr>
-                     <td align="left" colspan="7"><br/></td>
-            </tr>
-                   <tr>
-                     <td align="left" colspan="7"><img border="0" src="../images/arcupper.jpg"></img></td>
-            </tr>
-                   <tr>
-                     <td align="center" colspan="7">
-         <font size="1">
-         Copyright © 1999-2002 Calvary Chapel of Austin<br/>
-                                                          For Website problems or comments, send mail to
-         <a href="mailto:webservant-austin@calvarychapel.org"><img border="0" src="../images/email.gif"></img>webservant-austin@calvarychapel.org</a><br/>
-         Version: <xsl:value-of select="$VERSION"/>, Latest update: <xsl:value-of select="$TODAY"/><br/>
-         </font>
-       </td>
-            </tr>
-                   <tr>
-                     <td align="left" colspan="7"><img border="0" src="../images/arclower.jpg"></img></td>
-            </tr>
-            </tbody>
-          </table>
+
+<table cellSpacing="0" cellPadding="0" width="100%" border="0">
+  <tbody>
+    <tr> 
+    <td height="10" colspan="3" valign="bottom" bgcolor="#FFFFFF"><br/></td>
+    </tr>
+    <tr> 
+    <td height="10" colspan="3" valign="bottom" background="../images/calvarykids/tidrulee.gif" bgcolor="#FFFFFF"><img src="../images/calvarykids/tidrulee.gif" width="600" height="10"/></td>
+    </tr>
+    <tr class="underwater"> 
+    <td width="4%" valign="top"><img src="../images/calvarykids/bubbs0.gif" width="37" height="250"/></td>
+      <td width="94%" vAlign="top"> <table cellSpacing="0" width="100%">
+          <tbody>
+            <tr> 
+            <td vAlign="top"> <p class="pagetitle"><img src="../images/calvarykids/scuba_dive_md_clr.gif" width="130" height="97"/><xsl:value-of select="./content/@title"/></p>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr align="left" valign="top"> 
+                      <td><br/></td>
+                      <td><img src="../images/calvarykids/tidbul1e.gif" width="15" height="15" align="left"/> 
+                      <a href="index.html">Calvary Kids Home</a></td>
+                      <td><img src="../images/calvarykids/tidbul1e.gif" width="15" height="15" align="left"/> 
+                      <a href="events.html">Event Calendar</a></td>
+                      <td><img src="../images/calvarykids/tidbul1e.gif" width="15" height="15" align="left"/> 
+                      <a href="purpose.html">Our Purpose</a></td>
+                      <td><img src="../images/calvarykids/tidbul1e.gif" width="15" height="15" align="left"/> 
+                      <a href="sundays.html">Sundays</a></td>
+                      <td><img src="../images/calvarykids/tidbul1e.gif" width="15" height="15" align="left"/> 
+                      <a href="ydc.html">Wednesday YDC</a></td>
+                  </tr>
+                  <tr align="left" valign="top"> 
+                      <td><br/></td>
+                      <td><img src="../images/calvarykids/tidbul1e.gif" width="15" height="15" align="left"/> 
+                      <a href="links.html">Links for Kids</a></td>
+                      <td><img src="../images/calvarykids/tidbul1e.gif" width="15" height="15" align="left"/> 
+                      <a href="tools.html">Ministry Tools</a></td>
+                      <td><img src="../images/calvarykids/tidbul1e.gif" width="15" height="15" align="left"/> 
+                      <a href="serve.html">Serve With Us</a></td>
+                      <td><img src="../images/calvarykids/tidbul1e.gif" width="15" height="15" align="left"/> 
+                      <a href="contact.html">Contact Us</a></td>
+                  </tr>
+                </table>
+
+		     <table border="0" width="100%" cellspacing="0" cellpadding="0">
+		           <tr>
+		                                  <td width="2%"><br/></td>
+		             <td width="98%" valign="top"> 
+		               <table width="100%" cellspacing="0">
+		                 <tr>
+		                  <td valign="top"><p><br/></p><!-- BEGIN LAYOUT --><xsl:call-template name="perform-layout"/><!-- END LAYOUT --></td>
+		                 </tr>
+		                 <tr>
+		                   <td align="center"><!-- FOOTER -->
+		                 <table border="0" cellpadding="0" cellspacing="0">
+		                   <tbody>
+		                   <tr>
+		                     <td align="left" colspan="7"><br/></td>
+		            </tr>
+		                   <tr>
+		                     <td align="left" colspan="7"><hr/></td>
+		            </tr>
+		                   <tr>
+		                     <td align="center" colspan="7">
+		         <font size="1">
+		         Copyright © 1999-2002 Calvary Chapel of Austin<br/>
+		                                                          For Website problems or comments, send mail to
+		         <a href="mailto:webservant-austin@calvarychapel.org"><img border="0" src="../images/email.gif"/>webservant-austin@calvarychapel.org</a><br/>
+		         Version: <xsl:value-of select="$VERSION"/>, Latest update: <xsl:value-of select="$TODAY"/><br/>
+		         </font>
+		       </td>
+		            </tr>
+		                   <tr>
+		                     <td align="left" colspan="7"><hr/></td>
+		            </tr>
+		            </tbody>
+		          </table>
                    </td>
                  </tr>
                </table>
@@ -127,6 +169,14 @@
              </td>
            </tr>
          </table>
+         
+         </td></tr></tbody></table></td></tr>
+    <tr> 
+    <td colspan="3" background="../images/calvarykids/bottom.gif"><p><img src="../images/calvarykids/treasurechest.gif" width="123" height="84"/></p>
+        </td>
+    </tr>
+         </tbody></table>
+         
    </body>
   </html>
  </xsl:template>

@@ -1,32 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <content title="Calvary Kids Home">
-  <heading>Home</heading>
-
-  <p>Calvary Kids' mission is to reach children and parents, both here at Calvary Chapel Austin and out in the world beyond, with the love of God, through the teaching of His Word and through service to them.</p>
-
+  <p>Calvary Kids' mission is to reach children and parents, both 
+  here at Calvary Chapel Austin and out in the world beyond, with 
+  the love of God, through the teaching of His Word and through 
+  service to them.</p>
   <p>Our mission can be summed up by the acronym K.I.D.S.:</p>
-
-  <p><strong>K</strong>now our Families!</p>
-
-  <p><strong>I</strong>ntroduce them to Christ!</p>
-
-  <p><strong>D</strong>isciple, Disciple, Disciple!</p>
-
-  <p><strong>S</strong>end them out to Serve!</p>
- 
-
-  <p>Please make yourself at home as you explore the Calvary Kids ministry. Dive right in, using the starfish navigation buttons found at the top and bottom of each page. If you have questions or comments as you explore our ministry, please contact:</p>
-
-  <p align="center">Donna Cano<br/>
+  <p><strong>K</strong>now our Families!<br/>
+  <strong>I</strong>ntroduce them to Christ!<br/>
+  <strong>D</strong>isciple, Disciple, Disciple!<br/>
+  <strong>S</strong>end them out to Serve!</p>
+  <p class="subheading">Overview</p>
+  <p>Calvary Kids is designed to serve children from ages one month 
+  through 5th grade. We have three departments in our Children's 
+  Ministry: Nursery (newborn through 2 years old), Preschool (3 
+  - 5 years old), and Elementary (1st - 5th grade). We love children 
+  and open our classes to serve them on all service times. Our 
+  Sunday class activities includes Bible lessons, worship, crafts, 
+  play, felt stories, games and lots of heart felt care from trained 
+  teachers and assistants.</p>
+  <p>On Wednesday evening we have a separate curriculum servicing 
+  our Toddler and Preschool Ministries. Our YDC Club meets on 
+  Wednesday evening as well, and trains our children in a real 
+  fun, active way to live for Christ. They win prizes and earn 
+  awards as they learn important Christian values and Biblical 
+  truths.<br/></p>
+  <p>Donna Cano<br/>
   Children's Ministry Director<br/>
   Calvary Chapel of Austin<br/>
   9414 Parkfield Drive<br/>
   Austin, Texas 78758<br/>
   Phone: 512.719.4667<br/>
   Email: <a href="mailto:donna@calvaryaustin.org">donna@calvaryaustin.org</a></p>
- 
-
   <p>Oh, and one more thing - don't forget your scuba gear!</p>
-
+  <p><img src="../images/calvarykids/1bulles.gif" width="30" height="41" align="right"/></p>
 </content>
