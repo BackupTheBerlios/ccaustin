@@ -3176,6 +3176,23 @@
 		<audio>bibleoverview/44-act-16.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Act/Act016.html#top</passageref>
 	</message>
+	<message date="20020821" service="midweek" category="guestspeaker">
+		<seriestitle>HaggaiActs</seriestitle>
+		<title>Haggai</title>
+		<passage>Haggai</passage>
+		<tape>GS082102</tape>
+		<audio>guestspeaker/gnicks0802.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Hag/Hag001.html#top</passageref>
+	</message>
+	<message date="20020828" service="midweek" category="overview">
+		<seriestitle>Acts</seriestitle>
+		<title></title>
+		<passage>Acts 17-18</passage>
+		<tape>B01293</tape>
+		<audio>bibleoverview/44-act-17.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Act/Act017.html#top</passageref>
+	</message>
+
 
 
     <message date="19940522" service="sunday" category="topical series">
@@ -8122,6 +8139,15 @@
 		<audio>topicmessage/arigg0802.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/2Ti/2Ti003.html#top</passageref>
 	</message>
+	<message date="20020901" service="sunday" category="book studies">
+		<seriestitle>Ephesians</seriestitle>
+		<title>Making the Most of Your Marriage</title>
+		<passage>Ephesians 5:22-24</passage>
+		<tape>BS090102</tape>
+		<audio>49-eph/49-eph-05-22.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph005.html#top</passageref>
+	</message>
+
 
 
 </messagecatalog>
