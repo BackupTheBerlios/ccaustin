@@ -7,7 +7,7 @@
 	Processes the ministry tag and its children tags. Most tags reference news and articles located in other files, 
 	so we perform queries on other documents to obtain the data we need for this page. Nice for reusability!
 	
-	$Id: home.xsl,v 1.11 2002/07/06 04:42:37 javajames27 Exp $
+	$Id: home.xsl,v 1.12 2002/07/07 23:04:12 javajames27 Exp $
 	
 -->	
 
@@ -21,11 +21,17 @@
 
 <xsl:template match="home">
 	<table width="100%" cellpadding="0" cellspacing="0"  border="0">
-		<tbody>
-		       <xsl:apply-templates select="featured-item"/>
-		       <xsl:apply-templates select="news"/>
-		</tbody>
-	</table>
+          <tr>
+            <td width="75%">
+              <xsl:apply-templates select="featured-item"/>
+            </td>
+          </tr>
+          <tr>
+            <td width="75%">
+              <xsl:apply-templates select="news"/>
+            </td>
+          </tr>
+        </table>
 </xsl:template>
 
 <xsl:template match="news">
@@ -79,35 +85,23 @@
 			<td colspan="2" class="newssubtitle" align="left" valign="top"><xsl:value-of select="date"/></td>
 		</tr>
 		<tr>
-			<td colspan="2" class="newsitem" align="left" valign="top"><xsl:value-of select="full"/></td>
+			<td colspan="2" class="newsitem" align="left" valign="top"><xsl:apply-templates select="full"/></td>
   	     </tr>
 </xsl:template>
 
 <xsl:template match="featured-item">
-			<tr>
-				<td width="75%">
-					<table width="100%" cellpadding="0" cellspacing="0" border="0">
-						<tbody>
-							<xsl:apply-templates select="article"/>
-						</tbody>
-					</table>
-				</td>
-			</tr>
-			<tr>
-				<td width="75%"><xsl:apply-templates select="news"/></td>
-			</tr>
-			<tr>
-				<td width="75%"><xsl:apply-templates select="features"/></td>
-			</tr>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <xsl:apply-templates select="article"/>
+  </table>
 </xsl:template>
 
 <xsl:template match="article">
-       <xsl:variable name="doc">../articles/<xsl:value-of select="@id"/>.xml</xsl:variable>
-	<xsl:for-each select="document($doc)/content/article">
-							<tr class="featuredarticlebox">
-								<td width="225"><img src="../images/{@image}" alt="Featured Article"/></td>
-								<td width="99%" valign="center"><xsl:value-of select="heading"/><br/><p class="featureintro"><xsl:value-of select="intro"/><xsl:text> </xsl:text><span class="readmore">[<a href="../articles/{@id}.html" class="readmore ">Read More...</a>]</span></p></td>
-							</tr>
+  <xsl:variable name="doc">../articles/<xsl:value-of select="@id"/>.xml</xsl:variable>
+  <xsl:for-each select="document($doc)/content/article">
+    <tr class="featuredarticlebox">
+      <td width="225"><img src="../images/{@image}" alt="Featured Article"/></td>
+      <td width="99%" valign="center"><xsl:value-of select="heading"/><br/><p class="featureintro"><xsl:value-of select="intro"/><xsl:text> </xsl:text><span class="readmore">[<a href="../articles/{@id}.html" class="readmore ">Read More...</a>]</span></p></td>
+    </tr>
 	</xsl:for-each>
 </xsl:template>
 

@@ -32,11 +32,12 @@ p       { font-size: 90% }
 
 .featuredarticlebox { background-color: #FFFFFF; }
 
-.newstitle {  font-size: 85%; font-weight: bold }
-.newssubtitle {  font-size: 75%; font-weight: bold }
-.newsitem {  font-size: 75% }
-.tablecellnews { background-color: #daecfb; }
-.tableheadernews {  background-color: #daecfb; font-weight: bold }
+.newstitle {  color: #000000; font-size: 85%; font-weight: bold }
+.newssubtitle {  color: #000000; font-size: 75%; font-weight: bold }
+.newsitem {  color: #000000; font-size: 75% }
+/* #CED3E7 */
+.tablecellnews { color: #000000; background-color: #EFF3FF; }
+.tableheadernews {  color: #000000; background-color: #EFF3FF; font-weight: bold }
 
 .featuretitle {  font-size: 95%; font-weight: bold }
 .featuresubtitle {  font-size: 85%; font-weight: bold }

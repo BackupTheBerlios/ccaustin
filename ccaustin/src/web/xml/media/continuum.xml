@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
 
-	The simple index page for the site
+	Redirects to new page from the old link still living in the bulletin
 	
-	$Id: continuum.xml,v 1.1 2002/04/11 02:31:47 javajames27 Exp $
+	$Id: continuum.xml,v 1.2 2002/07/07 23:04:12 javajames27 Exp $
 		
 -->
 <content title="Continuum" base=".">
-	<redirect href="media/radiotv.html"/>
+	<redirect href="media/index.html"/>
 </content>

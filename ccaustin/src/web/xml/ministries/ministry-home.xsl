@@ -6,7 +6,7 @@
 	
 	Processes the ministry tag and its children tags
 	
-	$Id: ministry-home.xsl,v 1.8 2002/05/26 03:35:25 javajames27 Exp $
+	$Id: ministry-home.xsl,v 1.9 2002/07/07 23:04:13 javajames27 Exp $
 	
 -->	
 
@@ -31,7 +31,7 @@
           <xsl:choose>
 		  <xsl:when test="$logo != '' ">
 			<tr>
-			     <td width="100%" align="left"><table border="0"><tr><td class="ministrytitle"><xsl:value-of select="text()"/></td><td width="1%" nowrap="true"><img src="{$logo}"/></td></tr></table></td>
+                          <td width="100%" align="left"><table border="0"><tr><td class="ministrytitle"><p><xsl:value-of select="text()"/></p></td><td width="1%" nowrap="true"><img src="{$logo}"/></td></tr></table></td>
 			</tr>
 			<tr>
 			     <td width="100%" align="left"><br/></td>
@@ -39,7 +39,7 @@
 		  </xsl:when>
 		  <xsl:otherwise>
 			<tr>
-			     <td width="100%" align="left"><table border="0"><tr><td class="ministrytitle"><xsl:value-of select="text()"/></td><td width="1%" nowrap="true"><img src="../images/ministries/generic.gif"/></td></tr></table></td>
+                          <td width="100%" align="left"><table border="0"><tr><td class="ministrytitle"><p><xsl:value-of select="text()"/></p></td><td width="1%" nowrap="true"><img src="../images/ministries/generic.gif"/></td></tr></table></td>
 			</tr>
 			<tr>
 			     <td width="100%" align="left"><br/></td>
@@ -51,7 +51,7 @@
 
 <xsl:template match="overview">
 		<tr>
-			<td width="100%" class="tablecell" align="left" valign="top"><xsl:value-of select="text()"/></td>
+                  <td width="100%" class="tablecell" align="left" valign="top"><p><xsl:value-of select="text()"/></p></td>
 		</tr>
 		<tr>
 			<td><br/></td>
@@ -70,7 +70,7 @@
 			<td><br/></td>
 		</tr>
 		<tr>
-			<td width="100%" class="tablecell" align="left" valign="top"><xsl:apply-templates/></td>
+                  <td width="100%" class="tablecell" align="left" valign="top"><p><xsl:apply-templates/></p></td>
 		</tr>
 		<tr>
 			<td><br/></td>
@@ -88,21 +88,16 @@
 		</tr>
 
 		<tr>
-			<td width="100%" class="tablecell" align="left" valign="top" nowrap="true">Here are some upcoming events...</td>
-		</tr>
-
-		<tr>
 			<td width="100%" class="tablecell" align="left" valign="top" nowrap="true"><br/></td>
 		</tr>
 
 		<xsl:for-each select="document('../calendar/calendar.xml')/content/calendar/event/ministries/ministry[@id=$ministryid]">
 			<xsl:call-template name="event"/>
-		</xsl:for-each>		
-		
 		<tr>
 			<td width="100%" class="tablecell" align="left" valign="top" nowrap="true"><br/>
 			</td>
 		</tr>
+		</xsl:for-each>		
 		
 		</xsl:if>
 		<tr>
@@ -118,30 +113,30 @@
 
 <xsl:template match="contact-phone">
   			<tr>
-				<td width="100%" class="tablecell" align="left" valign="top"><xsl:value-of select="."/> : <xsl:value-of select="@phone"/> 
+                          <td width="100%" class="tablecell" align="left" valign="top"><p><xsl:value-of select="."/> : <xsl:value-of select="@phone"/></p> 
                      </td>
 			</tr>
 </xsl:template>
 
 <xsl:template match="contact-email">
   			<tr>
-				<td width="100%" class="tablecell" align="left" valign="top">Contact: 
+				<td width="100%" class="tablecell" align="left" valign="top"><p>Contact: 
 				  <a>
 				    <xsl:attribute name="href">mailto:<xsl:value-of select="@email"/></xsl:attribute>
                          <xsl:value-of select="."/>
                        </a>
-                     </td>
+                     </p></td>
 			</tr>
 </xsl:template>
 
 <xsl:template match="contact-web">
   			<tr>
-				<td width="100%" class="tablecell" align="left" valign="top">More Info: 
+				<td width="100%" class="tablecell" align="left" valign="top"><p>More Info: 
 				  <a>
 				    <xsl:attribute name="href"><xsl:value-of select="@href"/></xsl:attribute>
                          <xsl:value-of select="."/>
                        </a>
-				</td>
+                     </p></td>
 			</tr>
 </xsl:template>
 
@@ -150,13 +145,13 @@
 			<td>
 			<table width="100%" cellspacing="0" cellpadding="0">
 				<tr>
-					<td width="25%" class="tableheader" align="left" valign="top" nowrap="true"><xsl:value-of select="../../date"/></td>
-					<td width="65%" class="tableheader" align="left" valign="top" nowrap="true" colspan="2"><xsl:value-of select="../../title"/></td>
-					<td width="10%" class="tableheader" align="left" valign="top" nowrap="true" colspan="2"><br/></td>
+                                  <td width="25%" class="heading" align="left" valign="top" nowrap="true"><p><xsl:value-of select="../../date"/></p></td>
+                                  <td width="65%" class="heading" align="left" valign="top" nowrap="true" colspan="2"><p><xsl:value-of select="../../title"/></p></td>
+					<td width="10%" class="heading" align="left" valign="top" nowrap="true" colspan="2"><br/></td>
 				</tr>
 				<tr>
 					<td width="25%" align="left" valign="top"><xsl:value-of select="../../time"/></td>
-					<td width="75%" align="left" valign="top" colspan="2">
+					<td width="75%" align="left" valign="top" colspan="2"><p>
 						<xsl:choose>
 							<xsl:when test="../../location != '' ">
 				  			  Location: <xsl:value-of select="../../location"/>
@@ -165,11 +160,10 @@
 							   <br/>
 							</xsl:otherwise>
 						</xsl:choose>
-				     </td>
+                                              </p> </td>
 				</tr>
 				<tr>
-					<td width="25%" align="left" valign="top"><br/></td>
-					<td width="75%" align="left" valign="top" colspan="2"><span class="detail"><xsl:value-of select="../../detail"/></span></td>
+                                        <td width="75%" align="left" valign="top" colspan="3"><p><xsl:value-of select="../../detail"/></p></td>
 				</tr>
 			</table>
 			</td>
