@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.31 2003/04/18 19:26:58 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.32 2003/05/11 20:21:03 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -67,17 +67,31 @@
 			<title>Bookstore</title>
 			<detail>Want to grow deeper in your walk with the Lord?  There's something for everyone in the family including great music, journals, and books for kids.  If you can't find what you're looking for, we can order it for you.</detail>
 		</news-item>
-		<news-item id="43" date="20030302" expires="20030501" showOnHomepage="true">
-			<title>Internet Ministry</title>
-			<detail>Want to grow deeper in your walk with the Lord by serving?  <link href="mailto:webservant-austin@calvarychapel.org">Contact the web ministry</link> if you have skills in any of the following areas: Java, JSP, XML, Javascript, HTML, and professional web design. </detail>
+		<news-item id="43" date="20030302" expires="20030601" showOnHomepage="true">
+			<title>Release Your Inner Geek</title>
+			<detail>The gospel presented in multimedia - from streaming video/audio to web servers, networking, and programming. Join the Internet Ministry as we take God's Word to the world and serve the body of Calvary Austin! Join in the fun and serve the Lord with your skills. <link href="mailto:webservant-austin@calvarychapel.org">Contact the web ministry</link> or visit the <link href="../ministries/internet.html">Internet Ministry Page</link>to learn how you can be a part of this exciting outreach.</detail>
 		</news-item>
-		<news-item id="44" date="20030402" expires="20030501" showOnHomepage="true">
+		<news-item id="44" date="20030402" expires="20030601" showOnHomepage="true">
 			<title>Women's Ministry</title>
-			<detail>Two studies are being offered this summer, June through August.  A bible study titled “Healed and Set Free” will meet every Tuesday, 7-9PM.  Sharing will be in very small groups.  Also, a study titled “Principles for Women in Leadership”, is designed for those in leadership or desiring to know more about becoming a leader.  It will meet every other Tuesday, 7-9PM. </detail>
+			<detail>Our Women¹s Ministry is offering 2 studies, Jun 3 through Aug 12. A bible study titled "Healed and Set Free" will meet every Tuesday, 7-9PM. Sharing will be in very small groups.  And a study titled "Principles for Women in Leadership", designed for those desiring to know more about women¹s leadership will meet every other Tuesday, 7-9PM. Sign up at the Events Center. 
+</detail>
 		</news-item>
 		<news-item id="45" date="20030418" expires="20030425" showOnHomepage="true">
 			<title>Women's Retreat Tapes</title>
 			<detail>Audio tapes from the women’s retreat are now available.  Place your order at the Media Center in the lobby.</detail>
+		</news-item>
+		<news-item id="46" date="20030511" expires="20030530" showOnHomepage="true">
+			<title>Frontline Worship CD</title>
+			<detail>Gracemongers, one of the FrontLine Worship teams has released their CD.  It is available in the bookstore for $10.</detail>
+		</news-item>
+		<news-item id="47" date="20030511" expires="20030602" showOnHomepage="true">
+			<title>Free Indeed Addictions Ministry</title>
+			<detail>Calvary Austin is introducing a new internet-based ministry to address pornography, substance abuse, overeating, smoking or other addictive sins.  If you need help in one of these areas or would like to serve in this ministry visit the <link href="../ministries/freeindeed.html">ministry's home page</link></detail>
+		</news-item>
+		<news-item id="48" date="20030511" expires="20030602" showOnHomepage="true">
+			<title>The Cupboard</title>
+			<detail>Our food pantry provides food to families in the body of Calvary during times of need.  If you need assistance from this ministry, contact the church office. 
+</detail>
 		</news-item>
 	</news>
 </content>

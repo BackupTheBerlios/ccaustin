@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.45 2003/05/01 19:39:23 javajames27 Exp $
+	$Id: calendar.xml,v 1.46 2003/05/11 20:21:03 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -298,7 +298,7 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
     <event id="06002" date="20030627" showOnHomepage="true">
       <title>V.B.S. Day Camp</title>
       <date>June 23rd-27th</date>
-      <intro>Every year our church offers a wonderful Vacation Bible School.  This year, we want a more time to develop the lessons and teach with great effectiveness.  Therefore, we are increasing the times and changing the V. B. S.  to a full DAY CAMP.  </intro>
+      <intro>VBS is just around the corner, Jun 23-27. This year VBS will run from 9AM to 4PM daily. Pick up a flyer at the Events Center. The registration cost is $10.  Extended care will be provided for an additional $25.</intro>
       <detail>Every year our church offers a wonderful Vacation Bible School.  This year, we want a more time to develop the lessons and teach with great effectiveness.  Therefore, we are increasing the times and changing the V. B. S.  to a full DAY CAMP.  We will offer lots of fun activities including camp crafts, snacks, games, worship, drama, prizes and, most of all, great Bible stories taught in a way that will leave a lasting impression.  Our theme this year will take us under the deep ocean, so if you think something "fishy" is going on, then you must come check it out!  We will offer V. B. S. Day Camp to all kids entering kindergarten this August through 5th grade.  Dates will be June 23-27th, (please register early because space is limited)!  For more information call Kerry Schroeder at 219-7028.</detail>
 		<ministries>
 			<ministry id="children"/>
@@ -311,6 +311,13 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
 		<ministries>
 			<ministry id="coffee"/>
 		</ministries>
+    </event>
+    
+    <event id="06003" date="20030621" showOnHomepage="true">
+	 <title>Calvary Picnic and Baptism</title>
+		<date>June 21st</date>
+		<detail>On Saturday, Jun 21, we will offer a catered lunch from the ³Texas Rib Kings.²  Tickets for the BBQ, $5 for adults and $3 for children, are available at the Events Center.  The catered lunch starts at noon.  The baptism starts at 3PM.  The event will last until 4:30 and be held near the 1st boat ramp at Emma Long Park, 1706 City Park Road. 
+</detail>
     </event>
 		<!--
     ===============
@@ -325,10 +332,18 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
     </event>
     <event id="07002" date="20030702" showOnHomepage="false">
 	 <title>Eph-pha-tha</title>
-		<date>July 2ndh</date>
+		<date>July 2nd</date>
 		<detail>Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	     </detail>
 		<ministries>
 			<ministry id="coffee"/>
+		</ministries>
+    </event>
+    <event id="07003" date="20030716" showOnHomepage="true">
+	 <title>Calvary Austin's Recording of "Live" Worship CD</title>
+		<date>July 15th and 16th</date>
+		<detail>Be a part of the recording of Calvary Austin's first worship CD by our worship team!</detail>
+		<ministries>
+			<ministry id="worship"/>
 		</ministries>
     </event>
 		<!--
