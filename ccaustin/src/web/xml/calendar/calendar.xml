@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.72 2003/09/06 04:31:18 gregk Exp $
+	$Id: calendar.xml,v 1.73 2003/09/17 07:03:09 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -209,15 +209,15 @@
 		<date>Sept 23rd</date>
                 <detail>Sign up at the Events Center for a study involving New Testament Men of Faith. The class will meet every other Tuesday evening at 7PM starting on Sept 23.</detail>
     </event>
-    <event id="09008" date="20030916" showOnHomepage="false">
+    <event id="09008" date="20030916" showOnHomepage="true">
 	 <title>Women's Tues PM Bible Study</title>
 		<date>Sept 16th</date>
     </event>
-    <event id="09009" date="20030923" showOnHomepage="false">
+    <event id="09009" date="20030923" showOnHomepage="true">
 	 <title>Women's Tues AM Bible Study</title>
 		<date>Sept 23rd</date>
     </event>
-    <event id="09010" date="20031106" showOnHomepage="false">
+    <event id="09010" date="20031106" showOnHomepage="true">
 	 <title>Mid-South Pastors and Leaders Conference</title>
 		<date>Nov 6th-8th</date>
     </event>
@@ -226,6 +226,14 @@
 			Oct
 	===============
 -->
+    <event id="10010" date="20031020" showOnHomepage="true">
+	 <title>Communion</title>
+		<date>Oct 19th</date>
+    </event>
+    <event id="10002" date="20031023" showOnHomepage="true">
+	 <title>Extended Worship</title>
+		<date>Oct 22nd</date>
+    </event>
 		<!--
 	===============
 			Nov

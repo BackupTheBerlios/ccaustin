@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.45 2003/09/06 04:33:35 gregk Exp $
+	$Id: whatsnew.xml,v 1.46 2003/09/17 07:03:40 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -132,7 +132,7 @@
 			<title>Men's Retreat</title>
 			<detail>Registration continues until Aug 31th for the Sept 25-27 retreat at T-Bar-M Ranch in New Braunfels. The main speaker is Ken Graves from Calvary Chapel Bangor, Maine. Sign up at the Events Center.</detail>
 		</news-item>
-		<news-item id="58" date="20030712" expires="20030720" showOnHomepage="true">
+		<news-item id="58" date="20030712" expires="20030930" showOnHomepage="true">
 			<title>Prayer Chain</title>
 			<detail>Members of the body of Calvary are encouraged to contact the Prayer Chain with prayer needs so those who are a part of the ministry may lift them up to the Lord (479-9454).</detail>
 		</news-item>
@@ -174,7 +174,7 @@
 		</news-item>
 		<news-item id="68" date="20030824" expires="20030912" showOnHomepage="true">
 			<title>Preorder Your "Live" Worship CD!</title>
-			<detail>Starting Aug 24th, you may support our recording project by preordering the Calvary Austin Worship CD at a 20% discount for $12. Come by the Events Center today.</detail>
+			<detail>You may support our recording project by preordering the Calvary Austin Worship CD at a 20% discount for $12. Come by the Events Center today.</detail>
 		</news-item>
 		<news-item id="69" date="20030824" expires="20030912" showOnHomepage="true">
 			<title>New Believers' Class</title>
@@ -182,7 +182,7 @@
 		</news-item>
 		<news-item id="70" date="20030824" expires="20030923" showOnHomepage="false">
 			<title>Women's Fall Bible Studies</title>
-			<detail>Sign up at the Events Center for the Face-to-Face with Women of the Bible study. The costs is $13. The Tuesday Morning Study will begin Sept 23rd, meet at 10AM, and provide cooperative childcare. The Tuesday Evening Study will begin Sept 16th, meet every other Tuesday at 7PM, and will not provide childcare.</detail>
+			<detail>Sign up at the Events Center for the "Face-to-Face with Women of the Bible" study. The costs is $13. The Tuesday Morning Study will begin Sept 23rd, meet at 10AM, and provide cooperative childcare. The Tuesday Evening Study will begin Sept 16th, meet every other Tuesday at 7PM, and will not provide childcare.</detail>
 		</news-item>
 		<news-item id="71" date="20030825" expires="20030925" showOnHomepage="true">
 			<title>Radio, TV and Internet</title>
@@ -192,7 +192,7 @@
 			<title>Audio</title>
 			<detail>Pastor Allen's messages are available on tape, CD, and MP3 after every service in the lobby. Tape catalogs are also available.</detail>
 		</news-item>
-		<news-item id="73" date="20030825" expires="20030916" showOnHomepage="false">
+		<news-item id="73" date="20030825" expires="20030930" showOnHomepage="false">
 			<title>Bookstore</title>
 			<detail>Check-out our large selection of books. You can also special order. The bookstore is open after every Wednesday and Sunday service.</detail>
 		</news-item>
@@ -203,6 +203,22 @@
 		<news-item id="75" date="20030905" expires="20030930" showOnHomepage="false">
 			<title>The Cupboard</title>
 			<detail>Our food pantry will provide food to families in the body of Calvary during times of need. You may donate non-perishable food and personal hygiene items. Place donations in the Collection Area near the restrooms. If you need assistance from this ministry, contact the church office. For more information contact Derrick or Crystal Kinney at 310-2590</detail>
+		</news-item>
+		<news-item id="76" date="20030915" expires="20030922" showOnHomepage="false">
+			<title>Radio Ministry Note</title>
+			<detail>Pastor Allen's 7:30 PM Mon-Fri broadcast on KIXL has moved to 9:30 AM on KBBW 1010AM.</detail>
+		</news-item>
+		<news-item id="77" date="20030915" expires="20030930" showOnHomepage="true">
+			<title>Women's Ministry Worship Team</title>
+			<detail>The Women's Ministry is in need of a Women's Worship Team, both vocalist and instrumentalist. Contact Heather Reynolds (565-3859) if you are interested in becoming a part of the team.</detail>
+		</news-item>
+		<news-item id="78" date="20030915" expires="20030930" showOnHomepage="true">
+			<title>Women Helping Women</title>
+			<detail>This ministry offers prayer, spiritual guidance, and support to any woman who makes Calvary Chapel her church home. For an appointment, call the church office during normal working hours.</detail>
+		</news-item>
+		<news-item id="79" date="20030915" expires="20030930" showOnHomepage="false">
+			<title>Men's Bible Study</title>
+			<detail>Sign up today at the Events Center for a study involving the New Testament Men of Faith. This class will meet every other Tuesday evening at 7PM starting on Sept 23.</detail>
 		</news-item>
 	</news>
 </content>
