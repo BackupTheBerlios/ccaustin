@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.51 2003/06/04 16:13:24 javajames27 Exp $
+	$Id: calendar.xml,v 1.52 2003/06/04 21:44:17 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -350,9 +350,9 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
     </event>
     
     <event id="06007" date="20030625" showOnHomepage="true">
-	 <title>Jacques Grant and Rewird</title>
+	 <title>Jacques Grant and Rewired</title>
 		<date>June 25th</date>
-		<detail>Jacques Grant and Rewird is a Chicago style blues band from Austin. Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	     </detail>
+		<detail>Jacques Grant and Rewired is a Chicago style blues band from Austin. Come to <link href="../ministries/coffee.html">Coffee Creator</link> for some music, great coffee, and fellowship. 	     </detail>
 		<ministries>
 			<ministry id="coffee"/>
 		</ministries>
