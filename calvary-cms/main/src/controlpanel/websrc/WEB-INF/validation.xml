@@ -10,9 +10,6 @@
     form bean are validated during a single request. This enables portions
     of a form bean to be validated in a multi-step wizard approach.
 
-    This file was based on the validation.xml in the examples found in the
-    .zip archive at: http://home.earthlink.net/~dwinterfeldt/overview.html
-
 -->
 
 <form-validation>
@@ -22,6 +19,23 @@
         validation rules.
    -->
   <global>
+      <validator name="wellformed"
+            classname="org.calvaryaustin.web.validation.XMLChecks"
+               method="validateWellFormed"
+         methodParams="java.lang.Object,
+                       org.apache.commons.validator.ValidatorAction,
+                       org.apache.commons.validator.Field,
+                       org.apache.struts.action.ActionErrors,
+                       javax.servlet.http.HttpServletRequest"
+                  msg="errors.wellformed">
+
+         <javascript><![CDATA[
+            function validateWellFormed(form) {
+                return true;
+            }]]>
+         </javascript>
+
+      </validator>
   </global>
    <!-- Form Sets  -->
 
@@ -34,7 +48,7 @@
     <!-- Editor Form  -->
     <form name="editor">
       <field property="content"
-        depends="required">
+        depends="required,wellformed">
         <arg0 key="editorForm.content.displayname"/>
       </field>
       <!--

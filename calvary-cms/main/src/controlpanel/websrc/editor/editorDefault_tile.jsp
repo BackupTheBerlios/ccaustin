@@ -7,7 +7,7 @@
 <%@ taglib uri="/WEB-INF/display.tld"          prefix="display" %>
 <%@ taglib uri="/WEB-INF/calvary.tld"          prefix="calvary" %>
 
-<html:errors/>
+<p class="error"><html:errors property="org.apache.struts.action.GLOBAL_ERROR"/></p>
 <html:form action="/editorSave">
 	<html:hidden property="site"/>
 	<html:hidden property="path"/>
@@ -17,6 +17,7 @@
 		<bean:message key="editorForm.contentType.displayname"/>: <bean:write name="editor" property="contentType"/>
 	</p>
 	<p class="fieldLabel"><bean:message key="editorForm.content.displayname"/>:</p>
+	<p class="error"><html:errors property="content"/></p>
 	<p>
 		<html:textarea property="content" rows="40" cols="80"/>
 	</p>
