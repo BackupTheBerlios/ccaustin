@@ -14,7 +14,7 @@
 	When a new tag is needed, consider using its HTML equivalent if its name and format is common english. 
 	(e.g. <a/> is not really anything meaningful for the average person, but <link/> is)
 	
-	$Id: html.xsl,v 1.3 2003/05/01 15:49:04 javajames27 Exp $
+	$Id: html.xsl,v 1.4 2003/05/27 20:41:20 javajames27 Exp $
 -->
 
 
@@ -116,17 +116,37 @@
 	
 -->
   <xsl:template match="img">
-    <img>
-      <xsl:if test="@src">
-        <xsl:attribute name="src">
-          <xsl:value-of select="@src"/>
-        </xsl:attribute>
-      </xsl:if>
-      <xsl:for-each select="@*[not(name(.)=src)]">
-        <xsl:copy-of select="."/>
-      </xsl:for-each>
-      <xsl:apply-templates/>
-    </img>
+  	<xsl:choose>
+		<xsl:when test="@href">
+	      	<a href="{@href}">
+			    <img>
+			      <xsl:if test="@src">
+			        <xsl:attribute name="src">
+			          <xsl:value-of select="@src"/>
+			        </xsl:attribute>
+			      </xsl:if>
+			      <xsl:attribute name="border">0</xsl:attribute>
+			      <xsl:for-each select="@*[not(name(.)=src)]">
+			        <xsl:copy-of select="."/>
+			      </xsl:for-each>
+			      <xsl:apply-templates/>
+			    </img>
+			    </a>
+		</xsl:when>
+		<xsl:otherwise>
+		    <img>
+		      <xsl:if test="@src">
+		        <xsl:attribute name="src">
+		          <xsl:value-of select="@src"/>
+		        </xsl:attribute>
+		      </xsl:if>
+		      <xsl:for-each select="@*[not(name(.)=src)]">
+		        <xsl:copy-of select="."/>
+		      </xsl:for-each>
+		      <xsl:apply-templates/>
+		    </img>
+		</xsl:otherwise>
+	</xsl:choose>
   </xsl:template>
 
 <!--

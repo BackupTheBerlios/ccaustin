@@ -128,6 +128,9 @@
     <copy todir="${build.web.dir}/conferences">
       <fileset dir="${src.html.dir}/conferences"/>
     </copy>
+    <copy todir="${build.web.dir}/pdf">
+      <fileset dir="${src.html.dir}/pdf"/>
+    </copy>
   </target>
   
   <target name="dist">
@@ -150,6 +153,9 @@
 	<include name="**/*.jpg"/>
 	<include name="**/*.xml"/>
       </fileset>
+    </copy>
+    <copy todir="${dist.web.dir}/pdf" overwrite="true">
+      <fileset dir="${build.web.dir}/pdf"/>
     </copy>
     <copy todir="${dist.web.dir}/images" overwrite="true">
       <fileset dir="${src.images.dir}"/>

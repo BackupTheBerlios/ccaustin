@@ -6,7 +6,7 @@
         The sitemap contains the structure of the entire web site, and is used to drive
         the auto-generated scripts for generating the web site HTML from XML.
         
-        $Id: sitemap.xml,v 1.34 2003/05/20 22:09:38 javajames27 Exp $
+        $Id: sitemap.xml,v 1.35 2003/05/27 20:41:19 javajames27 Exp $
         
         hidden="true" prevents the page from showing on the sitemap.
         
@@ -194,6 +194,14 @@
           html="/events/baptism2003.html"
           hidden="true">
       <title>Baptism and Picnic 2003 Schedule</title>
+    </page>
+    <page datafile="/ccccretreat2003.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/events/ccccretreat2003.html"
+          hidden="true">
+      <title>Calvary Chapel Mid South College and Career Conference and Retreat 2003</title>
     </page>
     <page datafile="/mwc2003-redirect.xml"
           template="/templates/default.xsl"

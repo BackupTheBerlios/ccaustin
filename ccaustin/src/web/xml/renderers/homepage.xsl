@@ -4,7 +4,7 @@
      
      Homepage custom renderer
 
-     $Id: homepage.xsl,v 1.8 2003/03/26 17:04:42 javajames27 Exp $
+     $Id: homepage.xsl,v 1.9 2003/05/27 20:41:20 javajames27 Exp $
      
 -->       
 
@@ -186,9 +186,19 @@
           </tr>
         </xsl:when>
         <xsl:otherwise>
-          <tr>
-            <td colspan="2" class="eventitem" align="left" valign="top"><p><xsl:apply-templates select="detail"/></p></td>
-          </tr>
+	      <xsl:choose>
+	         <!-- Next, see if we have a logo -->
+		    <xsl:when test="logo">
+			  <tr>
+			    <td colspan="2" class="eventitem" align="left" valign="top"><p><img src="{logo/@img}" 		alt="{logo/@alt}" align="{logo/@align}"/><xsl:apply-templates select="detail"/></p></td>
+			  </tr>
+		    </xsl:when>
+		    <xsl:otherwise>
+	          <tr>
+	            <td colspan="2" class="eventitem" align="left" valign="top"><p><xsl:apply-templates 	select="detail"/></p></td>
+	          </tr>
+		    </xsl:otherwise>
+	      </xsl:choose>
         </xsl:otherwise>
       </xsl:choose>
     </xsl:when>
