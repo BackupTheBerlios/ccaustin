@@ -3301,11 +3301,9 @@
 		<title></title>
 		<passage>Romans 6</passage>
 		<tape>B01305</tape>
-		<audio></audio>
+		<audio>bibleoverview/45-rom-06.ram</audio>
 		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom006.html#top</passageref>
 	</message>
-
-	
 
     <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
@@ -6213,6 +6211,111 @@
 		<audio>40-mat/40-mat-28.ram</audio>
 		<passageref></passageref>
 	</message>
+
+	<message date="19940925" service="sunday" category="book studies">
+		<seriestitle>Philippians</seriestitle>
+		<title>Wisdom Regarding:  A Church Is Born</title>
+		<passage>Philippians 1:1-2</passage>
+		<tape>BS092594</tape>
+		<audio>50-phi/50-phi-01-01.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19941002" service="sunday" category="book studies">
+		<seriestitle>Philippians</seriestitle>
+		<title>Joy in Relationships</title>
+		<passage>Philippians 1:3-8</passage>
+		<tape>BS100294 - not available</tape>
+		<passageref></passageref>
+	</message>
+	<message date="19941009" service="sunday" category="book studies">
+		<seriestitle>Philippians</seriestitle>
+		<title>Joy in Prayer</title>
+		<passage>Philippians 1:9-11</passage>
+		<tape>BS100994</tape>
+		<audio>50-phi/50-phi-01-09.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19941016" service="sunday" category="book studies">
+		<seriestitle>Philippians</seriestitle>
+		<title>Joy in Circumstances</title>
+		<passage>Philippians 1:12-20</passage>
+		<tape>BS101694</tape>
+		<audio>50-phi/50-phi-01-12.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19941023" service="sunday" category="book studies">
+		<seriestitle>Philippians</seriestitle>
+		<title>Do You Want to Go To Heaven?</title>
+		<passage>Philippians 1:21-30</passage>
+		<tape>BS102394</tape>
+		<audio>50-phi/50-phi-01-21.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19941106" service="sunday" category="book studies">
+		<seriestitle>Philippians</seriestitle>
+		<title>Our Great Example</title>
+		<passage>Philippians 2:1-11</passage>
+		<tape>BS110694</tape>
+		<audio>50-phi/50-phi-02-01.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19941113" service="sunday" category="book studies">
+		<seriestitle>Philippians</seriestitle>
+		<title>Be an Example</title>
+		<passage>Philippians 2:12-16a</passage>
+		<tape>BS111394</tape>
+		<audio>50-phi/50-phi-02-12.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19941120" service="sunday" category="book studies">
+		<seriestitle>Philippians</seriestitle>
+		<title>Three Godly Examples</title>
+		<passage>Philippians 2:16b-30</passage>
+		<tape>BS112094</tape>
+		<audio>50-phi/50-phi-02-16b.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19941127" service="sunday" category="book studies">
+		<seriestitle>Philippians</seriestitle>
+		<title>Paul, the Accountant</title>
+		<passage>Philippians 3:1-11</passage>
+		<tape>BS112794</tape>
+		<audio>50-phi/50-phi-03-01.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19941204" service="sunday" category="book studies">
+		<seriestitle>Philippians</seriestitle>
+		<title>Paul, the Athlete</title>
+		<passage>Philippians 3:12-16</passage>
+		<tape>BS120494</tape>
+		<audio>50-phi/50-phi-03-12.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19941211" service="sunday" category="book studies">
+		<seriestitle>Philippians</seriestitle>
+		<title>Paul, the Alien</title>
+		<passage>Philippians 3:17-21</passage>
+		<tape>BS121194</tape>
+		<audio>50-phi/50-phi-03-17.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19941218" service="sunday" category="book studies">
+		<seriestitle>Philippians</seriestitle>
+		<title>Don't Worry</title>
+		<passage>Philippians 4:1-9</passage>
+		<tape>BS121894</tape>
+		<audio>50-phi/50-phi-04-01.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19950101" service="sunday" category="book studies">
+		<seriestitle>Philippians</seriestitle>
+		<title>How to Be Content</title>
+		<passage>Philippians 4:10-23</passage>
+		<tape>BS010195</tape>
+		<audio>50-phi/50-phi-04-10.ram</audio>
+		<passageref></passageref>
+	</message>
+
 	<message date="19961117" service="sunday" category="book studies">
 		<seriestitle>John</seriestitle>
 		<title>The Word Became Flesh</title>
@@ -8399,7 +8502,7 @@
 	</message>
 	<message date="20021215" service="sunday" category="book studies">
 		<seriestitle>Luke</seriestitle>
-		<title>God Blesses the Humble Heart</title>
+		<title>The Heart God Blesses</title>
 		<passage>Luke 1:26-56</passage>
 		<tape>BS121502</tape>
 		<audio>42-luk/42-luk-01-26.ram</audio>
