@@ -3,7 +3,7 @@
 
 	Marriage Ministry - The ministry and its detail
 	
-	$Id: marriage.xml,v 1.2 2002/08/10 17:48:38 javajames27 Exp $
+	$Id: marriage.xml,v 1.3 2003/01/13 22:46:13 javajames27 Exp $
 		
 -->
 <content title="Marriage Ministry">
@@ -25,13 +25,12 @@
 	Winter, and Spring meetings will be announced prior to the
 	start of the session.    </p>
 
-      <heading>Fall 2002 Meeting Topics</heading>
-      <p>Fall 2002 group meeting will start the second week of September.  Fall
-	meeting topics include:</p>
-      <p>Improving Communication in Your Marriage - 6 week series</p>
-      <p>Building Teamwork in Your Marriage - 7 week series</p>
+      <heading>Winter 2003 Meeting Topics</heading>
+      <p>Winter 2003 group meeting will start the third week of January. Winter
+meeting topics include:</p>
       <p>Resolving Conflicts in Your Marriage - 6 week series</p>
       <p>Growing Together in Christ - 6 week series</p>
+      <p>Note:  Registration for Spring group meetings will start February 16, 2003.Spring group meetings will start the third week of March. </p>
     </long-description>
     <contacts>
       <contact-email email="Bonarauk@yahoo.com">Bones and Laurie Uk</contact-email>
