@@ -3,7 +3,7 @@
 
         Free Indeed (Addictions) Ministry  - The ministry and its detail 
         
-	   $Id: freeindeed.xml,v 1.6 2003/05/14 22:41:42 javajames27 Exp $ 
+	   $Id: freeindeed.xml,v 1.7 2003/08/31 12:49:55 gregk Exp $ 
                 
 --> 
 <content title="Free Indeed"> 
@@ -29,10 +29,13 @@
       <p> <link href="http://www.settingcaptivesfree.com/door_hope/">Door of Hope - Homosexuality</link></p>
       <p> <link href="http://www.settingcaptivesfree.com/breath_life/">Breath of Life - Smoking</link></p>
       <p> <link href="http://www.settingcaptivesfree.com/new_wine/">New Wine - Alcoholism</link></p>
-
+      <heading>Testimonies</heading> 
+      <p> Here are some<link href="../ministries/testimonies.html"> testimonies</link> of people who have been helped by this ministry</p>
 
 	<heading>Interested in joining the Free Indeed ministry team?</heading>
-	<p>Email one of the above accountability accounts.</p>
+	<p>Email one of the appropriate accountability accounts below:</p>
+                 <p>Calvary's Free Indeed (CFI) Accountability for Men: <link href="mailto:cfi_mens@hotmail.com">cfi_mens@hotmail.com</link></p> 
+     		<p>Calvary's Free Indeed (CFI) Accountability for Women: <link href="mailto:cfi_women@hotmail.com">cfi_women@hotmail.com</link></p> 
 
     </long-description> 
                 
