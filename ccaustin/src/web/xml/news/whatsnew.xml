@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.90 2004/06/12 12:11:45 tie Exp $
+	$Id: whatsnew.xml,v 1.91 2004/06/19 21:17:32 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -403,7 +403,7 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		<title>Volunteers for Events Center</title>
 		<detail>If you are interested, outgoing, personal, and like to meet people, come to the Events Center to fill out a ministry application.</detail>
 	</news-item>
-	<news-item id="123" date="20040401" expires="20040623" showOnHomepage="true">
+	<news-item id="123" date="20040401" expires="20040630" showOnHomepage="false">
 		<title>Sip on This</title>
 		<detail>Coffee Creator is in need of volunteers to serve in various capacities. To satisfy further cravings contact Debbie at 719-4544 or stop by Coffee Creator.</detail>
 	</news-item>
@@ -411,7 +411,7 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		<title>Building Momentum</title>
 		<detail>If you missed Kick-off Sunday, please stop on your way out of the auditorium and request a brochure from our ushers.</detail>
 	</news-item>
-	<news-item id="125" date="20040428" expires="20040626" showOnHomepage="true">
+	<news-item id="125" date="20040428" expires="20040630" showOnHomepage="false">
 		<title>Enjoy Cooking?</title>
 		<detail>If so, then Fishes and Loaves need you! This ministry seeks to serve the body of Calvary Chapel by providing prepared meals during times of special need. Visit the Events Center for more details of contact Brian or Stacy Scott at stacy@austin.rr.com or 512-252-0021.</detail>
 	</news-item>
@@ -443,11 +443,11 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		   <title>"Calvary Responder"</title>
 		   <detail>We are forming an emergency response team. If you are experienced with emergency procedures and interested, please sign up at the Events Center.</detail>
 		</news-item>
-	   <news-item id="133" date="20040504" expires="20040718" showOnHomepage="true">
+	   <news-item id="133" date="20040504" expires="20040718" showOnHomepage="false">
 		   <title>Vital Life Jr. High</title>
 		   <detail>Starting Sunday, June 6th, there will only be one Jr. High Sunday service. It will be offered during the 2nd service. If you have any questions or concerns, contact David Robinson or email: <link href="mailto:vitallifecrew@yahoo.com">vitallifecrew@yahoo.com</link>vitallifecrew@yahoo.com</detail>
 		</news-item>
-	   <news-item id="134" date="20040604" expires="20040718" showOnHomepage="true">
+	   <news-item id="134" date="20040604" expires="20040718" showOnHomepage="false">
 		   <title>Israel Trip</title>
 		   <detail>If you are signed up for the Israel Trip, there is an information packet waiting for you at the Events Center.</detail>
 		</news-item>
