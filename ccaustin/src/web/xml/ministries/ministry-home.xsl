@@ -6,7 +6,7 @@
 	
 	Processes the ministry tag and its children tags
 	
-	$Id: ministry-home.xsl,v 1.5 2002/05/23 00:29:36 javajames27 Exp $
+	$Id: ministry-home.xsl,v 1.6 2002/05/23 00:40:47 javajames27 Exp $
 	
 -->	
 
@@ -29,7 +29,7 @@
           <xsl:choose>
 		  <xsl:when test="$logo != '' ">
 			<tr>
-			     <td width="100%" align="left"><table border="0"><tr><td class="title"><xsl:value-of select="text()"/></td><td width="1%" nowrap="true"><img src="{$logo}"/></td></tr></table></td>
+			     <td width="100%" align="left"><table border="0"><tr><td class="ministrytitle"><xsl:value-of select="text()"/></td><td width="1%" nowrap="true"><img src="{$logo}"/></td></tr></table></td>
 			</tr>
 			<tr>
 			     <td width="100%" align="left"><br/></td>
@@ -37,7 +37,7 @@
 		  </xsl:when>
 		  <xsl:otherwise>
 			<tr>
-			     <td width="100%" align="left"><table border="0"><tr><td class="title"><xsl:value-of select="text()"/></td><td width="1%" nowrap="true"><img src="../images/ministries/generic.gif"/></td></tr></table></td>
+			     <td width="100%" align="left"><table border="0"><tr><td class="ministrytitle"><xsl:value-of select="text()"/></td><td width="1%" nowrap="true"><img src="../images/ministries/generic.gif"/></td></tr></table></td>
 			</tr>
 			<tr>
 			     <td width="100%" align="left"><br/></td>

@@ -16,7 +16,7 @@ pre	{ FONT-FAMILY: "Courier New", Courier, mono }
 
 .title {  font-weight: bold}
 .heading {  font-weight: bold; font-size: 105% }
-.title{  font-weight: bold; font-size: 125% }
+.ministrytitle{  font-weight: bold; font-size: 150% }
 .subheading {  font-weight: bold; font-size: 100% }
 .detail {  font-style: italic}
 a:hover {  text-decoration: underline}
