@@ -6,7 +6,7 @@
 	The sitemap contains the structure of the entire web site, and is used to drive
 	the auto-generated scripts for generating the web site HTML from XML.
 	
-	$Id: sitemap.xml,v 1.15 2002/07/22 16:21:39 javajames27 Exp $
+	$Id: sitemap.xml,v 1.16 2002/07/22 17:18:43 javajames27 Exp $
 	
 	hidden="true" prevents the page from showing on the sitemap.
 	
@@ -104,7 +104,7 @@
 		<page datafile="/coffee.xml" style="/ministry-home.xsl" html="/ministries/coffee.html">
 			<title>Coffee Creator</title>
 		</page>
-		<page datafile="/dinner.xml" style="/ministry-home.xsl" html="/ministries/dinner.html">
+		<page datafile="/dinner.xml" style="/ministry-home.xsl" html="/ministries/dinner.html" exclude="true">
 			<title>Dinner for 8 Ministry</title>
 		</page>
 		<page datafile="/frontline.xml" style="/ministry-home.xsl" html="/ministries/frontline.html">
