@@ -10,7 +10,7 @@
 	Place all tag processing templates in here that are HTML-based or text-processing based 
 	(using the <text></text> tag set).
 	
-	$Id: general-html.xsl,v 1.1 2002/01/31 03:25:33 javajames27 Exp $
+	$Id: general-html.xsl,v 1.2 2002/03/15 04:31:44 javajames27 Exp $
 -->
 
 
@@ -83,6 +83,22 @@
 	<li><xsl:apply-templates select="*|@*|text()"/></li>
 </xsl:template>
 
+<xsl:template match="map">
+      <xsl:element name="map">
+        <xsl:attribute name="name"><xsl:value-of select="@name"/></xsl:attribute>
+        <xsl:apply-templates select="area"/>
+      </xsl:element>
+</xsl:template>
+
+<xsl:template match="area">
+      <xsl:element name="area">
+        <xsl:attribute name="name"><xsl:value-of select="@name"/></xsl:attribute>
+        <xsl:attribute name="shape"><xsl:value-of select="@shape"/></xsl:attribute>
+        <xsl:attribute name="coords"><xsl:value-of select="@coords"/></xsl:attribute>
+        <xsl:attribute name="href"><xsl:value-of select="@href"/></xsl:attribute>
+        <xsl:attribute name="alt"><xsl:value-of select="@alt"/></xsl:attribute>
+      </xsl:element>
+</xsl:template>
 
 <!-- 
 	Custom HTML extensions 

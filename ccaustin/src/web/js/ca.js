@@ -6,17 +6,24 @@ function onLoad()
 
 function	buildMenus()
 {
+  //
+  // Events Menu
+  // 
+
   window.menuEvent = new Menu();
 
   menuEvent.addMenuItem( "Calendar",     "location='calendar.html'"      );
   menuEvent.disableDrag = true;
 
 
+  //
+  // Media Menu
+  // 
+
   window.menuContinuum = new Menu( "Calvary Continuum" );
 
   menuContinuum.addMenuItem( "Tape Catalog",      "location='live.html'"      );
   menuContinuum.addMenuItem( "Radio &amp; Television", "location='continuum.html'" );
-
 
   window.menuMedia = new Menu();
 
@@ -25,6 +32,10 @@ function	buildMenus()
   menuMedia.addMenuItem( menuContinuum );
   menuMedia.addMenuItem( "Links",             "location='links.html'"     );
   menuMedia.disableDrag = true;
+
+  //
+  // Ministries Menu
+  // 
 
   window.menuMinistry = new Menu();
 
@@ -38,6 +49,10 @@ function	buildMenus()
   menuMinistry.addMenuItem( "Youth",     "location='youth.html'"    );
   menuMinistry.disableDrag = true;
 
+  //
+  // About Menu
+  // 
+
   window.menuStaff = new Menu( "Meet the Staff" );
 
   menuStaff.addMenuItem( "Pastor Allen",  "location='allen.html'"  );
@@ -48,14 +63,14 @@ function	buildMenus()
   menuStaff.addMenuItem( "Darren",        "location='darren.html'"  );
   menuStaff.addMenuItem( "John",          "location='john.html'"  );
 
-  window.menuAbout = new Menu();
+  window.menuAbout = new Menu("About Calvary Austin");
 
-  menuAbout.addMenuItem( "Schedule",              "location='schedule.html'"    );
-  menuAbout.addMenuItem( "Location",              "location='location.html'"    );
+  menuAbout.addMenuItem( "Weekly Schedule",       "location='../calendar/schedule.html'"    );
+  menuAbout.addMenuItem( "Location/Map",          "location='../about/location.html'"    );
+  menuAbout.addMenuItem( "Our Vision",            "location='../about/vision.html'"    );
+  menuAbout.addMenuItem( "We Believe",            "location='../about/beliefs.html'"    );
+  menuAbout.addMenuItem( "History",               "location='../about/history.html'"    );
   menuAbout.addMenuItem( menuStaff );
-  menuAbout.addMenuItem( "Our Vision",            "location='vision.html'"    );
-  menuAbout.addMenuItem( "We Believe",            "location='believe.html'"    );
-  menuAbout.addMenuItem( "History",               "location='history.html'"    );
   menuAbout.disableDrag = true;
   menuAbout.fontFamily = "verdana,arial,helvetica,sans-serif";
   menuAbout.fontColor = "#2d476f";

@@ -14,7 +14,7 @@
 	A variant of this file may offer more search engine or accessibility-friendly
 	navigation and less Javascript features for older browsers. 
 	
-	$Id: general-ui.xsl,v 1.1 2002/01/31 03:25:33 javajames27 Exp $
+	$Id: general-ui.xsl,v 1.2 2002/03/15 04:31:44 javajames27 Exp $
 -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl
@@ -49,6 +49,7 @@
 <meta content="text/html; charset=windows-1252" http-equiv="Content-Type"></meta>
 <script language="JavaScript1.2" src="../js/menu.js"></script>
 <script language="JavaScript1.2" src="../js/ca.js"></script>
+<script language="JavaScript1.2" src="../js/win.js"></script>
 </head>
 <body bgColor="white" leftMargin="0" text="#2544a9" topMargin="0" vLink="#758ee1" marginheight="0" marginwidth="0">
 
@@ -88,11 +89,11 @@
                 <td colspan="6"><img height="64" src="../images/maintop.jpg" width="282"></img></td></tr>
               <tr>
                 <td><img height="15" src="../images/main007.jpg" width="37"></img></td>
-                <td><a href="javascript:window.showMenu(window.menuAbout,108,84);" onmouseover="window.showMenu(window.menuAbout,108,84);"><img border="0" height="15" name="mitem1" src="../images/main008.jpg" width="58"></img></a></td>
-                <td><img height="15" src="../images/main009.jpg" width="55"></img></td>
-                <td><img height="15" src="../images/main010.jpg" width="57"></img></td>
-                <td><img height="15" src="../images/main011.jpg" width="59"></img></td>
-                <td><img height="15" src="../images/main012.jpg" width="16"></img></td>
+                <td><a href="../about/about.html" onmouseover="window.showMenu(window.menuAbout,198,84);"><img border="0" height="15" name="mitem1" src="../images/main008.jpg" width="58"></img></a></td>
+                <td><a href="../calendar/calendar.html" onmouseover="window.showMenu(window.menuEvent,258,84);"><img height="15" src="../images/main009.jpg" width="55" border="0"></img></a></td>
+                <td><a href="../ministries/ministries.html" onmouseover="window.showMenu(window.menuMinistry,308,84);"><img height="15" src="../images/main010.jpg" width="57" border="0"></img></a></td>
+                <td><a href="../media/media.html" onmouseover="window.showMenu(window.menuMedia,378,84);"><img height="15" src="../images/main011.jpg" width="59" border="0"></img></a></td>
+                <td><a href="../about/about.html" onmouseover="window.showMenu(window.menuAbout,428,84);"><img height="15" src="../images/main012.jpg" width="16" border="0"></img></a></td>
 	      </tr>
               <tr>
                 <td colspan="6"><img height="16" src="../images/mainbtm.jpg" width="282"></img></td>
