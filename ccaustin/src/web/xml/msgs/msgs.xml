@@ -10150,5 +10150,13 @@
 	<audio>topicseries/ten/tenfive.wma</audio> 
 	<passageref>http://www.blueletterbible.org/kjv/Exd/Exd020.html#top</passageref> 
 	</message>
+	<message date="20041031" service="sunday" category="topical series"> 
+	<seriestitle>Ten</seriestitle> 
+	<title>Ten Commandments - Forgive and Forget</title> 
+	<passage>Exodus 20:13</passage> 
+	<tape>TS103104</tape> 
+	<audio>topicseries/ten/tensix.wma</audio> 
+	<passageref>http://www.blueletterbible.org/kjv/Exd/Exd020.html#top</passageref> 
+	</message>
 
 </messagecatalog>
