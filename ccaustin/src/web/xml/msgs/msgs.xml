@@ -3988,6 +3988,22 @@
 <audio>guestspeaker/jnewberry011905.wma</audio> 
 <passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn012.html#top</passageref> 
 </message>
+<message date="20050126" service="midweek" category="overview"> 
+<seriestitle>Genesis</seriestitle> 
+<title></title> 
+<passage>Genesis 5-6</passage> 
+<tape>BO2003</tape> 
+<audio>bibleoverview/01-gen-05.wma</audio> 
+<passageref>http://www.blueletterbible.org/kjv/Gen/Gen005.html#top</passageref> 
+</message>
+<message date="20050202" service="midweek" category="misc"> 
+<seriestitle>Parish, Ron</seriestitle> 
+<title>Tsunami 2004 Mission Trip</title> 
+<passage></passage> 
+<tape>GS011905</tape> 
+<audio>guestspeaker/rparrish020205.wma</audio> 
+<passageref></passageref> 
+</message>
 
 <message date="20041013" service="midweek" category="misc">
 <seriestitle>Guest Speaker</seriestitle>
@@ -10433,5 +10449,14 @@
 	<audio>50-phi/50-phi-02-12.wma</audio>
 	<passageref>http://www.blueletterbible.org/kjv/Phl/Phl002.html#top</passageref>
 	</message>
+	<message date="20050206" service="sunday" category="misc"> 
+	<seriestitle>Vision 2005</seriestitle> 
+	<title>Vision 2005</title> 
+	<passage></passage> 
+	<tape>TM020605</tape> 
+	<audio>topicmessage/TM020605.wma</audio> 
+	<passageref></passageref> 
+	</message>
+
 
 </messagecatalog>
