@@ -4,7 +4,7 @@
      
      Homepage custom renderer
 
-     $Id: homepage.xsl,v 1.15 2004/04/07 17:50:37 gregk Exp $
+     $Id: homepage.xsl,v 1.16 2004/04/12 15:35:55 gregk Exp $
      
 -->       
 
@@ -30,7 +30,7 @@
                         <td  align="left" valign="top" id="MU" height="280" width="800"><a href="../buildingmomentum/index.html"><img border="0" alt="click here to learn more" src="../images/events/buildmobanner.jpg" name="SlideShow" height="280" width="800"></img></a><br/>
                         </td>
 -->
-<td  align="left" valign="top" id="MU" height="280" width="800"><a href="javascript:slideLink()"><img border="0" alt="click here to learn more" src="../images/events/buildmobanner.jpg" name="SlideShow" height="280" width="800"></img></a><br/>
+<td  align="center" valign="top" id="MU" height="280" width="800"><a href="javascript:slideLink()"><img border="0" alt="click here to learn more" src="../images/events/buildmobanner.jpg" name="SlideShow" height="280" width="800"></img></a><br/>
                         </td>
 			</tr>
 	          <tr>
@@ -238,15 +238,16 @@
 		      <td width="2%"><br/></td>
 		      <td width="99%" valign="center"><p><span class="featureheading">Pastor Allen's Blog</span><br/><xsl:value-of select="@date"/></p><xsl:if test="count(p) &gt; 4"><xsl:apply-templates select="p[1]"/><span class="readmore">[<a href="../blogs/allen.html" class="readmore">Read the complete weblog...</a>]	</span></xsl:if><xsl:if test="count(p) &lt; 5"><xsl:apply-templates/><span class="readmore">[<a href="../blogs/allen.html" class="readmore">Read Past Weblogs...</a>]	</span></xsl:if></td><br/><br/>
 	    </tr>
+            <tr><td><br></br></td></tr>
 	</table>
 </xsl:template>
 
 <xsl:template match="banner/event">
-<a class="readmore" href="http://www.easterservice.com">Learn About A Special Easter Celebration!</a>
-<br/>
+<!--
 <br/>
 <a class="readmore" href="http://www.calvaryaustinmusic.org">Check Out The Calvary Austin Music Scene!</a>
-<!--
+<a class="readmore" href="http://www.easterservice.com">Learn About A Special Easter Celebration!</a>
+<br/>
 	<a href="{@href}"><img src="{@img}" alt="{text()} - click to learn more" border="0"/></a><br/>
 	<a href="{@href}" class="readmore">Learn more about the <xsl:value-of select="text()"/></a>
 -->

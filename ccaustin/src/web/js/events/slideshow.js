@@ -6,7 +6,6 @@ var crossFadeDuration = 5;
 var Pix = new Array();
 Pix[0] = "../images/events/buildmobanner.jpg";
 Pix[1] = "../images/events/CAM-banner.jpg";
-Pix[2] = "../images/events/www-easterbanner.jpg";
 
 var t;
 var step = 0;
@@ -50,7 +49,5 @@ function slideLink()
 	window.location="../buildingmomentum/index.html"
   else if (whichimage==1)
         window.location="http://www.calvaryaustinmusic.org"
-  else if(whichimage==2)
-        window.location="http://www.easterservice.com"
 }
 
