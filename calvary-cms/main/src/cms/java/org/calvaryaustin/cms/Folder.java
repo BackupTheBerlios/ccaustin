@@ -31,7 +31,7 @@ public interface Folder extends SiteResource
 	 * @throws RepositoryException is an error occurs
 	 * @throws FileAlreadyExistsException if the file name already exists as a child of this folder
 	 */
-	public FileHandle createFile(String name, String description, String contentType, String content) 
+	public FileHandle createFile(String name, String description, String contentType, byte[] content) 
 		throws RepositoryException, FileAlreadyExistsException;
 	
 	/**

@@ -14,7 +14,7 @@ public class WebdavFileVersion implements FileVersion
 	public WebdavFileVersion(WebdavConnection connection, String site, String path,
 							 String description, String versionNumber, 
 							 String lastModifiedBy, Date lastModifiedDate, 
-							 String branchName, String contentType, String content)
+							 String branchName, String contentType, byte[] content)
     {
 		this.connection = connection;
 		this.site = site;
@@ -76,12 +76,12 @@ public class WebdavFileVersion implements FileVersion
 		this.contentType = contentType;
 	}
 
-	public String getContent()
+	public byte[] getContent()
 	{
 		return content;
 	}
 
-	public void setContent(String content)
+	public void setContent(byte[] content)
 	{
 		this.content = content;
 
@@ -96,5 +96,5 @@ public class WebdavFileVersion implements FileVersion
 	private Date lastModifiedDate;
 	private String branchName;
 	private String contentType;
-	private String content;
+	private byte[] content;
 }

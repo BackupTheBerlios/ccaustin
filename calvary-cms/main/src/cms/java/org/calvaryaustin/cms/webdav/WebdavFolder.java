@@ -56,7 +56,7 @@ public class WebdavFolder implements Folder
 		return new FolderHandle(thePath);
 	}
 	
-	public FileHandle createFile(String name, String description, String contentType, String content) 
+	public FileHandle createFile(String name, String description, String contentType, byte[] content) 
 		throws RepositoryException, FileAlreadyExistsException
 	{
 		String thePath = WebdavConnection.normalize(path + "/" + name);

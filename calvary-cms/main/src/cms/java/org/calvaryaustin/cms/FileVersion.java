@@ -66,11 +66,11 @@ public interface FileVersion
 	 * Returns the content for this file - may be a binary format
 	 * @return the content for this file - may be a binary format
 	 */
-	public String getContent();
+	public byte[] getContent();
 	
 	/**
 	 * Sets the content for this file (for checkins) 
 	 * @param content the content for this file 
 	 */
-	public void setContent(String content);
+	public void setContent(byte[] content);
 }

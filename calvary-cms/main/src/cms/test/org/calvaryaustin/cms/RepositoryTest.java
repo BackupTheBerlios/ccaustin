@@ -19,7 +19,7 @@ import org.apache.commons.logging.LogFactory;
  * Created: Fri Jan 17 20:30:31 2003
  *
  * @author <a href="mailto:jhigginbotham@betweenmarkets.com">James Higginbotham</a>
- * @version $Revision: 1.5 $
+ * @version $Revision: 1.6 $
  */
 public class RepositoryTest extends TestCase 
 {
@@ -187,7 +187,7 @@ public class RepositoryTest extends TestCase
 	List results = rootFolder.browse();
 	assertNotNull(results);
 	assertEquals(1,results.size());
-	assert( results.get(0) instanceof Folder);
+	assertTrue( results.get(0) instanceof Folder);
 	results = foundFolder.browse();
 	assertNotNull(results);
 	assertEquals(2,results.size());
@@ -217,8 +217,8 @@ public class RepositoryTest extends TestCase
 			fileFound = true;
 		}
 	}
-	assert(folderFound);
-	assert(fileFound);
+	assertTrue(folderFound);
+	assertTrue(fileFound);
 	site.delete();
 	log.info("<<<<<<<<<<<<< testFolderBrowsing(): end");
   }
@@ -249,7 +249,35 @@ public class RepositoryTest extends TestCase
 	log.info("<<<<<<<<<<<<< testLocking(): end");
   }
   
-  // TODO: Test the checkout/checkin method
+  public void testVersioning() throws Exception
+  {
+	log.info(">>>>>>>>>>>>> testVersioning(): begin");
+	assertNotNull(repository);
+	repository.createSite( TEST_SITE, TEST_SITE_DESCRIPTION );
+	Site site = repository.getSite( new SiteHandle(TEST_SITE) );
+	Folder rootFolder = site.getRootFolder();
+	FolderHandle handle = rootFolder.createFolder(TEST_FOLDER, TEST_FOLDER_DESCRIPTION);
+	Folder foundFolder = site.getFolder( handle );
+	FileHandle fileHandle = foundFolder.createFile(TEST_FILE, TEST_FILE_DESCRIPTION, TEST_FILE_TYPE, TEST_FILE_CONTENT);
+	org.calvaryaustin.cms.File foundFile = foundFolder.getFile(fileHandle);
+	FileVersion originalVersion = foundFile.getLatestVersion();
+	assertTrue(!foundFile.isCheckedOut());
+	FileVersion checkedOut = foundFile.checkout();
+	assertTrue(foundFile.isCheckedOut());
+	checkedOut.setContent("changed".getBytes());
+	foundFile.checkin(checkedOut);
+	assertTrue(!foundFile.isCheckedOut());
+	FileVersion updatedVersion = foundFile.getLatestVersion();
+	assertEquals("changed",new String(updatedVersion.getContent()));
+	assertEquals(originalVersion.getContentType(),updatedVersion.getContentType());
+	assertEquals(originalVersion.getDescription(),updatedVersion.getDescription());
+	assertEquals(originalVersion.getBranchName(),updatedVersion.getBranchName());
+	assertEquals(originalVersion.getLastModifiedBy(),updatedVersion.getLastModifiedBy());
+	assertNotNull(updatedVersion.getLastModifiedDate());
+	site.delete();
+	log.info("<<<<<<<<<<<<< testVersioning(): end");
+  }
+  
   
 /*  
   public void DISABLEDtestImportDirectory() throws Exception
@@ -315,6 +343,6 @@ public class RepositoryTest extends TestCase
   private static final String TEST_FILE = "testfile";
   private static final String TEST_FILE_DESCRIPTION = "A test file";
   private static final String TEST_FILE_TYPE = "text/plain";
-  private static final String TEST_FILE_CONTENT = "This is an example of a test file that is plain text.";
+  private static final byte[] TEST_FILE_CONTENT = "This is an example of a test file that is plain text.".getBytes();
   private static final Log log = LogFactory.getLog( RepositoryTest.class );
 }// RepositoryTest

@@ -22,7 +22,7 @@ import org.calvaryaustin.cms.RepositoryException;
  * Created: Tue Jan 28 20:14:37 2003
  *
  * @author <a href="mailto:jhigginbotham@betweenmarkets.com">James Higginbotham</a>
- * @version $Revision: 1.3 $
+ * @version $Revision: 1.4 $
  */
 
 public class WebdavConnection 
@@ -217,7 +217,7 @@ public class WebdavConnection
 		  } // end of try-catch
 	}
 	
-	public boolean put(String path, String name, String contentType, String content) throws RepositoryException
+	public boolean put(String path, String name, String contentType, byte[] content) throws RepositoryException
 	{
 		try 
 		{
@@ -272,7 +272,8 @@ public class WebdavConnection
 		try
 		{
 			WebdavResource resource = findResource(path);
-			boolean result = resource.lockMethod();
+			//boolean result = resource.lockMethod();
+			boolean result = resource.checkoutMethod();
 			if(result)
 			{
 				return resource;
