@@ -4,7 +4,7 @@
      
      Homepage custom renderer
 
-     $Id: homepage.xsl,v 1.1 2002/12/13 20:04:06 javajames27 Exp $
+     $Id: homepage.xsl,v 1.2 2002/12/13 20:24:45 javajames27 Exp $
      
 -->       
 
@@ -116,6 +116,7 @@
 </xsl:template>
 
 <xsl:template match="news-item">
+  <!-- Debugging <p><xsl:value-of select="@expires"/> > <xsl:value-of select="$DATE"/></p> -->
   <!-- First, make sure that the event date is still current -->
   <xsl:choose>
     <xsl:when test="@expires &gt;= $DATE">

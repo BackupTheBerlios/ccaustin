@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.21 2002/12/13 20:04:06 javajames27 Exp $
+	$Id: calendar.xml,v 1.22 2002/12/13 20:24:45 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -13,16 +13,29 @@
     Jan
     ===============
     -->
-    <event id="01001" date="20030220" showOnHomepage="true">
-      <title>2003 Mid-South Worship Conference</title>
-      <date>Feb 20-22</date>
-      <detail>More details coming soon!</detail>
+    <event id="01001" date="20030111" showOnHomepage="true">
+      <title>Conference Bible Study</title>
+      <date>Sat Jan 11th, 2003</date>
+      <detail>Hyde Park Baptist Church in Austin is sponsoring "The Left Behind Conference"
+      featuring Tim LaHaye on Saturday, Jan 11.  You may pick up a brochure as well as purchase a
+      conference  ticket for $15 at our Events Center in the lobby.  A meal ticket is also available
+      for $5.</detail> 
     </event>
 		<!--
     ===============
     Feb
     ===============
     -->
+    <event id="02001" date="20030220" showOnHomepage="true">
+      <title>2003 Mid-South Worship Conference</title>
+      <date>Feb 20-22</date>
+      <detail>Registration begins today, Dec 15, for our Mid-South Music &amp; Worship Conference.
+      Holland Davis will be our guest worship leader and speaker.  He is currently the worship
+      pastor at Calvary Chapel Costa Mesa and also oversees the CC Music record label.  He has
+      written several songs for Maranatha! Music.  Mark your calenders now for the Feb 20-22 event
+      and plan to register early. </detail> 
+    </event>
+
 		<!--
     ===============
     Mar
@@ -294,7 +307,7 @@
 		<event id="12001" date="20021224" showOnHomepage="true">
 			<title>Christmas Eve Service</title>
 			<date>December 24th</date>
-			<detail>More details to come...</detail>
+			<detail>Dec 24, 6-7PM</detail>
 			<ministries>
 				<ministry id="church"/>
 			</ministries>
@@ -310,7 +323,7 @@
 		<event id="12002" date="20021231" showOnHomepage="true">
 			<title>New Year's Eve Service</title>
 			<date>December 31st</date>
-			<detail>More details to come...</detail>
+			<detail>Dec 31, 7:30-10:30PM</detail>
 			<ministries>
 				<ministry id="church"/>
 			</ministries>
