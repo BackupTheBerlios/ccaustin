@@ -2,7 +2,7 @@
 <!-- 
         Music and Worship 2003 Conference
 
-	$Id: mwc2003.xml,v 1.1 2002/12/13 20:04:06 javajames27 Exp $
+	$Id: mwc2003.xml,v 1.2 2002/12/16 17:00:31 javajames27 Exp $
 		
 -->
 <content title="Music and Worship 2003 Conference">
@@ -118,7 +118,7 @@
     </p>
   </section>
   <section heading="Registration" img="../images/events/mwcinfo.jpg">
-    <p>Fill you the <link href="javascript:mwcWin()">registration form</link>, print it out, and mail it, along with your remittance, to Calvary
+    <p>Print out the <link href="javascript:mwcWin()">registration form</link>, fill it out, and mail it, along with your remittance, to Calvary
     Austin. You'll be pre-registered and your conference materials will be waiting for you when you
     arrive on February 20! After printing, close the window to return here.</p>  
     <p>The cost for the conference is $45 per person for registrations received by February 9,
