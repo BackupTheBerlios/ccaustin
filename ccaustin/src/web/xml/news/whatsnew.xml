@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.86 2004/05/18 18:40:28 gregk Exp $
+	$Id: whatsnew.xml,v 1.87 2004/05/30 17:56:26 tie Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -427,6 +427,10 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		<title>Free Building Momentum CD</title>
 		<detail>Pick up an "Audio Study Guide: What the Bible Says About Giving" at the Building Momentum Info Wall in the lobby, or access the guide by going to <link href="http://www.calvaryaustin.org/buildingmomentum">www.calvaryaustin.org/buildingmomentum</link> online.</detail>
 	</news-item>
+	   <news-item id="129" date="20040530" expires="20041015" showOnHomepage="true">
+		<title>Men's Retreat 2004</title>
+		<detail>Join us at Camp Tejas on Oct. 15-16 for the 2004 Men's Retreat. Pastor Art Murillo of The Way Christian Church in Chula Vista, California, will be hosting this event. You can find information in the church lobby or at the Men's Ministry web page <link href="http://www.calvaryaustin.org/ministries/men.html">www.calvaryaustin.org/ministries/men.html</link> online.</detail>
+		</news-item>
 <!--
 -->
   </news>
