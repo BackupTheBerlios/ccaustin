@@ -3618,6 +3618,22 @@
 		<audio>bibleoverview/52-1th-04.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/1Th/1Th004.html#top</passageref>
 	</message>
+	<message date="20040121" service="midweek" category="overview">
+		<seriestitle>II Thessalonians</seriestitle>
+		<title></title>
+		<passage>2 Thessalonians</passage>
+		<tape>BO1342</tape>
+		<audio>bibleoverview/53-2th-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/2Th/2Th001.html#top</passageref>
+	</message>
+	<message date="20040128" service="midweek" category="overview">
+		<seriestitle>I Timothy</seriestitle>
+		<title></title>
+		<passage>1 Timothy 1-2</passage>
+		<tape>BO1343</tape>
+		<audio>bibleoverview/54-1ti-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/1Ti/1Ti001.html#top</passageref>
+	</message>
     	<message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
 		<title>The Big Question</title>
