@@ -6343,7 +6343,6 @@
 		<audio>40-mat/40-mat-28.ram</audio>
 		<passageref></passageref>
 	</message>
-
 	<message date="19940925" service="sunday" category="book studies">
 		<seriestitle>Philippians</seriestitle>
 		<title>Wisdom Regarding:  A Church Is Born</title>
@@ -6356,7 +6355,7 @@
 		<seriestitle>Philippians</seriestitle>
 		<title>Joy in Relationships</title>
 		<passage>Philippians 1:3-8</passage>
-		<tape>BS100294 - not available</tape>
+		<tape>BS100294</tape>
 		<audio></audio>
 		<passageref></passageref>
 	</message>
@@ -6448,7 +6447,6 @@
 		<audio>50-phi/50-phi-04-10.ram</audio>
 		<passageref></passageref>
 	</message>
-
 	<message date="19961117" service="sunday" category="book studies">
 		<seriestitle>John</seriestitle>
 		<title>The Word Became Flesh</title>
