@@ -7,7 +7,7 @@
  Other variants of this file may offer more search engine or accessibility-friendly
  navigation and less Javascript features for older browsers. 
  
- $Id: default.xsl,v 1.5 2003/08/13 04:15:58 gregk Exp $
+ $Id: default.xsl,v 1.6 2004/02/01 19:48:46 gregk Exp $
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
  <xsl:output method="html" indent="yes"/>
@@ -110,7 +110,7 @@
          <font size="1">
          Copyright © 1999-2002 Calvary Chapel of Austin<br/>
                                                           For Website problems or comments, send mail to
-         <a href="mailto:webservant-austin@calvarychapel.org"><img border="0" src="../images/email.gif"></img>webservant-austin@calvarychapel.org</a><br/>
+         <a href="mailto:webservant@calvaryaustin.org"><img border="0" src="../images/email.gif"></img>webservant@calvaryaustin.org</a><br/>
          Version: <xsl:value-of select="$VERSION"/>, Latest update: <xsl:value-of select="$TODAY"/><br/>
          </font>
        </td>
