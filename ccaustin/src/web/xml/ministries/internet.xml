@@ -3,7 +3,7 @@
 
 	Internet Ministry - The ministry and its detail
 	
-	$Id: internet.xml,v 1.6 2002/07/22 17:05:36 javajames27 Exp $
+	$Id: internet.xml,v 1.7 2002/10/20 02:33:09 javajames27 Exp $
 		
 -->
 <content title="Internet Ministry">
@@ -16,6 +16,8 @@
 	    <p>Learn more about our <link
 	    href="../ministries/internet-vision.html">vision</link>
 	    for this ministry. </p>
+	    <heading>Recent Conferences</heading>
+            <p>Pastor and Leader's Conference 2002 - <link href="../conferences/PastorConf2002-Internet.html">Internet Ministry Workshop</link></p>
 	    <heading>Want to help?</heading>
 	    <p>We are looking for anyone who knows how to perform
 	    basic computer operations, such as creating, editing, and

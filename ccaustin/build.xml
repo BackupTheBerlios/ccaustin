@@ -24,6 +24,7 @@
   <property name="src.js.dir" value="${src.web.dir}/js"/>
   <property name="src.images.dir" value="${src.web.dir}/images"/>
   <property name="src.css.dir" value="${src.web.dir}/css"/>
+  <property name="src.html.dir" value="${src.web.dir}/html"/>
   <property name="build.dir" value="${home}/build"/>
   <property name="build.web.dir" value="${build.dir}/docs"/>
   <property name="build.tmpgen.dir" value="${build.dir}/_tmpgen"/>
@@ -104,6 +105,9 @@
     </copy>
     <copy todir="${build.web.dir}/css">
       <fileset dir="${src.css.dir}"/>
+    </copy>
+    <copy todir="${build.web.dir}">
+      <fileset dir="${src.html.dir}"/>
     </copy>
   </target>
   

@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.11 2002/10/06 23:05:32 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.12 2002/10/20 02:33:09 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -104,6 +104,21 @@
       <logo align="left" img ="../images/homepage/nothing.gif"/>
       <title>Home Fellowship  Groups</title>
       <detail>Because of the Pastors and Leaders Conference we will not meet on Oct 18.</detail>   
+    </news-item>
+
+
+    <news-item id="13" date="20021030" expires="20021030" showOnHomepage="true">
+      <logo align="left" img ="../images/homepage/nothing.gif"/>
+      <title>Live Music - Ten-31</title>
+      <detail>October 30th - Come to <link
+      href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>  
+    </news-item>
+
+    <news-item id="14" date="20021030" expires="20021030" showOnHomepage="true">
+      <logo align="left" img ="../images/homepage/nothing.gif"/>
+      <title>Live Music - Daniel Baker</title>
+      <detail>October 23rd @ 9:00pm - Come to <link
+      href="../ministries/coffee.html">Coffee Creator</link> for some live music, great coffee, and fellowship. </detail>  
     </news-item>
 
     

@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.16 2002/10/06 23:05:32 javajames27 Exp $
+	$Id: calendar.xml,v 1.17 2002/10/20 02:33:09 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -137,10 +137,10 @@
 			Oct
 	===============
 -->		
-    <event id="10001" date="20021019" showOnHomepage="true">
+    <event id="10001" date="20021030" showOnHomepage="true">
       <title>Mid-South Pastors and Ministry Leaders Conference</title>
-      <date>Oct 17-19</date>
-      <detail>The Mid-South Pastors and Leaders Conference will be held Oct 17-19.  A mixture of speaking and workshop sessions designed to equip ministry leaders will be offered.  Pick up a brochure in the lobby and sign up by Oct 6 at the Events Center.<br/><br/>Are you traveling to Austin for the conference? Find out what <link href="../about/aroundtown.html">hotels and restaurants</link> are nearby...</detail>  
+      <detail>The Mid-South Pastors and Leaders Conference is over. If you attended the Internet
+      Ministry Workshop, you can <link href="../conferences/PastorConf2002-Internet.html">view the slides online</link>!</detail>  
       <location>Church</location>
       <ministries>
 	<ministry id="church"/>
@@ -183,7 +183,7 @@
       </ministries>
     </event>
     
-    <event id="10003" date="20021023" showOnHomepage="true">
+    <event id="10003" date="20021023" showOnHomepage="false">
       <title>Live Music - Daniel Baker</title>
       <date>October 23rd @ 9:00pm</date>
       <detail>Come to <link
@@ -218,10 +218,10 @@
 			Nov
 	===============
 -->		
-    <event id="11002" date="20021102" showOnHomepage="false">
+    <event id="11002" date="20021102" showOnHomepage="true">
       <title>Evening of Worship</title>
       <date>Nov 2nd</date>
-      <detail>Can't get enough worship time? Join us for a full evening of worship.</detail>   
+      <detail>Please join us for our 2nd installment of an Evening of Worship on Saturday, Nov 2, at 7PM.  This is an opportunity to come and participate in worship, adoration and lingering in the presence of God.  Childcare will be provided for Nursery through Kindergarten ages only.</detail>   
       <ministries>
 	<ministry id="worship"/>
       </ministries>
