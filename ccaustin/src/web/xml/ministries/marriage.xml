@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Marriage Ministry - The ministry and its detail
+	
+	$Id: marriage.xml,v 1.1 2002/07/22 16:21:39 javajames27 Exp $
+		
+-->
+<content title="Marriage Ministry">
+  <ministry id="marriage">
+    <name>Marriage Ministry</name>
+    <overview>The Marriage Ministry offers couples the
+      opportunity to take part in various meetings designed to
+      build and strengthen marriages.</overview> 
+    <long-description>
+      <p>Calvary Chapel offers couples the opportunity to take
+	part in various meetings designed to build and strengthen
+	marriages.  These meetings are held in a home setting to
+	provide a casual, intimate, and non-threatening environment to
+	all who wish to participate. Currently, we are offering a
+	series of the HomeBuilders curriculum.  These series range
+	from 4 to 8 weeks and are designed to help you build a godly
+	marriage and develop relationships with other couples through
+	the application of Biblical principles. Registration for Fall,
+	Winter, and Spring meetings will be announced prior to the
+	start of the session.    </p> 
+    </long-description>
+    <contacts>
+      <contact-email email="Bonarauk@yahoo.com">Bones and Laurie Uk</contact-email>
+    </contacts>
+  </ministry>
+</content>
