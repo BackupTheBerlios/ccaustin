@@ -3,7 +3,7 @@
 
 	Marriage Ministry - The ministry and its detail
 	
-	$Id: marriage.xml,v 1.8 2004/07/17 15:00:42 premav Exp $
+	$Id: marriage.xml,v 1.9 2004/08/01 01:08:01 tie Exp $
 		
 -->
 <content title="Marriage Ministry">
@@ -49,13 +49,63 @@
 	Winter, and Spring meetings will be announced prior to the
 	start of the session.    </p>
       <heading>Marriage Day Conference</heading>
-      <p>This year's theme is "Enjoying the Difference". Calvary Chapel Austin will host this one day marriage conference on Saturday, August, 28th. Come and join us where together we will rediscover the art of appreciation for one another's uniqueness as God intends and truly learn to.................. enjoy the difference. Boxed lunch will be provided. Childcare will not be provided. Register today at the Event Center. Registration deadline in August 18th.</p>	
-      <p>Download a copy of the <link href="http://www.calvaryaustin.org/pdf/marrbroc.pdf">brochure</link> if you need one.</p>
-	<heading>On the Horizon</heading>
-	<p>Fall 2004 small group sign up will open on August 1st  
- for the <link href="http://www.familylife.com/homebuilders/studies.asp">HomeBuilders Parenting Series</link>.  Groups will start 
- meeting the third week of September.  Additional information 
- to follow.  Check back with us soon.</p>
+      <p>This year's theme is "Enjoying the Difference." Calvary Chapel Austin will host this one day marriage conference on Saturday, August 28th. Come and join us where together we will rediscover the art of appreciation for one anothers uniqueness as God intends and to truly learn to enjoy the difference. Boxed lunch will be provided. Childcare will not be provided. Register today at the Event Center. Registration deadline in August 18th.</p>	
+      <p>Download a copy of the <link href="http://www.calvaryaustin.org/pdf/marrbrocFinal_Aug2004.pdf">brochure</link> if you need one.</p>
+	<heading>Homebuilders Parenting Series</heading>
+	<p>Fall 2004 small group sign up for the <link href="http://www.familylife.com/homebuilders/studies.asp">HomeBuilders Parenting Series</link> is now open. Groups will start  meeting the third week of September.  Come register at the Events Center and be a part of these exciting small groups. Childcare will be provided by each group. Cost is $10 per person or $20 per couple. Spaces are limited. Registration deadline is August 29th.</p>
+<heading>Establishing Effective Discipline for Your Children - Friday @ 7:30pm - West Central</heading>
+<heading>Improving Your Parenting - Thursday @ 7:00pm - Hutto</heading>
+<heading>Guiding Your Teenagers - Friday @ 7:30pm - North - Parmer / McNeil</heading> 
+<heading>Helping Your Children Know God - Friday @ 7:30pm - Cedar Park</heading> 
+<heading>Raising Children of Faith - Friday @ 7:30pm - North - Wells Branch</heading>
+	
+	<heading>Course Descriptions:</heading>
+	
+	<p><strong>Establishing Effective Discipline for Your Children</strong>: Friday @ 7:30pm - West Central<br></br>
+Most people receive little training in how to fulfill one of the most important responsibilities of our lives--being effective parents. We burst with pride and joy at birth, but are often unsure as to how to raise that child to become a mature, responsible adult. Discipline is a biblically mandated responsibility as we train our children. Learn what to look for as your child goes through each developmental stage, and how to discipline well in each stage.<br></br> 
+Chapter topics include:<br></br>
+* Purposeful Discipline <br></br>
+* Response-abilities<br></br> 
+* Boundaries<br></br> 
+* Consequences<br></br> 
+* Spanking<br></br> 
+* Building Your Endurance </p>
+
+<p><strong>Improving Your Parenting</strong>: Thursday @ 7:00pm - Hutto<br></br>
+Most people receive little training in how to fulfill one of the most important responsibilities of our lives--being effective parents. We burst with pride and joy at birth, but are often unsure as to how to raise that child to become a mature, responsible adult. Discipline is a biblically mandated responsibility as we train our children. Learn what to look for as your child goes through each developmental stage, and how to discipline well in each stage.<br></br> 
+Chapter topics include:<br></br>
+* Purposeful Discipline<br></br> 
+* Response-abilities<br></br> 
+* Boundaries<br></br> 
+* Consequences<br></br> 
+* Spanking<br></br> 
+* Building Your Endurance </p>
+
+<p><strong>Guiding Your Teenagers</strong>: Friday @ 7:30pm - North - Parmer / McNeil<br></br>
+Guide your teenagers to make right decisions! This dynamic, interactive Bible study gives parents the tools to be the moms and dads God intended. Designed to help parents of teens (or preteens) proactively deal with the hottest issues you will face with your teens. Share the struggles and successes with other parents!<br></br> 
+Together you will ...<br></br> 
+* be equipped to help your teens set standards and convictions.<br></br> 
+* explore the challenging topics of dating, peer pressure, sex, media, and substance abuse.<br></br> 
+* grow closer to your spouse.<br></br> 
+* strengthen parent-teen relationships through unique projects.</p>
+
+<p><strong>Helping Your Children Know God</strong>: Friday @ 7:30pm - Cedar Park<br></br>
+This study was written so that moms and dads will grow in their own understanding of our great God, and will be challenged and equipped to pass that understanding on to a new generation.<br></br> 
+Chapters include:<br></br>
+* Getting to Know God<br></br> 
+* Getting to Know God Through Creation<br></br> 
+* Learning About God Through the Bible<br></br> 
+* Learning About God Through His Attributes<br></br> 
+* Learning About God Through Jesus Christ<br></br> 
+* Responding to God </p>
+
+<p><strong>Raising Children of Faith</strong>: Friday @ 7:30pm - North - Wells Branch<br></br>
+As Christian parents, we want our children to enjoy a strong, satisfying, life-transforming faith. But beyond modeling a strong faith, many of us still wonder, "What specific things can we do to be even more purposeful in growing our kids' faith?" Gain confidence and a clear plan in this small group study.<br></br>
+Together with other couples, you and your spouse will learn how to:<br></br> 
+* Develop an even stronger, more loving relationship with your kids<br></br> 
+* Lovingly lead your children to God and help them walk with God<br></br> 
+* Raise children with an awareness that they have a God-ordained mission in life.</p>
+
 	</long-description>
     <contacts>
       <contact-email email="Bonarauk@yahoo.com">Bones and Laurie Uk</contact-email>
