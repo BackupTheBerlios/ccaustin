@@ -3136,6 +3136,14 @@
 		<audio>bibleoverview/44-act-10.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Act/Act010.html#top</passageref>
 	</message>
+	<message date="20020717" service="midweek" category="guestspeaker">
+		<seriestitle>Acts</seriestitle>
+		<title>Let Us Draw Near</title>
+		<passage>Hebrews 10:22</passage>
+		<tape>GS071702</tape>
+		<audio>guestspeaker/dreynolds0702.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr010.html#top</passageref>
+	</message>
 
     <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
@@ -7989,7 +7997,7 @@
 		<seriestitle>Ephesians</seriestitle>
 		<title>Spiritual Passion</title>
 		<passage>Ephesians 3:14-21</passage>
-		<tape>BS060209</tape>
+		<tape>BS060902</tape>
 		<audio>49-eph/49-eph-03-14.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph003.html#top</passageref>
 	</message>
@@ -7997,7 +8005,7 @@
 		<seriestitle>Ephesians</seriestitle>
 		<title>Walking the Walk</title>
 		<passage>Ephesians 4:1-6</passage>
-		<tape>BS060216</tape>
+		<tape>BS061602</tape>
 		<audio>49-eph/49-eph-04-01.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph004.html#top</passageref>
 	</message>
@@ -8005,7 +8013,7 @@
 		<seriestitle>Ephesians</seriestitle>
 		<title>Spiritual Giftedness</title>
 		<passage>Ephesians 4:7-16</passage>
-		<tape>BS060223</tape>
+		<tape>BS062302</tape>
 		<audio>49-eph/49-eph-04-07.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph004.html#top</passageref>
 	</message>
@@ -8013,7 +8021,7 @@
 		<seriestitle>Ephesians</seriestitle>
 		<title>Different by Design</title>
 		<passage>Ephesians 4:17-24</passage>
-		<tape>BS060230</tape>
+		<tape>BS063030</tape>
 		<audio>49-eph/49-eph-04-17.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph004.html#top</passageref>
 	</message>
@@ -8032,6 +8040,14 @@
 		<tape>BS071402</tape>
 		<audio>49-eph/49-eph-05-01.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph005.html#top</passageref>
+	</message>
+	<message date="20020721" service="sunday" category="guestspeaker">
+		<seriestitle>John Newberry</seriestitle>
+		<title>The Great I Am</title>
+		<passage>John 8:58</passage>
+		<tape>BS072102</tape>
+		<audio>guestspeaker/jnewberry0702.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn008.html#top</passageref>
 	</message>
 
 
