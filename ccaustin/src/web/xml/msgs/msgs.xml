@@ -8106,5 +8106,14 @@
 		<audio>49-eph/49-eph-05-15.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph005.html#top</passageref>
 	</message>
+	<message date="20020818" service="sunday" category="guestspeaker">
+		<seriestitle>John</seriestitle>
+		<title>When Life Runs Out</title>
+		<passage>John 2:1-12</passage>
+		<tape>GS081802</tape>
+		<audio>guestspeaker/dbrock0802.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn002.html#top</passageref>
+	</message>
+
 
 </messagecatalog>
