@@ -6,7 +6,7 @@
 	
 	Processes the ministry tag and its children tags
 	
-	$Id: ministry-home.xsl,v 1.9 2002/07/07 23:04:13 javajames27 Exp $
+	$Id: ministry-home.xsl,v 1.10 2002/07/08 22:02:42 javajames27 Exp $
 	
 -->	
 
@@ -141,35 +141,43 @@
 </xsl:template>
 
 <xsl:template name="event">
-		<tr>
-			<td>
-			<table width="100%" cellspacing="0" cellpadding="0">
-				<tr>
-                                  <td width="25%" class="heading" align="left" valign="top" nowrap="true"><p><xsl:value-of select="../../date"/></p></td>
-                                  <td width="65%" class="heading" align="left" valign="top" nowrap="true" colspan="2"><p><xsl:value-of select="../../title"/></p></td>
-					<td width="10%" class="heading" align="left" valign="top" nowrap="true" colspan="2"><br/></td>
-				</tr>
-				<tr>
-					<td width="25%" align="left" valign="top"><xsl:value-of select="../../time"/></td>
-					<td width="75%" align="left" valign="top" colspan="2"><p>
-						<xsl:choose>
-							<xsl:when test="../../location != '' ">
-				  			  Location: <xsl:value-of select="../../location"/>
-							</xsl:when>
-							<xsl:otherwise>
-							   <br/>
-							</xsl:otherwise>
-						</xsl:choose>
-                                              </p> </td>
-				</tr>
-				<tr>
-                                        <td width="75%" align="left" valign="top" colspan="3"><p><xsl:value-of select="../../detail"/></p></td>
-				</tr>
-			</table>
-			</td>
-		</tr>
-		
-		
+  <xsl:choose>
+    <xsl:when test="@date &gt;= $DATE">
+         <tr>
+           <td width="25%" class="heading" align="left" valign="top" nowrap="true"><xsl:value-of select="date"/></td>
+           <td width="65%" class="heading" align="left" valign="top" nowrap="true" colspan="2"><xsl:value-of select="title"/></td>
+           <td width="10%" class="heading" align="left" valign="top" nowrap="true" colspan="2"><br/></td>
+         </tr>
+         <xsl:choose>
+           <xsl:when test="(location != '') and (time != '')">
+             <tr>
+               <td width="25%" align="left" valign="top"><xsl:value-of select="time"/></td>
+               <td width="75%" align="left" valign="top" colspan="2">
+               <xsl:choose>
+                 <xsl:when test="location != '' ">
+                   Location: <xsl:value-of select="location"/>
+               </xsl:when>
+               <xsl:otherwise>
+                 <br/>
+               </xsl:otherwise>
+             </xsl:choose>
+           </td>
+         </tr>
+       </xsl:when>
+       <xsl:otherwise>
+       </xsl:otherwise>
+     </xsl:choose>
+     <tr>
+       <td width="75%" align="left" valign="top" colspan="3"><xsl:value-of select="detail"/></td>
+     </tr>
+     <tr colspan="3">
+       <td><br/></td>
+     </tr>
+     
+  </xsl:when>
+  <xsl:otherwise>
+  </xsl:otherwise>
+  </xsl:choose>
 </xsl:template>
 
 </xsl:stylesheet>
