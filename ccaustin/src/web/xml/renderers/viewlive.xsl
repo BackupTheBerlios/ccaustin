@@ -4,7 +4,7 @@
 
 	Calvary View Live Template
 	
-	$Id: viewlive.xsl,v 1.1 2002/12/13 20:04:06 javajames27 Exp $
+	$Id: viewlive.xsl,v 1.2 2004/05/14 15:30:38 gregk Exp $
 	
 -->	
 
@@ -16,10 +16,35 @@
 <xsl:include href="html.xsl"/>
 
 <xsl:template match="live-feed">
-	    <table width="370" cellspacing="0" cellpadding="0" border="0" marginwidth="0" marginheight="0">
+	    <table width="640" cellspacing="0" cellpadding="0" border="0" marginwidth="0" marginheight="0">
 	      <tr>
-	        <td colspan="6" align="center"><img src="../images/homepage/livmsg.jpg"/></td>
+	        <td align="center"><br/></td>
 	      </tr>
+	      <tr>
+	        <td align="center"><br/></td>
+	      </tr>
+	      <tr>
+	        <td align="center"><br/></td>
+	      </tr>
+	      <tr>
+	        <td align="center"><br/></td>
+	      </tr>
+	      <tr>
+	        <td align="center"><img src="../images/homepage/livmsg.jpg"/></td>
+	      </tr>
+	      <tr>
+	        <td align="center"><br/></td>
+	      </tr>
+	      <tr>
+	        <td align="center"><br/></td>
+	      </tr>
+	      <tr>
+	        <td align="center"><br/></td>
+	      </tr>
+	      <tr>
+	        <td align="center"><br/></td>
+	      </tr>
+<!--
 	      <tr>
 	        <td colspan="6" align="center"><br/></td>
 	      </tr>
@@ -113,13 +138,14 @@
 		<td width="21" height="15"><img src="../images/viewlive/bgli047.jpg" width="21" height="15"/></td>
 		<td width="19" height="15"><img src="../images/viewlive/bgli048.jpg" width="19" height="15"/></td>
 	      </tr>
+-->
 	    </table>
 	    
-	    <p>If you wish to view using the separate RealPlayer,
+	    <p>To view using the separate Windows Media Player,
 	  <xsl:element name="a">
 	    <xsl:attribute name="href"><xsl:value-of select="external/@href"/></xsl:attribute>
 	    click here
-	  </xsl:element>.  Our webcast requires RealPlayer G2 or later.</p>
+	  </xsl:element>.  Our webcast requires Windows Media Player Series 9 or later.</p>
 </xsl:template>
 
 </xsl:stylesheet>

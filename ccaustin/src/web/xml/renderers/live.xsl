@@ -4,7 +4,7 @@
 
 	Calvary Live Template
 	
-	$Id: live.xsl,v 1.1 2002/12/13 20:04:06 javajames27 Exp $
+	$Id: live.xsl,v 1.2 2004/05/14 15:31:44 gregk Exp $
 	
 -->	
 
@@ -77,7 +77,7 @@
   	     </tr>
 		<tr>
 			<td width="40%" class="tablecell" align="center" valign="top">
-				<img src="../images/vidallen.jpg" alt="View recent services with RealVideo" border="0"/><br/><br/>
+				<img src="../images/vidallen.jpg" alt="View recent services with the Windows Media Player" border="0"/><br/><br/>
 			</td>
 			<td width="60%" class="tablecell" align="left" valign="top">
 				<xsl:for-each select="broadcast">
