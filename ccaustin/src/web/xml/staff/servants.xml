@@ -8,7 +8,7 @@
 	
 	allen-bio.xml - the biography for Pastor Allen
 	
-	$Id: servants.xml,v 1.3 2003/09/24 04:43:41 gregk Exp $
+	$Id: servants.xml,v 1.4 2003/12/05 17:01:32 gregk Exp $
 		
 -->
 <content title="Servants" base=".">
@@ -21,6 +21,7 @@
 		<large-photo href="../images/staff/allenweb.jpg"/>
 		<role staff="true" ministry="church" title="Senior Pastor"/>
 	</servant>
+<!--
 	<servant id="jean">
 		<fullname>Jean Janes</fullname>
 		<first-name>Jean</first-name>
@@ -30,6 +31,7 @@
 		<large-photo href="../images/staff/jeanweb.jpg"/>
 		<role staff="true" ministry="church" title="Secretary"/>
 	</servant>
+-->
 	<servant id="donna">
 		<fullname>Donna Cano</fullname>
 		<first-name>Donna</first-name>
@@ -57,6 +59,7 @@
 		<large-photo href="../images/staff/bunjeeweb.jpg"/>
 		<role staff="true" ministry="frontline" title="College and Career Pastor"/>
 	</servant>
+<!--
 	<servant id="john">
 		<fullname>John Newberry</fullname>
 		<first-name>John</first-name>
@@ -66,6 +69,7 @@
 		<large-photo href="../images/staff/johnweb.jpg"/>
 		<role staff="true" ministry="youth" title="Youth Pastor"/>
 	</servant>
+-->
 	<servant id="glendon">
 		<fullname>Glendon Nicks</fullname>
 		<first-name>Glendon</first-name>
