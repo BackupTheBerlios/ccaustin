@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Streaming Media Ministry - The ministry and its detail
+	
+	$Id: streaming.xml,v 1.1 2002/08/10 18:12:20 javajames27 Exp $
+		
+-->
+<content title="Streaming Media Ministry">
+	<ministry id="multimedia">
+	  <name>Streaming Media Ministry</name>
+	  <overview>The Streaming Media Ministry provides access to both live and archived services in
+	    Real Audio and Real Video format. </overview>
+	  <long-description>
+	    <p>Currently we Live Stream our 3rd service on Sunday
+	    11:30 a.m., our mid-week service on Wednesday 7:00 p.m., and our College and Career
+	    service on Friday 7:30 p.m. The Real Audio archives are constantly being updated to
+	    provide access to all of the past messages. The Real Video messages for the past two
+	    services are also available. The Streaming Media Ministry also provides a closed circuit
+	    feed to the New Parents room enabling New Parents to attend services and to their
+	    children. So whether youâre unable to make it to service or you just want to
+	    review, log on and be blessed.</p> 
+	  </long-description>
+	  <contacts>
+	  	<contact-email email="bunjee@calvaryaustin.org">Bunjee Garrett</contact-email>
+   	  </contacts>
+	</ministry>
+</content>
