@@ -4796,6 +4796,23 @@
 		<audio>guestspeaker/bgarrett011903.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn001.html#top</passageref>
 	</message>
+		<message date="20030604" service="sunday" category="misc">
+		<seriestitle>Guest Speaker</seriestitle>
+		<title>Garett, Bunjee - One Step to Success</title>
+		<passage></passage>
+		<tape>GS060403</tape>
+		<audio>guestspeaker/bgarrett0603.ram</audio>
+		<passageref></passageref>
+	</message>
+	</message>
+		<message date="20030709" service="sunday" category="misc">
+		<seriestitle>Guest Speaker</seriestitle>
+		<title>Garett, Bunjee - Beautifule Feet</title>
+		<passage></passage>
+		<tape>GS070903</tape>
+		<audio>guestspeaker/bgarrett070903.ram</audio>
+		<passageref></passageref>
+	</message>
 	<message date="19960331" service="sunday" category="misc">
 		<seriestitle>Guest Speaker</seriestitle>
 		<title>Hocking, David</title>
