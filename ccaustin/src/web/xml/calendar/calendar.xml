@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.103 2004/02/27 19:52:18 anandpv Exp $
+	$Id: calendar.xml,v 1.104 2004/03/01 17:57:05 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -435,6 +435,30 @@ and to register visit the Events Center.</detail>
 	 <title>Mexico Mission Trip</title>
 		<date>March 5th-7th</date>
 		<detail>On March 5-7 come share the love of Jesus with His children south of the border in Pan De Vida. Sign up, or for those who cannot go, participate by donating from the list of needed items at the Events Center. items.</detail>
+    </event>
+    <event id="03003" date="20040308" showOnHomepage="true">
+	 <title>Vision Sunday &amp; Ordination Service</title>
+		<date>Mar 7</date>
+    </event>
+    <event id="03004" date="20040325" showOnHomepage="true">
+	 <title>Communion Service</title>
+		<date>Mar 24</date>
+    </event>
+    <event id="03005" date="20040310" showOnHomepage="true">
+	 <title>Two Feet Forward with Dan Baker (live Music at Coffee Creator)</title>
+		<date>Mar 10 </date>
+                <detail> Dan has played here many times, with an acoustic set.</detail>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
+    </event>
+    <event id="03006" date="20040331" showOnHomepage="false">
+	 <title>Glorious Dregs (live Music at Coffee Creator)</title>
+		<date>Mar 31 </date>
+                <detail> San Antonio band that played here last December. Usually have a more edgy sound but again this time they offer us their acoustic set.</detail>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
     </event>
     		<!--
     ===============

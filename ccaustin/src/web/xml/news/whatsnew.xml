@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.74 2004/02/27 19:54:57 anandpv Exp $
+	$Id: whatsnew.xml,v 1.75 2004/03/01 17:57:54 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -321,7 +321,7 @@
 			<title>Bring Out Your Inner Geek</title>
 			<detail>The Internet Ministry is looking for people who have a willingness to minister to one another and serve the body with the following skills: IT, networking, Linux server management, HTML, web designers/graphics artists, and Java developers. Contact internet@calvaryaustin.org for more information.</detail>
 		</news-item>
-		<news-item id="104" date="20040124" expires="20040228" showOnHomepage="false">
+		<news-item id="104" date="20040124" expires="20040328" showOnHomepage="false">
 			<title>Volunteers Needed</title>
 			<detail>The Tape/CD Ministry is looking for volunteers with a servant's heart to help sell tapes. Visit the Tape Booth for more information.</detail>
 		</news-item>
@@ -329,15 +329,15 @@
 			<title>Intercessory Prayer Group </title>
 			<detail>New Christians, mature Christians, anyone with a heart for prayer is invited to join the Intercessory Prayer Connection for intercessory prayer. Please meet us in the prayer room during the 9:30 AM Sunday service.</detail>
 		</news-item>
-		<news-item id="106" date="20040201" expires="20040226" showOnHomepage="false">
+		<news-item id="106" date="20040201" expires="20040326" showOnHomepage="true">
 			<title>Audio</title>
 			<detail>Pastor Allen's messages are available on tape, CD, and MP3 after every service in the lobby. Tape catalogs are also available.</detail>
 		</news-item>
-		<news-item id="107" date="20040201" expires="20040228" showOnHomepage="false">
+		<news-item id="107" date="20040201" expires="20040328" showOnHomepage="true">
 			<title>Bookstore</title>
 			<detail>Check-out all the Bibles, books, study guides, journals, and books for kids. You can also special order. The bookstore is open after every Wednesday and Sunday service.</detail>
 		</news-item>
-		<news-item id="108" date="20040201" expires="20040228" showOnHomepage="false">
+		<news-item id="108" date="20040201" expires="20040228" showOnHomepage="true">
 			<title>Missing Your Bible?</title>
 			<detail>Please check the bible lost and found table in the lobby if you have misplaced your bible. We will donate all unclaimed bibles to other ministries.</detail>
 		</news-item>
@@ -345,7 +345,7 @@
 			<title>Greeting Ministry</title>
 			<detail>Looking for a place to get plugged in at Calvary? We need friendly men and women to share God's love as people walk through the doors. Opportunities are available for both services on Sunday, and Wednesday. For more information, call Matt Lang at 512-989-8575 or send an email to Langm@fms-regional.com</detail>
 		</news-item>
-		<news-item id="110" date="20040206" expires="20040227" showOnHomepage="true">
+		<news-item id="110" date="20040206" expires="20040327" showOnHomepage="true">
 			<title>Calling All Bookworms</title>
 			<detail>Come make new friends while serving the body of Christ selling books! Call Andrea at 719-4667, or drop by the bookstore.</detail>
 		</news-item>
@@ -353,7 +353,7 @@
 			<title>Thursday Playdate</title>
 			<detail>Come laugh and play with other Moms every Thursday morning at 10:00 am. Kids are welcome too! For location and information, call Angela Laughlin at 238-7333.</detail>
 		</news-item>
-		<news-item id="112" date="20040215" expires="20040229" showOnHomepage="true">
+		<news-item id="112" date="20040215" expires="20040329" showOnHomepage="false">
 			<title>Worship CD</title>
 			<detail>The Calvary Austin Worship CD is expected to arrive before Feb 29. We will continue to pre-sale the CD for $12 at the Events Center until CD's are received, at which time they will be available for $15 in the Bookstore.</detail>
 		</news-item>
@@ -371,7 +371,7 @@ interested in joining this exciting ministry, please contact
 internet@calvaryaustin.org.</detail>
 		</news-item>
 		<news-item id="115" date="20040227" expires="20040327" showOnHomepage="true">
-			<title>"Free indeed" addictions ministry</title>
+			<title>"Free Indeed" Addictions Ministry</title>
 			<detail>Free Indeed is an internet-based
 ministry addressing pornography, substance abuse, overeating, smoking
 or other addictions. If you need help in one of these areas visit
@@ -383,7 +383,7 @@ after every Wednesday and Sunday service.</detail>
 		<news-item id="116" date="20040227" expires="20040327" showOnHomepage="false">
 			<title>Audio</title>
 			<detail>Pastor Allen's messages are available on tape, CD, and MP3 after every service in the lobby. Tape catalogs are also available.</detail></news-item>
-			<news-item id="117" date="20040227" expires="20040327" showOnHomepage="false">
+			<news-item id="117" date="20040227" expires="20040327" showOnHomepage="true">
 			<title>Radio, TV &amp; Internet</title>
 			<detail>Hear Pastor Allen on Calvary Continuum NOON on
 970AM or at 9:30am on 1010AM. Watch our tv program on cable access
