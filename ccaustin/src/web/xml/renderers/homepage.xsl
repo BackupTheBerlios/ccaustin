@@ -4,7 +4,7 @@
      
      Homepage custom renderer
 
-     $Id: homepage.xsl,v 1.9 2003/05/27 20:41:20 javajames27 Exp $
+     $Id: homepage.xsl,v 1.10 2004/03/18 08:15:20 gregk Exp $
      
 -->       
 
@@ -27,7 +27,8 @@
           </tr>
           <xsl:if test="banner">
 			<tr>
-				<td width="100%" align="left" valign="top"><br/></td>
+                        <td  align="left" valign="top" id="MU" height="280" width="800"><a href="../events/buildingmomentum.html"><img border="0" alt="click here to learn more" src="../images/events/buildmobanner.jpg" name="SlideShow" height="280" width="800"></img></a><br/>
+                        </td>
 			</tr>
 	          <tr>
 	            <td align="center">
@@ -238,8 +239,12 @@
 </xsl:template>
 
 <xsl:template match="banner/event">
+<br/>
+<a class="readmore" href="http://www.calvaryaustinmusic.org">Check Out The Calvary Austin Music Scene!</a>
+<!--
 	<a href="{@href}"><img src="{@img}" alt="{text()} - click to learn more" border="0"/></a><br/>
 	<a href="{@href}" class="readmore">Learn more about the <xsl:value-of select="text()"/></a>
+-->
 </xsl:template>
 
 </xsl:stylesheet>
