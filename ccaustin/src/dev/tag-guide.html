@@ -1,0 +1,872 @@
+<html>
+<head>
+<title>Content Writer's Guide</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="devguide.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+
+<h2>Tag Reference Guide</h2>
+<p>This document provides a reference guide for all content tags available for 
+  creating content.</p>
+<h3>Tag Overview</h3>
+<p>These tags are for marking up standard content for a web page. You will find 
+  that these tags will work within every page on the website. The basic rules 
+  for content within the web site is that all content within a page must be surrounded 
+  with a &lt;content&gt; tagset, and all text should be surrounded by the &lt;p&gt; 
+  tag. Some pages may define custom tags to further describe the content for the 
+  page, or store more structured content. It is up to the page writer's discretion 
+  to document these tags at the top of each content page. Refer to each page's 
+  documentation at the top for instructions on composing the page. </p>
+<p>When in doubt about a tag's specific use, refer to an existing document within 
+  the website that uses the tag or consult another content writer or web servant 
+  for more information.</p>
+<h3>Tag Summary</h3>
+<p>The default tags for a web page are grouped into the following areas. Each 
+  tag is linked to more detailed information found later in this document.</p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td colspan="2" class="tableheader">Basic Tags</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="tablesubheader">These tags are used quite often, and 
+      comprise the essential tags necessary to compose just about any page.</td>
+  </tr>
+  <tr> 
+    <td width="25%"><a href="#content">content</a></td>
+    <td width="75%">Contains all content for a page. A page must have 1 content 
+      tag and it must contain all other tags for the page.</td>
+  </tr>
+  <tr> 
+    <td width="25%"><a href="#p">p</a></td>
+    <td width="75%">Defines a paragraph of text. </td>
+  </tr>
+  <tr> 
+    <td width="25%"><a href="#br">br</a></td>
+    <td width="75%">Starts a new line inside a paragraph</td>
+  </tr>
+  <tr> 
+    <td width="25%"><a href="#img">img</a></td>
+    <td width="75%">Inserts an image into the page</td>
+  </tr>
+  <tr> 
+    <td width="25%"><a href="#link">link</a></td>
+    <td width="75%">Inserts a link to another page or within the document</td>
+  </tr>
+  <tr> 
+    <td width="25%"><a href="#heading">heading</a></td>
+    <td width="75%">Defines a major section heading or a heading for the page</td>
+  </tr>
+  <tr> 
+    <td width="25%"><a href="#subheading">subheading</a></td>
+    <td width="75%">Defines a minor section heading or a subheading within the 
+      page </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td colspan="2" class="tableheader">Tables/Data Structures</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="tablesubheader">These tags allow data to be grouped 
+      into tables or lists for better display and management.</td>
+  </tr>
+  <tr> 
+    <td width="25%"><a href="#table">table</a></td>
+    <td width="75%">Defines a new table.</td>
+  </tr>
+  <tr> 
+    <td width="25%"><a href="#row">row</a></td>
+    <td width="75%">Adds a row to the table</td>
+  </tr>
+  <tr> 
+    <td width="25%"><a href="#data">data</a></td>
+    <td width="75%">Adds a table cell and its contents to the row</td>
+  </tr>
+  <tr> 
+    <td width="25%"><a href="#list">list</a></td>
+    <td width="75%">Defines a new list</td>
+  </tr>
+  <tr> 
+    <td width="25%"><a href="#item">item</a></td>
+    <td width="75%">Adds an item to the list</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td colspan="2" class="tableheader">Text Control</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="tablesubheader">Tags which control the look of text 
+      within a paragraph.</td>
+  </tr>
+  <tr> 
+    <td width="25%"><a href="#note">note</a></td>
+    <td width="75%">Marks a portion of text as a notice to the user</td>
+  </tr>
+  <tr> 
+    <td width="25%"><a href="#emphasis">emphasis</a></td>
+    <td width="75%">Marks a portion of text as emphasized (italic)</td>
+  </tr>
+  <tr> 
+    <td width="25%"><a href="#subtext">subtext</a></td>
+    <td width="75%">Marks a portion of text as fine print</td>
+  </tr>
+  <tr> 
+    <td width="25%"><a href="#sidetext">sidetext</a></td>
+    <td width="75%">Marks a portion of text as a notice (this tag may go away).</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td colspan="2" class="tableheader">Special Purpose</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="tablesubheader">Tags that have specific purposes and 
+      are not used often but made available for advanced page writers.</td>
+  </tr>
+  <tr> 
+    <td width="25%"><a href="#redirect">redirect</a></td>
+    <td width="75%">A tag for telling the user's browser to go to another page. 
+      Useful for redirecting the user from the default page for a web site to 
+      the actual home page. </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<h3>Basic Tags</h3>
+<p><a name="content"></a></p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td class="tableheader" colspan="2">&lt;content&gt; Content Tag</td>
+  </tr>
+  <tr> 
+    <td colspan="2">The content tag opens at the beginning of a page's XML contents, 
+      and ends at the end. Only things within the content tag are processed by 
+      a page and put into the resulting HTML page.</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Attributes:</td>
+  </tr>
+  <tr> 
+    <td width="15%">title</td>
+    <td width="85%"> 
+      <p>the title of the page, placed into the titlebar of the browser when viewing</p>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Body:</td>
+  </tr>
+  <tr> 
+    <td colspan="2">The body of this tag consists of all other page tags in this 
+      document. Some pages may also include new tags specific to the page. For 
+      information on those tags, refer to the documentation at the top of the 
+      xml document.</td>
+  </tr>
+  <tr> 
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Example:</td>
+  </tr>
+  <tr> 
+    <td colspan="2"> 
+      <pre>&lt;content title=&quot;Heart-to-Heart&quot;&gt; 
+  &lt;!-- Page tags go inside here --&gt; 
+&lt;/content&gt;
+       </pre>
+    </td>
+  </tr>
+</table>
+<p><a name="p"></a></p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td class="tableheader" colspan="2">&lt;p&gt; Paragraph Tag</td>
+  </tr>
+  <tr> 
+    <td colspan="2">Groups a paragraph of text together. All text to be shown 
+      on a page should be wrapped with this tag. </td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Attributes:</td>
+  </tr>
+  <tr> 
+    <td width="15%">align</td>
+    <td width="85%"> 
+      <p>left, right, center alignment</p>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Body:</td>
+  </tr>
+  <tr> 
+    <td colspan="2">The text to display and other page tags to alter the look 
+      of the text.</td>
+  </tr>
+  <tr> 
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Example:</td>
+  </tr>
+  <tr> 
+    <td colspan="2"> 
+      <pre>&lt;p&gt;Each spring the Heart-to-Heart ministry pairs women together so they can<br>develop supportive, God-centered friendships.&lt;/p&gt;<br></pre>
+    </td>
+  </tr>
+</table>
+<p><a name="br"></a></p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td class="tableheader">&lt;br&gt; Line Break tag</td>
+  </tr>
+  <tr> 
+    <td>Inserts a line break (i.e. a carriage return) into the HTML. Use this 
+      tag if you want to force text to the next line within a paragraph tag.</td>
+  </tr>
+  <tr> 
+    <td class="title">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Attributes:</td>
+  </tr>
+  <tr> 
+    <td>N/A</td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Body:</td>
+  </tr>
+  <tr> 
+    <td>N/A</td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Example:</td>
+  </tr>
+  <tr> 
+    <td> 
+      <pre>&nbsp;</pre>
+    </td>
+  </tr>
+</table>
+<p><a name="img"></a></p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td class="tableheader" colspan="2">&lt;img&gt; Image tag</td>
+  </tr>
+  <tr> 
+    <td colspan="2">Inserts an image into the page. It is suggested to use relative 
+      paths (e.g. ../images/myimage.jpg) whenever possible. </td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Attributes:</td>
+  </tr>
+  <tr> 
+    <td width="15%">src </td>
+    <td width="85%">the path to the image</td>
+  </tr>
+  <tr> 
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Body:</td>
+  </tr>
+  <tr> 
+    <td colspan="2">The body of the tag contains the alternate text to be rendered 
+      if the image is not found or if the browers doesn't display images.</td>
+  </tr>
+  <tr> 
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Example:</td>
+  </tr>
+  <tr> 
+    <td colspan="2"> 
+      <pre>&nbsp;</pre>
+    </td>
+  </tr>
+</table>
+<p><a name="link"></a></p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td class="tableheader" colspan="2">&lt;link&gt; Link tag</td>
+  </tr>
+  <tr> 
+    <td colspan="2">Inserts a hyperlink into the page, following the HTML &lt;a&gt; 
+      tag format. 
+      <p></p>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Attributes:</td>
+  </tr>
+  <tr> 
+    <td width="15%">href </td>
+    <td width="85%"> 
+      <p>the relative or absolute link (e.g. ../my/page.html or http://www.mysite.com/my/page.html)</p>
+      <p></p>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Body:</td>
+  </tr>
+  <tr> 
+    <td colspan="2">the body of the tag is used to produce the text of the link 
+      itself.
+      <p></p>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Example:</td>
+  </tr>
+  <tr> 
+    <td colspan="2"> 
+      <pre>&nbsp;</pre>
+    </td>
+  </tr>
+</table>
+<p><a name="heading"></a></p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td class="tableheader">&lt;heading&gt; Heading tag</td>
+  </tr>
+  <tr> 
+    <td>Renders text with a special style for section headings (considered heading 
+      level 2).</td>
+  </tr>
+  <tr> 
+    <td class="title">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Attributes:</td>
+  </tr>
+  <tr> 
+    <td> 
+      <p>N/A</p>
+    </td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Body:</td>
+  </tr>
+  <tr> 
+    <td>The text of the heading</td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Example:</td>
+  </tr>
+  <tr> 
+    <td> 
+      <pre>&nbsp;</pre>
+    </td>
+  </tr>
+</table>
+<p><a name="subheading"></a></p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td class="tableheader">&lt;subheading&gt; Subheading tag</td>
+  </tr>
+  <tr> 
+    <td>Renders text with a special style for section sub headings (considered 
+      heading level 3).</td>
+  </tr>
+  <tr> 
+    <td class="title">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Attributes:</td>
+  </tr>
+  <tr> 
+    <td> 
+      <p>N/A</p>
+    </td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Body:</td>
+  </tr>
+  <tr> 
+    <td>The text of the subheading</td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Example:</td>
+  </tr>
+  <tr> 
+    <td> 
+      <pre>&nbsp;</pre>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<h3>Table/Data Structures</h3>
+<p><a name="table"></a></p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td class="tableheader" colspan="2">&lt;table&gt; Table tag</td>
+  </tr>
+  <tr> 
+    <td colspan="2">Defines a table (75% of the current layout area) to be included 
+      within the page. The goal is to use this and its child tags, &lt;row/&gt; 
+      and &lt;data/&gt; to produce a table without worrying about the HTML code 
+      needed behind the scenes. <br>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Attributes:</td>
+  </tr>
+  <tr> 
+    <td width="15%">border </td>
+    <td width="85%"> 
+      <p>true if there should be a border. If not specified, the default is no 
+        border</p>
+    </td>
+  </tr>
+  <tr> 
+    <td>heading </td>
+    <td>the table heading. If not specified, no table heading is rendered
+      <p></p>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Body:</td>
+  </tr>
+  <tr> 
+    <td colspan="2">Should contain at least 1 &lt;row/&gt; tagset</td>
+  </tr>
+  <tr> 
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Example:</td>
+  </tr>
+  <tr> 
+    <td colspan="2"> 
+      <pre>&nbsp;</pre>
+    </td>
+  </tr>
+</table>
+<p><a name="row"></a></p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td class="tableheader">&lt;row&gt; Row tag</td>
+  </tr>
+  <tr> 
+    <td>Declares a new table row. 
+      <p></p>
+    </td>
+  </tr>
+  <tr> 
+    <td class="title">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Attributes:</td>
+  </tr>
+  <tr> 
+    <td>N/A</td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Body:</td>
+  </tr>
+  <tr> 
+    <td>Should contain at least 1 &lt;data/&gt; tagset</td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Example:</td>
+  </tr>
+  <tr> 
+    <td> 
+      <pre>&nbsp;</pre>
+    </td>
+  </tr>
+</table>
+<p><a name="data"></a></p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td class="tableheader" colspan="2">&lt;data&gt; Data tag</td>
+  </tr>
+  <tr> 
+    <td colspan="2">Declares a new table cell of data. </td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Attributes:</td>
+  </tr>
+  <tr> 
+    <td width="15%">label </td>
+    <td width="85%"> 
+      <p>make the cell render as a labeled cell (bolder text and nowrap)</p>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Body:</td>
+  </tr>
+  <tr> 
+    <td colspan="2">The text for the cell</td>
+  </tr>
+  <tr> 
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Example:</td>
+  </tr>
+  <tr> 
+    <td colspan="2"> 
+      <pre>&nbsp;</pre>
+    </td>
+  </tr>
+</table>
+<p><a name="list"></a></p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td class="tableheader" colspan="2">&lt;list&gt; List tag</td>
+  </tr>
+  <tr> 
+    <td colspan="2">Renders a list that may be ordered (numbered) or unordered 
+      (bulleted).</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Attributes:</td>
+  </tr>
+  <tr> 
+    <td width="15%">ordered </td>
+    <td width="85%"> 
+      <p>(optional) if true, then generates an ordered list</p>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Body:</td>
+  </tr>
+  <tr> 
+    <td colspan="2">Yes - &lt;item/&gt; tags 
+      <p></p>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Example:</td>
+  </tr>
+  <tr> 
+    <td colspan="2"> 
+      <pre>&nbsp;</pre>
+    </td>
+  </tr>
+</table>
+<p><a name="item"></a></p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td class="tableheader">&lt;item&gt; Item tag</td>
+  </tr>
+  <tr> 
+    <td>Renders a list item </td>
+  </tr>
+  <tr> 
+    <td class="title">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Attributes:</td>
+  </tr>
+  <tr> 
+    <td> 
+      <p>N/A</p>
+    </td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Body:</td>
+  </tr>
+  <tr> 
+    <td>The text of the item</td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Example:</td>
+  </tr>
+  <tr> 
+    <td> 
+      <pre>&nbsp;</pre>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<h3>Text Control</h3>
+<p><a name="note"></a></p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td class="tableheader">&lt;note&gt; Note tag</td>
+  </tr>
+  <tr> 
+    <td>Renders text with a special style for &quot;Note: xxx&quot; text</td>
+  </tr>
+  <tr> 
+    <td class="title">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Attributes:</td>
+  </tr>
+  <tr> 
+    <td> 
+      <p>N/A</p>
+    </td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Body:</td>
+  </tr>
+  <tr> 
+    <td>The text of the note, including &quot;Note:&quot; </td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Example:</td>
+  </tr>
+  <tr> 
+    <td> 
+      <pre>&nbsp;</pre>
+    </td>
+  </tr>
+</table>
+<p><a name="emphasis"></a></p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td class="tableheader">&lt;emphasis&gt; Emphasis tag</td>
+  </tr>
+  <tr> 
+    <td>Renders text with a special style for &quot;emphasis&quot; text (italic 
+      text)</td>
+  </tr>
+  <tr> 
+    <td class="title">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Attributes:</td>
+  </tr>
+  <tr> 
+    <td> 
+      <p>N/A</p>
+    </td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Body:</td>
+  </tr>
+  <tr> 
+    <td>The text of the emphasis </td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Example:</td>
+  </tr>
+  <tr> 
+    <td> 
+      <pre>&nbsp;</pre>
+    </td>
+  </tr>
+</table>
+<p><a name="subtext"></a></p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td class="tableheader">&lt;subtext&gt; Subtext tag</td>
+  </tr>
+  <tr> 
+    <td>Renders text with a special style for subtexts (fineprint, small notifications).</td>
+  </tr>
+  <tr> 
+    <td class="title">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Attributes:</td>
+  </tr>
+  <tr> 
+    <td> 
+      <p>N/A</p>
+    </td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Body:</td>
+  </tr>
+  <tr> 
+    <td>The text of the subtext</td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Example:</td>
+  </tr>
+  <tr> 
+    <td> 
+      <pre>&nbsp;</pre>
+    </td>
+  </tr>
+</table>
+<p><a name="sidetext"></a></p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td class="tableheader">&lt;sidetext&gt; Sidetext tag</td>
+  </tr>
+  <tr> 
+    <td>Renders text with a special style for sidetexts (small notifications with 
+      smaller text).</td>
+  </tr>
+  <tr> 
+    <td class="title">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Attributes:</td>
+  </tr>
+  <tr> 
+    <td> 
+      <p>N/A</p>
+    </td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Body:</td>
+  </tr>
+  <tr> 
+    <td>The text of the sidetext</td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="title">Example:</td>
+  </tr>
+  <tr> 
+    <td> 
+      <pre>&nbsp;</pre>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<h3>Special Purpose</h3>
+<p><a name="redirect"></a></p>
+<table width="95%" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td class="tableheader" colspan="2">&lt;redirect&gt; Redirect Tag</td>
+  </tr>
+  <tr> 
+    <td colspan="2">Sends a redirect javascript code block to the client with 
+      the new redirect location</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Attributes:</td>
+  </tr>
+  <tr> 
+    <td width="15%">href </td>
+    <td width="85%"> 
+      <p>the new location to go to </p>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Body:</td>
+  </tr>
+  <tr> 
+    <td colspan="2">N/A</td>
+  </tr>
+  <tr> 
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="title">Example:</td>
+  </tr>
+  <tr> 
+    <td colspan="2"> 
+      <pre>&nbsp;</pre>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
