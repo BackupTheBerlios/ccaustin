@@ -3224,6 +3224,15 @@
 		<audio>bibleoverview/44-act-22.ram</audio>
 		<passageref>http://www.blueleterbible.org/kjv/Act/Act022.html#top</passageref>
 	</message>
+	<message date="20021002" service="midweek" category="overview">
+		<seriestitle>Acts</seriestitle>
+		<title></title>
+		<passage>Acts 24-25</passage>
+		<tape>B01296</tape>
+		<audio>bibleoverview/44-act-24.ram</audio>
+		<passageref>http://www.blueleterbible.org/kjv/Act/Act024.html#top</passageref>
+	</message>
+
 
 
     <message date="19940522" service="sunday" category="topical series">
@@ -8208,6 +8217,14 @@
 		<passage>Ephesians 6:10-12</passage>
 		<tape>BS092902</tape>
 		<audio>49-eph/49-eph-06-10.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph006.html#top</passageref>
+	</message>
+	<message date="20021006" service="sunday" category="book studies">
+		<seriestitle>Ephesians</seriestitle>
+		<title>Equipped with Integrity</title>
+		<passage>Ephesians 6:13-14a</passage>
+		<tape>BS100602</tape>
+		<audio>49-eph/49-eph-06-13.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Eph/Eph006.html#top</passageref>
 	</message>
 
