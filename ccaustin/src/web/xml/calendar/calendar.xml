@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.130 2004/08/24 23:22:06 tie Exp $
+	$Id: calendar.xml,v 1.131 2004/09/26 17:30:57 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -265,9 +265,9 @@ need for Praying Leaders.</detail>
 		</ministries>
     </event>
 
-		<!--
+<!--
 	===============
-			Nov
+	    Nov
 	===============
 -->
     <event id="11001" date="20031031" showOnHomepage="true">
@@ -688,6 +688,14 @@ Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE<
 			<ministry id="men"/>
 		</ministries>
     </event>
+    <event id="10003" date="20041002" showOnHomepage="true">
+	 <title>Got Milk?</title>
+		<date>Oct 2</date>
+		<detail>The Men's Ministry will have a men's breakfast on Saturday morning. October 2. Sign up and pick up the details at the Events Center today.</detail>
+		<ministries>
+			<ministry id="men"/>
+		</ministries>
+    </event>
         <event id="10004" date="20040925" showOnHomepage="true">
 	 <title>Women Helping Women (Free Indeed Addictions)</title>
 		<date>Sept 25</date>
@@ -695,6 +703,29 @@ Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE<
 		<ministries>
 			<ministry id="women"/>
 		</ministries>
+    </event>
+    <event id="10005" date="20041002" showOnHomepage="true">
+	 <title>Cross Culture Men's Conference</title>
+		<date>Oct 2</date>
+		<detail>The Cross Culture Men's Conference is being held at Calvary Chapel Houston on Sat Oct 2nd. Prepaid cost will be $39 and after Monday Sept 20, it will be $49. For more information, pick up a flyer at the Info Center.</detail>
+    </event>
+<!--
+     ===============
+     Nov 2004
+     ===============
+-->
+    <event id="11001" date="20041106" showOnHomepage="true">
+	 <title>Pastors and Leaders Conference</title>
+		<date>Nov 4-6</date>
+		<detail>The Mid-South Calvary Chapel Pastors and Leaders Conference for 2004 is to be held on November 4-6 at Calvary Chapel Austin. For more info go to <link href="http://www.calvaryaustin.org/313">www.calvaryaustin.org/313</link>.</detail>
+		<ministries>
+			<ministry id="singles"/>
+		</ministries>
+    </event>
+    <event id="11002" date="20041120" showOnHomepage="true">
+	 <title>LCQ2 "Appreciation"</title>
+		<date>Nov 20</date>
+		<detail>The 2nd quarterly meeting of the Leadership Community will meet Saturday, November 20th. Come enjoy the fellowshipping, teaching, and sharing indeas to better facilitate ministry at Calvary Austin.</detail>
     </event>
 	</calendar>
 </content>
