@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.57 2003/06/16 13:25:06 javajames27 Exp $
+	$Id: calendar.xml,v 1.58 2003/06/20 21:25:27 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -306,8 +306,7 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
     <event id="06002" date="20030627" showOnHomepage="true">
       <title>V.B.S. Day Camp</title>
       <date>June 23rd-27th</date>
-      <intro>VBS is just around the corner, Jun 23-27. This year VBS will run from 9AM to 4PM daily. Pick up a flyer at the Events Center. The registration cost is $10.  Extended care will be provided for an additional $25.</intro>
-      <detail>Every year our church offers a wonderful Vacation Bible School.  This year, we want a more time to develop the lessons and teach with great effectiveness.  Therefore, we are increasing the times and changing the V. B. S.  to a full DAY CAMP.  We will offer lots of fun activities including camp crafts, snacks, games, worship, drama, prizes and, most of all, great Bible stories taught in a way that will leave a lasting impression.  Our theme this year will take us under the deep ocean, so if you think something "fishy" is going on, then you must come check it out!  We will offer V. B. S. Day Camp to all kids entering kindergarten this August through 5th grade.  Dates will be June 23-27th, (please register early because space is limited)!  For more information call Kerry Schroeder at 219-7028. <link href="../events/vbsdaycamp2003.html">More details...</link></detail>
+      <detail>VBS is this week, Jun 23-27, from 9AM to 4PM daily. The registration cost is $10.  Extended care will be provided for an additional $25. <link href="../events/vbsdaycamp2003.html">More details...</link></detail>
 		<ministries>
 			<ministry id="children"/>
 		</ministries>
@@ -361,7 +360,7 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
     <event id="06008" date="20030629" showOnHomepage="true">
 	 <title>Children's Ministry Orientation</title>
 		<date>June 29th</date>
-		<detail>For those involved or want to be involved, don¹t miss (you must attend) the orientation on Sunday, Jun 29, 5-7:30PM. Bring your family to the church for dinner, new CM manuals, childcare and prizes. Contact Laura Nattinger (260.6851) for more information.</detail>
+		<detail>For those involved or want to be involved, don't miss (you must attend) the orientation next Sunday, Jun 29, 5-7:30PM. Bring your family to the church for dinner, new CM manuals, childcare and prizes. Contact Laura Nattinger (260.6851) for more information.</detail>
 		<ministries>
 			<ministry id="coffee"/>
 		</ministries>
@@ -420,6 +419,12 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
 			<ministry id="frontine"/>
 		</ministries>
     </event>
+    <event id="08002" date="20030808" showOnHomepage="true">
+	 <title>Youth D.U.D. Camp</title>
+		<date>August 4th-8th</date>
+		<logo align="right" img="../images/events/ccccretreat2003-icon.jpg" alt="CCCC Retreat 2003"/>
+		<detail>More details coming soon!</detail>
+    </event>
 		<!--
 	===============
 	Sept
@@ -428,7 +433,7 @@ tour guide on trips to Israel.  Roni will cover 4 topics:  History of Israel, Je
     <event id="09001" date="20030927" showOnHomepage="true">
 	 <title>Men's Retreat</title>
 		<date>Sept 25th - 27th</date>
-		<detail>Registration starts today for the Sep 25-27 retreat at T-Bar M Ranch in San Marcos. The main speaker will be Ken Graves from Calvary Chapel Bangor Maine. Men mark your calendars and sign up at the Events Center.  A 50% deposit is due by July 6.</detail>
+		<detail>Registration continues for the Sep 25-27 retreat at T-Bar M Ranch in San Marcos. The main speaker will be Ken Graves from Calvary Chapel Bangor Maine. Men mark your calendars and sign up at the Events Center.  A 50% deposit is due by July 6.</detail>
 		<ministries>
 			<ministry id="men"/>
 		</ministries>
