@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Worship Ministry - The ministry and its detail
+	
+	$Id: 1042909860703-%2Fslide%2Ffiles%2Fsites%2Ftestsite%2Fministries%2Fworship.xml.tmp,v 1.1 2003/02/12 22:07:23 javajames27 Exp $
+		
+-->
+<content title="Worship Team">
+  <ministry id="worship">
+    <name>Worship Team</name>
+    <overview>The Worship Team is the group of singers and musicians that lead the worship services.  Team members are selected by audition only and must exhibit spiritual maturity and be a regular part of the fellowship.</overview>
+    <long-description>
+      <p>We at Calvary Chapel believe that the worship of God should be inspirational.  Therefore, we give great place for music. Music is one of the different formats by which man can express feelings, desires, hope, peace, joy and love toward God.</p>
+      
+      <p>All of our services begin with a time of worship through music.  Music is a gift of expression given to man by God, therefore, we use contemporary music in our worship services.  It is an opportunity for believers to render themselves to the Lord by giving thanks and praise, as well as offering our confession, repentance and devotion to Him.  It is truly a time where we give to the Lord our worship.</p>
+      
+      <p>A song is a vehicle to convey the thoughts and feelings of the heart.  The songs we sing are well grounded in the Word of God and are sung as praise (songs about God and His attributes), worship (songs that are directed towards God) and exhortation from God (God speaking the body of believers, as is found so often in scripture).</p>
+      <!-- Should we pull these in from the msgs.xml file? For now, I'll just copy and paste -->
+      <heading>Grow in Your Worship...</heading>
+      <p>Listen for the first time, or listen again - RealAudio archives about the topic of worship.</p>
+      <subheading>Recent</subheading>
+      <p><link href="http://www.calvarychapel.org/austin/audio/guestspeaker/dreynolds0702.ram">Let
+      Us Draw Near - Hebrews 10:22</link></p>
+
+      <subheading>Worship Conference 2001</subheading>
+      <p><link href="http://www.calvarychapel.org/austin/audio/worship2001/dclark2001.ram">Duane Clark</link><br/>
+         <link href="http://www.calvarychapel.org/austin/audio/worship2001/tmichaels2001.ram">Terry Michaels</link><br/>
+         <link href="http://www.calvarychapel.org/austin/audio/worship2001/arigg2001.ram">Allen Rigg</link><br/>
+         <link href="http://www.calvarychapel.org/austin/audio/worship2001/dvpelt2001.ram">Doug Van Pelt</link></p>
+
+      <subheading>Worship Conference 2002</subheading>
+      <p><link href="http://www.calvarychapel.org/austin/audio/worship2002/rarbaugh.ram">Ron Arbaugh</link><br/>
+         <link href="http://www.calvarychapel.org/austin/audio/worship2002/tgarcia.ram">Tony Garcia</link><br/>
+         <link href="http://www.calvarychapel.org/austin/audio/worship2002/blane.ram">Bob Lane</link><br/>
+         <link href="http://www.calvarychapel.org/austin/audio/worship2002/dnorman.ram">Dennis Norman</link><br/>
+         <link href="http://www.calvarychapel.org/austin/audio/worship2002/arigg.ram">Allen Rigg</link></p>
+
+      <subheading>Worship: Getting Close to God</subheading>
+      <p><link href="http://www.calvarychapel.org/austin/audio/topicseries/howorship/partone.ram">Part One</link><br/>
+         <link href="http://www.calvarychapel.org/austin/audio/topicseries/howorship/parttwo.ram">Part Two</link><br/>
+         <link href="http://www.calvarychapel.org/austin/audio/topicseries/howorship/partthree.ram">Part Three</link><br/>
+         <link href="http://www.calvarychapel.org/austin/audio/topicseries/howorship/partfour.ram">Part Four</link><br/>
+         <link href="http://www.calvarychapel.org/austin/audio/topicseries/howorship/partfive.ram">Part Five</link><br/>
+         <link href="http://www.calvarychapel.org/austin/audio/topicseries/howorship/partsix.ram">Part Six</link></p>
+
+      <heading>It wouldn't be possible without...</heading>
+      <subheading>Worship Community</subheading>
+      <p>The Worship Community is a contemporary choir made up of men
+	and women from the general body of Calvary Chapel of Austin.<br/><link
+      href="../ministries/worshipcommunity.html">Learn more...</link></p> 
+      <subheading>Sound Team</subheading>
+      <p>The Sound Team assists the pastor and worship team by providing audio technical support for
+      all worship services, as well as worship team rehearsals and soundchecks.<br/><link
+      href="../ministries/sound.html">Learn more...</link></p> 
+      <subheading>Overhead/Lights</subheading>
+      <p>This ministry works in conjunction with the Worship Team. We oversee the overhead
+	projectors and lights for each service. <br/><link
+	  href="../ministries/overhead.html">Learn more...</link></p>
+    </long-description>
+    <contacts>
+      <contact-email email="david@calvaryaustin.org">David Reynolds, Worship Pastor</contact-email>
+      <contact-phone phone="719-4667">Contact Phone</contact-phone>
+    </contacts>
+  </ministry>
+</content>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Greeting Ministry - The ministry and its detail
+	
+	$Id: 1042909860813-%2Fslide%2Ffiles%2Fsites%2Ftestsite%2Fministries%2Fgreet.xml.tmp,v 1.1 2003/02/12 22:07:23 javajames27 Exp $
+		
+-->
+<content title="Greeting Ministry">
+	<ministry id="greet">
+	  <name>Greeting Ministry</name>
+	  <overview>As greeters, our goal is to extend Christ's love to all who walk through the church doors on Sunday and Wednesday. This means opening the doors for people, greeting each person with a smile and handshake, passing out bulletins and serving them in any way possible.</overview>
+	  <long-description>
+	    <p>When I think of the vision for the greeting ministry, I think of what the early church looked like. The New Testament provides a glimpse into the hospitality of 1st century Christians. Hospitality to them meant opening their lives to other people. Acts 2:46 says “They broke bread in their homes and ate together with glad and sincere hearts.” and in Acts 5:42 it says “day after day, in the temple courts and from house to house, they never stopped teaching and proclaiming the good news that Jesus is the Christ.”</p>
+		<p>Karen Mains in her book on hospitality wrote: “When I look at hospitality as practiced in the Word, I have a convicting sense of open homes-open lives, shared tables, ready comfort for weary travelers wandering on dangerous missions in their work for the kingdom.” This is our vision. To provide hospitality to all those who walk through the doors of Calvary. </p>
+	  </long-description>
+	  <contacts>
+	  	<contact-email email="tammyl91@swbell.net">Tammy Lang</contact-email>
+	  	<contact-phone phone="989-8575">Contact Matt Lang</contact-phone>
+   	  </contacts>
+	</ministry>
+</content>

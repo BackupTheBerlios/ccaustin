@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+
+<!-- XML Schema for WebDAV  -->
+
+<!-- schema xmlns="http://www.w3.org/TR/1999/09/24-xmlschema" -->
+<schema schemaAbbrev="D" schemaName="DAV:">
+
+    <element name="activelock" schemaAbbrev="D" schemaName="DAV:">
+      <type>
+         <element ref="lockscope"  minOccurs="1" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+         <element ref="locktype"   minOccurs="1" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+         <element ref="depth"      minOccurs="1" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+         <element ref="owner"      minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+         <element ref="timeout"    minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+         <element ref="locktoken"  minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+      </type>
+    </element>
+
+    <element name="lockscope" schemaAbbrev="D" schemaName="DAV:">
+      <type>
+         <element name="exclusive" type="string" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+         <element name="shared"    type="string" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+      </type>
+    </element>
+
+    <element name="locktype" schemaAbbrev="D" schemaName="DAV:">
+       <type>
+         <element name="write" type="string" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+       </type>
+    </element>
+
+    <element name="depth"   type="string" schemaAbbrev="D" schemaName="DAV:"/>
+    <element name="owner"   type="string" schemaAbbrev="D" schemaName="DAV:"/>
+    <element name="timeout" type="string" schemaAbbrev="D" schemaName="DAV:"/>
+    <element name="href"    type="string" schemaAbbrev="D" schemaName="DAV:"/>
+
+    <element name="locktoken" schemaAbbrev="D" schemaName="DAV:">
+       <type>
+          <element ref="href" minOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+       </type>
+    </element>
+
+    <element name="link" schemaAbbrev="D" schemaName="DAV:">
+      <type>
+         <element name="src" type="string" minOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+         <element name="dest" type="string" minOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+      </type>
+    </element>
+
+    <element name="multistatus" schemaAbbrev="D" schemaName="DAV:">
+      <type>
+        <element ref="response" minOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+        <element ref="responsedescription" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+      </type>
+    </element>
+
+    <element name="response" schemaAbbrev="D" schemaName="DAV:">
+       <type>
+          <element ref="href" minOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+          <element ref="propstat" minOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+          <element name="status" type="string" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+          <element ref="responsedescription" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+       </type>
+    </element>
+
+    <element name="status" type="string" schemaAbbrev="D" schemaName="DAV:"/>
+
+    <element name="propstat" schemaAbbrev="D" schemaName="DAV:">
+       <type>
+          <element ref="prop" minOccurs="1" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+          <element ref="status" minOccurs="1" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+          <element ref="responsedescription" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+       </type>
+    </element>
+
+    <element name="responsedescription" type="string" schemaAbbrev="D" schemaName="DAV:"/>
+
+    <element name="prop" type="binary" schemaAbbrev="D" schemaName="DAV:"/>
+
+    <element name="propertybehaviour" schemaAbbrev="D" schemaName="DAV:">
+       <type>
+          <element name="omit" type="string" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+          <element ref="keepalive" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+       </type>
+    </element>
+
+    <element name="keepalive" type="string" schemaAbbrev="D" schemaName="DAV:"/>
+
+    <element name="propertyupdate" schemaAbbrev="D" schemaName="DAV:">
+       <type minOccurs="1">
+          <element ref="remove" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+          <element ref="set" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+       </type>
+    </element>
+
+    <element name="remove" schemaAbbrev="D" schemaName="DAV:">
+       <type>
+          <element ref="prop" minOccurs="1" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+       </type>
+    </element>
+
+    <element name="set" schemaAbbrev="D" schemaName="DAV:">
+       <type>
+          <element ref="prop" minOccurs="1" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+       </type>
+    </element>
+
+    <element name="propfind" schemaAbbrev="D" schemaName="DAV:">
+       <type>
+          <element name="allprop" type="string" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+          <element name="propname" type="string" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+          <element name="prop" type="binary" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+       </type>
+    </element>
+
+    <element name="collection" type="string" schemaAbbrev="D" schemaName="DAV:"/>
+
+    <!-- Properties -->
+    <element name="creationdate" type="string" schemaAbbrev="D" schemaName="DAV:"/>
+    <element name="displayname" type="string" schemaAbbrev="D" schemaName="DAV:"/>
+    <element name="getcontentlanguage" type="string" schemaAbbrev="D" schemaName="DAV:"/>
+    <element name="getcontentlength" type="string" schemaAbbrev="D" schemaName="DAV:"/>
+    <element name="getcontenttype" type="string" schemaAbbrev="D" schemaName="DAV:"/>
+    <element name="getetag" type="string" schemaAbbrev="D" schemaName="DAV:"/>
+    <element name="getlastmodified" type="string" schemaAbbrev="D" schemaName="DAV:"/>
+    <element name="lockdiscovery" schemaAbbrev="D" schemaName="DAV:">
+       <type>
+          <element ref="activelock" minOccurs="0" schemaAbbrev="D" schemaName="DAV:"/>
+       </type>
+    </element>
+    <element name="resourcetype" type="string" schemaAbbrev="D" schemaName="DAV:"/>
+    <element name="source" schemaAbbrev="D" schemaName="DAV:">
+       <type>
+          <element ref="link" minOccurs="0" schemaAbbrev="D" schemaName="DAV:"/>
+       </type>
+    </element>
+    <element name="supportedlock" schemaAbbrev="D" schemaName="DAV:">
+       <type>
+          <element ref="lockentry" minOccurs="0" schemaAbbrev="D" schemaName="DAV:"/>
+       </type>
+    </element>
+    
+
+    <!-- Definintion of Lock entry -->
+    <element name="lockentry" schemaAbbrev="D" schemaName="DAV:">
+      <type>
+        <element ref="lockscope" minOccurs="1" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+        <element ref="locktype" minOccurs="1" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+      </type>
+    </element>
+  
+    <!-- Definintion of Lock Info -->
+    <element name="lockinfo" schemaAbbrev="D" schemaName="DAV:">
+      <type>
+        <element ref="lockscope" minOccurs="1" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+        <element ref="locktype" minOccurs="1" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+        <element ref="owner" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+      </type>
+    </element>
+
+    <!-- SlideDAV additional tags -->
+
+    <element name="resourceproperties" schemaAbbrev="D" schemaName="DAV:">
+       <type>
+         <element ref="creationdate" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+         <element ref="displayname" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+         <element ref="getcontentlanguage" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+         <element ref="getcontentlength" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+         <element ref="getcontenttype" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+         <element ref="getetag" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+         <element ref="getlastmodified" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+         <element ref="lockdiscovery" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+         <element ref="resourcetype" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+         <element ref="source" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+         <element ref="supportedlock" minOccurs="0" maxOccurs="1" schemaAbbrev="D" schemaName="DAV:"/>
+         <!-- Add tag ANY for any other properties -->
+       </type>
+    </element>
+
+</schema>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	New Believer's Ministry - The ministry and its detail
+	
+	$Id: 1042910150230-%2Fslide%2Ffiles%2Fsites%2Ftestsite%2Fministries%2Fnewbelievers.xml.tmp,v 1.1 2003/02/12 22:07:42 javajames27 Exp $
+		
+-->
+<content title="New Believer's Ministry">
+	<ministry id="newbelievers">
+	  <name>New Believer's Ministry</name>
+	  <overview>The purpose of the New Believer's Ministry is to make disciples by
+                teaching students to observe all things Jesus has commanded us.
+                </overview>
+	  <long-description>
+        <p>
+        Want to grow in your understanding of basic Bible teachings?  Either for the
+        first time or to refresh your understanding of these fundamental truths?  Then a
+        New Believer's class may be just for you.  
+        The New Believer's classes are opportunities for other like minded individuals and
+        provide an opportunity for fellowship with one another.
+        </p>
+        <p>
+        These 12-week classes are offered at
+        various times through out the year and are available for adults seeking to grow
+        in this way.
+        Students in advance of class night spend
+        time in praying for one another and studying the Bible using curriculum provided
+        by the instructor.
+        The <link href="http://www.calvarychapel.com/costamesa/newbelievers/study/index.htm">New Believer's curriculum</link> is based 
+        on materials provided by Calvary Chapel Costa Mesa.
+	    </p>
+	  </long-description>
+	  <contacts>
+        <contact-email email="craig.swearingen@netzero.net">Craig Swearingen</contact-email>
+   	  </contacts>
+	</ministry>
+</content>

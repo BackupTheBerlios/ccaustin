@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Dinner for 8 Ministry - The ministry and its detail
+	
+	$Id: 1042910150401-%2Fslide%2Ffiles%2Fsites%2Ftestsite%2Fministries%2Fdinner.xml.tmp,v 1.1 2003/02/12 22:07:42 javajames27 Exp $
+		
+-->
+<content title="Dinner For 8 Ministry">
+	<ministry id="dinner">
+	  <name>Dinner For 8 Ministry</name>
+	  <overview>Dinner for Eight is the perfect opportunity to meet, fellowship and minister to others in the church.</overview>
+	  <long-description>
+	    <p>Are you having trouble getting to know other people at Calvary Chapel? Dinner for Eight is the perfect opportunity to meet, fellowship 		and minister to others in the church.</p>
+	  </long-description>
+	  <contacts>
+	  	<contact-phone phone="719-4667">Contact the church office</contact-phone>
+   	  </contacts>
+	</ministry>
+</content>

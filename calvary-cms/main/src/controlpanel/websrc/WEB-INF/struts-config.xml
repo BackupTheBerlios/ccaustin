@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN"
+          "struts-config_1_1.dtd">
+<!-- Struts configuration for the Slide Administration Webapp -->
+
+<struts-config>
+  
+  <!-- ========== Form Bean Definitions =================================== -->
+  
+  <form-beans>
+    
+    <form-bean name="user"
+               type="org.calvaryaustin.controlpanel.users.UserForm"/>
+    <form-bean name="users"
+               type="org.calvaryaustin.controlpanel.users.UsersForm"/>
+    
+    <form-bean name="locks"
+               type="org.calvaryaustin.controlpanel.locks.LocksForm"/>
+    
+  </form-beans>
+  
+  <!-- ========== Global Forward Definitions ============================== -->
+  
+  <global-forwards>
+    
+    <forward name="addUser"
+             path="/addUser.jsp"/>
+    <forward name="editUser"
+             path="/editUser.do"/>
+    <forward name="removeUsers"
+             path="/removeUsers.do"/>
+  
+    <forward name="killLocks"
+             path="/killLocks.do"/>
+  
+  </global-forwards>
+  
+  <!-- ========== Action Mapping Definitions ============================== -->
+  
+  <action-mappings>
+  
+    <action path="/index"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="homepage"/>
+
+    
+    <action path="/addUser" 
+            type="org.calvaryaustin.controlpanel.users.AddUserAction"
+            name="user"
+            scope="request"
+            input="/addUser.jsp">
+      <forward name="addUser.cancelled"
+               path="/users.jsp"
+               redirect="true"/>
+      <forward name="addUser.success"
+               path="/users.jsp"
+               redirect="true"/>
+      <forward name="addUser.failure"
+               path="/addUser.jsp"/>
+    </action>
+    <action path="/editUser" 
+            type="org.calvaryaustin.controlpanel.users.EditUserAction"
+            scope="request"
+            input="/users.jsp">
+      <forward name="editUser.success"
+               path="/editUser.jsp"/>
+      <forward name="editUser.failure"
+               path="/users.jsp"/>
+    </action>
+    <action path="/removeUsers" 
+            type="org.calvaryaustin.controlpanel.users.RemoveUsersAction"
+            name="users"
+            scope="request"
+            input="/users.jsp">
+      <forward name="removeUsers.success"
+               path="/users.jsp"
+               redirect="true"/>
+      <forward name="removeUsers.failure"
+               path="/users.jsp"/>
+    </action>
+    <action path="/saveUser" 
+            type="org.calvaryaustin.controlpanel.users.SaveUserAction"
+            name="user"
+            scope="request"
+            input="/editUser.jsp">
+      <forward name="saveUser.cancelled"
+               path="/users.jsp"
+               redirect="true"/>
+      <forward name="saveUser.success"
+               path="/users.jsp"
+               redirect="true"/>
+      <forward name="saveUser.failure"
+               path="/editUser.jsp"/>
+    </action>
+    
+    <action path="/killLocks" 
+            type="org.calvaryaustin.controlpanel.locks.KillLocksAction"
+            name="locks"
+            scope="request"
+            input="/locks.jsp">
+      <forward name="killLocks.success"
+               path="/locks.jsp"
+               redirect="true"/>
+      <forward name="killLocks.failure"
+               path="/locks.jsp"/>
+    </action>
+    
+  </action-mappings>
+  
+  <!-- ========== Request Processor =================== -->
+  <!-- Here we specify our custom request processor for our wizard features... -->
+  <controller processorClass="org.apache.struts.action.RequestProcessor"  />
+
+  <!-- ========== Message Resources Definitions =========================== -->
+
+  <message-resources
+    parameter="controlpanel-resources"/>
+
+  <!-- ========== Plug Ins Configuration ================================== -->
+
+  <!--
+     Add multiple validator resource files by setting the pathnames property
+     with a comma delimitted list of resource files to load.
+  -->
+  <plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+    <set-property property="pathnames" value="/WEB-INF/validator-rules.xml,
+                                              /WEB-INF/validation.xml"/>
+  </plug-in>
+  
+  <plug-in 
+    className="org.apache.struts.tiles.TilesPlugin">
+    <set-property 
+        property="definitions-config" 
+        value="/WEB-INF/tiles-defs.xml"/>
+  </plug-in>
+  
+  
+</struts-config>

@@ -1,0 +1,661 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Jakarta Slide - Project Status</title>
+<meta value="Remy Maucherat" name="author">
+<meta value="remm@apache.org" name="email">
+</head>
+<body vlink="#525D76" alink="#525D76" link="#525D76" text="#000000" bgcolor="#ffffff">
+<table cellspacing="4" width="100%" border="0">
+<!--PAGE HEADER-->
+<tr>
+<td colspan="2">
+<!--JAKARTA LOGO--><a href="http://jakarta.apache.org/"><img border="0" alt="The Jakarta Project" align="left" src="./images/jakarta-logo.gif"></a>
+<!--PROJECT LOGO--><a href="http://jakarta.apache.org/slide/"><img border="0" alt="The Jakarta Slide Project" align="right" src="./images/Slide.gif"></a></td>
+</tr>
+<!--HEADER SEPARATOR-->
+<tr>
+<td colspan="2">
+<hr size="1" noshade="">
+</td>
+</tr>
+<tr>
+<!--LEFT SIDE NAVIGATION-->
+<td nowrap="true" valign="top" width="20%">
+<p>
+<strong>Main</strong>
+</p>
+<ul>
+<li>
+<a href="index.html">Introduction</a>
+</li>
+<li>
+<a href="news.html">News</a>
+</li>
+<li>
+<a href="http://jakarta.apache.org/site/binindex.html">Downloads</a>
+</li>
+<li>
+<a href="status.html">Status</a>
+</li>
+<li>
+<a href="changelog.html">Changelog</a>
+</li>
+<li>
+<a href="contrib.html">Contributors</a>
+</li>
+</ul>
+<p>
+<strong>Resources</strong>
+</p>
+<ul>
+<li>
+<a href="http://faq.globalvision.com.au/">FAQ</a>
+</li>
+<li>
+<a href="http://jakarta.apache.org/site/mail.html">Mailing Lists</a>
+</li>
+<li>
+<a href="http://jakarta.apache.org/builds/gump/latest/jakarta-slide.html">Build Status</a>
+</li>
+<li>
+<a href="http://jakarta.apache.org/site/cvsindex.html">CVS</a>
+</li>
+<li>
+<a href="library.html">Library</a>
+</li>
+</ul>
+<p>
+<strong>User's Guide</strong>
+</p>
+<ul>
+<li>
+<a href="server.html">Server</a>
+</li>
+<li>
+<a href="webdav-client.html">Client</a>
+</li>
+</ul>
+<p>
+<strong>Administrator's Guide</strong>
+</p>
+<ul>
+<li>
+<a href="installation.html">Installation</a>
+</li>
+<li>
+<a href="conf-lib.html">Configuration</a>
+</li>
+</ul>
+<p>
+<strong>HOW-TOs</strong>
+</p>
+<ul>
+<li>
+<a href="howto-tomcat.html">Tomcat Howto</a>
+</li>
+<li>
+<a href="howto-jdbcstore.html">JDBC Stores Howto</a>
+</li>
+<li>
+<a href="howto-j2eestore.html">J2EE Stores Howto</a>
+</li>
+</ul>
+<p>
+<strong>Programmer's Corner</strong>
+</p>
+<ul>
+<li>
+<a href="architecture.html">Architecture</a>
+</li>
+<li>
+<a href="domain.html">Domain</a>
+</li>
+<li>
+<a href="namespace.html">Namespace</a>
+</li>
+<li>
+<a href="examples.html">Examples</a>
+</li>
+</ul>
+<p>
+<strong>Slide API</strong>
+</p>
+<ul>
+<li>
+<a href="structure.html">Structure</a>
+</li>
+<li>
+<a href="security.html">Security</a>
+</li>
+<li>
+<a href="lock.html">Lock</a>
+</li>
+<li>
+<a href="version.html">Content</a>
+</li>
+<li>
+<a href="macro.html">Macro</a>
+</li>
+<li>
+<a href="search.html">Index</a>
+</li>
+<li>
+<a href="process.html">Process</a>
+</li>
+</ul>
+<p>
+<strong>Reference</strong>
+</p>
+<ul>
+<li>
+<a href="uml/index.html">UML</a>
+</li>
+<li>
+<a href="javadoc/index.html">JavaDoc</a>
+</li>
+<li>
+<a href="clientjavadoc/index.html">WebDAV Client Javadoc</a>
+</li>
+<li>
+<a href="jstl-taglib.html">Tag Library (JSTL)</a>
+</li>
+<li>
+<a href="struts-taglib.html">Tag Library (Struts)</a>
+</li>
+</ul>
+</td>
+<!--RIGHT SIDE MAIN BODY--><td align="left" valign="top" width="80%">
+<body>
+  
+  
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="How to read the report"><strong>How to read the report</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+    
+    
+<p>
+      The columns in this report contain the following information:
+    <ul>
+      
+<li>
+<b>Priority</b> - A sense of how important it is to address this 
+        issue in the short term.</li>
+      
+<li>
+<b>Action Item</b> - Concise description of the action item
+        to be completed.  Where relevant, Java package names of the
+        primary classes involved are listed in [square brackets]</li>
+      
+<li>
+<b>Volunteers</b> - Names and EMAIL addresses of those developers who
+        have volunteered to assist in the design, implementation, testing, and
+        documentation of this action item's changes to Slide.</li>
+    
+</ul>
+      Developers can nominate
+      themselves to work on particular action items by asking a Committer to 
+      add their name and EMAIL address to those items.  The developers 
+      working on each item should discuss and agree upon the approach to be 
+      used for implementing the item's changes to the project source code 
+      and documentation, prior to completing those changes.  Such discussions 
+      should take place on the SLIDE-DEV mailing list so that everyone can 
+      stay apprised of what is going on, or chime in if they want to 
+      contribute ideas and suggestions.
+    </p>
+    
+  
+</blockquote>
+</td>
+</tr>
+</table>
+  
+  
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Note"><strong>Note</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+    
+    
+<p>
+      This list is intended for Slide 2.0.
+    </p>
+    
+  
+</blockquote>
+</td>
+</tr>
+</table>
+  
+  
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Slide Architecture"><strong>Slide Architecture</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+    
+    
+<p>
+      
+<table cellpadding="5" border="1">
+<tr>
+<th bgcolor="#023264" width="15%"><font color="#ffffff">Priority</font></th><th bgcolor="#023264" width="50%"><font color="#ffffff">Action Item</font></th><th bgcolor="#023264" width="25%"><font color="#ffffff">Volunteers</font></th>
+<tr>
+<td valign="center" align="left">Low</td><td valign="center" align="left">
+          Proposal for a workflow based core.
+        </td><td valign="center" align="left">Remy Maucherat</td>
+</tr>
+<tr>
+<td valign="center" align="left">Low</td><td valign="center" align="left">
+          Improve compliance of the transaction manager with the JTA spec.
+        </td><td valign="center" align="left">---</td>
+</tr>
+</tr>
+</table>
+    
+</p>
+    
+  
+</blockquote>
+</td>
+</tr>
+</table>
+  
+  
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Core API Components"><strong>Core API Components</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+    
+    
+<p>
+      
+<table cellpadding="5" border="1">
+<tr>
+<th bgcolor="#023264" width="15%"><font color="#ffffff">Priority</font></th><th bgcolor="#023264" width="50%"><font color="#ffffff">Action Item</font></th><th bgcolor="#023264" width="25%"><font color="#ffffff">Volunteers</font></th>
+<tr>
+<td valign="center" align="left">Low</td><td valign="center" align="left">
+          Add additional helper macros.
+          [org.apache.slide.macro]
+        </td><td valign="center" align="left">---</td>
+</tr>
+<tr>
+<td valign="center" align="left">Low</td><td valign="center" align="left">
+          Make the helpers pluggable.
+          [org.apache.slide.common]
+        </td><td valign="center" align="left">Remy Maucherat</td>
+</tr>
+<tr>
+<td valign="center" align="left">Medium</td><td valign="center" align="left">
+          Add index helper.
+          [org.apache.slide.index]
+        </td><td valign="center" align="left">Remy Maucherat</td>
+</tr>
+<tr>
+<td valign="center" align="left">High</td><td valign="center" align="left">
+          Security refactoring.
+        </td><td valign="center" align="left">Dirk Verbeeck</td>
+</tr>
+</tr>
+</table>
+    
+</p>
+    
+  
+</blockquote>
+</td>
+</tr>
+</table>
+  
+  
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Integration Components"><strong>Integration Components</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+    
+    
+<p>
+      
+<table cellpadding="5" border="1">
+<tr>
+<th bgcolor="#023264" width="15%"><font color="#ffffff">Priority</font></th><th bgcolor="#023264" width="50%"><font color="#ffffff">Action Item</font></th><th bgcolor="#023264" width="25%"><font color="#ffffff">Volunteers</font></th>
+<tr>
+<td valign="center" align="left">Medium</td><td valign="center" align="left">
+          Expand Slide tag library.
+        </td><td valign="center" align="left">Christopher Lenz</td>
+</tr>
+<tr>
+<td valign="center" align="left">Medium</td><td valign="center" align="left">
+          HTML interface.
+        </td><td valign="center" align="left">---</td>
+</tr>
+</tr>
+</table>
+    
+</p>
+    
+  
+</blockquote>
+</td>
+</tr>
+</table>
+  
+  
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Store Implementations"><strong>Store Implementations</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+    
+    
+<p>
+      
+<table cellpadding="5" border="1">
+<tr>
+<th bgcolor="#023264" width="15%"><font color="#ffffff">Priority</font></th><th bgcolor="#023264" width="50%"><font color="#ffffff">Action Item</font></th><th bgcolor="#023264" width="25%"><font color="#ffffff">Volunteers</font></th>
+<tr>
+<td valign="center" align="left">Medium</td><td valign="center" align="left">
+          Lucene based implementation of index store.
+        </td><td valign="center" align="left">Remy Maucherat</td>
+</tr>
+<tr>
+<td valign="center" align="left">Medium</td><td valign="center" align="left">
+          CVS store.
+        </td><td valign="center" align="left">Christopher Harding</td>
+</tr>
+</tr>
+</table>
+    
+</p>
+    
+  
+</blockquote>
+</td>
+</tr>
+</table>
+  
+  
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Utility Components"><strong>Utility Components</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+    
+    
+<p>
+      
+<table cellpadding="5" border="1">
+<tr>
+<th bgcolor="#023264" width="15%"><font color="#ffffff">Priority</font></th><th bgcolor="#023264" width="50%"><font color="#ffffff">Action Item</font></th><th bgcolor="#023264" width="25%"><font color="#ffffff">Volunteers</font></th>
+</tr>
+</table>
+    
+</p>
+    
+  
+</blockquote>
+</td>
+</tr>
+</table>
+  
+  
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Aministration components"><strong>Aministration components</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+    
+    
+<p>
+      
+<table cellpadding="5" border="1">
+<tr>
+<th bgcolor="#023264" width="15%"><font color="#ffffff">Priority</font></th><th bgcolor="#023264" width="50%"><font color="#ffffff">Action Item</font></th><th bgcolor="#023264" width="25%"><font color="#ffffff">Volunteers</font></th>
+<tr>
+<td valign="center" align="left">Medium</td><td valign="center" align="left">
+          Expand user and role management features.
+        </td><td valign="center" align="left">---</td>
+</tr>
+<tr>
+<td valign="center" align="left">Medium</td><td valign="center" align="left">
+          Add namespace configuration management.
+        </td><td valign="center" align="left">---</td>
+</tr>
+</tr>
+</table>
+    
+</p>
+    
+  
+</blockquote>
+</td>
+</tr>
+</table>
+  
+  
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Samples and Tests"><strong>Samples and Tests</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+    
+    
+<p>
+      
+<table cellpadding="5" border="1">
+<tr>
+<th bgcolor="#023264" width="15%"><font color="#ffffff">Priority</font></th><th bgcolor="#023264" width="50%"><font color="#ffffff">Action Item</font></th><th bgcolor="#023264" width="25%"><font color="#ffffff">Volunteers</font></th>
+<tr>
+<td valign="center" align="left">High</td><td valign="center" align="left">
+          Develop test framework.
+        </td><td valign="center" align="left">Juergen Pill</td>
+</tr>
+<tr>
+<td valign="center" align="left">High</td><td valign="center" align="left">
+          Develop test suite for WebDAV.
+        </td><td valign="center" align="left">Juergen Pill</td>
+</tr>
+</tr>
+</table>
+    
+</p>
+    
+  
+</blockquote>
+</td>
+</tr>
+</table>
+  
+  
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Documentation"><strong>Documentation</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+    
+    
+<p>
+      
+<table cellpadding="5" border="1">
+<tr>
+<th bgcolor="#023264" width="15%"><font color="#ffffff">Priority</font></th><th bgcolor="#023264" width="50%"><font color="#ffffff">Action Item</font></th><th bgcolor="#023264" width="25%"><font color="#ffffff">Volunteers</font></th>
+<tr>
+<td valign="center" align="left">High</td><td valign="center" align="left">
+          Documentation structure improvements.
+        </td><td valign="center" align="left">Christopher Lenz</td>
+</tr>
+</tr>
+</table>
+    
+</p>
+    
+  
+</blockquote>
+</td>
+</tr>
+</table>
+  
+  
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="WebDAV Server"><strong>WebDAV Server</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+    
+    
+<p>
+      
+<table cellpadding="5" border="1">
+<tr>
+<th bgcolor="#023264" width="15%"><font color="#ffffff">Priority</font></th><th bgcolor="#023264" width="50%"><font color="#ffffff">Action Item</font></th><th bgcolor="#023264" width="25%"><font color="#ffffff">Volunteers</font></th>
+<tr>
+<td valign="center" align="left">Medium</td><td valign="center" align="left">
+          WebDAV drafts support (bindings, ...).
+        </td><td valign="center" align="left">---</td>
+</tr>
+<tr>
+<td valign="center" align="left">Medium</td><td valign="center" align="left">
+          DASL support.
+        </td><td valign="center" align="left">---</td>
+</tr>
+<tr>
+<td valign="center" align="left">Medium</td><td valign="center" align="left">
+          Delta V support.
+        </td><td valign="center" align="left">Juergen Pill</td>
+</tr>
+</tr>
+</table>
+    
+</p>
+    
+  
+</blockquote>
+</td>
+</tr>
+</table>
+  
+  
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="WebDAV Client"><strong>WebDAV Client</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+    
+    
+<p>
+      
+<table cellpadding="5" border="1">
+<tr>
+<th bgcolor="#023264" width="15%"><font color="#ffffff">Priority</font></th><th bgcolor="#023264" width="50%"><font color="#ffffff">Action Item</font></th><th bgcolor="#023264" width="25%"><font color="#ffffff">Volunteers</font></th>
+<tr>
+<td valign="center" align="left">Medium</td><td valign="center" align="left">
+          DASL support.
+        </td><td valign="center" align="left">---</td>
+</tr>
+<tr>
+<td valign="center" align="left">Low</td><td valign="center" align="left">
+          Delta V support.
+        </td><td valign="center" align="left">---</td>
+</tr>
+<tr>
+<td valign="center" align="left">Low</td><td valign="center" align="left">
+          Merge UI code.
+        </td><td valign="center" align="left">Michael Smith</td>
+</tr>
+</tr>
+</table>
+    
+</p>
+    
+  
+</blockquote>
+</td>
+</tr>
+</table>
+  
+  
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Slide 3.x"><strong>Slide 3.x</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+    
+    
+<p>
+      
+<ul>
+        
+<li>
+          PVCS descriptors and content store.
+        </li>
+        
+<li>
+          Develop a full-fledged application using Slide. Good candidates
+          would be a portal kit, a discussion forum or an iDrive - like
+          system.
+        </li>
+      
+</ul>
+    
+</p>
+    
+  
+</blockquote>
+</td>
+</tr>
+</table>
+  
+
+</body>
+</td>
+</tr>
+<!--FOOTER SEPARATOR-->
+<tr>
+<td colspan="2">
+<hr size="1" noshade="">
+</td>
+</tr>
+<!--PAGE FOOTER-->
+<tr>
+<td colspan="2">
+<div align="center">
+<font size="-1" color="#525D76"><em>
+        Copyright &copy; 1999-2001, Apache Software Foundation
+        </em></font>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

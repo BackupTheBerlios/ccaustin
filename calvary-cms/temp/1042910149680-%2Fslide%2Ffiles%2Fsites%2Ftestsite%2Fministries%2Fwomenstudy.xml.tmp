@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Women's Bible Study - The ministry and its detail
+	
+	$Id: 1042910149680-%2Fslide%2Ffiles%2Fsites%2Ftestsite%2Fministries%2Fwomenstudy.xml.tmp,v 1.1 2003/02/12 22:07:42 javajames27 Exp $
+		
+-->
+<content title="Women's Bible Study">
+	<ministry id="womenstudy">
+	  <name>Women's Bible Study</name>
+	  <overview>The Women's Bible Study focuses on bringing the women of Calvary Austin together for worship, prayer and fellowship, with the ultimate goal to grow each woman in the knowledge of God’s Word.</overview>
+	  <long-description>
+	    <p>We will learn together from the book of Luke with a Beth Moore study called “Jesus, The One and Only.”  Both morning and evening studies start  Tuesday, Sep 17.  The morning study will meet every week from 10-11:30AM and child care will be provided.  The evening study will meet every other week from 7-9PM but with no childcare.  Please sign up and pay $15 for the workbook at the Events Center today.</p>
+	    <heading>Morning Bible Study</heading>
+		<p>During the fall and spring, Women at Calvary offers a morning Bible Study.  Studies usually include a time of worship, book overviews, study questions and prayer time.  Babysitting is done on a co-op basis, with anyone bringing children taking turns  providing childcare.  We have studied books by Nancy Missler, Jill Briscoe, Kay Arthur, Elizabeth George and Beth Moore.  Last Spring, we did a study of the Proverbs, by Sandy MacIntosh. This fall, we are studying Beth Moore’s “Jesus, My One and Only.” Come and join us for this special time of  study and fellowship on Tuesday mornings from 10:00-11:30AM.</p>
+
+	    <heading>Evening Bible Study</heading>
+	    <p>We have recently ended a year-long study by Lenya Heitzig and Penny Pierce Rose, "Ephesians: Discovering the Path to God's Treasures".    We are confident that as we continue to saturate ourselves in God’s Word, He will be faithful to transform us into the image of His precious Son!</p>
+		<p>After a short summer break, we are now studying Beth Moore’s “Jesus, My One and Only”. The evening study meets every other Tuesday night from 7:00-9:00 PM in the main auditorium.  Childcare is not provided.</p>
+	  </long-description>
+	  <contacts>
+	  	<contact-phone phone="719-4667">Contact the church office</contact-phone>
+   	  </contacts>
+	  <ministry-logo>../images/ministries/women.jpg</ministry-logo>
+	</ministry>
+</content>

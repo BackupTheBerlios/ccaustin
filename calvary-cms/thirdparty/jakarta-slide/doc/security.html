@@ -1,0 +1,434 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Jakarta Slide - Security Helper</title>
+<meta value="Remy Maucherat" name="author">
+<meta value="remm@apache.org" name="email">
+</head>
+<body vlink="#525D76" alink="#525D76" link="#525D76" text="#000000" bgcolor="#ffffff">
+<table cellspacing="4" width="100%" border="0">
+<!--PAGE HEADER-->
+<tr>
+<td colspan="2">
+<!--JAKARTA LOGO--><a href="http://jakarta.apache.org/"><img border="0" alt="The Jakarta Project" align="left" src="./images/jakarta-logo.gif"></a>
+<!--PROJECT LOGO--><a href="http://jakarta.apache.org/slide/"><img border="0" alt="The Jakarta Slide Project" align="right" src="./images/Slide.gif"></a></td>
+</tr>
+<!--HEADER SEPARATOR-->
+<tr>
+<td colspan="2">
+<hr size="1" noshade="">
+</td>
+</tr>
+<tr>
+<!--LEFT SIDE NAVIGATION-->
+<td nowrap="true" valign="top" width="20%">
+<p>
+<strong>Main</strong>
+</p>
+<ul>
+<li>
+<a href="index.html">Introduction</a>
+</li>
+<li>
+<a href="news.html">News</a>
+</li>
+<li>
+<a href="http://jakarta.apache.org/site/binindex.html">Downloads</a>
+</li>
+<li>
+<a href="status.html">Status</a>
+</li>
+<li>
+<a href="changelog.html">Changelog</a>
+</li>
+<li>
+<a href="contrib.html">Contributors</a>
+</li>
+</ul>
+<p>
+<strong>Resources</strong>
+</p>
+<ul>
+<li>
+<a href="http://faq.globalvision.com.au/">FAQ</a>
+</li>
+<li>
+<a href="http://jakarta.apache.org/site/mail.html">Mailing Lists</a>
+</li>
+<li>
+<a href="http://jakarta.apache.org/builds/gump/latest/jakarta-slide.html">Build Status</a>
+</li>
+<li>
+<a href="http://jakarta.apache.org/site/cvsindex.html">CVS</a>
+</li>
+<li>
+<a href="library.html">Library</a>
+</li>
+</ul>
+<p>
+<strong>User's Guide</strong>
+</p>
+<ul>
+<li>
+<a href="server.html">Server</a>
+</li>
+<li>
+<a href="webdav-client.html">Client</a>
+</li>
+</ul>
+<p>
+<strong>Administrator's Guide</strong>
+</p>
+<ul>
+<li>
+<a href="installation.html">Installation</a>
+</li>
+<li>
+<a href="conf-lib.html">Configuration</a>
+</li>
+</ul>
+<p>
+<strong>HOW-TOs</strong>
+</p>
+<ul>
+<li>
+<a href="howto-tomcat.html">Tomcat Howto</a>
+</li>
+<li>
+<a href="howto-jdbcstore.html">JDBC Stores Howto</a>
+</li>
+<li>
+<a href="howto-j2eestore.html">J2EE Stores Howto</a>
+</li>
+</ul>
+<p>
+<strong>Programmer's Corner</strong>
+</p>
+<ul>
+<li>
+<a href="architecture.html">Architecture</a>
+</li>
+<li>
+<a href="domain.html">Domain</a>
+</li>
+<li>
+<a href="namespace.html">Namespace</a>
+</li>
+<li>
+<a href="examples.html">Examples</a>
+</li>
+</ul>
+<p>
+<strong>Slide API</strong>
+</p>
+<ul>
+<li>
+<a href="structure.html">Structure</a>
+</li>
+<li>
+<a href="security.html">Security</a>
+</li>
+<li>
+<a href="lock.html">Lock</a>
+</li>
+<li>
+<a href="version.html">Content</a>
+</li>
+<li>
+<a href="macro.html">Macro</a>
+</li>
+<li>
+<a href="search.html">Index</a>
+</li>
+<li>
+<a href="process.html">Process</a>
+</li>
+</ul>
+<p>
+<strong>Reference</strong>
+</p>
+<ul>
+<li>
+<a href="uml/index.html">UML</a>
+</li>
+<li>
+<a href="javadoc/index.html">JavaDoc</a>
+</li>
+<li>
+<a href="clientjavadoc/index.html">WebDAV Client Javadoc</a>
+</li>
+<li>
+<a href="jstl-taglib.html">Tag Library (JSTL)</a>
+</li>
+<li>
+<a href="struts-taglib.html">Tag Library (Struts)</a>
+</li>
+</ul>
+</td>
+<!--RIGHT SIDE MAIN BODY--><td align="left" valign="top" width="80%">
+<body>
+
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Overview"><strong>Overview</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+
+        
+<p>Slide features an integrated herarchical security system. When a subject (ie. a user) wants to perform an action on a given subject (ie. a file), Slide will automatically check that the subject has the appropriate permissions. The client application can add additional security checks and permissions by directly calling the Security helper fuctions.
+        </p>
+
+    
+</blockquote>
+</td>
+</tr>
+</table>
+
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Roles"><strong>Roles</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+      
+      
+<p>
+        A role can be assciated to each node of the Slide namespace. This role
+        will indicate what are the responsabilities and rights of an object
+        in the namespace. Of course, most of the nodes in the namespace won't
+        attempt to perform actions, and are associated to the role "nobody".
+      </p>
+      
+      
+<p>
+        The roles are represented in Slide by Java interfaces, which can be 
+        empty or contain additional functions.
+      </p>
+      
+      
+<p>
+        To have a particular role, the node must extend SubjectNode, and 
+        implement the role interface. For exemple, FooNode has role Foo if
+        it extends SubjectNode and implements interface Foo. The node must
+        always have a default constructor.
+      </p>
+      
+      
+<p>
+        Simple names can be associated to the Java interfaces name (in the
+        namespace configuration). These names can be used instead of the fully
+        qualified interface class names when defining permissions.
+      </p>
+      
+    
+</blockquote>
+</td>
+</tr>
+</table>
+    
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Principles"><strong>Principles</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+
+        
+<p>
+          
+<img src="images/ns2.png">
+        </p>
+
+        
+<p>Every <tt>ObjectNode</tt> has associated permissions, which are tuples with the following format:
+<pre>
+(target subject,      executing subject,    action,            inheritance)
+</pre>
+        
+</p>
+
+        
+<p>Here are examples of permissions:
+<pre>
+(/foo/document.txt,  /users/dave,            /actions/read,     no)
+(/foo/document.txt,  /users/dave,            /actions/write,    no)
+(/foo,               /users/john,            /actions/read,     yes)
+</pre>
+        
+</p>
+
+        
+<p>Permissions granted on an object are inherited (unless specified otherwise during permission assignement) by the children of the object. For example, a permission specified on object whose URI is <tt>/foo</tt> would be inherited by object <tt>/foo/bar</tt>.</p>
+
+        
+<p>This inheritance behavior also applies to subjects and actions. Subject <tt>/users/dave</tt> will have all the permissions given to all the subject <tt>/users</tt>. Likewise, a subject who can perform action <tt>/actions</tt> on an object will be able to perform <tt>/actions/read</tt>.</p>
+
+    
+</blockquote>
+</td>
+</tr>
+</table>
+
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Behavior"><strong>Behavior</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+
+        
+<p>The security checks for those action types are automatically done by the helper functions used by the client applications. If a check fails, an <tt>AccessDeniedException</tt> is thrown, which is a checked exception, so the client application will know when an underlying security check occurs, and can take appropriate actions if it fails.</p>
+
+        
+<p>The basic actions are :
+        <ul>
+        
+<li>Read object</li>
+        
+<li>Create object</li>
+        
+<li>Remove object</li>
+        
+<li>Grant permission</li>
+        
+<li>Revoke permission</li>
+        
+<li>Read permissions</li>
+        
+<li>Lock object</li>
+        
+<li>Kill lock</li>
+        
+<li>Read locks</li>
+        
+<li>Read revision metadata</li>
+        
+<li>Create revision metadata</li>
+        
+<li>Modify revision metadata</li>
+        
+<li>Remove revision metadata</li>
+        
+<li>Read revision content</li>
+        
+<li>Create revision content</li>
+        
+<li>Modify revision content</li>
+        
+<li>Remove revision content</li>
+        
+</ul>
+        The client application can define additional action types, and do whatever security checks it needs.</p>
+
+    
+</blockquote>
+</td>
+</tr>
+</table>
+
+  
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Object Model"><strong>Object Model</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+    
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#828DA6"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="NodePermission"><strong>NodePermission</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+    
+      
+<p>
+        The NodePermission class represents a permission (or Access Control
+        Entry) which is placed on a node of the namespace.
+      </p>
+    
+      
+<p>
+        
+        
+<ul>
+          
+<li>
+            Object: Uri of the node associated to the permission.
+          </li>
+          
+<li>
+            Subject: Subject of the permission. This can be either the uri of
+            an object in the namespace, the name (or interface class name) of
+            a role or a self permission (in which case the subject is equal
+            to "~").
+          </li>
+          
+<li>
+            Action: Action of the permission.
+          </li>
+          
+<li>
+            Inheritable: Flag which indicates if the permission also applies to
+            the children of the node it is associated to.
+          </li>
+          
+<li>
+            Negative: True if the permission is negative, which means the 
+            subject is denied the permission to perform the specified action.
+            If there is a permission conflict on the same node, the negative
+            permission prevails.
+          </li>
+        
+</ul>
+        
+      
+</p>
+      
+    
+</blockquote>
+</td>
+</tr>
+</table>
+    
+  
+</blockquote>
+</td>
+</tr>
+</table>
+    
+  
+</body>
+</td>
+</tr>
+<!--FOOTER SEPARATOR-->
+<tr>
+<td colspan="2">
+<hr size="1" noshade="">
+</td>
+</tr>
+<!--PAGE FOOTER-->
+<tr>
+<td colspan="2">
+<div align="center">
+<font size="-1" color="#525D76"><em>
+        Copyright &copy; 1999-2001, Apache Software Foundation
+        </em></font>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

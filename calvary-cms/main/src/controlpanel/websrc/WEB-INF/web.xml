@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN"
+    "http://java.sun.com/j2ee/dtds/web-app_2.2.dtd">
+
+<web-app>
+  
+  <!-- Context Initialization Parameters
+       
+       The namespace parameter lets you specify the name of the namespace that 
+       you want to access through the administration webapp. If you don't 
+       specify the namespace parameter, the default namespace will be used, if 
+       available. -->
+  <context-param>
+    <param-name>org.apache.slide.NamespaceName</param-name>
+    <param-value>slide</param-value>
+  </context-param>
+  
+  <!-- Action Servlet Configuration 
+       
+       See http://jakarta.apache.org/struts/api/org/apache/struts/action/
+       ActionServlet.html for a detailed description and a list of available 
+       parameters. -->
+  <servlet>
+    <servlet-name>action</servlet-name>
+    <servlet-class>org.apache.struts.action.ActionServlet</servlet-class>
+    <init-param>
+      <param-name>application</param-name>
+      <param-value>controlpanel-resources</param-value>
+    </init-param>
+    <init-param>
+      <param-name>config</param-name>
+      <param-value>/WEB-INF/struts-config.xml</param-value>
+    </init-param>
+    <init-param>
+      <param-name>nocache</param-name>
+      <param-value>true</param-value>
+    </init-param>
+    <load-on-startup>2</load-on-startup>
+  </servlet>
+  
+  <!-- Action Servlet Mapping -->
+  <servlet-mapping>
+    <servlet-name>action</servlet-name>
+    <url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Establish the default list of welcome files -->
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <!-- Slide Tag Library Descriptor -->
+  <taglib>
+    <taglib-uri>/WEB-INF/slide-struts.tld</taglib-uri>
+    <taglib-location>/WEB-INF/slide-struts.tld</taglib-location>
+  </taglib>
+  
+  <!-- Struts Tag Library Descriptors -->
+  <taglib>
+    <taglib-uri>/WEB-INF/struts-bean.tld</taglib-uri>
+    <taglib-location>/WEB-INF/struts-bean.tld</taglib-location>
+  </taglib>
+
+  <taglib>
+    <taglib-uri>/WEB-INF/struts-html.tld</taglib-uri>
+    <taglib-location>/WEB-INF/struts-html.tld</taglib-location>
+  </taglib>
+
+  <taglib>
+    <taglib-uri>/WEB-INF/struts-logic.tld</taglib-uri>
+    <taglib-location>/WEB-INF/struts-logic.tld</taglib-location>
+  </taglib>
+
+  <!-- Nested Tag Library Descriptor -->
+  <taglib>
+    <taglib-uri>/WEB-INF/struts-nested.tld</taglib-uri>
+    <taglib-location>/WEB-INF/struts-nested.tld</taglib-location>
+  </taglib>
+
+  <!-- Template Tag Library Descriptor -->
+  <taglib>
+    <taglib-uri>/WEB-INF/struts-template.tld</taglib-uri>
+    <taglib-location>/WEB-INF/struts-template.tld</taglib-location>
+  </taglib>
+  
+  <!-- Security Contraints -->
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>Slide Administration</web-resource-name>
+      <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>root</role-name>
+    </auth-constraint>
+  </security-constraint>
+  
+  <!-- Login Configuration -->
+  <login-config>
+    <auth-method>BASIC</auth-method>
+    <realm-name>Slide Administration</realm-name>
+  </login-config>
+  
+</web-app>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Women's Ministry - The ministry and its detail
+	
+	$Id: 1042909862105-%2Fslide%2Ffiles%2Fsites%2Ftestsite%2Fministries%2Fwomen.xml.tmp,v 1.1 2003/02/12 22:07:23 javajames27 Exp $
+		
+-->
+<content title="Women's Ministry">
+	<ministry id="women">
+	  <name>Women's Ministry</name>
+	  <overview>The women's ministry focuses on bringing the women of Calvary Austin together for worship, prayer and fellowship, with the ultimate goal to grow each woman in the knowledge of God’s Word.</overview>
+	  <long-description>
+	  	<p>"Love is what binds us all together in perfect harmony. And let the peace that comes" --Col. 3:14b-15</p>
+	    <p>The Women's ministry is focused on meeting the needs of Calvary Austin women through the following areas:</p>
+	    <heading>Bible Study</heading>
+	    <p>In an attempt to meet the needs of varying schedules, 2 Bible studies are offered in the fall and spring. One is the morning bible study, and the other is the evening Bible study. Each have their own times and meeting schedules.
+ 		<link href="../ministries/womenstudy.html">Learn more...</link></p>
+
+	    <heading>Discipleship</heading>
+	    <p>"Heart to Heart" is the one-on-one discipleship, allowing new Christian women to grow in their faith.
+	     <link href="../ministries/womenheart.html">Learn more...</link></p>
+
+	    <heading>Biblical Counseling</heading>
+	    <p>"Women Helping Women" is available to help provide scripture that can be directly applied to struggles occuring in women's lives.
+	     <link href="../ministries/womenhelp.html">Learn more...</link></p>
+	  </long-description>
+	  <contacts>
+	  	<contact-phone phone="719-4667">Contact the church office</contact-phone>
+   	  </contacts>
+	  <ministry-logo>../images/ministries/women.jpg</ministry-logo>
+	</ministry>
+</content>

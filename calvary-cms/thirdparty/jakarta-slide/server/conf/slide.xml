@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<slide default="slide">
+
+  <namespace name="slide">
+     <definition ref="slide/slide.def" />
+     <configuration ref="slide/slide.conf" />
+     <data ref="slide/slide.data" />
+  </namespace>
+
+</slide>

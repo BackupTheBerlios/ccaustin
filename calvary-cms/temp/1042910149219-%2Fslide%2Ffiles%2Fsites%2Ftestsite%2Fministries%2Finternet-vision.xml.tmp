@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+
+        The internet ministry's vision
+        
+        $Id: 1042910149219-%2Fslide%2Ffiles%2Fsites%2Ftestsite%2Fministries%2Finternet-vision.xml.tmp,v 1.1 2003/02/12 22:07:42 javajames27 Exp $
+                
+-->
+<content title="Calvary Austin Internet Ministry Vision" base=".">
+  <heading>Internet Ministry Vision</heading>
+  <subheading>Our Mission</subheading>
+  <p>The mission of the Calvary Internet Ministry extends the Calvary
+    Chapel Austin mission statement to the internet:</p>
+  <p>We are committed to execute the church’s vision of "win, equip, and send" by empowering every
+    ministry with Internet technologies.</p>
+  <subheading>Our Vision</subheading>
+  <p>The Internet Ministry is an extension of every member and ministry in the Calvary Austin
+    church body.</p>
+  <subheading>Execution</subheading>
+  <p>Over the next few months, the Internet ministry will be constructing a toolset from a variety
+    of existing frameworks and tools to enable each ministry to edit their own content. A longer term
+    goal is to extend these tools to allow ministries to perform more administrative tasks, such as
+    goal tracking, self-maintained mailing lists, and event management. In parallel to this effort,
+    work will be done to extend our current web site offering to visitors through the use of current
+    technologies like Flash presentations, discussion forums, and other mechanisms that enable others
+    to learn more about our church and the Christian faith.</p>
+  <subheading>Helping</subheading>
+  <p>There are quite a few ways that you can help with the internet ministry. Above all, your
+    prayers and encouragement are always needed, as the Internet is a battleground that has continual
+    spirtual battles. In addition, you may wish to pray and seek God's guidance to join our ministry
+    in a more dedicated basis. Some of the help we need and are willing to train includes:</p>
+
+  <list>
+    <item>Anyone who knows how to perform
+      basic computer operations, such as creating, editing, and
+      copying files, for content management of this web
+      site.</item>
+    <item>Editors who can perform checks for grammar, assemble content for the homepage and other areas
+      of the site, and assist with overall content management.</item>
+    <item>We also need help from people who know or are willing to
+      learn any of the following technologies: XML, XSL, Java, Java Servlets/JSP, database
+      technologies, and HTML/Javascript.</item>
+  </list>
+  <p>To learn how to serve, contact the web servant team at:
+    <link href="mailto:webservant-austin@calvarychapel.org">Web Servant Team</link></p>
+  
+</content>

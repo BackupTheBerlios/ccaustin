@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	FrontLine Ministry - The ministry and its detail
+	
+	$Id: 1042909861083-%2Fslide%2Ffiles%2Fsites%2Ftestsite%2Fministries%2Ffrontline.xml.tmp,v 1.1 2003/02/12 22:07:23 javajames27 Exp $
+		
+-->
+<content title="FrontLine College &amp; Career">
+	<ministry id="frontline">
+	  <name>FrontLine College &amp; Career</name>
+	  <overview>The College and Career group of Calvary Austin</overview>
+	  <long-description>
+	    <p>FrontLine is the College &amp; Career group at Calvary Chapel of Austin. We meet for a Bible Study &amp; Fellowship every Friday night in the Main Auditorium. With live modern worship &amp; child care provided, FrontLine is a perfect way for young adults, singles &amp; couples (18-35) to learn, grow and serve.</p>
+
+		<heading>Specialized Groups</heading>
+		<p>We have several groups available to meet the needs of our Frontline members and guests:</p>
+  		  <subheading>PlumbLine</subheading>
+		  <p>PlumbLine is our accountability group that meets every Sunday at lunch to discuss the sermon as a point of prayer &amp; application.</p>
+  		  <subheading>DirectLine</subheading>
+		  <p>DirectLine offers discipleship classes to our Frontline ministry. Titus 2 gives us an example for church discipleship which we offer to each person in the FrontLine. There are two Thursday night classes, one focuses on the Essentials of Christianity and the other on the Distinctives of Calvary Chapel. </p>
+  		  <subheading>LifeLine</subheading>
+		  <p>LifeLine is the name of our outreach ministry that is divided into teams. Every Friday, after the Bible Study, we send teams into the city to win some to Christ.</p>
+		
+		<table heading="Leadership">
+			<row>
+				<data label="true">Female Leaders</data>
+				<data label="true">Male Leaders</data>
+			</row>
+			<row>
+				<data>Brenda Garrett</data>
+				<data>Steve Clay</data>
+			</row>
+			<row>
+				<data>Amy Hine</data>
+				<data>David Hine</data>
+			</row>
+			<row>
+				<data>Brandi Goodnight</data>
+				<data>Craig Wilkerson</data>
+			</row>
+			<row>
+				<data></data>
+				<data>Randall Scully</data>
+			</row>
+			<row>
+				<data></data>
+				<data>David Cogburn</data>
+			</row>
+		</table>
+
+		<heading>Listen to FrontLine live!</heading>	
+		<p>You can tune into FrontLine live Fridays at 7:30 <link href="http://www.calvarychapel.org/austin/media/viewlive.html">live</link>.</p>
+	  </long-description>
+	  <contacts>
+	  	<contact-email email="bunjee@calvaryaustin.org">Bunjee Garrett, FrontLine Pastor</contact-email>
+   	  </contacts>
+	  <ministry-logo>../images/ministries/frontline.gif</ministry-logo>
+	</ministry>
+</content>

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!--?xml:stylesheet type="text/xsl"
+                 href="usecases.xsl"
+                 version="1.0"
+                 encoding="UTF-8"?-->
+<usecase id="Login"
+         xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="usecases.xsd">
+
+  <name>Login</name>
+  <created-by>jwhigginbotham</created-by>
+  <created-on>November 18 2002</created-on>
+  <priority>High</priority>
+  <actor>member</actor>
+  <feature>contentmanager</feature>
+  <goal>Authenticate a user into the system</goal>
+  <description>Allow a user who has an account to log into the system</description>
+  <preconditions>
+    <precondition>The member must have a valid account with the system</precondition>
+  </preconditions>
+  <postconditions>
+    <postcondition>The member is marked as authenticated and logged into the system</postcondition>
+    <postcondition>The system starts a new session for the member</postcondition>
+  </postconditions>
+  <!--
+  <related-usecases>
+    <related-usecase>CreateAccount</related-usecase>
+    <related-usecase>ViewMemberHomepage</related-usecase>
+  </related-usecases>
+  -->
+  <event-flow>
+    <event>The member selects the login option</event>
+    <event>The system prompts the member for their id and password</event>
+    <event>The member provides a valid id and password</event>
+    <event>The system determines the credentials are valid and log the member in</event>
+    <event>The system presents the member with the content management homepage</event>
+  </event-flow>
+  <alternate-flow name="Bad Credentials">
+    <event>The member enters bad credentials</event>
+    <event>The system displays a message that the credentials are bad and offers the user another
+    chance to login</event>
+  </alternate-flow>
+  <!--
+  <alternate-flow name="Account disabled">
+    <event>The system determines that the credentials entered are valid, but the account is
+    disabled.</event>
+    <event>The system informs the user that their account is disabled and offers an option to
+    contact the site administrator</event>
+  </alternate-flow>
+  -->
+  <alternate-flow name="Page requires authentication">
+    <event>The system determines that the user requested a page that requires the user to be logged
+    into the system</event>
+    <event>The system performs the standard event flow (above).</event>
+    <event>Instead of showing the user's homepage upon a successful login, the system takes the user
+    to the previously requested page.</event>
+  </alternate-flow>
+</usecase>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Intercessory Prayer Ministry - The ministry and its detail
+	
+	$Id: 1042909859141-%2Fslide%2Ffiles%2Fsites%2Ftestsite%2Fministries%2Fintercessory.xml.tmp,v 1.1 2003/02/12 22:07:22 javajames27 Exp $
+		
+-->
+<content title="Intercessory Prayer Ministry">
+  <ministry id="intercessory">
+    <name>Intercessory Prayer Ministry</name>
+    <overview>The Intercessory Prayer Ministry meets every Sunday during 2nd
+      service in the Prayer Room to pray and interceed for a number of
+      causes.</overview>
+    <long-description>
+      <p>We are a prayer team that meets every Sunday during 2nd
+      service in the Prayer Room.  We pray and interceed for Calvary
+      Chapel Austin,  Leadership, Staff, Ministries and events,
+      service times, new believers,  our missionaries, world events,
+      government, etc.</p>
+      <verse verseref="Isaiah 56:7">Even them will I bring to My holy mountain, and make
+      them joyful in my house of prayer.  Their burnt offerings and
+      their sacrifices will be accepted upon My alter;  for My house
+      shall be  called a house of prayer for all nations. </verse> 
+      <p>This prayer team is open to anyone from any age group and any ministry that wants to participate. </p>
+    </long-description>
+    <contacts>
+      <contact-email email="ccarpenter@jumpnet.com">Cyd Carpenter</contact-email>
+    </contacts>
+  </ministry>
+</content>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<actors>
+  <actor id="user">
+    <name>User</name>
+    <description>Anyone using the system, no matter if they have an account or not.</description>
+  </actor>
+  <actor id="guest">
+    <name>Guest</name>
+    <extends>user</extends>
+    <description>A user of the system that doesn't have an account.</description>
+  </actor>
+  <actor id="member">
+    <name>Member</name>
+    <extends>user</extends>
+    <description>A user that has an account.</description>
+  </actor>
+  <actor id="sysadmin">
+    <name>System Administrator</name>
+    <extends>member</extends>
+    <description>A member that has privileges to manage the system.</description>
+  </actor>
+</actors>

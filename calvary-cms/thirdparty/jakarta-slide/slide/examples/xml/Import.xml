@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<data>
+
+<objectnode classname="org.apache.slide.structure.SubjectNode" uri="/">
+    <objectnode classname="org.apache.slide.structure.SubjectNode" 
+     uri="/users">
+        <objectnode classname="org.apache.slide.structure.SubjectNode" 
+         uri="/users/remm.user" />
+        <objectnode classname="org.apache.slide.structure.SubjectNode" 
+         uri="/users/dave.user" />
+    </objectnode>
+    <objectnode classname="org.apache.slide.structure.SubjectNode" uri="/toto">
+        <permission action="/actions" subject="/users" />
+        <objectnode classname="org.apache.slide.structure.SubjectNode" 
+         uri="/toto/2">
+            <objectnode
+             classname="org.apache.slide.structure.SubjectNode" 
+             uri="/toto/2/3">
+                <objectnode
+                 classname="org.apache.slide.structure.SubjectNode" 
+                 uri="/toto/2/3/4">
+                    <objectnode
+                     classname="org.apache.slide.structure.SubjectNode" 
+                     uri="/toto/2/3/4/5" />
+                </objectnode>
+            </objectnode>
+        </objectnode>
+        <objectnode classname="org.apache.slide.structure.SubjectNode" 
+         uri="/toto/2.txt" />
+        <objectnode classname="org.apache.slide.structure.LinkNode" 
+         uri="/toto/test.lnk" linkedUri="/toto" />
+        <objectnode classname="org.apache.slide.structure.SubjectNode" 
+         uri="/toto/1.txt" />
+    </objectnode>
+    <objectnode classname="org.apache.slide.structure.SubjectNode" 
+     uri="/actions">
+        <objectnode classname="org.apache.slide.structure.ActionNode" 
+         uri="/actions/killlock.action" />
+        <objectnode classname="org.apache.slide.structure.ActionNode" 
+         uri="/actions/read.action" />
+        <objectnode classname="org.apache.slide.structure.ActionNode" 
+         uri="/actions/lock.action" />
+    </objectnode>
+</objectnode>
+
+</data>

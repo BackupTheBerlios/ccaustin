@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+	<title>Logical Domain Model</title>
+	<sect1>
+		<title>Site</title>
+		<para>A site is composed of one or more sections and has at least one administrator for site management. </para>
+	</sect1>
+	<sect1>
+		<title>Section</title>
+		<para>Sections belong to a site and contain pages. A section may have a set of permissions to allow users to view, edit, and publish pages within that section. A section may also have a workflow strategy, which allows pages to be automatically published (e.g. events calendar) or moderated (e.g. sensitive content that must be reviewed before being published). A section with a site has a unique path in which all pages may be accessed. For example, a section called 'about' may have a page called 'contact', which would yield a unique path (e.g. /about/contact.html). 
+
+TBD: Can a section belong to another section for nesting? Probably not at this time but maybe later... </para>
+	</sect1>
+	<sect1>
+		<title>Page</title>
+		<para>A page is the most interesting domain object to users in the system. A page consists of: a page template that defines the overall look of the site (header, footer, color styles, etc); a page layout, which defines how the particular content pieces will be organized within the template; a page renderer, which understands how to process the content appropriately and works closely with the page layout to ensure the page is composed; and page content, which is the actual data for the page. A page may be viewed, edited, and published based first on any permissions assigned to the page, and finally based on permissions assigned to the section (using the default section permissions if none are available). Once a page is marked as published, either automatically or via human intervention, the page will be published when the site is published.Therefore, pages are not published on an individual basis for production service.</para>
+	</sect1>
+	<sect1>
+		<title>User</title>
+		<para>A user can take the shape of content creators, editors, and administrators and are allowed to login to the system to perform tasks. Visitors to the web site being managed do not need a user account, unless the site administrator has configured the servers to request an id/password (and may use a different user database other than the CMS's database)</para>
+	</sect1>
+	<sect1>
+		<title>Logical Data Model Diagram</title>
+		<para>TBD; Insert LDM diagram from modeling directory here (and make sure ant copies it properly for deployment)</para>
+	</sect1>
+</chapter>

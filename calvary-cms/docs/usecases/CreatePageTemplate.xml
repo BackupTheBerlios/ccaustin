@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!--?xml:stylesheet type="text/xsl"
+                 href="usecases.xsl"
+                 version="1.0"
+                 encoding="UTF-8"?-->
+<usecase id="CreatePageTemplate"
+         xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="usecases.xsd">
+
+  <name>Create Page Template</name>
+  <created-by>jwhigginbotham</created-by>
+  <created-on>November 18 2002</created-on>
+  <priority>High</priority>
+  <actor>Name</actor>
+  <feature>feature</feature>
+  <goal>Goal...</goal>
+  <description>Description...</description>
+  <!-- Include any notes about this usecase that is out of scope of the rest of the doc
+  <notes>
+    <note>Notes and Issue 1...</note>
+    <note>Notes and Issue 2...</note>
+  </notes>
+  -->
+  <!-- Any preconditions required to be in place before the use case begins
+  <preconditions>
+    <precondition>precondition 1...</precondition>
+    <precondition>precondition 2...</precondition>
+  </preconditions>
+  -->
+  <!-- Any postconditions that will exist after the use case ends in the normal event flow
+  <postconditions>
+    <postcondition>postcondition 1...</postcondition>
+    <postcondition>postcondition 2...</postcondition>
+  </postconditions>
+  -->
+  <!-- Any related usecases (by usecase id)
+  <related-usecases>
+    <related-usecase>UC2.0</related-usecase>
+    <related-usecase>UC3.0</related-usecase>
+  </related-usecases>
+  -->
+  <!-- The standard event flow
+  <event-flow>
+    <event>Step 1...</event>
+    <event>Step 2...</event>
+  </event-flow>
+  -->
+  <!-- An alternate event flow
+  <alternate-flow name="Alternate title...">
+    <event>Step 1...</event>
+    <event>Step 2...</event>
+  </alternate-flow>
+  -->
+  <!-- Change history
+  <history>
+    <revision editor="jwh" date="Aug 27, 2001" version="1.1">Notes...</revision>
+  </history>
+  -->
+</usecase>

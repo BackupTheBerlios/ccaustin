@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Worship Community - The ministry and its detail
+	
+	$Id: 1042910149750-%2Fslide%2Ffiles%2Fsites%2Ftestsite%2Fministries%2Fworshipcommunity.xml.tmp,v 1.1 2003/02/12 22:07:42 javajames27 Exp $
+		
+-->
+<content title="Worship Community">
+	<ministry id="worshipcommunity">
+	  <name>Worship Community</name>
+	  <overview>The Worship Community is a contemporary choir made up of men and women from the general body of Calvary Chapel of Austin.  This group of singers participates in selected Sunday services as well as special events. The purpose of the Worship Community is twofold: to present a unique alternative to the regular worship service, and to allow a wider group of people to use their gifts and talents to lead the body into worship.</overview>
+	  <long-description>
+	    <heading>Want to help?</heading>
+	    <p>Want to join? Worship Community singers must exhibit spiritual maturity, be an established part of the fellowship and be able to sing in tune.  Members must also commit themselves to be available to sing all three services of the Sunday morning the choir is scheduled to sing. If you would like to try out for this ministry, contact David:</p>
+	  </long-description>
+	  <contacts>
+	  	<contact-email email="david@calvaryaustin.org">David Reynolds, Worship Pastor</contact-email>
+	  	<contact-phone phone="719-4667">Contact Phone</contact-phone>
+   	  </contacts>
+	</ministry>
+</content>

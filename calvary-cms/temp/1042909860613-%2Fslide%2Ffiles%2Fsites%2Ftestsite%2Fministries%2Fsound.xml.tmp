@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Sound Ministry - The ministry and its detail
+	
+	$Id: 1042909860613-%2Fslide%2Ffiles%2Fsites%2Ftestsite%2Fministries%2Fsound.xml.tmp,v 1.1 2003/02/12 22:07:22 javajames27 Exp $
+		
+-->
+<content title="Sound Team">
+	<ministry id="sound">
+	  <name>Sound Team</name>
+	  <overview>The Sound Team assists the pastor and worship team by providing
+audio technical support for all worship services, as well as worship team
+rehearsals and soundchecks.</overview>
+	  <long-description>
+	    <heading>About</heading>
+	    <p>We plug in cords, turn knobs, etc., make worship band sound really good!! :-)</p>
+	    <heading>Want to help?</heading>
+	    <p>If you have an interest in helping with sound then this is the team for you!</p>
+	  </long-description>
+	  <contacts>
+	  	<contact-email email="vance.zimmerman@austinenergy.com">Vance Zimmerman, Chief Sound Engineer</contact-email>
+	  	<contact-email email="david@calvaryaustin.org">David Reynolds, Worship Pastor</contact-email>
+	  	<contact-phone phone="719-4667">Contact Phone</contact-phone>
+   	  </contacts>
+	</ministry>
+</content>

@@ -1,0 +1,28 @@
+			         Slide
+			         =====
+
+
+This subproject contains the source code for the Slide content management system.
+
+
+Installing and Building Slide
+==============================
+
+Please refer to the installation instructions available onlie at
+http://jakarta.apache.org/slide/installation.html.
+
+Additional Information
+======================
+
+See HTML documentation, or the Slide website at http://jakarta.apache.org/slide.
+And also read the ./lib/README file.
+
+
+Before Committing Changes
+=========================
+
+Before committing any changes to the Slide CVS repository, you MUST do a
+"build clean" followed by a "build full-dist" to ensure that the build process 
+runs cleanly, and you must ensure that the tests run correctly.
+
+

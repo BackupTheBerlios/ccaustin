@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!--?xml:stylesheet type="text/xsl"
+                 href="usecases.xsl"
+                 version="1.0"
+                 encoding="UTF-8"?-->
+<usecase id="CreateEvent"
+         xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="usecases.xsd">
+
+  <name>Create Event</name>
+  <created-by>jwhigginbotham</created-by>
+  <created-on>February 2 2003</created-on>
+  <priority>High</priority>
+  <actor>member</actor>
+  <feature>contentmanagement</feature>
+  <goal>Allow a registered member to create an event for approval and publishing</goal>
+  <description>A registered member, such as a staff member of ministry servant, needs to post an
+  event for an upcoming event (such as a retreat).</description>
+  <!-- Include any notes about this usecase that is out of scope of the rest of the doc
+  <notes>
+    <note>Notes and Issue 1...</note>
+    <note>Notes and Issue 2...</note>
+  </notes>
+  -->
+  <!-- Any preconditions required to be in place before the use case begins
+  -->
+  <preconditions>
+    <precondition>The member is currently logged in to the system</precondition>
+    <precondition>The member has permission to create events</precondition>
+  </preconditions>
+  <!-- Any postconditions that will exist after the use case ends in the normal event flow
+  -->
+  <postconditions>
+    <postcondition>An event is queued up for approval and later publishing</postcondition>
+  </postconditions>
+  <!-- Any related usecases (by usecase id)
+  -->
+  <related-usecases>
+    <related-usecase>Login</related-usecase>
+  </related-usecases>
+  <!-- The standard event flow
+  -->
+  <event-flow>
+    <event>The user selects 'submit an event'</event>
+    <event>The user receives a form to submit an event</event>
+    <event>The user enters the event information: event name, event description, starting date, ending date, time
+    (optional), requested publication date (optional - default immediate on approval), and any associated
+    ministries (1+ ministries that this event will appear on the ministry home page of).</event>
+    <event>The system validates the data, and upon finding it valid, saves the data and informs the
+    editorial staff that the event is ready for review.</event>
+  </event-flow>
+  <!-- An alternate event flow
+  -->
+  <alternate-flow name="Invalid Data Entered">
+    <event>The user enters invalid event data</event>
+    <event>The system shows the form again, prefilled with the user's entries and errors regarding
+    each field that was in error</event>
+  </alternate-flow>
+  <!-- Change history
+  <history>
+    <revision editor="jwh" date="Aug 27, 2001" version="1.1">Notes...</revision>
+  </history>
+  -->
+</usecase>

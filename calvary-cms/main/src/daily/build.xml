@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<project name="calvary-daily-build" basedir="." default="main">
+  <property name="project.home" value="${basedir}"/>
+  <property name="project.imports.home" value="${project.home}/lib"/>
+
+  <property name="calvary.cms.class.path" value="${project.home}/lib/calvary-cms.jar"/>
+  <property name="calvary.tools.class.path" value="${project.home}/lib/calvary-tools.jar"/>
+  <property name="properties.class.path" value="${project.home}/lib"/>
+
+  <!-- External Properties -->
+  <property file="build.properties"/>
+
+  <taskdef name="fetchsite" classname="org.calvaryaustin.tools.ant.FetchSiteFromRepository">
+    <classpath>
+      <pathelement path="lib"/>
+      <fileset dir="lib">
+        <include name="**/*.jar"/>
+      </fileset>
+    </classpath>
+  </taskdef>
+  
+  <target name="main" depends="fetchsite"/>
+
+  <target name="init">
+  </target>
+  
+  <target name="fetchsite" depends="init">
+    <fetchsite webdavURL="http://localhost:8080/slide" siteName="testsite" toDir="_site_output"/>
+  </target>
+</project>

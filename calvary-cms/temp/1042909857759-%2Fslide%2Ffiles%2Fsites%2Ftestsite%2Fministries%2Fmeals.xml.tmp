@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Meals Ministry - The ministry and its detail
+	
+	$Id: 1042909857759-%2Fslide%2Ffiles%2Fsites%2Ftestsite%2Fministries%2Fmeals.xml.tmp,v 1.1 2003/02/12 22:07:22 javajames27 Exp $
+		
+-->
+<content title="Fishes &amp; Loaves Meals Ministry">
+	<ministry id="greet">
+	  <name>Fishes &amp; Loaves Meals Ministry</name>
+	  <overview>The meals ministry helps provide food for those who just had a new child, are going through a crisis, or acquired a sudden 		  illness.</overview>
+	  <long-description>
+	    <heading>Meals</heading>
+	    <p>Help provide and deliver meals to people at Calvary who have just had a new child, death in the family or sudden illness and are not      		able cook for themselves during these crisis times.</p>
+	  </long-description>
+	  <contacts>
+   	  </contacts>
+	</ministry>
+</content>

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+
+<slide>
+  
+  <namespace name="version">
+    
+    <definition>
+      
+      <store name="memory">
+        <contentstore name="file" 
+         classname="slidestore.file.FileContentStoreNoVersioning">
+          <parameter name="rootpath">files</parameter>
+        </contentstore>
+      </store>
+      
+      <scope match="/" store="memory" />
+      
+    </definition>
+    
+    <configuration>
+      <default-action>/actions</default-action>
+      <userspath>/users</userspath>
+      <filespath></filespath>
+      <parameter name="dav">true</parameter>
+      <parameter name="standalone">true</parameter>
+    </configuration>
+    
+    <data>
+      
+      <objectnode classname="org.apache.slide.structure.SubjectNode" uri="/">
+        
+        <permission action="/actions" subject="/users/root"/>
+        
+        <!-- /users represents the unauthenticated user -->
+        
+        <objectnode classname="org.apache.slide.structure.SubjectNode" 
+         uri="/users">
+          
+          <!-- /users/root represents the administrator -->
+          
+          <objectnode classname="org.apache.slide.structure.SubjectNode" 
+           uri="/users/root">
+          </objectnode>
+          
+          <!-- /users/guest represents an authenticated guest user -->
+          
+          <objectnode classname="org.apache.slide.structure.SubjectNode" 
+           uri="/users/guest">
+          </objectnode>
+          
+        </objectnode>
+        
+        <objectnode classname="org.apache.slide.structure.ActionNode" 
+         uri="/actions">
+        </objectnode>
+        
+      </objectnode>
+      
+    </data>
+    
+  </namespace>
+  
+</slide>

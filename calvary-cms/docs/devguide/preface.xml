@@ -1,0 +1,90 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<preface>
+	<title>About Docbook</title>
+        <para>Note: This is a short overview about how this document was put together.</para>
+	<para>The approach of writing documentation in HTML was inheretly problem infested. The content was "polluted" with
+HTML presentational tags and such impossible to convert to any other view. Another big issue was <![CDATA[L&F 
+consistency. Despite the explicit instruction of which HTML tags to use, authors couldn't keep up with all complexities 
+and issue faced when writing HTML documents. Documents were also hard to shuffle around in a document book thus 
+leading to a very big maintance costs]]></para>
+	<para>After some considerate time spent looking around, we came to the conclusion that Docbook initiative is the most
+reasonable way to go. DocBook is a XML/SGML DTD that lets authors in technical groups concentrate on the organization 
+and meaning of the documents they write.</para>
+	<para>Docbook XML DTD ,which we are using, has accompanying XSL stylesheets that allow us to define different views of 
+Docbook-ed XML content i.e., all the presentation issues are solved through XSL stylesheets. These stylesheets are 
+very flexible, well maintained, and allow easily customized hooks for specialized home-brewed styles of views.</para>
+	<para>Simply put, you have xml tagged content, detached from any fomatting issues, chunked into logical pieces, which 
+are then easily (re)arranged, put together, and in the end XSL stylesheet is applied against it to create any 
+kind of presentational view.</para>
+	<para>Docbook DTD's are maintained by independent consortium - <ulink url = "http://www.oasis-open.org">
+			<citetitle>OASIS</citetitle>
+		</ulink>. 
+The principal maintainer of Docbook is <ulink url = "http://www.nwalsh.com">
+			<citetitle>Norman Walsh</citetitle>
+		</ulink> , a member of 
+XSL working group, Sun Microsystems employee.</para>
+	<para>Although Docbook DTD is very big, 300 + elements, the learning curve is very steep, and most of the time not more 
+than 50 elements are used.  This <ulink url = "http://www.caldera.de/~eric/crash-course/HTML">
+			<citetitle>article</citetitle>
+		</ulink>is suitable for a first contact with Docbook. A good reference that you might want to use can be found <ulink url = "http://www.docbook.org/tdg/en/html/docbook.html">
+			<citetitle>here</citetitle>
+		</ulink>. 
+There is also a <ulink url = "http://developer.arsdigita.com/doc/docbook-primer.html"><citetitle>very brief introduction</citetitle></ulink> with references to tools such as Emacs with PSGML.
+	</para>
+	<formalpara>
+		<title>Docbook documentation guidelines</title>
+		<para>
+		<itemizedlist>
+		<listitem><para>Format for readability and content, not for a formated document.</para> 
+		<para>It is not your job and responsibility to make sure the final documentation looks good. If you use appropriate markup 
+		tags for the content of your documentation, Docbook will ensure that your document looks good. Do not substitute an inappropriate
+		DocBook XML tag because you do not like the "look" of the correct tag.</para> 
+                  
+		</listitem>
+
+		<listitem>
+		<para>Do what you can to ensure you turn in a valid DocBook file.</para> 
+
+       		<para>If you notice any parser errors during documentation build, correct them to ensure XML validity. If you get absolutely stuck notify
+	        one of the documentation leads. The reviewers will correct any DocBook errors you create, but please try to reduce the number of errors.
+		</para>	
+		</listitem>	
+		<listitem>
+                <para>All <![CDATA[<chapter> and major <section> ]]> tags must have an id attribute. The id must be all lower case, with dashes seperating 
+		words: <![CDATA[ <section id="configuring-containerinvoker"> ]]>
+		</para>
+
+		<para>This is very important since it allows other documentation writers to refer to your chapters and sections</para>	
+		</listitem>	
+		<listitem>
+		<para>
+               	When trying to decide between an ordered and unordered list, simply ask yourself the following question: "Does the order of the 
+		listed items matter?" or "If I change the order of the listed items, does that change the meaning of the list?". If you answer "No" 
+		to either question, then an unordered list is likely the logical choice.</para>
+		</listitem>
+                
+                <listitem>
+		<para>
+		When referring to chapters, sections, code samples, figures and other parts of documentation use either <![CDATA[<link> or <xref>]]> 
+		element. </para>
+
+		<para><![CDATA[<xref> ]]> element is more powerful since it creates both link and link text. You should use it whenever possible.</para>
+		<para>For example: If there is a figure somewhere in the documentation <![CDATA[<figure id="comp.ejb-jar.xml">]]> then using 
+		<![CDATA[<xref linkend="comp.ejb-jar.xml"/>]]> creates both the link to that figure as well as link text. Link text is usually
+		autogenerated (in case of figures - figure number) or assigned by the author of that link target.</para>
+                  
+                <para><![CDATA[<link>]]> element also creates links, but you assign link text.  For example:
+		<![CDATA[<link linkend="jca-terminology">JCA Terminology</link>]]></para>
+			
+                </listitem>
+
+		<listitem>
+		<para>Use <![CDATA[<ulink>]]> element to create links to other URLs. For example:
+		<![CDATA[<ulink url="http://java.sun.com/j2se/1.3/docs/guide/rmi/rmisocketfactory.doc.html">The Custom Socket Factory Tutorial</ulink>]]>
+		</para>
+		</listitem>
+		</itemizedlist>	
+	</para>
+	</formalpara>
+	
+</preface>

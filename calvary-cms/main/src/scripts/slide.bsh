@@ -1,0 +1,92 @@
+import java.io.FileInputStream;
+import java.io.DataInputStream;
+import java.io.InputStream;
+import java.io.PrintStream;
+import java.io.File;
+import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.FileNotFoundException;
+import java.util.Date;
+import java.util.Stack;
+import java.util.Vector;
+import java.util.Hashtable;
+import java.util.Enumeration;
+import java.util.StringTokenizer;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.net.URL;
+import java.net.MalformedURLException;
+
+import org.apache.commons.httpclient.HttpStatus;
+import org.apache.commons.httpclient.HttpException;
+import org.apache.util.HttpURL;
+import org.apache.util.QName;
+import org.apache.webdav.lib.WebdavResource;
+import org.apache.webdav.lib.methods.*;
+import org.apache.webdav.lib.methods.DepthSupport;
+import org.apache.webdav.lib.properties.AclProperty;
+import org.apache.webdav.lib.properties.PrincipalCollectionSetProperty;
+import org.apache.webdav.lib.properties.LockDiscoveryProperty;
+import org.apache.webdav.lib.Ace;
+import org.apache.webdav.lib.Privilege;
+import org.apache.webdav.lib.Lock;
+import org.apache.webdav.lib.PropertyName;
+import org.apache.webdav.lib.ResponseEntity;
+import org.apache.webdav.lib.Property;
+
+import antlr.ANTLRException;
+import antlr.RecognitionException;
+import antlr.TokenStreamException;
+
+
+httpURL = new HttpURL("http://localhost:8080/slide");
+webdavResource = new WebdavResource(httpURL);
+webdavResource.setDebug(1);
+webdavResource.setPath("/slide/files");
+Vector basiclist = webdavResource.listBasic();
+WebdavResource resources[] = webdavResource.listWebdavResources();
+
+
+for (int i = 0; i < basiclist.size(); i++)
+{
+  String output="";
+  String[] longFormat = (String []) basiclist.elementAt(i);
+  for (int j = 0;j < longFormat.length; j++)
+  {
+    String s = longFormat[j];
+    int len = s.length();
+    print(j);
+
+    switch (j)
+    {
+    case 0:
+        output+=(s);
+        for (int k = len; k < 20; k++)
+            output+=" ";
+        break;
+    case 1:
+        for (int k = 10 - len;
+             k > 0 ; k--)
+            output+=(" ");
+        // don't cut the size.
+        output+=(s + " ");
+        break;
+    case 2:
+        // cut the description.
+        output+=(" " +
+                  ((len > 20) ?
+                   s.substring(0, 20) : s));
+        for (int k = len; k < 20; k++)
+            output+=(" ");
+        break;
+    case 3:
+    default:
+        output+=(" " + s);
+    }
+    print(output);
+
+  }
+}
+
+// print(((WebdavResource)(webdavResource.listWebdavResources()[0])).getMethodDataAsString());

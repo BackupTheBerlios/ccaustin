@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+	<title>Introduction</title>
+	<sect1>
+		<title>Purpose</title>
+		<para>The purpose of this document is to provide information for developers who wish to better understand the system and possibly contribute to the project in some manner.</para>
+	</sect1>
+	<sect1>
+		<title>Problem Statement</title>
+		<para>See the Calvary Austin Content Management System Requirements document.</para>
+	</sect1>
+</chapter>

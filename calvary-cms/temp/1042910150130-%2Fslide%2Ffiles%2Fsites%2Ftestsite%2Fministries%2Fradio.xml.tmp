@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Radio/TV Ministry - The ministry and its detail
+	
+	$Id: 1042910150130-%2Fslide%2Ffiles%2Fsites%2Ftestsite%2Fministries%2Fradio.xml.tmp,v 1.1 2003/02/12 22:07:42 javajames27 Exp $
+		
+-->
+<content title="Radio Ministry">
+	<ministry id="radio">
+	  <name>Radio Ministry</name>
+	  <overview>The Radio Ministry is a part of "Calvary Continuum", the broadcast portion of the
+	    Multi-Media Ministry. </overview>
+	  <long-description>
+	    <p>The Radio Ministry produces the Calvary Continuum radio show on
+	    KIXL 970, Monday through Friday at 10:30 a.m. and rebroadcast at 7 p.m. The show is
+	    comprised of 30 minute segments from past messages.</p>  
+	  </long-description>
+	  <contacts>
+	  	<contact-email email="bunjee@calvaryaustin.org">Bunjee Garrett</contact-email>
+   	  </contacts>
+	</ministry>
+</content>

@@ -1,0 +1,534 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Jakarta Slide - Slide Server</title>
+<meta value="Remy Maucherat" name="author">
+<meta value="remm@apache.org" name="email">
+</head>
+<body vlink="#525D76" alink="#525D76" link="#525D76" text="#000000" bgcolor="#ffffff">
+<table cellspacing="4" width="100%" border="0">
+<!--PAGE HEADER-->
+<tr>
+<td colspan="2">
+<!--JAKARTA LOGO--><a href="http://jakarta.apache.org/"><img border="0" alt="The Jakarta Project" align="left" src="./images/jakarta-logo.gif"></a>
+<!--PROJECT LOGO--><a href="http://jakarta.apache.org/slide/"><img border="0" alt="The Jakarta Slide Project" align="right" src="./images/Slide.gif"></a></td>
+</tr>
+<!--HEADER SEPARATOR-->
+<tr>
+<td colspan="2">
+<hr size="1" noshade="">
+</td>
+</tr>
+<tr>
+<!--LEFT SIDE NAVIGATION-->
+<td nowrap="true" valign="top" width="20%">
+<p>
+<strong>Main</strong>
+</p>
+<ul>
+<li>
+<a href="index.html">Introduction</a>
+</li>
+<li>
+<a href="news.html">News</a>
+</li>
+<li>
+<a href="http://jakarta.apache.org/site/binindex.html">Downloads</a>
+</li>
+<li>
+<a href="status.html">Status</a>
+</li>
+<li>
+<a href="changelog.html">Changelog</a>
+</li>
+<li>
+<a href="contrib.html">Contributors</a>
+</li>
+</ul>
+<p>
+<strong>Resources</strong>
+</p>
+<ul>
+<li>
+<a href="http://faq.globalvision.com.au/">FAQ</a>
+</li>
+<li>
+<a href="http://jakarta.apache.org/site/mail.html">Mailing Lists</a>
+</li>
+<li>
+<a href="http://jakarta.apache.org/builds/gump/latest/jakarta-slide.html">Build Status</a>
+</li>
+<li>
+<a href="http://jakarta.apache.org/site/cvsindex.html">CVS</a>
+</li>
+<li>
+<a href="library.html">Library</a>
+</li>
+</ul>
+<p>
+<strong>User's Guide</strong>
+</p>
+<ul>
+<li>
+<a href="server.html">Server</a>
+</li>
+<li>
+<a href="webdav-client.html">Client</a>
+</li>
+</ul>
+<p>
+<strong>Administrator's Guide</strong>
+</p>
+<ul>
+<li>
+<a href="installation.html">Installation</a>
+</li>
+<li>
+<a href="conf-lib.html">Configuration</a>
+</li>
+</ul>
+<p>
+<strong>HOW-TOs</strong>
+</p>
+<ul>
+<li>
+<a href="howto-tomcat.html">Tomcat Howto</a>
+</li>
+<li>
+<a href="howto-jdbcstore.html">JDBC Stores Howto</a>
+</li>
+<li>
+<a href="howto-j2eestore.html">J2EE Stores Howto</a>
+</li>
+</ul>
+<p>
+<strong>Programmer's Corner</strong>
+</p>
+<ul>
+<li>
+<a href="architecture.html">Architecture</a>
+</li>
+<li>
+<a href="domain.html">Domain</a>
+</li>
+<li>
+<a href="namespace.html">Namespace</a>
+</li>
+<li>
+<a href="examples.html">Examples</a>
+</li>
+</ul>
+<p>
+<strong>Slide API</strong>
+</p>
+<ul>
+<li>
+<a href="structure.html">Structure</a>
+</li>
+<li>
+<a href="security.html">Security</a>
+</li>
+<li>
+<a href="lock.html">Lock</a>
+</li>
+<li>
+<a href="version.html">Content</a>
+</li>
+<li>
+<a href="macro.html">Macro</a>
+</li>
+<li>
+<a href="search.html">Index</a>
+</li>
+<li>
+<a href="process.html">Process</a>
+</li>
+</ul>
+<p>
+<strong>Reference</strong>
+</p>
+<ul>
+<li>
+<a href="uml/index.html">UML</a>
+</li>
+<li>
+<a href="javadoc/index.html">JavaDoc</a>
+</li>
+<li>
+<a href="clientjavadoc/index.html">WebDAV Client Javadoc</a>
+</li>
+<li>
+<a href="jstl-taglib.html">Tag Library (JSTL)</a>
+</li>
+<li>
+<a href="struts-taglib.html">Tag Library (Struts)</a>
+</li>
+</ul>
+</td>
+<!--RIGHT SIDE MAIN BODY--><td align="left" valign="top" width="80%">
+<body>
+  
+  
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Introduction"><strong>Introduction</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+    
+    
+<p>
+      Slide includes an embedded distribution of Tomcat 4.0, configured as a
+      fully integrated content management system.
+    </p>
+
+    
+<p>
+      It is configured so that it provides multiple views of the data :
+      <ul>
+        
+<li>Client view : Use web applications, browse information</li>
+        
+<li>Editor view : Edit and configure web applications, modify 
+          information</li>
+        
+<li>Admin view : Manage users, define roles, administer the 
+          server</li>
+      
+</ul>
+    
+</p>
+    
+  
+</blockquote>
+</td>
+</tr>
+</table>
+  
+  
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="User's Guide"><strong>User's Guide</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+
+    
+<p>
+      The server resides in the "server" subdirectory in the Slide binary
+      distributions. The "server" directory conatins a specially configured
+      Tomcat 4 distribution, which is run exactly the same way Tomcat 4 is run.
+      The Tomcat 4 User's Guide provides more details on this.
+    </p>
+
+    
+<p>
+      The Slide domain is configured with the "conf/slide.xml" file which is 
+      in the "server" directory, and it's mostly unchanged when compared to 
+      the Domain.xml which is in a web application, except that :
+      <ul>
+        
+<li>auto-create-users should always be set to false (it is false
+          by default)</li>
+        
+<li>the default namespace should be set, and its value should be the
+          name of a valid namespace</li>
+      
+</ul>
+      The store definition and configuration is still unchanged.
+    </p>
+
+    
+<p>
+      The Tomcat 4 configuration file is still located in "conf/server.xml". It
+      can be edited to change the port numbers which will be used by 
+      the connectors, among other things.
+    </p>
+
+    
+<p>
+      Contexts will be created using the namespaces which are defined in the
+      Slide domain. Additional details are given below.
+    </p>
+
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#828DA6"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Client View"><strong>Client View</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+
+      
+<p>
+        The client view can be accessed (using the default configuration) on
+        port 8080.
+      </p>
+
+      
+<p>
+        The client view provides a standard Tomcat 4 environment, with the same
+        functionality as those normally provided by Tomcat 4, except without 
+        the concept of virtual hosting, due to design decisions in Slide.
+      </p>
+
+      
+<p>
+        For each namespace defined in the Slide domain, a separate web 
+        application context will be created in the servlet container. For
+        example, if the "foo" namespace is defined in Slide, then a "foo"
+        context will be created in Tomcat 4. A realm will be automatically
+        associated with that context, and will authenticate pricipals against
+        the principals defined in the Slide namespace.
+      </p>
+
+      
+<p>
+        Any web application which is designed so that it doesn't access the
+        files within its web application directory using direct filesystem 
+        access should run without any modification (file access should be 
+        replaced by calls like ServletContext.getResource, which abstract
+        filesystem access). This includes applications like Jasper, and any 
+        web application written according to Sun's guidelines.
+      </p>
+
+    
+</blockquote>
+</td>
+</tr>
+</table>
+
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#828DA6"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Editor View"><strong>Editor View</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+
+      
+<p>
+        The editor view can be accessed (using the default configuration) on
+        port 8081.
+      </p>
+
+      
+<p>
+        Note : For security reasons, the default configuration <b>does not</b>
+        have any user which can successfully be authenticated. To be able to 
+        successfully authenticate a user, edit the Domain.xml file and set a
+        password for the user. An example is provided in the file for user
+        "/users/root".
+      </p>
+
+      
+<p>
+        Each namespace in the Slide doamin will be associated to a context, 
+        which is fully managed by the Slide WebDAV servlet. Any WebDAV client 
+        can be used to edit the contents of these contexts. A realm will be 
+        automatically associated with that context, and will authenticate 
+        pricipals against the principals defined in the Slide namespace.
+      </p>
+
+      
+<p>
+        All resources in the web application can be accessed and edited, 
+        according to the permissions the authenticated principal has. This
+        includes class files, JSP sources, ... It is highly recommended that
+        if this setup is used in a publicly accessible computer, that the port
+        on which this host is running is hidden from the outside world, either
+        by configuring the connector to only accept requests from some IP 
+        addresses, or (preferably) by using a firewall.
+      </p>
+
+      
+<p>
+        Since Slide is running in the background, all the services Slide 
+        provides are used to manage the web applications. This includes a rich
+        ACL system, versioning, locking ...
+      </p>
+
+    
+</blockquote>
+</td>
+</tr>
+</table>
+
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#828DA6"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Admin View"><strong>Admin View</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+
+      
+<p>
+        The first management component which is available is the Catalina 
+        manager web application. It can be accessed in context "manager" on
+        port 8080 (it runs on the same host as the client view). The manager
+        requires an authenticated user with role "manager". This user is not
+        defined in any of the Slide managed realms, but instead is defined in
+        a memory based realm. The "conf/tomcat-users.xml" defines the users
+        of this realm. The manager sevlet provides an interface which can be
+        used to start/stop/reload contexts, view active sessions, ...
+      </p>
+
+      
+<p>
+        A Slide specific management application is provided on port 8082.
+        Again, this port should be restricted should the server be made 
+        available as a public server on the internet. This interface is a work
+        in progress, and will allow to view and edit the configuration of the 
+        namespaces, as well as manage principals.
+      </p>
+
+    
+</blockquote>
+</td>
+</tr>
+</table>
+
+  
+</blockquote>
+</td>
+</tr>
+</table>
+
+  
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#525D76"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Administrator's Guide"><strong>Administrator's Guide</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#828DA6"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Logging"><strong>Logging</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+
+      
+<p>
+        The standalone server provides multiple log files which are located in
+        the "logs" directory.
+      </p>
+
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#828DA6"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Catalina Loggers"><strong>Catalina Loggers</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+
+      
+<p>
+        
+<ul>
+          
+<li>catalina_log: Catalina logger for the main view</li>
+          
+<li>catalina_webdav_log: Catalina logger for the WebDAV view</li>
+          
+<li>catalina_admin_log: Catalina logger for the admin view</li>
+          
+<li>localhost_log: Logger of the default host for the main view</li>
+          
+<li>localhost_access_log: Access log of the default host for the
+            main view</li>
+          
+<li>webdav_log: Logger of the default host for the WebDAV view</li>
+          
+<li>webdav_access_log: Access log of the default host for the
+            WebDAV view</li>
+          
+<li>admin_log: Logger of the default host for the admin view</li>
+          
+<li>admin_access_log: Access log of the default host for the
+            admin view</li>
+        
+</ul>
+      
+</p>
+
+    
+</blockquote>
+</td>
+</tr>
+</table>
+
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#828DA6"><font face="arial,helvetica.sanserif" color="#ffffff"><a name="Slide Loggers"><strong>Slide Loggers</strong></a></font></td>
+</tr>
+<tr>
+<td>
+<blockquote>
+
+      
+<p>
+        
+<ul>
+          
+<li>slide_domain: Slide domain logger</li>
+          
+<li>slide_ns_&lt;name&gt;: Logger for namespace &lt;name&gt;</li>
+        
+</ul>
+      
+</p>
+
+    
+</blockquote>
+</td>
+</tr>
+</table>
+
+    
+</blockquote>
+</td>
+</tr>
+</table>
+
+  
+</blockquote>
+</td>
+</tr>
+</table>
+
+
+</body>
+</td>
+</tr>
+<!--FOOTER SEPARATOR-->
+<tr>
+<td colspan="2">
+<hr size="1" noshade="">
+</td>
+</tr>
+<!--PAGE FOOTER-->
+<tr>
+<td colspan="2">
+<div align="center">
+<font size="-1" color="#525D76"><em>
+        Copyright &copy; 1999-2001, Apache Software Foundation
+        </em></font>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

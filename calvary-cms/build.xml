@@ -1,0 +1,521 @@
+<?xml version="1.0"?>
+
+<project name="calvary" basedir="." default="main" >
+
+  <!-- ================== Project Properties ================== -->
+  <property name="project.home" value="${basedir}"/>
+  <property name="project.imports.home" value="${project.home}/thirdparty"/>
+  <property name="project.build.home" value="${project.home}/build"/>
+  <property name="project.build.docs.home" value="${project.build.home}/docs"/>
+  <property name="project.docs.home" value="${project.home}/docs"/>
+  <property name="project.dist.home" value="${project.home}/dist"/>
+  <property name="project.src.home" value="${project.home}/main/src"/>
+
+  <!-- ================== UseCases ================== -->
+
+  <!-- src -->
+  <property name="project.src.usecases.home" value="${project.docs.home}/usecases"/>
+  <property name="project.src.usecases.xml" value="${project.src.usecases.home}"/>
+  <property name="project.src.usecases.stylesheets" value="${project.src.usecases.home}"/>
+  <property name="project.src.devguide.home" value="${project.docs.home}/devguide"/>
+  <property name="project.src.devguide.xml" value="${project.src.devguide.home}"/>
+  <property name="project.src.devguide.stylesheets" value="${project.src.devguide.home}"/>
+
+  <!-- output -->
+  <property name="project.build.usecases" value="${project.build.docs.home}/usecases"/>
+  <property name="project.build.usecases.html" value="${project.build.usecases}/html"/>
+  <property name="project.build.usecases.docbook" value="${project.build.usecases}/docbook"/>
+  <property name="project.build.devguide" value="${project.build.docs.home}/devguide"/>
+  <property name="project.build.devguide.html" value="${project.build.devguide}/html"/>
+  <property name="project.build.devguide.docbook" value="${project.build.devguide}/docbook"/>
+
+  <!-- ================== CMS ================== -->
+  <property name="project.src.cms" value="${project.src.home}/cms/java"/>
+  <property name="project.src.cms.tests" value="${project.src.home}/cms/test"/>
+  <property name="project.src.cms.testresources" value="${project.src.home}/cms/testresources"/>
+  <property name="project.build.cms.home" value="${project.build.home}/cms"/>
+  <property name="project.build.cms.classes" value="${project.build.cms.home}/classes"/>
+  <property name="project.build.cms.testclasses" value="${project.build.cms.home}/testclasses"/>
+  <property name="project.build.cms.testout" value="${project.build.home}/testout"/>
+  <property name="project.build.cms.jar" value="${project.build.cms.home}/${ant.project.name}-cms.jar"/>
+
+  <!-- ================== Tools ================== -->
+  <property name="project.src.tools" value="${project.src.home}/tools/java"/>
+  <property name="project.src.tools.tests" value="${project.src.home}/tools/test"/>
+  <property name="project.src.tools.testresources" value="${project.src.home}/tools/testresources"/>
+  <property name="project.build.tools.home" value="${project.build.home}/tools"/>
+  <property name="project.build.tools.classes" value="${project.build.tools.home}/classes"/>
+  <property name="project.build.tools.testclasses" value="${project.build.tools.home}/testclasses"/>
+  <property name="project.build.tools.testout" value="${project.build.home}/testout"/>
+  <property name="project.build.tools.jar" value="${project.build.tools.home}/${ant.project.name}-tools.jar"/>
+
+  <!-- ================== CONTROLPANEL ================== -->
+  <property name="project.src.controlpanel" value="${project.src.home}/controlpanel/java"/>
+  <property name="project.src.controlpanel.tests" value="${project.src.home}/controlpanel/test"/>
+  <property name="project.src.controlpanel.testresources" value="${project.src.home}/controlpanel/testresources"/>
+  <property name="project.src.controlpanel.config" value="${project.src.home}/controlpanel/config"/>
+  <property name="project.src.controlpanel.web" value="${project.src.home}/controlpanel/websrc"/>
+  <property name="project.build.controlpanel.home" value="${project.build.home}/controlpanel"/>
+  <property name="project.build.controlpanel.classes" value="${project.build.controlpanel.home}/classes"/>
+  <property name="project.build.controlpanel.testclasses" value="${project.build.controlpanel.home}/testclasses"/>
+  <property name="project.build.controlpanel.testout" value="${project.build.home}/testout"/>
+  <property name="project.build.controlpanel.jar" value="${project.build.controlpanel.home}/${ant.project.name}-controlpanel.jar"/>
+  <property name="project.build.controlpanel.war" value="${project.build.controlpanel.home}/controlpanel.war"/>
+  <property name="project.build.controlpanel.ear" value="${project.build.controlpanel.home}/controlpanel.ear"/>
+
+  <!-- ================== Daily ================== -->
+  <property name="project.src.daily.home" value="${project.src.home}/daily"/>
+  <property name="project.dist.daily.home" value="${project.dist.home}/daily"/>
+  <property name="project.dist.daily.lib" value="${project.dist.daily.home}/lib"/>
+  
+  <!-- External Properties -->
+  <property file="build.properties"/>
+
+  
+  <!-- ================== Global Classpaths ================== -->
+  <path id="class.path">
+     <pathelement path="${commons.class.path}"/>
+     <pathelement path="${log4j.class.path}"/>
+  </path>
+
+  <path id="junit.class.path">
+     <path refid="class.path"/>
+     <pathelement location="${junit.jar}"/>
+  </path>
+  
+  <!-- ================================================= -->
+  <!-- Bootstrapping Targets -->
+  <!-- ================================================= -->
+  <target name="init">
+    <mkdir dir="${project.build.usecases.html}"/>
+    <mkdir dir="${project.build.usecases.docbook}"/>
+    <mkdir dir="${project.build.devguide.html}"/>
+    <mkdir dir="${project.build.cms.classes}"/>
+    <mkdir dir="${project.build.cms.testclasses}"/>
+    <mkdir dir="${project.build.cms.testout}"/>
+    <mkdir dir="${project.build.tools.classes}"/>
+    <mkdir dir="${project.build.tools.testclasses}"/>
+    <mkdir dir="${project.build.tools.testout}"/>
+    <mkdir dir="${project.build.controlpanel.classes}"/>
+    <mkdir dir="${project.build.controlpanel.testclasses}"/>
+    <mkdir dir="${project.build.controlpanel.testout}"/>
+    <mkdir dir="${project.dist.daily.home}"/>
+    <mkdir dir="${project.dist.daily.lib}"/>
+
+    <!-- Timestamp -->
+    <tstamp>
+       <format property="TODAY" pattern="MM/dd/yyyy hh:mm aa" unit="hour"/>
+    </tstamp>
+  </target>
+
+  <target name="main" depends="build"
+          description="Default build target"/>
+
+  <target name="clean" depends="init">
+    <delete dir="${project.build.home}"/>
+    <delete dir="${project.dist.home}"/>
+  </target>
+
+  <!-- ================================================= -->
+  <!-- Test Targets -->
+  <!-- ================================================= -->
+  <property name="junit.haltonfailure" value="false"/>
+  <property name="junit.printsummary" value="on"/>
+  <property name="junit.haltonfailure" value="true"/>
+  <target name="test" depends="build, junit-cms"
+          description="Runs all unit tests, halting on failure"/>
+  
+  <!-- ================================================= -->
+  <!-- Build Targets -->
+  <!-- ================================================= -->
+  <target name="build" depends="init, build-cms, build-tools, build-controlpanel"
+          description="Default build target"/>
+
+  <!-- ================================================= -->
+  <!-- Javadoc Target -->
+  <!-- ================================================= -->
+
+  <!-- TODO: Fix this to have a target for each module, or better title and consolidate the modules -->
+  <target name="javadoc" depends="init"
+          description="Creates javadoc from the various sourcetrees">
+    <javadoc
+      packagenames="${module.packages}"
+      classpathref="class.path.spi"
+      destdir="${project.build.javadoc.home}"
+      author="true"
+      version="true"
+      private="false"
+      windowtitle="The Calvary CMS API"
+      doctitle="&lt;h1>The Calvary CMS API&lt;/h1>"
+      bottom="&lt;i>&lt;/i>"> <!-- License here -->
+      <sourcepath>
+	<pathelement location="${project.src.cms}"/>
+	<pathelement location="${project.src.tools}"/>
+      </sourcepath>
+    </javadoc>
+  </target>
+
+  <!-- ================================================= -->
+  <!-- Dist Target -->
+  <!-- ================================================= -->
+  <target name="dist" depends="build">
+    <copy toDir="${project.dist.daily.home}">
+      <fileset dir="${project.src.daily.home}"/>
+    </copy>
+
+    <copy toDir="${project.dist.daily.home}" file="${project.home}/build.properties"/>
+
+    <copy toDir="${project.dist.daily.lib}/apache/lib">
+      <fileset dir="${project.imports.home}/apache/lib"/>
+    </copy>
+
+    <copy toDir="${project.dist.daily.lib}/jakarta-slide/client/lib">
+      <fileset dir="${slide.home}/client/lib/"/>
+    </copy>
+
+    <copy toDir="${project.dist.daily.lib}" file="${project.build.cms.jar}"/>
+    <copy toDir="${project.dist.daily.lib}" file="${project.build.tools.jar}"/>
+
+    <copy toDir="${project.dist.daily.lib}">
+      <fileset dir="${project.src.cms}/../testresources"/>
+    </copy>
+  </target>
+
+  <!-- ================================================= -->
+  <!-- Deploy Target -->
+  <!-- ================================================= -->
+  <target name="deploy" depends="build">
+    <!-- For now, we are copying the slide kernel jars to the jboss lib dir so that the classpath is
+    shared with all deployed wars and ears. See comments below in the controlpanel.ear area. JWH -->
+    <copy toDir="${jboss.lib.home}">
+      <fileset dir="${slide.server.home}" includes="**/slide**.jar" excludes="**/*taglib*.jar,**/*servlet*.jar"/>
+    </copy>
+    <copy toDir="${jboss.deploy.home}">
+      <fileset dir="${project.build.controlpanel.home}" includes="**/*.ear"/>
+    </copy>
+  </target>
+  
+  <!-- ================================================= -->
+  <!-- ================================================= -->
+  <!-- =================         ======================= -->
+  <!-- ================= Modules ======================= -->
+  <!-- =================         ======================= -->
+  <!-- ================================================= -->
+  <!-- ================================================= -->
+  
+  <!-- ================================================= -->
+  <!-- Build-cms Targets -->
+  <!-- ================================================= -->
+  <!-- Cms Paths -->
+  <path id="class.path.cms">
+     <path refid="class.path"/>
+     <pathelement path="${slide.client.class.path}"/>
+  </path>
+
+  <path id="junit.class.path.cms">
+     <path refid="class.path.cms"/>
+     <path refid="junit.class.path"/>
+     <pathelement location="${project.build.cms.jar}"/>
+     <pathelement path="${project.build.cms.testclasses}"/>
+     <pathelement path="${project.src.cms.testresources}"/>
+  </path>
+
+  <target name="build-cms" depends="init, compile-cms, jar-cms, compile-cms-tests"/>
+
+  <target name="compile-cms" depends="init">
+     <!-- Compile -->
+     <echo Message="compiling common..."/>
+     <javac   classpathref="class.path.cms"
+              srcdir="${project.src.cms}"
+              destdir="${project.build.cms.classes}"
+              debug="${JAVAC_DEBUG}"
+              verbose="${JAVAC_VERBOSE}"
+              optimize="${JAVAC_OPTMIZE}"
+              deprecation="${JAVAC_DEPRECATION}"
+              target="${JAVAC_TARGET}"
+              fork="true"
+     />
+  </target>
+
+  <target name="compile-cms-tests" depends="init">
+     <!-- Compile -->
+     <echo Message="compiling cms tests..."/>
+     <javac   classpathref="junit.class.path.cms"
+              srcdir="${project.src.cms.tests}"
+              destdir="${project.build.cms.testclasses}"
+              debug="${JAVAC_DEBUG}"
+              verbose="${JAVAC_VERBOSE}"
+              optimize="${JAVAC_OPTMIZE}"
+              deprecation="${JAVAC_DEPRECATION}"
+              target="${JAVAC_TARGET}"
+              fork="true"
+     />
+  </target>
+
+  <target name="jar-cms" depends="init">
+     <!-- Jar -->
+     <echo Message="jarring cms..."/>
+     <jar jarfile="${project.build.cms.jar}">
+       <fileset dir="${project.build.cms.classes}"
+                includes="**"/>
+     </jar>
+  </target>
+
+  <target name="junit-cms" depends="build">
+     <junit printsummary="${junit.printsummary}"
+            showoutput="${junit.showoutput}"
+            haltonfailure="${junit.haltonfailure}"
+            fork="yes">
+       <classpath>
+           <path refid="junit.class.path.cms"/>
+       </classpath>
+       <formatter type="plain"/>
+       <batchtest todir="${project.build.cms.testout}">
+         <fileset dir="${project.build.cms.testclasses}">
+             <include name="**/*Test.class"/>
+         </fileset>
+       </batchtest>
+     </junit>
+  </target>
+  
+  <!-- ================================================= -->
+  <!-- Build-tools Targets -->
+  <!-- ================================================= -->
+  <!-- Tools Paths -->
+  <path id="class.path.tools">
+     <path refid="class.path"/>
+     <path refid="class.path.cms"/>
+     <pathelement path="${project.build.cms.jar}"/>
+     <pathelement path="${ant.class.path}"/>
+  </path>
+
+  <path id="junit.class.path.tools">
+     <path refid="class.path.tools"/>
+     <path refid="junit.class.path"/>
+     <pathelement location="${project.build.tools.jar}"/>
+     <pathelement path="${project.build.tools.testclasses}"/>
+     <pathelement path="${project.src.tools.testresources}"/>
+  </path>
+
+  <target name="build-tools" depends="init, compile-tools, jar-tools, compile-tools-tests"/>
+
+  <target name="compile-tools" depends="init">
+     <!-- Compile -->
+     <echo Message="compiling common..."/>
+     <javac   classpathref="class.path.tools"
+              srcdir="${project.src.tools}"
+              destdir="${project.build.tools.classes}"
+              debug="${JAVAC_DEBUG}"
+              verbose="${JAVAC_VERBOSE}"
+              optimize="${JAVAC_OPTMIZE}"
+              deprecation="${JAVAC_DEPRECATION}"
+              target="${JAVAC_TARGET}"
+              fork="true"
+     />
+  </target>
+
+  <target name="compile-tools-tests" depends="init">
+     <!-- Compile -->
+     <echo Message="compiling tools tests..."/>
+     <javac   classpathref="junit.class.path.tools"
+              srcdir="${project.src.tools.tests}"
+              destdir="${project.build.tools.testclasses}"
+              debug="${JAVAC_DEBUG}"
+              verbose="${JAVAC_VERBOSE}"
+              optimize="${JAVAC_OPTMIZE}"
+              deprecation="${JAVAC_DEPRECATION}"
+              target="${JAVAC_TARGET}"
+              fork="true"
+     />
+  </target>
+
+  <target name="jar-tools" depends="init">
+     <!-- Jar -->
+     <echo Message="jarring tools..."/>
+     <jar jarfile="${project.build.tools.jar}">
+       <fileset dir="${project.build.tools.classes}"
+                includes="**"/>
+     </jar>
+  </target>
+
+  <target name="junit-tools" depends="build">
+     <junit printsummary="${junit.printsummary}"
+            showoutput="${junit.showoutput}"
+            haltonfailure="${junit.haltonfailure}"
+            fork="yes">
+       <classpath>
+           <path refid="junit.class.path.tools"/>
+       </classpath>
+       <formatter type="plain"/>
+       <batchtest todir="${project.build.tools.testout}">
+         <fileset dir="${project.build.tools.testclasses}">
+             <include name="**/*Test.class"/>
+         </fileset>
+       </batchtest>
+     </junit>
+  </target>
+  
+  <!-- ================================================= -->
+  <!-- Build-controlpanel Targets -->
+  <!-- ================================================= -->
+  <!-- Controlpanel Paths -->
+  <path id="class.path.controlpanel">
+     <path refid="class.path"/>
+     <pathelement path="${struts.class.path}"/>
+     <pathelement path="${slide.client.class.path}"/>
+     <pathelement path="${slide.server.class.path}"/>
+     <pathelement path="${slide.taglib.class.path}"/>
+     <pathelement path="${j2ee.class.path}"/>
+  </path>
+
+  <path id="junit.class.path.controlpanel">
+     <path refid="class.path.controlpanel"/>
+     <path refid="junit.class.path"/>
+     <pathelement location="${project.build.controlpanel.jar}"/>
+     <pathelement path="${project.build.controlpanel.testclasses}"/>
+     <pathelement path="${project.src.controlpanel.testresources}"/>
+  </path>
+
+  <target name="build-controlpanel" depends="init, compile-controlpanel, jar-controlpanel, compile-controlpanel-tests"/>
+
+  <target name="compile-controlpanel" depends="init">
+     <!-- Compile -->
+     <echo Message="compiling common..."/>
+     <javac   classpathref="class.path.controlpanel"
+              srcdir="${project.src.controlpanel}"
+              destdir="${project.build.controlpanel.classes}"
+              debug="${JAVAC_DEBUG}"
+              verbose="${JAVAC_VERBOSE}"
+              optimize="${JAVAC_OPTMIZE}"
+              deprecation="${JAVAC_DEPRECATION}"
+              target="${JAVAC_TARGET}"
+              fork="true"
+     />
+  </target>
+
+  <target name="compile-controlpanel-tests" depends="init">
+     <!-- Compile -->
+     <echo Message="compiling controlpanel tests..."/>
+     <javac   classpathref="junit.class.path.controlpanel"
+              srcdir="${project.src.controlpanel.tests}"
+              destdir="${project.build.controlpanel.testclasses}"
+              debug="${JAVAC_DEBUG}"
+              verbose="${JAVAC_VERBOSE}"
+              optimize="${JAVAC_OPTMIZE}"
+              deprecation="${JAVAC_DEPRECATION}"
+              target="${JAVAC_TARGET}"
+              fork="true"
+     />
+  </target>
+
+  <target name="jar-controlpanel" depends="init">
+     <!-- Jar -->
+     <echo Message="jarring controlpanel..."/>
+     <jar jarfile="${project.build.controlpanel.jar}">
+       <fileset dir="${project.build.controlpanel.classes}"
+                includes="**"/>
+     </jar>
+     <war destfile="${project.build.controlpanel.war}"
+          basedir="${project.src.controlpanel.web}"
+          webxml="${project.src.controlpanel.web}/web-inf/web.xml"
+          excludes="**/web.xml"
+          manifest="${project.src.controlpanel}/../controlpanel-war.mf">
+    </war>
+    <ear destfile="${project.build.controlpanel.ear}"
+         appxml="${project.src.controlpanel}/../application.xml">
+      <fileset dir="${project.build.controlpanel.home}" includes="**/*.war"/>
+      <zipfileset prefix="lib" dir="${project.build.controlpanel.home}" includes="**/**.jar"/>
+      <zipfileset prefix="lib" dir="${commons.home}/lib" includes="**/**.jar"/>
+      <zipfileset prefix="lib" dir="${log4j.home}/lib" includes="**/**.jar"/>
+      <zipfileset prefix="lib" dir="${apache.xml.home}/lib" includes="**/**.jar"/>
+      <zipfileset prefix="lib" dir="${struts.home}/lib" includes="**/**.jar"/>
+      <!-- Uncomment this and omment the next block to talk webdav from the control panel. Right
+      now, we leave the slide*.jar files under server/default/lib so that the classloader is shared
+      between this archive and the /slide webdav services. Thus, the taglibs will talk to
+      the same slide kernel and be happy. Later, we hope to refactor their code or write our own
+      client code that doesn't require this hack... JWH 
+      <zipfileset prefix="lib" dir="${slide.client.home}" includes="**/**.jar"/>
+      <zipfileset prefix="lib" dir="${slide.server.home}" includes="**/**.jar"/>
+      -->
+      <zipfileset prefix="lib" dir="${slide.server.home}" includes="**/*taglib*.jar"/>
+    </ear>
+  </target>
+
+  <target name="junit-controlpanel" depends="build">
+     <junit printsummary="${junit.printsummary}"
+            showoutput="${junit.showoutput}"
+            haltonfailure="${junit.haltonfailure}"
+            fork="yes">
+       <classpath>
+           <path refid="junit.class.path.controlpanel"/>
+       </classpath>
+       <formatter type="plain"/>
+       <batchtest todir="${project.build.controlpanel.testout}">
+         <fileset dir="${project.build.controlpanel.testclasses}">
+             <include name="**/*Test.class"/>
+         </fileset>
+       </batchtest>
+     </junit>
+  </target>
+
+  <!-- ================================================= -->
+  <!-- UseCases Targets -->
+  <!-- ================================================= -->
+  <target name="usecases" depends="init,usecases-prepare,usecases-html,usecases-docbook"/>
+
+  <target name="usecases-prepare">
+  </target>
+
+  <target name="usecases-html">
+    <style force="yes" style="${project.src.usecases.stylesheets}/usecases.xsl"
+	   extension=".html"
+	   basedir="${project.src.usecases.xml}"
+	   destdir="${project.build.usecases.html}"
+           includes="**/*.xml"
+           excludes="**/actors.xml, **/features.xml, **/_template.xml">
+    </style>
+  </target>
+
+  <target name="usecases-docbook">
+    <style force="yes" style="${project.src.usecases.stylesheets}/usecases-docbook.xsl"
+	   extension=".xml"
+	   basedir="${project.src.usecases.xml}"
+	   destdir="${project.build.usecases.docbook}"
+           includes="**/*.xml"
+           excludes="**/actors.xml, **/features.xml, **/_template.xml">
+    </style>
+  </target>
+
+  <target name="usecase-create">
+    <tstamp prefix="usecase"/>
+    <copy file="${project.src.usecases.xml}/_template.xml"
+          tofile="${project.src.usecases.xml}/${usecase.id}.xml"
+	  filtering="true">
+      <filterset>
+        <filter token="usecase.id" value="${usecase.id}"/>
+        <filter token="usecase.name" value="${usecase.name}"/>
+        <filter token="usecase.date" value="${usecase.TODAY}"/>
+      </filterset>
+    </copy>
+  </target>
+
+  <!-- ================================================= -->
+  <!-- DevGuide Targets -->
+  <!-- ================================================= -->
+  <target name="devguide" depends="init,devguide-prepare,devguide-html"/>
+
+  <target name="devguide-prepare">
+  </target>
+
+  <target name="devguide-html">
+    <style force="yes" style="${project.src.devguide.stylesheets}/fancy.xsl"
+	   extension=".html"
+	   basedir="${project.src.devguide.xml}"
+	   destdir="${project.build.devguide.html}"
+           includes="**/*.xml">
+    </style>
+  </target>
+
+</project>
+
+

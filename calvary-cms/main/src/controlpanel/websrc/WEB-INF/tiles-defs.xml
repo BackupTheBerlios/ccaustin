@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration//EN"
+       "http://jakarta.apache.org/struts/dtds/tiles-config.dtd">
+
+
+<!--
+     The Tiles definition file 
+-->
+
+<tiles-definitions>
+	<definition 
+	    name="masterlayout" 
+	    path="/layouts/masterlayout.jsp">
+	    <put name="body" value=""/>
+	</definition>
+	
+	<definition name="homepage" extends="masterlayout">
+	    <put name="title" value="Control Panel Home"/>
+	    <put name="body" value="/index_tile.jsp"/>
+	</definition>
+
+	<definition name="viewLocks" extends="masterlayout">
+	    <put name="title" value="Manage Locks"/>
+	    <put name="body" value="/locks/locks_tile.jsp"/>
+	</definition>
+
+</tiles-definitions>

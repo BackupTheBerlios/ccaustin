@@ -1,0 +1,74 @@
+/* Background */
+body { background-color: #cccccc }
+
+/* Font selection */
+ul,ol,dt,dl,th,td,h1,h2,h3,h4,p { font-family: Verdana, Arial, Helvetica, sans-serif }
+
+/* Font styles */
+p {  font-size: 10pt}
+
+td { font-size: 12pt }
+th { font-size: 12pt; font-weight: bold}
+
+h1 { font-size: 16pt; font-weight: bold}
+h2 { font-size: 14pt; font-weight: bold}
+h3 { font-size: 12pt; font-weight: bold}
+h4 { font-size: 10pt; font-weight: bold; font-style: italic}
+
+/* Lists */
+ul { font-size: 10pt }
+ol { font-size: 10pt }
+
+dt { font-size: 10pt }
+dl { font-size: 10pt }
+
+/* Classes */
+.mediaobject { border: thin; border-style: solid; margin-right: 100% }
+.programlisting { padding: 1; width: auto; margin: auto; font-family: Courier; border-style: solid; border-width: 1; white-space: pre; background-color: #fffff7 }
+.literallayout { padding: 1; width: auto; margin: auto; border-style: solid; border-width: 1; background-color: #fffff7 }
+.navfooter { font-size: 10pt }
+.sidebar {
+	margin-left: 10px;
+	margin-right: 10px;
+	border-width: 1;
+	padding: 2;
+	margin-bottom : 10px;
+	margin-top : 10px;
+}
+
+/* Custom classes outside of Docbook styles */
+.TitleCell {
+	FONT-WEIGHT: bold; FONT-SIZE: 18pt; TEXT-ALIGN: center
+; background-color: #99CCFF
+}
+.TitleContentCell {
+	BACKGROUND-COLOR: white; TEXT-ALIGN: center
+}
+.TitleLinks {
+	FONT-SIZE: 9pt
+}
+.HeaderCellStyle1 {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: #99CCFF
+}
+.HeaderCellStyle2 {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: #FFFF99
+}
+.HeaderCellStyle3 {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: #ee9977
+}
+.ContentCell {
+	FONT-WEIGHT: normal; BACKGROUND-COLOR: white
+}
+.ContentCellSmall {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND-COLOR: white
+}
+.FileName {
+	FONT-SIZE: 8pt; FONT-FAMILY: "Courier New", monospaced
+}
+.SmallTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt
+}
+.Copyright {
+	FONT-SIZE: 9pt; FONT-STYLE: italic; FONT-FAMILY: serif
+}
+.VersionTitle {  font-size: 16px; font-weight: bold}

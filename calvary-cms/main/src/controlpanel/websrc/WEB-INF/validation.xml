@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    validation.xml defines the global validators that can be used for
+    various form bean fields, and the "form sets" that assign validators
+    to indiv. form bean fields.
+
+    Note that fields can have page numbers and a page number can be passed
+    from the web page as a hidden field to determine which fields of a
+    form bean are validated during a single request. This enables portions
+    of a form bean to be validated in a multi-step wizard approach.
+
+    This file was based on the validation.xml in the examples found in the
+    .zip archive at: http://home.earthlink.net/~dwinterfeldt/overview.html
+
+-->
+
+<form-validation>
+   <!--
+        Form sets are groups of form definitions, which contain the
+        named reference to the form bean and one or more fields and their
+        validation rules.
+   -->
+  <global>
+  </global>
+   <!-- Form Sets  -->
+
+  
+  <formset>
+    <constant name="zip" value="^\d{5}(-\d{4})?$" />
+    <!--<constant name="protocols" value="^http:\/\/"/>-->
+    <constant name="protocols" value="^http:|^https:|^ftp:|^smtp:|^dj:|^extricity:|^celebrate"/>
+    
+    <!-- Login Form 
+    <form name="logonForm">
+      <field property="j_username"
+        depends="required">
+        <arg0 key="logonForm.username.displayname"/>
+      </field>
+      <field property="j_password"
+        depends="required">
+        <arg0 key="logonForm.password.displayname"/>
+      </field>
+    </form>
+    -->
+  </formset>   
+
+</form-validation>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib 
+  PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
+  "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+
+<taglib>
+  
+  <tlibversion>1.0</tlibversion>
+  <jspversion>1.1</jspversion>
+  <shortname>slide-struts</shortname>
+  <uri>http://jakarta.apache.org/slide/tags-struts-1.0</uri>
+  <info>
+    Struts based JSP Tag Library for Jakarta Slide
+  </info>
+  
+  <!-- The 'domain' Tag -->
+  <tag>
+   <name>domain</name>
+   <tagclass>org.apache.slide.taglib.tag.struts.DomainTag</tagclass>
+   <teiclass>org.apache.slide.taglib.tag.struts.DomainTei</teiclass>
+   <bodycontent>JSP</bodycontent>
+   <attribute>
+    <name>id</name>
+    <required>true</required>
+   </attribute>
+  </tag>
+  
+  <!-- The 'namespace' Tag -->
+  <tag>
+   <name>namespace</name>
+   <tagclass>org.apache.slide.taglib.tag.struts.NamespaceTag</tagclass>
+   <teiclass>org.apache.slide.taglib.tag.struts.NamespaceTei</teiclass>
+   <bodycontent>JSP</bodycontent>
+   <attribute>
+    <name>name</name>
+    <required>false</required>
+    <rtexprvalue>true</rtexprvalue>
+   </attribute>
+   <attribute>
+    <name>id</name>
+    <required>false</required>
+    <rtexprvalue>false</rtexprvalue>
+   </attribute>
+  </tag>
+  
+  <!-- The 'node' Tag -->
+  <tag>
+   <name>node</name>
+   <tagclass>org.apache.slide.taglib.tag.struts.NodeTag</tagclass>
+   <teiclass>org.apache.slide.taglib.tag.struts.NodeTei</teiclass>
+   <bodycontent>JSP</bodycontent>
+   <attribute>
+    <name>uri</name>
+    <required>false</required>
+    <rtexprvalue>true</rtexprvalue>
+   </attribute>
+   <attribute>
+    <name>uriName</name>
+    <required>false</required>
+    <rtexprvalue>true</rtexprvalue>
+   </attribute>
+   <attribute>
+    <name>uriProperty</name>
+    <required>false</required>
+    <rtexprvalue>true</rtexprvalue>
+   </attribute>
+   <attribute>
+    <name>uriScope</name>
+    <required>false</required>
+    <rtexprvalue>true</rtexprvalue>
+   </attribute>
+   <attribute>
+    <name>resolveLinks</name>
+    <required>false</required>
+    <rtexprvalue>true</rtexprvalue>
+   </attribute>
+   <attribute>
+    <name>id</name>
+    <required>false</required>
+   </attribute>
+  </tag>
+  
+  <!-- The 'revision' Tag -->
+  <tag>
+   <name>revision</name>
+   <tagclass>org.apache.slide.taglib.tag.struts.RevisionTag</tagclass>
+   <teiclass>org.apache.slide.taglib.tag.struts.RevisionTei</teiclass>
+   <bodycontent>JSP</bodycontent>
+   <attribute>
+    <name>number</name>
+    <required>false</required>
+    <rtexprvalue>true</rtexprvalue>
+   </attribute>
+   <attribute>
+    <name>branch</name>
+    <required>false</required>
+    <rtexprvalue>true</rtexprvalue>
+   </attribute>
+   <attribute>
+    <name>id</name>
+    <required>false</required>
+   </attribute>
+  </tag>
+  
+  <!-- The 'content' Tag -->
+  <tag>
+   <name>content</name>
+   <tagclass>org.apache.slide.taglib.tag.struts.ContentTag</tagclass>
+   <bodycontent>empty</bodycontent>
+   <attribute>
+    <name>id</name>
+    <required>false</required>
+   </attribute>
+   <attribute>
+    <name>idReader</name>
+    <required>false</required>
+   </attribute>
+  </tag>
+  
+  <!-- The 'property' Tag -->
+  <tag>
+   <name>property</name>
+   <tagclass>org.apache.slide.taglib.tag.struts.PropertyTag</tagclass>
+   <teiclass>org.apache.slide.taglib.tag.struts.PropertyTei</teiclass>
+   <bodycontent>JSP</bodycontent>
+   <attribute>
+    <name>namespace</name>
+    <required>false</required>
+    <rtexprvalue>true</rtexprvalue>
+   </attribute>
+   <attribute>
+    <name>name</name>
+    <required>true</required>
+    <rtexprvalue>true</rtexprvalue>
+   </attribute>
+   <attribute>
+    <name>id</name>
+    <required>false</required>
+   </attribute>
+  </tag>
+  
+  <!-- ==================================================================== -->
+  <!-- Iteration Tags                                                       -->
+  <!-- ==================================================================== -->
+  
+  <!-- The 'iterateLocks' Tag -->
+  <tag>
+    <name>iterateLocks</name>
+    <tagclass>org.apache.slide.taglib.tag.struts.IterateLocksTag</tagclass>
+    <teiclass>org.apache.struts.taglib.logic.IterateTei</teiclass>
+    <bodycontent>JSP</bodycontent>
+    <attribute>
+      <name>depth</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>collection</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>id</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>indexId</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>length</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>name</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>offset</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>property</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>scope</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+  
+  <!-- The 'iterateMembers' Tag -->
+  <tag>
+    <name>iterateMembers</name>
+    <tagclass>org.apache.slide.taglib.tag.struts.IterateMembersTag</tagclass>
+    <teiclass>org.apache.struts.taglib.logic.IterateTei</teiclass>
+    <bodycontent>JSP</bodycontent>
+    <attribute>
+      <name>depth</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>excludeTypes</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>includeTypes</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>excludeRoles</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>includeRoles</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>collection</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>id</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>indexId</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>length</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>name</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>offset</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>property</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>scope</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>type</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+  
+</taglib>

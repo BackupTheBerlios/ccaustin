@@ -1,0 +1,203 @@
+$Id: RUNNING.txt,v 1.1 2003/02/12 22:08:36 javajames27 Exp $
+
+===============================================================================
+                               Running Slide 2.0
+===============================================================================
+
+----------------------------------------------------------- Note before reading
+
+* WEB_SERVER: Your web server path to deploy Slide
+
+  - On a Windows platform (It's not an environment variable currently)
+
+    %WEB_SERVER%="C:\Program Files\Apache Tomcat 4.0" (for example, Tomcat 4.0)
+
+* SLIDE_HOME: The path where the Slide binary distribution was installed
+
+
+----------------------------------- Download and install a Java Development Kit
+
+* Download a Java Development Kit (JDK) release (version 1.2 or later) from:
+
+    http://java.sun.com/j2se/
+
+* Install the JDK according to the instructions included with the release
+
+* Set an environment variable JAVA_HOME like:
+
+  - On a Windows platform
+
+    %JAVA_HOME%=C:\java\j2sdk1.4.0
+
+  - On a Unix platform
+
+    JAVA_HOME=/java/j2sdk1.4.0 (for example, when you use ksh)
+    export JAVA_HOME
+
+
+-------------------------------- Download and install Slide binary distribution
+
+* Download a binary distribution of Slide from:
+
+    http://jakarta.apache.org/builds/jakarta-slide
+
+* Set an environment variable SLIDE_HOME like:
+
+  - On a Windows platform
+
+    %SLIDE_HOME%=C:\java\jakarta-slide
+
+  - On a Unix platform
+
+    SLIDE_HOME=/java/jakarta-slide (for example, when you use ksh)
+    export SLIDE_HOME
+
+* Install all jars required for Slide (refer to SLIDE_HOME/lib/README)
+
+
+---------------------------------------------------------------- Start up Slide
+
+* Execute the Slide client (WebDAV client) shell command like:
+
+  - On a Windows platform
+
+    %SLIDE_HOME%\client\bin\run
+
+  - On a Unix platform
+
+    $SLIDE_HOME/client/bin/run.sh
+
+* Deploy the Slide server (WebDAV server) within your web server like:
+
+  1) Common jars like slide-stores.jar, slide-roles.jar, slide-kernel.jar,
+     slide-webdavservlet.jar, commons-dbcp.jar, commons-pool.jar, jta.jar, etc
+
+    - On a Windows platform
+
+      copy %SLIDE_HOME%\slide\lib\*.jar %WEB_SERVER%\common\lib
+
+    - On a Unix platform
+
+      cp $SLIDE_HOME/slide/lib/*.jar $WEB_SERVER/common/lib
+
+  2) Jars for the web server like slide-jmxwrapper.jar and slide-jndiwrapper.jar
+
+    - On a Windows platform
+
+      copy %SLIDE_HOME%\slide\wrappers\*.jar $WEB_SERVER\server\lib
+
+    - On a Unix platform
+
+      cp $SLIDE_HOME/slide/wrappers/*.jar $WEB_SERVER/server/lib
+
+  3) Slide web applications like slide.war, slide-admin.war and slide-doc.war
+
+    - On a Windows platform
+
+      copy %SLIDE_HOME%\slide\webapp\*.war %WEB_SERVER%\webapps
+
+    - On a Unix platform
+
+      cp $SLIDE_HOME/slide/webapp/*.war $WEB_SERVER/webapps
+
+  4) Start and stop your web server to extract the war files
+
+     Or
+     
+     You can unjar the war files with jar like:
+
+     - On a Windows platform
+
+       cd %WEB_SERVER%\webapps
+       mkdir slide (for example, slide.war)
+       move slide.war slide
+       cd slide
+       jar xvf slide.war
+
+     - On a Unix platform
+
+       cd $WEB_SERVER/webapps
+       mkdir slide (for example, slide.war)
+       mv slide.war slide
+       jar xvf slide.war
+
+  5) Edit the WEB_SERVER/webapps/slide/Domain.xml file
+     (Refer to the below, 'Advanced configuration')
+     (Also read SLIDE_HOME/doc/howto-jdbcstore.html)
+
+  6) (You can skip this step and use the Slide server just by default)
+     If you need, edit SLIDE_HOME/slide/slide.properties file and copy it to
+     WEB_SERVER/webapps/slide/WEB-INF/classes/slide.properties
+     (Please, read SLIDE_HOME/doc/conf-lib.html)
+
+  7) Start up your web server
+     (Please, read SLIDE_HOME/doc/howto-tomcat.html)
+
+* Test your basic installation of the Slide server like:
+
+  - Access the HTTP URL probably like:
+
+    http://localhost:8080/slide
+    http://localhost:8080/slide-admin
+    http://localhost:8080/slide-doc
+
+* Test your versioning installation of the Slide server like:
+
+  1) Connect to the Slide server like http://localhost:8080/slide/files
+
+  2) Upload a file
+
+  3) Change the file and upload it again
+
+  4) Go to /history/1 in Slide
+     (There should be a document for each revision you uploaded)
+
+
+--------------------------------------------------- Building from Slide sources
+
+* The Slide installation
+
+  Please, read SLIDE_HOME/README, SLIDE_HOME/lib/README and
+  SLIDE_HOME/doc/installation.html files
+
+ 
+-------------------------------------------------------- Advanced configuration
+
+* Ensuring your Domian.xml for Slide server
+
+  - Check 'init-param' in the file, WEB_SERVER/webapps/slide/WEB-INF/web.xml
+
+    <web-app>
+        <servlet>
+            .
+            .
+            .
+            <servlet-class>org.apache.slide.webdav.WebdavServlet</servlet-class>
+            <init-param>
+                <param-name>domain</param-name>
+                <param-value>/Domain.xml</param-value>
+            </init-param>
+            .
+            .
+            .
+
+* Setting your Slide server auto-versioning control by a PUT method
+  - Edit the WEB_SERVER/webapps/slide/Domain.xml file and set the
+    auto-version-control parameter to 'true'
+
+* Turning the Slide security on and off for Slide server
+
+  - Set the flag as true or false of 'org.apache.slide.security' in the file,
+    WEB_SERVER/webapps/slide/WEB-INF/classes/slide.properties
+
+* Setting the default URL encoding for Slide server
+
+  - Set the value for 'org.apache.slide.urlEncoding' in the file,
+    WEB_SERVER/webapps/slide/WEB-INF/classes/slide.properties
+
+
+--------------------------------------------------------------- Troubleshooting
+
+* When you have some problems with character encoding or multi-byte characters
+  for the Slide server side, you can set the default URL encoding to UTF-8.
+

@@ -1,0 +1,71 @@
+
+<!DOCTYPE webdav-1.0 [
+
+        <!--============ XML Elements from Section 12 ==================-->
+
+        <!ELEMENT activelock (lockscope, locktype, depth, owner?, timeout?,
+        locktoken?) >
+
+        <!ELEMENT lockentry (lockscope, locktype) >
+        <!ELEMENT lockinfo (lockscope, locktype, owner?) >
+
+        <!ELEMENT locktype (write) >
+        <!ELEMENT write EMPTY >
+
+        <!ELEMENT lockscope (exclusive | shared) >
+        <!ELEMENT exclusive EMPTY >
+        <!ELEMENT shared EMPTY >
+
+        <!ELEMENT depth (#PCDATA) >
+
+        <!ELEMENT owner ANY >
+
+        <!ELEMENT timeout (#PCDATA) >
+
+        <!ELEMENT locktoken (href+) >
+
+        <!ELEMENT href (#PCDATA) >
+
+        <!ELEMENT link (src+, dst+) >
+        <!ELEMENT dst (#PCDATA) >
+        <!ELEMENT src (#PCDATA) >
+
+        <!ELEMENT multistatus (response+, responsedescription?) >
+
+        <!ELEMENT response (href, ((href*, status)|(propstat+)),
+        responsedescription?) >
+        <!ELEMENT status (#PCDATA) >
+        <!ELEMENT propstat (prop, status, responsedescription?) >
+        <!ELEMENT responsedescription (#PCDATA) >
+
+        <!ELEMENT prop ANY >
+
+        <!ELEMENT propertybehavior (omit | keepalive) >
+        <!ELEMENT omit EMPTY >
+
+        <!ELEMENT keepalive (#PCDATA | href+) >
+
+        <!ELEMENT propertyupdate (remove | set)+ >
+        <!ELEMENT remove (prop) >
+        <!ELEMENT set (prop) >
+
+        <!ELEMENT propfind (allprop | propname | prop) >
+        <!ELEMENT allprop EMPTY >
+        <!ELEMENT propname EMPTY >
+
+        <!ELEMENT collection EMPTY >
+
+        <!--=========== Property Elements from Section 13 ===============-->
+        <!ELEMENT creationdate (#PCDATA) >
+        <!ELEMENT displayname (#PCDATA) >
+        <!ELEMENT getcontentlanguage (#PCDATA) >
+        <!ELEMENT getcontentlength (#PCDATA) >
+        <!ELEMENT getcontenttype (#PCDATA) >
+        <!ELEMENT getetag (#PCDATA) >
+        <!ELEMENT getlastmodified (#PCDATA) >
+        <!ELEMENT lockdiscovery (activelock)* >
+        <!ELEMENT resourcetype ANY >
+        <!ELEMENT source (link)* >
+        <!ELEMENT supportedlock (lockentry)* >
+
+]>

@@ -1,0 +1,15 @@
+org.apache.slide.authenticate
+org.apache.slide.common
+org.apache.slide.content
+org.apache.slide.lock
+org.apache.slide.macro
+org.apache.slide.search
+org.apache.slide.search.basic
+org.apache.slide.search.basic.expression
+org.apache.slide.security
+org.apache.slide.store
+org.apache.slide.structure
+org.apache.slide.transaction
+org.apache.slide.util
+org.apache.slide.util.conf
+org.apache.slide.util.logger

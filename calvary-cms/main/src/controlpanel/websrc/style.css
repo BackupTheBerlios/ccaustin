@@ -1,0 +1,270 @@
+body {
+	background-color: #999999;
+	color: #000000;
+	font-family: sans-serif;
+	font-size: 10pt;
+	margin: 0px;
+	padding: 0px;
+}
+
+.c1
+{
+    border-top: black thin;
+    font-weight: bolder;
+    font-size: 25pt;
+    color: white;
+    font-family: 'times new roman', arial;
+    background-color: #ffcc00
+}
+.c2
+{
+    background-color: black
+}
+.c3
+{
+    border-right: black thin solid;
+    border-top: black thin solid;
+    font-size: 12pt;
+    text-transform: none;
+    border-left: black thin solid;
+    color: #003366;
+    border-bottom: black thin solid;
+    background-color: white;
+    font-variant: normal
+}
+.c4
+{
+    background-color: white
+}
+.c6
+{
+    border-right: medium none;
+    border-top: medium none;
+    border-left: medium none;
+    border-bottom: medium none;
+    background-color: #ffffff
+}
+.l1a
+{
+    border-right: #ffffff 1px;
+    border-top: #ffffff 1px;
+    font-size: 10pt;
+    border-left: #ffffff 1px;
+    color: gray;
+    border-bottom: #ffffff 1px;
+    font-family: arial;
+    background-color: white;
+    text-align: left;
+    text-decoration: none
+}
+.l1b
+{
+    border-right: #ffffff 1px;
+    border-top: #ffffff 1px;
+    font-size: 10pt;
+    border-left: #ffffff 1px;
+    color: black;
+    border-bottom: #ffffff 1px;
+    font-family: arial;
+    background-color: gold;
+    text-align: left;
+    text-decoration: none
+}
+a.l2:hover
+{
+    font-size: 10pt;
+    color: #e3d266;
+    font-family: verdana, arial;
+    text-decoration: none
+}
+a.l2
+{
+    font-size: 10pt;
+    color: white;
+    font-family: verdana, arial;
+    text-decoration: none
+}
+.h3
+{
+    font-weight: bold;
+    font-size: 20pt;
+    color: black;
+    font-family: arial, 'verdana ref', verdana
+}
+.h1
+{
+    font-size: 25pt;
+    color: black;
+    font-family: 'times new roman', arial
+}
+.h2
+{
+    font-size: 8pt;
+    color: black;
+    font-family: verdana, arial
+}
+a.l3:hover
+{
+    font-size: 10pt;
+    color: #3399ff;
+    font-family: arial, verdana
+}
+a.l3
+{
+    font-size: 10pt;
+    color: blue;
+    font-family: arial, verdana
+}
+.normal
+{
+    font-weight: normal;
+    font-size: 10pt;
+    color: gray;
+    font-family: 'verdana ref', verdana
+}
+.h4
+{
+    font-weight: bold;
+    font-size: 12pt;
+    color: black;
+    font-family: 'times new roman', arial, verdana
+}
+a.l4:hover
+{
+    font-weight: bold;
+    font-size: 12pt;
+    color: white;
+    font-family: 'times new roman';
+    text-decoration: none
+}
+a.l4
+{
+    font-weight: bold;
+    font-size: 12pt;
+    text-transform: none;
+    color: gainsboro;
+    font-family: 'times new roman';
+    text-decoration: none
+}
+
+
+.headline {
+	font-family: sans-serif;
+	margin: 0cm;
+}
+
+.panel {
+	background-color: #023264;
+	border-style: none;
+	border-width: 0px;
+	padding: 0.25cm;
+	vertical-align: top;
+}
+.panelMenu {
+	list-style: none;
+	margin: 0cm;
+	margin-top: 0.25cm;
+	padding: 0cm;
+}
+.panelMenuItem {
+	color: #cccccc;
+	font-family: sans-serif;
+	font-size: 9pt;
+	margin: 5px;
+	padding: 1px;
+	text-decoration: none;
+}
+.panelMenuItem a {
+	color: #cccccc;
+	font-family: sans-serif;
+	font-size: 9pt;
+	margin: 5px;
+	padding: 1px;
+	text-decoration: none;
+}
+.panelMenuItem a:hover {
+	background-color: #cccccc;
+	color: #023264;
+	font-family: sans-serif;
+	font-size: 9pt;
+	text-decoration: none;
+}
+
+.contentarea {
+	background-color: #ffffff;
+	vertical-align: top;
+}
+.content {
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 9pt;
+	padding: 0.25cm;
+	vertical-align: top;
+}
+.contentText {
+	color: #000000;
+	font-family: sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	text-align: justify;
+}
+
+.list {
+	background-color: #ffffee;
+	border-color: #dddddd;
+	border-width: 0px;
+	font-family: sans-serif;
+	font-size: 9pt;
+	padding: 0cm;
+}
+.listAction {
+	font-family: sans-serif;
+	font-size: 10pt;
+	margin: 5px;
+	padding: 5px;
+}
+.listAction:hover {
+	font-family: sans-serif;
+	font-size: 10pt;
+	margin: 5px;
+	padding: 5px;
+}
+.listHeader {
+	background-color: #dddddd;
+	border-color: #dddddd;
+	border-width: 1px;
+	border-style: outset;
+	color: #555555;
+	font-family: sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+	font-style: italic;
+	padding: 0.1cm;
+}
+.listCell {
+	font-family: sans-serif;
+	font-size: 9pt;
+	padding: 5px;
+}
+
+.dialog {
+	background-color: #dddddd;
+	border-color: #dddddd;
+	border-width: 1px;
+	border-style: outset;
+	font-family: sans-serif;
+	font-size: 9pt;
+	padding: 0.25cm;
+}
+.dialogLabel {
+	color: #555576;
+	font-family: sans-serif;
+	font-size: 9pt;
+}
+
+.error {
+	color: red;
+	font-family: sans-serif;
+	font-size: 9pt;
+}
