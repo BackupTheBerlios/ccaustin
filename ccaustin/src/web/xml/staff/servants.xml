@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+
+	Master list of the servants at Calvary Chapel Austin
+	
+	Biographies can be found if you append -bio to the id of the servant. For example:
+	
+	allen-bio.xml - the biography for Pastor Allen
+	
+	$Id: servants.xml,v 1.1 2002/04/13 21:57:57 javajames27 Exp $
+		
+-->
+<content title="Servants" base=".">
+	<servant id="allen">
+	     <fullname>Pastor Allen</fullname>
+		<first-name>Allen</first-name>
+		<last-name>Rigg</last-name>
+		<thumbnail href="../images/staff/allenthum.jpg"/>
+		<small-photo href="../images/staff/allenweb.jpg"/>
+		<large-photo href="../images/staff/allenweb.jpg"/>
+		<role staff="true" ministry="church" title="Senior Pastor"/>
+	</servant>
+	<servant id="jean">
+		<fullname>Jean Janes</fullname>
+		<first-name>Jean</first-name>
+		<last-name>Janes</last-name>
+		<thumbnail href="../images/staff/jeanthum.jpg"/>
+		<small-photo href="../images/staff/jeanweb.jpg"/>
+		<large-photo href="../images/staff/jeanweb.jpg"/>
+		<role staff="true" ministry="church" title="Secretary"/>
+	</servant>
+	<servant id="donna">
+		<fullname>Donna Cano</fullname>
+		<first-name>Donna</first-name>
+		<last-name>Cano</last-name>
+		<thumbnail href="../images/staff/donnathum.jpg"/>
+		<small-photo href="../images/staff/donnaweb.jpg"/>
+		<large-photo href="../images/staff/donnaweb.jpg"/>
+		<role staff="true" ministry="ydc" title="Children's Ministry Director"/>
+	</servant>
+	<servant id="david">
+		<fullname>David Reynolds</fullname>
+		<first-name>David</first-name>
+		<last-name>Reynolds</last-name>
+		<thumbnail href="../images/staff/davidthum.jpg"/>
+		<small-photo href="../images/staff/davidweb.jpg"/>
+		<large-photo href="../images/staff/davidweb.jpg"/>
+		<role staff="true" ministry="worship" title="Worship Leader"/>
+	</servant>
+	<servant id="bunjee">
+		<fullname>Bunjee Garrett</fullname>
+		<first-name>Bunjee</first-name>
+		<last-name>Garrett</last-name>
+		<thumbnail href="../images/staff/bunjeethum.jpg"/>
+		<small-photo href="../images/staff/bunjeeweb.jpg"/>
+		<large-photo href="../images/staff/bunjeeweb.jpg"/>
+		<role staff="true" ministry="frontline" title="College and Career Pastor"/>
+	</servant>
+	<servant id="john">
+		<fullname>John Newberry</fullname>
+		<first-name>John</first-name>
+		<last-name>Newberry</last-name>
+		<thumbnail href="../images/staff/johnthum.jpg"/>
+		<small-photo href="../images/staff/johnweb.jpg"/>
+		<large-photo href="../images/staff/johnweb.jpg"/>
+		<role staff="true" ministry="youth" title="High School Pastor"/>
+	</servant>
+	<servant id="glendon">
+		<fullname>Glendon Nicks</fullname>
+		<first-name>Glendon</first-name>
+		<last-name>Nicks</last-name>
+		<thumbnail href="../images/staff/glendonthum.jpg"/>
+		<small-photo href="../images/staff/glendonweb.jpg"/>
+		<large-photo href="../images/staff/glendonweb.jpg"/>
+		<role staff="true" ministry="church" title="Assisting Pastor"/>
+	</servant>
+</content>

@@ -81,7 +81,8 @@ function	buildMenus()
   menuAbout.addMenuItem( "Our Vision",            "location='../about/vision.html'"    );
   menuAbout.addMenuItem( "We Believe",            "location='../about/beliefs.html'"    );
   menuAbout.addMenuItem( "History",               "location='../about/history.html'"    );
-  menuAbout.addMenuItem( menuStaff );
+  menuAbout.addMenuItem( "Meet the Staff",               "location='../about/staff.html'"    );
+  //menuAbout.addMenuItem( menuStaff );
   menuAbout.disableDrag = true;
   menuAbout.fontFamily = "verdana,arial,helvetica,sans-serif";
   menuAbout.fontColor = "#2d476f";

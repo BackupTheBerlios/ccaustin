@@ -17,6 +17,7 @@
 	<property name="src.css.dir" value="${src.web.dir}/css"/>
 	<property name="build.dir" value="${home}/build"/>
 	<property name="build.web.dir" value="${build.dir}/docs"/>
+	<property name="build.tmpgen.dir" value="${build.dir}/_tmpgen"/>
 	<!-- Give user a chance to override without editing this file 
        (and without typing -D each time it compiles it -->
 	<property file="${home}/.ant.properties"/>
@@ -27,6 +28,7 @@
 	<target name="clean" description="Removes all build and deploy output.">
 		<echo message="...........Cleaning project directories..........."/>
 		<delete dir="${build.dir}"/>
+		<delete dir="${build.tmpgen.dir}"/>
 	</target>
 	<!-- =================================================================== -->
 	<!-- =================================================================== -->
@@ -81,7 +83,7 @@
 		<style force="yes" style="${src.xml.dir}/about/beliefs.xsl" in="${src.xml.dir}/about/beliefs.xml" out="${build.web.dir}/about/beliefs.html"/>
 		<style force="yes" style="${src.xml.dir}/about/history.xsl" in="${src.xml.dir}/about/history.xml" out="${build.web.dir}/about/history.html"/>
 		<style force="yes" style="${src.xml.dir}/about/vision.xsl" in="${src.xml.dir}/about/vision.xml" out="${build.web.dir}/about/vision.html"/>
-		<style force="yes" style="${src.xml.dir}/about/staff.xsl" in="${src.xml.dir}/about/staff.xml" out="${build.web.dir}/about/staff.html"/>
+		<!-- style force="yes" style="${src.xml.dir}/about/staff.xsl" in="${src.xml.dir}/about/staff.xml" out="${build.web.dir}/about/staff.html"/ -->
 		<!-- style style="${src.xml.dir}/about/staff-detail.xsl" in="${src.xml.dir}/about/staff.xml" out="${build.web.dir}/about/staff-detail.html"/ -->
 		<style force="yes" style="${src.xml.dir}/staff/allen.xsl" in="${src.xml.dir}/staff/allen.xml" out="${build.web.dir}/staff/allen.html"/>
 	</target>
@@ -154,6 +156,11 @@
                 <style force="yes" style="${src.xml.dir}/media/continuum.xsl" in="${src.xml.dir}/media/continuum.xml" out="${build.web.dir}/continuum.html"/> <!-- redirect for older pages -->
         </target>
 
+        <!-- Creates the staff section of the web site                         -->
+	<target name="web-staff" depends="checkoptions" description="Creates the staff section of the site">
+                <style force="yes" style="${src.xml.dir}/staff/gen-staff.xsl" in="${src.xml.dir}/staff/servants.xml" out="${build.tmpgen.dir}/_staff.xml"/> 
+                <style force="yes" style="${src.xml.dir}/staff/staff.xsl" in="${build.tmpgen.dir}/_staff.xml" out="${build.web.dir}/about/staff.html"/> 
+	</target>
 	<!-- =================================================================== -->
 	<!-- =================================================================== -->
     <target name="deploy" depends="checkoptions" description="Deploys the docs to the deploy.dir location">
