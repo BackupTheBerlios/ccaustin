@@ -3,7 +3,7 @@
 
 	Marriage Ministry - The ministry and its detail
 	
-	$Id: marriage.xml,v 1.6 2003/11/26 18:18:09 gregk Exp $
+	$Id: marriage.xml,v 1.7 2003/12/05 16:14:00 gregk Exp $
 		
 -->
 <content title="Marriage Ministry">
@@ -32,6 +32,7 @@
       <p><link href="http://www.familylife.com/1-800-358-6329/detail.asp?id=7785">Raising Children of Faith - 7 week series</link></p>
       <p><link href="http://www.familylife.com/1-800-358-6329/detail.asp?id=6582">Making Your Remarriage Last - 6 week series</link></p>
       <p><link href="http://www.familylife.com/1-800-358-6329/detail.asp?desc=Overcoming+Stress+In+Your+Marriage&amp;cat=HomeBuilders+Couples+Series&amp;subcat=Studies+in+the+Series">Overcoming Stress in Your Marriage - 7 week series</link></p>
+      <p><link href="http://www.familylife.com/1-800-358-6329/detail.asp?desc=Mastering+Money+in+Your+Marriage&amp;cat=HomeBuilders+Couples+Series&amp;subcat=Studies+in+the+Series">Mastering Money in Your Marriage - 6 week series</link></p>
       <p>Note:  Registration is open November 23rd to December 21st at the Event Center. Cost is $16-$20 per couple. Spaces are limited.</p>
     </long-description>
     <contacts>
