@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.65 2003/07/30 00:20:10 gregk Exp $
+	$Id: calendar.xml,v 1.66 2003/08/03 04:30:11 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -127,6 +127,14 @@
 		<detail>Young Disciples club is a discipleship club for Wise Guys, Witnesses and Watchmen -- boys and girls Kindergarten through Fifth grade. There is worship, Bible teaching, game and group times each Wednesday enening at 7PM.</detail>
 		<ministries>
 			<ministry id="children"/>
+		</ministries>
+    </event>
+    <event id="08008" date="20030806" showOnHomepage="false">
+		<date>Aug 6th</date>
+	 <title>Coffee Creator Music for August</title>
+	 <detail>Daniel Baker : Acoustic Guitar and Stand up Bass</detail>
+		<ministries>
+			<ministry id="coffee"/>
 		</ministries>
     </event>
 		<!--
