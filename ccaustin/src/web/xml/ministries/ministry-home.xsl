@@ -6,7 +6,7 @@
 	
 	Processes the ministry tag and its children tags
 	
-	$Id: ministry-home.xsl,v 1.7 2002/05/24 01:08:16 javajames27 Exp $
+	$Id: ministry-home.xsl,v 1.8 2002/05/26 03:35:25 javajames27 Exp $
 	
 -->	
 
@@ -78,6 +78,7 @@
 </xsl:template>
 
 <xsl:template match="contacts">
+	<xsl:if test="count(document('../calendar/calendar.xml')/content/calendar/event/ministries/ministry[@id=$ministryid]) > 0">
 		<tr>
 			<td width="100%" class="tableheader" align="left" valign="top" nowrap="true">On the Horizon...</td>
 		</tr>
@@ -102,6 +103,8 @@
 			<td width="100%" class="tablecell" align="left" valign="top" nowrap="true"><br/>
 			</td>
 		</tr>
+		
+		</xsl:if>
 		<tr>
 			<td width="100%" class="tableheader" align="left" valign="top" nowrap="true">For More Information</td>
 		</tr>
