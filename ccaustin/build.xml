@@ -45,6 +45,7 @@
 		<antcall target="web-calendar"/>
 		<antcall target="web-messages"/>
 		<antcall target="web-ministries"/>
+		<antcall target="web-homepage"/>
 		<antcall target="copy-files"/>
 	</target>
 	
