@@ -81,7 +81,7 @@
 <xsl:for-each select="servant">
 <xsl:if test="position() mod 4 =2">
 <xsl:variable name="curr" select="position()"/>
-<xsl:variable name="total" select="9"/>
+<xsl:variable name="total" select="7"/>
 <tr>
  <td colspan="1" width="25%" class="textsubtitle" align="center">
                         <!--xsl:value-of select="$curr"/-->
