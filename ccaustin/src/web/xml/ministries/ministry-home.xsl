@@ -6,7 +6,7 @@
 	
 	Processes the ministry tag and its children tags
 	
-	$Id: ministry-home.xsl,v 1.6 2002/05/23 00:40:47 javajames27 Exp $
+	$Id: ministry-home.xsl,v 1.7 2002/05/24 01:08:16 javajames27 Exp $
 	
 -->	
 
@@ -18,8 +18,10 @@
 <xsl:include href="../general-ui.xsl"/>
 <xsl:include href="../general-html.xsl"/>
 
+<xsl:variable name="ministryid"><xsl:value-of select="content/ministry/@id"/></xsl:variable>
+
 <xsl:template match="ministry">
-	<table border="0" cellspacing="0" width="100%">
+	<table border="0" cellpadding="0" width="100%">
 		<xsl:apply-templates/>
 	</table>
 </xsl:template>
@@ -77,6 +79,30 @@
 
 <xsl:template match="contacts">
 		<tr>
+			<td width="100%" class="tableheader" align="left" valign="top" nowrap="true">On the Horizon...</td>
+		</tr>
+
+		<tr>
+			<td width="100%" class="tablecell" align="left" valign="top" nowrap="true"><br/></td>
+		</tr>
+
+		<tr>
+			<td width="100%" class="tablecell" align="left" valign="top" nowrap="true">Here are some upcoming events...</td>
+		</tr>
+
+		<tr>
+			<td width="100%" class="tablecell" align="left" valign="top" nowrap="true"><br/></td>
+		</tr>
+
+		<xsl:for-each select="document('../calendar/calendar.xml')/content/calendar/event/ministries/ministry[@id=$ministryid]">
+			<xsl:call-template name="event"/>
+		</xsl:for-each>		
+		
+		<tr>
+			<td width="100%" class="tablecell" align="left" valign="top" nowrap="true"><br/>
+			</td>
+		</tr>
+		<tr>
 			<td width="100%" class="tableheader" align="left" valign="top" nowrap="true">For More Information</td>
 		</tr>
 		<xsl:apply-templates select="contact-email"/>
@@ -114,6 +140,39 @@
                        </a>
 				</td>
 			</tr>
+</xsl:template>
+
+<xsl:template name="event">
+		<tr>
+			<td>
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="25%" class="tableheader" align="left" valign="top" nowrap="true"><xsl:value-of select="../../date"/></td>
+					<td width="65%" class="tableheader" align="left" valign="top" nowrap="true" colspan="2"><xsl:value-of select="../../title"/></td>
+					<td width="10%" class="tableheader" align="left" valign="top" nowrap="true" colspan="2"><br/></td>
+				</tr>
+				<tr>
+					<td width="25%" align="left" valign="top"><xsl:value-of select="../../time"/></td>
+					<td width="75%" align="left" valign="top" colspan="2">
+						<xsl:choose>
+							<xsl:when test="../../location != '' ">
+				  			  Location: <xsl:value-of select="../../location"/>
+							</xsl:when>
+							<xsl:otherwise>
+							   <br/>
+							</xsl:otherwise>
+						</xsl:choose>
+				     </td>
+				</tr>
+				<tr>
+					<td width="25%" align="left" valign="top"><br/></td>
+					<td width="75%" align="left" valign="top" colspan="2"><span class="detail"><xsl:value-of select="../../detail"/></span></td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+		
+		
 </xsl:template>
 
 </xsl:stylesheet>

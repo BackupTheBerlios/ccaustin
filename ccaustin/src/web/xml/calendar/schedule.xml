@@ -3,13 +3,13 @@
 
 	Weekly/Monthyl Reoccuring Calendar Events Content
 	
-	$Id: schedule.xml,v 1.5 2002/05/23 18:11:47 javajames27 Exp $
+	$Id: schedule.xml,v 1.6 2002/05/24 01:08:16 javajames27 Exp $
 		
 -->
 <content title="Weekly &amp; Monthly Events">
 	<intro>
 		
-			<p>This is the general weekly schedule for Calvary Chapel of Austin. Check the <link href="../calendar/events.html">calendar</link> for details.</p>
+			<p>This is the general weekly schedule for Calvary Chapel of Austin. Check the <link href="../calendar/calendar.html">calendar</link> for details.</p>
 		
 	</intro>
 	<events>
