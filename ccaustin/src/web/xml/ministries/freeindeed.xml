@@ -3,13 +3,13 @@
 
         Free Indeed (Addictions) Ministry  - The ministry and its detail 
         
-	   $Id: freeindeed.xml,v 1.12 2004/08/15 02:19:41 tie Exp $ 
+	   $Id: freeindeed.xml,v 1.13 2004/08/16 03:51:58 tie Exp $ 
                 
 --> 
 <content title="Free Indeed"> 
         <ministry id="freeindeed"> 
                 <name>Free Indeed (Addictions) Ministry</name> 
-                <overview>Our purpose: The puprose of Calvary Free Indeed is to honor and glorify God through our outreach to the church and community. We want to provide hope and freedom to those that are struggling with habitual sin (substance abuse, pornography, overeating, smoking, sexual impurity) and give them an understanding of the foundational truths that God has given us that are the means to being free from addictions.</overview>
+                <overview>Our Purpose: The purpose of Calvary Free Indeed is to honor and glorify God through our outreach to the church and community. We want to provide hope and freedom to those that are struggling with habitual sin (substance abuse, pornography, overeating, smoking, sexual impurity) and give them an understanding of the foundational truths that God has given us that are the means to being free from addictions.</overview>
 
                 <long-description> 
                         <p><strong>"So if the Son sets you free, you will be free indeed." -- John 8:36</strong></p> 
