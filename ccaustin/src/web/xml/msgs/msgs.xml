@@ -4609,11 +4609,36 @@
 		<passageref></passageref>
 	</message>
 	<message date="20030201" service="other" category="topical series">
+		<seriestitle>Worship Conference 2003 - Devotion</seriestitle>
+		<title>Devotion</title>
+		<passage></passage>
+		<tape></tape>
+		<audio>worship2003/devotion.ram</audio>
+		<passageref></passageref>
+	</message>
+
+	<message date="20030201" service="other" category="topical series">
 		<seriestitle>Worship Conference 2003 - Session I</seriestitle>
 		<title>Holland Davis - The God Who Sees</title>
 		<passage></passage>
 		<tape></tape>
 		<audio>worship2003/hdavisone.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="20030201" service="other" category="topical series">
+		<seriestitle>Worship Conference 2003 - Session II</seriestitle>
+		<title>Ron Hindt - Godly Glimpses of a Worship Leader</title>
+		<passage></passage>
+		<tape></tape>
+		<audio>worship2003/rhindt.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="20030201" service="other" category="topical series">
+		<seriestitle>Worship Conference 2003 - Session III</seriestitle>
+		<title>Allen Rigg - The Battle of the Bands</title>
+		<passage></passage>
+		<tape></tape>
+		<audio>worship2003/arigg.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="20030201" service="other" category="topical series">
@@ -4624,6 +4649,15 @@
 		<audio>worship2003/hdavisfour.ram</audio>
 		<passageref></passageref>
 	</message>
+	<message date="20030201" service="other" category="topical series">
+		<seriestitle>Worship Conference 2003 - Session V</seriestitle>
+		<title>Holland Davis - Six Qualities of a Great Worship Team</title>
+		<passage></passage>
+		<tape></tape>
+		<audio>worship2003/hdavisfive.ram</audio>
+		<passageref></passageref>
+	</message>
+
 	<message date="20021017" service="other" category="topical series">
 		<seriestitle>Pastor's Conference 2002</seriestitle>
 		<title>Sandy Adams - Session I - Job for the job</title>
@@ -4969,6 +5003,14 @@
 		<passage></passage>
 		<tape>GS032021</tape>
 		<audio>guestspeaker/rhindt32001.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="20030601" service="sunday" category="misc">
+		<seriestitle>Guest Speaker</seriestitle>
+		<title>Lange, Paul - June 2003</title>
+		<passage></passage>
+		<tape>GS060103</tape>
+		<audio>guestspeaker/plange0603.ram</audio>
 		<passageref></passageref>
 	</message>
 	<message date="20000500" service="sunday" category="misc">
