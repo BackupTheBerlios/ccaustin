@@ -4004,6 +4004,15 @@
 <audio>guestspeaker/rparrish020205.wma</audio> 
 <passageref></passageref> 
 </message>
+<message date="20050209" service="midweek" category="overview"> 
+<seriestitle>Genesis</seriestitle> 
+<title></title> 
+<passage>Genesis 7-8</passage> 
+<tape>BO2004</tape> 
+<audio>bibleoverview/01-gen-07.wma</audio> 
+<passageref>http://www.blueletterbible.org/kjv/Gen/Gen007.html#top</passageref> 
+</message>
+
 
 <message date="20041013" service="midweek" category="misc">
 <seriestitle>Guest Speaker</seriestitle>
