@@ -2,7 +2,7 @@
 <!--
 	Donna Cano Bio - Part of the Staff Bios
 
-	$Id: mike.xml,v 1.2 2004/07/08 01:15:17 premav Exp $
+	$Id: mike.xml,v 1.3 2004/07/08 02:06:45 premav Exp $
 
 -->
 
@@ -10,9 +10,7 @@
 <heading>Meet Mike Hardcastle</heading>
 <br></br>
 <br></br>
-<br></br>
-<br></br>
-<img src="../images/staff/mikeweb.xml" alt="Mike Hardcastle"/>
+<img src="../images/staff/mikeweb.jpg" alt="Mike Hardcastle"/>
 <heading>Spouse</heading>
 <p>Elizabeth</p>
 
