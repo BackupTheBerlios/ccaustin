@@ -3,7 +3,7 @@
 
 	Contact information for the church
 	
-	$Id: contact.xml,v 1.6 2004/03/01 18:08:09 gregk Exp $
+	$Id: contact.xml,v 1.7 2004/06/07 15:17:16 tie Exp $
 		
 -->
 <content title="Contact/Map">
@@ -13,7 +13,7 @@
 		<address2>9414 Parkfield</address2>
 		<address3>Austin, Texas 78758</address3>
 	   </address>
-	   <office-hours>Mon - Tues, Thur - Fri, 8:00 AM - 5:00 PM, Wed, 10:00 AM - 6:00 PM</office-hours>
+	   <office-hours>Mon-Tues-Thur: 8:00 AM - 5:00 PM; Wed: 10:00 AM - 6:00 PM; Fri: 8:00 AM-3:00 PM</office-hours>
 	   <phone>512.719.4667</phone>
 	   <fax>512.719.3177</fax>
 	   <email>info@calvaryaustin.org</email>
