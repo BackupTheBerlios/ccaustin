@@ -14,7 +14,7 @@
 	When a new tag is needed, consider using its HTML equivalent if its name and format is common english. 
 	(e.g. <a/> is not really anything meaningful for the average person, but <link/> is)
 	
-	$Id: html.xsl,v 1.4 2003/05/27 20:41:20 javajames27 Exp $
+	$Id: html.xsl,v 1.5 2003/09/12 19:14:41 javajames27 Exp $
 -->
 
 
@@ -314,7 +314,7 @@
 	Processes Subtags: Yes
 -->
 <xsl:template match="strong">
-	<div class="textbold"><xsl:apply-templates select="text()"/></div>
+	<b><xsl:apply-templates select="text()"/></b>
 </xsl:template>
 
 <!--
