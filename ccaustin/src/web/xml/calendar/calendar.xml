@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.84 2003/11/22 14:15:14 gregk Exp $
+	$Id: calendar.xml,v 1.85 2003/11/24 06:23:41 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -335,10 +335,20 @@ need for Praying Leaders.</detail>
     <event id="12002" date="20031224" showOnHomepage="true">
 	 <title>Christmas Eve Service</title>
 		<date>Dec 24th</date>
+                <detail>Service starts at 7:00 pm. All children are welcome in the Auditorium. Childcare will not be provided.</detail>
     </event>
     <event id="12003" date="20031203" showOnHomepage="true">
 	 <title>Communion</title>
 		<date>Dec 3rd</date>
+    </event>
+    <event id="12004" date="20031226" showOnHomepage="true">
+			<title>Christmas Schedule Changes</title>
+			<detail>Offices will be closed December 25th and 26th.</detail>
+    </event>
+    <event id="12005" date="20031231" showOnHomepage="true">
+	 <title>New Years Eve Service</title>
+		<date>Dec 31st</date>
+                <detail>Service starts at 7:00 pm. Childcare will be provided.</detail>
     </event>
 
 		<!--
@@ -355,6 +365,10 @@ need for Praying Leaders.</detail>
 	 <title>Childrens' Ministry Training Saturday Morning</title>
 		<date>Jan 24 2004</date>
                 <detail>All people who serve the kids come out for a great time of fun, fellowhip and very important training to develop hands-on skills and get great ideas to enhance the classroom environment.</detail>
+    </event>
+    <event id="01002" date="20040102" showOnHomepage="true">
+			<title>New Years Schedule Changes</title>
+			<detail>Offices will be closed January 1st and 2nd.</detail>
     </event>
 		<!--
     ===============
