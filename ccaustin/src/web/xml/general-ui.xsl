@@ -13,7 +13,7 @@
 	A variant of this file may offer more search engine or accessibility-friendly
 	navigation and less Javascript features for older browsers. 
 	
-	$Id: general-ui.xsl,v 1.11 2002/06/27 03:08:11 javajames27 Exp $
+	$Id: general-ui.xsl,v 1.12 2002/06/27 03:32:54 javajames27 Exp $
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html" indent="yes" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"/>
@@ -56,24 +56,24 @@
 					The entire page is enclosed in a table that forces the
 					width to 800.
 				-->
-				<table border="0" cellspacing="0" cellpadding="0" width="800">
+				<table border="0" cellspacing="0" cellpadding="0" width="100%">
 				  <tr> 
 				    <td background="../images/homepage/sidebar_gold.jpg" valign="top" width="131"><a href="../homepage/index.html"><img src="../images/homepage/cal_logo.jpg" border="0" width="131" height="84"/></a></td>
 				    <td valign="top" width="99%"><a href="../homepage/index.html"><img src="../images/homepage/cal_austin.jpg" border="0" width="145" height="65"/></a> 
 				      <!-- navigation -->
-				      <table border="0" cellspacing="0" cellpadding="0">
+				      <table border="0" cellspacing="0" cellpadding="0" width="100%">
 				        <tr> 
-				          <td><a onmouseover="MM_showMenu(window.mm_menu_0610133358_0,0,17,null,'about_us');" onmouseout="MM_startTimeout();" href="../about/about.html">
-<img name="about_us" src="../images/homepage/about_us.jpg" border="0" width="72" height="19"/></a></td>
-				          <td><a onmouseover="MM_showMenu(window.mm_menu_0610133533_1,0,17,null,'whats_new');" onmouseout="MM_startTimeout();" href="../news/whatsnew.html">
-<img name="whats_new" src="../images/homepage/whats_new.jpg" border="0" width="83" height="19"/></a></td>
-				          <td><a onmouseover="MM_showMenu(window.mm_menu_0610133621_2,0,17,null,'events');" onmouseout="MM_startTimeout();" href="../calendar/calendar.html">
-<img name="events" src="../images/homepage/events.jpg"  border="0" width="46" height="19"/></a></td>
-				          <td><a onmouseover="MM_showMenu(window.mm_menu_0610133816_3,0,17,null,'ministries');" onmouseout="MM_startTimeout();" href="../ministries/index.html">
-<img name="ministries" src="../images/homepage/ministries_1.jpg" border="0" width="63" height="19"/></a></td>
-				          <td><a onmouseover="MM_showMenu(window.mm_menu_0610133833_4,0,17,null,'media');" onmouseout="MM_startTimeout();" href="../media/index.html">
-<img name="media" src="../images/homepage/media.jpg" border="0" width="44" height="19"/></a></td>
-				          <td><img src="../images/homepage/clear.gif" border="0" width="10" height="10"/></td>
+				          <td align="left"><a onmouseover="MM_showMenu(window.mm_menu_0610133358_0,0,17,null,'about_us');" onmouseout="MM_startTimeout();" href="../about/about.html">
+<img align="left" name="about_us" src="../images/homepage/about_us.jpg" border="0" width="72" height="19"/></a>
+				          <a onmouseover="MM_showMenu(window.mm_menu_0610133533_1,0,17,null,'whats_new');" onmouseout="MM_startTimeout();" href="../news/whatsnew.html">
+<img align="left" name="whats_new" src="../images/homepage/whats_new.jpg" border="0" width="83" height="19"/></a>
+				          <a onmouseover="MM_showMenu(window.mm_menu_0610133621_2,0,17,null,'events');" onmouseout="MM_startTimeout();" href="../calendar/calendar.html">
+<img align="left" name="events" src="../images/homepage/events.jpg"  border="0" width="46" height="19"/></a>
+				          <a onmouseover="MM_showMenu(window.mm_menu_0610133816_3,0,17,null,'ministries');" onmouseout="MM_startTimeout();" href="../ministries/index.html">
+<img align="left" name="ministries" src="../images/homepage/ministries_1.jpg" border="0" width="63" height="19"/></a>
+				          <a onmouseover="MM_showMenu(window.mm_menu_0610133833_4,0,17,null,'media');" onmouseout="MM_startTimeout();" href="../media/index.html">
+<img align="left"  name="media" src="../images/homepage/media.jpg" border="0" width="44" height="19"/></a></td>
+				          <td bgcolor="#-394d7b" width="99%" background="../images/homepage/blue.jpg"><br/></td>
 				        </tr>
 				      </table>
 				      <!-- end navigation -->
@@ -81,7 +81,7 @@
 				  </tr>
 				  <tr> 
 				    <td background="../images/homepage/sidebar_gold.jpg" valign="top" align="left" width="131"><img src="../images/homepage/sidebar_gold.jpg" border="0" width="131" height="13"/></td>
-				    <td background="../images/homepage/goldbar.jpg" width="400"><img src="../images/homepage/clear.gif" border="0" width="400" height="10"/> 
+				    <td background="../images/homepage/goldbar.jpg" width="99%">
 				      <!-- decrease this image to decrease overall page size -->
 				    </td>
 				  </tr>
