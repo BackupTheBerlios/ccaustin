@@ -581,7 +581,7 @@
 		<title></title>
 		<passage>Revelation 6:5-6</passage>
 		<tape>ID100798</tape>
-		<audio>66-rev/66-rev-05-06.ram</audio>
+		<audio>66-rev/66-rev-06-05.ram</audio>
         <passageref></passageref>
 	</message>
 	<message date="19981014" service="midweek" category="in depth">
@@ -3416,6 +3416,15 @@
 		<audio>bibleoverview/46-ico-13.ram</audio>
 		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr013.html#top</passageref>
 	</message>
+	<message date="20030625" service="midweek" category="overview">
+		<seriestitle>I Corinthians</seriestitle>
+		<title></title>
+		<passage>I Corinthians 14</passage>
+		<tape>BO1318</tape>
+		<audio>bibleoverview/46-ico-14.ram</audio>
+		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr014.html#top</passageref>
+	</message>
+
     <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
 		<title>The Big Question</title>
@@ -9122,5 +9131,13 @@
 		<tape>BS062203</tape>
 		<audio>42-luk/42-luk-08-40.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk008.html#top</passageref>
+	</message> 
+	<message date="20030629" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>The God of How</title>
+		<passage>Luke 9:1-17</passage>
+		<tape>BS062903</tape>
+		<audio>42-luk/42-luk-09-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk009.html#top</passageref>
 	</message> 
 </messagecatalog>
