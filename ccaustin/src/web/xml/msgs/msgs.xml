@@ -9235,4 +9235,13 @@
 		<audio>topicmessage/whyworship03.ram</audio>
 		<passageref></passageref>
 	</message> 
+	<message date="20030810" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>Increasing Your Impact</title>
+		<passage>Luke 10:1-12</passage>
+		<tape>BS081003</tape>
+		<audio>42-luk/42-luk-10-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk010.html#top</passageref>
+	</message> 
+
 </messagecatalog>
