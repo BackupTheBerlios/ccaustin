@@ -667,11 +667,11 @@
     <antcall target="_initserver-controlpanel-jars">
       <param name="dest" value="${project.dist.controlpanel.home}/stage/jboss/default/server/lib"/>
     </antcall>
-    <jar jarfile="${project.dist.controlpanel.home}/jboss-default-server-lib.jar">
-      <fileset dir="${project.dist.controlpanel.home}/stage/jboss">
+    <tar compression="gzip" tarfile="${project.dist.controlpanel.home}/jboss-default-server-lib.tar.gz">
+      <tarfileset dir="${project.dist.controlpanel.home}/stage/jboss">
         <include name="**"/>
-      </fileset>
-    </jar>
+      </tarfileset>
+    </tar>
 
     <!-- slide.war -->
     <antcall target="_initserver-controlpanel-slide">
@@ -686,6 +686,12 @@
     <copy file="${project.build.controlpanel.ear}" toDir="${project.dist.controlpanel.home}"/>
 
     <!-- archive it up -->
+    <tar compression="gzip" tarfile="${project.dist.home}/controlpanel.tar.gz">
+      <tarfileset dir="${project.dist.controlpanel.home}">
+        <include name="**"/>
+        <exclude name="stage/**"/>
+      </tarfileset>
+    </tar>
     
   </target>
 
