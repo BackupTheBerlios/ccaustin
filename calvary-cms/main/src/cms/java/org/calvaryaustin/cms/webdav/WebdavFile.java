@@ -53,6 +53,9 @@ public class WebdavFile implements File
 	{
 		WebdavResource resource = connection.findResource(WebdavConstants.PATH_SITES+site+"/"+path);
 		return resource.isLocked();
+		//HashMap properties = connection.getProperties(WebdavConstants.PATH_SITES+site+"/"+path);
+		//String value = (String)properties.get("");
+		//return (value != null && value.equals(""));
 	}
 
 	public List getLocks() throws RepositoryException
@@ -88,6 +91,9 @@ public class WebdavFile implements File
 	{
 		// set name="" as the path has the name included
 		// ?Should the content type be allowed to change? If its null, it won't anyway...
+		
+		// now, we reverse the order that the checkout does, releasing the lock, updating the content, then checking in the new version
+		killLocks();
 		connection.put(WebdavConstants.PATH_SITES+site+"/"+path,"",updatedVersion.getContentType(),updatedVersion.getContent());
 		connection.checkin(WebdavConstants.PATH_SITES+site+"/"+path);
 	}

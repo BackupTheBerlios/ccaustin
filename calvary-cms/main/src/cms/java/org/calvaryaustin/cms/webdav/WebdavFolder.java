@@ -62,12 +62,14 @@ public class WebdavFolder implements Folder
 		String thePath = WebdavConnection.normalize(path + "/" + name);
 		String davPath = WebdavConstants.PATH_SITES+site+"/"+path;
 		boolean result = connection.put(davPath, name, contentType, content);
+		connection.checkout(davPath+"/"+name, false);
 		// Set description property
 		boolean propResult = connection.setProperty(davPath+"/"+name, WebdavConstants.CALVARY_PROP_PREFIX, WebdavConstants.PROP_DESCRIPTION, description);
 		if( !propResult ) 
 		{
 			log.warn("createFile(): Could not set the property for the newly created file  - not rolling back tx");
 		}
+		connection.checkin(davPath+"/"+name);
 		return new FileHandle(thePath);
 	}
 	

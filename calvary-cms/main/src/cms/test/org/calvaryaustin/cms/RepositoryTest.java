@@ -19,7 +19,7 @@ import org.apache.commons.logging.LogFactory;
  * Created: Fri Jan 17 20:30:31 2003
  *
  * @author <a href="mailto:jhigginbotham@betweenmarkets.com">James Higginbotham</a>
- * @version $Revision: 1.6 $
+ * @version $Revision: 1.7 $
  */
 public class RepositoryTest extends TestCase 
 {
@@ -158,7 +158,7 @@ public class RepositoryTest extends TestCase
 	assertNotNull(latestVersion);
 	assertEquals(TEST_FILE_DESCRIPTION, latestVersion.getDescription());
 	assertEquals(TEST_FILE_TYPE, latestVersion.getContentType());
-	assertEquals(TEST_FILE_CONTENT, latestVersion.getContent());
+	assertEquals(new String(TEST_FILE_CONTENT), new String(latestVersion.getContent()));
 	foundFile.delete();		
 	try 
 	{
@@ -213,7 +213,7 @@ public class RepositoryTest extends TestCase
 			assertNotNull(latestVersion);
 			assertEquals(TEST_FILE_DESCRIPTION, latestVersion.getDescription());
 			assertEquals(TEST_FILE_TYPE, latestVersion.getContentType());
-			assertEquals(TEST_FILE_CONTENT, latestVersion.getContent());
+			assertEquals(new String(TEST_FILE_CONTENT), new String(latestVersion.getContent()));
 			fileFound = true;
 		}
 	}
@@ -236,6 +236,7 @@ public class RepositoryTest extends TestCase
 	org.calvaryaustin.cms.File foundFile = foundFolder.getFile(fileHandle);
 	assertTrue(!foundFile.isCheckedOut());
 	FileVersion checkedOut = foundFile.checkout();
+	//checkedOut = foundFile.checkout();
 	assertTrue(foundFile.isCheckedOut());
 	List locks = foundFile.getLocks();
 	assertNotNull(locks);

@@ -22,7 +22,7 @@ import org.calvaryaustin.cms.RepositoryException;
  * Created: Tue Jan 28 20:14:37 2003
  *
  * @author <a href="mailto:jhigginbotham@betweenmarkets.com">James Higginbotham</a>
- * @version $Revision: 1.4 $
+ * @version $Revision: 1.5 $
  */
 
 public class WebdavConnection 
@@ -34,6 +34,7 @@ public class WebdavConnection
     	this.path = path;
     	this.username = username;
     	this.password = password;
+		httpURL = new HttpURL(username, password, host, port, path );
 	}
 	
 	public WebdavResource findResource(String path) throws RepositoryException
@@ -269,18 +270,35 @@ public class WebdavConnection
 
 	public WebdavResource checkout(String path) throws RepositoryException
 	{
+		return checkout(path, true);
+	}
+
+	public WebdavResource checkout(String path, boolean lock) throws RepositoryException
+	{
 		try
 		{
 			WebdavResource resource = findResource(path);
-			//boolean result = resource.lockMethod();
-			boolean result = resource.checkoutMethod();
+			boolean result = true;
+			if(lock)
+			{
+				result = resource.lockMethod();
+			}
+			//boolean result = resource.checkoutMethod();
 			if(result)
 			{
-				return resource;
+				result = resource.checkoutMethod();
+				if(result)
+				{
+					return resource;
+				} 
+				else
+				{
+					throw new RepositoryException("Error trying to checkout "+path+". Reason: "+resource.getStatusMessage());
+				}
 			}
 			else
 			{
-				throw new RepositoryException("Error trying to checkout "+path+". Reason: "+resource.getStatusMessage());
+				throw new RepositoryException("Error trying to lock "+path+". Reason: "+resource.getStatusMessage());
 			}
 		}
 		catch (HttpException e)
@@ -372,9 +390,10 @@ public class WebdavConnection
         return (normalized);
     }
 
-	private HttpURL getConnection()
+	private HttpURL getConnection() throws java.io.IOException
 	{
-		return new HttpURL(username, password, host, port, path );	
+		httpURL.setPath(PATH_PREFIX);
+		return httpURL;	
 	}
 
 	private String host;
@@ -382,6 +401,7 @@ public class WebdavConnection
 	private String path;
 	private String username;
 	private String password; 
+	private HttpURL httpURL;
 
     private static final int DEBUG_LEVEL = 0;
     private static final String FILES_PREFIX = "/files/"; // move to config?
