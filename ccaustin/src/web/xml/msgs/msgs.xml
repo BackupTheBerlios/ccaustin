@@ -5707,6 +5707,112 @@
 		<audio>16-neh/16-neh-13-04.ram</audio>
 		<passageref></passageref>
 	</message>
+
+	<message date="19930207" service="sunday" category="book studies">
+		<seriestitle>I John</seriestitle>
+		<title>Fellowship with God</title>
+		<passage>I John 1:1-4</passage>
+		<tape>BS020793</tape>
+		<audio>62-ijo/62-ijo-01-01.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19930214" service="sunday" category="book studies">
+		<seriestitle>I John</seriestitle>
+		<title>The Sin Problem</title>
+		<passage>I John 1:5-2:2</passage>
+		<tape>BS021493</tape>
+		<audio>62-ijo/62-ijo-01-05.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19930221" service="sunday" category="book studies">
+		<seriestitle>I John</seriestitle>
+		<title>Saying and Doing</title>
+		<passage>I John 2:3-11</passage>
+		<tape>BS022193</tape>
+		<audio>62-ijo/62-ijo-02-03.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19930228" service="sunday" category="book studies">
+		<seriestitle>I John</seriestitle>
+		<title>The Wrong Kind of Love</title>
+		<passage>I John 2:12-17</passage>
+		<tape>BS022893</tape>
+		<audio>62-ijo/62-ijo-02-12.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19930307" service="sunday" category="book studies">
+		<seriestitle>I John</seriestitle>
+		<title>The Wrong Kind of Love</title>
+		<passage>I John 2:18-29</passage>
+		<tape>BS030793</tape>
+		<audio>62-ijo/62-ijo-02-18.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19930314" service="sunday" category="book studies">
+		<seriestitle>I John</seriestitle>
+		<title>What Love!</title>
+		<passage>I John 3:1-3</passage>
+		<tape>BS031493</tape>
+		<audio>62-ijo/62-ijo-03-01.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19930321" service="sunday" category="book studies">
+		<seriestitle>I John</seriestitle>
+		<title>Whose Child Are You?</title>
+		<passage>I John 3:4-10</passage>
+		<tape>BS032193</tape>
+		<audio>62-ijo/62-ijo-03-04.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19930328" service="sunday" category="book studies">
+		<seriestitle>I John</seriestitle>
+		<title>A Matter of Love or Death</title>
+		<passage>I John 3:11-18</passage>
+		<tape>BS032893</tape>
+		<audio>62-ijo/62-ijo-03-11.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19930404" service="sunday" category="book studies">
+		<seriestitle>I John</seriestitle>
+		<title>Dealing with Doubt</title>
+		<passage>I John 3:19-24</passage>
+		<tape>BS040493</tape>
+		<audio>62-ijo/62-ijo-03-19.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19930418" service="sunday" category="book studies">
+		<seriestitle>I John</seriestitle>
+		<title>Test the Spirits</title>
+		<passage>I John 4:1-6</passage>
+		<tape>BS041893</tape>
+		<audio>62-ijo/62-ijo-04-01.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19930425" service="sunday" category="book studies">
+		<seriestitle>I John</seriestitle>
+		<title>God Is Love</title>
+		<passage>I John 4:7-16</passage>
+		<tape>BS042593</tape>
+		<audio>62-ijo/62-ijo-04-07.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19930502" service="sunday" category="book studies">
+		<seriestitle>I John</seriestitle>
+		<title>Love's Perfection</title>
+		<passage>I John 4:17-5:5</passage>
+		<tape>BS050293</tape>
+		<audio>62-ijo/62-ijo-04-17.ram</audio>
+		<passageref></passageref>
+	</message>
+	<message date="19930516" service="sunday" category="book studies">
+		<seriestitle>I John</seriestitle>
+		<title>What Do You Know?</title>
+		<passage>I John 5:6-21</passage>
+		<tape>BS051693</tape>
+		<audio>62-ijo/62-ijo-05-06.ram</audio>
+		<passageref></passageref>
+	</message>
+
 	<message date="19930523" service="sunday" category="book studies">
 		<seriestitle>Matthew</seriestitle>
 		<title>The Royalty of Christ</title>
@@ -6225,6 +6331,7 @@
 		<title>Joy in Relationships</title>
 		<passage>Philippians 1:3-8</passage>
 		<tape>BS100294 - not available</tape>
+		<audio></audio>
 		<passageref></passageref>
 	</message>
 	<message date="19941009" service="sunday" category="book studies">
@@ -8522,6 +8629,14 @@
 		<passage>Luke 2:21-40</passage>
 		<tape>BS122902</tape>
 		<audio>42-luk/42-luk-02-21.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk002.html#top</passageref>
+	</message>
+	<message date="20030105" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>How to Make the Most of Your New Year</title>
+		<passage>Luke 2:41-52</passage>
+		<tape>BS010503</tape>
+		<audio>42-luk/42-luk-02-41.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk002.html#top</passageref>
 	</message>
 
