@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.73 2004/02/27 19:51:53 anandpv Exp $
+	$Id: whatsnew.xml,v 1.74 2004/02/27 19:54:57 anandpv Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -371,7 +371,7 @@ interested in joining this exciting ministry, please contact
 internet@calvaryaustin.org.</detail>
 		</news-item>
 		<news-item id="115" date="20040227" expires="20040327" showOnHomepage="true">
-			<title>Free indeed" addictions ministry</title>
+			<title>"Free indeed" addictions ministry</title>
 			<detail>Free Indeed is an internet-based
 ministry addressing pornography, substance abuse, overeating, smoking
 or other addictions. If you need help in one of these areas visit
