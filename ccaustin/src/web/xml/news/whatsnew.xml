@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.34 2003/05/23 16:44:50 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.35 2003/05/30 02:04:18 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -100,11 +100,21 @@
 		</news-item>
 		<news-item id="50" date="20030522" expires="20030629" showOnHomepage="true">
 			<title>Crown Financial Ministry</title>
-			<detail>Sign ups begin next Sunday for an exciting new course focusing on handling money God¹s way.  Short daily studies, practical applications, and weekly small group meetings in host homes will last from Aug through Nov.  Limited enrollment.  A $20 deposit will secure your spot with final payment due by Jun 29.  Pick up a flyer at the Events Center today.</detail>
+			<detail>Sign ups begin today at the Events Center for an exciting new course focusing on handling money God¹s way.  Short daily studies, practical applications, and weekly small group meetings in host homes will last from Aug through Nov.  Limited enrollment.  A $20 deposit will secure your spot with final payment due by Jun 29.</detail>
 		</news-item>
 		<news-item id="51" date="20030522" expires="20030629" showOnHomepage="true">
 			<title>Bookstore</title>
 			<detail>Want to grow deeper in your walk with the Lord?  Stop and check-out all the Bibles, books, study guides and CDs.  Open after every Wednesday &amp; Sunday service.</detail>
 		</news-item>
+		<news-item id="52" date="20030529" expires="20030629" showOnHomepage="true">
+			<title>Fan Drive</title>
+			<detail>Calvary Singles is sponsoring the 3rd annual fan drive for Eldercare.  Purchase a fan and drop it off by the front door in the lobby until the end of July.</detail>
+		</news-item>
+		<news-item id="53" date="20030529" expires="20030616" showOnHomepage="true">
+			<title>Calvary T-Shirt Blowout Sale</title>
+			<detail>Want to wear a Calvary t-shirt to the Baptism/Picnic?  Visit the bookstore and purchase one for only $3.00. Choose from many children¹s sizes.  A few adult sizes remain.</detail>
+		</news-item>
+
+
 	</news>
 </content>
