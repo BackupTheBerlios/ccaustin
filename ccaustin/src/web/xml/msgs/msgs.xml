@@ -3556,10 +3556,18 @@
 	<message date="20031112" service="midweek" category="overview">
 		<seriestitle>Philippians</seriestitle>
 		<title></title>
-		<passage>Philippians 1-2</passage>
+		<passage>Philippians 1</passage>
 		<tape>BO1335</tape>
 		<audio>bibleoverview/50-phi-01.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Phl/Phl001.html#top</passageref>
+	</message>
+	<message date="20031119" service="midweek" category="overview">
+		<seriestitle>Philippians</seriestitle>
+		<title></title>
+		<passage>Philippians 2</passage>
+		<tape>BO1335</tape>
+		<audio>bibleoverview/50-phi-02.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Phl/Phl002.html#top</passageref>
 	</message>
 
     	<message date="19940522" service="sunday" category="topical series">
