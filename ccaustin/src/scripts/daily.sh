@@ -12,7 +12,7 @@ export DAILY_DIR=$PROJECT_ROOT/.daily
 export DEPLOY_DIR=/home/groups/ccaustin/htdocs/daily
 
 export CALVARY_HOME=$DAILY_DIR/ccaustin
-export ANT_HOME=$PROJECT_ROOT/jakarta-ant-1.4.1
+export ANT_HOME=$DAILY_DIR/ccaustin/thirdparty/ant
 export JAVA_HOME=$PROJECT_ROOT/jdk1.3.1_02
 PATH=$CALVARY_HOME/bin:$ANT_HOME/bin:$JAVA_HOME/bin:$PATH
 
