@@ -32,7 +32,10 @@
 	<td colspan="1" width="25%">
 		<xsl:text> </xsl:text>
 	</td>
-	<td colspan="1" width="25%" class="textsubtitle" align="right">
+	<!--td colspan="1" width="25%">
+		<xsl:text> </xsl:text>
+	</td-->
+	<td colspan="2" width="50%" class="textsubtitle" align="center">
 		<xsl:element name="img">
 		<xsl:attribute name="src">
 			<xsl:value-of select="thumbnail/@href"/>
@@ -48,7 +51,10 @@
 			<xsl:value-of select="last-name"/>
 		</A>
 		<br/>
+		<a href="mailto:{emailid}"><xsl:value-of select="emailid"/></a>
+		<br/>
 		<xsl:apply-templates select="role/@title"/>
+		<br/>
 		<br/>
 	</td>
 	<!--td colspan="1" width="25%" class="textsubtitle">
@@ -66,16 +72,16 @@
 	<td colspan="1" width="25%">
 		<xsl:text> </xsl:text>
 	</td>
-	<td colspan="1" width="25%">
+	<!--td colspan="1" width="25%">
 		<xsl:text> </xsl:text>
-	</td>
+	</td-->
 	</xsl:if>
 	</xsl:for-each>
 </tr>
 <xsl:for-each select="servant">
 <xsl:if test="position() mod 4 =2">
 <xsl:variable name="curr" select="position()"/>
-<xsl:variable name="total" select="7"/>
+<xsl:variable name="total" select="9"/>
 <tr>
  <td colspan="1" width="25%" class="textsubtitle" align="center">
                         <!--xsl:value-of select="$curr"/-->
@@ -95,8 +101,11 @@
                                         <xsl:value-of select="last-name"/>
                                 </A>
                                 <br/>
+				<a href="mailto:{emailid}"><xsl:value-of select="emailid"/></a>
+				<br/>
                                 <xsl:apply-templates select="role/@title"/>
                                 <br/>
+				<br/>
                         </td>
 <td colspan="1" width="25%" class="textsubtitle" align="center">
 
@@ -111,8 +120,11 @@
                                         <xsl:apply-templates select="../servant[($curr+1)]/last-name"/>
                                  </A>
                                  <br/>
+		<a href="mailto:{../servant[($curr+1)]/emailid}"><xsl:value-of select="../servant[($curr+1)]/emailid"/></a>
+		<br/>
                                  <xsl:value-of select="../servant[($curr+1)]/role/@title"/>
                                  <br/>
+				<br/>
                 </xsl:if>
                         </td>
 <td colspan="1" width="25%" class="textsubtitle" align="center">
@@ -127,8 +139,11 @@
                                         <xsl:apply-templates select="../servant[($curr+2)]/last-name"/>
                                  </A>
                                  <br/>
+		<a href="mailto:{../servant[($curr+2)]/emailid}"><xsl:value-of select="../servant[($curr+2)]/emailid"/></a>
+		<br/>
                                  <xsl:value-of select="../servant[($curr+2)]/role/@title"/>
                                  <br/>
+				<br/>
                 </xsl:if>
                         </td>
                         <td colspan="1" width="25%" class="textsubtitle" align="center">
@@ -143,8 +158,11 @@
                                         <xsl:apply-templates select="../servant[($curr+3)]/last-name"/>
                                  </A>
                                  <br/>
+		<a href="mailto:{../servant[($curr+3)]/emailid}"><xsl:value-of select="../servant[($curr+3)]/emailid"/></a>
+		<br/>
                                  <xsl:value-of select="../servant[($curr+3)]/role/@title"/>
                                  <br/>
+				<br/>
                 </xsl:if>
                         </td>
 </tr>
@@ -187,8 +205,11 @@
                                         <xsl:value-of select="last-name"/>
                                 </A>
                                 <br/>
+		<a href="mailto:{emailid}"><xsl:value-of select="emailid"/></a>
+		<br/>
                                 <xsl:apply-templates select="role/@title"/>
                                 <br/>
+			<br/>
                         </td>
 <td colspan="1" width="25%" class="textsubtitle" align="center">
 
@@ -203,8 +224,11 @@
                                         <xsl:apply-templates select="../servant[($curr+1)]/last-name"/>
                                  </A>
                                  <br/>
+		<a href="mailto:{../servant[($curr+1)]/emailid}"><xsl:value-of select="../servant[($curr+1)]/emailid"/></a>
+		<br/>
                                  <xsl:value-of select="../servant[($curr+1)]/role/@title"/>
                                  <br/>
+				<br/>
                 </xsl:if>
                         </td>
 <td colspan="1" width="25%" class="textsubtitle" align="center"> 
@@ -219,8 +243,11 @@
                                         <xsl:apply-templates select="../servant[($curr+2)]/last-name"/>
                                  </A>
                                  <br/>
+		<a href="mailto:{../servant[($curr+2)]/emailid}"><xsl:value-of select="../servant[($curr+2)]/emailid"/></a>
+		<br/>
                                  <xsl:value-of select="../servant[($curr+2)]/role/@title"/>
                                  <br/>
+				<br/>
                 </xsl:if>
                </td>
 <td colspan="1" width="25%" class="textsubtitle" align="center">
@@ -235,8 +262,11 @@
                                         <xsl:apply-templates select="../servant[($curr+3)]/last-name"/>
                                  </A>
                                  <br/>
+		<a href="mailto:{../servant[($curr+3)]/emailid}"><xsl:value-of select="../servant[($curr+3)]/emailid"/></a>
+		<br/>
                                  <xsl:value-of select="../servant[($curr+3)]/role/@title"/>
                                  <br/>
+				<br/>
                 </xsl:if>
 	       </td>
 
@@ -274,8 +304,11 @@
                                         <xsl:value-of select="last-name"/>
                                 </A>
                                 <br/>
+		<a href="mailto:{emailid}"><xsl:value-of select="emailid"/></a>
+		<br/>
                                 <xsl:apply-templates select="role/@title"/>
                                 <br/>
+				<br/>
                         </td>
 <td colspan="1" width="25%" class="textsubtitle" align="center">
 
@@ -290,8 +323,11 @@
                                         <xsl:apply-templates select="../servant[($curr+1)]/last-name"/>
                                  </A>
                                  <br/>
+		<a href="mailto:{../servant[($curr+1)]/emailid}"><xsl:value-of select="../servant[($curr+1)]/emailid"/></a>
+		<br/>
                                  <xsl:value-of select="../servant[($curr+1)]/role/@title"/>
                                  <br/>
+				<br/>
                 </xsl:if>
                         </td>
 <td colspan="1" width="25%" class="textsubtitle" align="center">
@@ -306,8 +342,11 @@
                                         <xsl:apply-templates select="../servant[($curr+2)]/last-name"/>
                                  </A>
                                  <br/>
+		<a href="mailto:{../servant[($curr+2)]/emailid}"><xsl:value-of select="../servant[($curr+2)]/emailid"/></a>
+		<br/>
                                  <xsl:value-of select="../servant[($curr+2)]/role/@title"/>
                                  <br/>
+			<br/>
                 </xsl:if>
                         </td>
 <td colspan="1" width="25%" class="textsubtitle" align="center">
@@ -322,8 +361,11 @@
                                         <xsl:apply-templates select="../servant[($curr+3)]/last-name"/>
                                  </A>
                                  <br/>
+		<a href="mailto:{../servant[($curr+3)]/emailid}"><xsl:value-of select="../servant[($curr+3)]/emailid"/></a>
+		<br/>
                                  <xsl:value-of select="../servant[($curr+3)]/role/@title"/>
                                  <br/>
+				<br/>
                 </xsl:if>
                         </td>
 
