@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.14 2002/09/20 20:21:24 javajames27 Exp $
+	$Id: calendar.xml,v 1.15 2002/09/30 20:53:57 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -140,7 +140,7 @@
     <event id="10001" date="20021019" showOnHomepage="true">
       <title>Mid-South Pastors and Ministry Leaders Conference</title>
       <date>Oct 17-19</date>
-      <detail>The Mid-South Pastors and Leaders Conference will be held Oct 17-19.  A mixture of speaking and workshop sessions designed to equip ministry leaders will be offered.  Pick up a brochure in the lobby and sign up by Oct 6 at the Events Center.</detail>  
+      <detail>The Mid-South Pastors and Leaders Conference will be held Oct 17-19.  A mixture of speaking and workshop sessions designed to equip ministry leaders will be offered.  Pick up a brochure in the lobby and sign up by Oct 6 at the Events Center.<br/>Are you traveling to Austin for the conference? Find out what <link href="../about/aroundtown.html">hotels and restaurants</link> are nearby...</detail>  
       <location>Church</location>
       <ministries>
 	<ministry id="church"/>
