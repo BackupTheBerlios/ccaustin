@@ -124,6 +124,14 @@
 	<filter token="utf-" value="=ISO-8859-1"/>
       </filterset>
     </copy>
+    <!-- this step handles the conference ppoint exports -->
+    <copy todir="${dist.web.dir}" overwrite="true">
+      <fileset dir="${build.web.dir}">
+	<include name="**/*.gif"/>
+	<include name="**/*.jpg"/>
+	<include name="**/*.xml"/>
+      </fileset>
+    </copy>
     <copy todir="${dist.web.dir}/images" overwrite="true">
       <fileset dir="${src.images.dir}"/>
     </copy>
