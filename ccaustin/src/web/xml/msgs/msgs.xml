@@ -3651,6 +3651,10 @@
 
 <message date="20040414 service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 1-2</passage> <tape>BO1350</tape> <audio>bibleoverview/58-heb-01.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr001.html#top</passageref> </message> 
 
+<message date="20040421 service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 3-4</passage> <tape>BO1351</tape> <audio>bibleoverview/58-heb-03.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr003.html#top</passageref> </message> 
+
+<message date="20040428 service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 5-6</passage> <tape>BO1352</tape> <audio>bibleoverview/58-heb-05.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr005.html#top</passageref> </message> 
+
     	<message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
 		<title>The Big Question</title>
@@ -9759,10 +9763,17 @@
 	<seriestitle>Building Momentum</seriestitle> 	
 	<title>EnVision</title> 
 	<passage>Nehemiah 2:1-10</passage> 
-	<tape>TS040418</tape> 
+	<tape>TS041804</tape> 
 	<audio>topicseries/momentum/momentumtwo.wma</audio> 
 	<passageref>http://www.blueletterbible.org/kjv/Neh/Neh002.html#top< /passager ef> 
-	</message> 
-
+	</message>
+	<message date="20040425" service="sunday" category="topic series"> 
+	<seriestitle>Building Momentum</seriestitle> 	
+	<title>Vision-Cast</title> 
+	<passage>Nehemiah 2:11-20</passage> 
+	<tape>TS042504</tape> 
+	<audio>topicseries/momentum/momentumthree.wma</audio> 
+	<passageref>http://www.blueletterbible.org/kjv/Neh/Neh002.html#top< /passager ef> 
+	</message>  
 
 </messagecatalog>
