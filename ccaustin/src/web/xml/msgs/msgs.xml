@@ -3505,6 +3505,14 @@
 		<audio>bibleoverview/48-gal-03.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Gal/Gal003.html#top</passageref>
 	</message>
+	<message date="20030924" service="midweek" category="overview">
+		<seriestitle>Galatians</seriestitle>
+		<title></title>
+		<passage>Galatians 5-6</passage>
+		<tape>BO1331</tape>
+		<audio>bibleoverview/48-gal-05.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Gal/Gal005.html#top</passageref>
+	</message>
 
     <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
@@ -9326,10 +9334,18 @@
 	</message>
 	<message date="20030921" service="sunday" category="book studies">
 		<seriestitle>Luke</seriestitle>
-		<title>Connecting with God - Part III</title>V
+		<title>Connecting with God - Part IV</title>
 		<passage>Luke 11:5-13</passage>
 		<tape>BS092103</tape>
 		<audio>42-luk/42-luk-11-05.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk011.html#top</passageref>
-	</message>      
+	</message> 
+	<message date="20030928" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>Lasting Change</title>
+		<passage>Luke 11:14-28</passage>
+		<tape>BS092803</tape>
+		<audio>42-luk/42-luk-11-14.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk011.html#top</passageref>
+	</message>           
 </messagecatalog>
