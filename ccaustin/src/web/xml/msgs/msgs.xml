@@ -3668,15 +3668,6 @@
 <message date="20040526" service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 11</passage> <tape>BO1354</tape> <audio>bibleoverview/58-heb-11.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr011.html#top</passageref> </message> 
 <message date="20040602" service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 12-13</passage> <tape>BO1355</tape> <audio>bibleoverview/58-heb-12.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr012.html#top</passageref> </message> 
 
-<message date="20040707" service="midweek" category="misc">
-<seriestitle>Guest Speaker</seriestitle>
-<title>Kinney, Derrick</title>
-<passage>Mark 10:35-45</passage>
-<tape>GS070704</tape>
-<audio>guestspeaker/dkinney070704.wma</audio>
-<passageref>http://www.blueletterbible.org/kjv/Mar/Mar010.html#top</passageref>
-</message>
-
 <message date="20040609" service="midweek" category="guest speaker"> 
 <seriestitle>Garrett, Bunjee</seriestitle> 
 <title>Decrypting the Da Vinci Code</title> 
@@ -3689,6 +3680,23 @@
 <message date="20040616" service="midweek" category="overview"> <seriestitle>James</seriestitle> <title></title> <passage>James 1</passage> <tape>BO1356</tape> <audio>bibleoverview/59-jam-01.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Jam/Jam001.html#top</passageref> </message> 
 <message date="20040623" service="midweek" category="overview"> <seriestitle>James</seriestitle> <title></title> <passage>James 2-3</passage> <tape>BO1357</tape> <audio>bibleoverview/59-jam-02.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Jam/Jam002.html#top</passageref> </message> 
 <message date="20040630" service="midweek" category="overview"> <seriestitle>James</seriestitle> <title></title> <passage>James 4-5</passage> <tape>BO1358</tape> <audio>bibleoverview/59-jam-04.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Jam/Jam004.html#top</passageref> </message> 
+
+<message date="20040707" service="midweek" category="misc">
+<seriestitle>Guest Speaker</seriestitle>
+<title>Kinney, Derrick</title>
+<passage>Mark 10:35-45</passage>
+<tape>GS070704</tape>
+<audio>guestspeaker/dkinney070704.wma</audio>
+<passageref>http://www.blueletterbible.org/kjv/Mar/Mar010.html#top</passageref>
+</message>
+<message date="20040711" service="midweek" category="misc">
+<seriestitle>Guest Speaker</seriestitle>
+<title>Michaels, Terry</title>
+<passage>Mark 10:17-31</passage>
+<tape>GS071104</tape>
+<audio>guestspeaker/tmichaels071104.wma</audio>
+<passageref>http://www.blueletterbible.org/kjv/Mar/Mar010.html#top</passageref>
+</message>
 
     	<message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
