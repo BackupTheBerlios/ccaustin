@@ -2,7 +2,7 @@
 <!-- 
         Calvary Chapel Men's Retreat 2003 
 
-	$Id: mens2003retreat.xml,v 1.1 2003/08/31 12:06:40 gregk Exp $
+	$Id: mens2003retreat.xml,v 1.2 2003/09/11 13:35:52 gregk Exp $
 		
 -->
 <content title="Calvary Chapel Men's Retreat 2003">
@@ -12,10 +12,21 @@
       <p align="center"> <img src="../images/events/realmen.jpg"/></p>
 	<subheading>Friday September 25th - Monday September 27th</subheading>
 
+     <p>Here is some <link href="http://media1.calvaryaustin.org/streaming/ramgen/ccaustin/Calvary_Men2002_320.rm">Real Video</link> from last year's retreat! You will need the RealOne player to view it.</p> 
 
-	<p>Below is a sample of the registration form. You can obtain a <link href="../pdf/mens2003retreat-form.pdf">printable form</link> in Adobe PDF format.</p>
+<p>If you don't have a RealOne video player, you can click on the RealOne Website link below to download a free version of the RealOne player to view the 2002 Men's Retreat video.</p>
+<br></br>
 
-	<p><img href="http://www.adobe.com/products/acrobat/readstep2.html" src="../images/getacro.gif" align="middle"/>To obtain the free Adobe Acrobat Reader, visit the <link href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe Web Site</link>. </p>
+     <div align="center">
+       <a href="http://www.real.com/realoneplayer.html"><img src="http://logo.real.com/en/dwnld_88x31_anim.gif" width="88" height="31" border="0" alt="DownloadPlayer" vspace="1"/></a></div> To obtain a free RealOne Media Player, visit the <link href="http://www.real.com/realoneplayer.html">RealOne Player Website.</link>
 
-	<p><img href="../pdf/mens2003retreat-form.pdf" src="../images/events/mens2003retreat-form.jpg"/></p>
+<!--
+<DIV ALIGN="CENTER"><A
+HREF="http://switchboard.real.com/links/?
+btn=en/dwnld_88x31_anim"><IMG
+SRC="http://logo.real.com/en/dwnld_88x31_anim.gif"
+WIDTH="88" HEIGHT="31" BORDER="0" ALT="DownloadPlayer"
+VSPACE="7"/></A></DIV>
+-->
+
 </content>
