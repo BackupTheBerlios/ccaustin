@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.80 2003/11/02 06:28:14 gregk Exp $
+	$Id: calendar.xml,v 1.81 2003/11/16 06:48:13 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -286,6 +286,20 @@ need for Praying Leaders.</detail>
     <event id="11003" date="20031115" showOnHomepage="true">
 	 <title>Weight of Glory (live Music at Coffee Creator)</title>
 		<date>Nov 15th</date>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
+    </event>
+    <event id="11004" date="20031122" showOnHomepage="true">
+	 <title>Two Feet Forward (live Music at Coffee Creator)</title>
+		<date>Nov 22nd</date>
+		<ministries>
+			<ministry id="coffee"/>
+		</ministries>
+    </event>
+    <event id="11005" date="20031222" showOnHomepage="false">
+	 <title>John Wilson (live Music at Coffee Creator)</title>
+		<date>Wednesdays</date>
 		<ministries>
 			<ministry id="coffee"/>
 		</ministries>
