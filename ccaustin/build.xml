@@ -124,6 +124,18 @@
     <copy todir="${dist.web.dir}/css" overwrite="true">
       <fileset dir="${src.css.dir}"/>
     </copy>
+    <copy tofile="${dist.web.dir}/index.htm" file="${build.web.dir}/index.html" overwrite="true">
+    </copy>
+  </target>
+
+  <target name="publish" depends="checkoptions">
+    <ftp server="www.calvarychapel.org"
+         remotedir="/austin/beta"
+         userid="111"
+         password="111"
+         verbose="yes">
+    <fileset dir="${dist.web.dir}"/>
+    </ftp>    
   </target>
 </project>
 
