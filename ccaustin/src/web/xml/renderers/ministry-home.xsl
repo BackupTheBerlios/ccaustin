@@ -6,7 +6,7 @@
 	
 	Processes the ministry tag and its children tags
 	
-	$Id: ministry-home.xsl,v 1.3 2003/05/27 22:36:26 javajames27 Exp $
+	$Id: ministry-home.xsl,v 1.4 2004/07/17 15:00:42 premav Exp $
 	
 -->	
 
@@ -80,9 +80,9 @@
           <tr>
             <td>
               <table border="0" cellpadding="0" cellspacing="0" width="75%">
-		<tr>
+		<!--tr>
 			<td width="100%" class="tableheader" align="left" valign="top" nowrap="true" colspan="2">On the Horizon...</td>
-		</tr>
+		</tr-->
                 
                 <xsl:for-each select="document('../../src/web/xml/calendar/calendar.xml')/content/calendar/event/ministries/ministry[@id=$ministryid]">
                   <xsl:sort select="../../@date"/>
