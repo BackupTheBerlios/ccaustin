@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.105 2004/11/06 16:20:18 premav Exp $
+	$Id: whatsnew.xml,v 1.106 2004/11/19 01:04:59 tie Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -513,9 +513,9 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		</news-item>
 		<news-item id="150" date="20040926" expires="20041204" showOnHomepage="true">
 		   <title>Vital Life</title>
-		   <detail>Our ministry to junior high school &amp; high school students build faith through bible teaching and ministry opportunities. Wednesdays we're teaching these main vision points: RESPOND, REACH, REPRODUCE. Sundays (junior high only) the series is on "faith". Have questions? Contact David Robinson or e-mail vitallifecrew@yahoo.com.</detail>
+		   <detail>Our ministry to junior high school &amp; high school students build faith through bible teaching and ministry opportunities. Wednesdays we're teaching these main vision points: RESPOND, REACH, REPRODUCE. Sundays (junior high only) the series is on "faith". Have questions? Contact David Robinson or e-mail <link href="mailto:vitallifecrew@yahoo.com">vitallifecrew@yahoo.com</link>.</detail>
 		</news-item>
-		<news-item id="151" date="20040926" expires="20041204" showOnHomepage="true">
+		<news-item id="151" date="20040926" expires="20041118" showOnHomepage="true">
 		   <title>Bulletin Board</title>
 		   <detail>If you would like to put a flyer on the bulletin board please check out the guidelines next to the bulletin board, and place the announcement in the wall tray for approval.</detail>
 		</news-item>
@@ -538,6 +538,18 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		<news-item id="156" date="20041105" expires="20041131" showOnHomepage="true">
 		   <title>Lighting Ministry</title>
 		   <detail>We are seeking servants with several varying abilities and skills. Electricians, artist, stage hands, and anyone with the heart to serve. Contact Jeremy Valencia at 719-4667 or <link href="Jeremy@calvaryaustin.org">Jeremy@calvaryaustin.org</link></detail>
+		</news-item>
+		<news-item id="157" date="20041118" expires="20041126" showOnHomepage="true">
+		   <title>Thanksgiving Holiday</title>
+		   <detail>There will be no service for Wednesday the 24th of November. It is our hope that you will spend this extra time with your families and enjoy the holiday. We'll be back the following Wednesday to continue our overview of Revelation. The church office will be closed the 24th-26th of November.</detail>
+		</news-item>
+				<news-item id="158" date="20041118" expires="20041231" showOnHomepage="true">
+		   <title>IT / Web Ministry</title>
+		   <detail>We are looking for someone to help with IT support for Fellowship1 during first service. We need individuals that have a background in IBM PCs, networking, Windows XP, the installation of drivers, and general trouble shooting skills. Please sign up at the Events Center if you are interested or email James Higginbotham at  <link href="mailto:it@calvaryaustin.org">Calvary Austin IT Ministry</link>. The Web Ministry is also looking for content updaters. You don't have to be a programmer or web designer to update content! If you have good computer skills, we can train you to update web pages. If interested email Todd Ellsworth at <link href="mailto:web@calvaryaustin.org">Calvary Austin Web Ministry</link>.</detail>
+		</news-item>
+						<news-item id="159" date="20041118" expires="20041226" showOnHomepage="true">
+		   <title>Local Christmas Adoptions</title>
+		   <detail>We have ten families with needy children in our community that Calvary Austin has “adopted” for Christmas gifts and food. Participation includes: buying gifts for the children, buying food for the family, supplying extra treats, and delivering the gifts. We also will need those who can speak Spanish to help communicate with some families. Get involved by visiting the Events Center.</detail>
 		</news-item>
 <!--
 -->

@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.135 2004/11/06 16:20:18 premav Exp $
+	$Id: calendar.xml,v 1.136 2004/11/19 01:06:04 tie Exp $
 		
 -->
 <content title="Calendar">
@@ -763,5 +763,16 @@ Click <link href="http://home.earthlink.net/~calvaryaustinkids/cmconf.htm">HERE<
 		<date>Nov 25th</date>
 		<detail>Flag football at its best. Join the fun Thanksgiving morning from 8:30 - 10:30am. Pick up a flier at the Events Center for more information.</detail>
     </event>
+        <event id="11007" date="20041205" showOnHomepage="true">
+	 <title>Fitness Fellowship Ministry</title>
+		<date>Dec 4th</date>
+		<detail>A sign up and information meeting will be Saturday, Dec 4th at the Coffee Creator at 5 p.m. Come if you want to play any sport, whether you filled out a sports survey or not. Meet the leaders of each sport that you are interested in. If you can’t make it and want to be involved, contact Jim and Teresa Carpenter at 445-5574.</detail>
+    </event>
+            <event id="11008" date="20041205" showOnHomepage="true">
+	 <title>Singles Christmas Potluck</title>
+		<date>Dec 4th</date>
+		<detail> The Potluck will be Saturday, December 4th at 8:00pm, at the Coffee Creator. Please sign up at the Events Center.</detail>
+    </event>
+    
 	</calendar>
 </content>
