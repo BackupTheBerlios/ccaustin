@@ -53,7 +53,7 @@ function	buildMenus()
   menuMinistry.addMenuItem( "New Life",              "location='../ministries/newlife.html'"      );
   menuMinistry.addMenuItem( "Prayer",           "location='../ministries/prayer.html'"    );
   menuMinistry.addMenuItem( "Prison",           "location='../ministries/prison.html'"    );
-  menuMinistry.addMenuItem( "Singles",          "location='../ministries/focus.html'"    );
+  menuMinistry.addMenuItem( "Singles",          "location='../ministries/singles.html'"    );
   menuMinistry.addMenuItem( "Ushering",         "location='../ministries/usher.html'"    );
   menuMinistry.addMenuItem( "Women",            "location='../ministries/women.html'"    );
   menuMinistry.addMenuItem( "Worship Team",          "location='../ministries/worship.html'"  );

@@ -115,7 +115,7 @@
         <!-- Creates the Ministry section of the web site                         -->
 	<target name="web-ministries" depends="checkoptions" description="Creates the ministry section of the site">
                 <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/children.xml" out="${build.web.dir}/ministries/children.html"/> 
-                <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/focus.xml" out="${build.web.dir}/ministries/focus.html"/> 
+                <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/singles.xml" out="${build.web.dir}/ministries/singles.html"/> 
                 <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/frontline.xml" out="${build.web.dir}/ministries/frontline.html"/> 
                 <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/home.xml" out="${build.web.dir}/ministries/home.html"/> 
                 <style force="yes" style="${src.xml.dir}/ministries/ministry-home.xsl" in="${src.xml.dir}/ministries/men.xml" out="${build.web.dir}/ministries/men.html"/> 
