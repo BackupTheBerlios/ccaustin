@@ -7,7 +7,7 @@
  Other variants of this file may offer more search engine or accessibility-friendly
  navigation and less Javascript features for older browsers. 
  
- $Id: index.xsl,v 1.1 2004/01/30 21:51:15 javajames27 Exp $
+ $Id: index.xsl,v 1.2 2004/01/30 21:59:12 javajames27 Exp $
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
  <xsl:output method="html" indent="yes"/>
@@ -27,7 +27,7 @@
 <html><!-- InstanceBegin template="/Templates/HomeTemplate.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Untitled Document</title>
+<title>Calvary Austin Music / <xsl:value-of select="/html/head/title"/></title>
 <!-- InstanceEndEditable --> 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
 <!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
