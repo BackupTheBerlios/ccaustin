@@ -3610,6 +3610,14 @@
 		<audio>bibleoverview/52-1th-01.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/1Th/1Th001.html#top</passageref>
 	</message>
+	<message date="20040114" service="midweek" category="overview">
+		<seriestitle>I Thessalonians</seriestitle>
+		<title></title>
+		<passage>I Thessalonians 4-5</passage>
+		<tape>BO1341</tape>
+		<audio>bibleoverview/52-1th-04.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/1Th/1Th004.html#top</passageref>
+	</message>
     	<message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
 		<title>The Big Question</title>
@@ -9626,4 +9634,13 @@
 		<audio>42-luk/42-luk-14-01.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk014.html#top</passageref>
 	</message>
+	<message date="20040118" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>People Count</title>
+		<passage>Luke 15</passage>
+		<tape>BS011804</tape>
+		<audio>42-luk/42-luk-15-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk015.html#top</passageref>
+	</message>
+
 </messagecatalog>
