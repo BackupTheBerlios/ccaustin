@@ -14,7 +14,7 @@
 	When a new tag is needed, consider using its HTML equivalent if its name and format is common english. 
 	(e.g. <a/> is not really anything meaningful for the average person, but <link/> is)
 	
-	$Id: html.xsl,v 1.6 2003/09/29 18:06:04 javajames27 Exp $
+	$Id: html.xsl,v 1.7 2003/12/26 18:50:24 gregk Exp $
 -->
 
 
@@ -304,6 +304,24 @@
 -->
 <xsl:template match="emphasis">
 	<div class="emphasis"><xsl:apply-templates select="text()"/></div>
+</xsl:template>
+
+<!--
+	<italics/> Italics tag
+	
+	Renders text with a special style for "emphasis" text (italics text)
+	without the indentation of <DIV>
+	
+	Body: The text of the emphasis 
+	
+	Attributes:
+	
+		NONE
+		
+	Processes Subtags: Yes
+-->
+<xsl:template match="italics">
+	<em><xsl:apply-templates select="text()"/></em>
 </xsl:template>
 
 <!--
