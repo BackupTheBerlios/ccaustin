@@ -1,16 +1,7 @@
 
-var Ref = new Array();
-Ref[0] = "../events/buildingmomentum.html";
-Ref[1] = "http://www.calvaryaustinmusic.org";
-
-var Banner = new Array();
-Banner[0] = "../images/events/buildmobanner";
-Banner[1] = "../images/events/CAM-banner";
-
-
-
-var slideShowSpeed = 8000;
-var crossFadeDuration = 3;
+var whichimage = 0;
+var slideShowSpeed = 9000;
+var crossFadeDuration = 5;
 
 var Pix = new Array();
 Pix[0] = "../images/events/buildmobanner.jpg";
@@ -18,7 +9,7 @@ Pix[1] = "../images/events/CAM-banner.jpg";
 Pix[2] = "../images/events/www-easterbanner.jpg";
 
 var t;
-var j = 0;
+var step = 0;
 var numPix = Pix.length;
 
 var preLoad = new Array();
@@ -27,6 +18,7 @@ for (i = 0; i < numPix; i++)
   preLoad[i] = new Image();
   preLoad[i].src = Pix[i];
 }
+
 
 function runSlideShow() 
 {
@@ -39,26 +31,26 @@ function runSlideShow()
 
   if (document.images.SlideShow) 
 	{
-         document.images.SlideShow.src = preLoad[j].src;
+         document.images.SlideShow.src = preLoad[step].src;
   	 document.images.SlideShow.filters.blendTrans.play();
+         whichimage=step
 	}
-  j = j + 1;
-  if (j > (numPix - 1) ) 
+  step = step + 1;
+  if (step > (numPix - 1) ) 
         {
-         j = 0;
+         step = 0;
         }
   t = setTimeout('runSlideShow()', slideShowSpeed);
 }
 
-function nextRef()
+runSlideShow()
+function slideLink()
 {
-	document.links[0];
+  if (whichimage==0)
+	window.location="../events/buildingmomentum.html"
+  else if (whichimage==1)
+        window.location="http://www.calvaryaustinmusic.org"
+  else if(whichimage==2)
+        window.location="http://www.easterservice.com"
 }
-
-function nextBanner()
-{
-	eval(document.write('Banner(j)'));
-}
-
-
 
