@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.54 2003/11/02 06:39:00 gregk Exp $
+	$Id: whatsnew.xml,v 1.55 2003/11/05 07:17:19 gregk Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -242,7 +242,7 @@
 		</news-item>
 		<news-item id="84" date="20031101" expires="20031106" showOnHomepage="true">
 			<title>Pastors and Leaders Conference</title>
-			<detail>The Mid-South and Leaders Conference is this week. Two of the sessions are open to those not signed up. Come Thursday and Friday evenings, Nov 6-7, at 7:30 pm.</detail>
+			<detail>The Mid-South and Leaders Conference is this week. Two of the sessions are open to those not signed up. Come Thursday and Friday evenings, Nov 6-7, at 7:00 pm.</detail>
 		</news-item>
 	</news>
 </content>
