@@ -5,16 +5,16 @@
 	
 	Standard text processing
 
-	$Id: about.xml,v 1.2 2002/05/23 17:57:38 javajames27 Exp $
+	$Id: about.xml,v 1.3 2002/05/23 18:11:47 javajames27 Exp $
 		
 -->
 <content title="About Us">
-	<text>
+	
 		<p>Sunday, June 3 will mark two milestones for Calvary Chapel of Austin: 9 years of meeting as a fellowship, and 3 years in our current building. Don't know where we are? Check out the  <link href="../about/contact.html">Location page</link>. </p>
 		<p><img src="../images/building-right.jpg"/></p>
 		<p>Calvary Chapel is a non-denominational fellowship affiliated with <link href="http://www.calvarychapel.org/costamesa/">Calvary Chapel-Costa Mesa</link> in Costa Mesa, California. If you are 	looking for a church home in your area, please see the <link href="http://www.calvarychapel.org/affiliates">Calvary affiliates</link> pages to find a Calvary near you. </p>
 		<p><img src="../images/building-left.jpg"/></p>
 		<p>As for this fellowship, the links listed below will provide you more information about who we are, where we've come from, and what we're all about. Explore and, if you'd like, <link href="mailto:info@calvaryaustin.org">contact us</link> 	with any questions. View our <link href="http://www.calvarychapel.org/austin/video/austinhistory.ram">history</link> in Real Video.</p>
 		<p>	</p>
-	</text>
+	
 </content>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content title="Meet Pastor Allen" sidebar-image="../images/staff/allen5.jpg" sidebar-imagealt="Pastor Allen">
-	<text>
 		<p>Allen grew up attending church and Christian school but without having a personal relationship with Jesus Christ. In 1979, at age fourteen, he received Christ and immediately began to study and to teach the Bible. Allen graduated with honors from Pacific High School in San Bernardino, CA in 1983. He then began what would become an eight-year internship at Calvary Chapel of San Bernardino.</p>
 		<p>In 1986 and 1987 Allen was part of a music ministry. He had the opportunity to share Christ through music in many venues in four different counties in Southern California. Allen was married to Andrea in 1989 and accepted the position of Assistant Pastor at <link href="http://www.calvarychapel.org/redbarn">Calvary Chapel of San Bernardino.</link>
 		</p>
@@ -8,11 +7,9 @@
 		<p>Allen lives in Austin with his wife and daughter. </p>
 		<p> Listen to Allen's teaching on the  
 			<list>
-				<item>
-					<link href="continuum/sunmsg.html">Sunday Messages</link> page, </item>
+				<item><link href="continuum/sunmsg.html">Sunday Messages</link> page, </item>
 				<item>the <link href="continuum/midmsg.html">Midweek Messages</link> page, </item>
 				<item>or via the <link href="continuum/cctape.html">Calvary Continuum Tape Catalog</link>. </item>
 			</list>
 		</p>
-	</text>
 </content>

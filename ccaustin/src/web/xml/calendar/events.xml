@@ -3,7 +3,7 @@
 
 	Calendar Events Content - references event IDs in schedule.xml
 	
-	$Id: events.xml,v 1.2 2002/05/22 16:59:23 javajames27 Exp $
+	$Id: events.xml,v 1.3 2002/05/23 18:11:47 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -16,7 +16,7 @@
 		<calendarEvent day="Sunday" date="November 4">
 			<event id="103" scheduleRefId="13" time="1:00pm">
 				<detail>
-					<text>Join the singles for lunch at El Arroyo. Contact Dan Garcia for more information.</text>
+					Join the singles for lunch at El Arroyo. Contact Dan Garcia for more information.
 				</detail>
 			</event>
 		</calendarEvent>
@@ -27,7 +27,7 @@
 		<calendarEvent day="Friday" date="November 9">
 			<event id="106" scheduleRefId="13" time="6:00pm">
 				<detail>
-					<text>Join the singles as they go Camping at Garner State Park followed by a day trip to Lost Maples State Park. Contact Dan Garcia for more information.</text>
+					Join the singles as they go Camping at Garner State Park followed by a day trip to Lost Maples State Park. Contact Dan Garcia for more information.
 				</detail>
 			</event>
 			<event id="107" scheduleRefId="11"/>
@@ -38,7 +38,7 @@
 				<title>Marriage Ministry</title>
 				<shortnote/>
 				<detail>
-					<text>"Nurturing your marriage &amp; family" is a one day marriage conference Nov 10th from 9am to 4pm. The cost is $25 per couple. Childcare provided. Register for the event in the church lobby</text>
+					"Nurturing your marriage &amp; family" is a one day marriage conference Nov 10th from 9am to 4pm. The cost is $25 per couple. Childcare provided. Register for the event in the church lobby
 				</detail>
 				<ministries>
 					<ministry id="marriage"/>
@@ -76,7 +76,7 @@
 				<title>Worship Community Auditions</title>
 				<shortnote/>
 				<detail>
-					<text>Please call the church office to pick up your audition packet.</text>
+					Please call the church office to pick up your audition packet.
 				</detail>
 				<ministries>
 					<ministry id="worshipcommunity"/>
@@ -88,7 +88,7 @@
 				<title>Corpus Christi Outreach</title>
 				<shortnote/>
 				<detail>
-					<text>Please call the church office for more information.</text>
+					Please call the church office for more information.
 				</detail>
 				<ministries>
 					<ministry id="frontline"/>
@@ -100,7 +100,7 @@
 				<title>Scopes Trial Outreach</title>
 				<shortnote/>
 				<detail>
-					<text>Please call the church office for more information.</text>
+					Please call the church office for more information.
 				</detail>
 				<ministries>
 					<ministry id="frontline"/>
@@ -112,7 +112,7 @@
 				<title>Frontline Retreat</title>
 				<shortnote/>
 				<detail>
-					<text>Please call the church office for more information.</text>
+					Please call the church office for more information.
 				</detail>
 				<ministries>
 					<ministry id="frontline"/>
@@ -124,7 +124,7 @@
 				<title>Family Camp</title>
 				<shortnote/>
 				<detail>
-					<text>Family Camp is a camping weekend designed to fellowship with other families from church with lots of fun, planned activities and just kick around free time with our kids.  Look forward to campfire worship and smores!  Call John Adams for details-512) 834-0173</text>
+					Family Camp is a camping weekend designed to fellowship with other families from church with lots of fun, planned activities and just kick around free time with our kids.  Look forward to campfire worship and smores!  Call John Adams for details-512) 834-0173
 				</detail>
 				<ministries>
 					<ministry id="ydc"/>
@@ -136,7 +136,7 @@
 				<title>Vacation Bible School</title>
 				<shortnote/>
 				<detail>
-					<text>Vacation Bible School is offered both day and eve sessions from June 24-28th. We are going to "visit" CAMP LOGOS this year and have lots of exciting camp adventures awaiting your children ages 4-12.  This event is free.  Invite your friends and be prepared to have a great time with a special Bible lesson each day that is supported with all kinds of activities.  Our last day will include Parent Nite with bounce rides and live horses and a cookout!  Call Kerry Schroeder for details 512) 219-7028.</text>
+					Vacation Bible School is offered both day and eve sessions from June 24-28th. We are going to "visit" CAMP LOGOS this year and have lots of exciting camp adventures awaiting your children ages 4-12.  This event is free.  Invite your friends and be prepared to have a great time with a special Bible lesson each day that is supported with all kinds of activities.  Our last day will include Parent Nite with bounce rides and live horses and a cookout!  Call Kerry Schroeder for details 512) 219-7028.
 				</detail>
 				<ministries>
 					<ministry id="ydc"/>
@@ -148,7 +148,7 @@
 				<title>Children's Ministry Conference</title>
 				<shortnote/>
 				<detail>
-					<text>We are offering a conference for any person working with children in a church setting or even parents.  The conference will include special speakers, a conference manual, and 4 meals shared together on site as well as an abundance of workshops that you can choose from to enhance your ministry or parent skills.  Registration is open now. The event cost is $45.00 and will be held on July 26, from 10am-9pm and July 27 from 9am-4pm.  We are inviting churches locally as well as churches from several other mid-western states.  For more information call Donna Cano at (512) 255-7756.</text>
+					We are offering a conference for any person working with children in a church setting or even parents.  The conference will include special speakers, a conference manual, and 4 meals shared together on site as well as an abundance of workshops that you can choose from to enhance your ministry or parent skills.  Registration is open now. The event cost is $45.00 and will be held on July 26, from 10am-9pm and July 27 from 9am-4pm.  We are inviting churches locally as well as churches from several other mid-western states.  For more information call Donna Cano at (512) 255-7756.
 				</detail>
 				<ministries>
 					<ministry id="ydc"/>
@@ -160,7 +160,7 @@
 				<title>Children's Ministry Conference</title>
 				<shortnote/>
 				<detail>
-					<text>We are offering a conference for any person working with children in a church setting or even parents.  The conference will include special speakers, a conference manual, and 4 meals shared together on site as well as an abundance of workshops that you can choose from to enhance your ministry or parent skills.  Registration is open now. The event cost is $45.00 and will be held on July 26, from 10am-9pm and July 27 from 9am-4pm.  We are inviting churches locally as well as churches from several other mid-western states.  For more information call Donna Cano at (512) 255-7756.</text>
+					We are offering a conference for any person working with children in a church setting or even parents.  The conference will include special speakers, a conference manual, and 4 meals shared together on site as well as an abundance of workshops that you can choose from to enhance your ministry or parent skills.  Registration is open now. The event cost is $45.00 and will be held on July 26, from 10am-9pm and July 27 from 9am-4pm.  We are inviting churches locally as well as churches from several other mid-western states.  For more information call Donna Cano at (512) 255-7756.
 				</detail>
 				<ministries>
 					<ministry id="ydc"/>
@@ -172,7 +172,7 @@
 				<title>Live Music - Paul Finley</title>
 				<shortnote/>
 				<detail>
-					<text>Stop by for live music!</text>
+					Stop by for live music!
 				</detail>
 				<ministries>
 					<ministry id="coffee"/>
@@ -184,7 +184,7 @@
 				<title>Live Music - Ten Thirty-One</title>
 				<shortnote/>
 				<detail>
-					<text>Stop by for live music!</text>
+					Stop by for live music!
 				</detail>
 				<ministries>
 					<ministry id="coffee"/>

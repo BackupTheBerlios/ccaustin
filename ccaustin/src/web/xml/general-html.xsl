@@ -14,7 +14,7 @@
 	When a new tag is needed, consider using its HTML equivalent if its name and format is common english. 
 	(e.g. <a/> is not really anything meaningful for the average person, but <link/> is)
 	
-	$Id: general-html.xsl,v 1.7 2002/05/23 17:57:38 javajames27 Exp $
+	$Id: general-html.xsl,v 1.8 2002/05/23 18:11:47 javajames27 Exp $
 -->
 
 
@@ -355,10 +355,10 @@
 	
 		NONE
 		
-	Processes Subtags: No
+	Processes Subtags: Yes
 -->
 <xsl:template match="item">
-	<li><xsl:value-of select="text()"/></li>
+	<li><xsl:apply-templates select="*|text()"/></li>
 </xsl:template>
 <!-- 
 	 ============================
