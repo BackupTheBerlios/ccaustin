@@ -3810,14 +3810,22 @@
 <audio>bibleoverview/66-rev-08.wma</audio> 
 <passageref>http://www.blueletterbible.org/kjv/Rev/Rev008.html#top</passageref> 
 </message>
-<message date="20041013" service="sunday" category="misc">
+<message date="20041013" service="midweek" category="misc">
 <seriestitle>Guest Speaker</seriestitle>
 <title>Paul Kemp</title>
 <passage></passage>
 <tape>GS101304</tape>
 <audio>guestspeaker/pkemp101304.wma</audio>
 <passageref></passageref>
-</message>                        
+</message> 
+<message date="20041020" service="midweek" category="misc">
+<seriestitle>Guest Speaker</seriestitle>
+<title>David Reynolds</title>
+<passage></passage>
+<tape>GS102004</tape>
+<audio>guestspeaker/dreynolds102004.wma</audio>
+<passageref></passageref>
+</message>                       
     	<message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
 		<title>The Big Question</title>
@@ -10124,6 +10132,14 @@
 	<tape>GS101704</tape>
 	<audio>guestspeaker/ddavis101704.wma</audio>
 	<passageref></passageref>
+	</message>
+	<message date="20041024" service="sunday" category="topical series"> 
+	<seriestitle>Ten</seriestitle> 
+	<title>Ten Commandments - Raise Great Kids</title> 
+	<passage>Exodus 20:12</passage> 
+	<tape>TS102404</tape> 
+	<audio>topicseries/ten/tenfive.wma</audio> 
+	<passageref>http://www.blueletterbible.org/kjv/Exd/Exd020.html#top</passageref> 
 	</message>
 
 </messagecatalog>
