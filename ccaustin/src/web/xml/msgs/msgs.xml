@@ -3328,6 +3328,14 @@
 		<audio>bibleoverview/45-rom-09.ram</audio>
 		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom009.html#top</passageref>
 	</message>
+	<message date="20030326" service="midweek" category="overview">
+		<seriestitle>Romans</seriestitle>
+		<title></title>
+		<passage>Romans 12</passage>
+		<tape>BO1309</tape>
+		<audio>bibleoverview/45-rom-12.ram</audio>
+		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom012.html#top</passageref>
+	</message>
 
 
     <message date="19940522" service="sunday" category="topical series">
@@ -8979,5 +8987,12 @@
 		<audio>42-luk/42-luk-06-01.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk006.html#top</passageref>
 	</message>
-
+	<message date="20030330" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>The Importance of Attitude</title>
+		<passage>Luke 6:12-26</passage>
+		<tape>BS033003</tape>
+		<audio>42-luk/42-luk-06-12.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk006.html#top</passageref>
+	</message>
 </messagecatalog>
