@@ -30,7 +30,7 @@
   <property name="build.web.dir" value="${build.dir}/cam-docs"/>
   <property name="build.web.tmp.dir" value="${build.dir}/temp"/>
   <property name="build.tmpgen.dir" value="${build.dir}/_tmpgen"/>
-  <property name="dist.dir" value="${home}/dist"/>
+  <property name="dist.dir" value="${home}/cam-dist"/>
   <property name="dist.web.dir" value="${dist.dir}/web"/>
   <property name="autogen.build.web" value="${src.xml.dir}/autogen-build.xml"/>
   <!-- Give user a chance to override without editing this file 
