@@ -42,6 +42,7 @@
     <echo message="...........Cleaning project directories..........."/>
     <delete dir="${build.dir}"/>
     <delete dir="${build.tmpgen.dir}"/>
+    <delete dir="${dist.dir}"/>
   </target>
   
   <!-- =================================================================== -->
@@ -106,8 +107,8 @@
     <copy todir="${build.web.dir}/css">
       <fileset dir="${src.css.dir}"/>
     </copy>
-    <copy todir="${build.web.dir}">
-      <fileset dir="${src.html.dir}"/>
+    <copy todir="${build.web.dir}/conferences">
+      <fileset dir="${src.html.dir}/conferences"/>
     </copy>
   </target>
   
@@ -125,8 +126,8 @@
       </filterset>
     </copy>
     <!-- this step handles the conference ppoint exports -->
-    <copy todir="${dist.web.dir}" overwrite="true">
-      <fileset dir="${build.web.dir}">
+    <copy todir="${dist.web.dir}/conferences" overwrite="true">
+      <fileset dir="${build.web.dir}/conferences">
 	<include name="**/*.gif"/>
 	<include name="**/*.jpg"/>
 	<include name="**/*.xml"/>
