@@ -13,7 +13,7 @@
 	A variant of this file may offer more search engine or accessibility-friendly
 	navigation and less Javascript features for older browsers. 
 	
-	$Id: general-ui.xsl,v 1.27 2002/07/11 13:47:20 javajames27 Exp $
+	$Id: general-ui.xsl,v 1.28 2002/07/11 16:47:49 javajames27 Exp $
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html" indent="yes"/>
@@ -52,7 +52,7 @@
 				<xsl:apply-templates select="content/script"/>
 				<!-- allow our pages to include custom scripting -->
 			</head>
-			<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#2544a9" background="#FFFFFF">
+			<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#2544a9" bgcolor="#FFFFFF">
 				<script language="JavaScript1.2">mmLoadMenus();</script>
 				<xsl:if test="content/@onUnload != '' ">
 					<xsl:attribute name="onUnload"><xsl:value-of select="content/@onUnload"/></xsl:attribute>
