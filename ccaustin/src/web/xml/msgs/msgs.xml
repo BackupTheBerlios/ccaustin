@@ -3360,6 +3360,22 @@
 		<audio>bibleoverview/46-ico-01.ram</audio>
 		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr001.html#top</passageref>
 	</message>
+	<message date="20030423" service="midweek" category="overview">
+		<seriestitle>I Corinthians</seriestitle>
+		<title></title>
+		<passage>I Corinthians 3-4</passage>
+		<tape>BO1313</tape>
+		<audio>bibleoverview/46-ico-03.ram</audio>
+		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr003.html#top</passageref>
+	</message>
+	<message date="20030430" service="midweek" category="overview">
+		<seriestitle>I Corinthians</seriestitle>
+		<title></title>
+		<passage>I Corinthians 5-6</passage>
+		<tape>BO1314</tape>
+		<audio>bibleoverview/46-ico-05.ram</audio>
+		<passageref>http://www.blueleterbible.org/kjv/1Cr/1Cr005.html#top</passageref>
+	</message>
 
     <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
