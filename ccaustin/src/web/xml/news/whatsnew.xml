@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.92 2004/06/22 17:48:22 tie Exp $
+	$Id: whatsnew.xml,v 1.93 2004/06/22 21:17:23 premav Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -427,10 +427,10 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		<title>Free Building Momentum CD</title>
 		<detail>Pick up an "Audio Study Guide: What the Bible Says About Giving" at the Building Momentum Info Wall in the lobby, or access the guide by going to <link href="http://www.calvaryaustin.org/buildingmomentum">www.calvaryaustin.org/buildingmomentum</link> online.</detail>
 	</news-item>
-	   <news-item id="129" date="20040530" expires="20041015" showOnHomepage="false">
+	   <!--news-item id="129" date="20040530" expires="20041015" showOnHomepage="false">
 		<title>Men's Retreat 2004</title>
 		<detail>Join us at Camp Tejas on Oct. 15-16 for the 2004 Men's Retreat. Pastor Art Murillo of The Way Christian Church in Chula Vista, California, will be hosting this event. You can find information in the church lobby or at the Men's Ministry web page <link href="http://www.calvaryaustin.org/ministries/men.html">www.calvaryaustin.org/ministries/men.html</link> online.</detail>
-		</news-item>
+		</news-item-->
 	   <news-item id="130" date="20040604" expires="20040718" showOnHomepage="true">
 		   <title>Fan Drive</title>
 		   <detail>Don't forget to bring your fans for the 4th annual fan drive benefiting the elderly. Calvary Singles will collect the fans until July 17th.</detail>
@@ -462,6 +462,14 @@ internet or check out the audio archive on our web site.</detail></news-item>
 		<news-item id="137" date="20040622" expires="20050622" showOnHomepage="true">
 		   <title>Calvary Austin Music Web Site</title>
 		   <detail>Please visit the <link href="http://www.calvaryaustin.org/buildingmomentum/index.html">Calvary Austin Music</link> web site . You can get the latest information about the newest worhsip team CD release, "I Will", as well as information about TV and radio appearances. Go check it out!</detail>
+		</news-item>
+	   <news-item id="138" date="20040622" expires="20040731" showOnHomepage="true">
+		   <title>Sip on This</title>
+		   <detail>Coffee Creator is in need of volunteers to serve in various capacities. To satisfy further cravings contact Debbie at 719-4554 or stop by Coffee Creator.</detail>
+		</news-item>
+	   <news-item id="139" date="20040622" expires="20040731" showOnHomepage="true">
+		   <title>Administrative Ministry Volunteers Sought </title>
+		   <detail>If you have a heart to serve the Lord, the staff, and the church body, please call Katherine at 719-4667.</detail>
 		</news-item>
 <!--
 -->
