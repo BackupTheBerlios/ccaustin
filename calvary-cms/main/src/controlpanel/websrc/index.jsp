@@ -8,4 +8,4 @@
 <%@ taglib uri="/WEB-INF/display.tld"          prefix="display" %>
 <%@ taglib uri="/WEB-INF/calvary.tld"          prefix="calvary" %>
 
-<logic:forward name="index"/>
+<logic:forward name="dashboardFwd"/>

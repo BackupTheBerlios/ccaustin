@@ -15,9 +15,9 @@
     <put name="body" value=""/>
   </definition>
   
-  <definition name="homepage" extends="masterlayout">
-    <put name="title" value="Control Panel Home"/>
-    <put name="body" value="/index_tile.jsp"/>
+  <definition name="dashboard" extends="masterlayout">
+    <put name="title" value="Dashboard"/>
+    <put name="body" value="/dashboard/dashboard_tile.jsp"/>
   </definition>
   
   <definition name="browser" extends="masterlayout">

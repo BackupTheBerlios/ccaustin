@@ -16,14 +16,16 @@
 
    Even Better (TM) Color Palette (pale blues):
 
-   Dark Blue:    #
-   Light Blue:   #
-   Lighest Blue: #
-
+   Darkest Blue:    #5B7F93
+   Dark Blue:       #7B9CAE
+   Light Blue:      #C4D3DB
+   Lighter Blue:    #DEE7EB
+   Lighest Blue:    #F5F5F5
+   Maroon:          #821400
 */
 
 body {
-	background-color: #0E3184;
+	background-color: #FFFFFF;
 	color: #000000;
 	font-family: sans-serif;
 	font-size: 10pt;
@@ -32,11 +34,14 @@ body {
 }
 
 .header {
-    background-color: #6A6EA6
+    background-color: #ffffff
+    font-weight: bold;
+    font-size: 28pt;
+    color: #5B7F93;
 }
 
 .footer {
-    background-color: #B2C7F7;
+    background-color: #7B9CAE;
     text-align: center;
 }
 
@@ -46,8 +51,7 @@ body {
     font-weight: bolder;
     font-size: 25pt;
     color: white;
-    font-family: 'times new roman', arial;
-    background-color: #6A6EA6
+    background-color: #F5F5F5
 }
 .tableFloating
 {
@@ -63,7 +67,13 @@ body {
 }
 .tableFloatingHeader
 {
-    background-color: white
+    background-color: #C4D3DB;
+    color: white;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
 }
 .tableLayout
 {
@@ -79,9 +89,8 @@ body {
     border-top: #ffffff 1px;
     font-size: 10pt;
     border-left: #ffffff 1px;
-    color: gray;
+    color: black;
     border-bottom: #ffffff 1px;
-    font-family: arial;
     background-color: white;
     text-align: left;
     text-decoration: none
@@ -94,14 +103,13 @@ body {
     border-left: #ffffff 1px;
     color: black;
     border-bottom: #ffffff 1px;
-    font-family: arial;
-    background-color: gold;
+    background-color: #7B9CAE;
     text-align: left;
     text-decoration: none
 }
 .navButtonBar
 {
-    background-color: #B2C7F7;
+    background-color: #7B9CAE;
 }
 .navButtonBorder
 {
@@ -115,27 +123,23 @@ a.navButtonLink
 {
     font-size: 8pt;
     color: white;
-    font-family: verdana, arial;
     text-decoration: none
 }
 a.navButtonLink:hover
 {
     font-size: 8pt;
     color: yellow;
-    font-family: verdana, arial;
     text-decoration: none;
 }
 a.navButtonFoo:hover
 {
     font-size: 10pt;
     color: #3399ff;
-    font-family: arial, verdana
 }
 a.navButtonFoo
 {
     font-size: 10pt;
     color: blue;
-    font-family: arial, verdana
 }
 a.navExternalLink
 {
@@ -143,7 +147,6 @@ a.navExternalLink
     font-size: 12pt;
     text-transform: none;
     color: gainsboro;
-    font-family: 'times new roman';
     text-decoration: none
 }
 a.navExternalLink:hover
@@ -151,13 +154,11 @@ a.navExternalLink:hover
     font-weight: bold;
     font-size: 12pt;
     color: white;
-    font-family: 'times new roman';
     text-decoration: none
 }
 
 
 .headline {
-	font-family: sans-serif;
 	margin: 0cm;
 }
 
@@ -176,7 +177,6 @@ a.navExternalLink:hover
 }
 .panelMenuItem {
 	color: #cccccc;
-	font-family: sans-serif;
 	font-size: 9pt;
 	margin: 5px;
 	padding: 1px;
@@ -184,7 +184,6 @@ a.navExternalLink:hover
 }
 .panelMenuItem a {
 	color: #cccccc;
-	font-family: sans-serif;
 	font-size: 9pt;
 	margin: 5px;
 	padding: 1px;
@@ -193,7 +192,6 @@ a.navExternalLink:hover
 .panelMenuItem a:hover {
 	background-color: #cccccc;
 	color: #023264;
-	font-family: sans-serif;
 	font-size: 9pt;
 	text-decoration: none;
 }
@@ -211,7 +209,6 @@ a.navExternalLink:hover
 }
 .contentText {
 	color: #000000;
-	font-family: sans-serif;
 	font-size: 9pt;
 	font-style: normal;
 	font-weight: normal;
@@ -222,18 +219,15 @@ a.navExternalLink:hover
 	background-color: #ffffee;
 	border-color: #dddddd;
 	border-width: 0px;
-	font-family: sans-serif;
 	font-size: 9pt;
 	padding: 0cm;
 }
 .listAction {
-	font-family: sans-serif;
 	font-size: 10pt;
 	margin: 5px;
 	padding: 5px;
 }
 .listAction:hover {
-	font-family: sans-serif;
 	font-size: 10pt;
 	margin: 5px;
 	padding: 5px;
@@ -244,14 +238,12 @@ a.navExternalLink:hover
 	border-width: 1px;
 	border-style: outset;
 	color: #555555;
-	font-family: sans-serif;
 	font-size: 8pt;
 	font-weight: normal;
 	font-style: italic;
 	padding: 0.1cm;
 }
 .listCell {
-	font-family: sans-serif;
 	font-size: 9pt;
 	padding: 5px;
 }
@@ -261,26 +253,23 @@ a.navExternalLink:hover
 	border-color: #dddddd;
 	border-width: 1px;
 	border-style: outset;
-	font-family: sans-serif;
 	font-size: 9pt;
 	padding: 0.25cm;
 }
 .dialogLabel {
 	color: #555576;
-	font-family: sans-serif;
 	font-size: 9pt;
 }
 
 .error {
 	color: red;
-	font-family: sans-serif;
 	font-size: 9pt;
 }
 
 
 tr.tableRowHeader {
   font-weight: bold;
-  background-color: #ffcc00;
+  background-color: #C4D3DB;
 }
 td.tableCell_header {
   font-weight: bold;
@@ -297,10 +286,10 @@ a.tableCellHeader:hover {
   color: black;
 }
 tr.tableRowOdd {
-  background-color: #ffffff
+  background-color: #F5F5F5
 }
 tr.tableRowEven {
-  background-color: #ffeeaa
+  background-color: #DEE7EB
 }
 td.tableCell {
 }
@@ -340,19 +329,16 @@ pre.viewerName {
     font-weight: bold;
     font-size: 20pt;
     color: black;
-    font-family: arial, 'verdana ref', verdana
 }
 .contentHead2
 {
     font-weight: bold;
     font-size: 12pt;
-    color: black;
-    font-family: 'times new roman', arial, verdana
+    color: #821400;
 }
 .miscnormal
 {
     font-weight: normal;
     font-size: 10pt;
     color: gray;
-    font-family: 'verdana ref', verdana
 }

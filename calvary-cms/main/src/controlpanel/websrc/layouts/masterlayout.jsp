@@ -14,24 +14,40 @@
 </head>
 
 <body marginheight=0 marginwidth=0 topmargin=0 leftmargin=0>
+
+<!-- Outer table to make it fill the browser screen -->
+<table width="100%" height="100%" cellpadding=0 cellspacing=0>
+
+<!-- outer table row begin -->  
+<tr>
+<td valign="top" align="left" height="1">
+  
 <!-- =============================== BEGIN TITLEBAR ================================ -->
 <table width=100% border=0 cellpadding=0 cellspacing=0>
-<tr><td width=85% align=left>
-<!-- <img src='<html:rewrite page="/images/CCLogo-xsmall.jpg"/>' width="125" height="101"/> -->&nbsp;
-<td width=5%>
-</td></tr>
+<tr class="header"><td width="125" align="left">
+<img src='<html:rewrite page="/images/CCLogo-xsmall.jpg"/>' width="125" height="101"/></td>
+<td width="5%%">&nbsp;</td>
+<td width="89%"><p>Control Panel</p></td>
+<td width="5%">&nbsp;</td></tr>
 </table>
+
+</td>
+</tr>
+<!-- outer table row end -->  
+<!-- outer table row begin -->  
+<tr>
+<td valign="top" align="left" height="1">
 
 <!-- =============================== BEGIN NAVBAR ================================ -->
 <table border=0 width=100% cellpadding=0 cellspacing=0>
 <tr class="navButtonBar" valign="center">
 <!-- LINK 1 -->
 <td class="navButtonBorder" nowrap="true">
-<html:link action="/browser" style="navButtonLink">Manage Web Site</html:link>
+<html:link action="/dashboard" styleClass="navButtonLink">My Dashboard</html:link>
 </td>
 <!-- LINK 2 -->
 <td class="navButtonBorder" nowrap="true">
-<a href="link2.html" class="navButtonLink">LINK 2</a>
+<html:link action="/browser" styleClass="navButtonLink">Manage Web Site</html:link>
 </td>
 <!-- LINK 3 -->
 <td class="navButtonBorder" nowrap="true">
@@ -53,6 +69,13 @@
 <td class="navButtonBorder" width=90%></td></tr></table>
 <!-- =============================== END NAVBAR ================================ -->
 
+</td>
+</tr>
+<!-- outer table row end -->  
+<!-- outer table row begin -->  
+<tr>
+<td valign="top" align="left" height="99%">
+
 <table width=100% cellpadding=0 cellspacing=0>
 <tr>
 <!-- =============================== BEGIN LEFT COLUMN ================================ -->
@@ -60,73 +83,43 @@
 <center>
 <br><br>
 <table width=80% cellpadding=0 cellspacing=0 class="tableFloating">
-<tr><td width=100% class="tableFloatingHeader">
-<img src='<html:rewrite page="/images/subhead1.jpg"/>' width="184" height="20"/>
-</td></tr>
-<!-- LINK 1 -->
-<tr><a href="browser.do"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='l1a';">
-&nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/dot.jpg"/>' height="10" width="10"/>&nbsp;&nbsp;
-Browse Web Pages
-</td></a></tr>
-<!-- LINK 2 -->
-<tr><a href="link2.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='l1a';">
-&nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/dot.jpg"/>' height="10" width="10"/>&nbsp;&nbsp;
-LINK 2
-</td></a></tr>
-<!-- LINK 3 -->
-<tr><a href="link3.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='l1a';">
-&nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/dot.jpg"/>' height="10" width="10"/>&nbsp;&nbsp;
-LINK 3
-</td></a></tr>
-<!-- LINK 4 -->
-<tr><a href="link4.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='l1a';">
-&nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/dot.jpg"/>' height="10" width="10"/>&nbsp;&nbsp;
-LINK 4
-</td></a></tr>
-<!-- SUBHEADING BREAK -->
-<tr><td width=100% height=10>
-</td></tr>
+<!-- SUBHEADING BREAK
+<tr class="tableFloatingHeader"><td width=100% height=10>&nbsp;</td></tr> -->
 <!-- SUBHEADING 2 -->
-<tr><td width=100% class="tableFloatingHeader">
-<img src='<html:rewrite page="/images/subhead2.jpg"/>' width="184" height="20"/>
-</td></tr>
+<tr><td width=100% class="tableFloatingHeader">How do I....?</td></tr>
 <!-- LINK 5 -->
-<tr><a href="link5.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='l1a';">
-&nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/dot.jpg"/>' height="10" width="10"/>&nbsp;&nbsp;
+<tr><a href="link5.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='tableFloatingLink';">
+&nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/bullet.gif"/>' height="9" width="9"/>&nbsp;&nbsp;
 LINK 5
 </td></a></tr>
 <!-- LINK 6 -->
-<tr><a href="link6.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='l1a';">
-&nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/dot.jpg"/>' height="10" width="10"/>&nbsp;&nbsp;
+<tr><a href="link6.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='tableFloatingLink';">
+&nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/bullet.gif"/>' height="9" width="9"/>&nbsp;&nbsp;
 LINK 6
 </td></a></tr>
 <!-- LINK 7 -->
-<tr><a href="link7.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='l1a';">
-&nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/dot.jpg"/>' height="10" width="10"/>&nbsp;&nbsp;
+<tr><a href="link7.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='tableFloatingLink';">
+&nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/bullet.gif"/>' height="9" width="9"/>&nbsp;&nbsp;
 LINK 7
 </td></a></tr>
 <!-- LINK 8 -->
-<tr><a href="link8.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='l1a';">
-&nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/dot.jpg"/>' height="10" width="10"/>&nbsp;&nbsp;
+<tr><a href="link8.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='tableFloatingLink';">
+&nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/bullet.gif"/>' height="9" width="9"/>&nbsp;&nbsp;
 LINK 8
 </td></a></tr>
 <!-- LINK 9 -->
-<tr><a href="link9.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='l1a';">
-&nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/dot.jpg"/>' height="10" width="10"/>&nbsp;&nbsp;
+<tr><a href="link9.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='tableFloatingLink';">
+&nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/bullet.gif"/>' height="9" width="9"/>&nbsp;&nbsp;
 LINK 9
 </td></a></tr>
 <!-- LINK 10-->
-<tr><a href="link10.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='l1a';">
-&nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/dot.jpg"/>' height="10" width="10"/>&nbsp;&nbsp;
+<tr><a href="link10.html"><td width=100% height=20 class="tableFloatingLink" onmouseover="this.className='tableFloatingLinkSelect';" onmouseout="this.className='tableFloatingLink';">
+&nbsp;&nbsp;&nbsp;<img src='<html:rewrite page="/images/bullet.gif"/>' height="9" width="9"/>&nbsp;&nbsp;
 LINK 10
 </td></a></tr>
 <!-- SUBHEADING BREAK -->
 <tr class="tableLayout"><td width=100% height=10>
 </td></tr>
-<tr>
-<td class="tableShadow" height=5></tr>
-<tr>
-<td  height=10 class="navButtonBorder"></td></tr>
 </table>
 </center>
 </td>
@@ -148,9 +141,22 @@ LINK 10
 </td>
 </table>
 
+</td>
+</tr>
+<!-- outer table row end -->  
+<!-- outer table row begin -->  
+<tr>
+<td valign="top" align="left" height="1">
+
 <table width=100% cellpadding=0 cellspacing=0 class="tableLayout">
     <tr><td class="footer"><a href="http://www.calvaryaustin.org" class="navExternalLink">Calvary Chapel of Austin</a></td></tr>
 </table>
-    
+
+</td>
+</tr>
+<!-- outer table row end -->  
+<!-- outer table end -->  
+</table>
+
 </body>
 </html:html>
