@@ -6,7 +6,7 @@
         The sitemap contains the structure of the entire web site, and is used to drive
         the auto-generated scripts for generating the web site HTML from XML.
         
-        $Id: sitemap.xml,v 1.52 2004/03/09 03:27:56 gregk Exp $
+        $Id: sitemap.xml,v 1.53 2004/04/07 17:49:38 gregk Exp $
         
         hidden="true" prevents the page from showing on the sitemap.
         
@@ -261,6 +261,7 @@
           hidden="true">
       <title>2004 Mid-South Worship Conference Schedule</title>
     </page>
+<!--
     <page datafile="/buildingmomentum.xml"
           template="/templates/default.xsl"
           layout="/layouts/default.xsl"
@@ -269,6 +270,7 @@
           hidden="true">
       <title>Building Momemtum Campaign</title>
     </page>
+-->
   </section>
   
   <section name="media" basedir="/media">
@@ -949,6 +951,18 @@
           html="/calvarykids/home.html">
       <title>Calvary Kids Home</title>
       <description>Calvary Kids Home</description>
+    </page>
+  </section>
+  <section name="BuildingMo" basedir="/buildingmomentum">
+    <title>Building Momentum</title>
+    <description>Building Momentum Page</description>
+    <page datafile="/index.xml"
+          template="/templates/default.xsl"
+          layout="/layouts/default.xsl"
+          renderer="/renderers/html.xsl"
+          html="/buildingmomentum/index.html">
+      <title>Building Momentum Page</title>
+      <description>Learn more about Building Momentum</description>
     </page>
   </section>
 

@@ -47,7 +47,7 @@ runSlideShow()
 function slideLink()
 {
   if (whichimage==0)
-	window.location="../events/buildingmomentum.html"
+	window.location="../buildingmomentum/index.html"
   else if (whichimage==1)
         window.location="http://www.calvaryaustinmusic.org"
   else if(whichimage==2)

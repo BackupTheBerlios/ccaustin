@@ -4,7 +4,7 @@
      
      Homepage custom renderer
 
-     $Id: homepage.xsl,v 1.14 2004/03/31 18:00:24 gregk Exp $
+     $Id: homepage.xsl,v 1.15 2004/04/07 17:50:37 gregk Exp $
      
 -->       
 
@@ -27,7 +27,7 @@
           <xsl:if test="banner">
 			<tr>
 <!--
-                        <td  align="left" valign="top" id="MU" height="280" width="800"><a href="../events/buildingmomentum.html"><img border="0" alt="click here to learn more" src="../images/events/buildmobanner.jpg" name="SlideShow" height="280" width="800"></img></a><br/>
+                        <td  align="left" valign="top" id="MU" height="280" width="800"><a href="../buildingmomentum/index.html"><img border="0" alt="click here to learn more" src="../images/events/buildmobanner.jpg" name="SlideShow" height="280" width="800"></img></a><br/>
                         </td>
 -->
 <td  align="left" valign="top" id="MU" height="280" width="800"><a href="javascript:slideLink()"><img border="0" alt="click here to learn more" src="../images/events/buildmobanner.jpg" name="SlideShow" height="280" width="800"></img></a><br/>
