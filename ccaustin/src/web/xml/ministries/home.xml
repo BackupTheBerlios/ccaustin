@@ -3,7 +3,7 @@
 
 	Home Fellowship Ministry - The ministry and its detail
 	
-	$Id: home.xml,v 1.5 2002/05/23 00:29:36 javajames27 Exp $
+	$Id: home.xml,v 1.6 2002/07/22 17:03:14 javajames27 Exp $
 		
 -->
 <content title="Home Fellowship Ministry" onUnload="hfnWindow.close()">
@@ -22,7 +22,6 @@
 
 		<map name="hfnmap">
 		  <area shape="circle" coords="392, 60, 12" href="javascript:hfnWin(1)" alt="Meets at Friday, 7:30 pm"/>
-		  <area shape="circle" coords="125,246, 12" href="javascript:hfnWin(3)" alt="Meets at Friday, 7:00 pm"/>
 		  <area shape="circle" coords="304,91, 12" href="javascript:hfnWin(5)" alt="Meets at Friday, 7:30 pm"/>
 		  <area shape="circle" coords="271, 31, 12" href="javascript:hfnWin(6)" alt="Meets at Friday, 7:30 pm"/>
 		  <area shape="circle" coords="356,342, 12" href="javascript:hfnWin(7)" alt="Meets at Sunday, 6:30 pm"/>
