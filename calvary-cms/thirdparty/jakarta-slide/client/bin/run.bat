@@ -2,7 +2,7 @@
 rem ---------------------------------------------------------------------------
 rem run.bat - Start Script for the Slide Client
 rem
-rem $Id: run.bat,v 1.1 2003/02/12 22:08:36 javajames27 Exp $
+rem $Id: run.bat,v 1.2 2003/05/17 00:24:36 javajames27 Exp $
 rem ---------------------------------------------------------------------------
 
 set _SLIDE_HOME=%SLIDE_HOME%
@@ -53,7 +53,6 @@ if not exist "%SLIDE_HOME%\client\lib\slide-client.jar" goto getHome
 :binaryDist
 rem It's for the Slide binary distribution
 set CP=%CP%;%SLIDE_HOME%\client\lib\slide-client.jar
-set CP=%CP%;%SLIDE_HOME%\client\lib\slide-swing.jar
 set CP=%CP%;%SLIDE_HOME%\client\lib\slide-webdavlib.jar
 set CP=%CP%;%SLIDE_HOME%\client\lib\commons-httpclient.jar
 set CP=%CP%;%SLIDE_HOME%\client\lib\antlr.jar
@@ -83,7 +82,6 @@ goto execution
 
 :execution
 set MAINCLASS=org.apache.webdav.cmd.Slide
-rem set MAINCLASS=org.apache.webdav.ui.WebdavSystemView
 java -classpath %CP% %MAINCLASS% %1 %2 %3 %4 %5 %6 %7 %8 %9
 
 :cleanup
