@@ -3545,7 +3545,16 @@
 		<audio>guestspeaker/bgarrett1003.ram</audio>
 		<passageref></passageref>
 	</message>
-    <message date="19940522" service="sunday" category="topical series">
+	<message date="20031105" service="midweek" category="misc">
+		<seriestitle>Guest Speaker</seriestitle>
+		<title>Marriage - Sandy Adams</title>
+		<passage>Genesis 29</passage>
+		<tape>GS110503</tape>
+		<audio>guestspeaker/sadams1103.ram</audio>
+		<passageref></passageref>
+	</message>
+
+    	<message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
 		<title>The Big Question</title>
 		<passage>Matthew 24:1-3</passage>
@@ -4794,7 +4803,6 @@
 		<audio>worship2003/hdavisfive.ram</audio>
 		<passageref></passageref>
 	</message>
-
 	<message date="20021017" service="other" category="topical series">
 		<seriestitle>Pastor's Conference 2002</seriestitle>
 		<title>Sandy Adams - Session I - Job for the job</title>
