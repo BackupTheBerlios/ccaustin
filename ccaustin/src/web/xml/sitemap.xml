@@ -6,7 +6,7 @@
 	The sitemap contains the structure of the entire web site, and is used to drive
 	the auto-generated scripts for generating the web site HTML from XML.
 	
-	$Id: sitemap.xml,v 1.13 2002/07/11 13:55:44 javajames27 Exp $
+	$Id: sitemap.xml,v 1.14 2002/07/11 19:54:31 javajames27 Exp $
 	
 	hidden="true" prevents the page from showing on the sitemap.
 	
@@ -139,13 +139,14 @@
 			<title>New Believer's Ministry</title>
 		</page>
 		<page datafile="/newlife.xml" style="/ministry-home.xsl" html="/ministries/newlife.html">
-			<title>Prayer Room (New Life) Ministry</title>
+			<title>Prayer Room Ministry</title>
+			<description>Prayer Room (New Life) Ministry</description>
 		</page>
 		<page datafile="/overhead.xml" style="/ministry-home.xsl" html="/ministries/overhead.html">
 			<title>Overhead/Lights Ministry</title>
 		</page>
 		<page datafile="/prayer.xml" style="/ministry-home.xsl" html="/ministries/prayer.html">
-			<title>Prayer Ministry</title>
+			<title>Prayer Chain Ministry</title>
 		</page>
 		<page datafile="/prison.xml" style="/ministry-home.xsl" html="/ministries/prison.html" exclude="true">
 			<title>Prison Ministry</title>
@@ -168,19 +169,19 @@
 		<page datafile="/women.xml" style="/ministry-home.xsl" html="/ministries/women.html">
 			<title>Women's Ministry</title>
 		</page>
-		<page datafile="/womenstudy.xml" style="/ministry-home.xsl" html="/ministries/womenstudy.html">
+		<page datafile="/womenstudy.xml" style="/ministry-home.xsl" html="/ministries/womenstudy.html" exclude="true">
 			<title>Women's Bible Study Ministry</title>
 		</page>
-		<page datafile="/womenheart.xml" style="/ministry-home.xsl" html="/ministries/womenheart.html">
+		<page datafile="/womenheart.xml" style="/ministry-home.xsl" html="/ministries/womenheart.html" exclude="true">
 			<title>Women's Heart-to-Heart Ministry</title>
 		</page>
-		<page datafile="/womenhelp.xml" style="/ministry-home.xsl" html="/ministries/womenhelp.html">
+		<page datafile="/womenhelp.xml" style="/ministry-home.xsl" html="/ministries/womenhelp.html" exclude="true">
 			<title>Women-to-Women Ministry</title>
 		</page>
 		<page datafile="/worship.xml" style="/ministry-home.xsl" html="/ministries/worship.html">
 			<title>Worship Ministry</title>
 		</page>
-		<page datafile="/worshipcommunity.xml" style="/ministry-home.xsl" html="/ministries/worshipcommunity.html">
+		<page datafile="/worshipcommunity.xml" style="/ministry-home.xsl" html="/ministries/worshipcommunity.html" exclude="true">
 			<title>Worship Community Ministry</title>
 		</page>
 		<page datafile="/youth.xml" style="/ministry-home.xsl" html="/ministries/youth.html">

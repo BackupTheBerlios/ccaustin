@@ -4,7 +4,7 @@
 
 	Dynamic Javascript Menus
 
-	$Id: globalmenu.xsl,v 1.2 2002/07/11 00:15:54 javajames27 Exp $	
+	$Id: globalmenu.xsl,v 1.3 2002/07/11 19:54:31 javajames27 Exp $	
 -->	
 
 <xsl:stylesheet version="1.0" xmlns:xsl
@@ -22,7 +22,7 @@
 <xsl:template match="section">
 	<xsl:variable name="menu_name">menu_<xsl:value-of select="@name"/></xsl:variable>
       <xsl:if test="position() = 1">if (window.<xsl:value-of select="$menu_name"/>) return;</xsl:if>
-	window.<xsl:value-of select="$menu_name"/> = new Menu("root",243,20,"Verdana, Arial, Helvetica, sans-serif",14,"#000000","#ffffff","#ffffff","#000084","left","middle",3,0,1000,-5,7,true,true,true,0,true,true);
+	window.<xsl:value-of select="$menu_name"/> = new Menu("root",200,20,"Verdana, Arial, Helvetica, sans-serif",10,"#000000","#ffffff","#ffffff","#000084","left","middle",3,0,1000,-5,7,true,true,true,0,true,true);
 	  <xsl:for-each select="page[not(@hidden = 'true') and not(@exclude = 'true')]">
 	    <xsl:value-of select="$menu_name"/>.addMenuItem("<xsl:value-of select="title"/>","location='..<xsl:value-of select="@html"/>'");
 	  </xsl:for-each>
