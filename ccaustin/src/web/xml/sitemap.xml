@@ -6,7 +6,7 @@
 	The sitemap contains the structure of the entire web site, and is used to drive
 	the auto-generated scripts for generating the web site HTML from XML.
 	
-	$Id: sitemap.xml,v 1.3 2002/05/28 21:01:26 javajames27 Exp $
+	$Id: sitemap.xml,v 1.4 2002/05/30 01:20:31 javajames27 Exp $
 	
 	hidden="true" prevents the page from showing on the sitemap.
 	
@@ -175,6 +175,9 @@
 	</section>
 	<section name="messages" basedir="/msgs">
 		<title>Audio Messages and Tape Catalog</title>
+		<page datafile="/order.xml" style="/order.xsl" html="/msgs/tapeorder.html">
+			<title>Calvary Continuum Tape Catalog</title>
+		</page>
 		<page datafile="/msgs.xml" style="/msgs-Sunday-cur.xsl" html="/msgs/msgsSundayCur.html">
 			<title>Sunday Messages</title>
 		</page>
@@ -199,22 +202,22 @@
 		<page datafile="/msgs.xml" style="/msgs-Audio-Misc.xsl" html="/msgs/msgsAudioMisc.html">
 			<title>Audio Misc Studies (guests, special messages)</title>
 		</page>
-		<page datafile="/msgs.xml" style="/msgs-Tapes-Overview.xsl" html="/msgs/msgsTapeOverview.html">
+		<page datafile="/msgs.xml" style="/msgs-Tapes-Overview.xsl" html="/msgs/msgsTapesOverview.html">
 			<title>Tape Book Overviews</title>
 		</page>
 		<page datafile="/msgs-categories.xml" style="/msgs-Tapes-categories.xsl" html="/msgs/msgsTapeArchive.html">
 			<title>Tape Categories</title>
 		</page>
-		<page datafile="/msgs.xml" style="/msgs-Tapes-BookStudies.xsl" html="/msgs/msgsTapeBookStudies.html">
+		<page datafile="/msgs.xml" style="/msgs-Tapes-BookStudies.xsl" html="/msgs/msgsTapesBookStudies.html">
 			<title>Tape Book Studies</title>
 		</page>
-		<page datafile="/msgs.xml" style="/msgs-Tapes-TopicalSeries.xsl" html="/msgs/msgsTapeTopicalSeries.html">
+		<page datafile="/msgs.xml" style="/msgs-Tapes-TopicalSeries.xsl" html="/msgs/msgsTapesTopicalSeries.html">
 			<title>Tape Topical Studies</title>
 		</page>
-		<page datafile="/msgs.xml" style="/msgs-Tapes-InDepth.xsl" html="/msgs/msgsTapeInDepth.html">
+		<page datafile="/msgs.xml" style="/msgs-Tapes-InDepth.xsl" html="/msgs/msgsTapesInDepth.html">
 			<title>Tape Book In-Depth Studies</title>
 		</page>
-		<page datafile="/msgs.xml" style="/msgs-Tapes-Misc.xsl" html="/msgs/msgsTapeMisc.html">
+		<page datafile="/msgs.xml" style="/msgs-Tapes-Misc.xsl" html="/msgs/msgsTapesMisc.html">
 			<title>Tape Misc Studies (guests, special messages)</title>
 		</page>
 	</section>

@@ -14,7 +14,7 @@
 	When a new tag is needed, consider using its HTML equivalent if its name and format is common english. 
 	(e.g. <a/> is not really anything meaningful for the average person, but <link/> is)
 	
-	$Id: general-html.xsl,v 1.8 2002/05/23 18:11:47 javajames27 Exp $
+	$Id: general-html.xsl,v 1.9 2002/05/30 01:20:31 javajames27 Exp $
 -->
 
 
@@ -235,7 +235,10 @@
  		  <xsl:attribute name="class">heading</xsl:attribute>
  		  <xsl:attribute name="nowrap">true</xsl:attribute>
 	</xsl:if>
-	<xsl:value-of select="."/></td>
+	<xsl:if test="@align != '' ">
+ 		  <xsl:attribute name="align"><xsl:value-of select="@align"/></xsl:attribute>
+	</xsl:if>
+	<xsl:apply-templates select="*|text()"/></td>
 </xsl:template>
 
 <!--
@@ -253,6 +256,23 @@
 -->
 <xsl:template match="note">
 	<div class="note"><xsl:apply-templates select="text()"/></div>
+</xsl:template>
+
+<!--
+	<emphasis/> Emphasis tag
+	
+	Renders text with a special style for "emphasis" text (italic text)
+	
+	Body: The text of the emphasis 
+	
+	Attributes:
+	
+		NONE
+		
+	Processes Subtags: Yes
+-->
+<xsl:template match="emphasis">
+	<div class="emphasis"><xsl:apply-templates select="text()"/></div>
 </xsl:template>
 
 <!--

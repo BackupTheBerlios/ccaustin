@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Tape Ordering Page Content
+	
+	$Id: order.xml,v 1.1 2002/05/30 01:20:31 javajames27 Exp $
+		
+-->
+<content title="Calvary Continuum Tape Catalog - Order Form">
+	<heading>Calvary Continuum Tape Order and Tape Subscription Order Forms</heading>
+	<p>Please be aware of the terms when ordering any audio tape from the Calvary Continuum tape catalog.</p>
+	<heading>Pricing</heading>
+	<p>All audio tapes are $5 each; shipping, handling and tax are included. Please enclose a check or money order made payable in US dollars, drawn on a US bank, to Calvary Chapel Austin. </p>
+	<heading>Tape Subscriptions</heading>
+	<p>As a tape subscriber, you will receive a tape each week of the service to which you subscribe. You may subscribe to any or all of the services at Calvary Chapel of Austin. The cost is $39 per quarter payable in advance for each service to which you subscribe (shipping, handling and tax are included in the price of the subscription). You may also sponsor a subscription to be shipped to someone else. Please enclose a check or money order made payable in US dollars drawn on a US bank to Calvary Chapel Austin.</p>
+	<heading>Orders should be mailed to: </heading>
+	<table>
+		<row>
+			<data></data>
+			<data>Calvary Chapel of Austin<br/>9414 Parkfield Dr<br/>Austin, Texas 78758 </data>
+		</row>
+		<row>
+			<data label="true">Phone:</data>
+			<data>512.719.4667</data>
+		</row>
+		<row>
+			<data label="true">FAX</data>
+			<data>512.719.3177</data>
+		</row>
+		<row>
+			<data label="true">E-mail:</data>
+			<data><link href="mailto:info@calvaryaustin.org">info@calvaryaustin.org</link></data>
+		</row>
+		<row>
+			<data label="true">Web site: </data>
+			<data><link href="http://www.calvaryaustin.org">http://www.calvaryaustin.org</link></data>
+		</row>
+	</table>
+	<p>Additional contact information can be found on our <link href="../about/contact.html">Location</link> page.</p>
+	<heading>Tape Order Form</heading>
+	<p>Please print clearly</p>
+	<table>
+		<row>
+			<data label="true" align="right">Name: </data>
+			<data>_______________________________________________</data>
+		</row>
+		<row>
+			<data label="true" align="right">Street: </data>
+			<data>_______________________________________________</data>
+		</row>
+		<row>
+			<data label="true" align="right">City, State, Country: </data>
+			<data>_______________________________________________</data>
+		</row>
+		<row>
+			<data label="true" align="right">ZIP Code: </data>
+			<data>_________________________</data>
+		</row>
+		<row>
+			<data label="true" align="right">Phone: </data>
+			<data>_________________________</data>
+		</row>
+	</table>
+	<heading>Use the Tape Catalog to find the tape number and text:</heading>
+	<p>Quantity / Tape Number / Text</p>
+	<table>
+		<row>
+			<data align="right">
+			           ____________________________________________________________________<br/>
+  			           ____________________________________________________________________<br/>
+  			           ____________________________________________________________________<br/>
+  			           ____________________________________________________________________<br/>
+  			           ____________________________________________________________________<br/>
+  			           ____________________________________________________________________<br/>
+  			           ____________________________________________________________________<br/>
+  			           ____________________________________________________________________<br/>
+  			           ____________________________________________________________________<br/>
+			</data>
+		</row>
+		<row>
+			<data align="right">Total number of tapes__________@ $5.00 ea. = __________</data>
+		</row>
+		<row>
+			<data align="right">Total $__________ </data>
+		</row>
+	</table>
+	<p><emphasis>Please make the check payable to Calvary Chapel Austin </emphasis></p>
+	<heading>Tape Subscription Order Form</heading>
+	<heading>Ship To:</heading>
+	<table>
+		<row>
+			<data label="true" align="right">Name: </data>
+			<data>_______________________________________________</data>
+		</row>
+		<row>
+			<data label="true" align="right">Street: </data>
+			<data>_______________________________________________</data>
+	</row>
+		<row>
+			<data label="true" align="right">City, State, Country: </data>
+			<data>_______________________________________________</data>
+		</row>
+		<row>
+			<data label="true" align="right">ZIP Code: </data>
+			<data>_________________________</data>
+		</row>
+		<row>
+			<data label="true" align="right">Phone: </data>
+			<data>_________________________</data>
+		</row>
+	</table>
+	<p><emphasis>Sponsor - If you are ordering for another person, please include your name and address. </emphasis></p>
+	<heading>Bill To:</heading>
+	<table>
+		<row>
+			<data label="true" align="right">Name: </data>
+			<data>_______________________________________________</data>
+		</row>
+		<row>
+			<data label="true" align="right">Street: </data>
+			<data>_______________________________________________</data>
+		</row>
+		<row>
+			<data label="true" align="right">City, State, Country: </data>
+			<data>_______________________________________________</data>
+		</row>
+		<row>
+			<data label="true" align="right">ZIP Code: </data>
+			<data>_________________________</data>
+		</row>
+		<row>
+			<data label="true" align="right">Phone: </data>
+			<data>_________________________</data>
+		</row>
+	</table>
+	<p><emphasis>Please check each service to which you would like to subscribe and send $39 for each. </emphasis></p>
+	<p>__ Sunday Morning (Book Studies)</p>
+	<p>__ Wednesday Evening (Bible Overview)</p>
+</content>
