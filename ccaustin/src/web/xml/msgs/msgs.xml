@@ -3152,6 +3152,14 @@
 		<audio>guestspeaker/dbrock0702.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Jhn/Jhn001.html#top</passageref>
 	</message>
+	<message date="20020731" service="midweek" category="overview">
+		<seriestitle>Acts</seriestitle>
+		<title></title>
+		<passage>Acts 12-13</passage>
+		<tape>B01290</tape>
+		<audio>bibleoverview/44-act-12.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Act/Act012.html#top</passageref>
+	</message>
 
 
     <message date="19940522" service="sunday" category="topical series">
