@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.33 2003/05/19 14:57:20 javajames27 Exp $
+	$Id: whatsnew.xml,v 1.34 2003/05/23 16:44:50 javajames27 Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -69,7 +69,7 @@
 		</news-item>
 		<news-item id="43" date="20030302" expires="20030601" showOnHomepage="true">
 			<title>Release Your Inner Geek</title>
-			<detail>The gospel presented in multimedia - from streaming video/audio to web servers, networking, and programming. Join the Internet Ministry as we take God's Word to the world and serve the body of Calvary Austin! Join in the fun and serve the Lord with your skills. <link href="mailto:webservant-austin@calvarychapel.org">Contact the web ministry</link> or visit the <link href="../ministries/internet.html">Internet Ministry Page</link>to learn how you can be a part of this exciting outreach.</detail>
+			<detail>The gospel presented in multimedia - from streaming video/audio to web servers, networking, and programming. Join the Internet Ministry as we take God's Word to the world and serve the body of Calvary Austin! Join in the fun and serve the Lord with your skills. <link href="mailto:webservant-austin@calvarychapel.org">Contact the web ministry</link> or visit the <link href="../ministries/internet.html">Internet Ministry Page</link> to learn how you can be a part of this exciting outreach.</detail>
 		</news-item>
 		<news-item id="44" date="20030402" expires="20030601" showOnHomepage="true">
 			<title>Women's Ministry</title>
@@ -97,6 +97,14 @@
 			<title>Children's Conference Hosting</title>
 			<detail>Would you like to bless one or more peope attending our CM Conference from out of town with accommodations in your home?  If interested, sign up to be a host family at the Events Center. 
 </detail>
+		</news-item>
+		<news-item id="50" date="20030522" expires="20030629" showOnHomepage="true">
+			<title>Crown Financial Ministry</title>
+			<detail>Sign ups begin next Sunday for an exciting new course focusing on handling money God¹s way.  Short daily studies, practical applications, and weekly small group meetings in host homes will last from Aug through Nov.  Limited enrollment.  A $20 deposit will secure your spot with final payment due by Jun 29.  Pick up a flyer at the Events Center today.</detail>
+		</news-item>
+		<news-item id="51" date="20030522" expires="20030629" showOnHomepage="true">
+			<title>Bookstore</title>
+			<detail>Want to grow deeper in your walk with the Lord?  Stop and check-out all the Bibles, books, study guides and CDs.  Open after every Wednesday &amp; Sunday service.</detail>
 		</news-item>
 	</news>
 </content>
