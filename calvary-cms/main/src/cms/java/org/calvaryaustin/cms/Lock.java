@@ -6,8 +6,14 @@ package org.calvaryaustin.cms;
  */
 public interface Lock
 {
+	/**
+	 * Returns the internal id for the lock
+	 * @return the internal id for the lock
+	 */
 	public String getId();
+	/**
+	 * Returns the owner of the lock
+	 * @return the owner of the lock
+	 */
 	public String getOwner();
-	public String getExpires();
-	public void kill() throws RepositoryException;
 }

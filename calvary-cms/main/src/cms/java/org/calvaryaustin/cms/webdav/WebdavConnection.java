@@ -22,7 +22,7 @@ import org.calvaryaustin.cms.RepositoryException;
  * Created: Tue Jan 28 20:14:37 2003
  *
  * @author <a href="mailto:jhigginbotham@betweenmarkets.com">James Higginbotham</a>
- * @version $Revision: 1.2 $
+ * @version $Revision: 1.3 $
  */
 
 public class WebdavConnection 
@@ -222,7 +222,10 @@ public class WebdavConnection
 		try 
 		{
 			WebdavResource webdavResource = findResource( "/" );
-			webdavResource.setContentType(contentType);
+			if(contentType != null) 
+			{
+				webdavResource.setContentType(contentType);
+			}
 			String fullPath = ( path.startsWith( PATH_PREFIX ) ? path+"/"+name : PATH_PREFIX + "/" + path+"/"+name );
 			String normalizedPath = normalize( fullPath );
 			log.trace("findResource():   normalized path "+normalizedPath);
@@ -245,6 +248,69 @@ public class WebdavConnection
 		  throw new RepositoryException("I/O Exception during file creation",e);
 		} // end of try-catch
 
+	}
+	
+	public void killLocks(String path) throws RepositoryException
+	{
+		try
+		{
+			WebdavResource resource = findResource(path);
+			resource.unlockMethod();
+		}
+		catch (HttpException e)
+		{
+		  throw new RepositoryException("HTTP Exception during file creation",e);
+		} // end of try-catch
+		catch (IOException e)
+		{
+		  throw new RepositoryException("I/O Exception during file creation",e);
+		} // end of try-catch
+	}
+
+	public WebdavResource checkout(String path) throws RepositoryException
+	{
+		try
+		{
+			WebdavResource resource = findResource(path);
+			boolean result = resource.lockMethod();
+			if(result)
+			{
+				return resource;
+			}
+			else
+			{
+				throw new RepositoryException("Error trying to checkout "+path+". Reason: "+resource.getStatusMessage());
+			}
+		}
+		catch (HttpException e)
+		{
+		  throw new RepositoryException("HTTP Exception during file creation",e);
+		} // end of try-catch
+		catch (IOException e)
+		{
+		  throw new RepositoryException("I/O Exception during file creation",e);
+		} // end of try-catch
+	}
+
+	public void checkin(String path) throws RepositoryException
+	{
+		try
+		{
+			WebdavResource resource = findResource(path);
+			boolean result = resource.checkinMethod();
+			if(!result)
+			{
+				throw new RepositoryException("Error trying to checkin "+path+". Reason: "+resource.getStatusMessage());
+			}
+		}
+		catch (HttpException e)
+		{
+		  throw new RepositoryException("HTTP Exception during file creation",e);
+		} // end of try-catch
+		catch (IOException e)
+		{
+		  throw new RepositoryException("I/O Exception during file creation",e);
+		} // end of try-catch
 	}
 
 

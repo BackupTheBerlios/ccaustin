@@ -19,7 +19,7 @@ import org.apache.commons.logging.LogFactory;
  * Created: Fri Jan 17 20:30:31 2003
  *
  * @author <a href="mailto:jhigginbotham@betweenmarkets.com">James Higginbotham</a>
- * @version $Revision: 1.4 $
+ * @version $Revision: 1.5 $
  */
 public class RepositoryTest extends TestCase 
 {
@@ -223,7 +223,32 @@ public class RepositoryTest extends TestCase
 	log.info("<<<<<<<<<<<<< testFolderBrowsing(): end");
   }
   
-  // TODO: Test the folder.browse() method
+  public void testLocking() throws Exception
+  {
+	log.info(">>>>>>>>>>>>> testLocking(): begin");
+	assertNotNull(repository);
+	repository.createSite( TEST_SITE, TEST_SITE_DESCRIPTION );
+	Site site = repository.getSite( new SiteHandle(TEST_SITE) );
+	Folder rootFolder = site.getRootFolder();
+	FolderHandle handle = rootFolder.createFolder(TEST_FOLDER, TEST_FOLDER_DESCRIPTION);
+	Folder foundFolder = site.getFolder( handle );
+	FileHandle fileHandle = foundFolder.createFile(TEST_FILE, TEST_FILE_DESCRIPTION, TEST_FILE_TYPE, TEST_FILE_CONTENT);
+	org.calvaryaustin.cms.File foundFile = foundFolder.getFile(fileHandle);
+	assertTrue(!foundFile.isCheckedOut());
+	FileVersion checkedOut = foundFile.checkout();
+	assertTrue(foundFile.isCheckedOut());
+	List locks = foundFile.getLocks();
+	assertNotNull(locks);
+	assertEquals(1,locks.size());
+	foundFile.killLocks();
+	assertTrue(!foundFile.isCheckedOut());
+	locks = foundFile.getLocks();
+	assertNotNull(locks);
+	assertEquals(0,locks.size());
+	site.delete();
+	log.info("<<<<<<<<<<<<< testLocking(): end");
+  }
+  
   // TODO: Test the checkout/checkin method
   
 /*  

@@ -2,10 +2,12 @@ package org.calvaryaustin.cms.webdav;
 
 import java.util.Date;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.apache.webdav.lib.Lock;
 import org.apache.webdav.lib.WebdavResource;
 import org.calvaryaustin.cms.File;
 import org.calvaryaustin.cms.FileLockedException;
@@ -58,25 +60,35 @@ public class WebdavFile implements File
 
 	public boolean isCheckedOut() throws RepositoryException
 	{
-		// TODO Auto-generated method stub
-		return false;
+		WebdavResource resource = connection.findResource(WebdavConstants.PATH_SITES+site+"/"+path);
+		return resource.isLocked();
 	}
 
 	public List getLocks() throws RepositoryException
 	{
-		// TODO Auto-generated method stub
-		return null;
+		LinkedList locks = new LinkedList();
+		WebdavResource resource = connection.findResource(WebdavConstants.PATH_SITES+site+"/"+path);
+		Lock[] lockResources = resource.getLockDiscovery().getActiveLocks();
+		if(lockResources != null)
+		{
+			for(int i=0;i<lockResources.length;i++)
+			{
+				WebdavLock lock = new WebdavLock(lockResources[i].getLockToken(), lockResources[i].getOwner());
+				locks.add(lock);
+			}
+		}
+		return locks;
 	}
 
 	public void killLocks() throws RepositoryException
 	{
-		// TODO Auto-generated method stub
-
+		connection.killLocks(WebdavConstants.PATH_SITES+site+"/"+path);
 	}
 
 	public FileVersion checkout()
 		throws RepositoryException, FileLockedException
 	{
+		WebdavResource resource = connection.checkout(WebdavConstants.PATH_SITES+site+"/"+path);
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -85,7 +97,7 @@ public class WebdavFile implements File
 		throws RepositoryException, FileNotLockedException
 	{
 		// TODO Auto-generated method stub
-
+		connection.checkin(WebdavConstants.PATH_SITES+site+"/"+path);
 	}
 
 	public void delete() throws RepositoryException, FileLockedException

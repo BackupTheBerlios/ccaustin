@@ -271,7 +271,7 @@
                       <parameter name="historypath">/history</parameter>
                       <parameter name="workspacepath">/workspace</parameter>
                       <parameter name="workingresourcepath">/workingresource</parameter>
-                      <parameter name="auto-version">checkout-checkin</parameter>
+                      <parameter name="auto-version">keep-checked-out</parameter>
                       <parameter name="auto-version-control">true</parameter>
                       <parameter name="versioncontrol-exclude"></parameter>
                       <parameter name="checkout-fork">forbidden</parameter>
