@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.101 2004/02/01 19:40:03 gregk Exp $
+	$Id: calendar.xml,v 1.102 2004/02/06 22:44:45 gregk Exp $
 		
 -->
 <content title="Calendar">
@@ -429,6 +429,11 @@ need for Praying Leaders.</detail>
 			<ministry id="women"/>
 		</ministries>
     </event>
+    <event id="03001" date="20040305" showOnHomepage="true">
+	 <title>Mexico Mission Trip</title>
+		<date>March 5th-7th</date>
+		<detail>On March 5-7 come share the love of Jesus with His children south of the border in Pan De Vida. Sign up at the Events Center.For those who cannot go, participate by donation from the list of needed items.</detail>
+    </event>
 
 		<!--
     ===============
@@ -501,7 +506,7 @@ need for Praying Leaders.</detail>
     -->
     <event id="10001" date="20041011" showOnHomepage="true">
 	 <title>Israel Trip</title>
-		<date>Oct 11-21</date>
+		<date>Oct 11-22</date>
                 <detail>The long anticipated tour of Israel is scheduled for Oct. 11-22. A $300.00 deposit is due no later than Feb 19th to reserve your place. Flyers now available at the Events Center. For more information contact Bunjee Garrett at Bunjee@calvaryaustin.org or 512-719-4667</detail>
     </event>
 	</calendar>
