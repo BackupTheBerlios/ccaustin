@@ -3,7 +3,7 @@
 
 	What's New
 	
-	$Id: whatsnew.xml,v 1.72 2004/02/23 20:43:51 gregk Exp $
+	$Id: whatsnew.xml,v 1.73 2004/02/27 19:51:53 anandpv Exp $
 		
 -->
 <content title="What's New" base=".">
@@ -73,7 +73,7 @@
 		</news-item>
 		<news-item id="44" date="20030402" expires="20030601" showOnHomepage="true">
 			<title>Women's Ministry</title>
-			<detail>Our Women¹s Ministry is offering 2 studies, Jun 3 through Aug 12. A bible study titled "Healed and Set Free" will meet every Tuesday, 7-9PM. Sharing will be in very small groups.  And a study titled "Principles for Women in Leadership", designed for those desiring to know more about women¹s leadership will meet every other Tuesday, 7-9PM. Sign up at the Events Center. 
+			<detail>Our Women¹s Ministry is offering 2 studies, Jun 3 through Aug 12. A bible study titled "Healed and Set Free" will meet every Tuesday, 7-9PM. Sharing will be in very small groups.  And a study titled "Principles for Women in Leadership", designed for those desiring to know more about women¹s leadership will meet every other Tuesday, 7-9PM. Sign up at the Events Center.
 </detail>
 		</news-item>
 		<news-item id="45" date="20030418" expires="20030425" showOnHomepage="true">
@@ -90,7 +90,7 @@
 		</news-item>
 		<news-item id="48" date="20030511" expires="20030602" showOnHomepage="true">
 			<title>The Cupboard</title>
-			<detail>Our food pantry provides food to families in the body of Calvary during times of need.  If you need assistance from this ministry, contact the church office. 
+			<detail>Our food pantry provides food to families in the body of Calvary during times of need.  If you need assistance from this ministry, contact the church office.
 </detail>
 		</news-item>
 		<news-item id="49" date="20030518" expires="20030713" showOnHomepage="true">
@@ -321,15 +321,15 @@
 			<title>Bring Out Your Inner Geek</title>
 			<detail>The Internet Ministry is looking for people who have a willingness to minister to one another and serve the body with the following skills: IT, networking, Linux server management, HTML, web designers/graphics artists, and Java developers. Contact internet@calvaryaustin.org for more information.</detail>
 		</news-item>
-		<news-item id="104" date="20040124" expires="20040228" showOnHomepage="true">
+		<news-item id="104" date="20040124" expires="20040228" showOnHomepage="false">
 			<title>Volunteers Needed</title>
 			<detail>The Tape/CD Ministry is looking for volunteers with a servant's heart to help sell tapes. Visit the Tape Booth for more information.</detail>
 		</news-item>
-		<news-item id="105" date="20040124" expires="20040228" showOnHomepage="true">
+		<news-item id="105" date="20040124" expires="20040228" showOnHomepage="false">
 			<title>Intercessory Prayer Group </title>
 			<detail>New Christians, mature Christians, anyone with a heart for prayer is invited to join the Intercessory Prayer Connection for intercessory prayer. Please meet us in the prayer room during the 9:30 AM Sunday service.</detail>
 		</news-item>
-		<news-item id="106" date="20040201" expires="20040228" showOnHomepage="false">
+		<news-item id="106" date="20040201" expires="20040226" showOnHomepage="false">
 			<title>Audio</title>
 			<detail>Pastor Allen's messages are available on tape, CD, and MP3 after every service in the lobby. Tape catalogs are also available.</detail>
 		</news-item>
@@ -337,7 +337,7 @@
 			<title>Bookstore</title>
 			<detail>Check-out all the Bibles, books, study guides, journals, and books for kids. You can also special order. The bookstore is open after every Wednesday and Sunday service.</detail>
 		</news-item>
-		<news-item id="108" date="20040201" expires="20040228" showOnHomepage="true">
+		<news-item id="108" date="20040201" expires="20040228" showOnHomepage="false">
 			<title>Missing Your Bible?</title>
 			<detail>Please check the bible lost and found table in the lobby if you have misplaced your bible. We will donate all unclaimed bibles to other ministries.</detail>
 		</news-item>
@@ -361,5 +361,33 @@
 			<title>Urgent Volunteer Need</title>
 			<detail>Do you have a desire to serve Christ and Calvary Chapel through coffee? For more information see Brooke Johnson at Coffee Creator, call her at 719-4544, or by email at coffeecreator@calvaryaustin.org.</detail>
 		</news-item>
+		<news-item id="114" date="20040227" expires="20040327" showOnHomepage="true">
+			<title>Bring Out Your Inner Geek</title>
+			<detail>The Internet Ministry is seeking people who
+have a willingness to minister to one another and serve the body with
+the following skills: IT, networking, Linux server management, HTML,
+web designers/graphic artists, and Java developers. If you are
+interested in joining this exciting ministry, please contact
+internet@calvaryaustin.org.</detail>
+		</news-item>
+		<news-item id="115" date="20040227" expires="20040327" showOnHomepage="true">
+			<title>Free indeed" addictions ministry</title>
+			<detail>Free Indeed is an internet-based
+ministry addressing pornography, substance abuse, overeating, smoking
+or other addictions. If you need help in one of these areas visit
+www.calvaryaustin.org, see ministries\Free Indeed for details.
+Bookstore  Check out all the Bibles, books, study guides, journals, and
+books for kids.  You can also special order.  The bookstore is open
+after every Wednesday and Sunday service.</detail>
+		</news-item>
+		<news-item id="116" date="20040227" expires="20040327" showOnHomepage="false">
+			<title>Audio</title>
+			<detail>Pastor Allen's messages are available on tape, CD, and MP3 after every service in the lobby. Tape catalogs are also available.</detail></news-item>
+			<news-item id="117" date="20040227" expires="20040327" showOnHomepage="false">
+			<title>Radio, TV &amp; Internet</title>
+			<detail>Hear Pastor Allen on Calvary Continuum NOON on
+970AM or at 9:30am on 1010AM. Watch our tv program on cable access
+channel 11 Saturdays at NOON.  Watch select services live on the
+internet or check out the audio archive on our web site.</detail></news-item>
   </news>
 </content>
