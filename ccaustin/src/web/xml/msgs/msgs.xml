@@ -3656,6 +3656,14 @@
 <message date="20040428" service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 5-6</passage> <tape>BO1352</tape> <audio>bibleoverview/58-heb-05.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr005.html#top</passageref> </message> 
 
 <message date="20040505" service="midweek" category="overview"> <seriestitle>Hebrews</seriestitle> <title></title> <passage>Hebrews 7-8</passage> <tape>BO1353</tape> <audio>bibleoverview/58-heb-07.wma</audio> <passageref>http://www.blueletterbible.org/kjv/Hbr/Hbr007.html#top</passageref> </message> 
+<message date="20040512" service="midweek" category="guest speaker">
+		<seriestitle>Bunjee Garrett</seriestitle>
+		<title>Romans 12:2</title>
+		<passage>Romans 12:2</passage>
+		<tape>GS051204</tape>
+		<audio>guestspeaker/bgarrett051204.wma</audio>
+		<passageref></passageref>
+	</message>
 
     	<message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
@@ -9792,5 +9800,13 @@
 	<tape>TS050904</tape> 
 	<audio>topicseries/momentum/momentumfive.wma</audio> 
 	<passageref>http://www.blueletterbible.org/kjv/Neh/Neh004.html#top</passageref> 
-	</message>   
+	</message>
+	<message date="20040516" service="sunday" category="topic series"> 
+	<seriestitle>Building Momentum</seriestitle> 	
+	<title>RetroVision</title> 
+	<passage>Nehemiah 6:15-7:3</passage> 
+	<tape>TS051604</tape> 
+	<audio>topicseries/momentum/momentumsix.wma</audio> 
+	<passageref>http://www.blueletterbible.org/kjv/Neh/Neh006.html#top</passageref> 
+	</message>      
 </messagecatalog>
