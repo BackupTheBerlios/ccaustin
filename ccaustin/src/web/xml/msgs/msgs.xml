@@ -4917,7 +4917,14 @@
 		<audio>guestspeaker/jnewberry0303.ram</audio>
 		<passageref></passageref>
 	</message>
-
+	<message date="20030713" service="sunday" category="misc">
+		<seriestitle>Guest Speaker</seriestitle>
+		<title>Newberry, John - Philemon</title>
+		<passage>Philemon</passage>
+		<tape>GS071303</tape>
+		<audio>guestspeaker/jnewberry0703.ram</audio>
+		<passageref></passageref>
+	</message>
 	<message date="19981002" service="sunday" category="misc">
 		<seriestitle>Guest Speaker</seriestitle>
 		<title>Rosales, David - Part 1</title>
