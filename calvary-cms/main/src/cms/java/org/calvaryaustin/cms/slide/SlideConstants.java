@@ -1,7 +1,7 @@
 package org.calvaryaustin.cms.slide;
 
 /**
- * Interface wrapper around the constants needed for Slide
+ * Interface wrapper around the constants needed for Slide interaction
  * @author jhigginbotham
  */
 public interface SlideConstants

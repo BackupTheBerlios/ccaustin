@@ -6,6 +6,7 @@ import javax.servlet.jsp.tagext.TagSupport;
 
 import org.apache.struts.Globals;
 import org.apache.struts.action.ActionMapping;
+import org.calvaryaustin.controlpanel.ResourceContentForm;
 import org.calvaryaustin.controlpanel.ResourceForm;
 
 /**
@@ -17,7 +18,7 @@ public class ViewVersionDetailTag extends TagSupport
     public int doEndTag() throws JspException
     {
         ActionMapping mapping = (ActionMapping)pageContext.getRequest().getAttribute(Globals.MAPPING_KEY);
-        ResourceForm form = (ResourceForm)pageContext.getRequest().getAttribute( mapping.getAttribute() );
+        ResourceContentForm form = (ResourceContentForm)pageContext.getRequest().getAttribute( mapping.getAttribute() );
         if(form == null)
         {
             throw new JspException("FormBean was not found under name "+mapping.getAttribute());

@@ -10,22 +10,23 @@
   
   <form-beans>
     
-    <form-bean name="user"
-               type="org.calvaryaustin.controlpanel.users.UserForm"/>
-    <form-bean name="users"
-               type="org.calvaryaustin.controlpanel.users.UsersForm"/>
-    
-    <form-bean name="lock"
-               type="org.calvaryaustin.controlpanel.locks.LockForm"/>
-    
     <form-bean name="browser"
                type="org.calvaryaustin.controlpanel.browser.BrowserForm"/>
     
     <form-bean name="viewer"
                type="org.calvaryaustin.controlpanel.viewer.ViewerForm"/>
     
+    <form-bean name="lock"
+               type="org.calvaryaustin.controlpanel.locks.LockForm"/>
+    
     <form-bean name="editor"
                type="org.calvaryaustin.controlpanel.editor.EditorForm"/>
+
+	<!-- Older stuff -->
+    <form-bean name="user"
+               type="org.calvaryaustin.controlpanel.users.UserForm"/>
+    <form-bean name="users"
+               type="org.calvaryaustin.controlpanel.users.UsersForm"/>
     
   </form-beans>
   

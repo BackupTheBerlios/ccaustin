@@ -16,7 +16,10 @@ import org.calvaryaustin.web.BaseAction;
 import org.calvaryaustin.web.UserRequest;
 
 /**
- * Abstract class that serves as a foundation for all of the admin actions
+ * Abstract class that serves as a foundation for all of the admin actions. It extends
+ * the web framework's BaseAction class and introduces a new type of user request container
+ * called AdminUserRequest. It populates this request instance for each incoming request with the 
+ * associated SlideToken and NamespaceAccessToken for Slide integration.
  *
  * @author jhigginbotham
  */

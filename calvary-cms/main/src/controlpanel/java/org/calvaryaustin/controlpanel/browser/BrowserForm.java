@@ -9,10 +9,21 @@ import org.calvaryaustin.web.BaseValidatorForm;
  */
 public class BrowserForm extends BaseValidatorForm
 {
-	/**
-	 * Returns the path that is currently being browsed
-	 * @return the path that is currently being browsed
-	 */
+    public boolean isCollection()
+    {
+        return true;
+    }
+    
+    public String getName()
+    {
+        if( path == null )
+        {
+            return null;
+        }
+        
+        return path.substring(0,path.lastIndexOf("/"));
+    }
+
 	public String getPath()
 	{
 		return path;
@@ -27,10 +38,6 @@ public class BrowserForm extends BaseValidatorForm
 		this.path = path;
 	}
 
-	/**
-	 * Returns the site that is currently being browsed
-	 * @return the site that is currently being browsed
-	 */
 	public String getSite()
 	{
 		return site;

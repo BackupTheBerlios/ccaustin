@@ -3,6 +3,7 @@ package org.calvaryaustin.controlpanel.viewer;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.calvaryaustin.controlpanel.ResourceContentForm;
 import org.calvaryaustin.controlpanel.ResourceForm;
 import org.calvaryaustin.web.BaseValidatorForm;
 
@@ -11,12 +12,19 @@ import org.calvaryaustin.web.BaseValidatorForm;
  * ViewerAction
  * @author jhigginbotham
  */
-public class ViewerForm extends BaseValidatorForm implements ResourceForm
+public class ViewerForm extends BaseValidatorForm implements ResourceContentForm
 {
-	/**
-	 * Returns the path that is currently being browsed
-	 * @return the path that is currently being browsed
-	 */
+    public boolean isCollection()
+    {
+        return false;
+    }
+    
+    public String getName()
+    {
+        return getFile();
+    }
+    
+    
 	public String getPath()
 	{
 		return path;
@@ -31,10 +39,6 @@ public class ViewerForm extends BaseValidatorForm implements ResourceForm
 		this.path = path;
 	}
 
-	/**
-	 * Returns the site that is currently being browsed
-	 * @return the site that is currently being browsed
-	 */
 	public String getSite()
 	{
 		return site;
