@@ -3,7 +3,7 @@
 
 	Calendar
 	
-	$Id: calendar.xml,v 1.11 2002/08/24 15:35:27 javajames27 Exp $
+	$Id: calendar.xml,v 1.12 2002/08/30 22:56:12 javajames27 Exp $
 		
 -->
 <content title="Calendar">
@@ -102,7 +102,16 @@
 	Sept
 	===============
 -->		
-    <event id="09001" date="20020914">
+    <event id="09002" date="20020908" showOnHomepage="true">
+      <title>Mexico Mission Trip</title>
+      <date>Sept 6-8</date>
+      <detail>Partner with Calvary Chapel Rio Grande Valley and minister to a women's
+      shelter/orphanage in Ejido Sandoval.  Sign up  and get a needs list at the Events Center.
+      Anyone may drop off beans, rice and flour at the church office to stock the shelters
+      pantry.</detail>   
+    </event>
+    
+    <event id="09001" date="20020914" showOnHomepage="true">
       <title>Live Music - Razing Jericho</title>
       <date>September 14 @ 8:00pm</date>
       <detail>Come to <link
@@ -113,15 +122,6 @@
       </ministries>
     </event>
 
-    <event id="09002" date="20020908" showOnHomepage="true">
-      <title>Mexico Mission Trip</title>
-      <date>Sept 6-8</date>
-      <detail>Partner with Calvary Chapel Rio Grande Valley and minister to a women's
-      shelter/orphanage in Ejido Sandoval.  Sign up  and get a needs list at the Events Center.
-      Anyone may drop off beans, rice and flour at the church office to stock the shelters
-      pantry.</detail>   
-    </event>
-    
 <!--
 	===============
 			Oct
@@ -144,7 +144,7 @@
     <event id="10001" date="20021016" showOnHomepage="true">
       <title>Men's Retreat</title>
       <date>Nov 14-16</date>
-      <detail>Registrations start next Sunday, Sept 1 for the Nov 14-16 retreat at T-Bar-M Ranch in San Marcos.  The main speaker will be Malcolm Wild from Calvary Chapel Merritt Island.  Men mark your calendars and sign up next week at the Events Center.</detail>   
+      <detail>Registrations start next Sunday, Sept 1 for the Nov 14-16 retreat at T-Bar-M Ranch in New Braunfels.  The main speaker will be Malcolm Wild from Calvary Chapel Merritt Island.  Men mark your calendars and sign up next week at the Events Center.</detail>   
       <ministries>
 	<ministry id="men"/>
       </ministries>
