@@ -13,7 +13,7 @@
 	A variant of this file may offer more search engine or accessibility-friendly
 	navigation and less Javascript features for older browsers. 
 	
-	$Id: general-ui.xsl,v 1.10 2002/06/27 02:48:35 javajames27 Exp $
+	$Id: general-ui.xsl,v 1.11 2002/06/27 03:08:11 javajames27 Exp $
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html" indent="yes" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"/>
@@ -58,8 +58,8 @@
 				-->
 				<table border="0" cellspacing="0" cellpadding="0" width="800">
 				  <tr> 
-				    <td background="../images/homepage/sidebar_gold.jpg" valign="top" width="131"><img src="../images/homepage/cal_logo.jpg" border="0" width="131" height="84"/></td>
-				    <td valign="top" width="99%"><img src="../images/homepage/cal_austin.jpg" border="0" width="145" height="65"/> 
+				    <td background="../images/homepage/sidebar_gold.jpg" valign="top" width="131"><a href="../homepage/index.html"><img src="../images/homepage/cal_logo.jpg" border="0" width="131" height="84"/></a></td>
+				    <td valign="top" width="99%"><a href="../homepage/index.html"><img src="../images/homepage/cal_austin.jpg" border="0" width="145" height="65"/></a> 
 				      <!-- navigation -->
 				      <table border="0" cellspacing="0" cellpadding="0">
 				        <tr> 
@@ -100,13 +100,13 @@
 						            <table border="0" cellpadding="0" cellspacing="0">
 						              <tbody>
 						              <tr>
-						                <td align="middle" colspan="7"><br/></td>
+						                <td align="left" colspan="7"><br/></td>
 							      </tr>
 						              <tr>
-						                <td align="middle" colspan="7"><img border="0" src="../images/arcupper.jpg"></img></td>
+						                <td align="left" colspan="7"><img border="0" src="../images/arcupper.jpg"></img></td>
 							      </tr>
 						              <tr>
-						                <td align="right" colspan="7">
+						                <td align="center" colspan="7">
 								  <font size="1">
 								  Copyright © 1999-2002 Calvary Chapel of Austin<br/>
 								  For Website problems or comments, send mail to
@@ -116,7 +116,7 @@
 								</td>
 							      </tr>
 						              <tr>
-						                <td align="middle" colspan="7"><img border="0" src="../images/arclower.jpg"></img></td>
+						                <td align="left" colspan="7"><img border="0" src="../images/arclower.jpg"></img></td>
 							      </tr>
 							      </tbody>
 							    </table>
