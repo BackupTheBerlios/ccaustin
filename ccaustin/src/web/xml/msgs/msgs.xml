@@ -9094,10 +9094,17 @@
 	<message date="20030608" service="sunday" category="book studies">
 		<seriestitle>Luke</seriestitle>
 		<title>Why Fear Is No Factor</title>
-		<passage>Luke 8:22-56</passage>
+		<passage>Luke 8:22-25</passage>
 		<tape>BS060803</tape>
-		<audio>42-luk/42-luk-08-22ram</audio>
+		<audio>42-luk/42-luk-08-22.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk008.html#top</passageref>
 	</message>
-
+	<message date="20030615" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>Life Transformation</title>
+		<passage>Luke 8:26-39</passage>
+		<tape>BS061503</tape>
+		<audio>42-luk/42-luk-08-26.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk008.html#top</passageref>
+	</message> 
 </messagecatalog>
