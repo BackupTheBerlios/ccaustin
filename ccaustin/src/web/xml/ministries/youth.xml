@@ -3,12 +3,12 @@
 
 	Youth Ministry - The ministry and its detail
 	
-	$Id: youth.xml,v 1.5 2004/06/04 03:17:08 tie Exp $
+	$Id: youth.xml,v 1.6 2004/06/05 03:19:09 tie Exp $
 		
 -->
 <content title="Vital Life Youth  Ministry">
 	<ministry id="youth">
-	  <name>Vital LifeYouth Ministry</name>
+	  <name>Vital Life Youth Ministry</name>
 	  <p><overview>Vital Life focuses on teaching and modeling to young people how to respond to God, reach others for Christ and reproduce themselves in others to build God's kingdom for His glory.</overview></p>
 	  <long-description>
 	    <heading>High School Worship &amp; Teaching</heading>
