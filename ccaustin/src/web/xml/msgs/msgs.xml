@@ -9739,5 +9739,30 @@
           <audio>42-luk/42-luk-22-63.wma</audio>
           <passageref>http://www.blueletterbible.org/kjv/Luk/Luk022.html#top</passageref>
         </message>
+	<message date="20040404" service="sunday" category="topic series"> 
+	<seriestitle>Building Momentum</seriestitle> 
+	<title>Vision</title> 
+	<passage>Nehemiah 1</passage> 
+	<tape>TS040404</tape> 
+	<audio>topicseries/momentum/momentumone.wma</audio> 
+	<passageref>http://www.blueletterbible.org/kjv/Neh/Neh001.html#top< /passager ef> 
+	</message> 
+	<message date="20040411" service="sunday" category="book studies"> 
+	<seriestitle>Luke</seriestitle> 
+	<title>Easter 2004</title> 
+	<passage>Luke 24</passage> 
+	<tape>BS041104</tape> 
+	<audio>42-luk/42-luk-24-01.wma</audio> 
+	<passageref>http://www.blueletterbible.org/kjv/Luk/Luk024.html#top< /passager ef> 
+	</message> 
+	<message date="20040418" service="sunday" category="topic series"> 
+	<seriestitle>Building Momentum</seriestitle> 	
+	<title>EnVision</title> 
+	<passage>Nehemiah 2:1-10</passage> 
+	<tape>TS040418</tape> 
+	<audio>topicseries/momentum/momentumtwo.wma</audio> 
+	<passageref>http://www.blueletterbible.org/kjv/Neh/Neh002.html#top< /passager ef> 
+	</message> 
+
 
 </messagecatalog>
