@@ -406,7 +406,7 @@
 	<xsl:sort select="@date" data-type="number" order="descending"/>
 	<xsl:if test="position() &lt; 24">
 	<TR>
-	  <TD WIDTH="48" ROWSPAN="2" ALIGN="center" VALIGN="middle"><A><xsl:attribute name="href">http://www.calvarychapel.org/austin/audio/<xsl:value-of select="audio"/></xsl:attribute><IMG SRC="../images/wmt-title.jpg" ALT="Listen with Windows Media" BORDER="0"/></A></TD>
+	  <TD WIDTH="48" ROWSPAN="2" ALIGN="center" VALIGN="middle"><A><xsl:attribute name="href">http://www.calvarychapel.org/austin/audio/<xsl:value-of select="audio"/></xsl:attribute><IMG SRC="http://www.calvarychapel.com/austin/images/wmt-title.jpg" ALT="Listen with Windows Media" BORDER="0"/></A></TD>
 	  <TD ALIGN="left"><FONT FACE="TAHOMA,VERDANA,ARIAL,HELVETICA"><A TARGET="_blank"><xsl:attribute name="href"><xsl:value-of select="passageref"/></xsl:attribute><B><xsl:value-of select="passage"/></B></A></FONT></TD>
 	  <TD ALIGN="right"><FONT FACE="TAHOMA,VERDANA,ARIAL,HELVETICA"><xsl:value-of select="document('')/*/months:name[@sequence=substring(current()/@date,5,2)]"/><xsl:text> </xsl:text><xsl:value-of select="number(substring(@date,7,2))"/>, <xsl:value-of select="number(substring(@date,1,4))"/></FONT></TD>
 	</TR>
