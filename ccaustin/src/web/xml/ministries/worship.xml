@@ -3,7 +3,7 @@
 
 	Worship Ministry - The ministry and its detail
 	
-	$Id: worship.xml,v 1.5 2002/08/13 20:18:32 javajames27 Exp $
+	$Id: worship.xml,v 1.6 2003/06/05 15:21:06 javajames27 Exp $
 		
 -->
 <content title="Worship Team">
@@ -23,11 +23,13 @@
       <p><link href="http://www.calvarychapel.org/austin/audio/guestspeaker/dreynolds0702.ram">Let
       Us Draw Near - Hebrews 10:22</link></p>
 
-      <subheading>Worship Conference 2001</subheading>
-      <p><link href="http://www.calvarychapel.org/austin/audio/worship2001/dclark2001.ram">Duane Clark</link><br/>
-         <link href="http://www.calvarychapel.org/austin/audio/worship2001/tmichaels2001.ram">Terry Michaels</link><br/>
-         <link href="http://www.calvarychapel.org/austin/audio/worship2001/arigg2001.ram">Allen Rigg</link><br/>
-         <link href="http://www.calvarychapel.org/austin/audio/worship2001/dvpelt2001.ram">Doug Van Pelt</link></p>
+      <subheading>Worship Conference 2003</subheading>
+      <p><link href="http://www.calvarychapel.org/austin/audio/worship2003/devotion.ram">Devotion</link><br/>
+         <link href="http://www.calvarychapel.org/austin/audio/worship2003/hdavisone.ram">Session I - Holland Davis - The God Who Sees</link><br/>
+         <link href="http://www.calvarychapel.org/austin/audio/worship2003/rhindt.ram">Session II - Ron Hindt - Godly Glimpses of a Worship Leader</link><br/>
+         <link href="http://www.calvarychapel.org/austin/audio/worship2003/arigg.ram">Session III - Allen Rigg - The Battle of the Bands</link><br/>
+         <link href="http://www.calvarychapel.org/austin/audio/worship2003/hdavisfour.ram">Session IV - Holland Davis - What's Your Perspective? The God Who Sees</link><br/>
+         <link href="http://www.calvarychapel.org/austin/audio/worship2003/hdavisfive.ram">Session V - Holland Davis - Six Qualities of a Great Worship Team</link></p>
 
       <subheading>Worship Conference 2002</subheading>
       <p><link href="http://www.calvarychapel.org/austin/audio/worship2002/rarbaugh.ram">Ron Arbaugh</link><br/>
@@ -35,6 +37,12 @@
          <link href="http://www.calvarychapel.org/austin/audio/worship2002/blane.ram">Bob Lane</link><br/>
          <link href="http://www.calvarychapel.org/austin/audio/worship2002/dnorman.ram">Dennis Norman</link><br/>
          <link href="http://www.calvarychapel.org/austin/audio/worship2002/arigg.ram">Allen Rigg</link></p>
+
+      <subheading>Worship Conference 2001</subheading>
+      <p><link href="http://www.calvarychapel.org/austin/audio/worship2001/dclark2001.ram">Duane Clark</link><br/>
+         <link href="http://www.calvarychapel.org/austin/audio/worship2001/tmichaels2001.ram">Terry Michaels</link><br/>
+         <link href="http://www.calvarychapel.org/austin/audio/worship2001/arigg2001.ram">Allen Rigg</link><br/>
+         <link href="http://www.calvarychapel.org/austin/audio/worship2001/dvpelt2001.ram">Doug Van Pelt</link></p>
 
       <subheading>Worship: Getting Close to God</subheading>
       <p><link href="http://www.calvarychapel.org/austin/audio/topicseries/howorship/partone.ram">Part One</link><br/>
