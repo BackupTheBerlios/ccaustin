@@ -3,7 +3,7 @@
 
 	Coffee Creator - The ministry and its detail
 	
-	$Id: coffee.xml,v 1.5 2003/01/07 16:35:37 javajames27 Exp $
+	$Id: coffee.xml,v 1.6 2003/01/14 17:04:13 javajames27 Exp $
 		
 -->
 <content title="Coffee Creator">
@@ -13,7 +13,7 @@
 	  <long-description>
 	    <table heading="Hours of Operation">
 	    	 <row>
-	    	 	<data label="true">Tue - Fri</data>
+	    	 	<data label="true">Tue - Thur</data>
 	    	 	<data>6am - Noon</data>
 	    	 </row>
 	    	 <row>
@@ -21,7 +21,7 @@
 	    	 	<data>7am - 2pm</data>
 	    	 </row>
 	    	 <row>
-	    	 	<data label="true">Wed and Sat evenings</data>
+	    	 	<data label="true">Wed, Fri., and Sat evenings</data>
 	    	 	<data>5pm - 11pm</data>
 	    	 </row>
 	    </table>
