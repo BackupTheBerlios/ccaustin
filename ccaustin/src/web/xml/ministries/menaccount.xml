@@ -3,21 +3,14 @@
 
 	Men's Ministry - The ministry and its detail
 	
-	$Id: menaccount.xml,v 1.4 2003/07/18 11:00:51 gregk Exp $
+	$Id: menaccount.xml,v 1.5 2004/02/05 19:18:06 gregk Exp $
 		
 -->
 <content title="Men's Accountability Groups">
 	<ministry id="menaccount">
 	  <name>Men's Accountability Groups</name>
 	   <overview>The men's accountability groups meet to provide men a place to form relationships while being discipled through teaching, accountability and prayer.</overview>
-	  <long-description>
-	   <heading>Central</heading>
-	    <p>The men's accountability group meets every Tuesday morning at 6am at Seattle's Best Coffee at Parmer and IH35. We have a devotion with emphasis on application, then discuss whatever is going on in our lives. We close by sharing prayer requests and praying for each other. Relationships are formed, so if someone is struggling in a particular area that person can either bring the issue before the group or get together with one or two other men for counseling or discipleship. </p>
-           <br></br>
-	   <contacts>
-	  	<contact-phone phone="989-8575">Contact Matt Lang</contact-phone>
-   	   </contacts>
-	  </long-description>
+          <br></br>
 	  <long-description>
 	   <heading>North</heading>
 	    <p>The men's accountability group meets 6:15am every Monday morning at the <link href="http://austin.citysearch.com/profile/10185708/">Cedar Perk Coffee and Cream Shop</link> located at 200 Buttercup Creek Blvd. Ste. 123, Cedar Park, Tx 78613-3732 (Phone: (512) 257-7088). Further info is forthcoming</p>

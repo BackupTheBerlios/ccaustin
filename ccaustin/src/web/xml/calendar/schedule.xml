@@ -3,7 +3,7 @@
 
 	Weekly/Monthyl Reoccuring Calendar Events Content
 	
-	$Id: schedule.xml,v 1.37 2004/01/18 04:17:09 gregk Exp $
+	$Id: schedule.xml,v 1.38 2004/02/05 19:22:12 gregk Exp $
 
 -->
 <content title="Weekly &amp; Monthly Events">
@@ -14,12 +14,12 @@
       for details and other events.</p>
   </intro>
   <events>
-    <event id="sun1" date="*" reoccur="Sun" time="8:00am" location="Auditorium" childMinistry="yes" childCare="no">
+    <event id="sun1" date="*" reoccur="Sun" time="9:30am" location="Auditorium" childMinistry="yes" childCare="no">
       <title>First Service</title>
       <shortnote/>
       <detail/>
     </event>
-    <event id="sun2" date="*" reoccur="Sun" time="8:00am" location="Youth Room" childMinistry="no" childCare="no">
+    <event id="sun2" date="*" reoccur="Sun" time="9:30am" location="Youth Room" childMinistry="no" childCare="no">
       <title>"Vital Life" Jr. High</title>
       <shortnote/>
       <detail/>
@@ -28,12 +28,12 @@
 	<ministry id="seniorhigh"/><!-- Not sure about this one -->
       </ministries>
     </event>
-    <event id="sun3" date="*" reoccur="Sun" time="9:45am" location="Auditorium" childMinistry="yes" childCare="no">
+    <event id="sun3" date="*" reoccur="Sun" time="11:30am" location="Auditorium" childMinistry="yes" childCare="no">
       <title>Second Service</title>
       <shortnote/>
       <detail/>
     </event>
-    <event id="sun4" date="*" reoccur="Sun" time="9:45am" location="Youth Room" childMinistry="no" childCare="no">
+    <event id="sun4" date="*" reoccur="Sun" time="11:30am" location="Youth Room" childMinistry="no" childCare="no">
       <title>"Vital Life" Jr. High</title>
       <shortnote/>
       <detail/>
@@ -42,21 +42,7 @@
 	<ministry id="seniorhigh"/><!-- Not sure about this one -->
       </ministries>
     </event>
-    <event id="sun5" date="*" reoccur="Sun" time="11:30am" location="Auditorium" childMinistry="yes" childCare="no">
-      <title>Third Service</title>
-      <shortnote/>
-      <detail/>
-    </event>
-    <event id="sun6" date="*" reoccur="Sun" time="11:30am" location="Youth Room" childMinistry="no" childCare="no">
-      <title>"Vital Life" Jr. High</title>
-      <shortnote/>
-      <detail/>
-      <ministries>
-	<ministry id="juniorhigh"/>
-	<ministry id="seniorhigh"/><!-- Not sure about this one -->
-      </ministries>
-    </event>
-    <event id="sun7" date="*" reoccur="Sun" time="5:00pm" location="Youth Room" childMinistry="no" childCare="no">
+    <event id="sun5" date="*" reoccur="Sun" time="5:00pm" location="Youth Room" childMinistry="no" childCare="no">
       <title>Seasoned Saints Fellowship</title>
       <shortnote>(First Sunday of the month)</shortnote>
       <detail/>
