@@ -3,7 +3,7 @@
 
 	Radio/TV Ministry - The ministry and its detail
 	
-	$Id: radio.xml,v 1.4 2004/06/09 20:39:15 tie Exp $
+	$Id: radio.xml,v 1.5 2004/06/09 20:40:36 tie Exp $
 		
 -->
 <content title="Radio Ministry">
@@ -14,7 +14,7 @@
 	        <p><strong>Our Vision:
 To equip the servants through service and fellowship. To reach the lost through the bible teachings of Allen Rigg. To producer professional radio programs and commercials to edify the body of Christ. To facilitate the development of a Calvary Satelite Network radio station here in Austin, TX.</strong></p>
      
-     <p>For more information, check the <link href="http://www.calvaryaustin.org/media/radiotv.html">Scheduled Media page</link>for broadcasting information.</p>
+     <p>For more information, check the <link href="http://www.calvaryaustin.org/media/radiotv.html">Scheduled Media page</link> for broadcasting information.</p>
       </long-description>
 	  <contacts>
 	  	<contact-email email="jeremy@calvaryaustin.org">Jeremy Valencia</contact-email>
