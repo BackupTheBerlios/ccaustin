@@ -3,7 +3,7 @@
 
 	Continuum - The ministry and its detail
 	
-	$Id: media.xml,v 1.5 2003/08/10 05:05:21 gregk Exp $
+	$Id: media.xml,v 1.6 2004/06/18 03:28:09 tie Exp $
 		
 -->
 <content title="Calvary Continuum">
@@ -18,8 +18,6 @@
             lighting and overhead projector for lyrics and video</p>
             <p><link href="../ministries/radio.html">Radio</link> - broadcasts of previous Sunday
             and Midweek messages on local radio</p>
-            <p><link href="../ministries/sound.html">Sound</link> - help make the worship team and
-            the pastor sound good</p>
             <p><link href="../ministries/streaming.html">Streaming Media</link> - the group that
             enables you to listen to previous messages over the web</p>
             <p><link href="../ministries/tape.html">Tape and CD</link> - messages on tape and CD</p>
