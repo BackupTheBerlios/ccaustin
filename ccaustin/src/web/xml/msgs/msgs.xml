@@ -3697,6 +3697,14 @@
 <audio>guestspeaker/tmichaels071104.wma</audio>
 <passageref>http://www.blueletterbible.org/kjv/Mar/Mar010.html#top</passageref>
 </message>
+<message date="20040714" service="midweek" category="misc">
+<seriestitle>Guest Speaker</seriestitle>
+<title>Hardcastle, Mike</title>
+<passage></passage>
+<tape>GS071404</tape>
+<audio>guestspeaker/mhardcastle071404.wma</audio>
+<passageref></passageref>
+</message>
 
     	<message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
