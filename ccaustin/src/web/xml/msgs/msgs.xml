@@ -9012,7 +9012,7 @@
 	</message>
 	<message date="20030112" service="sunday" category="book studies">
 		<seriestitle>Luke</seriestitle>
-		<title>Bible Study</title>
+		<title>What John Would Say</title>
 		<passage>Luke 3:1-20</passage>
 		<tape>BS011203</tape>
 		<audio>42-luk/42-luk-03-01.ram</audio>
@@ -9060,12 +9060,19 @@
 	</message>
 	<message date="20030302" service="sunday" category="book studies">
 		<seriestitle>Luke</seriestitle>
-		<title>Three Traits of Intangible Christians</title>
+		<title>Three Traits of High Impact Christians</title>
 		<passage>Luke 5:27-39</passage>
 		<tape>BS030203</tape>
 		<audio>42-luk/42-luk-05-27.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk005.html#top</passageref>
 	</message>
-
+	<message date="20030309" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>A Grace Giving Church</title>
+		<passage>Luke 6:1-11</passage>
+		<tape>BS030903</tape>
+		<audio>42-luk/42-luk-06-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk006.html#top</passageref>
+	</message>
 
 </messagecatalog>
