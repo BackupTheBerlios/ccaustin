@@ -3312,6 +3312,23 @@
 		<audio>bibleoverview/45-rom-07.ram</audio>
 		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom007.html#top</passageref>
 	</message>
+	<message date="20030129" service="midweek" category="overview">
+		<seriestitle>Romans</seriestitle>
+		<title></title>
+		<passage>Romans 8</passage>
+		<tape>BO1307</tape>
+		<audio>bibleoverview/45-rom-08.ram</audio>
+		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom008.html#top</passageref>
+	</message>
+	<message date="20030205" service="midweek" category="overview">
+		<seriestitle>Romans</seriestitle>
+		<title></title>
+		<passage>Romans 9-11</passage>
+		<tape>BO1308</tape>
+		<audio>bibleoverview/45-rom-09.ram</audio>
+		<passageref>http://www.blueleterbible.org/kjv/Rom/Rom009.html#top</passageref>
+	</message>
+
 
     <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
@@ -8686,5 +8703,23 @@
 		<audio>42-luk/42-luk-04-14.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk004.html#top</passageref>
 	</message>
+	<message date="20030209" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>Launch Out</title>
+		<passage>Luke 5:1-11</passage>
+		<tape>BS020903</tape>
+		<audio>42-luk/42-luk-05-01.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk005.html#top</passageref>
+	</message>
+	<message date="20030216" service="sunday" category="book studies">
+		<seriestitle>Luke</seriestitle>
+		<title>Touch Points</title>
+		<passage>Luke 5:12-16</passage>
+		<tape>BS021603</tape>
+		<audio>42-luk/42-luk-05-12.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk005.html#top</passageref>
+	</message>
+
+
 
 </messagecatalog>
