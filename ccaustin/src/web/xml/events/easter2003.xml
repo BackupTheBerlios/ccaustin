@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	$Id: easter2003.xml,v 1.1 2003/03/21 15:18:34 javajames27 Exp $
+		
+-->
+<content title="Easter 2003 Schedule">
+  <html>
+		<table width="75%" height="600" border="0" align="center" background="../images/events/easter2003-bg.jpg">
+		  <tr> 
+		    <td valign="top">
+		      <p><br/></p>
+		<h2 align="center">Easter 2003 Schedule</h2>
+		      <table width="96%" border="0" align="center">
+		        <tr> 
+		          <td width="22%"><strong>Good Friday</strong></td>
+		          <td width="78%"><br/>
+		            April 18th<br/>Service: 7:00pm-8:30pm</td>
+		        </tr>
+		        <tr> 
+		          <td width="22%"><strong>Easter Sunday</strong></td>
+		          <td width="78%"><br/>
+		            April 20th <br/>3 Services: 8:00am, 9:45am, 11:30am</td>
+		        </tr>
+		      </table>
+		      </td>
+		  </tr>
+		</table>
+ </html>
+</content>

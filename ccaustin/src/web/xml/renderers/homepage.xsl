@@ -4,7 +4,7 @@
      
      Homepage custom renderer
 
-     $Id: homepage.xsl,v 1.5 2003/03/13 22:00:20 javajames27 Exp $
+     $Id: homepage.xsl,v 1.6 2003/03/21 15:18:34 javajames27 Exp $
      
 -->       
 
@@ -25,6 +25,19 @@
               <xsl:apply-templates select="document('../../src/web/xml/blogs/allen.xml')/content/blog/entry[last()]"/>
             </td>
           </tr>
+          <xsl:if test="banner">
+			<tr>
+				<td width="100%" align="left" valign="top"><br/></td>
+			</tr>
+	          <tr>
+	            <td align="center">
+	              <xsl:apply-templates select="banner/event"/>
+	            </td>
+	          </tr>
+          </xsl:if>
+		<tr>
+			<td width="100%" align="left" valign="top"><br/></td>
+		</tr>
           <tr>
             <td valign="top">
               <!-- Outer table for news and events -->
@@ -211,11 +224,12 @@
 		      <td width="2%"><br/></td>
 		      <td width="99%" valign="center"><p><span class="featureheading">Pastor Allen's Blog</span><br/><xsl:value-of select="@date"/></p><xsl:apply-templates/><span class="readmore">[<a href="../blogs/allen.html" class="readmore">Read Past Weblogs...</a>]	</span></td>
 	    </tr>
-		<tr>
-			<td width="100%" align="left" valign="top" colspan="3"><br/></td>
-		</tr>
 	</table>
 </xsl:template>
 
+<xsl:template match="banner/event">
+	<a href="{@href}"><img src="{@img}" alt="{text()} - click to learn more" border="0"/></a><br/>
+	<a href="{@href}" class="readmore">Learn more about the <xsl:value-of select="text()"/></a>
+</xsl:template>
 
 </xsl:stylesheet>
