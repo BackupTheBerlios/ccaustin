@@ -3464,6 +3464,14 @@
 		<audio>bibleoverview/47-2co-07.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/2Cr/2Cr007.html#top</passageref>
 	</message>
+	<message date="20030812" service="midweek" category="overview">
+		<seriestitle>2 Corinthians</seriestitle>
+		<title></title>
+		<passage>2 Corinthians 8-9</passage>
+		<tape>BO1326</tape>
+		<audio>bibleoverview/47-2co-08.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/2Cr/2Cr008.html#top</passageref>
+	</message>
 
     <message date="19940522" service="sunday" category="topical series">
 		<seriestitle>End Times</seriestitle>
@@ -9238,10 +9246,16 @@
 	<message date="20030810" service="sunday" category="book studies">
 		<seriestitle>Luke</seriestitle>
 		<title>Increasing Your Impact</title>
-		<passage>Luke 10:1-12</passage>
+		<passage>Luke 10:1-24</passage>
 		<tape>BS081003</tape>
 		<audio>42-luk/42-luk-10-01.ram</audio>
 		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk010.html#top</passageref>
 	</message> 
-
+		<seriestitle>Luke</seriestitle>
+		<title>Where the Bible Meets Real Life</title>
+		<passage>Luke 10:25-37</passage>
+		<tape>BS081703</tape>
+		<audio>42-luk/42-luk-10-25.ram</audio>
+		<passageref>http://www.blueletterbible.org/kjv/Luk/Luk010.html#top</passageref>
+	</message> 
 </messagecatalog>
