@@ -4,6 +4,8 @@
     <classpathentry kind="src" output="build/controlpanel/classes" path="main/src/controlpanel/java"/>
     <classpathentry kind="src" output="build/tools/classes" path="main/src/tools/java"/>
     <classpathentry kind="src" output="build/cms/testclasses" path="main/src/cms/test"/>
+    <classpathentry kind="src" output="build/webframework/classes" path="main/src/webframework/java"/>
+    <classpathentry kind="src" output="build/jbossext" path="main/src/jbossext/java"/>
     <classpathentry kind="lib" path="thirdparty/jakarta-commons/lib/jakarta-oro.jar"/>
     <classpathentry kind="lib" path="thirdparty/jakarta-commons/lib/commons-pool.jar"/>
     <classpathentry kind="lib" path="thirdparty/log4j/lib/log4j-1.2.7.jar"/>
@@ -36,5 +38,6 @@
     <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/jakarta-slide/client/lib/commons-httpclient.jar"/>
     <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/jakarta-slide/client/lib/slide-client.jar"/>
     <classpathentry kind="lib" path="C:/Projects/calvary-cms/thirdparty/display/lib/display.jar"/>
+    <classpathentry kind="lib" path="thirdparty/jboss-3.0.4_tomcat-4.0.6/server/default/lib/jbosssx.jar"/>
     <classpathentry kind="output" path="main/eclipse_build"/>
 </classpath>

@@ -39,6 +39,26 @@
   <property name="project.build.cms.testout" value="${project.build.home}/testout"/>
   <property name="project.build.cms.jar" value="${project.build.cms.home}/${ant.project.name}-cms.jar"/>
 
+  <!-- ================== Jbossext ================== -->
+  <property name="project.src.jbossext" value="${project.src.home}/jbossext/java"/>
+  <property name="project.src.jbossext.tests" value="${project.src.home}/jbossext/test"/>
+  <property name="project.src.jbossext.testresources" value="${project.src.home}/jbossext/testresources"/>
+  <property name="project.build.jbossext.home" value="${project.build.home}/jbossext"/>
+  <property name="project.build.jbossext.classes" value="${project.build.jbossext.home}/classes"/>
+  <property name="project.build.jbossext.testclasses" value="${project.build.jbossext.home}/testclasses"/>
+  <property name="project.build.jbossext.testout" value="${project.build.home}/testout"/>
+  <property name="project.build.jbossext.jar" value="${project.build.jbossext.home}/${ant.project.name}-jbossext.jar"/>
+
+  <!-- ================== WebFramework ================== -->
+  <property name="project.src.webframework" value="${project.src.home}/webframework/java"/>
+  <property name="project.src.webframework.tests" value="${project.src.home}/webframework/test"/>
+  <property name="project.src.webframework.testresources" value="${project.src.home}/webframework/testresources"/>
+  <property name="project.build.webframework.home" value="${project.build.home}/webframework"/>
+  <property name="project.build.webframework.classes" value="${project.build.webframework.home}/classes"/>
+  <property name="project.build.webframework.testclasses" value="${project.build.webframework.home}/testclasses"/>
+  <property name="project.build.webframework.testout" value="${project.build.home}/testout"/>
+  <property name="project.build.webframework.jar" value="${project.build.webframework.home}/${ant.project.name}-webframework.jar"/>
+
   <!-- ================== Tools ================== -->
   <property name="project.src.tools" value="${project.src.home}/tools/java"/>
   <property name="project.src.tools.tests" value="${project.src.home}/tools/test"/>
@@ -96,6 +116,12 @@
     <mkdir dir="${project.build.cms.classes}"/>
     <mkdir dir="${project.build.cms.testclasses}"/>
     <mkdir dir="${project.build.cms.testout}"/>
+    <mkdir dir="${project.build.webframework.classes}"/>
+    <mkdir dir="${project.build.webframework.testclasses}"/>
+    <mkdir dir="${project.build.webframework.testout}"/>
+    <mkdir dir="${project.build.jbossext.classes}"/>
+    <mkdir dir="${project.build.jbossext.testclasses}"/>
+    <mkdir dir="${project.build.jbossext.testout}"/>
     <mkdir dir="${project.build.tools.classes}"/>
     <mkdir dir="${project.build.tools.testclasses}"/>
     <mkdir dir="${project.build.tools.testout}"/>
@@ -131,7 +157,7 @@
   <!-- ================================================= -->
   <!-- Build Targets -->
   <!-- ================================================= -->
-  <target name="build" depends="init, build-cms, build-tools, build-controlpanel"
+  <target name="build" depends="init, build-cms, build-tools, build-jbossext,build-webframework, build-controlpanel"
           description="Default build target"/>
 
   <!-- ================================================= -->
@@ -152,8 +178,11 @@
       doctitle="&lt;h1>The Calvary CMS API&lt;/h1>"
       bottom="&lt;i>&lt;/i>"> <!-- License here -->
       <sourcepath>
-	<pathelement location="${project.src.cms}"/>
-	<pathelement location="${project.src.tools}"/>
+        <pathelement location="${project.src.cms}"/>
+        <pathelement location="${project.src.webframework}"/>
+        <pathelement location="${project.src.jbossext}"/>
+        <pathelement location="${project.src.controlpanel}"/>
+        <pathelement location="${project.src.tools}"/>
       </sourcepath>
     </javadoc>
   </target>
@@ -177,6 +206,8 @@
     </copy>
 
     <copy toDir="${project.dist.daily.lib}" file="${project.build.cms.jar}"/>
+    <copy toDir="${project.dist.daily.lib}" file="${project.build.jbossext.jar}"/>
+    <copy toDir="${project.dist.daily.lib}" file="${project.build.webframework.jar}"/>
     <copy toDir="${project.dist.daily.lib}" file="${project.build.tools.jar}"/>
 
     <copy toDir="${project.dist.daily.lib}">
@@ -191,6 +222,19 @@
           description="Deploys all units to the server (.ear, .war. .bsh, .sar)">
     <copy toDir="${jboss.deploy.home}">
       <fileset dir="${project.build.controlpanel.home}" includes="**/*.ear"/>
+    </copy>
+    <copy toDir="${jboss.lib.home}">
+      <fileset dir="${project.build.jbossext.home}" includes="**/*.jar"/>
+    </copy>
+    <copy toDir="${jboss.config.home}">
+      <fileset dir="${project.src.controlpanel.config.test}/jboss" includes="**/*-config.xml"/>
+      <fileset dir="${project.src.controlpanel.config.test}/jboss" includes="**/log4*.xml"/>
+    </copy>
+    <copy toDir="${jboss.deploy.home}/slide.war/WEB-INF">
+      <fileset dir="${project.src.controlpanel.config.test}/slide" includes="**/*-web.xml"/>
+    </copy>
+    <copy toDir="${jboss.deploy.home}/slide.war/WEB-INF">
+      <fileset dir="${project.src.controlpanel.config.test}/slide" includes="**/*web.xml"/>
     </copy>
   </target>
 
@@ -277,6 +321,161 @@
        <formatter type="plain"/>
        <batchtest todir="${project.build.cms.testout}">
          <fileset dir="${project.build.cms.testclasses}">
+             <include name="**/*Test.class"/>
+         </fileset>
+       </batchtest>
+     </junit>
+  </target>
+  
+
+  <!-- ================================================= -->
+  <!-- Build-jbossext Targets -->
+  <!-- ================================================= -->
+  <!-- Jbossext Paths -->
+  <path id="class.path.jbossext">
+     <path refid="class.path"/>
+     <pathelement path="${jboss.security.class.path}"/>
+     <pathelement path="${slide.client.class.path}"/>
+     <pathelement path="${slide.server.class.path}"/>
+     <pathelement path="${j2ee.class.path}"/>
+  </path>
+
+  <path id="junit.class.path.jbossext">
+     <path refid="class.path.jbossext"/>
+     <path refid="junit.class.path"/>
+     <pathelement location="${project.build.jbossext.jar}"/>
+     <pathelement path="${project.build.jbossext.testclasses}"/>
+     <pathelement path="${project.src.jbossext.testresources}"/>
+  </path>
+
+  <target name="build-jbossext" depends="init, compile-jbossext, jar-jbossext"/>
+
+  <target name="compile-jbossext" depends="init">
+     <!-- Compile -->
+     <echo Message="compiling common..."/>
+     <javac   classpathref="class.path.jbossext"
+              srcdir="${project.src.jbossext}"
+              destdir="${project.build.jbossext.classes}"
+              debug="${JAVAC_DEBUG}"
+              verbose="${JAVAC_VERBOSE}"
+              optimize="${JAVAC_OPTMIZE}"
+              deprecation="${JAVAC_DEPRECATION}"
+              target="${JAVAC_TARGET}"
+              fork="true"
+     />
+  </target>
+
+  <target name="compile-jbossext-tests" depends="init">
+     <!-- Compile -->
+     <echo Message="compiling jbossext tests..."/>
+     <javac   classpathref="junit.class.path.jbossext"
+              srcdir="${project.src.jbossext.tests}"
+              destdir="${project.build.jbossext.testclasses}"
+              debug="${JAVAC_DEBUG}"
+              verbose="${JAVAC_VERBOSE}"
+              optimize="${JAVAC_OPTMIZE}"
+              deprecation="${JAVAC_DEPRECATION}"
+              target="${JAVAC_TARGET}"
+              fork="true"
+     />
+  </target>
+
+  <target name="jar-jbossext" depends="init">
+     <!-- Jar -->
+     <echo Message="jarring jbossext..."/>
+     <jar jarfile="${project.build.jbossext.jar}">
+       <fileset dir="${project.build.jbossext.classes}"
+                includes="**"/>
+     </jar>
+  </target>
+
+  <target name="junit-jbossext" depends="build">
+     <junit printsummary="${junit.printsummary}"
+            showoutput="${junit.showoutput}"
+            haltonfailure="${junit.haltonfailure}"
+            fork="yes">
+       <classpath>
+           <path refid="junit.class.path.jbossext"/>
+       </classpath>
+       <formatter type="plain"/>
+       <batchtest todir="${project.build.jbossext.testout}">
+         <fileset dir="${project.build.jbossext.testclasses}">
+             <include name="**/*Test.class"/>
+         </fileset>
+       </batchtest>
+     </junit>
+  </target>
+  
+  <!-- ================================================= -->
+  <!-- Build-webframework Targets -->
+  <!-- ================================================= -->
+  <!-- Webframework Paths -->
+  <path id="class.path.webframework">
+     <path refid="class.path"/>
+     <pathelement path="${struts.class.path}"/>
+     <pathelement path="${j2ee.class.path}"/>
+  </path>
+
+  <path id="junit.class.path.webframework">
+     <path refid="class.path.webframework"/>
+     <path refid="junit.class.path"/>
+     <pathelement location="${project.build.webframework.jar}"/>
+     <pathelement path="${project.build.webframework.testclasses}"/>
+     <pathelement path="${project.src.webframework.testresources}"/>
+  </path>
+
+  <target name="build-webframework" depends="init, compile-webframework, jar-webframework"/>
+
+  <target name="compile-webframework" depends="init">
+     <!-- Compile -->
+     <echo Message="compiling common..."/>
+     <javac   classpathref="class.path.webframework"
+              srcdir="${project.src.webframework}"
+              destdir="${project.build.webframework.classes}"
+              debug="${JAVAC_DEBUG}"
+              verbose="${JAVAC_VERBOSE}"
+              optimize="${JAVAC_OPTMIZE}"
+              deprecation="${JAVAC_DEPRECATION}"
+              target="${JAVAC_TARGET}"
+              fork="true"
+     />
+  </target>
+
+  <target name="compile-webframework-tests" depends="init">
+     <!-- Compile -->
+     <echo Message="compiling webframework tests..."/>
+     <javac   classpathref="junit.class.path.webframework"
+              srcdir="${project.src.webframework.tests}"
+              destdir="${project.build.webframework.testclasses}"
+              debug="${JAVAC_DEBUG}"
+              verbose="${JAVAC_VERBOSE}"
+              optimize="${JAVAC_OPTMIZE}"
+              deprecation="${JAVAC_DEPRECATION}"
+              target="${JAVAC_TARGET}"
+              fork="true"
+     />
+  </target>
+
+  <target name="jar-webframework" depends="init">
+     <!-- Jar -->
+     <echo Message="jarring webframework..."/>
+     <jar jarfile="${project.build.webframework.jar}">
+       <fileset dir="${project.build.webframework.classes}"
+                includes="**"/>
+     </jar>
+  </target>
+
+  <target name="junit-webframework" depends="build">
+     <junit printsummary="${junit.printsummary}"
+            showoutput="${junit.showoutput}"
+            haltonfailure="${junit.haltonfailure}"
+            fork="yes">
+       <classpath>
+           <path refid="junit.class.path.webframework"/>
+       </classpath>
+       <formatter type="plain"/>
+       <batchtest todir="${project.build.webframework.testout}">
+         <fileset dir="${project.build.webframework.testclasses}">
              <include name="**/*Test.class"/>
          </fileset>
        </batchtest>
@@ -370,9 +569,11 @@
      <pathelement path="${slide.client.class.path}"/>
      <pathelement path="${slide.server.class.path}"/>
      <pathelement path="${slide.taglib.class.path}"/>
+     <pathelement path="${display.class.path}"/>
      <pathelement path="${j2ee.class.path}"/>
      <path refid="class.path.cms"/>
      <pathelement location="${project.build.cms.jar}"/>
+     <pathelement location="${project.build.webframework.jar}"/>
   </path>
 
   <path id="junit.class.path.controlpanel">
@@ -433,8 +634,9 @@
       <fileset dir="${project.build.controlpanel.home}" includes="**/*.war"/>
       <zipfileset prefix="lib" dir="${project.build.controlpanel.home}" includes="**/**.jar"/>
       <zipfileset prefix="lib" dir="${project.build.cms.home}" includes="**/**.jar"/>
+      <zipfileset prefix="lib" dir="${project.build.webframework.home}" includes="**/**.jar"/>
       <zipfileset prefix="lib" dir="${commons.home}/lib" includes="**/**.jar"/>
-      <zipfileset prefix="lib" dir="${log4j.home}/lib" includes="**/**.jar"/>
+      <!--zipfileset prefix="lib" dir="${log4j.home}/lib" includes="**/**.jar"/!-->
       <zipfileset prefix="lib" dir="${apache.xml.home}/lib" includes="**/**.jar"/>
       <zipfileset prefix="lib" dir="${struts.home}/lib" includes="**/**.jar"/>
       <!-- Uncomment this and omment the next block to talk webdav from the control panel. Right
@@ -521,9 +723,9 @@
 
   <target name="usecases-html">
     <style force="yes" style="${project.src.usecases.stylesheets}/usecases.xsl"
-	   extension=".html"
-	   basedir="${project.src.usecases.xml}"
-	   destdir="${project.build.usecases.html}"
+           extension=".html"
+           basedir="${project.src.usecases.xml}"
+           destdir="${project.build.usecases.html}"
            includes="**/*.xml"
            excludes="**/actors.xml, **/features.xml, **/_template.xml">
     </style>
@@ -531,9 +733,9 @@
 
   <target name="usecases-docbook">
     <style force="yes" style="${project.src.usecases.stylesheets}/usecases-docbook.xsl"
-	   extension=".xml"
-	   basedir="${project.src.usecases.xml}"
-	   destdir="${project.build.usecases.docbook}"
+           extension=".xml"
+           basedir="${project.src.usecases.xml}"
+           destdir="${project.build.usecases.docbook}"
            includes="**/*.xml"
            excludes="**/actors.xml, **/features.xml, **/_template.xml">
     </style>
@@ -543,7 +745,7 @@
     <tstamp prefix="usecase"/>
     <copy file="${project.src.usecases.xml}/_template.xml"
           tofile="${project.src.usecases.xml}/${usecase.id}.xml"
-	  filtering="true">
+          filtering="true">
       <filterset>
         <filter token="usecase.id" value="${usecase.id}"/>
         <filter token="usecase.name" value="${usecase.name}"/>
@@ -562,9 +764,9 @@
 
   <target name="devguide-html">
     <style force="yes" style="${project.src.devguide.stylesheets}/fancy.xsl"
-	   extension=".html"
-	   basedir="${project.src.devguide.xml}"
-	   destdir="${project.build.devguide.html}"
+           extension=".html"
+           basedir="${project.src.devguide.xml}"
+           destdir="${project.build.devguide.html}"
            includes="**/*.xml">
     </style>
   </target>
